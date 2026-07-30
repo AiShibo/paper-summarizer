@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-budget-recycling-differential-privacy-358f8667",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The paper develops a differential-privacy budget-recycling algorithm rather than privacy infrastructure or a computer system.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-e46faa88d7c995d4-abstract",
+      "url": "https://openalex.org/W4402288712",
+      "kind": "openalex",
+      "title": "Budget Recycling Differential Privacy",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

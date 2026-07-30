@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-peeking-through-the-window-fingerprinting-browser-extens-b87a6508",
+  "title": "Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shubham Agarwal",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b7cdade179f7eae3-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aurore Fass",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b7cdade179f7eae3-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ben Stock",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b7cdade179f7eae3-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3670339",
+    "official_page": "https://doi.org/10.1145/3658644.3670339",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3670339",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b7cdade179f7eae3-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-38b08679b0f50e59-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670339",
+      "kind": "publisher-page",
+      "title": "Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-41c21a05a488b0d5-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/AgarwalFS24",
+      "kind": "dblp",
+      "title": "Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-250adc723ce9a91a-abstract",
+      "url": "https://www.semanticscholar.org/paper/a57f8baf68390a5fcb139628a49df7277d907dc6",
+      "kind": "semantic-scholar",
+      "title": "Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

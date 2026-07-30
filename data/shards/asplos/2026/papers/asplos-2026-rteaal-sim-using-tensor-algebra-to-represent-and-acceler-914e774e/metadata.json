@@ -1,0 +1,187 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-rteaal-sim-using-tensor-algebra-to-represent-and-acceler-914e774e",
+  "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6B: Hardware Design Languages",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yan Zhu",
+      "position": 1,
+      "orcid": "0000-0002-6932-7971",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790214"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boru Chen",
+      "position": 2,
+      "orcid": "0009-0001-8024-1116",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790214"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christopher W. Fletcher",
+      "position": 3,
+      "orcid": "0000-0002-9995-5995",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790214"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nandeeka Nayak",
+      "position": 4,
+      "orcid": "0009-0006-8895-8206",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790214"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790214",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790214",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2601.18140",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790214",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790214",
+      "kind": "crossref",
+      "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e4f2d75e6ff28300d4be8d0d15f4c7431e562cd7ddb2c92a2c90da9680fd4b86",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790214",
+      "url": "https://www.semanticscholar.org/paper/6fd0edcb1c4a236f035cc42f84fb6d56965c84f0",
+      "kind": "semantic-scholar",
+      "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:199d50468c099cce7804e564d6512b8fccbf967e18a52230232650592345b9fa",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

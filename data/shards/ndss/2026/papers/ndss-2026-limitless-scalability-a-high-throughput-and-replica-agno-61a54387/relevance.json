@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-limitless-scalability-a-high-throughput-and-replica-agno-61a54387",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a distributed-systems security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "distributed-systems",
+    "consensus",
+    "byzantine-systems"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-30e56a4194036f47-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/limitless-scalability-a-high-throughput-and-replica-agnostic-bft-consensus/",
+      "kind": "paper-page",
+      "title": "Limitless Scalability: A High-Throughput and Replica-Agnostic BFT Consensus",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:4db4fc58a73297eb93b949bbcd11d0f99df480e64f3645d32162ebbe7d26af4d",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

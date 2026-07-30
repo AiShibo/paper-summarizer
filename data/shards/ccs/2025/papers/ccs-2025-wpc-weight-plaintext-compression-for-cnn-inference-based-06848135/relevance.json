@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-wpc-weight-plaintext-compression-for-cnn-inference-based-06848135",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack or defense without a compiler, runtime, serving, architecture, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-9a23ecd13fe5566a-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765022",
+      "kind": "publisher-page",
+      "title": "WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-d7539eeb77e371a2-abstract",
+      "url": "https://openalex.org/W4416549541",
+      "kind": "openalex",
+      "title": "WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

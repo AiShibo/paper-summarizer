@@ -1,0 +1,302 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-camp-in-the-odyssey-provably-robust-reinforcement-learni-f874eb7d",
+  "title": "CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "ML and AI Security 4: Robustness",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Derui Wang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kristen Moore",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Diksha Goel",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minjune Kim",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gang Li",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Deakin University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Li",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Deakin University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robin Doss",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Deakin University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minhui Xue",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bo Li",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Seyit Camtepe",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Cyber Security Cooperative Research Centre",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liming Zhu",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-244b6d832d32a882-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-derui",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-wang-derui.pdf",
+    "artifact": null,
+    "code": "https://github.com/NeuralSec/camp-robust-rl",
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec25_slides_wang-derui.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {307892,\nauthor = {Derui Wang and Kristen Moore and Diksha Goel and Minjune Kim and Gang Li and Yang Li and Robin Doss and Minhui Xue and Bo Li and Seyit Camtepe and Liming Zhu},\ntitle = {{CAMP} in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {7213--7232},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/wang-derui},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-cf03076b880f4957-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-244b6d832d32a882-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-derui",
+      "kind": "paper-page",
+      "title": "CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

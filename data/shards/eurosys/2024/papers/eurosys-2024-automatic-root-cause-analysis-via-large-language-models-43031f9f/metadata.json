@@ -1,0 +1,475 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2024-automatic-root-cause-analysis-via-large-language-models-43031f9f",
+  "title": "Automatic Root Cause Analysis via Large Language Models for Cloud Incidents",
+  "venue": "eurosys",
+  "year": 2024,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2024-04-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yinfang Chen",
+      "position": 1,
+      "orcid": "0009-0003-5408-2347",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, USA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huaibing Xie",
+      "position": 2,
+      "orcid": "0009-0002-7027-0885",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minghua Ma",
+      "position": 3,
+      "orcid": "0000-0002-6303-1731",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Kang",
+      "position": 4,
+      "orcid": "0009-0004-1735-5876",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Gao",
+      "position": 5,
+      "orcid": "0009-0002-2078-7755",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liu Shi",
+      "position": 6,
+      "orcid": "0009-0002-4369-0526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunjie Cao",
+      "position": 7,
+      "orcid": "0009-0005-0211-8488",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuedong Gao",
+      "position": 8,
+      "orcid": "0009-0009-5460-9122",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Fan",
+      "position": 9,
+      "orcid": "0009-0008-7845-1991",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming WEN",
+      "position": 10,
+      "orcid": "0000-0001-5588-9618",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jun Zeng",
+      "position": 11,
+      "orcid": "0009-0005-4031-1297",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Supriyo Ghosh",
+      "position": 12,
+      "orcid": "0000-0001-7275-3296",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Bengaluru, India",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuchao Zhang",
+      "position": 13,
+      "orcid": "0009-0002-1492-0476",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Redmond, USA",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chaoyun Zhang",
+      "position": 14,
+      "orcid": "0000-0002-1304-6839",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingwei Lin",
+      "position": 15,
+      "orcid": "0000-0003-2559-2383",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Saravan Rajmohan",
+      "position": 16,
+      "orcid": "0009-0003-0204-7187",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Redmond, USA",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongmei Zhang",
+      "position": 17,
+      "orcid": "0000-0002-9230-2799",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyin Xu",
+      "position": 18,
+      "orcid": "0000-0003-4443-8170",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, USA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3627703.3629553",
+    "official_page": "https://doi.org/10.1145/3627703.3629553",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3627703.3629553",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2024-program",
+      "url": "https://2024.eurosys.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2024 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:0ce581fa5ee47fdf90c4bfd7a323b25adbcd4d1f165a002808ec1d73dd75d0a9",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3627703",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Nineteenth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2024-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:10ae4c4e260b8f432cbcc1a7740a49b63dfb21edfa54bb220fa07084a41e78e4",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

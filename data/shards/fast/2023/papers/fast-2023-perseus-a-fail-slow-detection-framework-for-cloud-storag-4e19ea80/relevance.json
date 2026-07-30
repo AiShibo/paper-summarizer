@@ -1,0 +1,92 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2023-perseus-a-fail-slow-detection-framework-for-cloud-storag-4e19ea80",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete storage measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "networking",
+    "network-measurement",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "reliability-testing-and-debugging",
+    "resource-management-and-scheduling",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "dataset",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-fast23-program",
+      "url": "https://www.usenix.org/conference/fast23/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:76e7618a49d49865f53fc1600f8f46b5e849ba922ef0494b69cc0c301d8094ec",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-fast-2023-perseus-a-fail-slow-detection-framework-for-cloud-storag-4e19ea80-paper-page",
+      "url": "https://www.usenix.org/conference/fast23/presentation/lu",
+      "kind": "paper-page",
+      "title": "Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:2f951714ccdd39b9f36ae56fb8cab89570bb2d94b38fad0703e9f423eac3cb64",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

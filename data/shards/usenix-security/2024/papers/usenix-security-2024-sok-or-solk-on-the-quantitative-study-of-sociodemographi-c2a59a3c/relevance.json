@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-sok-or-solk-on-the-quantitative-study-of-sociodemographi-c2a59a3c",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The paper synthesizes sociodemographic factors in security behavior studies, not a computer-system contribution.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-ec9d180461a13b50-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wei-miranda-solk",
+      "kind": "paper-page",
+      "title": "SoK (or SoLK?): On the Quantitative Study of Sociodemographic Factors and Computer Security Behaviors",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

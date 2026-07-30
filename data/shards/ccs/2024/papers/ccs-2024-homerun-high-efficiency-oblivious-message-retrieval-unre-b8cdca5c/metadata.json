@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-homerun-high-efficiency-oblivious-message-retrieval-unre-b8cdca5c",
+  "title": "HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yanxue Jia",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-71f136629d3ec20f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Varun Madathil",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "North Carolina State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-71f136629d3ec20f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aniket Kate",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University / Supra Research",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-71f136629d3ec20f-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3670381",
+    "official_page": "https://doi.org/10.1145/3658644.3670381",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3670381",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-71f136629d3ec20f-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-b3418febb0b99927-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670381",
+      "kind": "publisher-page",
+      "title": "HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-d0ff1544ccd188c8-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/JiaMK24",
+      "kind": "dblp",
+      "title": "HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-0dfc2304511ee9f6-abstract",
+      "url": "https://www.semanticscholar.org/paper/cf07e988d1ae69488d887d39a077dc7b6fff243e",
+      "kind": "semantic-scholar",
+      "title": "HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

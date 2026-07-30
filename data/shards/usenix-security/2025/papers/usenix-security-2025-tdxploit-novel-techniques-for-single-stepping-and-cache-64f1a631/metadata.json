@@ -1,0 +1,176 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-tdxploit-novel-techniques-for-single-stepping-and-cache-64f1a631",
+  "title": "TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "System Security 2: Trusted and Robust Computing",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Fabian Rauscher",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Graz University of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d03e03aead254a3c-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luca Wilke",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Lübeck",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d03e03aead254a3c-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hannes Weissteiner",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Graz University of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d03e03aead254a3c-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Eisenbarth",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Lübeck",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d03e03aead254a3c-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Gruss",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Graz University of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d03e03aead254a3c-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-rauscher.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {309664,\nauthor = {Fabian Rauscher and Luca Wilke and Hannes Weissteiner and Thomas Eisenbarth and Daniel Gruss},\ntitle = {{TDXploit}: Novel Techniques for {Single-Stepping} and Cache Attacks on Intel {TDX}},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {1207--1222},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-cddefffba6067699-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-d03e03aead254a3c-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher",
+      "kind": "paper-page",
+      "title": "TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

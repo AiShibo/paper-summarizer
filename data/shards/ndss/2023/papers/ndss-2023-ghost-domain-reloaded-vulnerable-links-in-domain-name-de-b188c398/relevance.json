@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-ghost-domain-reloaded-vulnerable-links-in-domain-name-de-b188c398",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper reverse-engineers DNS caches, validates a practical revocation attack across deployed resolvers, and measures its Internet-wide impact.",
+  "topics": [
+    "network-security",
+    "network-measurement",
+    "networking"
+  ],
+  "system_layers": [
+    "network",
+    "distributed-service"
+  ],
+  "contribution_types": [],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-d513e675346a41f9-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ghost-domain-reloaded-vulnerable-links-in-domain-name-delegation-and-revocation/",
+      "kind": "paper-page",
+      "title": "Ghost Domain Reloaded: Vulnerable Links in Domain Name Delegation and Revocation",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

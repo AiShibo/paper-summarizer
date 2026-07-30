@@ -1,0 +1,56 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-spectre-on-risc-v-silicon-attacks-and-defenses-on-commer-83f7f69f",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "computer-architecture",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware"
+  ],
+  "contribution_types": [
+    "measurement-study",
+    "benchmark",
+    "security-attack"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-cc9be3a2ff25f503-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gerlach",
+      "kind": "paper-page",
+      "title": "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:367659c5d31b14ccf639b13eb2839dfa1828ed47efde701c85262507fbc701a4",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

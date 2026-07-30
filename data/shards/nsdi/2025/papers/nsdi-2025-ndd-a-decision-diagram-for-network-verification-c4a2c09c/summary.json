@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-ndd-a-decision-diagram-for-network-verification-c4a2c09c",
+  "takeaway": "NDD makes network-state fields explicit around per-field BDDs, shrinking equivalence classes and accelerating several verifiers when rules exhibit field locality.",
+  "background": "Network verifiers encode packet headers, routes, and failures as Boolean sets and repeatedly intersect or combine them. Binary decision diagrams compact many such sets but treat the state as an undifferentiated sequence of bits.",
+  "villain": "Bit-level BDDs duplicate subgraphs across otherwise independent fields, recurse deeply during logic, and leave each verifier to implement complex equivalence-class maintenance and packet-transformer handling.",
+  "approach": "NDD partitions network state into semantic fields: each NDD node tests one whole field, while each outgoing edge carries a per-field BDD describing accepted values. A reduced ordered NDD is canonical, and atomization replaces edge BDDs with sets of per-field equivalence classes so logical operations can use simpler set operations without a cross-field atom product. The library exposes BDD-like APIs plus native atomize and incremental-update operations, including support for packet transformers.",
+  "impact": "The authors argue that NDD can replace BDD libraries with modest verifier changes and remove major time, memory, and bespoke atom-management bottlenecks on field-local network models.",
+  "evaluation": {
+    "overview": "The authors compare verifier runtime, memory, atom counts, update cost, and packet-transformer handling after substituting NDD for BDD.",
+    "implemented": "A roughly 2,000-line Java NDD library built on JDD plus a roughly 100-line JavaBDD factory, integrated into AP Verifier, APT, APKeep, SRE, and Batfish.",
+    "setting": "Single-core tests cover synthetic 6–500-leaf VXLAN datacenters, real Stanford, Internet2, and Purdue networks, and synthetic 20–500-node BGP fat trees on a 256-GB server.",
+    "baselines": [
+      "Original BDD-backed AP Verifier",
+      "Original BDD-backed APT",
+      "Original BDD-backed APKeep",
+      "KatraR with BDD",
+      "Original BDD-backed SRE",
+      "Original BDD-backed Batfish"
+    ],
+    "results": [
+      {
+        "id": "claim-ndd-multilayer-performance",
+        "text": "The authors report that, on the 6-leaf multilayer dataset, APKeep with NDD ran more than 10× faster than KatraR with BDD and 10^5× faster than APKeep with BDD, while using less than one-tenth and one-hundredth of their memory, respectively.",
+        "source_ids": [
+          "src-nsdi25-pdf-c4a2c09c"
+        ],
+        "locator": "PDF pp. 10–11 (paper pp. 245–246); §§6.2–6.3, Figure 8 and Table 3"
+      },
+      {
+        "id": "claim-ndd-nat-scaling",
+        "text": "The authors report that, in the Purdue NAT experiment, APKeep with NDD was 100× faster at 40 NAT rules; the BDD version ran out of memory after 80 rules, while NDD completed with up to 2,000 rules.",
+        "source_ids": [
+          "src-nsdi25-pdf-c4a2c09c"
+        ],
+        "locator": "PDF p. 12 (paper p. 247); §6.4, Figure 11"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "NDD's performance gains depend on field locality; in a synthetic Purdue variant where rules match all five fields, NDD's atom count and runtime grow while BDD improves. Field partitioning outside obvious packet headers uses heuristics, and multi-terminal, distributed, and parallel NDDs remain future work.",
+  "phd_group_signal": "This work reflects a verification-systems style that identifies semantic structure missing from a general data structure, builds a compatible library, proves representation properties, and ports multiple real tools.",
+  "beginner_concepts": [
+    "binary decision diagrams",
+    "network verification",
+    "packet equivalence classes",
+    "field locality",
+    "packet transformers"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-ndd-central-mechanism",
+      "text": "An NDD wraps per-field BDDs in a decision diagram whose nodes represent fields and whose edges represent field predicates; atomized NDDs replace those predicates with sets of per-field atoms.",
+      "source_ids": [
+        "src-nsdi25-pdf-c4a2c09c"
+      ],
+      "locator": "PDF pp. 6–8 (paper pp. 241–243); §§3.2–3.4, Figures 4–6"
+    },
+    {
+      "id": "claim-ndd-library-interface",
+      "text": "The NDD library retains BDD-style logical APIs and adds native atom computation and incremental atom updates, allowing verifiers to stop maintaining their own atom algorithms.",
+      "source_ids": [
+        "src-nsdi25-pdf-c4a2c09c"
+      ],
+      "locator": "PDF pp. 7–10 (paper pp. 242–245); §§4.1–5, Table 1 and Figure 2"
+    },
+    {
+      "id": "claim-ndd-field-locality-boundary",
+      "text": "The design assumes field locality, meaning rules usually match only a few of many fields; the paper's synthetic all-field rules show that NDD need not outperform BDD when this property disappears.",
+      "source_ids": [
+        "src-nsdi25-pdf-c4a2c09c"
+      ],
+      "locator": "PDF pp. 5 and 12 (paper pp. 240 and 247); §3.1 and §6.6, Figure 13"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-pdf-c4a2c09c",
+      "url": "https://www.usenix.org/system/files/nsdi25-li-zechun.pdf",
+      "kind": "paper-pdf",
+      "title": "NDD: A Decision Diagram for Network Verification",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:27:14Z",
+      "content_hash": "sha256:f57ea99cce0598e7407773adce77244d99f444d588dbd45c5eef7ad933a932bd",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, NDD representation, atomization, library APIs, implementation, evaluation, discussion, and conclusion",
+        "central mechanism, field-locality assumption, baselines, datasets, and author-reported quantitative results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e4",
+    "updated_at": "2026-07-30T03:44:52Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.2, §§3.1–3.4, §§4.1 and 4.3, §5, §§6.1–6.6, §8, and §9; inspected Figures 2, 4, 8, 11, and 13 and Tables 2–3 where needed.",
+      "Checked the representation and atomization semantics, field-locality assumption, library integration, dataset and hardware settings, BDD baselines, timing, memory, and packet-transformer scaling directly against the PDF.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:33:42Z",
+    "last_verified_at": "2026-07-30T03:44:52Z",
+    "collector_version": "agent-e4-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

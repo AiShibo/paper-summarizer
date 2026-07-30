@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-abuse-resistant-traceability-with-minimal-trust-for-encr-ee9a2e44",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a cryptographic primitive, protocol, or proof construction rather than a material computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a807eb36e8610884-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/abuse-resistant-traceability-with-minimal-trust-for-encrypted-messaging-systems/",
+      "kind": "paper-page",
+      "title": "Abuse Resistant Traceability with Minimal Trust for Encrypted Messaging Systems",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:03f1b5314edbf8e4fbee8cd3c52f9ea4db0c10a9c6781e74a5701b77b7750520",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

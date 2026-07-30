@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-g-fast-2025-specialist-pilot-2026-07-30",
+  "issued_at": "2026-07-30T01:10:33Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-g",
+  "status": "OPEN",
+  "action": "BEGIN_BOUNDED_AWARD_PILOT",
+  "task_brief": "coordination/tasks/agent-g-awards.md",
+  "assignment": "coordination/assignments/fast-2025-specialist-pilot.json",
+  "authorized_stage_file": "awards.json",
+  "conditions": [
+    "Change coordination/claims/agent-g.json from PLANNED to IN_PROGRESS and list exactly the 36 assigned paper IDs before editing data.",
+    "Edit only each assigned paper's awards.json and Agent G's own claim.",
+    "Use an official FAST or USENIX source as final award evidence and verify exact titles or documented title variants.",
+    "For a verified non-award, retain the checked official source and an empty awards list.",
+    "Leave the stage unresolved when no official source can be found; do not promote secondary claims to verified evidence.",
+    "Do not process any paper outside the assignment, including incoming 2023-2024 records.",
+    "Set completed award stages to READY_FOR_REVIEW, run draft validation, and hand off exact awards, verified empty results, ambiguities, unavailable official pages, and validation output."
+  ]
+}

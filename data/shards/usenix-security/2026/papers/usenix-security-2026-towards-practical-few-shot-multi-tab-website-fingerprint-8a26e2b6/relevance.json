@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-towards-practical-few-shot-multi-tab-website-fingerprint-8a26e2b6",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "dataset",
+    "defense"
+  ],
+  "methods": [
+    "dynamic-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-ed4f96cd1a073f33-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-lin",
+      "kind": "paper-page",
+      "title": "Towards Practical Few-shot Multi-tab Website Fingerprinting",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:043e26eb9923f3bc55755891b33da555f0f7731a2477cc9c1fa59168458dc3fd",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

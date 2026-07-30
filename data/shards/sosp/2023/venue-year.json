@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sosp",
+  "year": 2023,
+  "official_conference_url": "https://sosp2023.mpi-sws.org/",
+  "official_program_url": "https://sosp2023.mpi-sws.org/program.html",
+  "conference_dates": {
+    "start": "2023-10-23",
+    "end": "2023-10-26"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 43,
+    "core_systems": 43,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sosp-2023-conference",
+      "url": "https://sosp2023.mpi-sws.org/",
+      "kind": "other",
+      "title": "SOSP 2023",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:6028398d242ca8e73babc1b5db377afca61fe3a692bd1d004d47615754197607",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2023 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-sosp-2023-program",
+      "url": "https://sosp2023.mpi-sws.org/program.html",
+      "kind": "conference-program",
+      "title": "SOSP 2023 Program and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:b1ca7574d2135647662905d071529b97d6bceedf399845c430848796aa90bb81",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2023-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3600006",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 29th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2023-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:40ab4d58471a39d911579c087dcf8711502dcc25481990e60b1b8c3c385238c1",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

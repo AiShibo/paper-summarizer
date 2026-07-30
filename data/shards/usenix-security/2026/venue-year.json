@@ -1,0 +1,84 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "usenix-security",
+  "year": 2026,
+  "official_conference_url": "https://www.usenix.org/conference/usenixsecurity26",
+  "official_program_url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+  "conference_dates": {
+    "start": "2026-08-12",
+    "end": "2026-08-14"
+  },
+  "collection_status": "PARTIAL",
+  "counts": {
+    "main_track": 355,
+    "core_systems": 43,
+    "systems_adjacent": 131,
+    "excluded": 178,
+    "needs_review": 3
+  },
+  "sources": [
+    {
+      "id": "src-usenix-security-2026-venue-1",
+      "url": "https://www.usenix.org/conference/usenixsecurity26",
+      "kind": "conference-program",
+      "title": "35th USENIX Security Symposium",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d56b46085a8a3dea29a0a62c3df8e4b9520e3d149fe2f07735b696b55db9a686",
+      "official": true,
+      "supports": [
+        "conference identity and August 12–14, 2026 dates"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2026-venue-2",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6d229325c208efb8e2d6df006bcccac10df1e7421c4465667ac1dd01198eff8f",
+      "official": true,
+      "supports": [
+        "362 refereed-paper schedule entries after excluding 19 Enigma talks"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2026-venue-3",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/call-for-papers",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Call for Papers",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:609fff008a218387667681afee05e9f1be66ca15f946fda86c6d98bab2bf931c",
+      "official": true,
+      "supports": [
+        "main-track scope and prepublication timing for two submission cycles"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "The schedule contains 362 refereed-paper entries and 19 separately labeled Enigma talks.",
+      "Seven refereed entries expose only the placeholder title “Paper Title Under Embargo”; no fake paper bundles were created for them.",
+      "The represented scope is the remaining 355 unique titled papers, all with official paper pages and authors.",
+      "Of the 355 represented papers, 156 expose prepublication PDFs and 199 do not yet expose a PDF."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "seven additional refereed schedule entries have hidden titles and cannot yet receive canonical paper IDs",
+      "final archival proceedings, DOI, page span, and publication date metadata",
+      "official abstracts for three titled papers remain under embargo"
+    ]
+  }
+}

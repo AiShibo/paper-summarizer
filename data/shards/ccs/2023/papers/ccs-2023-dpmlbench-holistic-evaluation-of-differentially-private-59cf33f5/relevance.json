@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-dpmlbench-holistic-evaluation-of-differentially-private-59cf33f5",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements a reusable benchmark and conducts a broad empirical evaluation of differentially private ML implementations.",
+  "topics": [
+    "ml-systems",
+    "privacy-systems",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "optimization",
+    "benchmark"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-18ac57f7ad5eee10-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "DPMLBench: Holistic Evaluation of Differentially Private Machine Learning",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract and paper identity used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

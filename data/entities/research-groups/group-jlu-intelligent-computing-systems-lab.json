@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/research-group.schema.json",
+  "schema_version": "1.0.0",
+  "group_id": "group-jlu-intelligent-computing-systems-lab",
+  "name": "Intelligent Computing and Systems Laboratory",
+  "official_url": null,
+  "group_kind": "academic",
+  "institution_id": "institution-jilin-university",
+  "department_or_division": "College of Computer Science and Technology",
+  "faculty_ids": [
+    "faculty-juncheng-hu"
+  ],
+  "research_topics": [],
+  "sources": [
+    {
+      "id": "src-jlu-intelligent-computing-systems-lab-official",
+      "url": "https://ccst.jlu.edu.cn/info/1359/18744.htm",
+      "kind": "faculty-page",
+      "title": "Juncheng Hu — official faculty profile",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity",
+        "institutional affiliation",
+        "listed faculty leadership or membership where faculty_ids is non-empty"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "faculty_ids contains only people directly supported by the cited official source; no PI was inferred from author order."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "official_url"
+    ]
+  }
+}

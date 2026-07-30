@@ -1,0 +1,238 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-freepart-hardening-data-processing-software-via-framewor-7abc91e8",
+  "title": "FreePart: Hardening Data Processing Software via Framework-based Partitioning and Isolation",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3B: Security",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ali Ahad",
+      "position": 1,
+      "orcid": "0000-0002-3793-9180",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, Charlottesville, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gang Wang",
+      "position": 2,
+      "orcid": "0000-0002-8910-8979",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Urbana, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chung Hwan Kim",
+      "position": 3,
+      "orcid": "0000-0002-0985-8439",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Dallas, Richardson, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Suman Jana",
+      "position": 4,
+      "orcid": "0000-0003-3518-4877",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Columbia University, New York, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiqiang Lin",
+      "position": 5,
+      "orcid": "0000-0001-6527-5994",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ohio State University, Columbus, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yonghwi Kwon",
+      "position": 6,
+      "orcid": "0000-0002-0021-2850",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, College Park, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624760"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624760",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624760",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624760",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/hCEjbShCPK8",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624760",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624760",
+      "kind": "crossref",
+      "title": "FreePart: Hardening Data Processing Software via Framework-based Partitioning and Isolation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:36209d7690c833e2a28ad326446fed72d8dd5e24bcd3cec2289077e28baba5d9",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624760",
+      "url": "https://www.semanticscholar.org/paper/d158e4cb8706b4b884bcac6003c7b560ef0fdcde",
+      "kind": "semantic-scholar",
+      "title": "FreePart: Hardening Data Processing Software via Framework-based Partitioning and Isolation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:236e6e45c1c4c3f121502607062b80eeb95121d34b190b8bee5e4d39c780afaa",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

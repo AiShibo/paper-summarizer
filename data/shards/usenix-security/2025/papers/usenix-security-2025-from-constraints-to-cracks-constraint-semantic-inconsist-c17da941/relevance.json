@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-from-constraints-to-cracks-constraint-semantic-inconsist-c17da941",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a mobile, embedded, and IoT security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-dd7adb07d70008dd-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhao",
+      "kind": "paper-page",
+      "title": "From Constraints to Cracks: Constraint Semantic Inconsistencies as Vulnerability Beacons for Embedded Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

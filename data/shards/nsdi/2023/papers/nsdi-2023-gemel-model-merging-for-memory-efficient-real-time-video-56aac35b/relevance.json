@@ -1,0 +1,94 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2023-gemel-model-merging-for-memory-efficient-real-time-video-56aac35b",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete network measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "databases-and-data-processing",
+    "networking",
+    "computer-architecture",
+    "accelerators",
+    "hardware-software-co-design",
+    "resource-management-and-scheduling",
+    "ml-systems",
+    "inference-systems",
+    "mobile-edge-embedded-and-iot",
+    "edge-computing",
+    "privacy-systems",
+    "privacy-infrastructure",
+    "measurement-and-empirical-systems-studies",
+    "workload-characterization"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "measurement-study",
+    "deployment-experience",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi23-program",
+      "url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:cac988a2e147b34e6feb8a05e8f68f38cb1693eb619fcc375b24235686fe8610",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-nsdi-2023-gemel-model-merging-for-memory-efficient-real-time-video-56aac35b-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi23/presentation/padmanabhan",
+      "kind": "paper-page",
+      "title": "Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:ffa5fd67fbe9c56fb607c38a11e029f7cf3dd82a0d15dba7a21cb0b8d3b762a7",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-dualbreach-efficient-dual-jailbreaking-via-target-driven-915201e4",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack or defense without a compiler, runtime, serving, architecture, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-b2192e1603dee45c-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dualbreach-efficient-dual-jailbreaking-via-target-driven-initialization-and-multi-target-optimization/",
+      "kind": "paper-page",
+      "title": "DUALBREACH: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:3ac727ee1268a9973863e62c859421b997c628a3186f65ff318fc4e225153945",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

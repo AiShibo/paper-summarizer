@@ -1,0 +1,79 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-program-environment-fuzzing-d32aacb1",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "virtualization-and-isolation",
+    "isolation",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "formal-model-or-proof",
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification",
+    "static-analysis",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-0b3361b19aec08d8-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690229",
+      "kind": "publisher-page",
+      "title": "Program Environment Fuzzing",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-ac72745c0f7f5623-abstract",
+      "url": "https://openalex.org/W4405170922",
+      "kind": "openalex",
+      "title": "Program Environment Fuzzing",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

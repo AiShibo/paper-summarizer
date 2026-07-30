@@ -1,0 +1,444 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-specinfer-accelerating-large-language-model-serving-with-5679a2e4",
+  "title": "SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2D: ML Inference Systems",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xupeng Miao",
+      "position": 1,
+      "orcid": "0000-0002-9371-8358",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gabriele Oliaro",
+      "position": 2,
+      "orcid": "0000-0001-5406-0736",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Zhang",
+      "position": 3,
+      "orcid": "0009-0002-8409-2717",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinhao Cheng",
+      "position": 4,
+      "orcid": "0009-0009-3375-497X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeyu Wang",
+      "position": 5,
+      "orcid": "0009-0002-5756-2744",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhengxin Zhang",
+      "position": 6,
+      "orcid": "0000-0003-1578-2597",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rae Ying Yee Wong",
+      "position": 7,
+      "orcid": "0009-0008-2677-0659",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alan Zhu",
+      "position": 8,
+      "orcid": "0009-0001-8694-9246",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lijie Yang",
+      "position": 9,
+      "orcid": "0009-0004-7909-5416",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoxiang Shi",
+      "position": 10,
+      "orcid": "0009-0000-6840-4691",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunan Shi",
+      "position": 11,
+      "orcid": "0009-0009-7197-4965",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuoming Chen",
+      "position": 12,
+      "orcid": "0009-0006-7797-573X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daiyaan Arfeen",
+      "position": 13,
+      "orcid": "0009-0009-5626-4551",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Reyna Abhyankar",
+      "position": 14,
+      "orcid": "0009-0005-6763-0108",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego, San Diego, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Jia",
+      "position": 15,
+      "orcid": "0000-0002-1270-5185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651335"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651335",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651335",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.10854411",
+    "code": "https://github.com/flexflow/FlexFlow/",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/gH-fuR7tM00",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2305.09781",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651335",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651335",
+      "kind": "crossref",
+      "title": "SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:fbc6a179da9a584bea6bac73f15851cdcc8490323f168746522715f3492b310c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651335",
+      "url": "https://www.semanticscholar.org/paper/f0c31511134abdd23f990310e8a2f2eb3a629b62",
+      "kind": "semantic-scholar",
+      "title": "SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:eae7eef0485692d0c691025f67438e993442df3870a1179268214f44b2780c4e",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10854411",
+      "url": "https://zenodo.org/records/10854411",
+      "kind": "artifact-page",
+      "title": "SpecInfer Artifact - ASPLOS 2024",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:530b6ea94c0afbc93d868aa1d486dc0760493c2dd8c8d84ca99237fcd992d0fd",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.project"
+    ]
+  }
+}

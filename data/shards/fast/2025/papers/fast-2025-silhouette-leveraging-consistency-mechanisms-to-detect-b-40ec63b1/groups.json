@@ -1,0 +1,108 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-silhouette-leveraging-consistency-mechanisms-to-detect-b-40ec63b1",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-an-i-andy-wang",
+      "publication_institution_id": "institution-florida-state-university",
+      "current_institution_id": "institution-florida-state-university",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-40ec63b1-paper-page",
+        "src-agent-f-40ec63b1-faculty-publications",
+        "src-agent-f-40ec63b1-faculty-profile",
+        "src-agent-f-40ec63b1-institution-news"
+      ],
+      "rationale": "FSU's official publication list and news identify Silhouette and An-I Andy Wang; the FSU faculty profile confirms his current professor appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Bing Jiao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ashvin Goel",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-40ec63b1-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/jiao",
+      "kind": "paper-page",
+      "title": "Silhouette: Leveraging Consistency Mechanisms to Detect Bugs in Persistent Memory-Based File Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-40ec63b1-faculty-publications",
+      "url": "https://www.cs.fsu.edu/~awang/publications.html",
+      "kind": "faculty-page",
+      "title": "An-I Andy Wang publications",
+      "publisher": "Florida State University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Silhouette publication"
+      ]
+    },
+    {
+      "id": "src-agent-f-40ec63b1-faculty-profile",
+      "url": "https://www.cs.fsu.edu/department/faculty/awang/",
+      "kind": "faculty-page",
+      "title": "An-I Andy Wang",
+      "publisher": "Florida State University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current FSU professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-40ec63b1-institution-news",
+      "url": "https://www.cs.fsu.edu/new20250320a/",
+      "kind": "institution-page",
+      "title": "FSU Computer Science FAST 2025 news",
+      "publisher": "Florida State University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Silhouette paper and An-I Andy Wang's role"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/research-group.schema.json",
+  "schema_version": "1.0.0",
+  "group_id": "group-tsinghua-storage-research",
+  "name": "Storage Research Group",
+  "official_url": "https://storage.cs.tsinghua.edu.cn/",
+  "group_kind": "academic",
+  "institution_id": "institution-tsinghua-university",
+  "department_or_division": "Department of Computer Science and Technology",
+  "faculty_ids": [
+    "faculty-jiwu-shu"
+  ],
+  "research_topics": [],
+  "sources": [
+    {
+      "id": "src-tsinghua-storage-research-official",
+      "url": "https://storage.cs.tsinghua.edu.cn/team/",
+      "kind": "lab-page",
+      "title": "Storage Research Group team",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity",
+        "institutional affiliation",
+        "listed faculty leadership or membership where faculty_ids is non-empty"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "faculty_ids contains only people directly supported by the cited official source; no PI was inferred from author order."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics"
+    ]
+  }
+}

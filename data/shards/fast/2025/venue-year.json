@@ -1,0 +1,80 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "fast",
+  "year": 2025,
+  "official_conference_url": "https://www.usenix.org/conference/fast25",
+  "official_program_url": "https://www.usenix.org/conference/fast25/technical-sessions",
+  "conference_dates": {
+    "start": "2025-02-25",
+    "end": "2025-02-27"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 36,
+    "core_systems": 36,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-fast25-conference",
+      "url": "https://www.usenix.org/conference/fast25",
+      "kind": "other",
+      "title": "FAST '25",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official conference identity, location context, and dates"
+      ]
+    },
+    {
+      "id": "src-fast25-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:d00f43efdd31af60c59e4851dfff621aa4e0086f902ffc7babf0f4917a57f453",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast25-proceedings",
+      "url": "https://www.usenix.org/system/files/fast25_full_proceedings.pdf",
+      "kind": "conference-proceedings",
+      "title": "FAST '25 Proceedings",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and paper-coverage reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Enumerated 36 main-track papers from the official technical sessions and proceedings.",
+      "Excluded non-paper program items: the Erik Riedel tribute, keynote, Test of Time presentation, posters, works-in-progress, Birds-of-a-Feather sessions, and sponsor/social events."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

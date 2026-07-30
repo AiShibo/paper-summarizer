@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-from-one-thousand-pages-of-specification-to-unveiling-hi-a7cc39ee",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a mobile, embedded, and IoT security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "language-or-api"
+  ],
+  "methods": [
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-a7b6f34a0eaeb3bf-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ma-xiaoyue",
+      "kind": "paper-page",
+      "title": "From One Thousand Pages of Specification to Unveiling Hidden Bugs: Large Language Model Assisted Fuzzing of Matter IoT Devices",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

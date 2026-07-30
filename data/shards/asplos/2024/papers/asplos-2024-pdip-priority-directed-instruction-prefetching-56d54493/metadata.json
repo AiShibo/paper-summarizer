@@ -1,0 +1,257 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-pdip-priority-directed-instruction-prefetching-56d54493",
+  "title": "PDIP: Priority Directed Instruction Prefetching",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 8A: Caching and Prefetching",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Bhargav Reddy Godala",
+      "position": 1,
+      "orcid": "0009-0007-2739-0538",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Science, Princeton University, Princeton, New Jersey, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sankara Prasad Ramesh",
+      "position": 2,
+      "orcid": "0000-0003-1361-8224",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Electrical and Computer Engineering, University of California, San Diego, San Diego, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilles A. Pokam",
+      "position": 3,
+      "orcid": "0009-0002-4363-5383",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Santa Clara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jared Stark",
+      "position": 4,
+      "orcid": "0009-0002-4366-4723",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Hillsboro, Oregon, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andre Seznec",
+      "position": 5,
+      "orcid": "0000-0002-3058-6503",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dean Tullsen",
+      "position": 6,
+      "orcid": "0000-0003-3174-9316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Science and Engineering, University of California, San Diego, San Diego, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David I. August",
+      "position": 7,
+      "orcid": "0000-0003-3327-1803",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Science, Princeton University, Princeton, New Jersey, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640394"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640394",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640394",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640394",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/e5N5e_PRNtU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640394",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640394",
+      "kind": "crossref",
+      "title": "PDIP: Priority Directed Instruction Prefetching",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:41f32679d69d504be0bb1ba1c5ae7e23fb6334e4cd3e033a4f4a7fbb525611dc",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640394",
+      "url": "https://www.semanticscholar.org/paper/2193626c26b601a6cacc5403bb1eada6350b9b45",
+      "kind": "semantic-scholar",
+      "title": "PDIP: Priority Directed Instruction Prefetching",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:eaa404bb8e417b73f0704886d66e998d12566bec71888f4013ce70d9dd5b055a",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

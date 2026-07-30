@@ -1,0 +1,155 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-backdooring-bias-b-2-into-stable-diffusion-models-2057d191",
+  "title": "Backdooring Bias (B^2) into Stable Diffusion Models",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "ML and AI Security 1: Images",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ali Naseh",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4fc5e8b1c38fb432-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaechul Roh",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4fc5e8b1c38fb432-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eugene Bagdasarian",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4fc5e8b1c38fb432-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Amir Houmansadr",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4fc5e8b1c38fb432-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/naseh",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-naseh.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {309800,\nauthor = {Ali Naseh and Jaechul Roh and Eugene Bagdasarian and Amir Houmansadr},\ntitle = {Backdooring Bias ({{{{{{{B^2}}}}}}}) into Stable Diffusion Models},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {977--996},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/naseh},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-9d44f27fd67de77e-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-4fc5e8b1c38fb432-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/naseh",
+      "kind": "paper-page",
+      "title": "Backdooring Bias (B^2) into Stable Diffusion Models",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

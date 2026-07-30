@@ -1,0 +1,276 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2025-tweezers-a-framework-for-security-event-detection-via-ev-229acb4a",
+  "title": "Tweezers: A Framework for Security Event Detection via Event Attribution-centric Tweet Embedding",
+  "venue": "ndss",
+  "year": 2025,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2025-02-24",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jian Cui",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Indiana University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hanna Kim",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAIST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eugene Jang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "S2W Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dayeon Yim",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "S2W Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kicheol Kim",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "S2W Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongjae Lee",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "S2W Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jin-Woo Chung",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "S2W Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Seungwon Shin",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAIST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaojing Liao",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Indiana University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5607dd9e99e7d4f7-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2025.230139",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/tweezers-a-framework-for-security-event-detection-via-event-attribution-centric-tweet-embedding/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2025-139-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/9D-s0139-cui-2025-02-26-19.18.12-1.pdf",
+    "video": "https://youtu.be/bLBiCjw_IcM?si=De_u3KSK5JzjTWt4&t=145",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-ccb7f52b4964fff6-program",
+      "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2025 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-5607dd9e99e7d4f7-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/tweezers-a-framework-for-security-event-detection-via-event-attribution-centric-tweet-embedding/",
+      "kind": "paper-page",
+      "title": "Tweezers: A Framework for Security Event Detection via Event Attribution-centric Tweet Embedding",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-4005ba85c6cca969-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2025.230139",
+      "kind": "crossref",
+      "title": "Tweezers: A Framework for Security Event Detection via Event Attribution-centric Tweet Embedding",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

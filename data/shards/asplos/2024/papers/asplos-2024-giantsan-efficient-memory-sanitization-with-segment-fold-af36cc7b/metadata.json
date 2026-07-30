@@ -1,0 +1,215 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-giantsan-efficient-memory-sanitization-with-segment-fold-af36cc7b",
+  "title": "GIANTSAN: Efficient Memory Sanitization with Segment Folding",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3B: Security",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hao Ling",
+      "position": 1,
+      "orcid": "0000-0002-5093-8262",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640391"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heqing Huang",
+      "position": 2,
+      "orcid": "0000-0002-5328-3994",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "City University of Hong Kong, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640391"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chengpeng Wang",
+      "position": 3,
+      "orcid": "0000-0003-0617-5322",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640391"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuandao Cai",
+      "position": 4,
+      "orcid": "0000-0001-6340-1416",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640391"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Charles Zhang",
+      "position": 5,
+      "orcid": "0000-0001-6417-1034",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640391"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640391",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640391",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640391",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/w9G5bWzh5YE",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640391",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640391",
+      "kind": "crossref",
+      "title": "GIANTSAN: Efficient Memory Sanitization with Segment Folding",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:9ecc8b8c528212504c36b474563da16a6149dbb909e864de167d3291107de1f3",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640391",
+      "url": "https://www.semanticscholar.org/paper/293f62724b4636cd2ca6bf27eab5d87801897b89",
+      "kind": "semantic-scholar",
+      "title": "GIANTSAN: Efficient Memory Sanitization with Segment Folding",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:1f9122378db7c016301ff00ca888cd7d8ce86a4e87a87a9fcb1b3851dd2a2c9a",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

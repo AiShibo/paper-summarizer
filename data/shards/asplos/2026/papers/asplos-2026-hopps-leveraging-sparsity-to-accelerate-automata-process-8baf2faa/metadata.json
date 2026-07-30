@@ -1,0 +1,164 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-hopps-leveraging-sparsity-to-accelerate-automata-process-8baf2faa",
+  "title": "Hopps: Leveraging Sparsity to Accelerate Automata Processing",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6C: Graph & Sparse Computing",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-06",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xingran Du",
+      "position": 1,
+      "orcid": "0009-0005-4709-5822",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736126"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joel S. Emer",
+      "position": 2,
+      "orcid": "0000-0002-3459-5466",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, USA and NVIDIA, Westford, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736126"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Sanchez",
+      "position": 3,
+      "orcid": "0000-0002-2453-2904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736126"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676642.3736126",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676642.3736126",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676642.3736126",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3676642-3736126",
+      "url": "https://api.crossref.org/works/10.1145/3676642.3736126",
+      "kind": "crossref",
+      "title": "Hopps: Leveraging Sparsity to Accelerate Automata Processing",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3c5620bd10f1af2a94d7f7ba3c1fcd5a6813874a3d9c7eb2cea255a39d09b0b5",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736126",
+      "url": "https://www.semanticscholar.org/paper/3d17628b4cb1860eda877108e4640b47c024511e",
+      "kind": "semantic-scholar",
+      "title": "Hopps: Leveraging Sparsity to Accelerate Automata Processing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:f92bd8c74a67adb915ca313ee28073c78ed45f875f4091720fe25cf9b11f573e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: Leveraging Sparsity to Accelerate Automata Processing",
+      "The publisher labels this DOI as ASPLOS 2025 Volume 3 with a 2025-08-06 date; the official ASPLOS 2026 detailed program controls venue-year placement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "Publisher prior-volume label/date conflict with official ASPLOS 2026 program placement",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

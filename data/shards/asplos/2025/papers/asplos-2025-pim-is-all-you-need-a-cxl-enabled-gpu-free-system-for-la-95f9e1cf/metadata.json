@@ -1,0 +1,284 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-pim-is-all-you-need-a-cxl-enabled-gpu-free-system-for-la-95f9e1cf",
+  "title": "PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9B: Processing in Memory",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yufeng Gu",
+      "position": 1,
+      "orcid": "0000-0003-1918-7533",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alireza Khadem",
+      "position": 2,
+      "orcid": "0000-0002-7615-5514",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sumanth Umesh",
+      "position": 3,
+      "orcid": "0000-0003-1893-2845",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ning Liang",
+      "position": 4,
+      "orcid": "0009-0000-5700-4991",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xavier Servot",
+      "position": 5,
+      "orcid": "0009-0003-3830-7219",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zürich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Onur Mutlu",
+      "position": 6,
+      "orcid": "0000-0002-0075-2312",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zürich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ravi Iyer",
+      "position": 7,
+      "orcid": "0000-0001-5383-9561",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Mountain View, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Reetuparna Das",
+      "position": 8,
+      "orcid": "0000-0002-5894-8342",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716267"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716267",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716267",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716267",
+    "artifact": "https://doi.org/10.5281/zenodo.14776547",
+    "code": "https://github.com/Yufeng98/CENT",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2502.07578",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716267",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716267",
+      "kind": "crossref",
+      "title": "PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:ebfe167262e38746a69267035c8303217a1c00e28c421cb24edb59307ed7ccf5",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716267",
+      "url": "https://www.semanticscholar.org/paper/fa4890b2efa5ce9384c345889ace64ad613f44bd",
+      "kind": "semantic-scholar",
+      "title": "PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:9bc202bb161ba56fb5dece78362e2ba2707e68741b0b9fee2e01e93372110e65",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14776547",
+      "url": "https://zenodo.org/records/14776547",
+      "kind": "artifact-page",
+      "title": "PIM is All You Need: A CXL-Enabled GPU-Free System for LLM Inference",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:0c6d9b6612b99de6e4be7da787114bb7a02c73734be6d26b5a6d13d2cfd92f6f",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The stored title follows the publisher-deposited/indexed rendering where it differs from the official program, correcting inline typography, an apparent program typo or truncation, or a published subtitle; this lower-priority-source override is flagged for independent review.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project"
+    ]
+  }
+}

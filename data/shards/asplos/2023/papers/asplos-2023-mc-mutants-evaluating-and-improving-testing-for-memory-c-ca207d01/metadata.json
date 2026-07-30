@@ -1,0 +1,279 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-mc-mutants-evaluating-and-improving-testing-for-memory-c-ca207d01",
+  "title": "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 1B: Shared Memory/Mem Consistency",
+  "paper_type": "main-track",
+  "publication_date": "2023-01-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Reese Levine",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at Santa Cruz, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianhao Guo",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "New York University, USA / University of California at Santa Cruz, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingun Cho",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at Davis, USA / University of California at Santa Cruz, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alan Baker",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Raph Levien",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Neto",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andrew Quinn",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at Santa Cruz, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tyler Sorensen",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at Santa Cruz, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575750"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3575693.3575750",
+    "official_page": "https://dl.acm.org/doi/10.1145/3575693.3575750",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575750",
+    "artifact": "https://doi.org/10.5281/zenodo.7196061",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/PRq1rvBlAd8",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3575693-3575750",
+      "url": "https://api.crossref.org/works/10.1145/3575693.3575750",
+      "kind": "crossref",
+      "title": "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:e0ee5d7644f89673116a3c8115c0a4363e41c4a66ad7fa8d1db7a3d1afa310ee",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575750",
+      "url": "https://www.semanticscholar.org/paper/2fd9d24a2498832bdc33a9436c74efcdaec149e7",
+      "kind": "semantic-scholar",
+      "title": "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:572bec20a9cdee39822be9325361f0015b6df967483f16d27739e82fb1ffebbd",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-7196061",
+      "url": "https://zenodo.org/records/7196061",
+      "kind": "artifact-page",
+      "title": "MC Mutants Artifact",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:c04ff16cffa87a33e367d41a3b9605dbf4fc3e8d1eeb3ef3448c5c6e35d71c5f",
+      "official": true,
+      "supports": [
+        "Author-deposited archival software or evaluation artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact paper title, named authors, DOI evidence, or an explicit ASPLOS 2023 artifact statement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

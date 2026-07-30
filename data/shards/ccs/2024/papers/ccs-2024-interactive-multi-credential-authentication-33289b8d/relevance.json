@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-interactive-multi-credential-authentication-33289b8d",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper develops and implements an interactive multi-credential authentication mechanism for deployed banking and cryptocurrency account workflows.",
+  "topics": [
+    "systems-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-f042ba104e9a5488-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670378",
+      "kind": "publisher-page",
+      "title": "Interactive Multi-Credential Authentication",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-7f9101ed4068fc99-abstract",
+      "url": "https://www.semanticscholar.org/paper/ad489c734db4f79c49cde467c7b7d2ff55973ecc",
+      "kind": "semantic-scholar",
+      "title": "Interactive Multi-Credential Authentication",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

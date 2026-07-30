@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-bullseye-detecting-prototype-pollution-in-npm-packages-w-8066601d",
+  "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tariq Houis",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6bd8cfeabc5a8bee-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaoqi Jiang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6bd8cfeabc5a8bee-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Mannan",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6bd8cfeabc5a8bee-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Amr Youssef",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6bd8cfeabc5a8bee-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.230211",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s211-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-c7615635c3f99cd4-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-6bd8cfeabc5a8bee-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
+      "kind": "paper-page",
+      "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:1f4a6c1511638103692189483db406be4c983a79e070b4225f5dc981f26c9ed2",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-2a18dac54246a39d-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.230211",
+      "kind": "crossref",
+      "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-ad2d5eaf60c3379f-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/HouisJMY26",
+      "kind": "dblp",
+      "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

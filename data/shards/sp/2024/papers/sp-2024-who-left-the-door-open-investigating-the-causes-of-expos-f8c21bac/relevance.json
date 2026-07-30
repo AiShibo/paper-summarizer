@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-who-left-the-door-open-investigating-the-causes-of-expos-f8c21bac",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs longitudinal network measurement to identify operational causes of exposed IoT devices.",
+  "topics": [
+    "systems-security",
+    "network-security",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-90c76d5a862b85bb-abstract",
+      "url": "https://openalex.org/W4402264306",
+      "kind": "openalex",
+      "title": "Who Left the Door Open? Investigating the Causes of Exposed IoT Devices in an Academic Network",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

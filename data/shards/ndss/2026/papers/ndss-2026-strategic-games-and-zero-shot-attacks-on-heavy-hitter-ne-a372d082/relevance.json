@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-strategic-games-and-zero-shot-attacks-on-heavy-hitter-ne-a372d082",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper technically analyzes, attacks, or defends deployed network infrastructure and therefore has material systems relevance.",
+  "topics": [
+    "network-security",
+    "networking",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-ffee57abe37e2d7c-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/strategic-games-and-zero-shot-attacks-on-heavy-hitter-network-flow-monitoring/",
+      "kind": "paper-page",
+      "title": "Strategic Games and Zero Shot Attacks on Heavy-Hitter Network Flow Monitoring",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:c714b25bd5581dc9c85b302eae06bb0f6672f3b6b48cb3fa79ba32958a791fd3",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-analysis-of-the-security-design-engineering-and-implemen-0a291c23",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs a technical, artifact-backed measurement of deployed computer or security infrastructure.",
+  "topics": [
+    "measurement-and-empirical-systems-studies",
+    "systems-security"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-09ec3946cc6b9e1d-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/analysis-of-the-security-design-engineering-and-implementation-of-the-securedna-system/",
+      "kind": "paper-page",
+      "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:1f3788db06b46701632fef445d0bd65cb69d683044e5a2e15a825fe3e99cb524",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

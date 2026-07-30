@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-entente-cross-silo-intrusion-detection-on-network-log-gr-08ef5fc1",
+  "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jiacen Xu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8d7877ba565030ad-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenang Li",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8d7877ba565030ad-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Zheng",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8d7877ba565030ad-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhou Li",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8d7877ba565030ad-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.230093",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s93-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/s0093-xu-slides.pdf",
+    "video": "https://youtu.be/JWY8CBjrQIY",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-a21ea7932ab12e88-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-8d7877ba565030ad-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+      "kind": "paper-page",
+      "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:9a195747ac98797b285d359716596815c572041f9ad4594e08519bbdc180ae22",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-2a32dfa043eb8ee7-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.230093",
+      "kind": "crossref",
+      "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-69b51c8dfed306e5-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/XuLZL26",
+      "kind": "dblp",
+      "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

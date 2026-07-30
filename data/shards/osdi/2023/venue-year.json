@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "osdi",
+  "year": 2023,
+  "official_conference_url": "https://www.usenix.org/conference/osdi23",
+  "official_program_url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+  "conference_dates": {
+    "start": "2023-07-10",
+    "end": "2023-07-12"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 55,
+    "core_systems": 55,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-osdi-2023-conference",
+      "url": "https://www.usenix.org/conference/osdi23",
+      "kind": "other",
+      "title": "OSDI '23",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:42a6a9a4f64c1e046a1719793fcbad23a23d8a3c72db027f60d23b36b60a7c03",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2023 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-proceedings",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:f42cbb9247f7079fca3a5d336c3404c03f895c470db460f3a0597e3367e830e3",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

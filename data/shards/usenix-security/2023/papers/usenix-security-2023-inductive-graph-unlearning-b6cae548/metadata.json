@@ -1,0 +1,136 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-inductive-graph-unlearning-b6cae548",
+  "title": "Inductive Graph Unlearning",
+  "venue": "usenix-security",
+  "year": 2023,
+  "track_or_session": "Graphs and Security",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Cheng-Long Wang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "King Abdullah University of Science and Technology and SDAIA-KAUST Center of Excellence in Data Science and Artificial Intelligence",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-93a9d27f3b3bc419-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengdi Huai",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Iowa State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-93a9d27f3b3bc419-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Di Wang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "King Abdullah University of Science and Technology, Computational Bioscience Research Center, and SDAIA-KAUST Center of Excellence in Data Science and Artificial Intelligence",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-93a9d27f3b3bc419-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity23/presentation/wang-cheng-long",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity23-wang-cheng-long.pdf",
+    "artifact": null,
+    "code": "https://github.com/Happy2Git/GUIDE",
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec23_slides_wang-chen-long.pdf",
+    "video": "https://www.youtube.com/embed/njiiDdcJz3c?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {291009,\nauthor = {Cheng-Long Wang and Mengdi Huai and Di Wang},\ntitle = {Inductive Graph Unlearning},\nbooktitle = {32nd USENIX Security Symposium (USENIX Security 23)},\nyear = {2023},\nisbn = {978-1-939133-37-3},\naddress = {Anaheim, CA},\npages = {3205--3222},\nurl = {https://www.usenix.org/conference/usenixsecurity23/presentation/wang-cheng-long},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-41d800daa545ed00-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-93a9d27f3b3bc419-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wang-cheng-long",
+      "kind": "paper-page",
+      "title": "Inductive Graph Unlearning",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations when published, abstract, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

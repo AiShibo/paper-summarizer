@@ -1,0 +1,126 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-vectorcdc-accelerating-data-deduplication-with-vector-in-20baa9bd",
+  "takeaway": "VectorCDC makes hashless content-defined chunking SIMD-friendly by vectorizing its extreme-byte search and range-scan primitives, reaching tens of gigabytes per second without changing chunk boundaries.",
+  "background": "Deduplication divides input into chunks and removes repeated content. Content-defined chunking preserves boundaries across inserted or shifted bytes, but it scans every byte; hash-based schemes use rolling hashes, while hashless schemes choose boundaries from byte extrema.",
+  "villain": "Rolling-hash state depends on the preceding byte, and an earlier vectorized design processes nonadjacent bytes with expensive gather/scatter instructions. Separating hashing from boundary selection also defeats minimum-chunk-size skipping, leaving only small speedups and no gain for FastCDC.",
+  "approach": "VectorCDC expresses hashless CDC as two reusable operations. A reduction tree applies packed SIMD maxima or minima across fixed windows, and packed comparisons turn 64-byte range scans into masks whose first matching bit identifies a boundary. The authors instantiate the method for AE and RAM with SSE-128, AVX-256, and AVX-512.",
+  "impact": "The paper exposes a compact algorithmic pattern for matching storage preprocessing to commodity CPU vectors. Because it preserves the native algorithms' boundary decisions, the throughput gain does not trade away deduplication effectiveness.",
+  "evaluation": {
+    "overview": "Experiments compare space savings, chunk-size distributions, and chunking throughput over five 40–230 GB versioned or snapshot datasets, several target chunk sizes, SIMD widths, two x86 platforms, and ablations of the two accelerated phases.",
+    "implemented": "The authors implement vectorized AE and RAM in about 700 lines of C++ and publish them through DedupBench. Implementations use SSE-128, AVX-256, or AVX-512 packed maximum/minimum and comparison operations without gather/scatter.",
+    "setting": "CloudLab machines include an AMD EPYC 7302P system with 16 cores and 128 GB RAM and an Intel Ice Lake system with two 32-core Xeon Silver 4314 CPUs and 256 GB RAM. Unless stated otherwise, runs use Ice Lake; each result averages five runs with under 5% standard deviation.",
+    "baselines": [
+      "CRC",
+      "FastCDC",
+      "Gear",
+      "Rabin chunking",
+      "SS-CRC",
+      "SS-Gear",
+      "TTTD",
+      "AE",
+      "RAM"
+    ],
+    "results": [
+      {
+        "id": "claim-vectorcdc-throughput",
+        "text": "With AVX-512 and 8 KB chunks, vectorized RAM reaches 24–26 GB/s, which is reported as 21× faster than SS-Gear, 46× faster than SS-CRC, 16× faster than native RAM, and 12× faster than FastCDC.",
+        "source_ids": [
+          "src-fast25-pdf-20baa9bd"
+        ],
+        "locator": "PDF p. 6; §5.2, Figure 6"
+      },
+      {
+        "id": "claim-vectorcdc-savings",
+        "text": "SIMD acceleration produces the same chunk-size distributions and space savings as each native AE or RAM implementation; across all tested datasets and chunk sizes, native hashless savings remain within 6% of the hash-based algorithms.",
+        "source_ids": [
+          "src-fast25-pdf-20baa9bd"
+        ],
+        "locator": "PDF pp. 5–6; §5.1, Figure 5"
+      },
+      {
+        "id": "claim-vectorcdc-widths",
+        "text": "Vectorized RAM reaches 13.3 GB/s with SSE-128 and 19.5 GB/s with AVX-256 and shows similar throughput on the tested AMD and Intel machines.",
+        "source_ids": [
+          "src-fast25-pdf-20baa9bd"
+        ],
+        "locator": "PDF p. 7; §5.2.1, Figure 7"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The evaluation measures the chunking kernel rather than an end-to-end deduplication service with hashing, index lookup, network transfer, and storage I/O. It covers five curated datasets and two x86 servers; portability beyond SSE/AVX, energy use, multi-core scaling, and production latency are not studied. The implementation evaluates AE and RAM and omits slower hashless algorithms such as MAXP. Hashless space savings can trail the best hash-based method, although the measured gap is at most 6%.",
+  "phd_group_signal": "VectorCDC illustrates architecture-aware systems work at a deliberately small scope: identify common hot-loop primitives, redesign them around SIMD semantics, preserve functional equivalence, and validate across data characteristics, vector widths, and CPU vendors.",
+  "beginner_concepts": [
+    "data deduplication",
+    "content-defined chunking",
+    "rolling hash",
+    "hashless chunking",
+    "SIMD",
+    "SSE",
+    "AVX",
+    "minimum chunk size"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-vectorcdc-tree",
+      "text": "Tree-based extreme-byte search repeatedly reduces packed adjacent bytes with SIMD maximum or minimum operations until only one vector remains, then scans that vector for the window extremum.",
+      "source_ids": [
+        "src-fast25-pdf-20baa9bd"
+      ],
+      "locator": "PDF p. 4; §4.1, Figure 2"
+    },
+    {
+      "id": "claim-vectorcdc-scan",
+      "text": "Packed range scanning compares 64 adjacent bytes with a replicated target under AVX-512, uses the comparison mask to locate the first qualifying byte, and retains minimum-chunk-size skipping after a boundary.",
+      "source_ids": [
+        "src-fast25-pdf-20baa9bd"
+      ],
+      "locator": "PDF pp. 4–5; §§4.2–4.3, Figures 3–4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-20baa9bd",
+      "url": "https://www.usenix.org/system/files/fast25-udayashankar.pdf",
+      "kind": "paper-pdf",
+      "title": "VectorCDC: Accelerating Data Deduplication with Vector Instructions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:3742eebf4f86af2360cd000596ff955146a250c973d36fb8dc85666fdde6a85b",
+      "official": true,
+      "supports": [
+        "abstract, introduction, CDC background, SIMD motivation, design, implementation, evaluation, related work, and conclusion",
+        "reported space savings, throughput, SIMD-width, cross-platform, and phase-breakdown results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:58:18Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–3 background and motivation, §§4.1–4.3 design, §§5.1–5.2.2 evaluation, §6 related work, and §7 conclusion.",
+      "The performance values are author-reported kernel throughput; the paper does not evaluate a complete deployed deduplication pipeline."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:58:18Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

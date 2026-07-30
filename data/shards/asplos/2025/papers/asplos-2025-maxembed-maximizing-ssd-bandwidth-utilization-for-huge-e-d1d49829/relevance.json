@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-maxembed-maximizing-ssd-bandwidth-utilization-for-huge-e-d1d49829",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because MaxEmbed contributes a concrete solid-state storage or embedded I/O mechanism for maximizing SSD bandwidth utilization for huge embedding models serving.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "key-value-stores"
+  ],
+  "system_layers": [
+    "storage",
+    "hardware",
+    "kernel"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674172",
+      "url": "https://www.semanticscholar.org/paper/930028156e1dd605842ea4273272c9e9a2b2de3f",
+      "kind": "semantic-scholar",
+      "title": "MaxEmbed: Maximizing SSD bandwidth utilization for huge embedding models serving",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6105181f31731c9359d2c7cc596a058cc25921785509bf422abeebfe8629ac29",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required.",
+      "The abstract identifies a concrete architecture, compiler, runtime, scheduling, serving, training, or hardware/software co-design mechanism; the paper was not included merely for applying machine learning."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

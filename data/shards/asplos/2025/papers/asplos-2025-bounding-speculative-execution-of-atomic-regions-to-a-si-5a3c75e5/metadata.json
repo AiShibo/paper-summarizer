@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-bounding-speculative-execution-of-atomic-regions-to-a-si-5a3c75e5",
+  "title": "Bounding Speculative Execution of Atomic Regions to a Single Retry",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5B: Microarchitecture",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Eduardo José Gómez-Hernández",
+      "position": 1,
+      "orcid": "0000-0001-8445-615X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Engineering Department, University of Murcia, Murcia, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674176"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juan M. Cebrian",
+      "position": 2,
+      "orcid": "0000-0002-3731-9301",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Engineering Department, University of Murcia, Murcia, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674176"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stefanos Kaxiras",
+      "position": 3,
+      "orcid": "0000-0001-8267-0232",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Information Technology, Uppsala University, Uppsala, Sweden",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674176"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alberto Ros",
+      "position": 4,
+      "orcid": "0000-0001-5757-1064",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Engineering Department, University of Murcia, Murcia, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674176"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674176",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674176",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674176",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674176",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674176",
+      "kind": "crossref",
+      "title": "Bounding Speculative Execution of Atomic Regions to a Single Retry",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a2a082153e1299917dc3f5c3e50cfca167e9e444c9acd1eb79696d6e538aa536",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674176",
+      "url": "https://www.semanticscholar.org/paper/580beb7d9497e1c5261d1aa82fdf643ab4c5c09f",
+      "kind": "semantic-scholar",
+      "title": "Bounding Speculative Execution of Atomic Regions to a Single Retry",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:7b8e0eddf347d8e9e1269c27440c0f3dfe870dbab92498049e07533d7190ca6b",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2023-lpns-scalable-and-latency-predictable-local-storage-virt-8e00a039",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material storage and file systems mechanism at the storage layer.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "virtualization-and-isolation",
+    "virtual-machines"
+  ],
+  "system_layers": [
+    "storage",
+    "distributed-service",
+    "hypervisor"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2023-program",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:3d197ad9547105e9204aca605ead5454ea1fb68b806454930e88abf20d488277",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2023-paper-peng",
+      "url": "https://www.usenix.org/conference/atc23/presentation/peng",
+      "kind": "paper-page",
+      "title": "LPNS: Scalable and Latency-Predictable Local Storage Virtualization for Unpredictable NVMe SSDs in Clouds",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:f4fc682ee720d428a49f46d6bafb7f49824765ca039d75ad29abd326073ac1b7",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

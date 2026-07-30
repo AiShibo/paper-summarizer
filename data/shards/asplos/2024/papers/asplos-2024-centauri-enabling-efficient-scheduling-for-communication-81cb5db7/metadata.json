@@ -1,0 +1,258 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-centauri-enabling-efficient-scheduling-for-communication-81cb5db7",
+  "title": "Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1B: Optimizing ML Communication",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chang Chen",
+      "position": 1,
+      "orcid": "0009-0008-6416-7172",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiuhong Li",
+      "position": 2,
+      "orcid": "0000-0002-4896-121X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qianchao Zhu",
+      "position": 3,
+      "orcid": "0009-0001-5021-2912",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiangfei Duan",
+      "position": 4,
+      "orcid": "0000-0002-6327-2033",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong, Hongkong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Sun",
+      "position": 5,
+      "orcid": "0000-0001-8456-0491",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai AI Lab, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xingcheng Zhang",
+      "position": 6,
+      "orcid": "0009-0006-8525-0608",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai AI Lab, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chao Yang",
+      "position": 7,
+      "orcid": "0000-0001-7426-6248",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651379"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651379",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651379",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/67iwNMijdbA",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651379",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651379",
+      "kind": "crossref",
+      "title": "Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:00b6e7fbd7488e17e33b25861d0a34672f529988632ed8e55510c19c1596ab25",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651379",
+      "url": "https://www.semanticscholar.org/paper/3bffaa1da8778405673d174b8bbf28f83d5916d1",
+      "kind": "semantic-scholar",
+      "title": "Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:988caacb8d9c7f2979051f47b6154d1d706402aca70ad70d0dd37169cc5c5b65",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-energy-aware-scheduling-and-input-buffer-overflow-preven-9f11b923",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because the paper contributes a concrete edge or embedded systems mechanism for energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "edge-computing",
+    "embedded-systems",
+    "resource-management-and-scheduling",
+    "scheduling",
+    "energy-and-sustainable-computing",
+    "energy-efficiency",
+    "power-management"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715995",
+      "url": "https://www.semanticscholar.org/paper/d88c16bf7709d4fa2648aa25b0bf2bc8cfaebf58",
+      "kind": "semantic-scholar",
+      "title": "Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a1190df865f96dd95ed3b362c567719449c486fac339813c558c813e434f8f1d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

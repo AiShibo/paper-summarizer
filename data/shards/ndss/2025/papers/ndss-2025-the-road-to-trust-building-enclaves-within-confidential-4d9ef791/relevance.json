@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2025-the-road-to-trust-building-enclaves-within-confidential-4d9ef791",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "virtualization-and-isolation",
+    "isolation",
+    "confidential-computing",
+    "trusted-execution-environments"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-49df52e36fda6d40-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-road-to-trust-building-enclaves-within-confidential-vms/",
+      "kind": "paper-page",
+      "title": "The Road to Trust: Building Enclaves within Confidential VMs",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

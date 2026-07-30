@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-puzzle-efficiently-aligning-large-language-models-throug-b274119a",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material machine-learning systems mechanism at the runtime layer.",
+  "topics": [
+    "ml-systems",
+    "training-systems",
+    "networking",
+    "programmable-networks",
+    "compilers-languages-and-runtimes",
+    "runtime-systems",
+    "computer-architecture",
+    "hardware-software-co-design"
+  ],
+  "system_layers": [
+    "runtime",
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-lei",
+      "url": "https://www.usenix.org/conference/atc24/presentation/lei",
+      "kind": "paper-page",
+      "title": "PUZZLE: Efficiently Aligning Large Language Models through Light-Weight Context Switch",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:e1cf8c1124c5446e6a10c938836773ee84af524fdecb823a827f0a3be9c2996b",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

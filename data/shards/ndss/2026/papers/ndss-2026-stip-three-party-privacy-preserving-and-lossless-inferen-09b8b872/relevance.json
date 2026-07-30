@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-stip-three-party-privacy-preserving-and-lossless-inferen-09b8b872",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds and evaluates a material ML execution, inference, or auditing system rather than only modifying an ML model.",
+  "topics": [
+    "ml-systems",
+    "privacy-systems",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-7decc6cbeee302eb-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/stip-three-party-privacy-preserving-and-lossless-inference-for-large-transformers-in-production/",
+      "kind": "paper-page",
+      "title": "STIP: Three-Party Privacy-Preserving and Lossless Inference for Large Transformers in Production",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:3330b18094269d9e30af8911ac6b6a36d7ed6fb0a3e41b6d085f80884181736a",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

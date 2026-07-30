@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-extended-diffie-hellman-encryption-for-secure-and-effici-c0a37a0a",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper's primary contribution is a network security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "networking",
+    "network-security",
+    "mobile-edge-embedded-and-iot",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network",
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-25ea1f20e266855d-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600e055/26hiVZ3lPRS",
+      "kind": "publisher-page",
+      "title": "Extended Diffie-Hellman Encryption for Secure and Efficient Real-Time Beacon Notifications",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

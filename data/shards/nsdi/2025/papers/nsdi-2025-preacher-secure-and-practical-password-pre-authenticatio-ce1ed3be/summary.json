@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-preacher-secure-and-practical-password-pre-authenticatio-ce1ed3be",
+  "takeaway": "PreAcher lets a CDN reject most bad password logins through privacy-preserving pre-authentication, while a trusted origin server retains the final password check.",
+  "background": "Slow password hashes defend stored credentials against guessing but make login endpoints computationally expensive. CDNs can absorb attacks, yet conventional HTTPS termination exposes passwords to them.",
+  "villain": "Existing defenses do not simultaneously keep failed-login computation away from the origin, hide passwords from the CDN, and preserve ordinary browser login behavior.",
+  "approach": "During registration, the client and trusted origin create an encrypted pre-authentication key record that the origin places at the CDN. At login, browser-delivered JavaScript uses username-keyed locality-sensitive hashing plus an oblivious pseudorandom function to recover the signing key associated with a similarity bucket; the CDN verifies its signature without learning the exact password. Only then does the CDN forward the password, encrypted to the origin's public key, for a conventional slow-hash check.",
+  "impact": "The authors argue that a website can deploy this split check using CDN serverless code and page JavaScript to withstand login ADoS without changing browsers or CDN infrastructure.",
+  "evaluation": {
+    "overview": "The authors combine formal protocol analysis with prototype measurements of attack resilience, authentication throughput, CPU time, and Internet login latency.",
+    "implemented": "A JavaScript client library and CDN serverless function plus a C++ origin server using Sogou Workflow and standard cryptographic libraries.",
+    "setting": "A three-VM Azure testbed with 4 vCPUs and 8 GiB per VM, plus a Cloudflare Internet deployment with Azure clients and origin; PBKDF2 is the full-authentication hash.",
+    "baselines": [
+      "Baseline: CDN forwards every login to the origin",
+      "DuoHash: CDN performs double-hash pre-authentication",
+      "SGX-CDN: password authentication inside Intel SGX via Occlum"
+    ],
+    "results": [
+      {
+        "id": "claim-preacher-ados-throughput",
+        "text": "The authors report that, in the testbed ADoS experiment, 100 valid requests/s competed with 400 invalid requests/s; PreAcher served 97 successful logins/s, whereas the other methods served nearly none.",
+        "source_ids": [
+          "src-nsdi25-pdf-ce1ed3be"
+        ],
+        "locator": "PDF p. 12 (paper p. 1409); §8.2, Table 1"
+      },
+      {
+        "id": "claim-preacher-preauth-efficiency",
+        "text": "The authors report that, on the testbed, PreAcher's failed-login pre-authentication handled 948 requests/s at 23% CPU, versus 99 and 91 requests/s at 100% CPU for DuoHash and SGX-CDN.",
+        "source_ids": [
+          "src-nsdi25-pdf-ce1ed3be"
+        ],
+        "locator": "PDF p. 12 (paper p. 1409); §8.3, Figure 5(a)"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "formal-proof"
+    ]
+  },
+  "limitations": "The security argument assumes an honest-but-curious CDN that follows the protocol, a trusted origin and client platform, and an ADoS-resistant registration path; active CDN attackers are left for future work. PreAcher protects passwords and login authentication, not other application-layer attack surfaces, post-login cookies, general private traffic, password reuse, or origin compromise.",
+  "phd_group_signal": "This work reflects a security-systems methodology that combines protocol construction and proof with deployable web components, adversarial analysis, and end-to-end performance experiments.",
+  "beginner_concepts": [
+    "application-layer denial of service",
+    "content delivery networks",
+    "oblivious pseudorandom functions",
+    "locality-sensitive hashing",
+    "honest-but-curious threat model"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-preacher-central-mechanism",
+      "text": "PreAcher combines username-keyed weighted K-mer MinHash with an OPRF-derived envelope key so a client can prove membership in a password-similarity bucket to the CDN, after which the origin performs the exact password check.",
+      "source_ids": [
+        "src-nsdi25-pdf-ce1ed3be"
+      ],
+      "locator": "PDF pp. 7–9 (paper pp. 1404–1406); §4.1, Figures 2–3, and §5"
+    },
+    {
+      "id": "claim-preacher-threat-boundary",
+      "text": "The paper assumes a passive CDN, a trusted origin and client platform, and ADoS-resistant registration; it excludes active CDN behavior, origin compromise, non-login ADoS surfaces, general private traffic, and post-login cookie protection.",
+      "source_ids": [
+        "src-nsdi25-pdf-ce1ed3be"
+      ],
+      "locator": "PDF pp. 4–6 and 14 (paper pp. 1401–1403 and 1411); §§2.3–2.4, §§3.2–3.3, and §9"
+    },
+    {
+      "id": "claim-preacher-deployment-path",
+      "text": "The prototype places client operations in page-delivered JavaScript and CDN operations in serverless edge code, so deployment changes the website's login page and origin processing but not browser or CDN infrastructure.",
+      "source_ids": [
+        "src-nsdi25-pdf-ce1ed3be"
+      ],
+      "locator": "PDF pp. 3, 5, and 11 (paper pp. 1400, 1402, and 1408); §1, §2.4, and §7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-pdf-ce1ed3be",
+      "url": "https://www.usenix.org/system/files/nsdi25-lin-shihan.pdf",
+      "kind": "paper-pdf",
+      "title": "PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:27:14Z",
+      "content_hash": "sha256:9165992db116dc9d7c23d95150174494b88cb3179d07303981e9b7e254868fe3",
+      "official": true,
+      "supports": [
+        "abstract, introduction, threat model, design, protocol, security analysis, implementation, evaluation, discussion, and conclusion",
+        "central mechanism, trust and deployment assumptions, baselines, and author-reported quantitative results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e4",
+    "updated_at": "2026-07-30T03:44:52Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.4, §§3.1–3.5, §4.1, §§5–9, §11, and Appendix §D; inspected Figures 2–7 and 11 and Table 1 where needed.",
+      "Checked the passive-CDN threat model, registration and origin trust assumptions, deployment path, protocol rounds, baselines, attack rates, throughput, CPU, and latency conditions directly against the PDF.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:33:42Z",
+    "last_verified_at": "2026-07-30T03:44:52Z",
+    "collector_version": "agent-e4-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

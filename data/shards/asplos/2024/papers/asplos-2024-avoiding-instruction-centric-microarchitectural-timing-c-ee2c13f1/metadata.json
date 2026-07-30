@@ -1,0 +1,228 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-avoiding-instruction-centric-microarchitectural-timing-c-ee2c13f1",
+  "title": "Avoiding Instruction-Centric Microarchitectural Timing Channels Via Binary-Code Transformations",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2B: Side Channels",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Michael Flanders",
+      "position": 1,
+      "orcid": "0000-0002-2004-492X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640400"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Reshabh K Sharma",
+      "position": 2,
+      "orcid": "0009-0004-2678-9190",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640400"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alexandra E. Michael",
+      "position": 3,
+      "orcid": "0000-0002-0305-5424",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640400"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dan Grossman",
+      "position": 4,
+      "orcid": "0009-0005-2111-1900",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640400"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Kohlbrenner",
+      "position": 5,
+      "orcid": "0009-0000-9121-9734",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640400"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640400",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640400",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640400",
+    "artifact": "https://doi.org/10.5281/zenodo.10594315",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/hia4ZnbdPr8",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640400",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640400",
+      "kind": "crossref",
+      "title": "Avoiding Instruction-Centric Microarchitectural Timing Channels Via Binary-Code Transformations",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:ae09ca760db3c9ff3deaea1cc1fddba3ca39bcc907a251fb9920a7886573b2a0",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640400",
+      "url": "https://www.semanticscholar.org/paper/5e2414084dcea088375450e14ca9c56547157d61",
+      "kind": "semantic-scholar",
+      "title": "Avoiding Instruction-Centric Microarchitectural Timing Channels Via Binary-Code Transformations",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:dbe96974b8970d282ed127ce74c8b633beb6c183e197bbb8cf3165b01465a565",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10594315",
+      "url": "https://zenodo.org/records/10594315",
+      "kind": "artifact-page",
+      "title": "Avoiding Instruction-Centric Microarchitectural Timing Channels Via Binary-Code Transformations",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:f3094680807de12e13d29b0c60236123509cefd062b02bf27359d6b3d7936f66",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

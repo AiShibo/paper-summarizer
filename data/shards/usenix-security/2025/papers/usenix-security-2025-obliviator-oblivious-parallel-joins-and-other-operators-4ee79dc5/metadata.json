@@ -1,0 +1,176 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-obliviator-oblivious-parallel-joins-and-other-operators-4ee79dc5",
+  "title": "OBLIVIATOR: OBLIVIous Parallel Joins and other OperATORs in Shared Memory Environments",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Crypto 5: HE, MPC, Oblivious Computation",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Apostolos Mavrogiannakis",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Cruz",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1d46cffa91979244-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xian Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1d46cffa91979244-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ioannis Demertzis",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Cruz",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1d46cffa91979244-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dimitrios Papadopoulos",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1d46cffa91979244-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minos N. Garofalakis",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ATHENA Research Center and Technical University of Crete",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1d46cffa91979244-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/mavrogiannakis",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-mavrogiannakis.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {308112,\nauthor = {Apostolos Mavrogiannakis and Xian Wang and Ioannis Demertzis and Dimitrios Papadopoulos and Minos Garofalakis},\ntitle = {{OBLIVIATOR}: {OBLIVIous} Parallel Joins and other {OperATORs} in Shared Memory Environments},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {8521--8540},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/mavrogiannakis},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-fdc888b9ad9d9428-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-1d46cffa91979244-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/mavrogiannakis",
+      "kind": "paper-page",
+      "title": "OBLIVIATOR: OBLIVIous Parallel Joins and other OperATORs in Shared Memory Environments",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

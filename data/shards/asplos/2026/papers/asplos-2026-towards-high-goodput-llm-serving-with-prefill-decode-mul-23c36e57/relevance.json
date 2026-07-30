@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-towards-high-goodput-llm-serving-with-prefill-decode-mul-23c36e57",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: “Towards High-Goodput LLM Serving with Prefill-decode Multiplexing” is an implemented and evaluated LLM-serving runtime and scheduling mechanism, not an ML-only algorithm.",
+  "topics": [
+    "ml-systems",
+    "inference-systems",
+    "model-serving",
+    "llm-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790236",
+      "url": "https://www.semanticscholar.org/paper/b685bfbc1516b1eb759b58dac35692033226db5a",
+      "kind": "semantic-scholar",
+      "title": "Towards High-Goodput LLM Serving with Prefill-decode Multiplexing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:474d0d2e6c09d4bb4cd31c882b088845818a779bc44cd0dd10788e6f7635d6d8",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

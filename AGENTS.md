@@ -1,0 +1,61 @@
+# Agent collaboration rules
+
+These rules apply to every delegated task in this repository.
+
+## Read before editing
+
+Read:
+
+1. `docs/data-layout.md`
+2. `docs/paper-field-map.md`
+3. `docs/agent-workflow.md`
+4. your assigned brief under `coordination/tasks/`
+5. the policy document relevant to your role
+6. the JSON Schema for every file you will write
+
+If no exact task brief or paper/venue assignment was provided, do not choose a
+scope yourself. Ask the coordinator for a bounded assignment.
+
+## Ownership boundary
+
+- Work only in the venue/year shards and stage files assigned to you.
+- Add one claim file at `coordination/claims/<agent-id>.json`.
+- Never edit another agent's claim file.
+- Never edit `coordination/tasks/ownership.json`; it is coordinator-owned.
+- Never edit `data/database.sqlite`, `data/exports/`, or `site/data/papers.json`
+  directly. Those are merger-generated artifacts.
+- Never edit the root venue-year manifest during collection. Update the
+  `venue-year.json` inside your assigned shard; the merger regenerates the
+  root manifest.
+- Use one directory per paper and one JSON file per stage.
+- Do not combine multiple papers in one hand-edited JSON file.
+- Do not rename a paper ID after another stage has referenced it. Record a
+  proposed alias in the review queue instead.
+- Do not write permanent PDF copies into the repository.
+
+## Stage ownership
+
+| File | Normal owner |
+| --- | --- |
+| `venue-year.json` | venue collector |
+| `metadata.json` | venue collector |
+| `relevance.json` | relevance classifier |
+| `summary.json` | summary writer |
+| `groups.json` | faculty/lab resolver |
+| `awards.json` | award verifier |
+| `review.json` | independent reviewer |
+
+If a task needs a correction in a file owned by another role, add an issue to
+`review.json` or `data/review_queue/<agent-id>/`; do not silently rewrite it.
+
+## Before handoff
+
+Run:
+
+```sh
+make check
+```
+
+Report the exact shards changed, sources used, unresolved fields, and validation
+profile that passed. A summary writer must not approve their own summary in
+`review.json`.

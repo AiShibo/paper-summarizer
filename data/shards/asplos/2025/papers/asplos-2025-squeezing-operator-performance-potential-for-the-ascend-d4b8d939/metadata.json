@@ -1,0 +1,476 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-squeezing-operator-performance-potential-for-the-ascend-d4b8d939",
+  "title": "Squeezing Operator Performance Potential for the Ascend Architecture",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 2C: Accelerators",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuhang Zhou",
+      "position": 1,
+      "orcid": "0000-0003-1735-6014",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhibin Wang",
+      "position": 2,
+      "orcid": "0000-0001-9204-4075",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guyue Liu",
+      "position": 3,
+      "orcid": "0009-0001-4933-0276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shipeng Li",
+      "position": 4,
+      "orcid": "0009-0005-7806-456X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Lin",
+      "position": 5,
+      "orcid": "0009-0006-2284-6842",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zibo Wang",
+      "position": 6,
+      "orcid": "0009-0009-0499-5328",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongzhong Wang",
+      "position": 7,
+      "orcid": "0009-0001-9311-3674",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fuchun Wei",
+      "position": 8,
+      "orcid": "0009-0000-8244-7241",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingyi Zhang",
+      "position": 9,
+      "orcid": "0000-0003-1909-6332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiheng Hu",
+      "position": 10,
+      "orcid": "0009-0004-7821-070X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanlin Liu",
+      "position": 11,
+      "orcid": "0009-0008-7030-1307",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunsheng Li",
+      "position": 12,
+      "orcid": "0009-0005-3351-2509",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyang Zhang",
+      "position": 13,
+      "orcid": "0000-0001-9543-2567",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yaoyuan Wang",
+      "position": 14,
+      "orcid": "0000-0003-1060-4898",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Zhou",
+      "position": 15,
+      "orcid": "0000-0002-9311-364X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shandong University, Jinan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wanchun Dou",
+      "position": 16,
+      "orcid": "0000-0003-4833-2023",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University, State Key Laboratory for Novel Software Technology, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guihai Chen",
+      "position": 17,
+      "orcid": "0000-0002-6934-1685",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University, State Key Laboratory for Novel Software Technology, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Tian",
+      "position": 18,
+      "orcid": "0000-0003-2710-7628",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University, State Key Laboratory for Novel Software Technology, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716243"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716243",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716243",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716243",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716243",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716243",
+      "kind": "crossref",
+      "title": "Squeezing Operator Performance Potential for the Ascend Architecture",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:75adc078f6b01ba68248d52a1922b91388ed544dd268793cf929599dbbc34696",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716243",
+      "url": "https://www.semanticscholar.org/paper/d5b55cc9dfc35ceee1c842fe747294f147d929a8",
+      "kind": "semantic-scholar",
+      "title": "Squeezing Operator Performance Potential for the Ascend Architecture",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:7d0feb8cb24a6569c1b8207be0243a00853ca7ce8583cd43700370aa816a79a7",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

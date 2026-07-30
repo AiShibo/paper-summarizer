@@ -1,0 +1,349 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-stealing-maggie-s-secrets-on-the-challenges-of-ip-theft-8b3f71b7",
+  "title": "Stealing Maggie's Secrets-On the Challenges of IP Theft Through FPGA Reverse Engineering",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Simon Klix",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nils Albartus",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Julian Speith",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Paul Staat",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alice Verstege",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Annika Wilde",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum (RUB)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Lammers",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum (RUB)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jörn Langheinrich",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christian Kison",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Bundeskriminalamt (BKA)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sebastian Sester-Wehle",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Bundeskriminalamt (BKA)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel E. Holcomb",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UMass Amherst",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christof Paar",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy (MPI-SP)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3c8ef39e241083cd-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3690235",
+    "official_page": "https://doi.org/10.1145/3658644.3690235",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690235",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-3c8ef39e241083cd-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-a96a88a3e9dec111-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690235",
+      "kind": "publisher-page",
+      "title": "Stealing Maggie's Secrets-On the Challenges of IP Theft Through FPGA Reverse Engineering",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-6345e4ccc6221992-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/KlixASSVWLLKSHP24",
+      "kind": "dblp",
+      "title": "Stealing Maggie's Secrets-On the Challenges of IP Theft Through FPGA Reverse Engineering",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-a9e46d4a29f4ad0f-abstract",
+      "url": "https://openalex.org/W4405181304",
+      "kind": "openalex",
+      "title": "Stealing Maggie's Secrets-On the Challenges of IP Theft Through FPGA Reverse Engineering",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

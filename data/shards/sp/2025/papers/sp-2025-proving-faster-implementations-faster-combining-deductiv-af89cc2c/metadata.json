@@ -1,0 +1,284 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-proving-faster-implementations-faster-combining-deductiv-af89cc2c",
+  "title": "Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt",
+  "venue": "sp",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-05-01",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "José Bacelar Almeida",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Minho and INESC TEC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gustavo Xavier Delerue Marinho Alves",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) and INESC TEC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Manuel Barbosa",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) and INESC TEC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilles Barthe",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luís Esquível",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) and INESC TEC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vincent Hwang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tiago Oliveira",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SandboxAQ",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hugo Pacheco",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) and INESC TEC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Schwabe",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pierre-Yves Strub",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "PQShield",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-36f8d87ccfe2e207-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp61157.2025.00214",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600d526/26hiVyFN8o8",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/26hiVyFN8o8/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-1bb859df6681fa78-program",
+      "url": "https://www.sp2025.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2025 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-36f8d87ccfe2e207-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600d526/26hiVyFN8o8",
+      "kind": "publisher-page",
+      "title": "Faster Verification of Faster Implementations: Combining Deductive and Circuit-Based Reasoning in EasyCrypt",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, authors, affiliations, abstract, publication date, pages, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page.",
+      "The accepted-program title is canonical; the publisher title differs."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "title (accepted program differs from publisher proceedings)"
+    ]
+  }
+}

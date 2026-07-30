@@ -1,0 +1,317 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-pim-dl-expanding-the-applicability-of-commodity-dram-pim-fa9d3704",
+  "title": "PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6B: Processing-In-Memory (PIM) for ML",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Cong Li",
+      "position": 1,
+      "orcid": "0000-0001-7760-3254",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Zhou",
+      "position": 2,
+      "orcid": "0000-0001-7929-8054",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, School of Computer Science, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Wang",
+      "position": 3,
+      "orcid": "0000-0001-7322-4062",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Yang",
+      "position": 4,
+      "orcid": "0009-0002-9658-3062",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nankai University, Tianjin, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ting Cao",
+      "position": 5,
+      "orcid": "0000-0002-9107-013X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mao Yang",
+      "position": 6,
+      "orcid": "0009-0009-6455-3898",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yun Liang",
+      "position": 7,
+      "orcid": "0000-0002-9076-7998",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing Advanced Innovation Center for Integrated Circuits, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guangyu Sun",
+      "position": 8,
+      "orcid": "0000-0002-7315-6589",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing Advanced Innovation Center for Integrated Circuits, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640376"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640376",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640376",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640376",
+    "artifact": "https://doi.org/10.5281/zenodo.10531532",
+    "code": "https://github.com/leesou/PIM-DL-ASPLOS",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/Vgq2P4UQSDs",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640376",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640376",
+      "kind": "crossref",
+      "title": "PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:721dc3a1aedd9c3583f744d254cce8a2974f5a55b9f89b9a020f844871bcbbab",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640376",
+      "url": "https://www.semanticscholar.org/paper/c7d03687018cf27035bc0e924b746695ac96e5f1",
+      "kind": "semantic-scholar",
+      "title": "PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:91581d2cd1d20a4dfa03eb61ddccce31b810f3f49681112796010bc0db768af9",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10531532",
+      "url": "https://zenodo.org/records/10531532",
+      "kind": "artifact-page",
+      "title": "PIM-DL-ASPLOS",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:85751e5265a932de13d9ca8aca85cae46bd48bc9b556c106ba896df43ce56f3d",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

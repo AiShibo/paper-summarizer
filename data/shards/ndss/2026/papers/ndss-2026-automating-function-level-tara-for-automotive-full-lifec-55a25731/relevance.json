@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-automating-function-level-tara-for-automotive-full-lifec-55a25731",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a concrete program-analysis, vulnerability-discovery, or security-testing artifact with material software-systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-2af901292aa4c304-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+      "kind": "paper-page",
+      "title": "Automating Function-Level TARA for Automotive Full-Lifecycle Security",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:59e05b1040880b86725b9aefe9d6e6c94fd5967014ba5991156923d75371e2cb",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

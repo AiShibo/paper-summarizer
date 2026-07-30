@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agents-e1-e7-calibration-review-standby-2026-07-30",
+  "issued_at": "2026-07-30T04:13:56Z",
+  "issued_by": "coordinator",
+  "target_agents": [
+    "agent-e1",
+    "agent-e2",
+    "agent-e3",
+    "agent-e4",
+    "agent-e5",
+    "agent-e6",
+    "agent-e7"
+  ],
+  "status": "OPEN",
+  "action": "STANDBY_PENDING_INDEPENDENT_CALIBRATION_REVIEW",
+  "reason": "All 35 calibration summaries are READY_FOR_REVIEW. The accuracy policy forbids larger assignments until independent source-based review accepts each writer's calibration.",
+  "instructions": [
+    "Keep each calibration claim at COMPLETE.",
+    "Do not claim or summarize additional papers.",
+    "Do not edit a completed summary unless an independent reviewer assigns a specific issue.",
+    "For a returned issue, reopen the official PDF, correct only the assigned summary.json, document the resolution, and return it to READY_FOR_REVIEW.",
+    "Never approve your own summary and never edit another writer's files.",
+    "Wait for the coordinator to issue a new batch only after calibration acceptance."
+  ]
+}

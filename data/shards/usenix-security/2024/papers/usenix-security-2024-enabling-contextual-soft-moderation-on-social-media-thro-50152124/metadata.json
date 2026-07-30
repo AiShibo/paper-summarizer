@@ -1,0 +1,178 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-enabling-contextual-soft-moderation-on-social-media-thro-50152124",
+  "title": "Enabling Contextual Soft Moderation on Social Media through Contrastive Textual Deviation",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "Social Issues III: Social Media Platform",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Pujan Paudel",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a41895aa2f9205aa-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Hammas Saeed",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a41895aa2f9205aa-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rebecca Auger",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a41895aa2f9205aa-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chris Wells",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a41895aa2f9205aa-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gianluca Stringhini",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a41895aa2f9205aa-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/paudel-enabling",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity24-paudel-enabling.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {298264,\nauthor = {Pujan Paudel and Mohammad Hammas Saeed and Rebecca Auger and Chris Wells and Gianluca Stringhini},\ntitle = {Enabling Contextual Soft Moderation on Social Media through Contrastive Textual Deviation},\nbooktitle = {33rd USENIX Security Symposium (USENIX Security 24)},\nyear = {2024},\nisbn = {978-1-939133-44-1},\naddress = {Philadelphia, PA},\npages = {4409--4426},\nurl = {https://www.usenix.org/conference/usenixsecurity24/presentation/paudel-enabling},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-e42eb2a29233845b-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-a41895aa2f9205aa-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/paudel-enabling",
+      "kind": "paper-page",
+      "title": "Enabling Contextual Soft Moderation on Social Media through Contrastive Textual Deviation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

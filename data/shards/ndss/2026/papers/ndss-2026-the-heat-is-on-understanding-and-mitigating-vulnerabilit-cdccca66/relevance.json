@@ -1,0 +1,49 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-the-heat-is-on-understanding-and-mitigating-vulnerabilit-cdccca66",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "defense"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-e3131f7127be2d75-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "kind": "paper-page",
+      "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:7a41141e9b07ff1aa5928dc75e19c3be7e7851f819529df951ec03b195486033",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-skynet-analyzing-alert-flooding-from-severe-network-fail-274006f2",
+  "takeaway": "SkyNet standardizes multi-source alerts, clusters them by a hierarchical network map and time window, and ranks incidents by traffic and customer impact for human mitigation.",
+  "background": "Large cloud networks combine ping, telemetry, device logs, routing monitors, and many other signals. Each tool covers different failure modes, so broad monitoring requires combining them, especially for rare failures that have no known operational playbook.",
+  "villain": "A severe failure can trigger thousands of heterogeneous alerts while unrelated glitches continue. Single-source tools miss failures, rule-based diagnosis cannot cover unprecedented events, and operators can overlook the few actionable signals or prioritize the most conspicuous rather than the most damaging incident.",
+  "approach": "SkyNet converts alerts from many tools into a common timestamp-location-type format, deduplicates and combines them, and classifies them as failure, abnormal, or root-cause alerts. It groups nearby alerts within a hierarchical WAN/datacenter location tree and fixed time windows, optionally zooms in using reachability, sFlow, or in-band telemetry, then ranks incident trees using packet loss, broken capacity, duration, and affected-customer importance.",
+  "impact": "SkyNet supplies operators with scoped and prioritized evidence rather than claiming automatic diagnosis of unknown failures. Production case studies and before/after records associate deployment with substantially faster mitigation, while known simple failures remain handled by separate automatic SOP rules.",
+  "evaluation": {
+    "overview": "The paper ablates monitoring sources, preprocessing, incident thresholds, and severity filtering on production alerts, reports false positives and negatives using operator labels, compares mitigation records before and after deployment, and presents four operational cases.",
+    "implemented": "A production stream-processing service with a uniform alert preprocessor, a hierarchical incident-tree locator, telemetry-assisted location zoom-in, a heuristic severity evaluator, and an operator-facing visualization. It coexists with a separate rule-based automatic-mitigation system.",
+    "setting": "Alibaba Cloud’s global WAN and 89 datacenters span 29 regions and approximately 100,000 network devices. The evaluation uses about 18 months of alerts from more than ten monitoring tools. Performance runs use one server with a 96-core Intel Xeon Platinum 8260 at 2.40 GHz and 32 GB RAM; mitigation statistics cover nine months and approximately ten failures.",
+    "baselines": [
+      "Operational mitigation before SkyNet",
+      "SkyNet with progressively fewer monitoring data sources",
+      "Alert counting by type and location instead of type alone",
+      "Incident-threshold variants",
+      "Locator without preprocessing",
+      "All detected incidents before severity filtering"
+    ],
+    "results": [
+      {
+        "id": "claim-skynet-detection-accuracy",
+        "text": "On operator-labeled production incidents, the deployed thresholds—two failure-alert types, one failure plus two other types, or five types of any class—produced zero false negatives and under 20% false positives.",
+        "source_ids": [
+          "src-sigcomm25-skynet-pdf-274006f2"
+        ],
+        "locator": "§6.3, Figure 9"
+      },
+      {
+        "id": "claim-skynet-mitigation-time",
+        "text": "Across approximately ten failures during the nine-month mitigation study, both median and maximum mitigation time after SkyNet deployment were more than 80% lower than in the paper’s pre-deployment records.",
+        "source_ids": [
+          "src-sigcomm25-skynet-pdf-274006f2"
+        ],
+        "locator": "§6.4, Figure 10(c)"
+      }
+    ],
+    "study_types": [
+      "production-deployment",
+      "measurement-study"
+    ]
+  },
+  "limitations": "SkyNet depends on broad, well-structured monitoring coverage, an accurate provider-specific location hierarchy, traffic measurements, and customer-importance data; removing sources increases missed failures. Its alert classes, aggregation rules, time windows, incident thresholds, and severity cutoff are experience-based, so transfer to another network requires retuning. Grouping correlated alerts does not itself prove root cause, and severe failures still rely on human diagnosis and mitigation. Accuracy and before/after mitigation results use operator labels and a small, non-randomized set of rare production failures, with absolute incident counts withheld.",
+  "phd_group_signal": "The work shows how operational systems research can turn messy multi-source telemetry into a bounded human interface: normalize semantics, exploit physical hierarchy, tune explicitly auditable heuristics, and evaluate missed incidents rather than only throughput.",
+  "beginner_concepts": [
+    "alert correlation",
+    "network incident hierarchy",
+    "false positives and false negatives",
+    "root-cause versus symptom alerts",
+    "reachability matrix",
+    "incident severity ranking"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-skynet-mechanism",
+      "text": "SkyNet normalizes and consolidates alerts, counts distinct alert types in connected subtrees of a provider hierarchy, creates incident trees using fixed class thresholds and timeouts, refines locations with packet-loss telemetry, and ranks incidents from capacity, loss, duration, and customer-impact data.",
+      "source_ids": [
+        "src-sigcomm25-skynet-pdf-274006f2"
+      ],
+      "locator": "§3, Figures 5–6; §§4.1–4.3, Algorithms 1–3 and Equations 1–3"
+    },
+    {
+      "id": "claim-skynet-operating-boundary",
+      "text": "SkyNet is an analysis and prioritization layer over existing monitors: it can expose evidence for unprecedented severe failures but does not automatically infer their root cause, while a separate heuristic SOP system mitigates only matched, known cases.",
+      "source_ids": [
+        "src-sigcomm25-skynet-pdf-274006f2"
+      ],
+      "locator": "§§2.2–2.5; §5.1; §7.2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-skynet-pdf-274006f2",
+      "url": "https://backend.production.deepblue-documents.lib.umich.edu/server/api/core/bitstreams/09824ccd-a681-4ec4-be2e-780730421884/content",
+      "kind": "paper-pdf",
+      "title": "SkyNet: Analyzing Alert Flooding from Severe Network Failures in Large Cloud Infrastructures",
+      "publisher": "University of Michigan Deep Blue (author-deposited ACM version of record)",
+      "retrieved_at": "2026-07-30T04:03:46Z",
+      "content_hash": "sha256:ae5faf885911a84104f0d370862d426d870dd3264ae64c0b4e5cf2770f3f11be",
+      "official": true,
+      "supports": [
+        "abstract, motivation, architecture, preprocessing, incident localization, severity evaluation, deployment cases, production evaluation, lessons, and conclusion",
+        "global-network scale, monitoring dependencies, time and threshold assumptions, human-operator boundary, accuracy methodology, and before/after evaluation caveats"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e5",
+    "updated_at": "2026-07-30T04:03:46Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–3; §§4.1–4.3 including Algorithms 1–3; §§5.1–5.2; §§6.1–6.4 including Figures 8–10; §§7.1–7.3; and §9.",
+      "The summary preserves the multi-source and hierarchy dependencies, fixed timeout/threshold assumptions, human-mitigation boundary, rare-event sample size, production hardware, and before/after rather than controlled baseline."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:03:46Z",
+    "last_verified_at": "2026-07-30T04:03:46Z",
+    "collector_version": "agent-e5-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

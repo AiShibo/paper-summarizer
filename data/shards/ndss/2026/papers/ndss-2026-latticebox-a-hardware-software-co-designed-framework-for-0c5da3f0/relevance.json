@@ -1,0 +1,65 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-latticebox-a-hardware-software-co-designed-framework-for-0c5da3f0",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "virtualization-and-isolation",
+    "isolation",
+    "computer-architecture",
+    "hardware-security",
+    "compilers-languages-and-runtimes",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime",
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-d59e6287bb7c1b9a-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/",
+      "kind": "paper-page",
+      "title": "LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:1698f158a0c4af8e449895cf8fbac82d73d02c17e704886663f2f0e85e415e46",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sigcomm",
+  "year": 2026,
+  "official_conference_url": "https://conferences.sigcomm.org/sigcomm/2026/",
+  "official_program_url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+  "conference_dates": {
+    "start": "2026-08-17",
+    "end": "2026-08-21"
+  },
+  "collection_status": "PARTIAL",
+  "counts": {
+    "main_track": 109,
+    "core_systems": 0,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 109
+  },
+  "sources": [
+    {
+      "id": "src-sigcomm26-conference",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2026",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:afc6d60593e0fcd546574d38f7223db4332742d9f7c041cf93b6fd8f5dfa38e6",
+      "official": true,
+      "supports": [
+        "official conference identity, dates, and status"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Technical Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:c777f09d5ce92d6d4b806c719af5abcacf51405e649781ef80c4b53a32c32c3e",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-accepted",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Accepted Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:76cf694b97a3427e51e3d223497c1d478493d748f36d34b91a6f935370af50ed",
+      "official": true,
+      "supports": [
+        "109 identifiable accepted-paper title and author rows",
+        "accepted-page statement that 110 papers were accepted",
+        "Research Paper and Experience Paper labels"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-overview",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/overview/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Program Overview",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:8bcb23fc87eae138dab963b4766c2de7cdbbdf4a273a8c5382c18217aee9ba3e",
+      "official": true,
+      "supports": [
+        "program schedule and non-main category boundaries",
+        "conference dates"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-cfp",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2026 Call for Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:79e613828d1df7966d20fa9e77f2118e1cb91a63086bfa383f3bb627c8b4f001",
+      "official": true,
+      "supports": [
+        "official main-paper scope and track definitions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Staged the 109 unique archival main-track paper identities exposed by the official accepted-paper table and reconciled them one-to-one with the detailed program: 85 Research Papers and 24 Experience Papers.",
+      "The accepted-paper page states that 110 papers were accepted but enumerates only 109 unique title-and-author rows; the omitted paper identity is unresolved, so collection_status is PARTIAL and no record was invented.",
+      "Proceedings, official paper pages, abstracts, DOI metadata, and paper PDFs were not available from the checked official conference sources.",
+      "The non-main program audit found two Best of CCR paper placeholders, zero SIGCOMM Shorts, and one sponsored Meta session; these are excluded from the 109 main-track count and have no paper bundles.",
+      "The counts.excluded field is the relevance-excluded main-track count (zero), not the separate non-main program audit count."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "identity of the accepted paper omitted from the official 109-row table despite the page's stated total of 110",
+      "complete proceedings",
+      "official per-paper pages, abstracts, PDFs, DOI metadata, page counts, and publication dates"
+    ]
+  }
+}

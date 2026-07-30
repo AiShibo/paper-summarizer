@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-side-channel-attacks-on-open-vswitch-dd30f23d",
+  "title": "Side-Channel Attacks on Open vSwitch",
+  "venue": "usenix-security",
+  "year": 2026,
+  "track_or_session": "Network Security 4",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "PARTIAL",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Daewoo Kim",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Waterloo",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ecac61a91b8e22e0-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sihang Liu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Waterloo",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ecac61a91b8e22e0-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo",
+    "official_pdf": "https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_kim-daewoo.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-d60035b712e35ca7-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6d229325c208efb8e2d6df006bcccac10df1e7421c4465667ac1dd01198eff8f",
+      "official": true,
+      "supports": [
+        "represented main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-ecac61a91b8e22e0-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo",
+      "kind": "paper-page",
+      "title": "Side-Channel Attacks on Open vSwitch",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:5b2deb352433982f38dc572f7934f4a14b25e784d442f288b6caa94b4b22fffb",
+      "official": true,
+      "supports": [
+        "official title, published-order authors and affiliations, and session",
+        "official abstract used for relevance screening",
+        "prepublication PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page.",
+      "Final proceedings metadata is pending; the official program record is retained."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count",
+      "publication_date",
+      "links.doi"
+    ]
+  }
+}

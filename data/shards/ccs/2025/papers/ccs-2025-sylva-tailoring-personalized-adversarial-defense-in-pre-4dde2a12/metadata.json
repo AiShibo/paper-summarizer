@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-sylva-tailoring-personalized-adversarial-defense-in-pre-4dde2a12",
+  "title": "Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tianyu Qi",
+      "position": 1,
+      "orcid": "0000-0001-5484-985X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57a471964e499abc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Xue",
+      "position": 2,
+      "orcid": "0000-0001-5321-5740",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57a471964e499abc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yufeng Zhan",
+      "position": 3,
+      "orcid": "0000-0002-4528-1489",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing Institute of Technology, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57a471964e499abc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaobo Ma",
+      "position": 4,
+      "orcid": "0000-0002-0934-5035",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Xi'an Jiaotong University, Xi'an, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57a471964e499abc-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3744805",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3744805",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3744805",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-663da812ce530e75-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-1b6fba735bd6de43-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744805",
+      "kind": "publisher-page",
+      "title": "Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-57a471964e499abc-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744805",
+      "kind": "crossref",
+      "title": "Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

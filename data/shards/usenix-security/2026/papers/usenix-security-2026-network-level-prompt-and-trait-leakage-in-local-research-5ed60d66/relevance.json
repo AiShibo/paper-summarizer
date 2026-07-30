@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-network-level-prompt-and-trait-leakage-in-local-research-5ed60d66",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a network security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "networking",
+    "network-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "dataset",
+    "language-or-api",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-95b98a81d16bf505-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jeong",
+      "kind": "paper-page",
+      "title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:dfd7934e31dcdaa304510df4c25f3b8547a752b5484b97c7d2e1d7b50ef60db1",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

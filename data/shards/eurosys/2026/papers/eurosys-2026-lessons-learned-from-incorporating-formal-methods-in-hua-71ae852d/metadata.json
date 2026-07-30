@@ -1,0 +1,363 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2026-lessons-learned-from-incorporating-formal-methods-in-hua-71ae852d",
+  "title": "Lessons Learned from Incorporating Formal Methods in Huawei Cloud Reliability",
+  "venue": "eurosys",
+  "year": 2026,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2026-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Claudia Cauli",
+      "position": 1,
+      "orcid": "0009-0001-0029-7938",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Timo Lang",
+      "position": 2,
+      "orcid": "0000-0002-8257-968X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuo Chen",
+      "position": 3,
+      "orcid": "0009-0009-7128-8359",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sebti Mouelhi",
+      "position": 4,
+      "orcid": "0000-0001-5808-5631",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Jin",
+      "position": 5,
+      "orcid": "0009-0004-3005-4330",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Subhajit Bandopadhyay",
+      "position": 6,
+      "orcid": "0000-0003-2107-1732",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xusheng Chen",
+      "position": 7,
+      "orcid": "0009-0004-7344-7505",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yazhi Feng",
+      "position": 8,
+      "orcid": "0000-0003-4606-8126",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoze Song",
+      "position": 9,
+      "orcid": "0009-0000-5952-5168",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Linhua Tang",
+      "position": 10,
+      "orcid": "0000-0002-8958-756X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenli Sheng",
+      "position": 11,
+      "orcid": "0009-0007-9127-1496",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Shenzhen, Guangdong, China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ananth Shrinivas Srinath",
+      "position": 12,
+      "orcid": "0009-0005-8502-7740",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd, Ireland",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3767295.3803626",
+    "official_page": "https://dl.acm.org/doi/10.1145/3767295.3803626",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3767295.3803626",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2026-program",
+      "url": "https://2026.eurosys.org/papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:6ca604bb4ca627fc704c9f3cc3f0323946ce5a2c145bf453361ad61d4933fa8c",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3767295",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 21st European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2026.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2026",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:bd74c8afb3a1cbbf365cdca17145ed7698e3acd0b4664d63f88c10843024fbfa",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official conference list."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-publisher-metadata",
+      "url": "https://api.crossref.org/works/10.1145%2F3767295",
+      "kind": "crossref",
+      "title": "Publisher-deposited metadata for the EuroSys 2026 proceedings",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:e1570741a739d3e6bc8249956df27e219d644d9d67c75c0c11d1b052270f276c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited proceedings identity and print publication date."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official final-paper list was reconciled one-to-one with all 138 DBLP proceedings records and DOI links.",
+      "The ACM PDF endpoint is derived from the verified official DOI; ACM returned an automated-access response during link auditing.",
+      "The official site did not publish a detailed paper-session program, so track_or_session remains null."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

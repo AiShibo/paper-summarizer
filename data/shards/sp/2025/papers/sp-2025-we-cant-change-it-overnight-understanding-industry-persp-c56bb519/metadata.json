@@ -1,0 +1,116 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-we-cant-change-it-overnight-understanding-industry-persp-c56bb519",
+  "title": "“We can’t change it overnight”: Understanding Industry Perspectives on IoT Product Security Compliance and Certification",
+  "venue": "sp",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-05-01",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Prianka Mandal",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "William & Mary",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-77c20ae39ffeaf95-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adwait Nadkarni",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "William & Mary",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-77c20ae39ffeaf95-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp61157.2025.00091",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a091/224Aon4Ntny",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/224Aon4Ntny/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eb9b15f2af586a4e-program",
+      "url": "https://www.sp2025.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2025 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-77c20ae39ffeaf95-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a091/224Aon4Ntny",
+      "kind": "publisher-page",
+      "title": "“We can't Change it Overnight”: Understanding Industry Perspectives on IoT Product Security Compliance and Certification",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, authors, affiliations, abstract, publication date, pages, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page.",
+      "The accepted-program title is canonical; the publisher title differs."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "title (accepted program differs from publisher proceedings)"
+    ]
+  }
+}

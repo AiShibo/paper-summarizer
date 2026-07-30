@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/research-group.schema.json",
+  "schema_version": "1.0.0",
+  "group_id": "group-uw-madison-adsl",
+  "name": "Advanced Systems Laboratory (ADSL)",
+  "official_url": "https://research.cs.wisc.edu/adsl/",
+  "group_kind": "academic",
+  "institution_id": "institution-university-wisconsin-madison",
+  "department_or_division": "Department of Computer Sciences",
+  "faculty_ids": [
+    "faculty-andrea-c-arpaci-dusseau",
+    "faculty-remzi-h-arpaci-dusseau"
+  ],
+  "research_topics": [],
+  "sources": [
+    {
+      "id": "src-uw-madison-adsl-official",
+      "url": "https://research.cs.wisc.edu/wind/Publications/",
+      "kind": "lab-page",
+      "title": "ADSL publications",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity",
+        "institutional affiliation",
+        "listed faculty leadership or membership where faculty_ids is non-empty"
+      ]
+    },
+    {
+      "id": "src-uw-madison-adsl-people",
+      "url": "https://research.cs.wisc.edu/wind/People/",
+      "kind": "lab-page",
+      "title": "ADSL people",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau listed as group faculty"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "faculty_ids contains only people directly supported by the cited official source; no PI was inferred from author order."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics"
+    ]
+  }
+}

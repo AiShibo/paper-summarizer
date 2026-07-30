@@ -1,0 +1,336 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-recom-a-compiler-approach-to-accelerate-recommendation-m-e1129c60",
+  "title": "RECom: A Compiler Approach to Accelerate Recommendation Model Inference with Massive Embedding Columns",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 9C: ML Systems and Optimizations",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zaifeng Pan",
+      "position": 1,
+      "orcid": "0000-0002-6759-2616",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China, Beijing, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhen Zheng",
+      "position": 2,
+      "orcid": "0009-0006-2692-713X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Zhang",
+      "position": 3,
+      "orcid": "0000-0003-1983-7321",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China, Beijing, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruofan Wu",
+      "position": 4,
+      "orcid": "0000-0001-6826-8108",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China, Beijing, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Liang",
+      "position": 5,
+      "orcid": "0000-0002-8097-4707",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dalin Wang",
+      "position": 6,
+      "orcid": "0009-0007-9016-8446",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China, Beijing, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiafei Qiu",
+      "position": 7,
+      "orcid": "0009-0008-8803-928X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junjie Bai",
+      "position": 8,
+      "orcid": "0009-0003-6805-4785",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wei Lin",
+      "position": 9,
+      "orcid": "0000-0002-3003-0150",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoyong Du",
+      "position": 10,
+      "orcid": "0000-0002-5757-9135",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China, Beijing, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624761"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624761",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624761",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624761",
+    "artifact": "https://doi.org/10.5281/zenodo.10068292",
+    "code": "https://github.com/AlibabaResearch/recom",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/GpNAL_qPdWs",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624761",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624761",
+      "kind": "crossref",
+      "title": "RECom: A Compiler Approach to Accelerate Recommendation Model Inference with Massive Embedding Columns",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:0c67d41e63e837b30264a38fff19ca4d44ab9edffae94c408e1d85bd285e2194",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624761",
+      "url": "https://www.semanticscholar.org/paper/09aa3b34765d30e7b71939dc2030d1411e43c9fa",
+      "kind": "semantic-scholar",
+      "title": "RECom: A Compiler Approach to Accelerating Recommendation Model Inference with Massive Embedding Columns",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:ef3c8f1c79fe16438a29dde010b6f842e5030d96df29d00d3c7ed0523b9a8a26",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10068292",
+      "url": "https://zenodo.org/records/10068292",
+      "kind": "artifact-page",
+      "title": "ASPLOS'23 Artifact - RECom",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:174aa1ec721d2470a90f165bd07c44a011e0aea9434ee369ef6ff37504948ade",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in punctuation, typography, or wording.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-efficient-lossless-compression-of-scientific-floating-po-787ccaf3",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because the paper contributes a concrete cross-platform scientific-data compression mechanism for efficient Lossless Compression of Scientific Floating-Point Data on CPUs and GPUs.",
+  "topics": [
+    "high-performance-computing",
+    "scientific-computing",
+    "storage-and-file-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware",
+    "storage"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707280",
+      "url": "https://www.semanticscholar.org/paper/285c3a0288072e6f719f25583a00dd3e0f724bdb",
+      "kind": "semantic-scholar",
+      "title": "Efficient Lossless Compression of Scientific Floating-Point Data on CPUs and GPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:9200e340ff8cf1837f80586cd171e7f448383c3cf2767684a750431ffd2ffb2f",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

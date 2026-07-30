@@ -1,0 +1,264 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-dream-a-dynamic-scheduler-for-dynamic-real-time-multi-mo-e76aa5d7",
+  "title": "DREAM: A Dynamic Scheduler for Dynamic Real-time Multi-model ML Workloads",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3C: ML Cluster Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Seah Kim",
+      "position": 1,
+      "orcid": "0000-0002-9581-1222",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hyoukjun Kwon",
+      "position": 2,
+      "orcid": "0000-0001-9824-1352",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinook Song",
+      "position": 3,
+      "orcid": "0009-0003-2871-913X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Sunnyvale, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jihyuck Jo",
+      "position": 4,
+      "orcid": "0000-0001-7456-5002",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Sunnyvale, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu-Hsin Chen",
+      "position": 5,
+      "orcid": "0000-0002-4403-956X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Sunnyvale, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liangzhen Lai",
+      "position": 6,
+      "orcid": "0000-0001-6421-5164",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Sunnyvale, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vikas Chandra",
+      "position": 7,
+      "orcid": "0009-0005-4996-8455",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Sunnyvale, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624753"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624753",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624753",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624753",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/jFvXiB-v2HI",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2212.03414",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624753",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624753",
+      "kind": "crossref",
+      "title": "DREAM: A Dynamic Scheduler for Dynamic Real-time Multi-model ML Workloads",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:42eedef24550718bc1c832343d3b5d35f9a6716e7b73713182c2bb8df15b650c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624753",
+      "url": "https://www.semanticscholar.org/paper/8ba75a1a0aa9fd1b2ccc178b9fb5fddf50e69062",
+      "kind": "semantic-scholar",
+      "title": "DREAM: A Dynamic Scheduler for Dynamic Real-time Multi-model ML Workloads",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:ed20523e9eace529d457540bdad0f347c9061382302fa30233e734696b85b205",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

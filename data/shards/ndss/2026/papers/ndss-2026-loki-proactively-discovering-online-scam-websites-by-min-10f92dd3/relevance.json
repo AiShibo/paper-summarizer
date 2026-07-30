@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-loki-proactively-discovering-online-scam-websites-by-min-10f92dd3",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a concrete program-analysis, vulnerability-discovery, or security-testing artifact with material software-systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-c92f3b41b5a8d784-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/loki-proactively-discovering-online-scams-by-mining-toxic-search-queries/",
+      "kind": "paper-page",
+      "title": "LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:39d9198944532d85913fc0b37d5ccdfec2d4e105500998ef46ccf581591b4542",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

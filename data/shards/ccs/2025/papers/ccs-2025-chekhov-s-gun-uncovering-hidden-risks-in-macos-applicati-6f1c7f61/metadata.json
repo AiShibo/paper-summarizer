@@ -1,0 +1,233 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-chekhov-s-gun-uncovering-hidden-risks-in-macos-applicati-6f1c7f61",
+  "title": "Chekhov's Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Minghao Lin",
+      "position": 1,
+      "orcid": "0009-0004-5776-4789",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Southern California, Los Angeles, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiaxun Zhu",
+      "position": 2,
+      "orcid": "0009-0005-4288-4590",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tingting Yin",
+      "position": 3,
+      "orcid": "0000-0003-1231-4050",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zechao Cai",
+      "position": 4,
+      "orcid": "0009-0008-8354-9985",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guanxing Wen",
+      "position": 5,
+      "orcid": "0009-0007-5388-7994",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Certified Kernel Tech LLC, New York, New York, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanan Guo",
+      "position": 6,
+      "orcid": "0000-0003-0034-0358",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Rochester, Rochester, New York, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengyuan Li",
+      "position": 7,
+      "orcid": "0009-0008-2721-4021",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Southern California, Los Angeles, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-2bd11aa580de30e3-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765205",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765205",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765205",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-5632f15bf7a3b9e7-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-b6299dc4f8ac35ed-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765205",
+      "kind": "publisher-page",
+      "title": "Chekhov's Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-2bd11aa580de30e3-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765205",
+      "kind": "crossref",
+      "title": "Chekhov's Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

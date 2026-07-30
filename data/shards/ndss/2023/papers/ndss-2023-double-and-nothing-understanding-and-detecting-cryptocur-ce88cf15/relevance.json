@@ -1,0 +1,56 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-double-and-nothing-understanding-and-detecting-cryptocur-ce88cf15",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements CryptoScamTracker and applies it to a large-scale longitudinal measurement of cryptocurrency giveaway scams.",
+  "topics": [
+    "systems-security",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-0b6e61a2d2173ed2-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/double-and-nothing-understanding-and-detecting-cryptocurrency-giveaway-scams/",
+      "kind": "paper-page",
+      "title": "Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

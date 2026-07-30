@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-your-keywords-know-each-other-breaking-sse-with-1-leaked-73374ff4",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper technically analyzes, attacks, or defends deployed network infrastructure and therefore has material systems relevance.",
+  "topics": [
+    "network-security",
+    "networking",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-cc4405acf0d6de1e-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu",
+      "kind": "paper-page",
+      "title": "Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:c7e6423d1b6468860b8f4406be434f75bc2f0f71bab22dabc166013211242e5d",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-engaging-company-developers-in-security-research-studies-5cb1ac3a",
+  "title": "Engaging Company Developers in Security Research Studies: A Comprehensive Literature Review and Quantitative Survey",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "User Studies IV: Policies and Best Practices I",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Raphael Serafini",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f737f8ca62c5f03d-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stefan Albert Horstmann",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f737f8ca62c5f03d-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alena Naiakshina",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f737f8ca62c5f03d-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/serafini",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity24-serafini.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/usenixsecurity24_slides-serafini.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {299575,\nauthor = {Raphael Serafini and Stefan Albert Horstmann and Alena Naiakshina},\ntitle = {Engaging Company Developers in Security Research Studies: A Comprehensive Literature Review and Quantitative Survey},\nbooktitle = {33rd USENIX Security Symposium (USENIX Security 24)},\nyear = {2024},\nisbn = {978-1-939133-44-1},\naddress = {Philadelphia, PA},\npages = {3277--3294},\nurl = {https://www.usenix.org/conference/usenixsecurity24/presentation/serafini},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-394bf88abefe12ce-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-f737f8ca62c5f03d-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/serafini",
+      "kind": "paper-page",
+      "title": "Engaging Company Developers in Security Research Studies: A Comprehensive Literature Review and Quantitative Survey",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

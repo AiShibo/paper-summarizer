@@ -1,0 +1,147 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-mooncake-trading-more-storage-for-less-computation-a-kvc-0f1fcb08",
+  "associations": [
+    {
+      "group_id": "group-tsinghua-madsys",
+      "faculty_id": "faculty-yongwei-wu",
+      "publication_institution_id": "institution-tsinghua-university",
+      "current_institution_id": "institution-tsinghua-university",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-0f1fcb08-paper-page",
+        "src-agent-f-0f1fcb08-group-page",
+        "src-agent-f-0f1fcb08-group-author-page",
+        "src-agent-f-0f1fcb08-faculty-profile",
+        "src-agent-f-0f1fcb08-university-newsletter"
+      ],
+      "rationale": "MadSys's official site lists Mooncake under Yongwei Wu; Tsinghua's faculty page confirms his current professorship and its newsletter describes the paper's faculty-led research context.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Ruoyu Qin",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zheming Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Weiran He",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Jialei Cui",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Feng Ren",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Mingxing Zhang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Weimin Zheng",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xinran Xu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-0f1fcb08-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/qin",
+      "kind": "paper-page",
+      "title": "Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f1fcb08-group-page",
+      "url": "https://madsys.cs.tsinghua.edu.cn/",
+      "kind": "lab-page",
+      "title": "MadSys Group",
+      "publisher": "Tsinghua University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f1fcb08-group-author-page",
+      "url": "https://madsys.cs.tsinghua.edu.cn/author/yongwei-wu/",
+      "kind": "lab-page",
+      "title": "Yongwei Wu — MadSys publications",
+      "publisher": "Tsinghua University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Mooncake publication",
+        "Yongwei Wu's group role"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f1fcb08-faculty-profile",
+      "url": "https://www.cs.tsinghua.edu.cn/csen/info/1154/3959.htm",
+      "kind": "faculty-page",
+      "title": "Yongwei Wu",
+      "publisher": "Tsinghua University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current Tsinghua professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f1fcb08-university-newsletter",
+      "url": "https://www.tsinghua.edu.cn/en/pdf/Tsinghua_Newsletter_2025_Q1.pdf",
+      "kind": "institution-page",
+      "title": "Tsinghua Newsletter 2025 Q1",
+      "publisher": "Tsinghua University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Mooncake team and faculty research context"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

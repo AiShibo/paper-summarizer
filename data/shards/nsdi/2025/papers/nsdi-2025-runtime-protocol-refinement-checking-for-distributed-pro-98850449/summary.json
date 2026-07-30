@@ -1,0 +1,123 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-runtime-protocol-refinement-checking-for-distributed-pro-98850449",
+  "takeaway": "Ellsberg watches each distributed process's messages and simulates protocol-consistent states, alerting when no allowed event ordering could have produced an outgoing message.",
+  "background": "A distributed protocol may be verified while the service implementing it still contains safety bugs. Static refinement proofs constrain implementation style, while testing cannot cover every deployed execution.",
+  "villain": "A black-box runtime checker cannot see a concurrent process's internal message-processing order, so naïvely matching an incremental trace to the protocol creates an exploding set of possible executions.",
+  "approach": "Each distributed process is co-located with an Ellsberg instance that receives a faithful, ordered trace of sent and received messages but sees no internal state. The instance simulates a user-provided protocol state machine, maintaining states reachable by reordering pending receives and timeouts; an outgoing message is accepted only if some reachable inducing state could emit it. Breadth-first search, immediate application of reorder-insensitive events, and lookahead prune the search, while instances require no cross-node coordination.",
+  "impact": "The authors argue that runtime protocol refinement checking can complement proof and testing by warning operators when a deployed implementation exhibits a message-visible safety deviation.",
+  "evaluation": {
+    "overview": "The authors reproduce protocol bugs, measure latency and throughput overhead, and measure checker throughput and notification delay on Etcd, ZooKeeper, and Redis Raft.",
+    "implemented": "A roughly 4,500-line prototype, mostly in Go with a Python specification-testing tool, plus DPI-specific message mappings and IPC trace collection added at the systems' network APIs.",
+    "setting": "Three- and five-node CloudLab clusters run balanced and read-heavy YCSB-derived workloads with 120 clients; each Ellsberg instance is limited to two cores and checks traces once per second.",
+    "baselines": [
+      "The same distributed protocol implementation without a co-located Ellsberg process (System)"
+    ],
+    "results": [
+      {
+        "id": "claim-ellsberg-bug-detection",
+        "text": "When the authors reproduced the listed Etcd, ZooKeeper, and Redis Raft protocol bugs, Ellsberg notified on each; the experiments also exposed an unreported Redis Raft reconfiguration bug.",
+        "source_ids": [
+          "src-nsdi25-pdf-98850449"
+        ],
+        "locator": "PDF pp. 12–13 and 20–22 (paper pp. 1315–1316 and 1323–1325); §6.2, Table 2, and Appendix §D"
+      },
+      {
+        "id": "claim-ellsberg-tail-latency",
+        "text": "The authors' largest observed 99th-percentile latency increase was 10.7%, from 7.25 ms to 8.03 ms, for Redis Raft under the read-heavy workload.",
+        "source_ids": [
+          "src-nsdi25-pdf-98850449"
+        ],
+        "locator": "PDF p. 13 (paper p. 1316); §6.3, Figure 3(f)"
+      },
+      {
+        "id": "claim-ellsberg-detection-delay",
+        "text": "The authors report that, with once-per-second checking, Ellsberg processed one second of leader trace in 30–700 ms and follower trace in 20–180 ms, producing notifications within 1.7 seconds in their evaluation.",
+        "source_ids": [
+          "src-nsdi25-pdf-98850449"
+        ],
+        "locator": "PDF p. 13 (paper p. 1316); §6.4, Figure 4"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The guarantee assumes a correct Ellsberg specification, a faithful incrementally ordered trace, shared fate with the checked process, fail-stop failures, and an asynchronous or partially synchronous non-Byzantine protocol with enough state-revealing messages for tractable checking. Ellsberg can only flag deviations visible in outgoing-message content or order; it cannot prove correctness or detect deadlock, livelock, stored-data corruption, or performance bugs.",
+  "phd_group_signal": "This work reflects a verification-systems style that derives an online algorithm from formal protocol models, engineers state-space pruning, and validates it against real implementation bugs and deployment overheads.",
+  "beginner_concepts": [
+    "protocol refinement",
+    "distributed safety properties",
+    "I/O automata",
+    "event interleavings",
+    "breadth-first state exploration"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-ellsberg-central-mechanism",
+      "text": "For each outgoing DPI message, Ellsberg uses breadth-first search over protocol states reachable from pending incoming messages and timeouts; it reports a violation when no reachable inducing state can produce that message.",
+      "source_ids": [
+        "src-nsdi25-pdf-98850449"
+      ],
+      "locator": "PDF pp. 8–11 (paper pp. 1311–1314); §§3.4–3.5, Listings 3–4 and Figure 2"
+    },
+    {
+      "id": "claim-ellsberg-assumptions",
+      "text": "Ellsberg assumes a correct specification, fail-stop rather than Byzantine failures, asynchronous or partially synchronous execution, shared fate, and a faithful trace with per-connection receive ordering and program-ordered sends.",
+      "source_ids": [
+        "src-nsdi25-pdf-98850449"
+      ],
+      "locator": "PDF pp. 5–6 (paper pp. 1308–1309); §3.1"
+    },
+    {
+      "id": "claim-ellsberg-detection-boundary",
+      "text": "The checker observes no process state and only detects a bug once the trace contains an outgoing message inconsistent in content or order; it neither proves the implementation correct nor covers bugs without such a message.",
+      "source_ids": [
+        "src-nsdi25-pdf-98850449"
+      ],
+      "locator": "PDF pp. 3, 6, and 11 (paper pp. 1306, 1309, and 1314); §1, §3.1, and §3.5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-pdf-98850449",
+      "url": "https://www.usenix.org/system/files/nsdi25-ding.pdf",
+      "kind": "paper-pdf",
+      "title": "Runtime Protocol Refinement Checking for Distributed Protocol Implementations",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:27:14Z",
+      "content_hash": "sha256:a77b971418504a742ff0d53eacb09b306f9b4680ac33030bf3a0cfdc38d52e10",
+      "official": true,
+      "supports": [
+        "abstract, introduction, assumptions, specification model, algorithm, implementation, evaluation, and conclusion",
+        "central mechanism, failure and trace assumptions, detection boundary, baseline, and author-reported quantitative results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e4",
+    "updated_at": "2026-07-30T03:44:52Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §3.1, §§3.3–3.5, §4, §5, §§6.1–6.4, and §7; inspected Listings 3–4, Figures 1–4, and Table 2 where needed.",
+      "Checked the protocol and failure model, trace ordering and shared-fate assumptions, state-search algorithm, prototype instrumentation, cluster and workload settings, baseline, bug cases, latency, throughput, and notification timing directly against the PDF.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:33:42Z",
+    "last_verified_at": "2026-07-30T03:44:52Z",
+    "collector_version": "agent-e4-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

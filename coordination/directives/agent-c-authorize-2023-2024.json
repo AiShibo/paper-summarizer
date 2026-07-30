@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-c-authorize-2023-2024-2026-07-30",
+  "issued_at": "2026-07-30T01:12:23Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-c",
+  "status": "SUPERSEDED",
+  "action": "AUTHORIZE_EARLY_BULK_COLLECTION",
+  "authorized_shards": [
+    "data/shards/asplos/2024",
+    "data/shards/asplos/2023"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "still_closed": [
+    "All 2026 shards",
+    "Agent C's completed 2025 records except for a specifically assigned correction",
+    "summary.json",
+    "groups.json",
+    "awards.json",
+    "review.json",
+    "data/entities/**",
+    "generated database and exports"
+  ],
+  "conditions": [
+    "Read coordination/tasks/agent-c-asplos-collection.md and continue following its source, scope, ASPLOS relevance, taxonomy, validation, and handoff rules.",
+    "Change Agent C's claim to IN_PROGRESS and add ASPLOS 2024 before editing it.",
+    "Complete and validate ASPLOS 2024 before adding or beginning ASPLOS 2023.",
+    "Preserve the accepted ASPLOS 2025 files unchanged; its existing review flags remain queued for independent review.",
+    "Enumerate every main technical paper and distinguish non-main material using official program and proceedings evidence.",
+    "Do not include ML-only work without a concrete architecture, compiler, runtime, or systems contribution.",
+    "Use NEEDS_HUMAN_REVIEW and an exact rationale for unresolved contribution boundaries instead of guessing.",
+    "Do not infer missing dates, proceedings counts, affiliations, DOI, artifacts, or links.",
+    "Run draft validation separately for ASPLOS 2024 and ASPLOS 2023.",
+    "Update only Agent C's claim and include every created paper ID.",
+    "Report 2024 and 2023 as separate handoffs with source coverage, main-track and non-main counts, relevance breakdowns, ML-only exclusions, taxonomy ambiguities, duplicate or alias candidates, unresolved fields, and validator output.",
+    "Early collection does not authorize bulk summarization, specialist stages, entity editing, release merging, or work on 2026."
+  ],
+  "superseded_at": "2026-07-30T03:00:08Z",
+  "superseded_by": "coordinator-agent-c-authorize-2026-ytd-2026-07-30",
+  "superseded_reason": "The 2023-2024 assignment is complete and the user explicitly opened 2026 year-to-date investigation."
+}

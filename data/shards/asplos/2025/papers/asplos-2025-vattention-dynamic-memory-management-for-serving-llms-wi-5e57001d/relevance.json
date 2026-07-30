@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-vattention-dynamic-memory-management-for-serving-llms-wi-5e57001d",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because vAttention contributes a concrete virtual-memory or address-translation mechanism for dynamic Memory Management for Serving LLMs without PagedAttention.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "computer-architecture",
+    "memory-hierarchy",
+    "ssd-and-flash"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707256",
+      "url": "https://www.semanticscholar.org/paper/e03827ea5638ae9f9f987b73b2017fd115f9f79b",
+      "kind": "semantic-scholar",
+      "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:193b8ec4e13e092428ebbba24904c0cb1861affc9cf19568a13ab2171af2b9b0",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-charting-the-cache-side-channel-frontier-a-systematic-st-33a12189",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a hardware and architecture security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization",
+    "measurement-study",
+    "security-attack"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-f192d693a34cd3f4-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-han",
+      "kind": "paper-page",
+      "title": "Charting the Cache Side-Channel Frontier: A Systematic Study of Eviction Set Construction on Apple Silicon",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:f22339fc5d2456b902eebd2c4d03bfcf1c79c0a6456b7f3ac5e6fde5a42b9913",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

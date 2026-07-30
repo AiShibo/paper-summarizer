@@ -1,0 +1,183 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-selling-the-dream-how-intimate-insiders-and-identity-bas-95dc0f44",
+  "title": "Selling the Dream: How Intimate Insiders and Identity-Based Attackers Disrupt Micro-businesses",
+  "venue": "usenix-security",
+  "year": 2026,
+  "track_or_session": "Human Aspects 2",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "PARTIAL",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Nazanin Sabri",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ba407a8e5e24e4e4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Arkaprabha Bhattacharya",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ba407a8e5e24e4e4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sterling Williams-Ceci",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ba407a8e5e24e4e4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel V. Bailey",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ba407a8e5e24e4e4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rosanna Bellini",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "New York University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ba407a8e5e24e4e4-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity26/presentation/sabri",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-691f82dcc025cef1-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6d229325c208efb8e2d6df006bcccac10df1e7421c4465667ac1dd01198eff8f",
+      "official": true,
+      "supports": [
+        "represented main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-ba407a8e5e24e4e4-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/sabri",
+      "kind": "paper-page",
+      "title": "Selling the Dream: How Intimate Insiders and Identity-Based Attackers Disrupt Micro-businesses",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:256ef2ce067adba6cd7f9b46544c633eef9651a6cf9621b1dbd2a141dd9808e1",
+      "official": true,
+      "supports": [
+        "official title, published-order authors and affiliations, and session",
+        "official abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page.",
+      "Final proceedings metadata is pending; the official program record is retained."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count",
+      "publication_date",
+      "links.official_pdf",
+      "links.doi"
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-once4all-skeleton-guided-smt-solver-fuzzing-with-llm-syn-93d40c49",
+  "title": "Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 5C: Formal Verification",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Maolin Sun",
+      "position": 1,
+      "orcid": "0000-0001-5617-2205",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790195"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yibiao Yang",
+      "position": 2,
+      "orcid": "0000-0003-1153-2013",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790195"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuming Zhou",
+      "position": 3,
+      "orcid": "0000-0002-4645-2526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790195"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790195",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790195",
+    "official_pdf": null,
+    "artifact": "https://zenodo.org/records/17979520",
+    "code": null,
+    "project": "https://once4all.readthedocs.io/en/latest/",
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2508.20340",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790195",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790195",
+      "kind": "crossref",
+      "title": "Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:373defc2d39a49c8fdccfe953d9a1fc05cd8872d40a85a46a9967af28d91f8db",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790195",
+      "url": "https://www.semanticscholar.org/paper/7cb6dd1c50dccfb2afcce15def061109fca58c05",
+      "kind": "semantic-scholar",
+      "title": "Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:ce12bcbed63850252c27c44ecf8bf2aa3bddc44295ed6f37f36d524b0f84488d",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    },
+    {
+      "id": "src-zenodo-17979520",
+      "url": "https://zenodo.org/records/17979520",
+      "kind": "artifact-page",
+      "title": "Artifact for ASPLOS'26 paper \"Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:fcf375378d9f73c40f5d11f34093deb857979c9c01795c520f0410a6b3528dbf",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: Once-for-All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators",
+      "A confident author-deposited Zenodo artifact match is recorded."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "links.official_pdf",
+      "links.code",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

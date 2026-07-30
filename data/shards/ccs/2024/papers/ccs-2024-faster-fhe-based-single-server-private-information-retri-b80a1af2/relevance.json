@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-faster-fhe-based-single-server-private-information-retri-b80a1af2",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-4f8a4f0405ba701b-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690233",
+      "kind": "publisher-page",
+      "title": "Faster FHE-Based Single-Server Private Information Retrieval",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-7bdfef597f3e9fd5-abstract",
+      "url": "https://www.semanticscholar.org/paper/d7ab01e62416603ac7bb537aa2140b03afb2d128",
+      "kind": "semantic-scholar",
+      "title": "Faster FHE-Based Single-Server Private Information Retrieval",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

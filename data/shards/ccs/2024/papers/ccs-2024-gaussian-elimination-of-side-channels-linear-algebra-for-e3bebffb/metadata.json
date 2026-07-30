@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-gaussian-elimination-of-side-channels-linear-algebra-for-e3bebffb",
+  "title": "Gaussian Elimination of Side-Channels: Linear Algebra for Memory Coloring",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jana Hofmann",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b15cef1de10859e2-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cédric Fournet",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b15cef1de10859e2-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boris Köpf",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b15cef1de10859e2-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stavros Volos",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b15cef1de10859e2-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3690263",
+    "official_page": "https://doi.org/10.1145/3658644.3690263",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690263",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b15cef1de10859e2-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-6abc7453af5efa74-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690263",
+      "kind": "publisher-page",
+      "title": "Gaussian Elimination of Side-Channels: Linear Algebra for Memory Coloring",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-f79d51e4633480ff-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/HofmannFKV24",
+      "kind": "dblp",
+      "title": "Gaussian Elimination of Side-Channels: Linear Algebra for Memory Coloring",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-db158111723665d1-abstract",
+      "url": "https://www.semanticscholar.org/paper/6d74abfb26eaf7804e4e2048bd875156feeff7d2",
+      "kind": "semantic-scholar",
+      "title": "Gaussian Elimination of Side-Channels: Linear Algebra for Memory Coloring",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page.",
+      "The final proceedings title is canonical; the accepted-program title differs and was reconciled by author matching."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "title (accepted program differs from final proceedings)"
+    ]
+  }
+}

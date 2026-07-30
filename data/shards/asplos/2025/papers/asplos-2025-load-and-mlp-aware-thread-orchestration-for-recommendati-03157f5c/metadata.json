@@ -1,0 +1,245 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-load-and-mlp-aware-thread-orchestration-for-recommendati-03157f5c",
+  "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6A: ML Systems 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rishabh Jain",
+      "position": 1,
+      "orcid": "0009-0003-4017-2093",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Pennsylvania State University, University Park, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Teyuh Chou",
+      "position": 2,
+      "orcid": "0000-0001-7033-336X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Advanced Micro Devices, Inc., Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Onur Kayiran",
+      "position": 3,
+      "orcid": "0009-0006-4482-3115",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Advanced Micro Devices, Inc., Bristol, RI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John Kalamatianos",
+      "position": 4,
+      "orcid": "0009-0003-9835-1254",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Advanced Micro Devices, Inc., Boxborough, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gabriel H. Loh",
+      "position": 5,
+      "orcid": "0000-0002-4616-0144",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Advanced Micro Devices, Inc., Bellevue, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mahmut T. Kandemir",
+      "position": 6,
+      "orcid": "0000-0002-9940-9951",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Pennsylvania State University, University Park, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chita R. Das",
+      "position": 7,
+      "orcid": "0000-0002-4746-7578",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Pennsylvania State University, University Park, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716003"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716003",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716003",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716003",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716003",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716003",
+      "kind": "crossref",
+      "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:bdcf6203eb88caa10f4844c53f8a043b4db042ed2059dd7ce43ab89803f7092b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716003",
+      "url": "https://www.semanticscholar.org/paper/cd0fb22593a919dcb78ef2793587b0b433a2c8a9",
+      "kind": "semantic-scholar",
+      "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:66532a448c8164064764d45a8b19a0e8ec45ba62c566392c357f0db82c44975f",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

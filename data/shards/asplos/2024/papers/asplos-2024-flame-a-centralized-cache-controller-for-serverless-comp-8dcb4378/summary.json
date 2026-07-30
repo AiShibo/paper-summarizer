@@ -1,0 +1,126 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-flame-a-centralized-cache-controller-for-serverless-comp-8dcb4378",
+  "takeaway": "Flame centralizes serverless function-cache decisions across a cluster, separating hotspot and best-effort caches to reduce cold starts and memory waste under skewed demand.",
+  "background": "Serverless platforms keep finished function instances warm to avoid container cold starts, but those instances consume memory. Existing controllers commonly decide locally at each server.",
+  "villain": "With skewed request distributions, local controllers can colocate hot functions while redundantly retaining cold ones because no controller sees cluster-wide load and cache reuse.",
+  "approach": "Flame adds a global CacheManager and a Cachelet on every OpenFaaS server. The manager detects hot functions with an exponentially decayed score and places them to minimize aggregate hotspot pressure; each Cachelet protects hot instances, keeps other instances in evictable temporary space, and reclaims overprovisioned hot instances. The design depends on periodically synchronized cluster state and a responsive central controller, while the current scheduler models only memory capacity.",
+  "impact": "The authors argue that cluster-wide cache control can maintain warm invocations with substantially less memory than local policies for the evaluated serverless traces.",
+  "evaluation": {
+    "overview": "An OpenFaaS prototype was exercised on an eight-server cluster with eight sampled Azure trace workloads mapped to 384 functions from ServerlessBench and FunctionBench; a simulator explored parameters and larger scales.",
+    "implemented": "About 4,000 lines of Go integrated a CacheManager, per-server Cachelets, and keep-alive control into OpenFaaS; separate Java test and simulation code supported trace-driven experiments.",
+    "setting": "Eight 32-core Intel Xeon Silver 4215 servers, each with 256 GB RAM and 10 Gb/s Ethernet, ran Ubuntu 16.04; each one-week workload contained 384 functions sampled from Azure traces, whose arrivals drove matched benchmark functions.",
+    "baselines": [
+      "TTL-based keep-alive (original OpenWhisk)",
+      "FaasCache",
+      "CH-RLU",
+      "Icebreaker"
+    ],
+    "results": [
+      {
+        "id": "claim-flame-memory-result",
+        "text": "Under consistent-hashing dispatch across eight traces, the authors report that Flame used 36% less cache memory on average than FaasCache and 33% less than CH-RLU.",
+        "source_ids": [
+          "src-flame-full-paper"
+        ],
+        "locator": "Section 6.3, Figure 6(a)"
+      },
+      {
+        "id": "claim-flame-coldstart-result",
+        "text": "In the eight-server breakdown, the authors report a 0.86% cold-start ratio and 0.02% request-drop ratio for Flame, versus 1.83% and 0.77% for FaasCache.",
+        "source_ids": [
+          "src-flame-full-paper"
+        ],
+        "locator": "Section 6.3, Table 3"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay",
+      "simulation"
+    ]
+  },
+  "limitations": "The measured prototype used an eight-server testbed and benchmark functions driven by sampled Azure arrivals rather than Azure function code. Scheduling currently considers only memory, protected-space usage is uncapped in extreme cases, and the centralized controller may need partitioning at very large scale.",
+  "phd_group_signal": "The work reflects a full-system methodology: diagnose trace skew, co-design global and per-node policies, implement them in OpenFaaS, and test both on hardware and by simulation.",
+  "beginner_concepts": [
+    "serverless cold start",
+    "warm function-instance cache",
+    "hotspot-aware scheduling",
+    "control plane versus data plane",
+    "trace-driven evaluation"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-flame-mechanism",
+      "text": "Flame combines a global CacheManager with per-server Cachelets, hotspot-aware placement, protected and temporary cache spaces, and local adaptive reclamation.",
+      "source_ids": [
+        "src-flame-full-paper"
+      ],
+      "locator": "Sections 3-4, Figures 3-4"
+    },
+    {
+      "id": "claim-flame-resource-assumptions",
+      "text": "CacheManager and Cachelets synchronize state every five seconds, current placement considers only memory, and protected cache space has no capacity threshold.",
+      "source_ids": [
+        "src-flame-full-paper"
+      ],
+      "locator": "Sections 4.2 and 4.3.1"
+    },
+    {
+      "id": "claim-flame-scale-limit",
+      "text": "The authors warn that a centralized CacheManager may face scalability problems in extremely large clusters and evaluate workload partitioning as a mitigation.",
+      "source_ids": [
+        "src-flame-full-paper"
+      ],
+      "locator": "Section 6.5, Figure 11"
+    },
+    {
+      "id": "claim-flame-evaluation-setting",
+      "text": "The prototype contains about 4,000 lines of Go and was evaluated on eight 32-core Xeon Silver 4215 servers with 256 GB RAM and 10 Gb/s networking, using eight one-week traces of 384 sampled Azure functions mapped to benchmark functions.",
+      "source_ids": [
+        "src-flame-full-paper"
+      ],
+      "locator": "Section 5; Section 6.1, Tables 1-2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-flame-full-paper",
+      "url": "https://ynyang1.github.io/pdf/Flame-ASPLOS-2023.pdf",
+      "kind": "paper-pdf",
+      "title": "Flame: A Centralized Cache Controller for Serverless Computing",
+      "publisher": "Yanan Yang (author-hosted copy)",
+      "retrieved_at": "2026-07-30T03:34:28Z",
+      "content_hash": "sha256:1642090aeef8a96d524eda5cd6ef345642a1ff9dc424ed0e927a19fcf99411df",
+      "official": true,
+      "supports": [
+        "Full paper abstract, introduction, design, implementation, evaluation, limitations, and conclusion."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e7",
+    "updated_at": "2026-07-30T03:51:17Z",
+    "notes": [
+      "Read the abstract; Sections 1, 3-5, 6.1-6.6, and 8; and Figures 3-12 and Tables 1-4 needed for the reported mechanism, assumptions, baselines, and results.",
+      "The ACM endpoint returned HTTP 403, so the DOI-matching full paper linked from the first author's publication page was used and hashed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:34:28Z",
+    "last_verified_at": "2026-07-30T03:51:17Z",
+    "collector_version": "agent-e7-summary-calibration-v1",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

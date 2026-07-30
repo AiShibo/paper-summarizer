@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/venue-year-manifest.schema.json",
+  "title": "Expected venue-year coverage manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "window",
+    "generated_at",
+    "venue_years"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start_year", "end_year", "end_year_is_incomplete"],
+      "properties": {
+        "start_year": {
+          "const": 2023
+        },
+        "end_year": {
+          "const": 2026
+        },
+        "end_year_is_incomplete": {
+          "const": true
+        }
+      }
+    },
+    "generated_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "venue_years": {
+      "type": "array",
+      "minItems": 48,
+      "maxItems": 48,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "venue",
+          "year",
+          "shard",
+          "workflow_status",
+          "collection_status",
+          "last_verified_at"
+        ],
+        "properties": {
+          "venue": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 2023,
+            "maximum": 2026
+          },
+          "shard": {
+            "type": "string"
+          },
+          "workflow_status": {
+            "enum": [
+              "NOT_STARTED",
+              "IN_PROGRESS",
+              "READY_FOR_REVIEW",
+              "CHANGES_REQUESTED",
+              "APPROVED",
+              "BLOCKED"
+            ]
+          },
+          "collection_status": {
+            "enum": [
+              "UNVERIFIED",
+              "COMPLETE_PROCEEDINGS",
+              "ACCEPTED_PAPERS_ONLY",
+              "PARTIAL",
+              "UPCOMING",
+              "UNAVAILABLE"
+            ]
+          },
+          "last_verified_at": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}

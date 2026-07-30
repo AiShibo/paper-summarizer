@@ -1,0 +1,163 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-idioms-a-simple-and-effective-framework-for-turbo-chargi-d5d03b28",
+  "title": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Fall submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Luke Dramko",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a354b325ff930393-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Claire Le Goues",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a354b325ff930393-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Edward J. Schwartz",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a354b325ff930393-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.240795",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f795-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/f0795-dramko.pdf",
+    "video": "https://youtu.be/6xgO2P2-LuY",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-9796ba50c866d1b0-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-a354b325ff930393-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/",
+      "kind": "paper-page",
+      "title": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:c79d56268399ee607c79fc4dee73294d98ab80bfff85190bdcf01336c1186aef",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-7f087d8b036aab6b-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.240795",
+      "kind": "crossref",
+      "title": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-102d2e5ff2ab89bc-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/DramkoGS26",
+      "kind": "dblp",
+      "title": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

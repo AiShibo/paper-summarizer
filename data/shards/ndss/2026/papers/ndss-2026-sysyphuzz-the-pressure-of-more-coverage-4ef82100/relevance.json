@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-sysyphuzz-the-pressure-of-more-coverage-4ef82100",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "kernel"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "dynamic-analysis",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-5e5330c5f6670bbd-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/",
+      "kind": "paper-page",
+      "title": "SYSYPHUZZ: the Pressure of More Coverage",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:612975fbc0b04b100fd43d736ca0a76fc399fee71186d71ee07a3d855e506589",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

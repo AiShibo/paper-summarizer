@@ -1,0 +1,112 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-awupf-rediscovered-atomic-writes-to-unleash-pivotal-faul-72e04053",
+  "associations": [
+    {
+      "group_id": "group-skku-computer-systems-lab",
+      "faculty_id": "faculty-euiseong-seo",
+      "publication_institution_id": "institution-sungkyunkwan-university",
+      "current_institution_id": "institution-sungkyunkwan-university",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-72e04053-paper-page",
+        "src-agent-f-72e04053-publication-record",
+        "src-agent-f-72e04053-faculty-profile",
+        "src-agent-f-72e04053-lab-page"
+      ],
+      "rationale": "SKKU's official research portal lists Euiseong Seo on the exact paper and as current professor; the official Computer Systems Lab page identifies his lab role.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Jiyune Jeon",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Jongseok Kim",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Sam H. Noh",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-72e04053-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/jeon",
+      "kind": "paper-page",
+      "title": "AWUPF Rediscovered: Atomic Writes to Unleash Pivotal Fault-Tolerance in SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-72e04053-publication-record",
+      "url": "https://pure.skku.edu/en/publications/awupf-rediscovered-atomic-writes-to-unleash-pivotal-fault-toleran/",
+      "kind": "publisher-page",
+      "title": "AWUPF publication record",
+      "publisher": "Sungkyunkwan University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact publication and Euiseong Seo authorship"
+      ]
+    },
+    {
+      "id": "src-agent-f-72e04053-faculty-profile",
+      "url": "https://pure.skku.edu/en/persons/eui-seong-seo/",
+      "kind": "faculty-page",
+      "title": "Euiseong Seo",
+      "publisher": "Sungkyunkwan University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-72e04053-lab-page",
+      "url": "https://csl.skku.edu/",
+      "kind": "lab-page",
+      "title": "Computer Systems Lab",
+      "publisher": "Sungkyunkwan University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official lab identity and Euiseong Seo leadership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

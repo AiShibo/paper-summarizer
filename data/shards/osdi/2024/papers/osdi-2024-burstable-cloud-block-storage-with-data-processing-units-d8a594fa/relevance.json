@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-burstable-cloud-block-storage-with-data-processing-units-d8a594fa",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because its empirical study directly characterizes storage and file systems behavior and informs concrete systems design at the storage layer.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "storage",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2024-program",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:f899905ec70b2cc62c3ef71d43b6a3d95c9f867b79636165e361aab2735fce75",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-paper-shu",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/shu",
+      "kind": "paper-page",
+      "title": "Burstable Cloud Block Storage with Data Processing Units",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:03864ebc7bce981b08da85fb79f5fb9ec6040c61b3485b05e1e48206603f8bfd",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

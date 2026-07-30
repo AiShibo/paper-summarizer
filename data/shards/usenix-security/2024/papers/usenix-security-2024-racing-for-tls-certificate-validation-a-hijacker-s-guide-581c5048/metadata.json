@@ -1,0 +1,178 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-racing-for-tls-certificate-validation-a-hijacker-s-guide-581c5048",
+  "title": "Racing for TLS Certificate Validation: A Hijacker's Guide to the Android TLS Galaxy",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "Mobile Security I",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sajjad Pourali",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-c0a226343e1961e1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiufen Yu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-c0a226343e1961e1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lianying Zhao",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carleton University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-c0a226343e1961e1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Mannan",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-c0a226343e1961e1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Amr M. Youssef",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Concordia University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-c0a226343e1961e1-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/pourali",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity24-pourali.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/usenixsecurity24_slides-pourali.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {298200,\nauthor = {Sajjad Pourali and Xiufen Yu and Lianying Zhao and Mohammad Mannan and Amr Youssef},\ntitle = {Racing for {TLS} Certificate Validation: A Hijacker{\\textquoteright}s Guide to the Android {TLS} Galaxy},\nbooktitle = {33rd USENIX Security Symposium (USENIX Security 24)},\nyear = {2024},\nisbn = {978-1-939133-44-1},\naddress = {Philadelphia, PA},\npages = {683--700},\nurl = {https://www.usenix.org/conference/usenixsecurity24/presentation/pourali},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f1a16ec41e9f0e3a-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-c0a226343e1961e1-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/pourali",
+      "kind": "paper-page",
+      "title": "Racing for TLS Certificate Validation: A Hijacker's Guide to the Android TLS Galaxy",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

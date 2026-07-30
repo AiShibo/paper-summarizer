@@ -1,0 +1,466 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-msfrd-mutation-similarity-based-ssd-failure-rating-and-d-c9a661b1",
+  "title": "MSFRD: Mutation Similarity based SSD Failure Rating and Diagnosis for Complex and Volatile Production Environments",
+  "venue": "atc",
+  "year": 2024,
+  "track_or_session": "Reliability",
+  "paper_type": "main-track",
+  "publication_date": "2024-07-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuqi Zhang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyi Zhang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenwen Hao",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuyang Wang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Na Liu",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing He",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung R&D Institute China Xi'an, Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Zhang",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weixin Wang",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongguang Cheng",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huan Wang",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Xu",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Wang",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bo Jiang",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Inc.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongwong Gwon",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jongsung Na",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zoe Kim",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Geunrok Oh",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc24/presentation/zhang-yuqi",
+    "official_pdf": "https://www.usenix.org/system/files/atc24-zhang-yuqi.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/yjExb96UQ3E",
+    "bibtex": "@inproceedings {298593,\nauthor = {Yuqi Zhang and Tianyi Zhang and Wenwen Hao and Shuyang Wang and Na Liu and Xing He and Yang Zhang and Weixin Wang and Yongguang Cheng and Huan Wang and Jie Xu and Feng Wang and Bo Jiang and Yongwong Gwon and Jongsung Na and Zoe Kim and Geunrok Oh},\ntitle = {{MSFRD}: Mutation Similarity based {SSD} Failure Rating and Diagnosis for Complex and Volatile Production Environments},\nbooktitle = {2024 USENIX Annual Technical Conference (USENIX ATC 24)},\nyear = {2024},\nisbn = {978-1-939133-41-0},\naddress = {Santa Clara, CA},\npages = {869--884},\nurl = {https://www.usenix.org/conference/atc24/presentation/zhang-yuqi},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-zhang-yuqi",
+      "url": "https://www.usenix.org/conference/atc24/presentation/zhang-yuqi",
+      "kind": "paper-page",
+      "title": "MSFRD: Mutation Similarity based SSD Failure Rating and Diagnosis for Complex and Volatile Production Environments",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:a0560155e3cd9849f8f305ad6194ef1bdecf8f012275af61b0e4a514d134b57b",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2024-proceedings",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '24 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2024-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '24",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:ba4ea22ae97a9a279b5fb9dfac2093c0948908af26183be07cad0a7039cbfa80",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

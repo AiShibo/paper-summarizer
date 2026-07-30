@@ -1,0 +1,329 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-efficient-temporal-graph-network-training-via-unified-re-65e9871c",
+  "title": "Efficient Temporal Graph Network Training via Unified Redundancy Elimination",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6C: Graph & Sparse Computing",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yiqing Wang",
+      "position": 1,
+      "orcid": "0009-0007-8809-824X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China and State Key Laboratory of Complex &amp;#38; Critical Software Environment, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hailong Yang",
+      "position": 2,
+      "orcid": "0000-0003-1101-7927",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China and State Key Laboratory of Complex &amp;#38; Critical Software Environment, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kejie Ma",
+      "position": 3,
+      "orcid": "0009-0002-0393-7627",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Enze Yu",
+      "position": 4,
+      "orcid": "0009-0004-2322-2922",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengbo Wang",
+      "position": 5,
+      "orcid": "0009-0001-7197-2873",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin You",
+      "position": 6,
+      "orcid": "0000-0002-5163-4607",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingxiao Sun",
+      "position": 7,
+      "orcid": "0000-0003-2927-362X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenhao Xie",
+      "position": 8,
+      "orcid": "0000-0002-1399-0352",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhongzhi Luan",
+      "position": 9,
+      "orcid": "0000-0002-7186-0556",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Liu",
+      "position": 10,
+      "orcid": "0000-0003-1829-2817",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Depei Qian",
+      "position": 11,
+      "orcid": "0000-0002-5382-1473",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790157"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790157",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790157",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790157",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790157",
+      "kind": "crossref",
+      "title": "Efficient Temporal Graph Network Training via Unified Redundancy Elimination",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e2d8c4de816d0fb94c7e4f630317b7cdb3dcd684b137a9d305dde1975a5ec9de",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790157",
+      "url": "https://www.semanticscholar.org/paper/044fff2fb7dbebaa4574c719a84993466695de79",
+      "kind": "semantic-scholar",
+      "title": "Efficient Temporal Graph Network Training via Unified Redundancy Elimination",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:f063d523a78857073cba0db49897b72294d5efe2859164b8c6853f32d412deb2",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

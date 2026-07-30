@@ -1,0 +1,115 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-medfs-pursuing-low-update-overhead-via-metadata-enabled-f8b37899",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-li-pin-chang",
+      "publication_institution_id": "institution-nycu",
+      "current_institution_id": "institution-nycu",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-f8b37899-paper-page",
+        "src-agent-f-f8b37899-publication-record",
+        "src-agent-f-f8b37899-faculty-profile"
+      ],
+      "rationale": "NYCU's official research portal lists MedFS among Li-Pin Chang's research outputs and confirms his current professor appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Chao Wu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Cheng Ji",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zongwei Zhu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Congming Gao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Weichao Guo",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Chao Yu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yanzhi Wang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-f8b37899-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/wu",
+      "kind": "paper-page",
+      "title": "MedFS: Pursuing Low Update Overhead via Metadata-Enabled Delta Compression for Log-structured File System on Mobile Device",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-f8b37899-publication-record",
+      "url": "https://scholar.nycu.edu.tw/en/publications/medfs-pursuing-low-update-overhead-via-metadata-enabled-delta-com/",
+      "kind": "publisher-page",
+      "title": "MedFS publication record",
+      "publisher": "National Yang Ming Chiao Tung University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact MedFS publication and Li-Pin Chang authorship"
+      ]
+    },
+    {
+      "id": "src-agent-f-f8b37899-faculty-profile",
+      "url": "https://scholar.nycu.edu.tw/en/persons/li-pin-chang/",
+      "kind": "faculty-page",
+      "title": "Li-Pin Chang",
+      "publisher": "National Yang Ming Chiao Tung University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current professor appointment",
+        "MedFS listed in research output"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-breaking-the-blindfold-deep-learning-based-blind-side-ch-c79a5c6e",
+  "title": "Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Hardware Security 3: Side-Channel and Fault Injection Attacks",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Azade Rezaeezade",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Delft University of Technology and Digital Security Group, Radboud University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-556955bf50249613-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Trevor Yap",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Temasek Laboratories and National integrated Centre For Evaluation, Nanyang Technological University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-556955bf50249613-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dirmanto Jap",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Temasek Laboratories and National integrated Centre For Evaluation, Nanyang Technological University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-556955bf50249613-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shivam Bhasin",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Temasek Laboratories and National integrated Centre For Evaluation, Nanyang Technological University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-556955bf50249613-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stjepan Picek",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Digital Security Group, Radboud University and University of Zagreb Faculty of Electrical Engineering and Computing",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-556955bf50249613-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-rezaeezade.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec25_slides_rezaeezade.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {309734,\nauthor = {Azade Rezaeezade and Trevor Yap and Dirmanto Jap and Shivam Bhasin and Stjepan Picek},\ntitle = {Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {5777--5796},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f65a739c199a351d-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-556955bf50249613-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade",
+      "kind": "paper-page",
+      "title": "Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

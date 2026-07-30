@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/institution.schema.json",
+  "schema_version": "1.0.0",
+  "institution_id": "institution-huazhong-university-science-technology",
+  "normalized_name": "Huazhong University of Science and Technology",
+  "aliases": [
+    "HUST"
+  ],
+  "institution_type": "university",
+  "official_url": "https://english.hust.edu.cn/",
+  "location": {
+    "city": "Wuhan",
+    "state_or_province": "Hubei",
+    "country": "China",
+    "continent": "Asia",
+    "region": null
+  },
+  "sources": [
+    {
+      "id": "src-huazhong-university-science-technology-official",
+      "url": "https://english.hust.edu.cn/",
+      "kind": "institution-page",
+      "title": "Official website for Huazhong University of Science and Technology",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "normalized institution identity",
+        "official institutional location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Normalized from an official institutional source; publication-time affiliations remain in metadata.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "location.region"
+    ]
+  }
+}

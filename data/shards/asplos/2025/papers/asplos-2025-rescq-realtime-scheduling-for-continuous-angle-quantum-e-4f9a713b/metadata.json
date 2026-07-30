@@ -1,0 +1,140 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-rescq-realtime-scheduling-for-continuous-angle-quantum-e-4f9a713b",
+  "title": "RESCQ: Realtime Scheduling for Continuous Angle Quantum Error Correction Architectures",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7B: Quantum Error Correction",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sayam Sethi",
+      "position": 1,
+      "orcid": "0009-0005-3056-5285",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electrical and Computer Engineering, The University of Texas at Austin, Austin, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716018"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Mark Baker",
+      "position": 2,
+      "orcid": "0000-0002-0775-8274",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electrical and Computer Engineering, The University of Texas at Austin, Austin, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716018"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716018",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716018",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716018",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716018",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716018",
+      "kind": "crossref",
+      "title": "RESCQ: Realtime Scheduling for Continuous Angle Quantum Error Correction Architectures",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:5eac237fb55d549990546227de89b8c64e4b82961ca6d761aabcafa5831ea114",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716018",
+      "url": "https://www.semanticscholar.org/paper/09b4cd723ffcd409b65cbace1f150281360b313b",
+      "kind": "semantic-scholar",
+      "title": "RESCQ: Realtime Scheduling for Continuous Angle Quantum Error Correction Architectures",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:30cdffa66b194e3450a25acb4146c79eddfa8a795846e70130722f1863782290",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-invertune-a-backdoor-defense-method-for-multimodal-contr-89c98c04",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack or defense without a compiler, runtime, serving, architecture, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "dataset",
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-94927a75bba95754-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/invertune-a-backdoor-defense-method-for-multimodal-contrastive-learning-via-backdoor-adversarial-correlation-analysis/",
+      "kind": "paper-page",
+      "title": "InverTune: A Backdoor Defense Method for Multimodal Contrastive Learning via Backdoor-Adversarial Correlation Analysis",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:0df75fb557169e6cabfab4e160f5210d169d6d1947a4a81972c02954eef20151",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

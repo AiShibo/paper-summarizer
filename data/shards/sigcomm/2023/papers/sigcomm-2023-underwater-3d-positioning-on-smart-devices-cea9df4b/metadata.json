@@ -1,0 +1,163 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2023-underwater-3d-positioning-on-smart-devices-cea9df4b",
+  "title": "Underwater 3D positioning on smart devices",
+  "venue": "sigcomm",
+  "year": 2023,
+  "track_or_session": "Water, Air, Blood — Research Paper",
+  "paper_type": "main-track",
+  "publication_date": "2023-09-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tuochao Chen",
+      "position": 1,
+      "orcid": "0000-0002-8031-5066",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Justin Chan",
+      "position": 2,
+      "orcid": "0000-0002-1471-6187",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shyamnath Gollakota",
+      "position": 3,
+      "orcid": "0000-0002-9863-3054",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3603269.3604851",
+    "official_page": "https://dl.acm.org/doi/10.1145/3603269.3604851",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3603269.3604851",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=eiDXF8n3NKE",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm23-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e3c4b173cfbedcc908c51c7b97b3b7074aec5a4a2b2b8e0a49d7a9d6f9123e3",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-underwater-3d-positioning-on-smart-devices-cea9df4b-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3603269.3604851",
+      "kind": "publisher-page",
+      "title": "Underwater 3D positioning on smart devices",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-underwater-3d-positioning-on-smart-devices-cea9df4b-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604851",
+      "kind": "crossref",
+      "title": "Crossref metadata for Underwater 3D positioning on smart devices",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:ad56fce635d69e1d8f687593a3761a5b82b823f0a0c8ae604463db0f105c6b95",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs",
+        "proceedings page range and print publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The publication date follows the publisher-deposited print date and the CFP's first-day-of-conference publication rule.",
+      "The official accepted-paper list labels this item Research Paper within the Water, Air, Blood technical session.",
+      "The official program displays Artifacts Available Artifacts Evaluated - Functional, but it exposes no artifact URL, so links.artifact remains null."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

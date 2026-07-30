@@ -1,0 +1,287 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-blendserve-optimizing-offline-inference-with-resource-aw-8758e3c5",
+  "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 1B: LLM Serving: Latency & Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yilong Zhao",
+      "position": 1,
+      "orcid": "0009-0002-7523-7400",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuo Yang",
+      "position": 2,
+      "orcid": "0009-0003-9950-8129",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kan Zhu",
+      "position": 3,
+      "orcid": "0009-0002-3462-3292",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lianmin Zheng",
+      "position": 4,
+      "orcid": "0000-0002-6611-4612",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Baris Kasikci",
+      "position": 5,
+      "orcid": "0000-0001-6122-8998",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Qiao",
+      "position": 6,
+      "orcid": "0009-0003-3651-6973",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Zhou",
+      "position": 7,
+      "orcid": "0000-0002-3082-7872",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Davis, Sacramento, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiarong Xing",
+      "position": 8,
+      "orcid": "0009-0006-6163-0569",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rice University, Houston, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ion Stoica",
+      "position": 9,
+      "orcid": "0000-0002-5373-0088",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790133"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790133",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790133",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790133",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790133",
+      "kind": "crossref",
+      "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e9c4ba47b5bb1a47ca6adbbc8f9e4728f632330def8f07bee9bb949e575a4e17",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790133",
+      "url": "https://www.semanticscholar.org/paper/54f37a5065f97ca2107a4e89737e5e26ed0eb8da",
+      "kind": "semantic-scholar",
+      "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:988edbd910c95adb281c26d9bbf37c8399536f13f634048c30994be094605c2b",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

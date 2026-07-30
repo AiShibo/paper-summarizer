@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-memorytrap-booby-trapping-memory-to-counter-memory-discl-c1ae7d7d",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material operating systems and kernels mechanism at the kernel layer.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "systems-security",
+    "isolation"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-luo",
+      "url": "https://www.usenix.org/conference/atc25/presentation/luo",
+      "kind": "paper-page",
+      "title": "MemoryTrap: Booby Trapping Memory to Counter Memory Disclosure Attacks with Hardware Support",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:7c737c8db7fd92691243fadff1abc08c81bf84b43c75960ce3e2bb41b3677467",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

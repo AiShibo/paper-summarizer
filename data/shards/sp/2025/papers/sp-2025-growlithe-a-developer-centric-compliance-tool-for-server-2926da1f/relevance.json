@@ -1,0 +1,62 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-growlithe-a-developer-centric-compliance-tool-for-server-2926da1f",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a cloud and datacenter security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "systems-security",
+    "serverless-computing",
+    "compilers-languages-and-runtimes",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "bug-finding-or-testing-tool",
+    "language-or-api",
+    "defense"
+  ],
+  "methods": [
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-c22db02adb79e7d6-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a099/22K50vuoJLG",
+      "kind": "publisher-page",
+      "title": "Growlithe: A Developer-Centric Compliance Tool for Serverless Applications",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

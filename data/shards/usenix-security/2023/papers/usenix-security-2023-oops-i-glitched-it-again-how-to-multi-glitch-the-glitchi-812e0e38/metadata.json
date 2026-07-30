@@ -1,0 +1,136 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-oops-i-glitched-it-again-how-to-multi-glitch-the-glitchi-812e0e38",
+  "title": "Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M",
+  "venue": "usenix-security",
+  "year": 2023,
+  "track_or_session": "Arming and Disarming ARM",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xhani Marvin Saß",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-32b8779d0fcb7b27-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Richard Mitev",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-32b8779d0fcb7b27-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ahmad-Reza Sadeghi",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-32b8779d0fcb7b27-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity23/presentation/sass",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity23-sass.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec23_slides_sass.pdf",
+    "video": "https://www.youtube.com/embed/mvExC-2Tm80?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {287274,\nauthor = {Xhani Marvin Sa{\\ss} and Richard Mitev and Ahmad-Reza Sadeghi},\ntitle = {Oops..! I Glitched It Again! How to {Multi-Glitch} the {Glitching-Protections} on {ARM} {TrustZone-M}},\nbooktitle = {32nd USENIX Security Symposium (USENIX Security 23)},\nyear = {2023},\nisbn = {978-1-939133-37-3},\naddress = {Anaheim, CA},\npages = {6239--6256},\nurl = {https://www.usenix.org/conference/usenixsecurity23/presentation/sass},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-e235f07c9c75b636-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-32b8779d0fcb7b27-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/sass",
+      "kind": "paper-page",
+      "title": "Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations when published, abstract, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

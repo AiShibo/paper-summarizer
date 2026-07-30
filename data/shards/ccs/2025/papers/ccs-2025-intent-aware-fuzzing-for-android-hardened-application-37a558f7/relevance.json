@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-intent-aware-fuzzing-for-android-hardened-application-37a558f7",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a mobile, embedded, and IoT security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "defense"
+  ],
+  "methods": [
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-de7e7d8c8a7fd3a9-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744858",
+      "kind": "publisher-page",
+      "title": "Intent-aware Fuzzing for Android Hardened Application",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-8ff9a252b5d42663-abstract",
+      "url": "https://openalex.org/W4416549458",
+      "kind": "openalex",
+      "title": "Intent-aware Fuzzing for Android Hardened Application",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

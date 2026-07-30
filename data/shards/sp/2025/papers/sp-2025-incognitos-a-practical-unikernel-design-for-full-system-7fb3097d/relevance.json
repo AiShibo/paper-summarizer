@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-incognitos-a-practical-unikernel-design-for-full-system-7fb3097d",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "virtualization-and-isolation",
+    "isolation",
+    "confidential-computing",
+    "trusted-execution-environments"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "security-attack"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-bbf5f2da021c0534-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600d860/26hiVMUi1MI",
+      "kind": "publisher-page",
+      "title": "IncognitOS: A Practical Unikernel Design for Full-System Obfuscation in Confidential Virtual Machines",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

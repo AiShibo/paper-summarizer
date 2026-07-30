@@ -1,0 +1,350 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-xy-serve-end-to-end-versatile-production-serving-for-dyn-74d2a517",
+  "title": "XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 1A: LLM Serving: Throughput Optimization",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Mingcong Song",
+      "position": 1,
+      "orcid": "0009-0002-5289-685X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinru Tang",
+      "position": 2,
+      "orcid": "0009-0004-6038-3709",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, BNRist, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fengfan Hou",
+      "position": 3,
+      "orcid": "0009-0006-6937-9057",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jing Li",
+      "position": 4,
+      "orcid": "0009-0005-3806-6499",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wei Wei",
+      "position": 5,
+      "orcid": "0009-0003-1991-2253",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yipeng Ma",
+      "position": 6,
+      "orcid": "0009-0002-3826-2180",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Runqiu Xiao",
+      "position": 7,
+      "orcid": "0009-0005-3550-5636",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongjie Si",
+      "position": 8,
+      "orcid": "0009-0006-7511-6624",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dingcheng Jiang",
+      "position": 9,
+      "orcid": "0009-0004-4379-694X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, BNRist, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shouyi Yin",
+      "position": 10,
+      "orcid": "0000-0003-2309-572X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, BNRist, Beijing, China and Shanghai AI Laboratory, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Hu",
+      "position": 11,
+      "orcid": "0000-0001-6942-4395",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, BNRist, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guoping Long",
+      "position": 12,
+      "orcid": "0009-0006-3176-7572",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762228"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762228",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762228",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762228",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762228",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762228",
+      "kind": "crossref",
+      "title": "XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:ed70694ab691dbb470f9fe7e6bd97ba4b93c4efa351ed5a3cc6457ab1fd3aab8",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762228",
+      "url": "https://www.semanticscholar.org/paper/cf5bb3ae6dc07ff655b79c28f9fbce40b506e500",
+      "kind": "semantic-scholar",
+      "title": "XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e6abde9ebe532cff167459d5bece26943cc1922b966a9003f7c116af80bbc139",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

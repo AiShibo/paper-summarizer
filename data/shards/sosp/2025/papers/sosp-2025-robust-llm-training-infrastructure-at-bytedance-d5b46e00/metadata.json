@@ -1,0 +1,847 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2025-robust-llm-training-infrastructure-at-bytedance-d5b46e00",
+  "title": "Robust LLM Training Infrastructure at ByteDance",
+  "venue": "sosp",
+  "year": 2025,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2025-10-12",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Borui Wan",
+      "position": 1,
+      "orcid": "0009-0008-5902-1611",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaohong Liu",
+      "position": 2,
+      "orcid": "0009-0005-2551-7879",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zuquan Song",
+      "position": 3,
+      "orcid": "0009-0008-7576-6162",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jun Wang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yun Zhang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guangming Sheng",
+      "position": 6,
+      "orcid": "0000-0003-3395-3994",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuguang Wang",
+      "position": 7,
+      "orcid": "0009-0008-4249-4092",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Houmin Wei",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenyuan Wang",
+      "position": 9,
+      "orcid": "0009-0007-5553-2601",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weiqiang Lou",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Yang",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mofan Zhang",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaihua Jiang",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cheng Ren",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoyun Zhi",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Menghan Yu",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Nan",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuolin Zheng",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Baoquan Zhong",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qinlong Wang",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huan Yu",
+      "position": 21,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinxin Chi",
+      "position": 22,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wang Zhang",
+      "position": 23,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuhan Li",
+      "position": 24,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zixian Du",
+      "position": 25,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sida Zhao",
+      "position": 26,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongqiang Zhang",
+      "position": 27,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingzhe Tang",
+      "position": 28,
+      "orcid": "0009-0008-8094-8112",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zherui Liu",
+      "position": 29,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chuan Wu",
+      "position": 30,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanghua Peng",
+      "position": 31,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibin Lin",
+      "position": 32,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wencong Xiao",
+      "position": 33,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Liu",
+      "position": 34,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liang Xiang",
+      "position": 35,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3731569.3764838",
+    "official_page": "https://doi.org/10.1145/3731569.3764838",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764838",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2025-program",
+      "url": "https://sigops.org/s/conferences/sosp/2025/accepted.html",
+      "kind": "conference-program",
+      "title": "SOSP 2025 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:7096099ed3679d1421a95c3d0b1722bc04f8516da6eaef7c3011fcd0f372fb39",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3731569",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2025-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:e797db7544ea4e452bace07bda8f9cc7b5976d94a7ef7a126151a59fb8006bab",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    },
+    {
+      "id": "src-sosp-2025-crossref-3731569-3764838",
+      "url": "https://api.crossref.org/works/10.1145%2F3731569.3764838",
+      "kind": "crossref",
+      "title": "Crossref publisher-deposited metadata for Robust LLM Training Infrastructure at ByteDance",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:25f8677d6469d1d7fd8dbfa44d464d579c6daf6386016fbea6dfd39943d72464",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title or author order used to resolve a documented conflict or duplicate in the official conference program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing.",
+      "The publisher-deposited Crossref author order overrides a conflicting or duplicated author entry in the official program; official program affiliations were matched by author name."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

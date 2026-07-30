@@ -1,0 +1,56 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-phyfuzz-detecting-sensor-vulnerabilities-with-physical-s-927d2428",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization",
+    "bug-finding-or-testing-tool",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-ac8af0e3eccd4c99-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phyfuzz-detecting-sensor-vulnerabilities-with-physical-signal-fuzzing/",
+      "kind": "paper-page",
+      "title": "PhyFuzz: Detecting Sensor Vulnerabilities with Physical Signal Fuzzing",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6fe60c248d89b277e699b7ab27ffcc15f79f44c8387f75a14b46251da690173d",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

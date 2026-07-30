@@ -1,0 +1,498 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-sdcs-in-the-wild-characterizing-and-diagnosing-sdc-defec-4c37e7e9",
+  "title": "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)",
+  "venue": "osdi",
+  "year": 2026,
+  "track_or_session": "Training Reliability and Silent Errors",
+  "paper_type": "main-track",
+  "publication_date": "2026-07-13",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Wenxin Zheng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University and ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenxiao Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yun Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingcong Han",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Xu",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinyu Gu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xingda Wei",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Chen",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zuquan Song",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaohong Liu",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yucheng Nie",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Nan",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuolin Zheng",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huan Yu",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuguang Wang",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziming Zhou",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hang Zhu",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wencong Xiao",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Liu",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi26/presentation/zheng",
+    "official_pdf": "https://www.usenix.org/system/files/osdi26-zheng.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {318523,\nauthor = {Wenxin Zheng and Wenxiao Wang and Yun Zhang and Mingcong Han and Bin Xu and Jinyu Gu and Xingda Wei and Haibo Chen and Zuquan Song and Gaohong Liu and Yucheng Nie and Zhe Nan and Zhuolin Zheng and Huan Yu and Shuguang Wang and Ziming Zhou and Hang Zhu and Wencong Xiao and Xin Liu},\ntitle = {{SDCs} in the Wild: Characterizing and Diagnosing {SDC-Defective} {GPUs} in Production {LLM} Training (Operational Systems)},\nbooktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-55-7},\naddress = {Seattle, WA},\npages = {1349--1367},\nurl = {https://www.usenix.org/conference/osdi26/presentation/zheng},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-zheng",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/zheng",
+      "kind": "paper-page",
+      "title": "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:71a0cc08fe8779504ad0bd4c88bbf48d23413c27e97f65e936abfab8b245ba6a",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-proceedings",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official technical-session inventory and individual final-paper pages were reconciled one-to-one.",
+      "USENIX does not assign DOIs to OSDI proceedings papers.",
+      "Slides and videos were not present on the official paper page at retrieval time."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (where not published unambiguously in available sources)",
+      "links.slides (not published on the official paper page as retrieved)",
+      "links.video (not published on the official paper page as retrieved)"
+    ]
+  }
+}

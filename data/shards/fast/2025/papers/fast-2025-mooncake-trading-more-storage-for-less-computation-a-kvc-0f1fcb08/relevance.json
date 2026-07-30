@@ -1,0 +1,86 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-mooncake-trading-more-storage-for-less-computation-a-kvc-0f1fcb08",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Machine Learning and Storage session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "caching",
+    "computer-architecture",
+    "accelerators",
+    "resource-management-and-scheduling",
+    "ml-systems",
+    "inference-systems",
+    "llm-systems"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:d00f43efdd31af60c59e4851dfff621aa4e0086f902ffc7babf0f4917a57f453",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2025-mooncake-trading-more-storage-for-less-computation-a-kvc-0f1fcb08-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/qin",
+      "kind": "paper-page",
+      "title": "Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:f79a4b4dfcb7337ceb8d2fdf51268d06996b6bec3a64068f6985eebadc546740",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

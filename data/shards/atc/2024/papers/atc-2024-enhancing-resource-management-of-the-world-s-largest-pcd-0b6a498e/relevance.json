@@ -1,0 +1,75 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-enhancing-resource-management-of-the-world-s-largest-pcd-0b6a498e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material networking mechanism at the network layer.",
+  "topics": [
+    "networking",
+    "datacenter-networking",
+    "compilers-languages-and-runtimes",
+    "runtime-systems",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "resource-management-and-scheduling",
+    "cluster-management"
+  ],
+  "system_layers": [
+    "network",
+    "runtime",
+    "hardware",
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-zhang-rui-xiao",
+      "url": "https://www.usenix.org/conference/atc24/presentation/zhang-rui-xiao",
+      "kind": "paper-page",
+      "title": "Enhancing Resource Management of the World's Largest PCDN System for On-Demand Video Streaming",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:4439e873b844f109299e4d9c0b8db7ff62d6b17e05ff51d30c254a0e4c0b8a4e",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

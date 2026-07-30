@@ -1,0 +1,413 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-os2g-a-high-performance-dpu-offloading-architecture-for-39fb1a6c",
+  "title": "OS2G: A High-Performance DPU Offloading Architecture for GPU-based Deep Learning with Object Storage",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 2B: Distributed Computing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhen Jin",
+      "position": 1,
+      "orcid": "0009-0005-3555-1907",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China and Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiquan Chen",
+      "position": 2,
+      "orcid": "0009-0004-8714-6949",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingxu Liang",
+      "position": 3,
+      "orcid": "0009-0002-3893-6923",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yijing Wang",
+      "position": 4,
+      "orcid": "0009-0005-8716-6904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guoju Fang",
+      "position": 5,
+      "orcid": "0009-0003-2495-6154",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ao Zhou",
+      "position": 6,
+      "orcid": "0009-0006-9653-8770",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Keyao Zhang",
+      "position": 7,
+      "orcid": "0009-0009-6776-325X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiexiong Xu",
+      "position": 8,
+      "orcid": "0000-0002-2491-1381",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenhai Lin",
+      "position": 9,
+      "orcid": "0000-0002-0642-9073",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiquan Lin",
+      "position": 10,
+      "orcid": "0009-0006-1087-6016",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shushu Zhao",
+      "position": 11,
+      "orcid": "0009-0007-3134-3558",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenkai Shi",
+      "position": 12,
+      "orcid": "0009-0001-6151-5468",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenhua He",
+      "position": 13,
+      "orcid": "0009-0003-9489-0963",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shishun Cai",
+      "position": 14,
+      "orcid": "0009-0004-3568-717X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenzhi Chen",
+      "position": 15,
+      "orcid": "0000-0003-1674-4701",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716265"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716265",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716265",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716265",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716265",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716265",
+      "kind": "crossref",
+      "title": "OS2G: A High-Performance DPU Offloading Architecture for GPU-based Deep Learning with Object Storage",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a5c0f09d3538f4c3055340ecb526ef1455483cd992eab046a04bd31098d0ecc4",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716265",
+      "url": "https://www.semanticscholar.org/paper/b3c8b200c8ff7891bbc7af042ef2ed98efa432b9",
+      "kind": "semantic-scholar",
+      "title": "OS2G: A High-Performance DPU Offloading Architecture for GPU-based Deep Learning with Object Storage",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:54a2acd1a0d04b4c3202fe3bf0d758b6ff489baa83adcbeac99961b6fdae30a4",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

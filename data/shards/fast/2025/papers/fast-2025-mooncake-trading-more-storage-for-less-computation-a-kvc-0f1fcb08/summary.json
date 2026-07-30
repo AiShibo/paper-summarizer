@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-mooncake-trading-more-storage-for-less-computation-a-kvc-0f1fcb08",
+  "takeaway": "Mooncake pools KV caches across GPU-cluster memory and storage, then jointly schedules disaggregated prefill and decoding, substantially increasing long-context LLM request capacity under latency objectives.",
+  "background": "LLM inference first performs a compute-intensive prefill over the prompt and then a memory-bandwidth-intensive token-by-token decode. Reusing the resulting key-value cache can avoid recomputation, especially for long or shared prefixes, but individual GPU memory is scarce.",
+  "villain": "Coupling prefill and decoding on the same workers wastes heterogeneous resources and lets long prefills disrupt decode latency. Node-local KV caches strand capacity, duplicate cached prefixes, and miss reuse when a scheduler sends a request to another node.",
+  "approach": "Mooncake separates prefill and decode clusters and turns underused CPU DRAM, SSDs, NICs, and GPU memory into a global, replicated KV-cache pool. Its Conductor routes requests using cache state and latency constraints; paged, hash-addressed cache blocks and a topology-aware multi-NIC transfer engine move layer results while computation proceeds.",
+  "impact": "The KVCache-centric architecture serves production Kimi traffic across thousands of nodes and more than 100 billion daily tokens. It shows how storage and network resources can substitute for repeated GPU computation when cache reuse and bandwidth are high enough.",
+  "evaluation": {
+    "overview": "Trace-driven serving experiments measure effective request capacity under time-to-first-token and time-between-token objectives, GPU time, cache reuse, prefill latency, transfer bandwidth, and prefill/decode provisioning; production history supplies a separate deployment comparison.",
+    "implemented": "The production Mooncake platform, including disaggregated prefill/decode workers, the Conductor scheduler, Mooncake Store, paged KV blocks, LRU cache management, replication, and a topology-aware RDMA transfer engine.",
+    "setting": "Sixteen 8×A800-80 GB nodes with four 200-Gbps RDMA NICs per node run a dummy LLaMA3-70B model. Tests replay a 12,031-request conversation trace, a 23,608-request tool/agent trace, and synthetic requests; the deployed system also spans A800 and H800 clusters.",
+    "baselines": [
+      "vLLM 0.5.1",
+      "vLLM with prefix caching",
+      "vLLM with chunked prefill",
+      "Mooncake with local-only cache"
+    ],
+    "results": [
+      {
+        "id": "claim-mooncake-capacity",
+        "text": "On the real conversation trace, Mooncake increases effective request capacity by 498%, 157%, and 59% over vLLM under three progressively looser TTFT/TBT SLO combinations.",
+        "source_ids": [
+          "src-fast25-pdf-0f1fcb08"
+        ],
+        "locator": "PDF pp. 2, 12–13; Abstract and §6.2, Figure 1"
+      },
+      {
+        "id": "claim-mooncake-cache",
+        "text": "Across evaluated workloads, Mooncake uses 36%–64% less GPU time than vLLM; its global cache reaches up to 136% higher hit rate and 48% lower prefill time than local caching.",
+        "source_ids": [
+          "src-fast25-pdf-0f1fcb08"
+        ],
+        "locator": "PDF pp. 13–14; §§6.2–6.3, Figures 8–9"
+      },
+      {
+        "id": "claim-mooncake-deployment",
+        "text": "Production-history comparisons report that Kimi handled 115% more requests on A800 clusters and 107% more on H800 clusters after adopting Mooncake than with the previous serving system.",
+        "source_ids": [
+          "src-fast25-pdf-0f1fcb08"
+        ],
+        "locator": "PDF pp. 2, 15; Abstract and §6.5"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The public evaluation substitutes a dummy LLaMA3-70B for Kimi and samples proprietary production traces. Prefix caching and chunked prefill are evaluated separately because of implementation constraints. The design needs at least roughly 100-Gbps interconnects, and gains depend on long prompts, cache reuse, SLOs, and a sufficiently stable workload for fixed prefill/decode provisioning.",
+  "phd_group_signal": "This work treats GPU, host memory, SSD, and network capacity as a joint serving hierarchy, and combines scheduler policy with storage and transport mechanisms. It is a strong example of cross-layer systems research validated with both controlled trace replay and production deployment.",
+  "beginner_concepts": [
+    "large-language-model inference",
+    "prefill and decoding",
+    "key-value cache",
+    "disaggregated architecture",
+    "RDMA",
+    "service-level objective",
+    "cache locality"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-mooncake-disaggregation",
+      "text": "Mooncake separates prefill from decoding and streams each layer's generated KV blocks to the selected decoder, overlapping transfer with later-layer computation.",
+      "source_ids": [
+        "src-fast25-pdf-0f1fcb08"
+      ],
+      "locator": "PDF pp. 5–8; §§3–4, Figures 3–4"
+    },
+    {
+      "id": "claim-mooncake-store",
+      "text": "Mooncake Store exposes paged, content-hashed KV blocks across GPU memory, CPU DRAM, and SSD, with replication, LRU eviction, and topology-aware multi-NIC RDMA transfers.",
+      "source_ids": [
+        "src-fast25-pdf-0f1fcb08"
+      ],
+      "locator": "PDF pp. 8–10; §4.2, Figure 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-0f1fcb08",
+      "url": "https://www.usenix.org/system/files/fast25-qin.pdf",
+      "kind": "paper-pdf",
+      "title": "Mooncake: Trading More Storage for Less Computation – A KVCache-centric Architecture for Serving LLM Chatbot",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:543e56c541523c5e807d2231370f96749b2294bc901266397a7265b18ae2c130",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, implementation, evaluation, deployment, and conclusion",
+        "reported capacity, GPU-time, cache, transfer, and production results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:44:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context, §3 architecture, §§4–5 store/scheduling, §6 evaluation, §7 discussion, and §9 conclusion.",
+      "Production and numerical results are author-reported; proprietary traces and the Kimi model are not released in the paper."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:44:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

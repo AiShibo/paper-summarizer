@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-red-team-vs-blue-team-a-real-world-hardware-trojan-detec-1f3af8a9",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper conducts an open, end-to-end physical hardware-Trojan detection study across four manufactured IC technologies.",
+  "topics": [
+    "hardware-security",
+    "computer-architecture",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a13f49238a54ffbe-abstract",
+      "url": "https://openalex.org/W4384948639",
+      "kind": "openalex",
+      "title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

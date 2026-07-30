@@ -1,0 +1,45 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-transparent-dictionaries-from-polynomial-commitments-c3dc3222",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-eeb4bf9793a73ce3-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hafezi",
+      "kind": "paper-page",
+      "title": "Transparent Dictionaries from Polynomial Commitments",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e3f1f4db901fb07f65d2d7d0018f5b63b0d188a8b566c72b6849017f55192ef2",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

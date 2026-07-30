@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-pacs-privacy-preserving-attribute-driven-community-searc-3ef3d395",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a1b1c5833929f321-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/",
+      "kind": "paper-page",
+      "title": "PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed Graphs",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e4fed043a2a0302da95fd4d89ae5af67386544182010a68331c1ba238d2a19f6",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

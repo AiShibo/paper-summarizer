@@ -1,0 +1,46 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-assessing-llm-response-quality-in-the-context-of-technol-caee8aad",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack or defense without a compiler, runtime, serving, architecture, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-c4138bc760c1374c-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/prakash",
+      "kind": "paper-page",
+      "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:9463424860b3c77ead3aa1054049d5359bbe94c4b79e30b02a2ee8d34a799ca6",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

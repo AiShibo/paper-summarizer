@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-tensorir-an-abstraction-for-automatic-tensorized-program-72d3772f",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because TensorIR contributes a concrete ML compiler, runtime, or infrastructure mechanism for an Abstraction for Automatic Tensorized Program Optimization.",
+  "topics": [
+    "ml-systems",
+    "training-systems",
+    "inference-systems",
+    "compilers-languages-and-runtimes",
+    "compilers",
+    "accelerator-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3576933",
+      "url": "https://www.semanticscholar.org/paper/6d5c5e0df5dc4bd0bcd524d2a22d65d672bd0b74",
+      "kind": "semantic-scholar",
+      "title": "TensorIR: An Abstraction for Automatic Tensorized Program Optimization",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:a5e415e10804a09ba68d64a79e4f454c2d6633500eb01e26eb0548e4dea6c14e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Classified from the official ASPLOS technical session and the complete abstract indexed by Semantic Scholar; no official conference abstract page was available, and independent review is still required.",
+      "The indexed abstract identifies a material architecture, compiler, runtime, communication, scheduling, storage, training, inference, or hardware/software co-design mechanism; the paper was not included merely for proposing or applying a machine-learning algorithm."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

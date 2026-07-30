@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-gphash-an-efficient-hash-index-for-gpu-with-byte-granula-1de38335",
+  "takeaway": "GPHash makes persistent-memory indexing GPU-native through warp-cooperative bucket probes, atomic slot-state updates, and a periodically frozen hot-bucket cache.",
+  "background": "Byte-addressable persistent memory mapped into a GPU address space can hold durable data beyond GPU-memory capacity without CPU-mediated transfers. Hash indexing suits point access, but conventional CPU and GPU tables do not account for warp execution, persistence, or the large PM-to-GPU bandwidth gap.",
+  "villain": "One-operation-per-thread tables suffer warp divergence and uncoalesced reads, locks contend across thousands of threads, and logging or copy-on-write adds persistent writes. Directly probing PM also leaves GPU compute starved by comparatively low media bandwidth.",
+  "approach": "GPHash assigns one operation to a 32-thread warp, which probes all candidate slots together in coalesced accesses. Multi-level shared buckets, multiple hash locations, and associativity raise load factor. CAS plus empty/insertion slot states provides lock- and log-free failure atomicity. BktCache periodically loads hot whole buckets into GPU memory and freezes membership between refreshes.",
+  "impact": "The design shows how data-structure layout, concurrency, durability, and caching must all follow GPU execution granularity when accelerators directly manage persistent data. Its configurable structure trades lookup throughput against load factor.",
+  "evaluation": {
+    "overview": "YCSB point operations and mixes measure throughput, latency, load factor, design contributions, sensitivity, recovery, and resize/cache-load overhead; DLRM and PageRank traces test application-derived access.",
+    "implemented": "An open-source CUDA hash index for GPU-mapped persistent memory with warp-cooperative operations and a GPU-resident bucket cache.",
+    "setting": "A dual-26-core Xeon Gold 6230R server with a Tesla V100, 192 GB DRAM, and six Optane DCPMMs totaling 768 GB in App Direct mode; indexes begin with 16 million items.",
+    "baselines": [
+      "Clevel",
+      "Dash",
+      "SEPH",
+      "Clevel-GPM",
+      "SlabHash-GPM"
+    ],
+    "results": [
+      {
+        "id": "claim-gphash-ycsb",
+        "text": "Across YCSB operations, GPHash is reported to improve throughput by up to 13.84× and reduce latency by up to 27.62× versus CPU-assisted indexes; insertion throughput improves by up to 5.79×.",
+        "source_ids": [
+          "src-fast25-pdf-1de38335"
+        ],
+        "locator": "PDF pp. 10–11; §4.2, Figures 5–6"
+      },
+      {
+        "id": "claim-gphash-load",
+        "text": "GPHash reaches a maximum 92% load factor versus at most 85% for the compared persistent-memory tables and 82% for SlabHash-GPM.",
+        "source_ids": [
+          "src-fast25-pdf-1de38335"
+        ],
+        "locator": "PDF p. 11; §4.2, Figure 7"
+      },
+      {
+        "id": "claim-gphash-real",
+        "text": "On DLRM- and PageRank-derived workloads, GPHash reports up to 7.09× higher throughput and 7.91× lower latency than the comparison schemes.",
+        "source_ids": [
+          "src-fast25-pdf-1de38335"
+        ],
+        "locator": "PDF p. 12; §4.5, Figure 10"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The prototype uses one V100 and deprecated Optane PM rather than a CXL-attached system, although the authors argue the design transfers. It optimizes point access, not range queries, and variable-length records depend on a suitable GPU allocator. Results use batched operations and mostly fixed-size keys/values; BktCache benefits depend on skew and consumes GPU memory.",
+  "phd_group_signal": "The paper treats GPU warp behavior and PM persistence as first-class data-structure constraints, then decomposes gains among execution, layout, and caching. It demonstrates the accelerator-systems practice of redesigning rather than mechanically porting a CPU structure.",
+  "beginner_concepts": [
+    "persistent memory",
+    "GPU warp",
+    "hash table",
+    "compare-and-swap",
+    "crash consistency",
+    "load factor",
+    "cache locality"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-gphash-layout",
+      "text": "One warp probes all slots in candidate buckets, while associativity, inter-level sharing, multiple hash locations, and in-place keys combine high parallelism with coalesced access.",
+      "source_ids": [
+        "src-fast25-pdf-1de38335"
+      ],
+      "locator": "PDF pp. 5–7; §3.1, Figure 2"
+    },
+    {
+      "id": "claim-gphash-consistency",
+      "text": "Atomic CAS transitions through reserved slot states make insertion, update, and deletion lock-free and recoverable without a separate log.",
+      "source_ids": [
+        "src-fast25-pdf-1de38335"
+      ],
+      "locator": "PDF pp. 7–8; §§3.2.1–3.2.3, Figures 3–4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-1de38335",
+      "url": "https://www.usenix.org/system/files/fast25-chen-menglei.pdf",
+      "kind": "paper-pdf",
+      "title": "GPHash: An Efficient Hash Index for GPU with Byte-Granularity Persistent Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:db8a240d3d414e6a253d346a9c00ba99b2cc13cfe3a4f0b595027ae5b21cdd2f",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, evaluation, discussion, and conclusion",
+        "reported YCSB, real-workload, load-factor, and overhead results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:44:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.3 design, §§4.1–4.7 evaluation, §5 Discussion, and §7 Conclusion.",
+      "Performance values are author-reported on one GPM testbed and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:44:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

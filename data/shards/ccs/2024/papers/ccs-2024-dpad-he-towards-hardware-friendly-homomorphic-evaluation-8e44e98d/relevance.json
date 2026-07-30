@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-dpad-he-towards-hardware-friendly-homomorphic-evaluation-8e44e98d",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-10e2ab6e5798e267-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690280",
+      "kind": "publisher-page",
+      "title": "DPad-HE: Towards Hardware-friendly Homomorphic Evaluation using 4-Directional Manipulation",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-2e530f5c6949fd06-abstract",
+      "url": "https://openalex.org/W4405181111",
+      "kind": "openalex",
+      "title": "DPad-HE: Towards Hardware-friendly Homomorphic Evaluation using 4-Directional Manipulation",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-petal-ensuring-access-control-integrity-against-data-onl-5b19ff8c",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "computer-architecture",
+    "hardware-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "optimization",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-4aa28ed136b26a57-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690184",
+      "kind": "publisher-page",
+      "title": "PeTAL: Ensuring Access Control Integrity against Data-only Attacks on Linux",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-868d7eec7269c7e2-abstract",
+      "url": "https://www.semanticscholar.org/paper/1a26711c1a15b177ae1022c4460a98990bb33ef2",
+      "kind": "semantic-scholar",
+      "title": "PeTAL: Ensuring Access Control Integrity against Data-only Attacks on Linux",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

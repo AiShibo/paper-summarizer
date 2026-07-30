@@ -1,0 +1,246 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-spada-accelerating-sparse-matrix-multiplication-with-ada-b3db707a",
+  "title": "SPADA: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 4C: Tensor Computation",
+  "paper_type": "main-track",
+  "publication_date": "2023-01-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhiyao Li",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiaxiang Li",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northwestern University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Taijie Chen",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dimin Niu",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba DAMO Academy, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongzhong Zheng",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba DAMO Academy, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Xie",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba DAMO Academy, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingyu Gao",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, China / Shanghai Qi Zhi Institute, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575706"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3575693.3575706",
+    "official_page": "https://dl.acm.org/doi/10.1145/3575693.3575706",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575706",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/f9ZJ84lck8I",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3575693-3575706",
+      "url": "https://api.crossref.org/works/10.1145/3575693.3575706",
+      "kind": "crossref",
+      "title": "SPADA: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:cf12330a07b1ae14d6147edf67d8cb94f491992135006fb99e39d93887dfd59e",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575706",
+      "url": "https://www.semanticscholar.org/paper/5d0b142b6d8bf20e4042e32b96330fa0f6522983",
+      "kind": "semantic-scholar",
+      "title": "Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:3387a97604c4b71b871312ed841c3947b360827436bded3968344eb121ffa315",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

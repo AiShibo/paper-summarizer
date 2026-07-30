@@ -1,0 +1,138 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-secure-account-recovery-for-a-privacy-preserving-web-ser-986a73fb",
+  "title": "Secure Account Recovery for a Privacy-Preserving Web Service",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "Cryptographic Protocols I: Multi-Party Computation",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ryan Little",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-897f56a34b4bd9c3-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lucy Qin",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgetown University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-897f56a34b4bd9c3-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mayank Varia",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Boston University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-897f56a34b4bd9c3-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/little",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-2327e784b7f2dc24-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-897f56a34b4bd9c3-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/little",
+      "kind": "paper-page",
+      "title": "Secure Account Recovery for a Privacy-Preserving Web Service",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count",
+      "publication_date",
+      "links.official_pdf"
+    ]
+  }
+}

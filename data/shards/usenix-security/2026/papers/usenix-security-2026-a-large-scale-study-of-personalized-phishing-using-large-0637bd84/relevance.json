@@ -1,0 +1,45 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-a-large-scale-study-of-personalized-phishing-using-large-0637bd84",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack or defense without a compiler, runtime, serving, architecture, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-2da86055c76c2f94-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/czybik",
+      "kind": "paper-page",
+      "title": "A Large-Scale Study of Personalized Phishing using Large Language Models",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:8ffa8ac862ec53d6ece45d34291dc3b899bd206fa762c6991c111399cb0011ad",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

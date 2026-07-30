@@ -1,0 +1,51 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-sweep-uc-swapping-coins-privately-86f47eab",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-bab69cf259788d09-abstract",
+      "url": "https://www.semanticscholar.org/paper/1c2a9808b47af250634774c6686cd70073acf5ae",
+      "kind": "semantic-scholar",
+      "title": "Sweep-UC: Swapping Coins Privately",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

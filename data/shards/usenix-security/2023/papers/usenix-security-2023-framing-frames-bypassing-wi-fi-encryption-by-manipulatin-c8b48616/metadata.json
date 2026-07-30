@@ -1,0 +1,136 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-framing-frames-bypassing-wi-fi-encryption-by-manipulatin-c8b48616",
+  "title": "Framing Frames: Bypassing Wi-Fi Encryption by Manipulating Transmit Queues",
+  "venue": "usenix-security",
+  "year": 2023,
+  "track_or_session": "Breaking Wireless Protocols",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Domien Schepers",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-cfebcf01cc487f81-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aanjhan Ranganathan",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-cfebcf01cc487f81-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mathy Vanhoef",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "imec-DistriNet, KU Leuven",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-cfebcf01cc487f81-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity23/presentation/schepers",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity23-schepers.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/qCfdkGRPZqI?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {285523,\nauthor = {Domien Schepers and Aanjhan Ranganathan and Mathy Vanhoef},\ntitle = {Framing Frames: Bypassing {Wi-Fi} Encryption by Manipulating Transmit Queues},\nbooktitle = {32nd USENIX Security Symposium (USENIX Security 23)},\nyear = {2023},\nisbn = {978-1-939133-37-3},\naddress = {Anaheim, CA},\npages = {53--68},\nurl = {https://www.usenix.org/conference/usenixsecurity23/presentation/schepers},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-5ae14d21fc4d1e2d-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-cfebcf01cc487f81-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/schepers",
+      "kind": "paper-page",
+      "title": "Framing Frames: Bypassing Wi-Fi Encryption by Manipulating Transmit Queues",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations when published, abstract, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

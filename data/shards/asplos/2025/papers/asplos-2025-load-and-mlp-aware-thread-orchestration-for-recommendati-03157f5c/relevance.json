@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-load-and-mlp-aware-thread-orchestration-for-recommendati-03157f5c",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because the paper contributes a concrete distributed ML infrastructure mechanism for load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs.",
+  "topics": [
+    "ml-systems",
+    "distributed-ml",
+    "resource-management-and-scheduling",
+    "inference-systems",
+    "model-serving",
+    "scheduling"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716003",
+      "url": "https://www.semanticscholar.org/paper/cd0fb22593a919dcb78ef2793587b0b433a2c8a9",
+      "kind": "semantic-scholar",
+      "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:66532a448c8164064764d45a8b19a0e8ec45ba62c566392c357f0db82c44975f",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required.",
+      "The abstract identifies a concrete architecture, compiler, runtime, scheduling, serving, training, or hardware/software co-design mechanism; the paper was not included merely for applying machine learning."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

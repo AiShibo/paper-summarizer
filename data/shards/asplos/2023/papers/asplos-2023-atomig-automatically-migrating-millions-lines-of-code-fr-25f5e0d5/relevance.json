@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-atomig-automatically-migrating-millions-lines-of-code-fr-25f5e0d5",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because AtoMig contributes a concrete shared-memory consistency and concurrency mechanism for automatically Migrating Millions Lines of Code from TSO to WMM.",
+  "topics": [
+    "computer-architecture",
+    "memory-hierarchy",
+    "formal-methods-and-systems-verification",
+    "reliability-testing-and-debugging",
+    "verified-systems"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3579849",
+      "url": "https://www.semanticscholar.org/paper/ed3edee7985a6f3a1b6919df19ad77eec97ebdcd",
+      "kind": "semantic-scholar",
+      "title": "AtoMig: Automatically Migrating Millions Lines of Code from TSO to WMM",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:1a77412ae782435e259f0e8110af0a5b239c5eae0aa5f0c1e79f8898e51ac442",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Classified from the official ASPLOS technical session and the complete abstract indexed by Semantic Scholar; no official conference abstract page was available, and independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

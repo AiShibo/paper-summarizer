@@ -1,0 +1,357 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-create-c-ross-layer-resilience-characterization-and-opti-edd2b5c4",
+  "title": "CREATE: C ross-Layer Resilience Characterization and Optimization for Efficient yet R eliable E mbodied A I Sys te ms",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6A: Neural Network Acceleration",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tong Xie",
+      "position": 1,
+      "orcid": "0009-0007-1259-3762",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yijiahao Qi",
+      "position": 2,
+      "orcid": "0009-0006-7649-1127",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of EECS, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinqi Wen",
+      "position": 3,
+      "orcid": "0009-0002-0025-6439",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of EECS, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zishen Wan",
+      "position": 4,
+      "orcid": "0000-0002-2982-5351",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology, Atlanta, GA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanchi Dong",
+      "position": 5,
+      "orcid": "0009-0004-5321-8297",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihao Wang",
+      "position": 6,
+      "orcid": "0000-0001-8396-3707",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for Artificial Intelligence, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaofei Cai",
+      "position": 7,
+      "orcid": "0000-0002-1195-7276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for Artificial Intelligence, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yitao Liang",
+      "position": 8,
+      "orcid": "0009-0009-0944-7814",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for Artificial Intelligence, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyu Jia",
+      "position": 9,
+      "orcid": "0000-0002-4570-4613",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Wang",
+      "position": 10,
+      "orcid": "0000-0002-4951-4286",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Runsheng Wang",
+      "position": 11,
+      "orcid": "0000-0002-7514-0767",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Integrated Circuits, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Meng Li",
+      "position": 12,
+      "orcid": "0000-0002-7212-2264",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for Artificial Intelligence, Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790147"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790147",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790147",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2601.14140",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790147",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790147",
+      "kind": "crossref",
+      "title": "CREATE: C ross-Layer Resilience Characterization and Optimization for Efficient yet R eliable E mbodied A I Sys te ms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:83132bada4524895f7e7392cf4da1e6ac532b1a02f5fcd2376afbc256843af33",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790147",
+      "url": "https://www.semanticscholar.org/paper/7d97fd9e4badf589c314f3579bd2f896386009da",
+      "kind": "semantic-scholar",
+      "title": "CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:c2e8d13e8a1ac8a1aefb89791625a97d7474ea6685c61aadc2353d798acb0d2d",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems"
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

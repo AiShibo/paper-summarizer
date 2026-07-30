@@ -1,0 +1,864 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55",
+  "title": "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch",
+  "venue": "nsdi",
+  "year": 2026,
+  "track_or_session": "Cloud Systems, Shared and Scalable",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shaofeng Wu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong and Microsoft Research Asia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhixiong Niu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research Asia",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Riff Jiang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lawrence Lee",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junhua Zhai",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ze Gan",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vasundhara Volam",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prabhat Aravind",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prince Sunny",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prince George",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Luo",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Evan Langlais",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Soumya Tiwari",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Venkat Satish Katta",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weixi Chen",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rishiraj Hazarika",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sachin Jain",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Deven Jagasia",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michal Zygmunt",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Avijit Gupta",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Neeraj Motwani",
+      "position": 21,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pranjal Shrivastava",
+      "position": 22,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiang Su",
+      "position": 23,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anil Reddy Pannala",
+      "position": 24,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kristina Moore",
+      "position": 25,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "James Grantham",
+      "position": 26,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anupam Pandey",
+      "position": 27,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Liu",
+      "position": 28,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guohan Lu",
+      "position": 29,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gerald De Grace",
+      "position": 30,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rishabh Tewari",
+      "position": 31,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lihua Yuan",
+      "position": 32,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Erica Lan",
+      "position": 33,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Deepak Bansal",
+      "position": 34,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dave Maltz",
+      "position": 35,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongqiang Xiong",
+      "position": 36,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research Asia",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hong Xu",
+      "position": 37,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi26/presentation/wu-shaofeng",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi26-wu-shaofeng.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/nsdi26_slides-wu-shaofeng.pdf",
+    "video": "https://www.youtube.com/embed/QWYJG4D6dL8?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {316722,\nauthor = {Shaofeng Wu and Zhixiong Niu and Riff Jiang and Lawrence Lee and Junhua Zhai and Ze Gan and Vasundhara Volam and Prabhat Aravind and Prince Sunny and Prince George and Qi Luo and Evan Langlais and Soumya Tiwari and Venkat Satish Katta and Weixi Chen and Rishiraj Hazarika and Sachin Jain and Deven Jagasia and Michal Zygmunt and Avijit Gupta and Neeraj Motwani and Pranjal Shrivastava and Qiang Su and Anil Reddy Pannala and Kristina Moore and James Grantham and Anupam Pandey and Xin Liu and Guohan Lu and Gerald De Grace and Rishabh Tewari and Lihua Yuan and Erica Lan and Deepak Bansal and Dave Maltz and Yongqiang Xiong and Hong Xu},\ntitle = {Offloading Cloud Network Services at Production Scale with {SONiC} {DASH} {SmartSwitch}},\nbooktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-54-0},\naddress = {Renton, WA},\npages = {2569--2586},\nurl = {https://www.usenix.org/conference/nsdi26/presentation/wu-shaofeng},\npublisher = {USENIX Association},\nmonth = may\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2026-offloading-cloud-network-services-at-production-scale-wi-9dfb7c55-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-shaofeng",
+      "kind": "paper-page",
+      "title": "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:81633ce9b3b9fc97031891253217c5349dbfef8268b27db130b628d2d6c902ff",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Canonical identity, title, author order, and affiliations follow the checked official conference sources.",
+      "No alternate version was exposed by the checked official sources; an empty alternate_versions list is not a claim that none exists elsewhere.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official sources; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains null and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].orcid (not supplied by the checked official sources)",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "publication_date"
+    ]
+  }
+}

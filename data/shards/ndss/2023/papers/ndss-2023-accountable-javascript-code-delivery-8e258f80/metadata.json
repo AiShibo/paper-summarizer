@@ -1,0 +1,171 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-accountable-javascript-code-delivery-8e258f80",
+  "title": "Accountable Javascript Code Delivery",
+  "venue": "ndss",
+  "year": 2023,
+  "track_or_session": "Web Security I",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ilkan Esiyok",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1a1ed5922862b557-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pascal Berrang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Birmingham & Nimiq",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1a1ed5922862b557-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Katriel Cohn-Gordon",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1a1ed5922862b557-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert Künnemann",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1a1ed5922862b557-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2023.24096",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/accountable-javascript-code-delivery/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-96-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-96-slides.pdf",
+    "video": "https://youtu.be/iNfb9he0ikQ?si=EHKoanLTxxGHsCVz",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b8fbe6c558275b9f-program",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-1a1ed5922862b557-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/accountable-javascript-code-delivery/",
+      "kind": "paper-page",
+      "title": "Accountable Javascript Code Delivery",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-38afc619b892c691-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2023.24096",
+      "kind": "crossref",
+      "title": "Accountable Javascript Code Delivery",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

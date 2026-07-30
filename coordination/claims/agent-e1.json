@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e1",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:23:30Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/osdi/2025"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "osdi-2025-nanoflow-towards-optimal-large-language-model-serving-th-0452c3f8",
+    "osdi-2025-paralegal-practical-static-analysis-for-privacy-bugs-6999838d",
+    "osdi-2025-os-rendering-service-made-parallel-with-out-of-order-exe-92da448c",
+    "osdi-2025-building-bridges-safe-interactions-with-foreign-language-107f105c",
+    "osdi-2025-training-with-confidence-catching-silent-errors-in-deep-0a5ee1bc"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Verified canonical paper-ID SHA-256 b64726ef85a368d75cb084b4c4b6637bfda38481746e98aa4232fe576effb5fe before editing.",
+    "Claim is limited to the five-paper OSDI 2025 summary calibration batch.",
+    "Completed exactly the five assigned summary.json stages from the official USENIX full-paper PDFs; all five workflows are READY_FOR_REVIEW with verification.verified_by left null.",
+    "Draft validation passed for data/shards/osdi/2025 (53 bundles, 319 JSON files) and data/shards (5989 bundles, 36072 JSON files), both with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, release validation for the fixture, and repository-wide draft validation.",
+    "Removed all temporary Agent E1 PDF copies and extracted text from data/tmp/agent-e1 after source verification."
+  ]
+}

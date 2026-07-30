@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-breaking-and-fixing-virtual-channels-domino-attack-and-d-f984fb01",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a distributed-systems security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "distributed-systems"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "deployment-experience",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-772d2cedea7a9834-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-and-fixing-virtual-channels-domino-attack-and-donner/",
+      "kind": "paper-page",
+      "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

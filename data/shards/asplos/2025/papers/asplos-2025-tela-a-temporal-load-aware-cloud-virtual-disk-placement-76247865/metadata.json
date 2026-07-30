@@ -1,0 +1,287 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-tela-a-temporal-load-aware-cloud-virtual-disk-placement-76247865",
+  "title": "Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 4A: Cloud Computing 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Difan Tan",
+      "position": 1,
+      "orcid": "0009-0003-7713-2378",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiawei Li",
+      "position": 2,
+      "orcid": "0009-0009-5270-373X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hua Wang",
+      "position": 3,
+      "orcid": "0000-0002-2798-7322",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoxiao Li",
+      "position": 4,
+      "orcid": "0009-0000-0292-0036",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenbo Liu",
+      "position": 5,
+      "orcid": "0009-0007-2262-0920",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zijin Qin",
+      "position": 6,
+      "orcid": "0009-0009-2395-8477",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Zhou",
+      "position": 7,
+      "orcid": "0000-0002-2161-8796",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology, Wuhan, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming Xie",
+      "position": 8,
+      "orcid": "0009-0000-3041-0287",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent Inc., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengling Tao",
+      "position": 9,
+      "orcid": "0009-0009-0079-9944",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent Inc., Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707252"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707252",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707252",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707252",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707252",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707252",
+      "kind": "crossref",
+      "title": "Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:2384efde2141b8c1ab8969dcb5d8cb75f98e08e14c130f808ca314f0cef4ae37",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707252",
+      "url": "https://www.semanticscholar.org/paper/6933acdc5470390205c1a1de3f433d89bb80dfad",
+      "kind": "semantic-scholar",
+      "title": "Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6a453442155a7e0afdc51755787b1e0bb2e3cbf4c276d68af8b8c6e0f62b4edb",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

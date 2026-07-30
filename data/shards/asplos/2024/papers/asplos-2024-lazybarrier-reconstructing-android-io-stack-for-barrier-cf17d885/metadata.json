@@ -1,0 +1,257 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-lazybarrier-reconstructing-android-io-stack-for-barrier-cf17d885",
+  "title": "LazyBarrier: Reconstructing Android IO Stack for Barrier-Enabled Flash Storage",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 9B: SSDs",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuanyi Zhang",
+      "position": 1,
+      "orcid": "0000-0002-2609-5672",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Xi'an, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heng Zhang",
+      "position": 2,
+      "orcid": "0009-0000-5591-5919",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Xi'an, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenbin Cao",
+      "position": 3,
+      "orcid": "0009-0001-8217-7648",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Xi'an, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing He",
+      "position": 4,
+      "orcid": "0009-0004-1315-9835",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Xi'an, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daejun Park",
+      "position": 5,
+      "orcid": "0000-0002-8992-8467",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Hwaseong-si, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinyoung Choi",
+      "position": 6,
+      "orcid": "0009-0002-3950-4938",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Hwaseong-si, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "SungJun Park",
+      "position": 7,
+      "orcid": "0009-0009-4851-8523",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Hwaseong-si, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640370"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640370",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640370",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640370",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/OwvwdqNuH50",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640370",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640370",
+      "kind": "crossref",
+      "title": "LazyBarrier: Reconstructing Android IO Stack for Barrier-Enabled Flash Storage",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:a5d5f33b9a5e066d79806f3335e0e1e808d5dbee2e4a5139a0c4d5bd4b22cb22",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640370",
+      "url": "https://www.semanticscholar.org/paper/843cfcb18c2d6254e34dfca894b9b684c4b91a01",
+      "kind": "semantic-scholar",
+      "title": "LazyBarrier: Reconstructing Android IO Stack for Barrier-Enabled Flash Storage",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:869c0653a3f59578b8557c51a57051420aa48aa016d79323260ac539ad472807",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

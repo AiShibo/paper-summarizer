@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-crucible-retrofitting-commodity-cpus-with-vulnerabilitie-d2c26b24",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a hardware and architecture security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "bug-finding-or-testing-tool",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "fuzzing",
+    "simulation"
+  ],
+  "sources": [
+    {
+      "id": "src-c1f1d51e3568e360-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500c964/2geEWIYr04w",
+      "kind": "publisher-page",
+      "title": "Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-tipso-gan-malicious-network-traffic-detection-using-a-no-c2c109b5",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an ML-model attack, defense, or classifier without a compiler, runtime, serving system, or other material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-00867b7470fbeb66-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/tipso-gan-malicious-network-traffic-detection-using-a-novel-optimized-generative-adversarial-network/",
+      "kind": "paper-page",
+      "title": "TIPSO-GAN: Malicious Network Traffic Detection Using a Novel Optimized Generative Adversarial Network",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:f080af5bfb995c30148254901501208ce75f87185a99a9a0e2bf5d0a5f0a2a86",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

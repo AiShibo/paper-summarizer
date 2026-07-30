@@ -1,0 +1,178 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-gecos-replacing-experts-generalizable-and-comprehensible-bd9bec41",
+  "title": "GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Network Security 4: Internet and Beyond",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Konrad Wolsing",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fraunhofer FKIE and RWTH Aachen University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ffbaea97cb8cf0fc-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eric Wagner",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fraunhofer FKIE and RWTH Aachen University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ffbaea97cb8cf0fc-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luisa Lux",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fraunhofer FKIE and RWTH Aachen University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ffbaea97cb8cf0fc-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Klaus Wehrle",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "RWTH Aachen University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ffbaea97cb8cf0fc-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin Henze",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "RWTH Aachen University and Fraunhofer FKIE",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ffbaea97cb8cf0fc-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/wolsing",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-2c92f68146ab7e1b-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-ffbaea97cb8cf0fc-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wolsing",
+      "kind": "paper-page",
+      "title": "GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "links.official_pdf"
+    ]
+  }
+}

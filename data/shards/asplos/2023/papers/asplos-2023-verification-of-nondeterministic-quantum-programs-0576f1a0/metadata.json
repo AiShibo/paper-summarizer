@@ -1,0 +1,147 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-verification-of-nondeterministic-quantum-programs-0576f1a0",
+  "title": "Verification of nondeterministic quantum programs",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 6A: Quantum A",
+  "paper_type": "main-track",
+  "publication_date": "2023-03-25",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuan Feng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Technology Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582039"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yingte Xu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Technology Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582039"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3582016.3582039",
+    "official_page": "https://dl.acm.org/doi/10.1145/3582016.3582039",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/dxRAejpvf3c",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2302.07973",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3582016-3582039",
+      "url": "https://api.crossref.org/works/10.1145/3582016.3582039",
+      "kind": "crossref",
+      "title": "Verification of nondeterministic quantum programs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:967ad7bfc6b6610a9cead26b2520a7097b65853817810246c2785f8374120f57",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582039",
+      "url": "https://www.semanticscholar.org/paper/2f3ee2afbd38dfe4f1797fc35ec9757a4e56cff9",
+      "kind": "semantic-scholar",
+      "title": "Verification of Nondeterministic Quantum Programs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:e7ab5de82bff4f2a1a55b892d122e089fb08b00bd730bd67d8e3c01c3be3d686",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-yiming-zhang",
+  "author_id": "author-yiming-zhang",
+  "display_name": "Yiming Zhang",
+  "official_profile_url": "https://nicexlab.com/zym.htm",
+  "current_institution_id": "institution-shanghai-jiao-tong-university",
+  "department": null,
+  "faculty_rank": "Distinguished Professor",
+  "current_location": {
+    "city": "Shanghai",
+    "state_or_province": "Shanghai",
+    "country": "China",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": null,
+  "sources": [
+    {
+      "id": "src-faculty-yiming-zhang-profile",
+      "url": "https://nicexlab.com/zym.htm",
+      "kind": "faculty-page",
+      "title": "Official faculty profile for Yiming Zhang",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null unless an explicit current official statement was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region",
+      "recruiting",
+      "department"
+    ]
+  }
+}

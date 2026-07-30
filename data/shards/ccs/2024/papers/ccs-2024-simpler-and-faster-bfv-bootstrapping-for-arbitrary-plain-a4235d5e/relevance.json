@@ -1,0 +1,60 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-simpler-and-faster-bfv-bootstrapping-for-arbitrary-plain-a4235d5e",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "benchmark"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-8b80371a559e3be2-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670302",
+      "kind": "publisher-page",
+      "title": "Simpler and Faster BFV Bootstrapping for Arbitrary Plaintext Modulus from CKKS",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-6a61ae54973ea972-abstract",
+      "url": "https://www.semanticscholar.org/paper/c7ba75150e69fc8581c69d223280090993b0196c",
+      "kind": "semantic-scholar",
+      "title": "Simpler and Faster BFV Bootstrapping for Arbitrary Plaintext Modulus from CKKS",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

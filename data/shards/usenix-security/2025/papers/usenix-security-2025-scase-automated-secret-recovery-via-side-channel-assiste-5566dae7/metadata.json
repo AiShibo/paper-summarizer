@@ -1,0 +1,197 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-scase-automated-secret-recovery-via-side-channel-assiste-5566dae7",
+  "title": "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Hardware Security 3: Side-Channel and Fault Injection Attacks",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Daniel Weber",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lukas Gerlach",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Leon Trampert",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youheng Lü",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SCHUTZWERK GmbH",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jo Van Bulck",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DistriNet, KU Leuven",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Schwarz",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-5cf8ec1f8593b07f-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/weber",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-weber.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {309706,\nauthor = {Daniel Weber and Lukas Gerlach and Leon Trampert and Youheng L{\\\"u} and Jo Van Bulck and Michael Schwarz},\ntitle = {{SCASE}: Automated Secret Recovery via {Side-Channel-Assisted} Symbolic Execution},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {5739--5758},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/weber},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-26879fc0832f9663-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-5cf8ec1f8593b07f-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/weber",
+      "kind": "paper-page",
+      "title": "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

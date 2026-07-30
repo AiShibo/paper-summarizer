@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-payout-races-and-congested-channels-a-formal-analysis-of-86aa9316",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-mechanism",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-0f1320a70660dd2a-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670315",
+      "kind": "publisher-page",
+      "title": "Payout Races and Congested Channels: A Formal Analysis of Security in the Lightning Network",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-ca567d1e3ba890ec-abstract",
+      "url": "https://www.semanticscholar.org/paper/d01a39ff533dd75aeb24734f3df02b89382dbdcc",
+      "kind": "semantic-scholar",
+      "title": "Payout Races and Congested Channels: A Formal Analysis of Security in the Lightning Network",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

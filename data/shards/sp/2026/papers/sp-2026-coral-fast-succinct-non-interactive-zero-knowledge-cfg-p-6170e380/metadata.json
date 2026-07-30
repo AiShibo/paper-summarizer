@@ -1,0 +1,197 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-coral-fast-succinct-non-interactive-zero-knowledge-cfg-p-6170e380",
+  "title": "Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs",
+  "venue": "sp",
+  "year": 2026,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2026-05-01",
+  "page_count": 20,
+  "venue_year_completion_status": "ACCEPTED_PAPERS_ONLY",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sebastian Angel",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Brave Software & University of Bristol,United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sofía Celi",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Elizabeth Margolin",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pratyush Mishra",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin Sander",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jess Woods",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a853e0a7d3935f85-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp63933.2026.00059",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500b091/2bojvT6iGpq",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/2bojvT6iGpq/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-636bdd47b4e2b49d-program",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2026 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, authors, affiliations, and cycle"
+      ]
+    },
+    {
+      "id": "src-a853e0a7d3935f85-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500b091/2bojvT6iGpq",
+      "kind": "publisher-page",
+      "title": "Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, published-order authors and affiliations, abstract, publication date, page span, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

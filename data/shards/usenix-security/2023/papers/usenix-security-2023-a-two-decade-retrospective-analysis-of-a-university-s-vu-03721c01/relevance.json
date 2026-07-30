@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-a-two-decade-retrospective-analysis-of-a-university-s-vu-03721c01",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs a two-decade empirical measurement of credential reuse and account exposure in a deployed university authentication environment.",
+  "topics": [
+    "authentication-infrastructure",
+    "systems-security",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "security-attack",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-b8b49452362fdf59-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective",
+      "kind": "paper-page",
+      "title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

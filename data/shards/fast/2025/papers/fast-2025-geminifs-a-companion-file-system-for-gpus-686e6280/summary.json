@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-geminifs-a-companion-file-system-for-gpus-686e6280",
+  "takeaway": "GeminiFS embeds stable block mappings inside files and shares NVMe queues between CPU and GPU, giving GPU kernels direct file access plus a high-bandwidth GPU page cache.",
+  "background": "Machine-learning workloads exceed GPU memory and increasingly spill weights, activations, and graph data to NVMe. CPU-orchestrated I/O adds synchronization and cannot feed thousands of GPU threads, while raw GPU-driven NVMe systems lack files, isolation, and compatibility with host-managed storage.",
+  "villain": "A complete file system is ill suited to GPU control flow and would need complex metadata synchronization. Existing NVMe drivers grant the host exclusive control, and conventional page caches neither live in GPU memory nor scale naturally to warp-level parallelism.",
+  "approach": "GeminiFS keeps management on the host but embeds per-file type, size, dirty bitmap, and a two-level physical-block map in a GVDK file. A shared driver gives CPU and GPU separate NVMe queue pairs. libGemini offers POSIX-like device calls, and a process-shareable, warp-cooperative GPU page cache uses configurable pages and prefetching.",
+  "impact": "The companion model adds a file abstraction to direct GPU storage without reproducing a general-purpose file system on the accelerator. It targets predictable, mostly read-only or append-heavy ML access and makes storage capacity usable with much less CPU mediation.",
+  "evaluation": {
+    "overview": "Microbenchmarks sweep GPU-thread parallelism and page-cache parameters, then a GPT-2 training experiment evaluates checkpoint and activation offload.",
+    "implemented": "Roughly 2,000 lines for a shared NVMe kernel module and 3,000 lines for libGemini, with open-sourced key components.",
+    "setting": "A 64-core Xeon 5416S server with 512 GB DRAM, an 80 GB-HBM GPU on PCIe 4.0 x16, and Intel Optane 5800X NVMe; 64 host and 32 GPU queue pairs are allocated.",
+    "baselines": [
+      "GPUfs",
+      "NVIDIA GPUDirect Storage",
+      "BaM raw-device access",
+      "native memcpy plus read/write",
+      "DLRover-RM"
+    ],
+    "results": [
+      {
+        "id": "claim-geminifs-bandwidth",
+        "text": "For 4 KB reads, GeminiFS averages 7.33× GPUfs bandwidth and reaches 6.2× GDS bandwidth at 128–512 threads, while remaining about 4.6% below BaM's raw-device path.",
+        "source_ids": [
+          "src-fast25-pdf-686e6280"
+        ],
+        "locator": "PDF pp. 11–12; §4.1, Figures 6–7"
+      },
+      {
+        "id": "claim-geminifs-cache",
+        "text": "The GPU page cache reaches over 640 GB/s with enough warps; enabling prefetch raises read and write bandwidth by about 2.4× and 2.34× in its memory-backed microbenchmark.",
+        "source_ids": [
+          "src-fast25-pdf-686e6280"
+        ],
+        "locator": "PDF p. 12; §4.2, Figures 8–10"
+      },
+      {
+        "id": "claim-geminifs-training",
+        "text": "For the tested GPT-2 workload, GeminiFS cuts ordinary training runtime by 10–25% versus three alternatives and activation-offload runtime by 94.5% versus native I/O and 91% versus GDS.",
+        "source_ids": [
+          "src-fast25-pdf-686e6280"
+        ],
+        "locator": "PDF p. 13; §4.3, Figure 11"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "GeminiFS exposes only a subset of POSIX and delegates crash consistency to application calls to sync. It assumes predictable access and preallocated files, evaluates one GPU and one Optane device, and does not yet support complete multi-GPU operation or unpredictable growth. Embedded mappings add about 0.2% space and require trusted integrity checks.",
+  "phd_group_signal": "This is a cross-stack accelerator-storage design: simplify semantics using workload properties, split metadata ownership deliberately, modify the driver control plane, and measure where file abstraction costs relative to raw access. The evaluation makes that abstraction/performance tradeoff visible.",
+  "beginner_concepts": [
+    "GPU-centric I/O",
+    "NVMe queue pair",
+    "file metadata",
+    "page cache",
+    "direct memory access",
+    "activation offload",
+    "prefetching"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-geminifs-gvdk",
+      "text": "GVDK embeds private per-file metadata and a simple two-level logical-to-NVMe block map that GPU code caches locally, while the host retains directory and allocation management.",
+      "source_ids": [
+        "src-fast25-pdf-686e6280"
+      ],
+      "locator": "PDF pp. 6–8; §3.1, Figure 4"
+    },
+    {
+      "id": "claim-geminifs-driver",
+      "text": "The shared NVMe driver registers GPU-memory submission and completion queues alongside host queues, letting GPU threads poll and submit I/O without host interrupts.",
+      "source_ids": [
+        "src-fast25-pdf-686e6280"
+      ],
+      "locator": "PDF pp. 8–9; §3.2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-686e6280",
+      "url": "https://www.usenix.org/system/files/fast25-qiu.pdf",
+      "kind": "paper-pdf",
+      "title": "GeminiFS: A Companion File System for GPUs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f4ae5fd925ee859513886f229614b9283bd742ef242def8ababcd32439dc35bf",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, implementation, evaluation, and conclusion",
+        "reported I/O bandwidth, latency, cache behavior, and training results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:40:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.4 design/programming model, §§4.1–4.3 evaluation, and §5 Conclusion/Future Work.",
+      "Performance values are author-reported on one GPU/NVMe system and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:40:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

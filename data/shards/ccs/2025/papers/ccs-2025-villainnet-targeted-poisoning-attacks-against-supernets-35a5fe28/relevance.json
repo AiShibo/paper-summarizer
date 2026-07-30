@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-villainnet-targeted-poisoning-attacks-against-supernets-35a5fe28",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a compiler, language, and runtime security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "optimization",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-0049f1a415ff65d2-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765185",
+      "kind": "publisher-page",
+      "title": "VillainNet: Targeted Poisoning Attacks Against SuperNets Along the Accuracy-Latency Pareto Frontier",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-daa86c6fddd48aa6-abstract",
+      "url": "https://openalex.org/W4416549446",
+      "kind": "openalex",
+      "title": "VillainNet: Targeted Poisoning Attacks Against SuperNets Along the Accuracy-Latency Pareto Frontier",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

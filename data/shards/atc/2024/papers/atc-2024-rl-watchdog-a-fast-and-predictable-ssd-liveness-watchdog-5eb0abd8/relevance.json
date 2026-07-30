@@ -1,0 +1,66 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-rl-watchdog-a-fast-and-predictable-ssd-liveness-watchdog-5eb0abd8",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material storage and file systems mechanism at the storage layer.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash"
+  ],
+  "system_layers": [
+    "storage"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-ha",
+      "url": "https://www.usenix.org/conference/atc24/presentation/ha",
+      "kind": "paper-page",
+      "title": "RL-Watchdog: A Fast and Predictable SSD Liveness Watchdog on Storage Systems",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:8d894e03ad99c094102f2c565ef7726101ca3c3dfe80fa07e86050c0351bfcf2",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

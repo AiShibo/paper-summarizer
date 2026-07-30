@@ -1,0 +1,115 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-two-shuffles-make-a-ram-improved-constant-overhead-zero-7329955a",
+  "title": "Two Shuffles Make a RAM: Improved Constant Overhead Zero Knowledge RAM",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "Zero-Knowledge Proof I",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yibin Yang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d69c6013bb81e57b-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Heath",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d69c6013bb81e57b-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/yang-yibin",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity24-yang-yibin.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/usenixsecurity24_slides-yang-yibin.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {294570,\nauthor = {Yibin Yang and David Heath},\ntitle = {Two Shuffles Make a {RAM}: Improved Constant Overhead Zero Knowledge {RAM}},\nbooktitle = {33rd USENIX Security Symposium (USENIX Security 24)},\nyear = {2024},\nisbn = {978-1-939133-44-1},\naddress = {Philadelphia, PA},\npages = {1435--1452},\nurl = {https://www.usenix.org/conference/usenixsecurity24/presentation/yang-yibin},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-001b096fd22def42-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-d69c6013bb81e57b-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yang-yibin",
+      "kind": "paper-page",
+      "title": "Two Shuffles Make a RAM: Improved Constant Overhead Zero Knowledge RAM",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

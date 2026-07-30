@@ -1,0 +1,262 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-pentimento-data-remanence-in-cloud-fpgas-b9bc1c4c",
+  "title": "Pentimento: Data Remanence in Cloud FPGAs",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2B: Side Channels",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Colin Drewes",
+      "position": 1,
+      "orcid": "0000-0002-5936-033X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Science, Stanford University, Stanford, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olivia Weng",
+      "position": 2,
+      "orcid": "0000-0003-1213-421X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego, La Jolla, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andres Meza",
+      "position": 3,
+      "orcid": "0000-0002-4283-0833",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego, La Jolla, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alric Althoff",
+      "position": 4,
+      "orcid": "0000-0002-8355-6906",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ARM, Austin, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Kohlbrenner",
+      "position": 5,
+      "orcid": "0009-0000-9121-9734",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ryan Kastner",
+      "position": 6,
+      "orcid": "0000-0001-9062-5570",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego, La Jolla, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dustin Richmond",
+      "position": 7,
+      "orcid": "0000-0002-4587-8947",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Cruz, Santa Cruz, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640355"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640355",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640355",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640355",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/R6DtnfrLm50",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2303.17881",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640355",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640355",
+      "kind": "crossref",
+      "title": "Pentimento: Data Remanence in Cloud FPGAs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:1d2cb3774adddaaf7b871a8608bf23cc4e18596ea6c73573d7b9d623999f1137",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640355",
+      "url": "https://www.semanticscholar.org/paper/49bd9aa999ceb5aa55c15210387a2badf7bbf6e4",
+      "kind": "semantic-scholar",
+      "title": "Pentimento: Data Remanence in Cloud FPGAs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:930a394ba2dea01c6c8e25136e526d35c99e9756fada91cfa30893dec28602f5",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

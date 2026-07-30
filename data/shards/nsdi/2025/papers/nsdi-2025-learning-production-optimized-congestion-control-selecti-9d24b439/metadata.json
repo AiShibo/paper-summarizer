@@ -1,0 +1,320 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439",
+  "title": "Learning Production-Optimized Congestion Control Selection for Alibaba Cloud CDN",
+  "venue": "nsdi",
+  "year": 2025,
+  "track_or_session": "Operational Experiences",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xuan Zeng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoran Xu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Chen",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xumiao Zhang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoxi Zhang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xu Chen",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guihai Chen",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, Nanjing University, China",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yubing Qiu",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiping Zhang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chong Hao",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ennan Zhai",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi25/presentation/zeng",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi25-zeng.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/nsdi25_slides-zeng.pdf",
+    "video": "https://www.youtube.com/embed/YBDFiV_ZtCk?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {305983,\nauthor = {Xuan Zeng and Haoran Xu and Chen Chen and Xumiao Zhang and Xiaoxi Zhang and Xu Chen and Guihai Chen and Yubing Qiu and Yiping Zhang and Chong Hao and Ennan Zhai},\ntitle = {Learning {Production-Optimized} Congestion Control Selection for Alibaba Cloud {CDN}},\nbooktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},\nyear = {2025},\nisbn = {978-1-939133-46-5},\naddress = {Philadelphia, PA},\npages = {827--845},\nurl = {https://www.usenix.org/conference/nsdi25/presentation/zeng},\npublisher = {USENIX Association},\nmonth = apr\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi25-program",
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:5190c4bfe0795a131e0d38ceda8da95de909a27d468766c5128a668aab4fceb6",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2025-learning-production-optimized-congestion-control-selecti-9d24b439-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi25/presentation/zeng",
+      "kind": "paper-page",
+      "title": "Learning Production-Optimized Congestion Control Selection for Alibaba Cloud CDN",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:0b3e45a7eb202cab5d874385ec2c9bb5d0f7bb5217a21eec65116ed687e42b00",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains unresolved and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)",
+      "publication_date"
+    ]
+  }
+}

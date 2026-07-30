@@ -1,0 +1,68 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-fat-tree-qram-a-high-bandwidth-shared-quantum-random-acc-cfd6142d",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because Fat-Tree QRAM contributes a concrete quantum architecture, compilation, or execution mechanism for a High-Bandwidth Shared Quantum Random Access Memory for Parallel Queries.",
+  "topics": [
+    "computer-architecture",
+    "accelerators",
+    "compilers-languages-and-runtimes",
+    "compilers"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716256",
+      "url": "https://www.semanticscholar.org/paper/f6393ab85019c8dc07ab142286ab4e0b31e85b4b",
+      "kind": "semantic-scholar",
+      "title": "Fat-Tree QRAM: A High-Bandwidth Shared Quantum Random Access Memory for Parallel Queries",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3bf52fbb234d5966e36a52e6965c0894a7d1394098f15807d4b805d7e9be51ca",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

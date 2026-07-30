@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-ubfuzz-finding-bugs-in-sanitizer-implementations-0f0e667a",
+  "title": "UBFuzz: Finding Bugs in Sanitizer Implementations",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6A: Bug Finding and Testing",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shaohua Li",
+      "position": 1,
+      "orcid": "0000-0001-7556-3615",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624874"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhendong Su",
+      "position": 2,
+      "orcid": "0000-0002-2970-1391",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624874"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624874",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624874",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624874",
+    "artifact": "https://doi.org/10.5281/zenodo.8406414",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/ortGZxr_kPc",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2401.04538",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624874",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624874",
+      "kind": "crossref",
+      "title": "UBFuzz: Finding Bugs in Sanitizer Implementations",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:32a4b8d29733c6cf9a722111829c076db1e8ec4533102816f88e3640508105c4",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624874",
+      "url": "https://www.semanticscholar.org/paper/ae66bd06b65d06ad8d429043e3d484db94fcee55",
+      "kind": "semantic-scholar",
+      "title": "UBFuzz: Finding Bugs in Sanitizer Implementations",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:0a9cc967dd115e58b1d9c2424c59cf985fcca7ed7f9b9c5e23fae4ec87ba8afd",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-8406414",
+      "url": "https://zenodo.org/records/8406414",
+      "kind": "artifact-page",
+      "title": "Artifact for ASPLOS'24 paper \"UBfuzz: Finding Bugs in Sanitizer Implementations\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:46a8f4a9478a52e1522d59def7671327251251965076b20b7e41386ac0eb5fce",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

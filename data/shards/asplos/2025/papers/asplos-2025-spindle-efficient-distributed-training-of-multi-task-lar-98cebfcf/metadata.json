@@ -1,0 +1,287 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-spindle-efficient-distributed-training-of-multi-task-lar-98cebfcf",
+  "title": "Spindle: Efficient Distributed Training of Multi-Task Large Models via Wavefront Scheduling",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5C: Large Language Models",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yujie Wang",
+      "position": 1,
+      "orcid": "0009-0000-8375-493X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shenhan Zhu",
+      "position": 2,
+      "orcid": "0009-0004-0267-775X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fangcheng Fu",
+      "position": 3,
+      "orcid": "0000-0003-1658-0380",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xupeng Miao",
+      "position": 4,
+      "orcid": "0000-0002-9371-8358",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayette, IN, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Zhang",
+      "position": 5,
+      "orcid": "0009-0003-5085-2535",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juan Zhu",
+      "position": 6,
+      "orcid": "0009-0008-3318-1393",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Hong",
+      "position": 7,
+      "orcid": "0000-0001-9698-2886",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Li",
+      "position": 8,
+      "orcid": "0000-0001-9072-3170",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Cui",
+      "position": 9,
+      "orcid": "0000-0003-1681-4677",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715992"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3715992",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3715992",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3715992",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3715992",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3715992",
+      "kind": "crossref",
+      "title": "Spindle: Efficient Distributed Training of Multi-Task Large Models via Wavefront Scheduling",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:450cfd5f6ecdf2ebd7a3c5674a0925d62b4eea9f3a841bba54f9c4b3f816b41b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715992",
+      "url": "https://www.semanticscholar.org/paper/dc2d69153b94de3e9611d215af6942f4dd9545be",
+      "kind": "semantic-scholar",
+      "title": "Spindle: Efficient Distributed Training of Multi-Task Large Models via Wavefront Scheduling",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:57280b091107d0f9379915a5ae5f0a47e6cb463301509354dae0a3956ee2e298",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2023-hyrax-fail-in-place-server-operation-in-cloud-platforms-c472db72",
+  "title": "Hyrax: Fail-in-Place Server Operation in Cloud Platforms",
+  "venue": "osdi",
+  "year": 2023,
+  "track_or_session": "Expanding, Hardening, and Deploying Your Bits",
+  "paper_type": "main-track",
+  "publication_date": "2023-07-10",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jialun Lyu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure and University of Toronto",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marisa You",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Celine Irvene",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mark Jung",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tyler Narmore",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jacob Shapiro",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luke Marshall",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Savyasachi Samal",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ioannis Manousakis",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Formerly of Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lisa Hsu",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Formerly of Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Preetha Subbarayalu",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ashish Raniwala",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brijesh Warrier",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ricardo Bianchini",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bianca Schroeder",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel S. Berger",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure and University of Washington",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi23/presentation/lyu",
+    "official_pdf": "https://www.usenix.org/system/files/osdi23-lyu.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/Ag9C-AwtRc4",
+    "bibtex": "@inproceedings {288590,\nauthor = {Jialun Lyu and Marisa You and Celine Irvene and Mark Jung and Tyler Narmore and Jacob Shapiro and Luke Marshall and Savyasachi Samal and Ioannis Manousakis and Lisa Hsu and Preetha Subbarayalu and Ashish Raniwala and Brijesh Warrier and Ricardo Bianchini and Bianca Schroeder and Daniel S. Berger},\ntitle = {Hyrax: {Fail-in-Place} Server Operation in Cloud Platforms},\nbooktitle = {17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)},\nyear = {2023},\nisbn = {978-1-939133-34-2},\naddress = {Boston, MA},\npages = {287--304},\nurl = {https://www.usenix.org/conference/osdi23/presentation/lyu},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-paper-lyu",
+      "url": "https://www.usenix.org/conference/osdi23/presentation/lyu",
+      "kind": "paper-page",
+      "title": "Hyrax: Fail-in-Place Server Operation in Cloud Platforms",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:42ca96d6183521ec98e94b4f2b2d9dbc9ca8d06fc7cd75a303ceecdd9d8654e7",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-proceedings",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:f42cbb9247f7079fca3a5d336c3404c03f895c470db460f3a0597e3367e830e3",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

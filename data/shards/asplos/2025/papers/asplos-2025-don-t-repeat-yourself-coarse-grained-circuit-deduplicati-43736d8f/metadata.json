@@ -1,0 +1,163 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-don-t-repeat-yourself-coarse-grained-circuit-deduplicati-43736d8f",
+  "title": "Don't Repeat Yourself! Coarse-Grained Circuit Deduplication to Accelerate RTL Simulation",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3D: EDA",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haoyuan Wang",
+      "position": 1,
+      "orcid": "0000-0002-8172-6246",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Santa Cruz, Santa Cruz, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674184"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Nijssen",
+      "position": 2,
+      "orcid": "0000-0003-0415-2055",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Santa Cruz, Santa Cruz, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674184"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Scott Beamer",
+      "position": 3,
+      "orcid": "0000-0003-0193-182X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Santa Cruz, Santa Cruz, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674184"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674184",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674184",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674184",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674184",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674184",
+      "kind": "crossref",
+      "title": "Don't Repeat Yourself! Coarse-Grained Circuit Deduplication to Accelerate RTL Simulation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:76fb06d512f2ec3439fe8d7469bf3ba32c8cb1de7e840d2ea27d61a26a82d5ff",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674184",
+      "url": "https://www.semanticscholar.org/paper/a5cf219605798ae771221b859687e41bc3a48895",
+      "kind": "semantic-scholar",
+      "title": "Don't Repeat Yourself! Coarse-Grained Circuit Deduplication to Accelerate RTL Simulation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:f964ff23d6f42cf23483f213b5dbf4648f7cabd484457abab024b9c6970c349b",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

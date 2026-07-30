@@ -1,0 +1,46 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-prefetch-for-fun-and-profit-a-revisit-of-prefetch-attack-85b0238b",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 0,
+  "rationale": "The available record lacks an abstract, so the paper's systems artifact cannot be established from the title alone.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-050bb48a538b1b89-dblp",
+      "url": "https://dblp.org/rec/conf/uss/ChoiKS24",
+      "kind": "dblp",
+      "title": "Prefetch for Fun and Profit: A Revisit of Prefetch Attacks on Apple M1",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "title-only proceedings evidence; official abstract unavailable"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership.",
+      "No automatic inclusion or exclusion was inferred across an unresolved boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "UNRESOLVED",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "classification requires abstract or paper review"
+    ]
+  }
+}

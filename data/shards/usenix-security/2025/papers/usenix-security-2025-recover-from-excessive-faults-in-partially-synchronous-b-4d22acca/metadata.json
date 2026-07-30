@@ -1,0 +1,176 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-recover-from-excessive-faults-in-partially-synchronous-b-4d22acca",
+  "title": "Recover from Excessive Faults in Partially-Synchronous BFT SMR",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Blockchain Security 2: Infrastructure, Protocol Design, and Governance",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tiantian Gong",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a03825691bea05bf-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gustavo Franco Camilo",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a03825691bea05bf-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kartik Nayak",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a03825691bea05bf-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andrew Lewis-Pye",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "London School of Economics",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a03825691bea05bf-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aniket Kate",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University and Supra Research",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a03825691bea05bf-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/gong-tiantian",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-gong-tiantian.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {308118,\nauthor = {Tiantian Gong and Gustavo Franco Camilo and Kartik Nayak and Andrew Lewis-Pye and Aniket Kate},\ntitle = {Recover from Excessive Faults in {Partially-Synchronous} {BFT} {SMR}},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {4147--4166},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/gong-tiantian},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-a6d5e981143b4b59-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-a03825691bea05bf-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/gong-tiantian",
+      "kind": "paper-page",
+      "title": "Recover from Excessive Faults in Partially-Synchronous BFT SMR",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

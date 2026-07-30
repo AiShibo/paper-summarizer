@@ -1,0 +1,57 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-health-hazard-handle-with-care-investigating-the-privacy-0953da28",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a mobile, embedded, and IoT security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-fe4bb98cd79d162e-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/spyridakis",
+      "kind": "paper-page",
+      "title": "Health Hazard, Handle with Care: Investigating the Privacy Risks of Android's Health Connect",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:dfb7a6624c7576f202d308c11d1a07c822a003a02532ce3246f7676f3e54765b",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

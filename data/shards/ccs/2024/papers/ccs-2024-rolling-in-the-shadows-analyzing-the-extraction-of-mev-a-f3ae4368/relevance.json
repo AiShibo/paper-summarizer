@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-rolling-in-the-shadows-analyzing-the-extraction-of-mev-a-f3ae4368",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a distributed-systems security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "distributed-systems"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "security-attack",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-11b98d066d0218ab-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690259",
+      "kind": "publisher-page",
+      "title": "Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-5a8f58f8f06904f0-abstract",
+      "url": "https://www.semanticscholar.org/paper/448b08a777cf3cb2eaa4188b48918f79f422723a",
+      "kind": "semantic-scholar",
+      "title": "Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

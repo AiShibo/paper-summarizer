@@ -1,0 +1,242 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-flexible-non-intrusive-dynamic-instrumentation-for-webas-6d0d4816",
+  "title": "Flexible Non-intrusive Dynamic Instrumentation for WebAssembly",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3A: Dynamic Analysis and Instrumentation",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ben L. Titzer",
+      "position": 1,
+      "orcid": "0000-0002-9690-2089",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Elizabeth Gilbert",
+      "position": 2,
+      "orcid": "0009-0005-7242-6179",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bradley Wei Jie Teo",
+      "position": 3,
+      "orcid": "0009-0001-9498-6127",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yash Anand",
+      "position": 4,
+      "orcid": "0009-0002-6095-4714",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kazuyuki Takayama",
+      "position": 5,
+      "orcid": "0009-0008-9285-3591",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heather Miller",
+      "position": 6,
+      "orcid": "0000-0002-2059-5406",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651338"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651338",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651338",
+    "official_pdf": null,
+    "artifact": null,
+    "code": "https://github.com/titzer/wizard-engine",
+    "project": null,
+    "slides": null,
+    "video": "https://ucla.box.com/s/liggti2tcod8qyn20vvfocddru0vwby2",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2403.07973",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651338",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651338",
+      "kind": "crossref",
+      "title": "Flexible Non-intrusive Dynamic Instrumentation for WebAssembly",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:241b206f60728b895ce87f8523bf5294ae0900dfdfff24db2c2ffa31e3d704cb",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651338",
+      "url": "https://www.semanticscholar.org/paper/56386e525c37d278b787ccdfbb606bbab2ad64da",
+      "kind": "semantic-scholar",
+      "title": "Flexible Non-intrusive Dynamic Instrumentation for WebAssembly",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:2f74a6c3f8cde49096c1ce38bd1dc448a22bf4abf676d12a16f38b49856d86b6",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.project"
+    ]
+  }
+}

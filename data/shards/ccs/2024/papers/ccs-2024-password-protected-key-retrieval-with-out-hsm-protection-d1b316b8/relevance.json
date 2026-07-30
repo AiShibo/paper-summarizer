@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-password-protected-key-retrieval-with-out-hsm-protection-d1b316b8",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper analyzes a deployed password-protected key-retrieval design and develops concrete HSM-aware authentication protocols and fixes.",
+  "topics": [
+    "systems-security",
+    "authentication-infrastructure",
+    "privacy-infrastructure"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "formal-model-or-proof",
+    "deployment-experience"
+  ],
+  "methods": [
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-93595de2a8c8e597-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690358",
+      "kind": "publisher-page",
+      "title": "Password-Protected Key Retrieval with(out) HSM Protection",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-eae693d27cd6eb91-abstract",
+      "url": "https://www.semanticscholar.org/paper/12cc4aed2b5429b64db8400e1033a1b5e5d95888",
+      "kind": "semantic-scholar",
+      "title": "Password-Protected Key Retrieval with(out) HSM Protection",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-safeguarding-llm-training-at-scale-online-sdc-detection-2da7e860",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material machine-learning systems mechanism at the runtime layer.",
+  "topics": [
+    "ml-systems",
+    "training-systems",
+    "computer-architecture",
+    "accelerators",
+    "reliability-testing-and-debugging",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-lei",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/lei",
+      "kind": "paper-page",
+      "title": "Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:eb564a8cc0a07406e275b4a173bec2213f5fb2ab9d82c782c8051bcb1d9871a4",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

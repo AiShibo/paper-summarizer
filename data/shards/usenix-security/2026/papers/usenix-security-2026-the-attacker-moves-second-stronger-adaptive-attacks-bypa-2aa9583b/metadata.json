@@ -1,0 +1,372 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-the-attacker-moves-second-stronger-adaptive-attacks-bypa-2aa9583b",
+  "title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections",
+  "venue": "usenix-security",
+  "year": 2026,
+  "track_or_session": "Security of ML 2",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "PARTIAL",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Milad Nasr",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anthropic",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nicholas Carlini",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anthropic",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chawin Sitawarin",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sander V. Schulhoff",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "HackAPrompt, MATS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jamie Hayes",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Ilie",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "HackAPrompt",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juliette Pluto",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuang Song",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Harsh Chaudhari",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ilia Shumailov",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "AI Sequrity Company",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhradeep Guha Thakurta",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kai Yuanqing Xiao",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andreas Terzis",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anthropic",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Florian Tramèr",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-6d17787883713e13-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity26/presentation/nasr",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-af05c98dbdbdcb74-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6d229325c208efb8e2d6df006bcccac10df1e7421c4465667ac1dd01198eff8f",
+      "official": true,
+      "supports": [
+        "represented main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-6d17787883713e13-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/nasr",
+      "kind": "paper-page",
+      "title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d1a2a2fdd8061e87aa8a55ea775c7c18c00955ceed0e32bb6bf416437020a38a",
+      "official": true,
+      "supports": [
+        "official title, published-order authors and affiliations, and session",
+        "official abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page.",
+      "Final proceedings metadata is pending; the official program record is retained."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count",
+      "publication_date",
+      "links.official_pdf",
+      "links.doi"
+    ]
+  }
+}

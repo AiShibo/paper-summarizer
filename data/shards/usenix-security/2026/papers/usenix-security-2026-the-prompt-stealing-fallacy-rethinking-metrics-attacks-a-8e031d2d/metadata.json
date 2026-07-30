@@ -1,0 +1,267 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-the-prompt-stealing-fallacy-rethinking-metrics-attacks-a-8e031d2d",
+  "title": "The Prompt Stealing Fallacy: Rethinking Metrics, Attacks, and Defenses",
+  "venue": "usenix-security",
+  "year": 2026,
+  "track_or_session": "Security of ML 6",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "PARTIAL",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zehang Deng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Swinburne University of Technology and CSIRO's Data61",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoyang Li",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong Polytechnic University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wanlun Ma",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Swinburne University of Technology​",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruoxi Sun",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Derui Wang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minhui Xue",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSIRO's Data61 and Responsible AI Research (RAIR) Centre, Adelaide University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Hu",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong Polytechnic University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sheng Wen",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Swinburne University of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Xiang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Swinburne University of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f47ed5aa991f2cff-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity26/presentation/deng",
+    "official_pdf": "https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_deng.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b15408165488ddd3-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2026 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6d229325c208efb8e2d6df006bcccac10df1e7421c4465667ac1dd01198eff8f",
+      "official": true,
+      "supports": [
+        "represented main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-f47ed5aa991f2cff-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/deng",
+      "kind": "paper-page",
+      "title": "The Prompt Stealing Fallacy: Rethinking Metrics, Attacks, and Defenses",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:556a6a8e86ad9ad30434ea1369d7e8cc1124e4ae46fc9d32ce3a60533c413fea",
+      "official": true,
+      "supports": [
+        "official title, published-order authors and affiliations, and session",
+        "official abstract used for relevance screening",
+        "prepublication PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page.",
+      "Final proceedings metadata is pending; the official program record is retained."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count",
+      "publication_date",
+      "links.doi"
+    ]
+  }
+}

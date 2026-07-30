@@ -1,0 +1,125 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-cornucopia-reloaded-load-barriers-for-cheri-heap-tempora-1daf4497",
+  "takeaway": "Cornucopia Reloaded uses CHERI page-level load barriers to move stale-pointer cleanup off the stop-the-world path, sharply shortening heap-revocation pauses on Morello.",
+  "background": "CHERI capabilities attach bounds and integrity to C and C++ pointers, providing reference integrity and spatial safety. Heap temporal safety additionally needs stale capabilities removed before freed storage is reused.",
+  "villain": "Cornucopia's concurrent sweeper still had to stop every application thread and rescan redirtied pages, producing pauses too long for interactive workloads.",
+  "approach": "Reloaded briefly stops threads at a revocation epoch's start to toggle a per-page capability-load generation and scan registers plus kernel-held capabilities. During the concurrent phase, capability loads from old-generation pages trap and self-heal that page while a background thread sweeps the rest; improved capability-dirty tracking prevents unnecessary rescans. It requires CHERI pure-capability userspace, a cooperating allocator and kernel, and Morello or CHERI-RISC-V-style per-page load-barrier hardware.",
+  "impact": "The authors argue that Reloaded broadens deterministic heap use-after-reallocation mitigation to more latency-sensitive CHERI workloads without adding aggregate cost over Cornucopia.",
+  "evaluation": {
+    "overview": "The CheriBSD implementation was compared with reimplemented Cornucopia and CHERIvoke on eight pure-capability SPEC CPU2006 INT programs, PostgreSQL pgbench, and gRPC QPS; SPEC cases that never invoked revocation were excluded from detailed analysis.",
+    "implemented": "A CheriBSD kernel revoker with per-PTE capability-load generations and capability-dirty bits, plus LD_PRELOAD shims using snmalloc and mrs to quarantine freed heap objects.",
+    "setting": "Experiments used a four-core 2.5 GHz Arm Morello system, pure-capability CHERI C/C++ applications, and a spatially safe no-revocation baseline, with applications and revokers pinned to separate cores where possible; pgbench ran 170,000 transactions, while the gRPC scenario used a tuned two-thread server with transport security disabled.",
+    "baselines": [
+      "Spatially safe CHERI/CheriBSD with snmalloc and no revocation",
+      "Cornucopia reimplementation on Morello",
+      "CHERIvoke derived from the Cornucopia reimplementation",
+      "Paint+sync quarantine and bitmap overhead without temporal safety"
+    ],
+    "results": [
+      {
+        "id": "claim-reloaded-spec-result",
+        "text": "Across the revoking SPEC workloads, the authors report no additional wall-clock or CPU-time cost over Cornucopia and median bus traffic equal to 87% of Cornucopia's.",
+        "source_ids": [
+          "src-reloaded-full-paper"
+        ],
+        "locator": "Section 5.1, Figures 1, 2, and 4"
+      },
+      {
+        "id": "claim-reloaded-grpc-result",
+        "text": "In gRPC, mean stop-the-world time fell to 0.3 ± 0.1 ms from Cornucopia's 8.7 ± 0.8 ms, while throughput reductions were statistically indistinguishable at 12.82 ± 0.16% versus 12.88 ± 0.16%.",
+        "source_ids": [
+          "src-reloaded-full-paper"
+        ],
+        "locator": "Sections 5.3-5.4, Figures 8-9"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "This is deterministic use-after-reallocation mitigation, not immediate use-after-free prevention: a freed object may remain accessible while quarantined until a later revocation epoch, and correctness assumes the allocator and revocation-bitmap boundary. The evaluation shim bypassed bitmap capability access controls, the tested implementation had unexercised alias-handling defects, and very-high-percentile gRPC latency remained pathological.",
+  "phd_group_signal": "The work combines security-invariant reasoning, ISA and page-table changes, deep kernel integration, allocator policy, and tail-latency experiments rather than reporting throughput alone.",
+  "beginner_concepts": [
+    "CHERI capability",
+    "spatial versus temporal memory safety",
+    "quarantine and revocation epoch",
+    "load and store barriers",
+    "stop-the-world pause"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-reloaded-mechanism",
+      "text": "At each epoch Reloaded toggles an in-core capability-load generation, scans register and kernel-held capabilities, and then lets old-generation page loads trap and clean pages while a background thread completes the sweep; this depends on per-page capability-load generation hardware implemented by Morello and specified for CHERI-RISC-V.",
+      "source_ids": [
+        "src-reloaded-full-paper"
+      ],
+      "locator": "Sections 3.1-3.2 and 4.1-4.4"
+    },
+    {
+      "id": "claim-reloaded-security-boundary",
+      "text": "Reloaded guarantees removal of capabilities to objects freed before the current revocation epoch before reuse; it may still permit access to a freed, quarantined object until a subsequent epoch, so it closes use-after-reallocation rather than the entire use-after-free window.",
+      "source_ids": [
+        "src-reloaded-full-paper"
+      ],
+      "locator": "Sections 2.2.2-2.2.3 and 3.2, including footnote 16"
+    },
+    {
+      "id": "claim-reloaded-trust-caveat",
+      "text": "The design assumes protected allocator access to the revocation bitmap, but the evaluation shims bypassed that access control; the evaluated implementation also had aliased-page defects that the benchmarks did not exercise.",
+      "source_ids": [
+        "src-reloaded-full-paper"
+      ],
+      "locator": "Section 2.2.2, footnote 10; Section 4.2, footnote 20"
+    },
+    {
+      "id": "claim-reloaded-evaluation-setting",
+      "text": "The experiments used a four-core 2.5 GHz Morello system and eight pure-capability SPEC programs; pgbench ran 170,000 transactions, and the gRPC server used two threads with transport security disabled.",
+      "source_ids": [
+        "src-reloaded-full-paper"
+      ],
+      "locator": "Section 5, Experimental Setup; Sections 5.1-5.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-reloaded-full-paper",
+      "url": "https://www.repository.cam.ac.uk/bitstreams/4c5357be-42dd-487d-93b2-48f68f195730/download",
+      "kind": "paper-pdf",
+      "title": "Cornucopia Reloaded: Load Barriers for CHERI Heap Temporal Safety",
+      "publisher": "University of Cambridge Apollo Repository",
+      "retrieved_at": "2026-07-30T03:34:28Z",
+      "content_hash": "sha256:b4475b162c74d5c688636f83dfc8e8f6b61e903a6eaf90d44aba364cbe195114",
+      "official": true,
+      "supports": [
+        "Full author manuscript covering the security guarantee, architecture, implementation, evaluation, caveats, future work, and conclusion."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e7",
+    "updated_at": "2026-07-30T03:51:17Z",
+    "notes": [
+      "Read the abstract; Sections 1, 2.1-2.3, 3, 4, 5, 7, and 8; and Figures 1-9 and Tables 1-2 needed for the mechanism, threat boundary, hardware requirements, baselines, caveats, and results.",
+      "The ACM endpoint returned HTTP 403, so the DOI-matching institutional-repository copy recorded in metadata was used and hashed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:34:28Z",
+    "last_verified_at": "2026-07-30T03:51:17Z",
+    "collector_version": "agent-e7-summary-calibration-v1",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

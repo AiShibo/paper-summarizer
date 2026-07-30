@@ -1,0 +1,48 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-to-auth-or-not-to-auth-a-comparative-analysis-of-the-pre-83a05432",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "measurement-study"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-e2f05bc70fea5f20-abstract",
+      "url": "https://openalex.org/W4402264821",
+      "kind": "openalex",
+      "title": "To Auth or Not To Auth? A Comparative Analysis of the Pre- and Post-Login Security Landscape",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

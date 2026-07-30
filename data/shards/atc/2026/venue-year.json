@@ -1,0 +1,65 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "atc",
+  "year": 2026,
+  "official_conference_url": null,
+  "official_program_url": null,
+  "conference_dates": {
+    "start": null,
+    "end": null
+  },
+  "collection_status": "UNAVAILABLE",
+  "counts": {
+    "main_track": null,
+    "core_systems": null,
+    "systems_adjacent": null,
+    "excluded": null,
+    "needs_review": null
+  },
+  "sources": [
+    {
+      "id": "src-atc-2026-series",
+      "url": "https://www.usenix.org/conferences/byname/131",
+      "kind": "other",
+      "title": "USENIX Annual Technical Conference series",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:9eca2add0705249e716de9a86a73788d4bd7d2f647b7c07d0aecb92c6fb7f1e5",
+      "official": true,
+      "supports": [
+        "Official series history showing USENIX ATC ends with the 2025 edition and has no 2026 conference entry."
+      ]
+    },
+    {
+      "id": "src-atc-2026-final-edition-message",
+      "url": "https://www.usenix.org/sites/default/files/atc25_message.pdf",
+      "kind": "other",
+      "title": "Message from the USENIX ATC '25 Program Co-Chairs",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:be861b7a34627c7bee4832bc9b87f7d2eac7e76767866236dfe513d0efd24d60",
+      "official": true,
+      "supports": [
+        "Official program-chair statement that USENIX ATC 2025 is ATC's last edition."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "USENIX ATC 2025 was the final edition, so there is no USENIX ATC 2026 venue or archival paper program.",
+      "No paper bundles were created; null counts represent an unavailable edition, not a zero-paper conference."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

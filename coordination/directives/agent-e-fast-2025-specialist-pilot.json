@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-e-fast-2025-specialist-pilot-2026-07-30",
+  "issued_at": "2026-07-30T01:10:33Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e",
+  "status": "OPEN",
+  "action": "BEGIN_BOUNDED_SUMMARY_PILOT",
+  "task_brief": "coordination/tasks/agent-e-paper-summaries.md",
+  "assignment": "coordination/assignments/fast-2025-specialist-pilot.json",
+  "authorized_stage_file": "summary.json",
+  "conditions": [
+    "Create coordination/claims/agent-e.json from the claim template before editing data.",
+    "Set the claim to IN_PROGRESS and list exactly the 36 assigned paper IDs.",
+    "Edit only each assigned paper's summary.json and Agent E's own claim.",
+    "Read the paper sections required by the task brief and record actual reading coverage and every source used.",
+    "Do not summarize from metadata, an abstract, a search snippet, or another agent's prose when the full paper is available.",
+    "Do not process any paper outside the assignment, including incoming 2023-2024 records.",
+    "Set each completed summary stage to READY_FOR_REVIEW; do not approve it.",
+    "Run draft validation and hand off completed IDs, unavailable full texts, unresolved claims, and validation output."
+  ]
+}

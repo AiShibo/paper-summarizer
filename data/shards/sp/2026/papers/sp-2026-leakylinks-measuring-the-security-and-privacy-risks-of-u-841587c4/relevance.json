@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-leakylinks-measuring-the-security-and-privacy-risks-of-u-841587c4",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper technically analyzes or defends deployed privacy, identity, or authentication infrastructure with a concrete artifact.",
+  "topics": [
+    "privacy-systems",
+    "systems-security"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-681cfc7f7bcb489d-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500c347/2geEW3Coo7K",
+      "kind": "publisher-page",
+      "title": "LeakyLinks: Measuring the Security and Privacy Risks of URL Scanning Services",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-xkernel-principled-performance-tunability-of-operating-s-aed56b44",
+  "title": "Xkernel: Principled Performance Tunability of Operating System Kernels",
+  "venue": "osdi",
+  "year": 2026,
+  "track_or_session": "Kernel Scheduling and Tail Latency",
+  "paper_type": "main-track",
+  "publication_date": "2026-07-13",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhongjie Chen",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wentao Zhang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana–Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yulong Tang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ran Shu",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fengyuan Ren",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyin Xu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana–Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jing Liu",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi26/presentation/chen-zhongjie",
+    "official_pdf": "https://www.usenix.org/system/files/osdi26-chen-zhongjie.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {318441,\nauthor = {Zhongjie Chen and Wentao Zhang and Yulong Tang and Ran Shu and Fengyuan Ren and Tianyin Xu and Jing Lin},\ntitle = {Xkernel: Principled Performance Tunability of Operating System Kernels},\nbooktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-55-7},\naddress = {Seattle, WA},\npages = {547--565},\nurl = {https://www.usenix.org/conference/osdi26/presentation/chen-zhongjie},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-chen-zhongjie",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/chen-zhongjie",
+      "kind": "paper-page",
+      "title": "Xkernel: Principled Performance Tunability of Operating System Kernels",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:2f0fb2cd7581f0bc2103117e877ebf8514d5c713fc6891b7fb46cf0c5a6679a4",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-proceedings",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-pdf-chen-zhongjie",
+      "url": "https://www.usenix.org/system/files/osdi26-chen-zhongjie.pdf",
+      "kind": "paper-pdf",
+      "title": "Xkernel: Principled Performance Tunability of Operating System Kernels",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:968c0246d5333a9c077e19cc632ceb77f9c40d948043e9f3ce2c3768c263d847",
+      "official": true,
+      "supports": [
+        "Final proceedings title page and canonical author name Jing Liu."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official technical-session inventory and individual final-paper pages were reconciled one-to-one.",
+      "USENIX does not assign DOIs to OSDI proceedings papers.",
+      "Slides and videos were not present on the official paper page at retrieval time.",
+      "The individual page citation tags name Jing Lin, but both the official technical-session author block and the final proceedings PDF name Jing Liu; the final conference version is retained as canonical."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (where not published unambiguously in available sources)",
+      "links.slides (not published on the official paper page as retrieved)",
+      "links.video (not published on the official paper page as retrieved)"
+    ]
+  }
+}

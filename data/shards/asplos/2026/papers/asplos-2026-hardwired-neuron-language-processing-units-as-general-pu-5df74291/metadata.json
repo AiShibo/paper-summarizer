@@ -1,0 +1,665 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-hardwired-neuron-language-processing-units-as-general-pu-5df74291",
+  "title": "Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6A: Neural Network Acceleration",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yang Liu",
+      "position": 1,
+      "orcid": "0009-0000-2285-534X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Chen",
+      "position": 2,
+      "orcid": "0009-0008-8556-8856",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongwei Zhao",
+      "position": 3,
+      "orcid": "0000-0002-5503-4457",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Hao",
+      "position": 4,
+      "orcid": "0009-0002-9823-2573",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zifu Zheng",
+      "position": 5,
+      "orcid": "0009-0009-2510-3034",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weihao Kong",
+      "position": 6,
+      "orcid": "0009-0000-8555-4958",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhangmai Li",
+      "position": 7,
+      "orcid": "0009-0009-2862-8434",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongchen Jiang",
+      "position": 8,
+      "orcid": "0009-0007-6069-8876",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruiyang Xia",
+      "position": 9,
+      "orcid": "0009-0003-4235-0893",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihong Ma",
+      "position": 10,
+      "orcid": "0009-0003-1568-4687",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zisheng Liu",
+      "position": 11,
+      "orcid": "0009-0009-6701-9578",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhaoyong Wan",
+      "position": 12,
+      "orcid": "0009-0004-2395-1308",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunqi Lu",
+      "position": 13,
+      "orcid": "0009-0008-5736-5787",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ximing Liu",
+      "position": 14,
+      "orcid": "0009-0005-1457-3672",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongrui Guo",
+      "position": 15,
+      "orcid": "0000-0001-5757-0416",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Yang",
+      "position": 16,
+      "orcid": "0009-0003-9282-6431",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Software, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Wang",
+      "position": 17,
+      "orcid": "0009-0009-7990-0055",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianrui Ma",
+      "position": 18,
+      "orcid": "0000-0003-0894-6653",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mo Zou",
+      "position": 19,
+      "orcid": "0000-0003-0990-1190",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Zhang",
+      "position": 20,
+      "orcid": "0000-0001-8691-8549",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ling Li",
+      "position": 21,
+      "orcid": "0000-0001-8877-9052",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Software, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing Hu",
+      "position": 22,
+      "orcid": "0000-0002-9979-0561",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zidong Du",
+      "position": 23,
+      "orcid": "0000-0002-7603-4210",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiwei Xu",
+      "position": 24,
+      "orcid": "0000-0002-1480-7265",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Guo",
+      "position": 25,
+      "orcid": "0000-0003-2530-5874",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianshi Chen",
+      "position": 26,
+      "orcid": "0000-0002-7601-0753",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cambricon Technologies, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunji Chen",
+      "position": 27,
+      "orcid": "0000-0003-3925-5185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790169"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790169",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790169",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790169",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790169",
+      "kind": "crossref",
+      "title": "Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e97debf823cbc279e61015698a6d1719be864f6f1a259561f288a9e81e0d44ea",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790169",
+      "url": "https://www.semanticscholar.org/paper/c8309df65b2801f54965317ea3f6333e4dcfda97",
+      "kind": "semantic-scholar",
+      "title": "Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:62ab1e6eb3a393ae8330413d83d3ef9d00b4170cc6eb317a776ac48f21a852b1",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

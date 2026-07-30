@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-analyzing-cryptography-in-context-a-cryptography-native-d9db198a",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a theoretical security or mechanism-design result without a concrete computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-0fa58605235986ac-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/canetti",
+      "kind": "paper-page",
+      "title": "Analyzing Cryptography in Context: A Cryptography-Native Approach to Threat Modeling",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:c21729b4e7c53944531f1397aeae485e52f3318c66a7b5f23b538af834b53dda",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

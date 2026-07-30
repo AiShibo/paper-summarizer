@@ -1,0 +1,173 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-low-effort-vr-headset-user-authentication-using-head-rev-3a93541e",
+  "title": "Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance",
+  "venue": "sp",
+  "year": 2023,
+  "track_or_session": "Session 12C: Physical channels 2",
+  "paper_type": "main-track",
+  "publication_date": "2023-05-01",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ruxin Wang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Louisiana State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ddc77347057bee1c-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Long Huang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Louisiana State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ddc77347057bee1c-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Wang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Louisiana State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ddc77347057bee1c-schedule"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp46215.2023.10179367",
+    "official_page": "https://doi.org/10.1109/SP46215.2023.10179367",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx7/10179215/10179280/10179367.pdf?arnumber=10179367",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-e8a239f8cf953746-program",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official accepted title"
+      ]
+    },
+    {
+      "id": "src-ddc77347057bee1c-schedule",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-7ad505b9bc3ab1d0-publisher",
+      "url": "https://doi.org/10.1109/SP46215.2023.10179367",
+      "kind": "publisher-page",
+      "title": "Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-f3c5c15388100e21-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179367",
+      "kind": "crossref",
+      "title": "Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-61d4f6b1b80e0811-abstract",
+      "url": "https://openalex.org/W4385080352",
+      "kind": "openalex",
+      "title": "Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

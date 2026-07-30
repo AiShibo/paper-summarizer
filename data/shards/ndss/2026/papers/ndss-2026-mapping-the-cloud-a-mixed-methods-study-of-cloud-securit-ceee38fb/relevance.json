@@ -1,0 +1,45 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-mapping-the-cloud-a-mixed-methods-study-of-cloud-securit-ceee38fb",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a user, perception, or policy study without a material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-1c2412ac760dc58f-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mapping-the-cloud-a-mixed-methods-study-of-cloud-security-and-privacy-configuration-challenges/",
+      "kind": "paper-page",
+      "title": "Mapping the Cloud: A Mixed-Methods Study of Cloud Security and Privacy Configuration Challenges",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:59a2c5f9db540f5e79a12f383d95a813bd7d6dbf1b0225e9788f1a135d938476",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

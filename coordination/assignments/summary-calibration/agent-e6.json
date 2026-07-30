@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e6-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e6",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "d8e15a864dec6746bf0f55e0d4069b27b5310788e94375c8e56f0b5ed8e2ebcd"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "osdi-2024-detecting-logic-bugs-in-database-engines-via-equivalent-3e48bebc",
+      "title": "Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation",
+      "venue": "osdi",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi24-jiang.pdf"
+    },
+    {
+      "paper_id": "osdi-2024-drust-language-guided-distributed-shared-memory-with-fin-ccac5687",
+      "title": "DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency",
+      "venue": "osdi",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi24-ma-haoran.pdf"
+    },
+    {
+      "paper_id": "osdi-2024-beaver-practical-partial-snapshots-for-distributed-cloud-aedf7465",
+      "title": "Beaver: Practical Partial Snapshots for Distributed Cloud Services",
+      "venue": "osdi",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi24-yu.pdf"
+    },
+    {
+      "paper_id": "osdi-2024-chameleonapi-automatic-and-efficient-customization-of-ne-a42df30c",
+      "title": "ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications",
+      "venue": "osdi",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi24-liu.pdf"
+    },
+    {
+      "paper_id": "osdi-2024-motor-enabling-multi-versioning-for-distributed-transact-d951956c",
+      "title": "Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory",
+      "venue": "osdi",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi24-zhang-ming.pdf"
+    }
+  ]
+}

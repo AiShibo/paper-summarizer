@@ -1,0 +1,350 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-bitred-taming-non-uniform-bit-level-sparsity-with-a-prog-c2d3112d",
+  "title": "BitRed: Taming Non-Uniform Bit-Level Sparsity with a Programmable RISC-V ISA for DNN Acceleration",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 5B: On-Device & Edge AI",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yanhuan Liu",
+      "position": 1,
+      "orcid": "0009-0001-8460-8173",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenming Li",
+      "position": 2,
+      "orcid": "0000-0003-4069-2251",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunming Zhang",
+      "position": 3,
+      "orcid": "0009-0000-6000-3869",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuqun Liu",
+      "position": 4,
+      "orcid": "0000-0002-7774-8389",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Siao Wen",
+      "position": 5,
+      "orcid": "0009-0009-1501-5321",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ricore IC Technologies Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lexin Wang",
+      "position": 6,
+      "orcid": "0009-0007-4008-3081",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyu Liu",
+      "position": 7,
+      "orcid": "0000-0003-3905-6936",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibin Wu",
+      "position": 8,
+      "orcid": "0009-0000-2949-2297",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihua Fan",
+      "position": 9,
+      "orcid": "0000-0002-5950-7370",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaochun Ye",
+      "position": 10,
+      "orcid": "0000-0002-0065-6128",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongrui Fan",
+      "position": 11,
+      "orcid": "0000-0001-5219-0908",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ricore IC Technologies Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuejun An",
+      "position": 12,
+      "orcid": "0009-0005-0494-6332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790132"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790132",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790132",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790132",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790132",
+      "kind": "crossref",
+      "title": "BitRed: Taming Non-Uniform Bit-Level Sparsity with a Programmable RISC-V ISA for DNN Acceleration",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:4560383df3d4bd27ca352b46bcaa6658bb656c7ecece017fe594fe828e7282a8",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790132",
+      "url": "https://www.semanticscholar.org/paper/09221e0efc41eba93f013870500a4b29e982ad31",
+      "kind": "semantic-scholar",
+      "title": "BitRed: Taming Non-Uniform Bit-Level Sparsity with a Programmable RISC-V ISA for DNN Acceleration",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:52519ec633286090e742d67de4d3c9b56d2ece14337af3262cbee6577c1ab27d",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

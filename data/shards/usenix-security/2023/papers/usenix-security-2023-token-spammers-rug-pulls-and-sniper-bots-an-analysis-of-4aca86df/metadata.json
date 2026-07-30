@@ -1,0 +1,157 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-token-spammers-rug-pulls-and-sniper-bots-an-analysis-of-4aca86df",
+  "title": "Token Spammers, Rug Pulls, and Sniper Bots: An Analysis of the Ecosystem of Tokens in Ethereum and in the Binance Smart Chain (BNB)",
+  "venue": "usenix-security",
+  "year": 2023,
+  "track_or_session": "Ethereum Security",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Federico Cernera",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-571c892bf3f7bb49-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Massimo La Morgia",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-571c892bf3f7bb49-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alessandro Mei",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-571c892bf3f7bb49-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Francesco Sassi",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-571c892bf3f7bb49-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity23/presentation/cernera",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity23-cernera.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec23_slides_cernera.pdf",
+    "video": "https://www.youtube.com/embed/hlEgYQwmung?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {287184,\nauthor = {Federico Cernera and Massimo La Morgia and Alessandro Mei and Francesco Sassi},\ntitle = {Token Spammers, Rug Pulls, and Sniper Bots: An Analysis of the Ecosystem of Tokens in Ethereum and in the Binance Smart Chain ({{{{{BNB}}}}})},\nbooktitle = {32nd USENIX Security Symposium (USENIX Security 23)},\nyear = {2023},\nisbn = {978-1-939133-37-3},\naddress = {Anaheim, CA},\npages = {3349--3366},\nurl = {https://www.usenix.org/conference/usenixsecurity23/presentation/cernera},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-fae45b029ae74396-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-571c892bf3f7bb49-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cernera",
+      "kind": "paper-page",
+      "title": "Token Spammers, Rug Pulls, and Sniper Bots: An Analysis of the Ecosystem of Tokens in Ethereum and in the Binance Smart Chain (BNB)",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations when published, abstract, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

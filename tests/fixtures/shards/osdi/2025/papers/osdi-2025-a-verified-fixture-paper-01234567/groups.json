@@ -1,0 +1,31 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "associations": [],
+  "unresolved_authors": [
+    {
+      "name": "Alice Fixture",
+      "reason": "Synthetic fixture authors intentionally have no real group association."
+    }
+  ],
+  "sources": [],
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-group-resolver",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": [
+      "Approved as explicitly unresolved."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "UNRESOLVED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": [
+      "associations"
+    ]
+  }
+}

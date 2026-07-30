@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-irredicator-pruning-irr-with-rpki-valid-bgp-insights-71ca72a3",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a network security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "networking",
+    "network-security",
+    "secure-routing",
+    "systems-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "measurement-study",
+    "deployment-experience",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-0c2eb465a3e6049f-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/irredicator-pruning-irr-with-rpki-valid-bgp-insights/",
+      "kind": "paper-page",
+      "title": "IRRedicator: Pruning IRR with RPKI-Valid BGP Insights",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

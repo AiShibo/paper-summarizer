@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-optiks-an-optimized-key-transparency-system-87a0d943",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds a crash-tolerant, scalable key-transparency service and evaluates its storage and performance behavior.",
+  "topics": [
+    "distributed-systems",
+    "authentication-infrastructure",
+    "privacy-infrastructure"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-6e5771c49cbef757-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/len",
+      "kind": "paper-page",
+      "title": "OPTIKS: An Optimized Key Transparency System",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-a-quantitative-analysis-and-guidelines-of-data-streaming-14f54942",
+  "title": "A Quantitative Analysis and Guidelines of Data Streaming Accelerator in Modern Intel Xeon Scalable Processors",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1C: Case Studies and Experience",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Reese Kuper",
+      "position": 1,
+      "orcid": "0009-0000-3071-7086",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana Champaign, Urbana, Illinois, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ipoom Jeong",
+      "position": 2,
+      "orcid": "0000-0001-7513-2858",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Yuan",
+      "position": 3,
+      "orcid": "0000-0002-8389-2133",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Hillsboro, Oregon, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ren Wang",
+      "position": 4,
+      "orcid": "0009-0005-2937-5804",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Hillsboro, Oregon, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Narayan Ranganathan",
+      "position": 5,
+      "orcid": "0009-0007-8998-8551",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nikhil Rao",
+      "position": 6,
+      "orcid": "0009-0003-9997-0436",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiayu Hu",
+      "position": 7,
+      "orcid": "0000-0002-0974-3535",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sanjay Kumar",
+      "position": 8,
+      "orcid": "0009-0009-7985-2444",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Hillsboro, Oregon, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Philip Lantz",
+      "position": 9,
+      "orcid": "0009-0006-5257-8287",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Labs, Hillsboro, Oregon, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nam Sung Kim",
+      "position": 10,
+      "orcid": "0000-0002-0442-5634",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UIUC, Urbana, Illinois, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640401"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640401",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640401",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640401",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/kRDn4xExENI",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2305.02480",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640401",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640401",
+      "kind": "crossref",
+      "title": "A Quantitative Analysis and Guidelines of Data Streaming Accelerator in Modern Intel Xeon Scalable Processors",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:cb5d7ccf3601b553e77cf993a1aaebadd7eb4cff4d2541d16d9f5685e36980a2",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640401",
+      "url": "https://www.semanticscholar.org/paper/d8cccfabbbab00d67c17361426dab736b30386d3",
+      "kind": "semantic-scholar",
+      "title": "A Quantitative Analysis and Guidelines of Data Streaming Accelerator in Modern Intel Xeon Scalable Processors",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:6c89856abfebfe24000bf8d7416e6839b9cdb813023e72efaec8765d8a8a79cb",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-qfactory-accelerating-quantized-large-language-model-ser-fe6cee90",
+  "title": "QFactory: Accelerating Quantized Large Language Model Serving with Qtile Graphs",
+  "venue": "atc",
+  "year": 2025,
+  "track_or_session": "Serving Intelligence: Efficient LLM Inference at the Edge and Cloud",
+  "paper_type": "main-track",
+  "publication_date": "2025-07-07",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Qihao Zhang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingshu Zhai",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Sun",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jidong Zhai",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc25/presentation/zhang-qihao",
+    "official_pdf": "https://www.usenix.org/system/files/atc25-zhang-qihao.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/zrSYfZUNoGQ",
+    "bibtex": "@inproceedings {308488,\nauthor = {Qihao Zhang and Mingshu Zhai and Rui Sun and Jidong Zhai},\ntitle = {{QFactory}: Accelerating Quantized Large Language Model Serving with Qtile Graphs},\nbooktitle = {2025 USENIX Annual Technical Conference (USENIX ATC 25)},\nyear = {2025},\nisbn = {978-1-939133-48-9},\naddress = {Boston, MA},\npages = {631--646},\nurl = {https://www.usenix.org/conference/atc25/presentation/zhang-qihao},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-zhang-qihao",
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-qihao",
+      "kind": "paper-page",
+      "title": "QFactory: Accelerating Quantized Large Language Model Serving with Qtile Graphs",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:50ca83b72daffef804931f604600376a07622deba633d081c2c9994cc80b294d",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2025-proceedings",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '25 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2025-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '25",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:6b9b3db519ab6e5825983c02af17feb636d34658a3d20e8e59dab24b81e4386b",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

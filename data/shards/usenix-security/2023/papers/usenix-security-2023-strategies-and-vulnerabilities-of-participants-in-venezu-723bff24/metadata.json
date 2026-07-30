@@ -1,0 +1,157 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-strategies-and-vulnerabilities-of-participants-in-venezu-723bff24",
+  "title": "Strategies and Vulnerabilities of Participants in Venezuelan Influence Operations",
+  "venue": "usenix-security",
+  "year": 2023,
+  "track_or_session": "Manipulation, Influence, and Elections",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ruben Recabarren",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida International University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ee1c341c7ec4de07-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bogdan Carbunar",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida International University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ee1c341c7ec4de07-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nestor Hernandez",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida International University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ee1c341c7ec4de07-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ashfaq Ali Shafin",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida International University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-ee1c341c7ec4de07-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity23/presentation/recabarren",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity23-recabarren.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/vlM23bH0LWE?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {285393,\nauthor = {Ruben Recabarren and Bogdan Carbunar and Nestor Hernandez and Ashfaq Ali Shafin},\ntitle = {Strategies and Vulnerabilities of Participants in Venezuelan Influence Operations},\nbooktitle = {32nd USENIX Security Symposium (USENIX Security 23)},\nyear = {2023},\nisbn = {978-1-939133-37-3},\naddress = {Anaheim, CA},\npages = {6683--6700},\nurl = {https://www.usenix.org/conference/usenixsecurity23/presentation/recabarren},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-4ef5c2de41ea7e38-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-ee1c341c7ec4de07-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/recabarren",
+      "kind": "paper-page",
+      "title": "Strategies and Vulnerabilities of Participants in Venezuelan Influence Operations",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations when published, abstract, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

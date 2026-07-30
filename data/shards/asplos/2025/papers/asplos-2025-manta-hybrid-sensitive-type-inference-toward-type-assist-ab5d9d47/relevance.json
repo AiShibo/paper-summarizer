@@ -1,0 +1,68 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-manta-hybrid-sensitive-type-inference-toward-type-assist-ab5d9d47",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because Manta contributes a concrete software testing, analysis, or runtime recovery mechanism for hybrid-Sensitive Type Inference Toward Type-Assisted Bug Detection for Stripped Binaries, while its primary contribution is software testing or program analysis.",
+  "topics": [
+    "reliability-testing-and-debugging",
+    "bug-finding",
+    "systems-security",
+    "program-analysis"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674177",
+      "url": "https://www.semanticscholar.org/paper/015e7d5191bc5fbec8b61fae1bc67db8c4610d8b",
+      "kind": "semantic-scholar",
+      "title": "Manta: Hybrid-Sensitive Type Inference Toward Type-Assisted Bug Detection for Stripped Binaries",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:315d242b260e810d95378de9b412be98cb9653424b27e74d3e412ef64a7756c0",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

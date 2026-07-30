@@ -1,0 +1,178 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-hida-a-hierarchical-dataflow-compiler-for-high-level-syn-59a32260",
+  "title": "HIDA: A Hierarchical Dataflow Compiler for High-Level Synthesis",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1A: Synthesis for Architectures",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hanchen Ye",
+      "position": 1,
+      "orcid": "0000-0002-6646-8146",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, Illinois, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624850"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hyegang Jun",
+      "position": 2,
+      "orcid": "0000-0002-7879-6884",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624850"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Deming Chen",
+      "position": 3,
+      "orcid": "0000-0002-3016-0270",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, Illinois, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624850"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624850",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624850",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624850",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/MZPauUgrKoU",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2311.03379",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624850",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624850",
+      "kind": "crossref",
+      "title": "HIDA: A Hierarchical Dataflow Compiler for High-Level Synthesis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:06aa5550bce89fc98af4e35d69c4c2163fc20ea6eaad17159e89ab55d9730bf0",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624850",
+      "url": "https://www.semanticscholar.org/paper/6b8986bd9c50e47c0cca0083c82cd412f6bc2209",
+      "kind": "semantic-scholar",
+      "title": "HIDA: A Hierarchical Dataflow Compiler for High-Level Synthesis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:3cc5ce6efaa96eb541f7f2fdea778466c969fe5046218f854f7cc387bf7c9e62",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

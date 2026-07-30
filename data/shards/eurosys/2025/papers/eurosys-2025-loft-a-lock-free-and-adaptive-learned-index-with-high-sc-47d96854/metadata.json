@@ -1,0 +1,138 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2025-loft-a-lock-free-and-adaptive-learned-index-with-high-sc-47d96854",
+  "title": "LOFT: A Lock-free and Adaptive Learned Index with High Scalability for Dynamic Workloads",
+  "venue": "eurosys",
+  "year": 2025,
+  "track_or_session": "Session-4.1: ML Systems - Location: Rotterdam Hall 1A - Chair: Yubin Xia",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuxuan Mo",
+      "position": 1,
+      "orcid": "0009-0007-1496-8978",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Hua",
+      "position": 2,
+      "orcid": "0000-0001-7730-3796",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3689031.3717458",
+    "official_page": "https://doi.org/10.1145/3689031.3717458",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3689031.3717458",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2025-program",
+      "url": "https://2025.eurosys.org/preliminary-program.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2025 Main-Track Program",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:72c98f4f9a55b0ff81c3e44a494d197e3e8234fd2bd3289360199f774b409b6b",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3689031",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Twentieth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:093afa0a858eb181a3be968cefce7cb412b72ba94a59f662bfdb61e20fd64702",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

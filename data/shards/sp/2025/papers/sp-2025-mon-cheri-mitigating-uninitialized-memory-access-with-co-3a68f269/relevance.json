@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-mon-cheri-mitigating-uninitialized-memory-access-with-co-3a68f269",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a hardware and architecture security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "language-or-api",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-9b737ebe9d5d3162-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a791/26hiTWeltII",
+      "kind": "publisher-page",
+      "title": "Mon CHÉRI: Mitigating Uninitialized Memory Access with Conditional Capabilities",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

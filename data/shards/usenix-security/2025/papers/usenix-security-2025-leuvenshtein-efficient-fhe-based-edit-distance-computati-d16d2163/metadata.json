@@ -1,0 +1,176 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-leuvenshtein-efficient-fhe-based-edit-distance-computati-d16d2163",
+  "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Crypto 5: HE, MPC, Oblivious Computation",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Wouter Legiest",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "COSIC, KU Leuven",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3a7911cad2a5ca4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jan-Pieter D'Anvers",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "COSIC, KU Leuven",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3a7911cad2a5ca4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bojan Spasic",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Society for Worldwide Interbank Financial Telecommunication (Swift)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3a7911cad2a5ca4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nam-Luc Tran",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Society for Worldwide Interbank Financial Telecommunication (Swift)",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3a7911cad2a5ca4-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ingrid Verbauwhede",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "COSIC, KU Leuven",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3a7911cad2a5ca4-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/legiest",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-legiest.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/sec25_slides_legiest.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {309518,\nauthor = {Wouter Legiest and Jan-Pieter D{\\textquoteright}Anvers and Bojan Spasic and Nam-Luc Tran and Ingrid Verbauwhede},\ntitle = {Leuvenshtein: Efficient {FHE-based} Edit Distance Computation with Single Bootstrap per Cell},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {8423--8440},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/legiest},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-405ad9a67ab8a5d9-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-f3a7911cad2a5ca4-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/legiest",
+      "kind": "paper-page",
+      "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

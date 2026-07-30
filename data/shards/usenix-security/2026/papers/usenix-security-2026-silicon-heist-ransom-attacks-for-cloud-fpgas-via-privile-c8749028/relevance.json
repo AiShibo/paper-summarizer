@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-silicon-heist-ransom-attacks-for-cloud-fpgas-via-privile-c8749028",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a cloud and datacenter security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "systems-security",
+    "networking",
+    "network-security",
+    "computer-architecture",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure",
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-e9f03f478ac1cde6-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/klix",
+      "kind": "paper-page",
+      "title": "Silicon Heist: (Ransom) Attacks for Cloud FPGAs via Privilege Escalation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:28a3a60c0ffc5d89d4cefb2f6f63adba027838640b51c0aee8592ac00f2b7ab1",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

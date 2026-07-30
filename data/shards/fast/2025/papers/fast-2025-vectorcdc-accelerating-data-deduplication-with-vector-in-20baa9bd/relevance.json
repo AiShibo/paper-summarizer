@@ -1,0 +1,75 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-vectorcdc-accelerating-data-deduplication-with-vector-in-20baa9bd",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Compression and Deduplication session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "deduplication"
+  ],
+  "system_layers": [
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:d00f43efdd31af60c59e4851dfff621aa4e0086f902ffc7babf0f4917a57f453",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2025-vectorcdc-accelerating-data-deduplication-with-vector-in-20baa9bd-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/udayashankar",
+      "kind": "paper-page",
+      "title": "VectorCDC: Accelerating Data Deduplication with Vector Instructions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:570c0d2a16dd8e7ffa364f46fb1ef90c2c269decf9f922d0daedf0859ed10748",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

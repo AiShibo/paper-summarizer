@@ -1,0 +1,215 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-plankton-reconciling-binary-code-and-debug-information-fa013ad5",
+  "title": "Plankton: Reconciling Binary Code and Debug Information",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2A: Binary Analysis",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Anshunkang Zhou",
+      "position": 1,
+      "orcid": "0000-0001-8719-1070",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640382"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chengfeng Ye",
+      "position": 2,
+      "orcid": "0000-0002-9529-3410",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640382"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heqing Huang",
+      "position": 3,
+      "orcid": "0000-0002-5328-3994",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "City University of Hong Kong, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640382"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuandao Cai",
+      "position": 4,
+      "orcid": "0000-0001-6340-1416",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640382"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Charles Zhang",
+      "position": 5,
+      "orcid": "0000-0001-6417-1034",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640382"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640382",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640382",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640382",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/9abYdJcCT2k",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640382",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640382",
+      "kind": "crossref",
+      "title": "Plankton: Reconciling Binary Code and Debug Information",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:7065e68ed257593026224b02a21533197905c2583b2a7ed83e94ec0918793515",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640382",
+      "url": "https://www.semanticscholar.org/paper/ae3d86527a29f818ab986654d16921d66e4524b7",
+      "kind": "semantic-scholar",
+      "title": "Plankton: Reconciling Binary Code and Debug Information",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:ed04f841a03809d3ba3acef594523f25b5fa05bda4ca6e81d275724eb2a1bae3",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

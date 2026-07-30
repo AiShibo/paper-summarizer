@@ -1,0 +1,281 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-slice-slice-baby-generating-last-level-cache-eviction-se-551cbebe",
+  "title": "Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye",
+  "venue": "sp",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-05-01",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Bradley Morgan",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gal Horowitz",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tel-Aviv University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sioli O'Connell",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stephan van Schaik",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chitchanok Chuengsatiansup",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Klagenfurt",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Genkin",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Tech",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olaf Maennel",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Paul Montague",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Defence Science and Technology Group",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eyal Ronen",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tel-Aviv University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuval Yarom",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a9309c6cb4f0ea80-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp61157.2025.00264",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600d479/26EkGWP53fa",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/26EkGWP53fa/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eecd1ce03f7b5baa-program",
+      "url": "https://www.sp2025.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2025 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-a9309c6cb4f0ea80-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600d479/26EkGWP53fa",
+      "kind": "publisher-page",
+      "title": "Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, authors, affiliations, abstract, publication date, pages, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

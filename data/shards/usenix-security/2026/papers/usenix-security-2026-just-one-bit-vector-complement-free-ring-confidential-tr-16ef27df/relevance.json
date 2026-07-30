@@ -1,0 +1,46 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-just-one-bit-vector-complement-free-ring-confidential-tr-16ef27df",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization",
+    "benchmark"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-b71b889bd58c7f23-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-hao",
+      "kind": "paper-page",
+      "title": "Just One Bit Vector: Complement-Free Ring Confidential Transactions with Transparent Setup",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:4cd9d8214fca50de3645dfe1c36bf83e42caeeefc34dda1f2cb12f2aeae7be59",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

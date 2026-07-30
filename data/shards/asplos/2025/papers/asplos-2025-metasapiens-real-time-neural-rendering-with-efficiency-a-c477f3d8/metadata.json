@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-metasapiens-real-time-neural-rendering-with-efficiency-a-c477f3d8",
+  "title": "MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3B: Graphics",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Weikai Lin",
+      "position": 1,
+      "orcid": "0000-0003-3537-4857",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Rochester, Rochester, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Feng",
+      "position": 2,
+      "orcid": "0000-0002-2192-5737",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuhao Zhu",
+      "position": 3,
+      "orcid": "0000-0002-2802-0578",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Rochester, Rochester, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707227"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707227",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707227",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707227",
+    "artifact": null,
+    "code": null,
+    "project": "https://horizon-lab.org/metasapiens/",
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707227",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707227",
+      "kind": "crossref",
+      "title": "MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:0e8a107d71f0866a99f5322036fab513e78ddac73f4a8288b5235abe397b75c3",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707227",
+      "url": "https://www.semanticscholar.org/paper/50154e9edf49bc6045d03115b4e1a1b66171fcc3",
+      "kind": "semantic-scholar",
+      "title": "MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:4a0b4ebd8a74c68ca3cf1af483db2d7cba662f1d2396e3cdafb2e5a086f79738",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "alternate_versions"
+    ]
+  }
+}

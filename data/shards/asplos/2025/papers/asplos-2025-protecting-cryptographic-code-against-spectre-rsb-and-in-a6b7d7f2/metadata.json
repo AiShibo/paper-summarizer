@@ -1,0 +1,288 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-protecting-cryptographic-code-against-spectre-rsb-and-in-a6b7d7f2",
+  "title": "Protecting Cryptographic Code Against Spectre-RSB: (and, in Fact, All Known Spectre Variants)",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7C: Side Channels",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Santiago Arranz Olmos",
+      "position": 1,
+      "orcid": "0009-0007-7425-570X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MPI-SP, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilles Barthe",
+      "position": 2,
+      "orcid": "0000-0002-3853-1777",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MPI-SP, Bochum, Germany and IMDEA Software Institute, Madrid, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chitchanok Chuengsatiansup",
+      "position": 3,
+      "orcid": "0000-0002-0329-2681",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Melbourne, Melbourne, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Benjamin Gregoire",
+      "position": 4,
+      "orcid": "0000-0001-6650-9924",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Inria, Sophia Antipolis, France",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vincent Laporte",
+      "position": 5,
+      "orcid": "0000-0002-3468-352X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Université de Lorraine, CNRS, Inria, LORIA, Nancy, France",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tiago Oliveira",
+      "position": 6,
+      "orcid": "0000-0001-7395-3070",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sandbox AQ, Palo Alto, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Schwabe",
+      "position": 7,
+      "orcid": "0000-0002-1310-0997",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MPI-SP, Bochum, Germany and Radboud University, Nijmegen, Netherlands",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuval Yarom",
+      "position": 8,
+      "orcid": "0000-0003-0401-4197",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiyuan Zhang",
+      "position": 9,
+      "orcid": "0009-0000-2669-5654",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MPI-SP, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716015"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716015",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716015",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716015",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716015",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716015",
+      "kind": "crossref",
+      "title": "Protecting Cryptographic Code Against Spectre-RSB: (and, in Fact, All Known Spectre Variants)",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:45d235a0e434379e83a9356dcaa3e4031d464d4bbc6d81a8da9a70271277a28f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716015",
+      "url": "https://www.semanticscholar.org/paper/4520007e4ad85da0057aef410149fd606d7ee457",
+      "kind": "semantic-scholar",
+      "title": "Protecting Cryptographic Code Against Spectre-RSB: (and, in Fact, All Known Spectre Variants)",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:cbf514d061b3bb0417aca630918465e95d284761d27306113b0d85d2bc4a93ed",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The stored title follows the publisher-deposited/indexed rendering where it differs from the official program, correcting inline typography, an apparent program typo or truncation, or a published subtitle; this lower-priority-source override is flagged for independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

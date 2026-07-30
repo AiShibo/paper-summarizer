@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-prompt-fuzzing-for-fuzz-driver-generation-f5e9edc8",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "bug-finding-or-testing-tool",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-b02d8a3d92dd169c-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670396",
+      "kind": "publisher-page",
+      "title": "Prompt Fuzzing for Fuzz Driver Generation",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-8d3957262feb7dac-abstract",
+      "url": "https://openalex.org/W4405182882",
+      "kind": "openalex",
+      "title": "Prompt Fuzzing for Fuzz Driver Generation",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

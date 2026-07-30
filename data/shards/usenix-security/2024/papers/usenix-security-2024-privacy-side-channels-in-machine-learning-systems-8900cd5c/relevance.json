@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-privacy-side-channels-in-machine-learning-systems-8900cd5c",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper demonstrates system-level privacy attacks caused by production pipeline components spanning training filters, preprocessing, monitoring, and query filters.",
+  "topics": [
+    "systems-security",
+    "ml-systems",
+    "privacy-systems",
+    "side-channels"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a8a0cb6049c5efb8-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/debenedetti",
+      "kind": "paper-page",
+      "title": "Privacy Side Channels in Machine Learning Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-shapleyiq-influence-quantification-by-shapley-values-for-2baf8e5f",
+  "title": "ShapleyIQ: Influence Quantification by Shapley Values for Performance Debugging of Microservices",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3A: Dynamic Analysis and Instrumentation",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 37,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ye Li",
+      "position": 1,
+      "orcid": "0000-0003-1860-2723",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624771"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jian Tan",
+      "position": 2,
+      "orcid": "0000-0002-1080-9300",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud Computing Co. Ltd., Sunnyvale, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624771"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Wu",
+      "position": 3,
+      "orcid": "0000-0002-4743-1006",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624771"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiao He",
+      "position": 4,
+      "orcid": "0000-0001-7959-2157",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624771"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feifei Li",
+      "position": 5,
+      "orcid": "0009-0003-0770-5775",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624771"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624771",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624771",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624771",
+    "artifact": "https://doi.org/10.5281/zenodo.10068038",
+    "code": "https://github.com/lonyle/ShapleyIQ/tree/asplos-v1.0",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/o8CuLfLXUBs",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624771",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624771",
+      "kind": "crossref",
+      "title": "ShapleyIQ: Influence Quantification by Shapley Values for Performance Debugging of Microservices",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:dc9a5a29df642cfa843dc3e9a673dc146774a0197e1bc7db03997be276ee9e37",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624771",
+      "url": "https://www.semanticscholar.org/paper/bcd1de54092561fe669c3029db4534f5f487ad64",
+      "kind": "semantic-scholar",
+      "title": "ShapleyIQ: Influence Quantification by Shapley Values for Performance Debugging of Microservices",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:eec8596021b913e745294efe94ef71237ad1ca8929982796454a73708bd31367",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10068038",
+      "url": "https://zenodo.org/records/10068038",
+      "kind": "artifact-page",
+      "title": "lonyle/ShapleyIQ: ASPLOS23-artifact-evaluated",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:c63389998f7d481468d0f7a6870a96f4419a68e28e55b1aec99ddb00cc0c612d",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2025-empower-vision-applications-with-lora-lmm-8b9d5235",
+  "title": "Empower Vision Applications with LoRA LMM",
+  "venue": "eurosys",
+  "year": 2025,
+  "track_or_session": "Session-2.2: LLM Serving - Location: Rotterdam hall 1A - Chair: Luo Mai",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liang Mi",
+      "position": 1,
+      "orcid": "0009-0000-6058-5950",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weijun Wang",
+      "position": 2,
+      "orcid": "0000-0002-9545-3322",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenming Tu",
+      "position": 3,
+      "orcid": "0009-0006-9984-2858",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingfeng He",
+      "position": 4,
+      "orcid": "0009-0002-2383-1096",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Kong",
+      "position": 5,
+      "orcid": "0009-0003-2889-2266",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinyu Fang",
+      "position": 6,
+      "orcid": "0009-0008-1208-5917",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yazhu Dong",
+      "position": 7,
+      "orcid": "0009-0004-1590-9353",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yikang Zhang",
+      "position": 8,
+      "orcid": "0009-0005-6908-9183",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuanchun Li",
+      "position": 9,
+      "orcid": "0000-0002-1591-2526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Meng Li",
+      "position": 10,
+      "orcid": "0000-0001-5764-960X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haipeng Dai",
+      "position": 11,
+      "orcid": "0000-0003-0545-8187",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guihai Chen",
+      "position": 12,
+      "orcid": "0000-0002-6934-1685",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunxin Liu",
+      "position": 13,
+      "orcid": "0000-0001-7352-8955",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3689031.3717472",
+    "official_page": "https://doi.org/10.1145/3689031.3717472",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3689031.3717472",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2025-program",
+      "url": "https://2025.eurosys.org/preliminary-program.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2025 Main-Track Program",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:72c98f4f9a55b0ff81c3e44a494d197e3e8234fd2bd3289360199f774b409b6b",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3689031",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Twentieth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:093afa0a858eb181a3be968cefce7cb412b72ba94a59f662bfdb61e20fd64702",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-crossref-3689031-3717472",
+      "url": "https://api.crossref.org/works/10.1145%2F3689031.3717472",
+      "kind": "crossref",
+      "title": "Crossref publisher-deposited metadata for Empower Vision Applications with LoRA LMM",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:3ae894ace783dc6a74dd7fc34a41f10103a2fee4e32129da09b287582f253412",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title or author order used to resolve a documented conflict or duplicate in the official conference program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing.",
+      "The publisher-deposited Crossref author order overrides a conflicting or duplicated author entry in the official program; official program affiliations were matched by author name."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

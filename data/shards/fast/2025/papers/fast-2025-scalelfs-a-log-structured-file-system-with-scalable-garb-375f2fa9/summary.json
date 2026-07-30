@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-scalelfs-a-log-structured-file-system-with-scalable-garb-375f2fa9",
+  "takeaway": "ScaleLFS parallelizes F2FS garbage collection with per-core resources, lock-free victim selection, loosely synchronized metadata, and page-granular conflict protection to sustain commodity-SSD throughput.",
+  "background": "A log-structured file system converts random writes into sequential segments, but must copy live pages out of old segments to reclaim free space. When utilization is high, foreground garbage collection blocks applications and determines sustained performance.",
+  "villain": "F2FS and scalable descendants serialize collection through one GC stream, global victim/segment locks, shared page-cache buffers, and file-wide protection. Simply adding collectors worsens contention while idle CPU cores and SSD channels remain unused.",
+  "approach": "ScaleLFS gives each core a garbage collector, page buffer, write stream, and distinct victim. Atomic bitmaps assign victims; valid-page bits and counts update independently under a checked loose-consistency model; a concurrent hash table protects only pages that race with foreground I/O, while checkpoints preserve crash consistency.",
+  "impact": "The F2FS-based design turns CPU and SSD capacity left idle during foreground collection into shorter GC pauses on an unmodified commodity SSD. It demonstrates that scaling reclamation requires removing a sequence of distinct locks, not merely adding threads.",
+  "evaluation": {
+    "overview": "Fio at high utilization measures sustained bandwidth, execution time, device traffic, tails, core scaling, CPU use, and device GC; Filebench, MySQL/YCSB, component ablations, side effects, and resource overhead broaden evaluation.",
+    "implemented": "ScaleLFS in Linux 6.0/F2FS with per-core dedicated garbage collectors, dedicated buffers and streams, concurrent victim selection, atomic loose-synchronization updates, page-level victim protection, node-lock conflict checks, and checkpoint-based recovery.",
+    "setting": "A 24-core/48-thread Xeon E5-2650 system with 160 GB DRAM and a 7.68-TB Samsung PM9A3 SSD; primary file-system-GC tests constrain memory to 8 GB and use a 30-GB partition, while a full-capacity test also triggers device GC.",
+    "baselines": [
+      "F2FS default mode",
+      "F2FS LFS mode",
+      "MAX",
+      "P-GC",
+      "multi-threaded F2FS variants"
+    ],
+    "results": [
+      {
+        "id": "claim-scalelfs-sustained",
+        "text": "On 120 GB of random writes to a 95%-full 30-GB partition, ScaleLFS improves sustained bandwidth by 3.5×, 2.4×, 4.6×, and 7.0× over F2FS, F2FS-L, MAX, and P-GC.",
+        "source_ids": [
+          "src-fast25-pdf-375f2fa9"
+        ],
+        "locator": "PDF pp. 9–10; §5.1, Figure 9"
+      },
+      {
+        "id": "claim-scalelfs-ycsb",
+        "text": "For MySQL YCSB A, ScaleLFS reaches up to 3.38× baseline throughput and reduces read/update 99th-percentile latency by up to 87.0%/60.9%; update-only throughput improves up to 3.22×.",
+        "source_ids": [
+          "src-fast25-pdf-375f2fa9"
+        ],
+        "locator": "PDF pp. 11–12; §5.3, Figure 11"
+      },
+      {
+        "id": "claim-scalelfs-cost",
+        "text": "Loose synchronization raises write amplification by 0.3% in Fileserver and 3.6% in update-only YCSB; sharing with Redis lengthens Redis execution 9.8% while ScaleLFS uses up to 40 MB more memory.",
+        "source_ids": [
+          "src-fast25-pdf-375f2fa9"
+        ],
+        "locator": "PDF pp. 12–13; §§5.5–5.6"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "ScaleLFS assumes idle cores are available while I/O threads block and deliberately spends more CPU; co-located compute workloads may suffer. Loose metadata synchronization slightly worsens victim choice and can issue false-positive reads. Performance saturates or declines near 48 collectors, memory grows with collectors/files, and evaluation uses one commodity SSD and deliberately small high-utilization partitions for most experiments.",
+  "phd_group_signal": "The paper follows contention through successive locks and validates each removal with an incremental ablation. It is a strong example of multi-core file-system design that treats reclamation, consistency, tail latency, and co-tenant overhead together.",
+  "beginner_concepts": [
+    "log-structured file system",
+    "garbage collection",
+    "victim segment",
+    "write amplification",
+    "atomic bitmap",
+    "checkpoint",
+    "tail latency",
+    "lock contention"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-scalelfs-dgc",
+      "text": "Each dedicated collector owns a victim, private page buffer, and write stream, avoiding shared page-cache and allocation locks while issuing independent GC I/O.",
+      "source_ids": [
+        "src-fast25-pdf-375f2fa9"
+      ],
+      "locator": "PDF pp. 5–6; §§4.3–4.4, Figures 3–4"
+    },
+    {
+      "id": "claim-scalelfs-consistency",
+      "text": "ScaleLFS resolves foreground/GC races by checking page addresses under existing node locks and persists valid-bit/count pairs atomically at F2FS checkpoints despite independent runtime updates.",
+      "source_ids": [
+        "src-fast25-pdf-375f2fa9"
+      ],
+      "locator": "PDF pp. 8–9; §§4.6–4.7, Figure 8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-375f2fa9",
+      "url": "https://www.usenix.org/system/files/fast25-ha.pdf",
+      "kind": "paper-pdf",
+      "title": "ScaleLFS: A Log-Structured File System with Scalable Garbage Collection for Commodity SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:52e71c75aaa17c14b74b856053f541ffd26dc672c5ab91d9d372b3d7a7fe0d2d",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, root-cause analysis, design, consistency, evaluation, discussion, related work, and conclusion",
+        "reported sustained, tail, application, component, side-effect, and overhead results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T02:13:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–3 context/analysis, §§4.1–4.7 design and consistency, §§5.1–5.6 evaluation, §6 discussion, §7 related work, and §8 conclusion.",
+      "All measurements are author-reported; the CPU-for-I/O tradeoff and loose-synchronization side effects are retained explicitly."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T02:13:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

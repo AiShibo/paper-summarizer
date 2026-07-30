@@ -1,0 +1,221 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-cssts-a-dynamic-data-structure-for-partial-orders-in-con-3225ed8b",
+  "title": "CSSTs: A Dynamic Data Structure for Partial Orders in Concurrent Execution Analysis",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6A: Bug Finding and Testing",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hünkar Can Tunç",
+      "position": 1,
+      "orcid": "0000-0001-9125-8506",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Aarhus University, Aarhus, Denmark",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651358"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ameya Prashant Deshmukh",
+      "position": 2,
+      "orcid": "0009-0007-6393-9188",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Indian Institute of Technology, Bombay, Mumbai, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651358"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Berk Cirisci",
+      "position": 3,
+      "orcid": "0000-0003-4261-090X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Amazon Web Services, Berlin, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651358"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Constantin Enea",
+      "position": 4,
+      "orcid": "0000-0003-2727-8865",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ecole Polytechnique, Paris, France",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651358"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andreas Pavlogiannis",
+      "position": 5,
+      "orcid": "0000-0002-8943-0722",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Aarhus University, Aarhus, Denmark",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651358"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651358",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651358",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/klm_OiSGOyw",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2403.17818",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651358",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651358",
+      "kind": "crossref",
+      "title": "CSSTs: A Dynamic Data Structure for Partial Orders in Concurrent Execution Analysis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:7f81137a159ebb0e0e22ef9e48510a9ebbe7d911333fc679082bd89a5e152197",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651358",
+      "url": "https://www.semanticscholar.org/paper/1baeaf34dcffc77e74b6f40df0725b18e33f4624",
+      "kind": "semantic-scholar",
+      "title": "CSSTs: A Dynamic Data Structure for Partial Orders in Concurrent Execution Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:2fb32f4734385a397b0236f1bcb8fa38d5bd96460551efc1d2a3af678d36145f",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

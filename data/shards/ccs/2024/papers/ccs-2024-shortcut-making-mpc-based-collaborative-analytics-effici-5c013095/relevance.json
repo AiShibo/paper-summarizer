@@ -1,0 +1,66 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-shortcut-making-mpc-based-collaborative-analytics-effici-5c013095",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements a framework for incrementally updating privacy-preserving SQL analytics over dynamic databases and reports large end-to-end speedups.",
+  "topics": [
+    "databases-and-data-processing",
+    "privacy-systems",
+    "distributed-systems"
+  ],
+  "system_layers": [
+    "storage",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-329a6f0d048fb359-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690314",
+      "kind": "publisher-page",
+      "title": "Shortcut: Making MPC-based Collaborative Analytics Efficient on Dynamic Databases",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-db2b472d3c153549-abstract",
+      "url": "https://www.semanticscholar.org/paper/9d826c56c50870493f9293d2b599294dbf036210",
+      "kind": "semantic-scholar",
+      "title": "Shortcut: Making MPC-based Collaborative Analytics Efficient on Dynamic Databases",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

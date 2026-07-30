@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-oxidizer-toward-concise-and-high-fidelity-rust-decompila-eb64119c",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a concrete program-analysis, vulnerability-discovery, or security-testing artifact with material software-systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-7efbfaf5f81d8de9-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500d433/2hBEtij4AGQ",
+      "kind": "publisher-page",
+      "title": "Oxidizer: Toward Concise and High-fidelity Rust Decompilation",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2026-pilot-execution-simulating-failure-recovery-in-situ-for-22107a6a",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete network measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "networking",
+    "reliability-testing-and-debugging",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2026-pilot-execution-simulating-failure-recovery-in-situ-for-22107a6a-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li-zhenyu",
+      "kind": "paper-page",
+      "title": "Pilot Execution: Simulating Failure Recovery In Situ for Production Distributed Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:34ce76c152335c6cef8cf02c0765c9a1b42dac6d50e034eaf8a8f8bfb080bf93",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

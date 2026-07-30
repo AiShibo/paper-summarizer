@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "title": "Venue-year collection record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "venue",
+    "year",
+    "official_conference_url",
+    "official_program_url",
+    "conference_dates",
+    "collection_status",
+    "counts",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "venue": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2023,
+      "maximum": 2026
+    },
+    "official_conference_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "official_program_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "conference_dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "end": {
+          "type": ["string", "null"],
+          "format": "date"
+        }
+      }
+    },
+    "collection_status": {
+      "enum": [
+        "UNVERIFIED",
+        "COMPLETE_PROCEEDINGS",
+        "ACCEPTED_PAPERS_ONLY",
+        "PARTIAL",
+        "UPCOMING",
+        "UNAVAILABLE"
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["main_track", "core_systems", "systems_adjacent", "excluded", "needs_review"],
+      "properties": {
+        "main_track": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "core_systems": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "systems_adjacent": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "excluded": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "needs_review": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

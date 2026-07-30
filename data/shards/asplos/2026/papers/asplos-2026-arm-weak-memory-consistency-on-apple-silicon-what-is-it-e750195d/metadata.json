@@ -1,0 +1,140 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-arm-weak-memory-consistency-on-apple-silicon-what-is-it-e750195d",
+  "title": "Arm Weak Memory Consistency on Apple Silicon: What Is It Good For?",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 7D: Processor Microarchitecture",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yossi Khayet",
+      "position": 1,
+      "orcid": "0009-0003-2728-1893",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tel Aviv University, Tel Aviv, Israel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790129"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adam Morrison",
+      "position": 2,
+      "orcid": "0000-0002-5586-2615",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tel Aviv University, Tel Aviv, Israel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790129"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790129",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790129",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790129",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790129",
+      "kind": "crossref",
+      "title": "Arm Weak Memory Consistency on Apple Silicon: What Is It Good For?",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a7dffd0c7a6e3909897750a74ec37cf88b63f420a3bc835d33dca8faf3539c8b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790129",
+      "url": "https://www.semanticscholar.org/paper/1113e69674ef97c2cd4713e80a2d6ddc4d3a1939",
+      "kind": "semantic-scholar",
+      "title": "Arm Weak Memory Consistency on Apple Silicon: What Is It Good For?",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:11746aae5ddd228c690344bf38a03f83f984dda70159f2b5a98bee9b00f2d958",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

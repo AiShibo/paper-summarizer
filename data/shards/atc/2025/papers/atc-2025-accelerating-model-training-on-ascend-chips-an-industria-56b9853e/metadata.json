@@ -1,0 +1,592 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-accelerating-model-training-on-ascend-chips-an-industria-56b9853e",
+  "title": "Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization",
+  "venue": "atc",
+  "year": 2025,
+  "track_or_session": "Hardware-Specific Optimizations: Space, Accelerators, and AI Chips",
+  "paper_type": "main-track",
+  "publication_date": "2025-07-07",
+  "page_count": 22,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuhang Zhou",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zibo Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhibin Wang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruyi Zhang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Tian",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoliang Wang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wanchun Dou",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guihai Chen",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bingqiang Wang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peng Cheng Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yonghong Tian",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peng Cheng Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yan Zhang",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peng Cheng Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hui Wang",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peng Cheng Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fuchun Wei",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boquan Sun",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingyi Zhang",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin She",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Teng Su",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Yao",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunsheng Li",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyang Zhang",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yaoyuan Wang",
+      "position": 21,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Zhou",
+      "position": 22,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shandong University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guyue Liu",
+      "position": 23,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc25/presentation/zhou",
+    "official_pdf": "https://www.usenix.org/system/files/atc25-zhou.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/sites/default/files/conference/protected-files/atc25_slides_wang_zibo.pdf",
+    "video": "https://www.youtube.com/embed/6E0fgv8oriU",
+    "bibtex": "@inproceedings {308576,\nauthor = {Yuhang Zhou and Zibo Wang and Zhibin Wang and Ruyi Zhang and Chen Tian and Xiaoliang Wang and Wanchun Dou and Guihai Chen and Bingqiang Wang and Yonghong Tian and Yan Zhang and Hui Wang and Fuchun Wei and Boquan Sun and Jingyi Zhang and Bin She and Teng Su and Yifan Yao and Chunsheng Li and Ziyang Zhang and Yaoyuan Wang and Bin Zhou and Guyue Liu},\ntitle = {Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization},\nbooktitle = {2025 USENIX Annual Technical Conference (USENIX ATC 25)},\nyear = {2025},\nisbn = {978-1-939133-48-9},\naddress = {Boston, MA},\npages = {1387--1408},\nurl = {https://www.usenix.org/conference/atc25/presentation/zhou},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-zhou",
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhou",
+      "kind": "paper-page",
+      "title": "Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:ef016819a4feea21243428457f176d9015c211dadbf79fa7d96f58e05f595211",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2025-proceedings",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '25 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2025-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '25",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:6b9b3db519ab6e5825983c02af17feb636d34658a3d20e8e59dab24b81e4386b",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

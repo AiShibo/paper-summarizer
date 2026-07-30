@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-towards-high-throughput-and-low-latency-billion-scale-ve-0f381907",
+  "takeaway": "FusionANNS serves billion-vector search by keeping graph and ID metadata in CPU memory, product-quantized vectors in GPU memory, and raw vectors on SSD, so each tier performs the work it handles efficiently.",
+  "background": "Approximate nearest-neighbor search narrows a large vector collection to likely candidates and then re-ranks them for accuracy. IVF systems group vectors into posting lists, product quantization compresses vectors at some precision cost, and SSD indexes trade memory footprint against I/O.",
+  "villain": "SSD-resident systems issue many small reads under concurrency, replicated posting lists inflate storage, and naively adding a GPU does not remove those reads while adding PCIe transfers. In-memory GPU systems exceed device memory at billion scale and repeatedly move vector contents from host DRAM.",
+  "approach": "FusionANNS stores an SPTAG centroid graph and replicated vector IDs in host memory, one product-quantized copy of each vector in GPU HBM, and uniquely laid-out raw vectors on SSD. CPUs select posting lists, the GPU deduplicates IDs and computes approximate distances, and the CPU re-ranks progressively read raw candidates, stopping when the top-k set stabilizes and coalescing same-page I/O.",
+  "impact": "The design demonstrates a practical division of metadata, compressed data, raw data, and computation across CPU DRAM, GPU HBM, and SSD. It achieves high query concurrency without requiring the raw billion-vector collection to fit in main or GPU memory.",
+  "evaluation": {
+    "overview": "The prototype is evaluated on SIFT1B, SPACEV1B, and DEEP1B at Recall@10 targets, varying datasets, accuracy, and 1–64 query threads; ablations isolate the multi-tier index, GPU filtering, heuristic re-ranking, and I/O deduplication, followed by cost and memory-efficiency estimates.",
+    "implemented": "A 22-KLOC C++/CUDA prototype builds hierarchical balanced posting lists offline, uses an SPTAG graph over centroids, limits boundary-vector assignment to eight clusters, manages per-query GPU workspaces, and implements GPU ID deduplication and product-quantized distance kernels.",
+    "setting": "One server has two 2.2 GHz Intel Xeon CPUs with 64 cores, 1 TB DRAM, an NVIDIA V100 with 32 GB HBM, and a 2 TB Samsung 990 Pro SSD. FusionANNS and other SSD-based systems are restricted to 64 GB host memory; the datasets contain one billion 96–128-dimensional vectors and 93–358 GB of raw data.",
+    "baselines": [
+      "SPANN",
+      "SPANN-GPU",
+      "DiskANN",
+      "DiskANN-GPU",
+      "RUMMY"
+    ],
+    "results": [
+      {
+        "id": "claim-fusionanns-throughput",
+        "text": "At Recall@10=0.90 across the three datasets, FusionANNS reports 9.4×–13.1× the QPS of SPANN, 3.2×–4.3× that of DiskANN, and 2×–4.9× that of RUMMY while retaining latency comparable to SPANN.",
+        "source_ids": [
+          "src-fast25-pdf-0f381907"
+        ],
+        "locator": "PDF pp. 10–11; §5.1, Figure 9"
+      },
+      {
+        "id": "claim-fusionanns-scale",
+        "text": "At 64 query threads, FusionANNS improves QPS by up to 13.2×, 3.8×, and 5.1× over SPANN, DiskANN, and RUMMY, respectively, while the competing systems saturate or suffer rising latency.",
+        "source_ids": [
+          "src-fast25-pdf-0f381907"
+        ],
+        "locator": "PDF pp. 11–12; §5.2, Figure 11"
+      },
+      {
+        "id": "claim-fusionanns-ablation",
+        "text": "The GPU multi-tier index reaches 5.9×–6.8× SPANN's QPS; heuristic re-ranking and redundant-aware I/O deduplication then add up to 39% and 17% QPS and reduce I/O counts by up to 30% and 23%.",
+        "source_ids": [
+          "src-fast25-pdf-0f381907"
+        ],
+        "locator": "PDF p. 12; §5.3, Figure 12"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The experiments use one server, one V100, one SSD, three public billion-vector datasets, and average rather than tail latency. Indexes are built offline, so update-heavy operation, build cost, multiple GPUs or SSDs, distributed scaling, and production query traces are not evaluated. The stability-based re-ranking thresholds are empirically tuned, and cost efficiency uses approximate Amazon component prices. Resource allocations also reflect different designs: SSD baselines are capped at 64 GB DRAM while in-memory RUMMY relies on host memory.",
+  "phd_group_signal": "FusionANNS is a useful systems case study in heterogeneous placement and bottleneck diagnosis: it connects index representation, PCIe traffic, GPU kernel design, SSD layout, and adaptive stopping, then validates each layer with concurrency and I/O ablations.",
+  "beginner_concepts": [
+    "approximate nearest-neighbor search",
+    "inverted file index",
+    "posting list",
+    "product quantization",
+    "GPU HBM",
+    "re-ranking",
+    "Recall@10",
+    "read amplification"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-fusionanns-tiering",
+      "text": "The multi-tier index keeps only the centroid graph and vector IDs in host memory, places a single product-quantized vector per item in GPU HBM, and stores raw vectors once on SSD for exact re-ranking.",
+      "source_ids": [
+        "src-fast25-pdf-0f381907"
+      ],
+      "locator": "PDF pp. 6–8; §§3.1–3.2, Figures 6–7"
+    },
+    {
+      "id": "claim-fusionanns-rerank",
+      "text": "Re-ranking processes distance-ordered candidates in mini-batches and stops after the top-k ID set changes by at most 0.1 for one consecutive batch; an SSD-page map merges within-batch reads and reuses buffered pages across batches.",
+      "source_ids": [
+        "src-fast25-pdf-0f381907"
+      ],
+      "locator": "PDF pp. 8–9; §§3.3–3.4, Algorithm 1, Figure 8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-0f381907",
+      "url": "https://www.usenix.org/system/files/fast25-tian-bing.pdf",
+      "kind": "paper-pdf",
+      "title": "Towards High-throughput and Low-latency Billion-scale Vector Search via CPU/GPU Collaborative Filtering and Re-ranking",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f42d973e9208f76f91c2afe532474ff639de68dc63a1a6df95ea138399a012bc",
+      "official": true,
+      "supports": [
+        "abstract, motivation, multi-tiered index, CPU/GPU filtering, re-ranking, I/O layout, implementation, evaluation, related work, and conclusion",
+        "reported throughput, latency, scalability, I/O, cost-efficiency, and memory-efficiency results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:58:18Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 motivation and background, §§3.1–3.4 design, §4 implementation, §§5.1–5.4 evaluation, §6 related work, and §7 conclusion.",
+      "All performance and efficiency figures are author-reported; no independent replication or summary approval was performed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:58:18Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

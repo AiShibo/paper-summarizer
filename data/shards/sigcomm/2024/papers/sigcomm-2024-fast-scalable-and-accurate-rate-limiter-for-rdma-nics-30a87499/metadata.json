@@ -1,0 +1,287 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-fast-scalable-and-accurate-rate-limiter-for-rdma-nics-30a87499",
+  "title": "Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Accelerating the datacenter edge — Research Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 13,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zilong Wang",
+      "position": 1,
+      "orcid": "0000-0003-3184-4081",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinchen Wan",
+      "position": 2,
+      "orcid": "0000-0001-6503-5309",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luyang Li",
+      "position": 3,
+      "orcid": "0009-0004-3814-3776",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "government-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yijun Sun",
+      "position": 4,
+      "orcid": "0009-0009-2831-0012",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Xie",
+      "position": 5,
+      "orcid": "0009-0006-7324-6089",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Vision Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Wei",
+      "position": 6,
+      "orcid": "0009-0004-7102-1252",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Vision Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingsong Ning",
+      "position": 7,
+      "orcid": "0009-0001-4951-3099",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Vision Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junxue Zhang",
+      "position": 8,
+      "orcid": "0000-0001-6926-7801",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kai Chen",
+      "position": 9,
+      "orcid": "0000-0003-2587-6028",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672215",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672215",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672215",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=5ffFgYZwRaI",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-fast-scalable-and-accurate-rate-limiter-for-rdma-nics-30a87499-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672215",
+      "kind": "publisher-page",
+      "title": "Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-fast-scalable-and-accurate-rate-limiter-for-rdma-nics-30a87499-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672215",
+      "kind": "crossref",
+      "title": "Crossref metadata for Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:05bcfdfa3f723fc835a5a1579996843a3b078762087d0baea2174b6fbc956125",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Research Track within the Accelerating the datacenter edge technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

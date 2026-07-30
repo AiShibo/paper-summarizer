@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-bluetooth-low-energy-security-testing-with-combinatorial-b93b5e44",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "This work is systems-adjacent because its primary contribution is program analysis, formal reasoning, or testing applied to networking, rather than a new end-to-end system.",
+  "topics": [
+    "networking",
+    "wireless",
+    "reliability-testing-and-debugging",
+    "bug-finding",
+    "systems-security",
+    "isolation",
+    "mobile-edge-embedded-and-iot",
+    "mobile-systems"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "language-or-api",
+    "defense"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-schreiber",
+      "url": "https://www.usenix.org/conference/atc25/presentation/schreiber",
+      "kind": "paper-page",
+      "title": "Bluetooth Low Energy Security Testing with Combinatorial Methods",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:3b8e39612245ba1a0aba6ad642d23dcd007c8007e62c16480c31044c7657ab0b",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

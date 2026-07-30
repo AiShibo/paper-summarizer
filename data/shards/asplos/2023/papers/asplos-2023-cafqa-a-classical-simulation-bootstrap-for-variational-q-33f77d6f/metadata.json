@@ -1,0 +1,315 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-cafqa-a-classical-simulation-bootstrap-for-variational-q-33f77d6f",
+  "title": "CAFQA: A classical simulation bootstrap for variational quantum algorithms",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 6A: Quantum A",
+  "paper_type": "main-track",
+  "publication_date": "2022-12-19",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Gokul Subramanian Ravi",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pranav Gokhale",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Super.tech, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Ding",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "William Kirby",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tufts University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaitlin Smith",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Baker",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter J. Love",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tufts University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Henry Hoffmann",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kenneth R. Brown",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Frederic Chong",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3567955-3567958"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3567955.3567958",
+    "official_page": "https://dl.acm.org/doi/10.1145/3567955.3567958",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3567955.3567958",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/JefpWCO9a-c",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2202.12924",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3567955-3567958",
+      "url": "https://api.crossref.org/works/10.1145/3567955.3567958",
+      "kind": "crossref",
+      "title": "CAFQA: A classical simulation bootstrap for variational quantum algorithms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:f6d8d613a4cc9e2261b0682e7c2c1ac903815bbe0d6bfab222fafd2e5da83d19",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3567955-3567958",
+      "url": "https://www.semanticscholar.org/paper/e125400468be9828aa16344ec7a6a340e88bcd97",
+      "kind": "semantic-scholar",
+      "title": "CAFQA: A Classical Simulation Bootstrap for Variational Quantum Algorithms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:620fea1f2c37bc79300e34b659caba3ca183ae6ec6e1bac536f5a3bd79672d46",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording.",
+      "This official ASPLOS 2023 Volume 1 paper was publisher-deposited with a 2022-12-19 print date before the March 2023 conference; the exact deposited publication date is retained."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

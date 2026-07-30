@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-pat-accelerating-llm-decoding-via-p-refix-a-ware-a-t-ten-9ccf3236",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: PAT is an implemented and evaluated latency-, memory-, and scheduling-aware inference-serving mechanism, not an ML-only algorithm.",
+  "topics": [
+    "ml-systems",
+    "inference-systems",
+    "model-serving",
+    "quality-of-service"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790200",
+      "url": "https://www.semanticscholar.org/paper/5c639a2593370ec4e72454aa8fbd4afbd18e540c",
+      "kind": "semantic-scholar",
+      "title": "PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:eecf1f0557cdc5f774742dc8bba88e17689af390372afbf307663717c2a253e9",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

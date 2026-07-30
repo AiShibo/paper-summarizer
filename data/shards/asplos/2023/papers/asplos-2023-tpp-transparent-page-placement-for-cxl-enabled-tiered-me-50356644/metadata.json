@@ -1,0 +1,315 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-tpp-transparent-page-placement-for-cxl-enabled-tiered-me-50356644",
+  "title": "TPP: Transparent Page Placement for CXL-Enabled Tiered Memory",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 9A: Disaggregated Memory",
+  "paper_type": "main-track",
+  "publication_date": "2023-03-25",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hasan Al Maruf",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhishek Dhanotia",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Johannes Weiner",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Niket Agarwal",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pallab Bhattacharya",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chris Petersen",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mosharaf Chowdhury",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shobhit Kanaujia",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prakash Chauhan",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582063"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3582016.3582063",
+    "official_page": "https://dl.acm.org/doi/10.1145/3582016.3582063",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/pOP-bZHAwcY",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2206.02878",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3582016-3582063",
+      "url": "https://api.crossref.org/works/10.1145/3582016.3582063",
+      "kind": "crossref",
+      "title": "TPP: Transparent Page Placement for CXL-Enabled Tiered Memory",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:5baa95588655795d273b6b242ff34c71693f8107d6074f3de6a0523168692e8d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582063",
+      "url": "https://www.semanticscholar.org/paper/b8f33cd54ea03e06fb44d618f57b6e85f0a15565",
+      "kind": "semantic-scholar",
+      "title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:4ebc165415491e0c422683172967ea762bc753735b753628db6fb547694d73b7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

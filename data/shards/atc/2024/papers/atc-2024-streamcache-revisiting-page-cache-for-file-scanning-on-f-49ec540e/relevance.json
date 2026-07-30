@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-streamcache-revisiting-page-cache-for-file-scanning-on-f-49ec540e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because its empirical study directly characterizes operating systems and kernels behavior and informs concrete systems design at the kernel layer.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "storage-and-file-systems",
+    "caching",
+    "networking",
+    "datacenter-networking",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "kernel",
+    "storage",
+    "network"
+  ],
+  "contribution_types": [
+    "measurement-study",
+    "optimization"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-li-zhiyue",
+      "url": "https://www.usenix.org/conference/atc24/presentation/li-zhiyue",
+      "kind": "paper-page",
+      "title": "StreamCache: Revisiting Page Cache for File Scanning on Fast Storage Devices",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:b2c95609c0fd3f9660631f276986b636593080b3acab217edf983dc304b17fcf",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

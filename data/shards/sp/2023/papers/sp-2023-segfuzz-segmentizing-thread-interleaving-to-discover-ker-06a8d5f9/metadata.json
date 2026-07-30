@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-segfuzz-segmentizing-thread-interleaving-to-discover-ker-06a8d5f9",
+  "title": "SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+  "venue": "sp",
+  "year": 2023,
+  "track_or_session": "Session 8A: Low-level software security",
+  "paper_type": "main-track",
+  "publication_date": "2023-05-01",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Dae R. Jeong",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computing, KAIST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b0f3d2821688c854-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Byoungyoung Lee",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electrical and Computer Engineering, Seoul National University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b0f3d2821688c854-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Insik Shin",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computing, KAIST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b0f3d2821688c854-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youngjin Kwon",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computing, KAIST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b0f3d2821688c854-schedule"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp46215.2023.10179398",
+    "official_page": "https://doi.org/10.1109/SP46215.2023.10179398",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx7/10179215/10179280/10179398.pdf?arnumber=10179398",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-7261a63808c5a3ac-program",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official accepted title"
+      ]
+    },
+    {
+      "id": "src-b0f3d2821688c854-schedule",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-b2fbf5df8c57e91a-publisher",
+      "url": "https://doi.org/10.1109/SP46215.2023.10179398",
+      "kind": "publisher-page",
+      "title": "SegFuzz: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-7abb7a2a6ac67ad1-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179398",
+      "kind": "crossref",
+      "title": "SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-0fdd9ac64342d7fe-abstract",
+      "url": "https://openalex.org/W4385080390",
+      "kind": "openalex",
+      "title": "SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

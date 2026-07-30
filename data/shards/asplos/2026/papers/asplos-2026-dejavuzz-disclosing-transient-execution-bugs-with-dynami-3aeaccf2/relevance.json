@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-dejavuzz-disclosing-transient-execution-bugs-with-dynami-3aeaccf2",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent fit: DejaVuzz is a processor-security fuzzing and bug-finding tool rather than a new processor architecture or runtime.",
+  "topics": [
+    "fuzzing",
+    "vulnerability-discovery",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "fuzzing",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736115",
+      "url": "https://www.semanticscholar.org/paper/cc5cb9c59be807f0952718d017959eaa22bc63cd",
+      "kind": "semantic-scholar",
+      "title": "DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking Assisted Processor Fuzzing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:93ffce896cdb66e6edeb5bdbeb2b540bfbde7c799342bacad214a3af77de9935",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

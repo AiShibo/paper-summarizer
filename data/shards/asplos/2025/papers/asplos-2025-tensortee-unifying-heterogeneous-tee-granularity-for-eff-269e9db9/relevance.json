@@ -1,0 +1,76 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-tensortee-unifying-heterogeneous-tee-granularity-for-eff-269e9db9",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because TensorTEE contributes a concrete trusted computing or cryptographic acceleration mechanism for unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing, while its primary contribution is trusted execution.",
+  "topics": [
+    "systems-security",
+    "hardware-security",
+    "privacy-systems",
+    "computer-architecture",
+    "trusted-execution-environments",
+    "confidential-computing",
+    "storage-and-file-systems"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "storage",
+    "hypervisor"
+  ],
+  "contribution_types": [
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "simulation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674168",
+      "url": "https://www.semanticscholar.org/paper/b1c27c523ece08ff2286cc0e088b3e04d0811ab3",
+      "kind": "semantic-scholar",
+      "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:32d1a096aee6ef70c438b7d305c123194eb6bc1f0ed8430a32f33b86802ae554",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required.",
+      "The abstract identifies a concrete architecture, compiler, runtime, scheduling, serving, training, or hardware/software co-design mechanism; the paper was not included merely for applying machine learning."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

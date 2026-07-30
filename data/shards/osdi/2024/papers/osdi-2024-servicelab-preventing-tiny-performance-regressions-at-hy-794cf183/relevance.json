@@ -1,0 +1,66 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-servicelab-preventing-tiny-performance-regressions-at-hy-794cf183",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material systems reliability, testing, and debugging mechanism at the runtime layer.",
+  "topics": [
+    "reliability-testing-and-debugging",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2024-program",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:f899905ec70b2cc62c3ef71d43b6a3d95c9f867b79636165e361aab2735fce75",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-paper-chow",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/chow",
+      "kind": "paper-page",
+      "title": "ServiceLab: Preventing Tiny Performance Regressions at Hyperscale through Pre-Production Testing",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:b69ebfc59c8404c33894deca3f131a04417d57bc9ba1bc80f427aab7be6da010",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

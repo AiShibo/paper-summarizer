@@ -1,0 +1,373 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-a-shared-compilation-stack-for-distributed-memory-parall-52787778",
+  "title": "A shared compilation stack for distributed-memory parallelism in stencil DSLs",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 8C: High Performance Systems",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "George Bisbas",
+      "position": 1,
+      "orcid": "0000-0002-1519-1028",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computing, Imperial College London, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Earth Science and Engineering, Imperial College London, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anton Lydike",
+      "position": 2,
+      "orcid": "0009-0001-9389-8512",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Informatics, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Emilien Bauer",
+      "position": 3,
+      "orcid": "0009-0006-8028-3064",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Informatics, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nick Brown",
+      "position": 4,
+      "orcid": "0000-0003-2925-7275",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "EPCC, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mathieu Fehr",
+      "position": 5,
+      "orcid": "0000-0002-4100-3190",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Informatics, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lawrence Mitchell",
+      "position": 6,
+      "orcid": "0000-0001-8062-1453",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Unaffiliated, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gabriel Rodriguez-Canal",
+      "position": 7,
+      "orcid": "0009-0005-0511-3922",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "EPCC, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Maurice Jamieson",
+      "position": 8,
+      "orcid": "0000-0003-1626-4871",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "EPCC, The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Paul H J Kelly",
+      "position": 9,
+      "orcid": "0000-0001-5905-1804",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computing, Imperial College London, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michel Steuwer",
+      "position": 10,
+      "orcid": "0000-0001-5048-0741",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Electrical Engineering and Computer Science, Technische Universität Berlin, Berlin, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tobias Grosser",
+      "position": 11,
+      "orcid": "0000-0003-3874-6003",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science and Technology, University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651344"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651344",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651344",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.10854711",
+    "code": "https://github.com/xdslproject/devito/tree/asplos-accepted-v2",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/c6McYRFy9So",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2404.02218",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651344",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651344",
+      "kind": "crossref",
+      "title": "A shared compilation stack for distributed-memory parallelism in stencil DSLs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:41cd3bee97fdf28ab0dcdb9fa0e8d0f9fc57b77c70671699ab30c9e96751f160",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651344",
+      "url": "https://www.semanticscholar.org/paper/d74cd2f8ff08fa95e4561792644e08014adb4561",
+      "kind": "semantic-scholar",
+      "title": "A shared compilation stack for distributed-memory parallelism in stencil DSLs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:21ab26f0dbd3ccdbbdf32c8e539ac7da7e217fc897b322d0d3f1691604dfb4bc",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10854711",
+      "url": "https://zenodo.org/records/10854711",
+      "kind": "artifact-page",
+      "title": "xdslproject/devito: ASPLOS'24 accepted v2",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:dd658577e48b4b8cf76cbbb210de2befe64f6ff90f7fb57acc94166411d8e428",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-breaking-the-bulkhead-demystifying-cross-namespace-refer-785e61af",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a virtualization and isolation attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation",
+    "cloud-and-datacenter-systems",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime",
+    "distributed-service",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-18008d408c907650-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-bulkhead-demystifying-cross-namespace-reference-vulnerabilities-in-kubernetes-operators/",
+      "kind": "paper-page",
+      "title": "Breaking the Bulkhead: Demystifying Cross-Namespace Reference Vulnerabilities in Kubernetes Operators",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d06ae8e1e0a39457e9b11166f2b6cfe1df22c9629c8034f96dda6f8666d31e3a",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-the-configuration-wall-characterization-and-elimination-c6342b15",
+  "title": "The Configuration Wall: Characterization and Elimination of Accelerator Configuration Overhead",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 8D: Reconfigurable Architectures",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Josse Van Delm",
+      "position": 1,
+      "orcid": "0000-0002-9503-403X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anton Lydike",
+      "position": 2,
+      "orcid": "0009-0001-9389-8512",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joren Dumoulin",
+      "position": 3,
+      "orcid": "0009-0005-0692-1227",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonas Crols",
+      "position": 4,
+      "orcid": "0009-0004-8821-3939",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoling Yi",
+      "position": 5,
+      "orcid": "0009-0003-3001-3611",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ryan Antonio",
+      "position": 6,
+      "orcid": "0000-0002-0286-4609",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jackson Woodruff",
+      "position": 7,
+      "orcid": "0000-0003-2650-9596",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Edinburgh, Edinburgh, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tobias Grosser",
+      "position": 8,
+      "orcid": "0000-0003-3874-6003",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marian Verhelst",
+      "position": 9,
+      "orcid": "0000-0003-3495-9263",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KU Leuven, Leuven, Belgium",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762225"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762225",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762225",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762225",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2511.10397",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762225",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762225",
+      "kind": "crossref",
+      "title": "The Configuration Wall: Characterization and Elimination of Accelerator Configuration Overhead",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:735ebe8de8794678a47925f0b6141bb2be8fc61510bd11ff8b6f1e066b289bb5",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762225",
+      "url": "https://www.semanticscholar.org/paper/5ff1827f38ddf9fc48e4ca0509db046cc11636f9",
+      "kind": "semantic-scholar",
+      "title": "The Configuration Wall: Characterization and Elimination of Accelerator Configuration Overhead",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:2fe7d8a491e9ce376fbd9c143e3a2d6478395ccf57d3ca6b22ac8a67082108b2",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-obase-object-based-address-space-engineering-to-improve-a37e02b8",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because its empirical study directly characterizes operating systems and kernels behavior and informs concrete systems design at the kernel layer.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "computer-architecture",
+    "hardware-software-co-design"
+  ],
+  "system_layers": [
+    "kernel",
+    "distributed-service",
+    "hardware"
+  ],
+  "contribution_types": [
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-banakar",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/banakar",
+      "kind": "paper-page",
+      "title": "OBASE: Object-Based Address-Space Engineering to Improve Memory Tiering",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:4442d7e4c52e22107f267a3e7ea20390ee43b6c171e7ca81bc6806031099f4e9",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

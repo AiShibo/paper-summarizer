@@ -1,0 +1,142 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-pruning-the-tree-rethinking-rpki-architecture-from-the-g-8a63dc3e",
+  "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haya Schulmann",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Goethe-Universität Frankfurt and ATHENE German Research Center for Applied Cybersecurity",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-799df875ea4943a8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Niklas Vogel",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Goethe-Universität Frankfurt and ATHENE German Research Center for Applied Cybersecurity",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-799df875ea4943a8-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.230823",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/pruning-the-tree-rethinking-rpki-architecture-from-the-ground-up/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s823-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/s0823-vogel-slides.pdf",
+    "video": "https://youtu.be/TZ1HuIew1p8",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b2d5d3c792fa96d0-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-799df875ea4943a8-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pruning-the-tree-rethinking-rpki-architecture-from-the-ground-up/",
+      "kind": "paper-page",
+      "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:66b0b8057b69f3d57e88440fc68119898486707601599ae158abdd04cff70811",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-925fd6ffe5145af2-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.230823",
+      "kind": "crossref",
+      "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-fab183640735a07d-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/SchulmannV26",
+      "kind": "dblp",
+      "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

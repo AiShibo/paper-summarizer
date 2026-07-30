@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "eurosys",
+  "year": 2023,
+  "official_conference_url": "https://2023.eurosys.org/",
+  "official_program_url": "https://2023.eurosys.org/accepted-papers.html",
+  "conference_dates": {
+    "start": "2023-05-08",
+    "end": "2023-05-12"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 54,
+    "core_systems": 53,
+    "systems_adjacent": 1,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-eurosys-2023-conference",
+      "url": "https://2023.eurosys.org/",
+      "kind": "other",
+      "title": "EuroSys 2023",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c5d832d4005a472da97b201aca06abf4adcebf001e2ae9213f8b2148d5a521b4",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2023 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-eurosys-2023-program",
+      "url": "https://2023.eurosys.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2023 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:70ac1be1448c85bc766594de9874d52a2af996fee73bf076a6c43de7fdb3a1f6",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2023-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3552326",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Eighteenth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2023-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:edc45e9d2d90cfd4d3e5ea9291809fc2565b1d95dfefa7c6a507dea2b3184a44",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

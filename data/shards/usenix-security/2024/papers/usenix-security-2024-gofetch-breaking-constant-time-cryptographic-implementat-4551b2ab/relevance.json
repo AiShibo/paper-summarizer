@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-gofetch-breaking-constant-time-cryptographic-implementat-4551b2ab",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper reverse-engineers Apple data-dependent prefetchers and demonstrates end-to-end key extraction from deployed cryptographic implementations.",
+  "topics": [
+    "systems-security",
+    "computer-architecture",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-13bb7e0a14d9a35b-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru",
+      "kind": "paper-page",
+      "title": "GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

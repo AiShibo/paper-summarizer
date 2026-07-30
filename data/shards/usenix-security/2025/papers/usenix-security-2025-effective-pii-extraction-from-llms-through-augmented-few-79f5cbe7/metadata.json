@@ -1,0 +1,281 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2025-effective-pii-extraction-from-llms-through-augmented-few-79f5cbe7",
+  "title": "Effective PII Extraction from LLMs through Augmented Few-Shot Learning",
+  "venue": "usenix-security",
+  "year": 2025,
+  "track_or_session": "Vulnerabilities in LLMs: Privacy, Safety, and Defense",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-13",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shuai Cheng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shu Meng",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haitao Xu",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoran Zhang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuai Hao",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Old Dominion University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chuan Yue",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Colorado School of Mines",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenrui Ma",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang Gongshang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Meng Han",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Zhang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhao Li",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University and Hangzhou Yugu Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-35c37312cd5fed09-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity25/presentation/cheng-shuai",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity25-cheng-shuai.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {309592,\nauthor = {Shuai Cheng and Shu Meng and Haitao Xu and Haoran Zhang and Shuai Hao and Chuan Yue and Wenrui Ma and Meng Han and Fan Zhang and Zhao Li},\ntitle = {Effective {PII} Extraction from {LLMs} through Augmented {Few-Shot} Learning},\nbooktitle = {34th USENIX Security Symposium (USENIX Security 25)},\nyear = {2025},\nisbn = {978-1-939133-52-6},\naddress = {Seattle, WA},\npages = {8155--8173},\nurl = {https://www.usenix.org/conference/usenixsecurity25/presentation/cheng-shuai},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-29cda51098177be2-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2025 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-35c37312cd5fed09-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/cheng-shuai",
+      "kind": "paper-page",
+      "title": "Effective PII Extraction from LLMs through Augmented Few-Shot Learning",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

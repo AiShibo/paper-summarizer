@@ -1,0 +1,309 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-merlin-an-efficient-adaptive-cache-eviction-algorithm-vi-6acf042b",
+  "title": "Merlin: An Efficient Adaptive Cache Eviction Algorithm via Fine-Grained Characterization",
+  "venue": "osdi",
+  "year": 2026,
+  "track_or_session": "A Coherent, Consistent Session on Caching",
+  "paper_type": "main-track",
+  "publication_date": "2026-07-13",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liujia Li",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinhao Guo",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Fan",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianyu Wu",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenlin Wang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Michigan Tech",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Zhang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuval Tamir",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Los Angeles",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaolin Wang",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yingwei Luo",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Diyu Zhou",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi26/presentation/li-liujia",
+    "official_pdf": "https://www.usenix.org/system/files/osdi26-li-liujia.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {318616,\nauthor = {Liujia Li and Jinhao Guo and Yi Fan and Jianyu Wu and Zhenlin Wang and Jie Zhang and Yuval Tamir and Xiaolin Wang and Yingwei Luo and Diyu Zhou},\ntitle = {Merlin: An Efficient Adaptive Cache Eviction Algorithm via {Fine-Grained} Characterization},\nbooktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-55-7},\naddress = {Seattle, WA},\npages = {2223--2239},\nurl = {https://www.usenix.org/conference/osdi26/presentation/li-liujia},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-li-liujia",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/li-liujia",
+      "kind": "paper-page",
+      "title": "Merlin: An Efficient Adaptive Cache Eviction Algorithm via Fine-Grained Characterization",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:3d3c65ac4dfa2da960c38980d1b6ebb77407739c4e41cbd2331eeb9bccc40a3c",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-proceedings",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official technical-session inventory and individual final-paper pages were reconciled one-to-one.",
+      "USENIX does not assign DOIs to OSDI proceedings papers.",
+      "Slides and videos were not present on the official paper page at retrieval time."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (where not published unambiguously in available sources)",
+      "links.slides (not published on the official paper page as retrieved)",
+      "links.video (not published on the official paper page as retrieved)"
+    ]
+  }
+}

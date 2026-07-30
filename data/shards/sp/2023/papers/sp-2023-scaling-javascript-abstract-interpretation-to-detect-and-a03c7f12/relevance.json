@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-scaling-javascript-abstract-interpretation-to-detect-and-a03c7f12",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-55eefd6a49dd0fa3-abstract",
+      "url": "https://openalex.org/W4385080345",
+      "kind": "openalex",
+      "title": "Scaling JavaScript Abstract Interpretation to Detect and Exploit Node.js Taint-style Vulnerability",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

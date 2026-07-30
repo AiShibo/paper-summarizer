@@ -1,0 +1,49 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-when-address-learning-goes-wrong-inducing-forwarding-loo-76bad3ba",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-f1995dbba89a8517-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kong",
+      "kind": "paper-page",
+      "title": "When Address Learning Goes Wrong: Inducing Forwarding Loops and DoS Amplification in SDN",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e9890de03bd1139bf10d2ef46ef9586fed3b031455f4ee0094c96de4fa5f38bf",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

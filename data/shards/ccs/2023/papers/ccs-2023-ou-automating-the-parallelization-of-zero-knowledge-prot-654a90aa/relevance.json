@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-ou-automating-the-parallelization-of-zero-knowledge-prot-654a90aa",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements a compiler that automatically parallelizes zero-knowledge protocol computations.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "privacy-systems",
+    "ml-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-c1b54ce745cb0816-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "Ou: Automating the Parallelization of Zero-Knowledge Protocols",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract and paper identity used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-security-aware-sensor-fusion-with-mate-the-multi-agent-t-a6bb5406",
+  "title": "Security-Aware Sensor Fusion with MATE: the Multi-Agent Trust Estimator",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "R. Spencer Hallyburton",
+      "position": 1,
+      "orcid": "0000-0002-5418-7283",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b386375f925813df-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Miroslav Pajic",
+      "position": 2,
+      "orcid": "0000-0002-5357-0117",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b386375f925813df-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765193",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765193",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765193",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-acc9b120966e51e9-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-b4a87e77e3d23deb-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765193",
+      "kind": "publisher-page",
+      "title": "Security-Aware Sensor Fusion with MATE: the Multi-Agent Trust Estimator",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-b386375f925813df-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765193",
+      "kind": "crossref",
+      "title": "Security-Aware Sensor Fusion with MATE: the Multi-Agent Trust Estimator",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

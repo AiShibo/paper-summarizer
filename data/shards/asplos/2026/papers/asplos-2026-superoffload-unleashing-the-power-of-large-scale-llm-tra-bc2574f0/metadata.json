@@ -1,0 +1,187 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-superoffload-unleashing-the-power-of-large-scale-llm-tra-bc2574f0",
+  "title": "SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 2A: LLM Training Systems",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xinyu Lian",
+      "position": 1,
+      "orcid": "0009-0003-8143-4862",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois, Urbana, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Masahiro Tanaka",
+      "position": 2,
+      "orcid": "0009-0001-3972-8133",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olatunji Ruwase",
+      "position": 3,
+      "orcid": "0000-0002-5508-0728",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Bellevue, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minjia Zhang",
+      "position": 4,
+      "orcid": "0000-0002-8165-166X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois, Urbana, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762217"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762217",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762217",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762217",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2509.21271",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762217",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762217",
+      "kind": "crossref",
+      "title": "SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:085f30e9708a8c1998cc3e6078dd2a92bd07a022e182a39f0a324841b163b7a6",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762217",
+      "url": "https://www.semanticscholar.org/paper/154528bde840e4fd9c8596a5ff6759bc794d959c",
+      "kind": "semantic-scholar",
+      "title": "SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:731b1d0170a93100cb9cebbd71d013802c5555e303ac0081fc67e129bf5d070b",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

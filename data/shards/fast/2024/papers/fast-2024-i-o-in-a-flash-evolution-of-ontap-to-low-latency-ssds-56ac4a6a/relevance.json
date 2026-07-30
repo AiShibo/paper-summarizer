@@ -1,0 +1,76 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2024-i-o-in-a-flash-evolution-of-ontap-to-low-latency-ssds-56ac4a6a",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Flash Storage session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "computer-architecture",
+    "hardware-software-co-design"
+  ],
+  "system_layers": [
+    "hardware",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast24-program",
+      "url": "https://www.usenix.org/conference/fast24/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:711c25cd13e204cf9de6994b60e4174059a58f18a44f0dbb935429d31b5a6a1a",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2024-i-o-in-a-flash-evolution-of-ontap-to-low-latency-ssds-56ac4a6a-paper-page",
+      "url": "https://www.usenix.org/conference/fast24/presentation/curtis-maury",
+      "kind": "paper-page",
+      "title": "I/O in a Flash: Evolution of ONTAP to Low-Latency SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:435ac01a493e1fa4a8c0e7dd2eb46290dd688653d51fbf1b6265321a858f9cdc",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

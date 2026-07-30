@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-bastag-byte-level-access-control-on-shared-memory-using-0c480492",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a hardware and architecture security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "systems-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fa578c3a0de74b54-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744849",
+      "kind": "publisher-page",
+      "title": "BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-1fbc0105f7682da3-abstract",
+      "url": "https://openalex.org/W4416549531",
+      "kind": "openalex",
+      "title": "BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

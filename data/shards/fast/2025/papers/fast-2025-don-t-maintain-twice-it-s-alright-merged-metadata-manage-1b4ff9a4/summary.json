@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-don-t-maintain-twice-it-s-alright-merged-metadata-manage-1b4ff9a4",
+  "takeaway": "GogetaFS merges deduplication fingerprints into file-system block mappings, persisting both metadata roles once and eliminating their separate crash-ordering path.",
+  "background": "A deduplicating file system fingerprints blocks and redirects duplicates to one physical copy. Fast persistent memory and non-cryptographic hashes reduce fingerprint computation, exposing the cost of maintaining a persistent fingerprint-to-physical index alongside the file system's own logical-to-physical index.",
+  "villain": "Traditional designs write fingerprint metadata before file mappings so recovery can repair reference counts. The extra small writes and ordering points consume 18–38% of I/O-path time, while merely replacing cryptographic hashes leaves this duplicated metadata path intact.",
+  "approach": "GogetaFS stores a logical–fingerprint–physical entry in the file system's durable mapping and reconstructs a fingerprint-keyed table in memory. An on-storage fingerprint table reconciles block-level deduplication with extent mappings, while lock-free and memory-regulated index variants adapt to available DRAM. Existing file-system persistence supplies crash consistency.",
+  "impact": "Merged metadata makes transparent deduplication closer to an ordinary file-system feature on fast media, reducing I/O amplification and simplifying failure recovery. The principle generalizes: when two layers persist mappings with a shared field, combining their durable representation can remove cross-layer ordering.",
+  "evaluation": {
+    "overview": "Synthetic and trace workloads measure basic throughput, deduplication-metadata time, I/O amplification, memory-regulated variants, recovery, and portability from persistent memory to an emulated ultra-low-latency SSD.",
+    "implemented": "A NOVA-based persistent-memory GogetaFS plus an F2FS port for an emulated Z-SSD; the LFP-specific F2FS changes are reported as about 50 lines, with deduplication logic modularized.",
+    "setting": "A 16-core Xeon Gold 5218 server with 128 GB DRAM and 512 GB Intel Optane DCPMM, plus FEMU Z-SSD experiments; FIO, backup, mobile, and server traces run with up to eight threads.",
+    "baselines": [
+      "NOVA",
+      "Light-Dedup",
+      "NV-Dedup",
+      "DeNOVA",
+      "F2FS",
+      "SmartDedup",
+      "HFDedup"
+    ],
+    "results": [
+      {
+        "id": "claim-gogetafs-throughput",
+        "text": "Across persistent-memory workloads, GogetaFS is reported to improve throughput over Light-Dedup by 5.6–35.0%, with especially large gains for 2 MB writes and deletions.",
+        "source_ids": [
+          "src-fast25-pdf-1b4ff9a4"
+        ],
+        "locator": "PDF pp. 10–11; §§6.2–6.3, Figures 9–10"
+      },
+      {
+        "id": "claim-gogetafs-metadata",
+        "text": "GogetaFS reduces measured deduplication-metadata time by 75.4–92.8% versus Light-Dedup and nearly eliminates added read/write bytes for 4 KB deduplication.",
+        "source_ids": [
+          "src-fast25-pdf-1b4ff9a4"
+        ],
+        "locator": "PDF p. 11; §6.4, Figure 11 and Table 2"
+      },
+      {
+        "id": "claim-gogetafs-recovery",
+        "text": "Failure recovery is reported as 9.5–30.8% faster than Light-Dedup because GogetaFS rebuilds deduplication state from file-system mappings rather than separately checking a persistent fingerprint table.",
+        "source_ids": [
+          "src-fast25-pdf-1b4ff9a4"
+        ],
+        "locator": "PDF p. 12; §6.6, Table 3"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "GogetaFS requires intrusive file-system integration and storage-specific memory regulation. Its non-cryptographic fingerprints require content comparison and can miss later duplicates after a collision. The prototype does not implement background re-deduplication, PM-to-DRAM hot-entry swapping, or efficient mapping updates for block migration; SSD results use emulation, and GogetaFS reaches 79–99.6% of plain F2FS there.",
+  "phd_group_signal": "The work isolates a newly dominant cost after hardware acceleration, redesigns the persistent data model rather than optimizing around it, and evaluates recovery, memory scarcity, aging, and a second media class. That is a strong example of systems bottleneck migration and cross-layer reasoning.",
+  "beginner_concepts": [
+    "data deduplication",
+    "fingerprint",
+    "logical block",
+    "persistent memory",
+    "I/O amplification",
+    "reference count",
+    "crash consistency"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-gogetafs-lfp",
+      "text": "An LFP entry combines a logical block number, fingerprint, and physical block number so the file-system mapping's existing I/O and recovery path also persists deduplication metadata.",
+      "source_ids": [
+        "src-fast25-pdf-1b4ff9a4"
+      ],
+      "locator": "PDF pp. 5–7; §3.3 and §§4.1–4.2, Figures 4–6"
+    },
+    {
+      "id": "claim-gogetafs-space",
+      "text": "With an eight-byte non-cryptographic fingerprint, the paper's model finds LFP metadata smaller than the separate-mapping design below an 80% duplication ratio.",
+      "source_ids": [
+        "src-fast25-pdf-1b4ff9a4"
+      ],
+      "locator": "PDF pp. 5–6; §3.3, Figure 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-1b4ff9a4",
+      "url": "https://www.usenix.org/system/files/fast25-pan.pdf",
+      "kind": "paper-pdf",
+      "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f53749d0424cc5cafeb5f71c484116553dba66c4f2dce2d33f29e8f7467d353c",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, limitations, and conclusion",
+        "reported metadata overheads, throughput, recovery, and portability results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:37:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.3 motivation, §§4.1–4.7 design, §5 implementation, §§6.1–6.7 evaluation, §7 limitations, and §9 Conclusion.",
+      "Performance and recovery values are author-reported and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:37:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

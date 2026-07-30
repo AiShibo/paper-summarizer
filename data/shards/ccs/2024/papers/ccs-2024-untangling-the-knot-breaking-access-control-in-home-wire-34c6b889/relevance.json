@@ -1,0 +1,65 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-untangling-the-knot-breaking-access-control-in-home-wire-34c6b889",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a authentication and access-control infrastructure attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "systems-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "measurement-study",
+    "security-attack"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a50df6a37425383d-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670380",
+      "kind": "publisher-page",
+      "title": "Untangling the Knot: Breaking Access Control in Home Wireless Mesh Networks",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-c22ecd87f2ee2ea8-abstract",
+      "url": "https://www.semanticscholar.org/paper/27a7f0483dd36782aa5517545b9292fa753687c7",
+      "kind": "semantic-scholar",
+      "title": "Untangling the Knot: Breaking Access Control in Home Wireless Mesh Networks",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

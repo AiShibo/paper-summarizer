@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-impress-an-importance-informed-multi-tier-prefix-kv-stor-4c0ba7a9",
+  "takeaway": "IMPRESS reuses only query-relevant prefix KVs, clustering them on disk and caching chunks by important-content density to reduce LLM time to first token.",
+  "background": "LLM servers can avoid recomputing shared prompt prefixes by storing their key/value tensors across GPU memory, CPU memory, and SSD. At scale, loading a long prefix from slower tiers can cost more than recomputation, making storage I/O the prefill bottleneck.",
+  "villain": "Existing KV-pruning methods must first load all keys to discover important tokens, and static importance misses query-dependent context. Chunking then reads unrelated KVs, while LRU/LFU policies favor frequently accessed chunks regardless of how many useful tensors they contain.",
+  "approach": "IMPRESS observes that important token indices are similar across attention heads in a layer, so it samples probe-head keys to identify them with less I/O. It reorders KVs within radix-tree nodes to pack important tensors into fewer chunks, then manages exclusive GPU/CPU caches with a score combining access frequency and important-KV ratio.",
+  "impact": "The system connects model attention structure to multi-tier storage placement, making selective prefix reuse beneficial even when most KVs live on SSD. Its techniques complement scheduling, quantization, and finer-grained prefix matching.",
+  "evaluation": {
+    "overview": "Three OPT sizes and four few-shot datasets evaluate accuracy, average and p99 time to first token, I/O time, technique contributions, cache behavior, and sensitivity to thresholds, chunk size, dataset size, and Llama models.",
+    "implemented": "A FlexGen-based prototype with modified attention, per-layer reordered KV storage, radix-tree metadata, and a score-managed TokenCache.",
+    "setting": "A dual-64-core EPYC server with 128 GB DRAM, one 80 GB A100, a 2 TB roughly 5 GB/s SSD, 10 GB GPU KV cache and 32 GB CPU KV cache; average prefixes contain 4.8K–5.7K tokens.",
+    "baselines": [
+      "prefix recomputation",
+      "AttentionStore-like full-KV reuse with LRU",
+      "AttentionStore-like plus H2O and LRU",
+      "AttentionStore-like plus H2O and LFU"
+    ],
+    "results": [
+      {
+        "id": "claim-impress-ttft",
+        "text": "Across four datasets and three OPT models, IMPRESS reports 1.2–2.8× lower average time to first token than the leading alternatives, driven by 1.5–3.8× lower prefix-KV I/O time.",
+        "source_ids": [
+          "src-fast25-pdf-4c0ba7a9"
+        ],
+        "locator": "PDF pp. 11–12; §6.2, Figures 16–17"
+      },
+      {
+        "id": "claim-impress-quality-tail",
+        "text": "At the chosen retention ratios, average accuracy is 0.2% below recomputation; for OPT-30B on RTE, reported p99 TTFT is 2.95 s versus 3.9–9.3 s for baselines.",
+        "source_ids": [
+          "src-fast25-pdf-4c0ba7a9"
+        ],
+        "locator": "PDF pp. 11–12; §6.2, Figures 15–16"
+      },
+      {
+        "id": "claim-impress-management",
+        "text": "KV reordering reduces loaded chunks by 1.2× on average, and importance-scored caching raises average GPU hit ratio from 68% to 80%.",
+        "source_ids": [
+          "src-fast25-pdf-4c0ba7a9"
+        ],
+        "locator": "PDF p. 12; §6.3, Figures 20–21"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Because no open real-world prefix-reuse trace was available, the evaluation synthesizes shared prefixes by prepending few-shot examples with normally distributed reuse. AttentionStore is reimplemented and scheduler optimizations are disabled. The core cross-head-similarity observation is empirical rather than universal, and selective KV retention deliberately accepts small quality changes.",
+  "phd_group_signal": "IMPRESS is an example of ML-systems co-design: it turns a measured model property into an I/O-reduction mechanism, then changes disk layout and cache policy to preserve that benefit. Its evaluation reports both system latency and model quality, which is essential for this class of optimization.",
+  "beginner_concepts": [
+    "LLM inference",
+    "KV cache",
+    "prefix reuse",
+    "time to first token",
+    "attention head",
+    "cache replacement",
+    "read amplification"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-impress-probe",
+      "text": "IMPRESS loads keys from selected probe heads and uses cross-head similarity to infer important token indices for the remaining heads in each layer.",
+      "source_ids": [
+        "src-fast25-pdf-4c0ba7a9"
+      ],
+      "locator": "PDF pp. 6–8; §§4.2–4.3, Figures 7–11"
+    },
+    {
+      "id": "claim-impress-layout",
+      "text": "Within each radix-tree node, KVs are reordered by importance and accompanied by an inverse token mapping, increasing useful-KV density without mixing unshared prefix branches.",
+      "source_ids": [
+        "src-fast25-pdf-4c0ba7a9"
+      ],
+      "locator": "PDF pp. 8–10; §§4.4.1–4.4.2, Figures 12–14"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-4c0ba7a9",
+      "url": "https://www.usenix.org/system/files/fast25-zhang.pdf",
+      "kind": "paper-pdf",
+      "title": "IMPRESS: An Importance-Informed Multi-Tier Prefix KV Storage System for Large Language Model Inference",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f1a99c56da7439b030d44d9303bc7593b037a48bef95f1178e962b0c8345df5c",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, and conclusion",
+        "reported model quality, latency, I/O, cache, and storage overheads"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:44:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.2 motivation, §§4.1–4.4 design, §5 implementation, §§6.1–6.5 evaluation, and §8 Conclusion.",
+      "Accuracy and TTFT values are author-reported under synthetic prefix reuse and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:44:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

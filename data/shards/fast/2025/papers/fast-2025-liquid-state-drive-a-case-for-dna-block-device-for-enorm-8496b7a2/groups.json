@@ -1,0 +1,101 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-liquid-state-drive-a-case-for-dna-block-device-for-enorm-8496b7a2",
+  "associations": [
+    {
+      "group_id": "group-sjtu-ipads",
+      "faculty_id": null,
+      "publication_institution_id": "institution-shanghai-jiao-tong-university",
+      "current_institution_id": "institution-shanghai-jiao-tong-university",
+      "association_type": "paper-or-project-evidence",
+      "evidence_source_ids": [
+        "src-agent-f-8496b7a2-paper-page",
+        "src-agent-f-8496b7a2-project-page"
+      ],
+      "rationale": "The official IPADS project page hosts the exact Liquid State Drive project and paper authors. This supports a paper-to-group link but does not identify an academic PI.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Jiahao Zhou",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Mingkai Dong",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Fei Wang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Jingyao Zeng",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Lei Zhao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Chunhai Fan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Haibo Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-8496b7a2-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/zhou-jiahao",
+      "kind": "paper-page",
+      "title": "Liquid-State Drive: A Case for DNA Block Device for Enormous Data",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-8496b7a2-project-page",
+      "url": "https://ipads.se.sjtu.edu.cn/projects/liqsd",
+      "kind": "project-page",
+      "title": "Liquid State Drive project",
+      "publisher": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper title and authors",
+        "project hosted by IPADS"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

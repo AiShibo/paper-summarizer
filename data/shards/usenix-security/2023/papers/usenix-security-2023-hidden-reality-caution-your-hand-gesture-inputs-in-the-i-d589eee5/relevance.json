@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-hidden-reality-caution-your-hand-gesture-inputs-in-the-i-d589eee5",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a mobile, embedded, and IoT security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security"
+  ],
+  "system_layers": [
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-efe07c520a0c41ed-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/gopal",
+      "kind": "paper-page",
+      "title": "Hidden Reality: Caution, Your Hand Gesture Inputs in the Immersive Virtual World are Visible to All!",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-a-tale-of-two-paths-toward-a-hybrid-data-plane-for-effic-0887e166",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material operating systems and kernels mechanism at the kernel layer.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "networking",
+    "datacenter-networking",
+    "compilers-languages-and-runtimes",
+    "runtime-systems",
+    "computer-architecture",
+    "hardware-software-co-design"
+  ],
+  "system_layers": [
+    "kernel",
+    "network",
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2024-program",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:f899905ec70b2cc62c3ef71d43b6a3d95c9f867b79636165e361aab2735fce75",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-paper-chen-lei",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/chen-lei",
+      "kind": "paper-page",
+      "title": "A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:272a8bf72529f66d790d71893a0c3b260f6124b16f32bedda36cffb39ed0fce3",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

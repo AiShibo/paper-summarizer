@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-a-authorize-2026-ytd-2026-07-30",
+  "issued_at": "2026-07-30T03:00:08Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-a",
+  "status": "SUPERSEDED",
+  "action": "INVESTIGATE_AND_COLLECT_2026_YTD",
+  "task_brief": "coordination/tasks/agent-a-systems-collection.md",
+  "shared_policy": "coordination/directives/2026-venue-year-investigation-policy.json",
+  "authorized_shards": [
+    "data/shards/osdi/2026",
+    "data/shards/sosp/2026",
+    "data/shards/eurosys/2026",
+    "data/shards/atc/2026"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "conditions": [
+    "Change Agent A's claim to IN_PROGRESS and add all four authorized 2026 shards before editing them.",
+    "Preserve every completed 2023-2025 file unchanged.",
+    "Investigate each assigned venue independently using current official 2026 sources.",
+    "Create venue-year.json for every assigned venue even when no paper program exists; use the shared placeholder rules and do not create fake paper records.",
+    "When official archival main-track papers exist, collect and classify them under Agent A's original task rules.",
+    "Validate each venue-year separately and report status-only placeholders separately from collected paper shards.",
+    "Do not edit specialist stages, entities, frontend files, generated manifests, databases, or exports."
+  ],
+  "superseded_at": "2026-07-30T04:13:56Z",
+  "superseded_by": "coordinator-agents-a-b-c-2026-refresh-standby-2026-07-30",
+  "superseded_reason": "Agent A completed and validated the 2026 assignment."
+}

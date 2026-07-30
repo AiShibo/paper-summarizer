@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-dom-xss-detection-via-webpage-interaction-fuzzing-and-ur-c8b5934c",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "defense"
+  ],
+  "methods": [
+    "static-analysis",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-30bf57ce99757ba0-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+      "kind": "paper-page",
+      "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:8fae1f56e345b8e8fcaed4641feaa4886d6b7ecc352460021772e0157cd06845",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "usenix-security",
+  "year": 2023,
+  "official_conference_url": "https://www.usenix.org/conference/usenixsecurity23",
+  "official_program_url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+  "conference_dates": {
+    "start": "2023-08-09",
+    "end": "2023-08-11"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 422,
+    "core_systems": 48,
+    "systems_adjacent": 235,
+    "excluded": 139,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-usenix-security-2023-venue-1",
+      "url": "https://www.usenix.org/conference/usenixsecurity23",
+      "kind": "conference-program",
+      "title": "32nd USENIX Security Symposium",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "conference identity and dates"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2023-venue-2",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2023 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "422 live main-track research-paper entries"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2023-venue-3",
+      "url": "https://dblp.org/db/conf/uss/uss2023.html",
+      "kind": "dblp",
+      "title": "USENIX Security Symposium 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "422 reconciled proceedings-paper records and page spans"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "The live technical schedule and DBLP each contain 422 main-track research papers and reconcile one-to-one.",
+      "USENIX records do not assign DOI values and do not expose defensible exact publication dates for these papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "exact publication dates are unavailable for all 422 papers",
+      "one author affiliation is absent from the official schedule and paper PDF",
+      "six official pages do not expose BibTeX; DBLP supplies their page spans"
+    ]
+  }
+}

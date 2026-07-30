@@ -1,0 +1,181 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-aitia-efficient-secure-computation-of-bivariate-causal-d-60bf6ff8",
+  "title": "AITIA: Efficient Secure Computation of Bivariate Causal Discovery",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Truong Son Nguyen",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Arizona State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3b4aa31b796021f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lun Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3b4aa31b796021f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Evgenios M. Kornaropoulos",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "George Mason University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3b4aa31b796021f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ni Trieu",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Arizona State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f3b4aa31b796021f-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3670337",
+    "official_page": "https://doi.org/10.1145/3658644.3670337",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3670337",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f3b4aa31b796021f-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-44f016c45d5597bd-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670337",
+      "kind": "publisher-page",
+      "title": "AITIA: Efficient Secure Computation of Bivariate Causal Discovery",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-97cf150fa47077c5-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/NguyenWKT24",
+      "kind": "dblp",
+      "title": "AITIA: Efficient Secure Computation of Bivariate Causal Discovery",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-500e75bd0f8adde4-abstract",
+      "url": "https://www.semanticscholar.org/paper/68ce4d5e53439b8adc0f652aa15eebd5960aadf1",
+      "kind": "semantic-scholar",
+      "title": "AITIA: Efficient Secure Computation of Bivariate Causal Discovery",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

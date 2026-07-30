@@ -1,0 +1,262 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-abacus-all-bank-activation-counters-for-scalable-and-low-11f27d16",
+  "title": "ABACuS: All-Bank Activation Counters for Scalable and Low Overhead RowHammer Mitigation",
+  "venue": "usenix-security",
+  "year": 2024,
+  "track_or_session": "Side Channel II: RowHammer",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ataberk Olgun",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yahya Can Tugrul",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nisa Bostanci",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ismail Emir Yuksel",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haocong Luo",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Steve Rhyner",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abdullah Giray Yaglikçi",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Geraldo F. Oliveira",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Onur Mutlu",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-78e986a96781d130-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/usenixsecurity24/presentation/olgun",
+    "official_pdf": "https://www.usenix.org/system/files/usenixsecurity24-olgun.pdf",
+    "artifact": null,
+    "code": "https://github.com/CMU-SAFARI/ABACuS",
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/usenixsecurity24_slides-olgun.pdf",
+    "video": null,
+    "bibtex": "@inproceedings {294488,\nauthor = {Ataberk Olgun and Yahya Can Tugrul and Nisa Bostanci and Ismail Emir Yuksel and Haocong Luo and Steve Rhyner and Abdullah Giray Yaglikci and Geraldo F. Oliveira and Onur Mutlu},\ntitle = {{ABACuS}: {All-Bank} Activation Counters for Scalable and Low Overhead {RowHammer} Mitigation},\nbooktitle = {33rd USENIX Security Symposium (USENIX Security 24)},\nyear = {2024},\nisbn = {978-1-939133-44-1},\naddress = {Philadelphia, PA},\npages = {1579--1596},\nurl = {https://www.usenix.org/conference/usenixsecurity24/presentation/olgun},\npublisher = {USENIX Association},\nmonth = aug\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-0bf3124473befc79-program",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track program membership and session"
+      ]
+    },
+    {
+      "id": "src-78e986a96781d130-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/olgun",
+      "kind": "paper-page",
+      "title": "ABACuS: All-Bank Activation Counters for Scalable and Low Overhead RowHammer Mitigation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "authors, affiliations, abstract, page span, PDF, and BibTeX when exposed"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

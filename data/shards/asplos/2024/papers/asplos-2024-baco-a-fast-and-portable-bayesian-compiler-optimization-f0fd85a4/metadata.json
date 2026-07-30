@@ -1,0 +1,340 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-baco-a-fast-and-portable-bayesian-compiler-optimization-f0fd85a4",
+  "title": "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 5A: Compiler and Optimization Techniques",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 24,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Erik Orm Hellsten",
+      "position": 1,
+      "orcid": "0000-0003-0933-3349",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lund University, Lund, Sweden",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Artur Souza",
+      "position": 2,
+      "orcid": "0000-0002-6927-4275",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Federal University of Minas Gerais, Belo Horizonte, Brazil",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Johannes Lenfers",
+      "position": 3,
+      "orcid": "0009-0001-2258-1972",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Münster, Münster, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rubens Lacouture",
+      "position": 4,
+      "orcid": "0009-0008-2268-0074",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, San Francisco, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olivia Hsu",
+      "position": 5,
+      "orcid": "0000-0002-4195-8106",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, San Francisco, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adel Ejjeh",
+      "position": 6,
+      "orcid": "0000-0003-3037-8816",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Illinois, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fredrik Kjolstad",
+      "position": 7,
+      "orcid": "0000-0002-2267-903X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, San Francisco, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michel Steuwer",
+      "position": 8,
+      "orcid": "0000-0001-5048-0741",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Edinburgh, Edinburgh, Scotland Uk",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunle Olukotun",
+      "position": 9,
+      "orcid": "0000-0002-8779-0636",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, San Francisco, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luigi Nardi",
+      "position": 10,
+      "orcid": "0000-0002-4601-2264",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lund University - Stanford University, Lund, Sweden",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624770"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624770",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624770",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624770",
+    "artifact": "https://doi.org/10.5281/zenodo.10116240",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/cT6WHjzHmjI",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2212.11142",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624770",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624770",
+      "kind": "crossref",
+      "title": "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:9f2e51bed23f6f83693b9910e9bee8e0a8c252d7002c398bd0ad3b4aed96915c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624770",
+      "url": "https://www.semanticscholar.org/paper/9a0f543c3b3a8b1c0c9c44f8194c00b6de002b21",
+      "kind": "semantic-scholar",
+      "title": "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:75de1915a1547ac376c3b90f22a3934265195cb505a169912bf55444122a3ac7",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10116240",
+      "url": "https://zenodo.org/records/10116240",
+      "kind": "artifact-page",
+      "title": "BaCO artifact",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:b966cb27ad0aba9eab7cfd0751556cc02bf04dbb3c57bb28cffe47c3d12087ce",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

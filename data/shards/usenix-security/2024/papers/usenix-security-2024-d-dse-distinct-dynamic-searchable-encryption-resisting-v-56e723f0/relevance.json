@@ -1,0 +1,51 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-d-dse-distinct-dynamic-searchable-encryption-resisting-v-56e723f0",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper builds and evaluates a dynamic encrypted-database design supporting keyword, join, and update queries with reduced leakage and communication.",
+  "topics": [
+    "databases-and-data-processing",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "storage",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-c5dbc02ca9687c1c-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-dongli",
+      "kind": "paper-page",
+      "title": "d-DSE: Distinct Dynamic Searchable Encryption Resisting Volume Leakage in Encrypted Databases",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2023-cocktailer-analyzing-and-optimizing-dynamic-control-flow-13f3eca4",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material machine-learning systems mechanism at the runtime layer.",
+  "topics": [
+    "ml-systems",
+    "inference-systems",
+    "networking",
+    "datacenter-networking",
+    "computer-architecture",
+    "accelerators"
+  ],
+  "system_layers": [
+    "runtime",
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-paper-zhang-chen",
+      "url": "https://www.usenix.org/conference/osdi23/presentation/zhang-chen",
+      "kind": "paper-page",
+      "title": "Cocktailer: Analyzing and Optimizing Dynamic Control Flow in Deep Learning",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c90e54bd9868360b9e01e6d37625cacd1a18072188c84743b697fd156cbd49bc",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

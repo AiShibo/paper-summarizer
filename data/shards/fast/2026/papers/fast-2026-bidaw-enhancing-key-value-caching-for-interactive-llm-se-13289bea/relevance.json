@@ -1,0 +1,86 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2026-bidaw-enhancing-key-value-caching-for-interactive-llm-se-13289bea",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the AI and LLMs I session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "key-value-stores",
+    "ssd-and-flash",
+    "caching",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "resource-management-and-scheduling",
+    "ml-systems",
+    "inference-systems",
+    "llm-systems",
+    "measurement-and-empirical-systems-studies",
+    "workload-characterization"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast26-program",
+      "url": "https://www.usenix.org/conference/fast26/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:8a530ee04cc68348a5bb1ad8a88de8318bb71c81dd8eb515a07ead138060cab8",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2026-bidaw-enhancing-key-value-caching-for-interactive-llm-se-13289bea-paper-page",
+      "url": "https://www.usenix.org/conference/fast26/presentation/hu-shipeng",
+      "kind": "paper-page",
+      "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:1e2b80e20744865533a5e11d6bbf9e82a7ba3826f05f5b880aff6d3ad79f2887",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

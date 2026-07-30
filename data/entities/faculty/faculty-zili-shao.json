@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-zili-shao",
+  "author_id": "author-zili-shao",
+  "display_name": "Zili Shao",
+  "official_profile_url": "https://www.cse.cuhk.edu.hk/~shao/",
+  "current_institution_id": "institution-chinese-university-hong-kong",
+  "department": "Department of Computer Science and Engineering",
+  "faculty_rank": "Professor",
+  "current_location": {
+    "city": "Shatin",
+    "state_or_province": "Hong Kong",
+    "country": "Hong Kong",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": {
+    "exact_statement": "I am looking for undergraudate/graduate students with strong interests in big data systems, storage systems, embedded systems/software research.",
+    "source_id": "src-faculty-zili-shao-profile",
+    "last_verified_at": "2026-07-30T02:52:23Z"
+  },
+  "sources": [
+    {
+      "id": "src-faculty-zili-shao-profile",
+      "url": "https://www.cse.cuhk.edu.hk/~shao/",
+      "kind": "faculty-page",
+      "title": "Official faculty profile for Zili Shao",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location",
+        "explicit current recruiting statement"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null unless an explicit current official statement was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-g-standby-2026-07-30",
+  "issued_at": "2026-07-30T01:30:57Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-g",
+  "status": "OPEN",
+  "action": "STANDBY_NO_EDITS",
+  "reason": "Agent G completed award verification for all 36 papers in the FAST 2025 specialist pilot: four official awards and 32 officially verified empty results, with every awards.json stage READY_FOR_REVIEW.",
+  "instructions": [
+    "Keep coordination/claims/agent-g.json at COMPLETE.",
+    "Do not begin another venue, year, or paper batch until the specialist pilot passes independent review.",
+    "Do not edit the completed FAST 2025 awards.json files unless Agent H or the coordinator assigns a specific correction.",
+    "Do not edit other stage files, entity records, or generated outputs.",
+    "Remain available to resolve narrowly scoped award-evidence issues returned by Agent H."
+  ],
+  "resume_conditions": [
+    "Agent H reports a specific award-review issue tied to an assigned FAST 2025 paper.",
+    "The coordinator opens a new award batch after the specialist-pilot gate."
+  ]
+}

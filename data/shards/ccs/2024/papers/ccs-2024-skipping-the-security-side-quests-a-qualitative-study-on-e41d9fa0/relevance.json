@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-skipping-the-security-side-quests-a-qualitative-study-on-e41d9fa0",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a user, perception, or policy study without a material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-5ebab095873f6266-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690190",
+      "kind": "publisher-page",
+      "title": "Skipping the Security Side Quests: A Qualitative Study on Security Practices and Challenges in Game Development",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-7cdbfafd4b347a33-abstract",
+      "url": "https://www.semanticscholar.org/paper/9b15338d94d782a43203086cf9d8590c91b57002",
+      "kind": "semantic-scholar",
+      "title": "Skipping the Security Side Quests: A Qualitative Study on Security Practices and Challenges in Game Development",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The synthetic fixture's primary contribution is an operating-system mechanism.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "kernel-extensibility"
+  ],
+  "system_layers": [
+    "kernel"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fixture-relevance",
+      "url": "https://example.org/fixture/paper.pdf",
+      "kind": "paper-pdf",
+      "title": "Synthetic fixture paper PDF",
+      "publisher": "Test fixture",
+      "retrieved_at": "2026-07-29T12:00:00Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "fixture relevance classification"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-classifier",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": []
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "VERIFIED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-a-tale-of-two-paths-toward-a-hybrid-data-plane-for-effic-0887e166",
+  "title": "A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications",
+  "venue": "osdi",
+  "year": 2024,
+  "track_or_session": "Memory Management",
+  "paper_type": "main-track",
+  "publication_date": "2024-07-10",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lei Chen",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shi Liu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UCLA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenxi Wang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoran Ma",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UCLA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Qiao",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UCLA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Wang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenggang Wu",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youyou Lu",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaobing Feng",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huimin Cui",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shan Lu",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Harry Xu",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UCLA",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi24/presentation/chen-lei",
+    "official_pdf": "https://www.usenix.org/system/files/osdi24-chen-lei.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/inTZM1b0lm0",
+    "bibtex": "@inproceedings {298675,\nauthor = {Lei Chen and Shi Liu and Chenxi Wang and Haoran Ma and Yifan Qiao and Zhe Wang and Chenggang Wu and Youyou Lu and Xiaobing Feng and Huimin Cui and Shan Lu and Harry Xu},\ntitle = {A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient {Far-Memory} Applications},\nbooktitle = {18th USENIX Symposium on Operating Systems Design and Implementation (OSDI 24)},\nyear = {2024},\nisbn = {978-1-939133-40-3},\naddress = {Santa Clara, CA},\npages = {77--95},\nurl = {https://www.usenix.org/conference/osdi24/presentation/chen-lei},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2024-program",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:f899905ec70b2cc62c3ef71d43b6a3d95c9f867b79636165e361aab2735fce75",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-paper-chen-lei",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/chen-lei",
+      "kind": "paper-page",
+      "title": "A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:272a8bf72529f66d790d71893a0c3b260f6124b16f32bedda36cffb39ed0fce3",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-proceedings",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '24 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '24",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:e95939b43f8a802d9cb1b884d3ff91474ccbfccb9baff5994ff60615ff32e9ca",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

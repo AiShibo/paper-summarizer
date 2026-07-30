@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-understanding-the-privacy-practices-of-political-campaig-61e2be40",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs a technical web measurement of third-party tracking and privacy behavior across political-campaign websites.",
+  "topics": [
+    "privacy-systems",
+    "measurement-and-empirical-systems-studies",
+    "network-security"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-bd2a1cdec61dbd0e-abstract",
+      "url": "https://openalex.org/W4402264405",
+      "kind": "openalex",
+      "title": "Understanding the Privacy Practices of Political Campaigns: A Perspective from the 2020 US Election Websites",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

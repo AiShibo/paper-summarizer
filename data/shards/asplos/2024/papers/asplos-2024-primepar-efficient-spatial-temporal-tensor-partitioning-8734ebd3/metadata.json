@@ -1,0 +1,237 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-primepar-efficient-spatial-temporal-tensor-partitioning-8734ebd3",
+  "title": "PrimePar: Efficient Spatial-temporal Tensor Partitioning for Large Transformer Model Training",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 11C: ML Training Optimizations",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haoran Wang",
+      "position": 1,
+      "orcid": "0000-0002-5968-8845",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Wang",
+      "position": 2,
+      "orcid": "0009-0006-2313-5348",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haobo Xu",
+      "position": 3,
+      "orcid": "0000-0002-0243-6516",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ying Wang",
+      "position": 4,
+      "orcid": "0000-0001-5172-4736",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuming Li",
+      "position": 5,
+      "orcid": "0009-0004-4414-6682",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinhe Han",
+      "position": 6,
+      "orcid": "0000-0001-5113-8067",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651357"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651357",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651357",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/RcTbmhA9k1M",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651357",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651357",
+      "kind": "crossref",
+      "title": "PrimePar: Efficient Spatial-temporal Tensor Partitioning for Large Transformer Model Training",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:548ebe3da2b789fb037b86bc82292ecb9d8e4cfffd06aa58502efd9fa27e350e",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651357",
+      "url": "https://www.semanticscholar.org/paper/53005bddc4b3934e1a7a45cb37ce7c9b0bd69fe7",
+      "kind": "semantic-scholar",
+      "title": "PrimePar: Efficient Spatial-temporal Tensor Partitioning for Large Transformer Model Training",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:054a1ba875ae05803f2c68184a9cd07f5c6b666e6ea28699f7a4fb29e6ee3aff",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

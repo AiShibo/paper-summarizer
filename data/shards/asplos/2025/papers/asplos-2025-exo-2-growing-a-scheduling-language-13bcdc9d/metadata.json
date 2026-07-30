@@ -1,0 +1,241 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-exo-2-growing-a-scheduling-language-13bcdc9d",
+  "title": "Exo 2: Growing a Scheduling Language",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6B: Compilers & Languages",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuka Ikarashi",
+      "position": 1,
+      "orcid": "0000-0001-5255-0918",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kevin Qian",
+      "position": 2,
+      "orcid": "0009-0002-1836-3451",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Samir Droubi",
+      "position": 3,
+      "orcid": "0009-0004-2377-7944",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alex Reinking",
+      "position": 4,
+      "orcid": "0000-0003-3285-2112",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Adobe, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilbert Louis Bernstein",
+      "position": 5,
+      "orcid": "0000-0002-3016-1169",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Ragan-Kelley",
+      "position": 6,
+      "orcid": "0000-0001-6243-9543",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707218"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707218",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707218",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707218",
+    "artifact": "https://doi.org/10.5281/zenodo.14060178",
+    "code": "https://github.com/exo-lang/exo2-artifact",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2411.07211",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707218",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707218",
+      "kind": "crossref",
+      "title": "Exo 2: Growing a Scheduling Language",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:7f3659ffda562a31335c2e0ae76e903d6a95971aca1bc392af2608ab32089007",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707218",
+      "url": "https://www.semanticscholar.org/paper/4ecca3953d572b3a39565b7583450fc092a4597c",
+      "kind": "semantic-scholar",
+      "title": "Exo 2: Growing a Scheduling Language",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:218fa771484ee819324e7be875d91497def52a12d59889591afe01e765a3f053",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14060178",
+      "url": "https://zenodo.org/records/14060178",
+      "kind": "artifact-page",
+      "title": "Artifact for Exo 2: Growing a Scheduling Language",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:933a4a87f8d4d0e51700872f58a644f543d52c484c68b2d3b2149550027e7dd2",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project"
+    ]
+  }
+}

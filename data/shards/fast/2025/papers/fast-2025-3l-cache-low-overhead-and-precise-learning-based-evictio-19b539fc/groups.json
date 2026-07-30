@@ -1,0 +1,102 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-3l-cache-low-overhead-and-precise-learning-based-evictio-19b539fc",
+  "associations": [
+    {
+      "group_id": "group-microsoft-research-networking-infrastructure",
+      "faculty_id": null,
+      "publication_institution_id": "institution-microsoft-research-asia",
+      "current_institution_id": "institution-microsoft-research-asia",
+      "association_type": "industrial-group",
+      "evidence_source_ids": [
+        "src-agent-f-19b539fc-paper-page",
+        "src-agent-f-19b539fc-ms-profile",
+        "src-agent-f-19b539fc-ms-group"
+      ],
+      "rationale": "The official USENIX page names Zhixiong Niu and Microsoft Research; Microsoft's official profile places Niu in the Networking Infrastructure Group, whose official page confirms the group. No academic PI is asserted.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Wenbin Zhou",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yongqiang Xiong",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Juan Fang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Qian Wang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-19b539fc-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/zhou-wenbin",
+      "kind": "paper-page",
+      "title": "3L-Cache: Low Overhead and Precise Learning-based Eviction Policy for Caches",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-19b539fc-ms-profile",
+      "url": "https://www.microsoft.com/en-us/research/people/zhniu/",
+      "kind": "faculty-page",
+      "title": "Zhixiong Niu",
+      "publisher": "Microsoft Research",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Zhixiong Niu's current role and Networking Infrastructure Group membership"
+      ]
+    },
+    {
+      "id": "src-agent-f-19b539fc-ms-group",
+      "url": "https://www.microsoft.com/en-us/research/group/networking-infrastructure-group/",
+      "kind": "lab-page",
+      "title": "Networking Infrastructure Group",
+      "publisher": "Microsoft Research",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official industrial research-group identity"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

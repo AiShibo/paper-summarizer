@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-benchchecker-assessing-the-credibility-of-bug-fixing-ben-2a99a189",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The paper studies research, reporting, or operational practice without contributing or technically evaluating a material computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-ce6c2d5b79b03fa5-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wu-di",
+      "kind": "paper-page",
+      "title": "BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:441ff9c62cc785a1862566fb2be19904b56bfdd3b97015a35414ae03e8f07c36",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

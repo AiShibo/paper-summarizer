@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-mitigating-data-poisoning-attacks-to-local-differential-b0490625",
+  "title": "Mitigating Data Poisoning Attacks to Local Differential Privacy",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xiaolin Li",
+      "position": 1,
+      "orcid": "0009-0003-5205-9610",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayette, IN, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-72e5568a2991b5f5-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ninghui Li",
+      "position": 2,
+      "orcid": "0000-0001-8207-9717",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayette, IN, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-72e5568a2991b5f5-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boyang Wang",
+      "position": 3,
+      "orcid": "0000-0001-8973-2328",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Cincinnati, Cincinnati, OH, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-72e5568a2991b5f5-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenhai Sun",
+      "position": 4,
+      "orcid": "0000-0003-0458-0092",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayette, IN, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-72e5568a2991b5f5-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3744839",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3744839",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3744839",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-8666f1bb71fc010e-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-93724e60a132bb3a-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744839",
+      "kind": "publisher-page",
+      "title": "Mitigating Data Poisoning Attacks to Local Differential Privacy",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-72e5568a2991b5f5-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744839",
+      "kind": "crossref",
+      "title": "Mitigating Data Poisoning Attacks to Local Differential Privacy",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

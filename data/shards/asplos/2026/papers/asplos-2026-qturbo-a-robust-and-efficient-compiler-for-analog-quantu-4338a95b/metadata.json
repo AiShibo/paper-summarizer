@@ -1,0 +1,271 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-qturbo-a-robust-and-efficient-compiler-for-analog-quantu-4338a95b",
+  "title": "QTurbo: A Robust and Efficient Compiler for Analog Quantum Simulation",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 1C: Quantum Computing: Compilation",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Junyu Zhou",
+      "position": 1,
+      "orcid": "0009-0007-5564-8401",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania, Philadelphia, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuhao Liu",
+      "position": 2,
+      "orcid": "0009-0005-2822-0448",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania, Philadelphia, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shize Che",
+      "position": 3,
+      "orcid": "0009-0008-9044-193X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania, Philadelphia, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anupam Mitra",
+      "position": 4,
+      "orcid": "0009-0004-6711-2477",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lawrence Berkeley National Laboratory, Berkeley, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Efekan Kökcü",
+      "position": 5,
+      "orcid": "0000-0002-7323-7274",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lawrence Berkeley National Laboratory, Berkeley, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ermal Rrapaj",
+      "position": 6,
+      "orcid": "0000-0002-3222-7010",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lawrence Berkeley National Laboratory, Berkeley, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Costin Iancu",
+      "position": 7,
+      "orcid": "0000-0001-7845-2427",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lawrence Berkeley National Laboratory, Berkeley, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gushu Li",
+      "position": 8,
+      "orcid": "0000-0002-6233-0334",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pennsylvania, Philadelphia, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762227"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762227",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762227",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762227",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2506.22958",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762227",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762227",
+      "kind": "crossref",
+      "title": "QTurbo: A Robust and Efficient Compiler for Analog Quantum Simulation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:be5246669f1a99e1a23d18fd370e9e47ce1f984962844d6a230c2ccf2903ce8b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762227",
+      "url": "https://www.semanticscholar.org/paper/a2f58b102ef4a2f4e641d117b9ae10a73c3afdf3",
+      "kind": "semantic-scholar",
+      "title": "QTurbo: A Robust and Efficient Compiler for Analog Quantum Simulation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:d5c4d361029e8acda1e6a3d1b07bbdfd5d3e1ce39092d8edf0574b68684bb04f",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

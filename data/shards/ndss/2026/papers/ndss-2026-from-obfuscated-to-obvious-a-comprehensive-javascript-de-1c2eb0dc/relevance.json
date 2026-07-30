@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-from-obfuscated-to-obvious-a-comprehensive-javascript-de-1c2eb0dc",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "bug-finding-or-testing-tool",
+    "dataset",
+    "language-or-api"
+  ],
+  "methods": [
+    "static-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-55e822fd8b92f9ab-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+      "kind": "paper-page",
+      "title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e2bce52c0ff2f5903ad4252f3e17d30b3b465e29c32e64349ea4d3c157d0f72e",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

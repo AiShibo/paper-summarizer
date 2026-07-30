@@ -1,0 +1,277 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2023-cilantro-performance-aware-resource-allocation-for-gener-1ef8a58e",
+  "title": "Cilantro: Performance-Aware Resource Allocation for General Objectives via Online Feedback",
+  "venue": "osdi",
+  "year": 2023,
+  "track_or_session": "Manage Your Bits II",
+  "paper_type": "main-track",
+  "publication_date": "2023-07-10",
+  "page_count": 21,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Romil Bhardwaj",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kirthevasan Kandasamy",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Asim Biswal",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenshuo Guo",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Benjamin Hindman",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joseph Gonzalez",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Jordan",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ion Stoica",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi23/presentation/bhardwaj",
+    "official_pdf": "https://www.usenix.org/system/files/osdi23-bhardwaj.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/OFjlUqHbrMQ",
+    "bibtex": "@inproceedings {288542,\nauthor = {Romil Bhardwaj and Kirthevasan Kandasamy and Asim Biswal and Wenshuo Guo and Benjamin Hindman and Joseph Gonzalez and Michael Jordan and Ion Stoica},\ntitle = {Cilantro: {Performance-Aware} Resource Allocation for General Objectives via Online Feedback},\nbooktitle = {17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)},\nyear = {2023},\nisbn = {978-1-939133-34-2},\naddress = {Boston, MA},\npages = {623--643},\nurl = {https://www.usenix.org/conference/osdi23/presentation/bhardwaj},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-paper-bhardwaj",
+      "url": "https://www.usenix.org/conference/osdi23/presentation/bhardwaj",
+      "kind": "paper-page",
+      "title": "Cilantro: Performance-Aware Resource Allocation for General Objectives via Online Feedback",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:98e61e60e949827161e92598da0898230923b8d81d60838bb36cec32a746b175",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-proceedings",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:f42cbb9247f7079fca3a5d336c3404c03f895c470db460f3a0597e3367e830e3",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

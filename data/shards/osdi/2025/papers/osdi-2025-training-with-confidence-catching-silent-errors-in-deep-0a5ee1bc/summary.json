@@ -1,0 +1,110 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-training-with-confidence-catching-silent-errors-in-deep-0a5ee1bc",
+  "takeaway": "TRAINCHECK learns context-conditioned semantic invariants from reference training traces and checks them online to catch silent deep-learning errors near their trigger.",
+  "background": "Deep-learning training crosses user code, frameworks, compilers, libraries, drivers, and distributed systems. Loss and accuracy can stay plausible long after a correctness error begins corrupting training.",
+  "villain": "Training lacks precise proactive checks, yet manually specifying and maintaining concrete rules for rapidly changing pipelines, distributed roles, and context-dependent APIs is impractical.",
+  "approach": "Offline, TRAINCHECK monkey-patches selected framework APIs and proxies model and optimizer state to collect traces, tensor hashes, and contextual metadata from reference pipelines. Its inference engine instantiates supported semantic relation templates and deduces preconditions that separate passing from failing examples. Online, selective instrumentation emits only invariant-relevant events, and a verifier reports violations with their traces.",
+  "impact": "The authors argue that these inferred checks can expose diverse training correctness failures early and provide more local debugging evidence than noisy model-level metrics.",
+  "evaluation": {
+    "overview": "The evaluation measures detection and diagnosis on reproduced errors, new bug discovery, false positives, invariant transferability and false negatives, checking overhead, and offline inference cost.",
+    "implemented": "A Python framework comprising an Instrumentor, invariant Infer Engine, and online Verifier, with eager and sampled state tracking plus selective deployment instrumentation.",
+    "setting": "Detection uses 20 reproduced real-world silent errors; false-positive and transfer studies use 63 tutorial training programs. Experiments run on Ubuntu servers with either an NVIDIA A40 or eight NVIDIA A2 GPUs using PyTorch 2.2.2.",
+    "baselines": [
+      "loss or accuracy spike detector",
+      "loss or accuracy trend detector",
+      "LOF, Isolation Forest, and Z-score anomaly detectors",
+      "PyTea and NeuRI shape-constraint detectors"
+    ],
+    "results": [
+      {
+        "id": "claim-traincheck-detection",
+        "text": "Of 20 reproduced real-world silent errors, TRAINCHECK detects 18 no later than one training iteration after the root cause; the signal-based baselines collectively detect two, and PyTea/NeuRI detects one.",
+        "source_ids": [
+          "src-osdi25-pdf-0a5ee1bc"
+        ],
+        "locator": "PDF pp. 11–12 (paper pp. 322–323); §5.1"
+      },
+      {
+        "id": "claim-traincheck-false-positive",
+        "text": "On 63 tutorial programs without known bugs, false-positive rates remain below 2% when invariants are inferred from five or six representative input programs per class and below 5% with two or three input programs.",
+        "source_ids": [
+          "src-osdi25-pdf-0a5ee1bc"
+        ],
+        "locator": "PDF pp. 12–13 (paper pp. 323–324); §5.3, Figure 7"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Coverage depends on reference pipelines exercising the relevant semantics; specialized features absent from examples can remain undetected. Instrumentation conflicts with torch.compile, sees only Python-level logic, and tensor hashing excludes fine-grained numerical and hyperparameter-instability analysis.",
+  "phd_group_signal": "This work reflects a reliability-systems methodology: study failures empirically, derive a domain-specific invariant language, automate trace-based checking, and evaluate coverage, transfer, false alarms, and overhead separately.",
+  "beginner_concepts": [
+    "silent training error",
+    "program invariant",
+    "dynamic instrumentation and monkey patching",
+    "precondition inference",
+    "false positive and false negative"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-traincheck-central-mechanism",
+      "text": "TRAINCHECK instruments reference pipelines, instantiates deterministic training-semantic relations over traces, infers context preconditions, and deploys only the relevant events and state checks in an online verifier.",
+      "source_ids": [
+        "src-osdi25-pdf-0a5ee1bc"
+      ],
+      "locator": "PDF pp. 6–11 (paper pp. 317–322); §§3.1–4.3, Figure 3 and Algorithms 1–2"
+    },
+    {
+      "id": "claim-traincheck-coverage-boundary",
+      "text": "Detection relies on representative reference pipelines exercising the target semantics; unsupported optimized or lower-level code and hash-only tensor traces leave JIT paths, non-Python logic, and fine-grained numerical errors outside the analyzed scope.",
+      "source_ids": [
+        "src-osdi25-pdf-0a5ee1bc"
+      ],
+      "locator": "PDF pp. 13–15 (paper pp. 324–326); §§5.5 and 6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi25-pdf-0a5ee1bc",
+      "url": "https://www.usenix.org/system/files/osdi25-jiang.pdf",
+      "kind": "paper-pdf",
+      "title": "Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:29:51Z",
+      "content_hash": "sha256:cb8e8c16bdf93ba0f6c6bfdf7715e6ead12824c59c903b8cccd2735fa9f27b8b",
+      "official": true,
+      "supports": [
+        "abstract, introduction, empirical motivation, design, implementation, evaluation, limitations, and conclusion",
+        "central mechanism, coverage boundary, baselines, and author-reported detection and false-positive results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e1",
+    "updated_at": "2026-07-30T03:29:51Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.2, §§3.1–3.9, §§4.1–4.3, §§5.1–5.8, §6, and §8; inspected Tables 2–3 and Figures 3–11 where needed.",
+      "The summary limits TRAINCHECK to the paper's evaluated correctness violations and does not imply coverage of optimized, lower-level, or fine-grained numerical behavior."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:29:51Z",
+    "last_verified_at": "2026-07-30T03:29:51Z",
+    "collector_version": "agent-e1-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

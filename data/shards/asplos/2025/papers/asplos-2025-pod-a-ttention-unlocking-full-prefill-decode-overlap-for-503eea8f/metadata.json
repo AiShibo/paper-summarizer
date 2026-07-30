@@ -1,0 +1,225 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-pod-a-ttention-unlocking-full-prefill-decode-overlap-for-503eea8f",
+  "title": "POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7A: Serving LLMs",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Aditya K Kamath",
+      "position": 1,
+      "orcid": "0000-0001-6565-3764",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ramya Prabhu",
+      "position": 2,
+      "orcid": "0009-0002-7266-5522",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bengaluru, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jayashree Mohan",
+      "position": 3,
+      "orcid": "0009-0005-5260-3203",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bengaluru, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Simon Peter",
+      "position": 4,
+      "orcid": "0009-0007-4748-8524",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ramachandran Ramjee",
+      "position": 5,
+      "orcid": "0000-0003-0007-6040",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bengaluru, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ashish Panwar",
+      "position": 6,
+      "orcid": "0009-0007-0621-4412",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bengaluru, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715996"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3715996",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3715996",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3715996",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3715996",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3715996",
+      "kind": "crossref",
+      "title": "POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:d4e5b64a65c8a002616818ab7e0bce5e70c0c4d09863fdb3ea8ea819fe9c73f2",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715996",
+      "url": "https://www.semanticscholar.org/paper/b89612c9ec8c8a1470ebbacb3166142eef94be23",
+      "kind": "semantic-scholar",
+      "title": "POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6907a77378f574043ae40f1178fa045d7cfabff1e01b96a677c414aee2da23e7",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The displayed title follows the clean publisher-indexed rendering; the stable paper ID was not renamed after initialization from inline publisher markup."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

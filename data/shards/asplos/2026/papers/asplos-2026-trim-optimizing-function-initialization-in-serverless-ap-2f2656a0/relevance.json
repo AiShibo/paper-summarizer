@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-trim-optimizing-function-initialization-in-serverless-ap-2f2656a0",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: λ-trim is an implemented and evaluated serverless or cloud-networking runtime and optimization mechanism.",
+  "topics": [
+    "serverless-computing",
+    "datacenter-networking",
+    "containers"
+  ],
+  "system_layers": [
+    "runtime",
+    "network",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736129",
+      "url": "https://www.semanticscholar.org/paper/b0da9c94dcfde2d64185ad6045d6f225bad2b909",
+      "kind": "semantic-scholar",
+      "title": "λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3c538cbeaee1b765c5600917a43b906097a3119d44cc1ae6bff6f7cae332331e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

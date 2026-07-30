@@ -1,0 +1,80 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sosp",
+  "year": 2026,
+  "official_conference_url": "https://sigops.org/s/conferences/sosp/2026/",
+  "official_program_url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+  "conference_dates": {
+    "start": "2026-09-29",
+    "end": "2026-10-02"
+  },
+  "collection_status": "ACCEPTED_PAPERS_ONLY",
+  "counts": {
+    "main_track": 62,
+    "core_systems": 60,
+    "systems_adjacent": 2,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sosp-2026-conference",
+      "url": "https://sigops.org/s/conferences/sosp/2026/",
+      "kind": "other",
+      "title": "SOSP 2026",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:41c6107999b60acfb04fbb617945c6312e7d84843301bbc208a5ce1140291710",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2026 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-sosp-2026-program",
+      "url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+      "kind": "conference-program",
+      "title": "SOSP 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:c18e1206e83886d27358910b13a46b6d8aa9c674c810d9d43af5fd57f4a8aaf4",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-sosp-2026-author-instructions",
+      "url": "https://sigops.org/s/conferences/sosp/2026/authors.html",
+      "kind": "other",
+      "title": "SOSP 2026 Camera-ready Instructions for Authors",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:9f340bdc77c6fba5ff7c0e40bac0372efa389b112f3b4403b9ae6536d5c554ec",
+      "official": true,
+      "supports": [
+        "Official camera-ready deadline and shepherd-approval requirements supporting accepted-papers-only status."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "All 62 papers on the official accepted-paper list were initialized as the complete current accepted main-track inventory.",
+      "Acceptance is conditional on shepherd approval and final papers are due August 28, 2026; no proceedings metadata was guessed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "Final proceedings publication date, page ranges, DOIs, PDFs, BibTeX, and detailed sessions are not yet published."
+    ]
+  }
+}

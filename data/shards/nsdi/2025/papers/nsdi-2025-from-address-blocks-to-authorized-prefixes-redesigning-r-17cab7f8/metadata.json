@@ -1,0 +1,215 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8",
+  "title": "From Address Blocks to Authorized Prefixes: Redesigning RPKI ROV with a Hierarchical Hashing Scheme for Fast and Memory-Efficient Validation",
+  "venue": "nsdi",
+  "year": 2025,
+  "track_or_session": "Security",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zedong Ni",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences; and School of Cyber Science & Engineering, Southeast University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinbo Xu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hui Zou",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanbiao Li",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guang Cheng",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Cyber Science & Engineering, Southeast University; and Purple Mountain Laboratories",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaogang Xie",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi25/presentation/ni",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi25-ni.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/nsdi25_slides-ni.pdf",
+    "video": "https://www.youtube.com/embed/WuRsC_IO2R0?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {306027,\nauthor = {Zedong Ni and Yinbo Xu and Hui Zou and Yanbiao Li and Guang Cheng and Gaogang Xie},\ntitle = {From Address Blocks to Authorized Prefixes: Redesigning {RPKI} {ROV} with a Hierarchical Hashing Scheme for Fast and {Memory-Efficient} Validation},\nbooktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},\nyear = {2025},\nisbn = {978-1-939133-46-5},\naddress = {Philadelphia, PA},\npages = {1381--1397},\nurl = {https://www.usenix.org/conference/nsdi25/presentation/ni},\npublisher = {USENIX Association},\nmonth = apr\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi25-program",
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:5190c4bfe0795a131e0d38ceda8da95de909a27d468766c5128a668aab4fceb6",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2025-from-address-blocks-to-authorized-prefixes-redesigning-r-17cab7f8-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi25/presentation/ni",
+      "kind": "paper-page",
+      "title": "From Address Blocks to Authorized Prefixes: Redesigning RPKI ROV with a Hierarchical Hashing Scheme for Fast and Memory-Efficient Validation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:f22e1061f05dedb2b05668e3375d4d268b77b063befcb73093e2d7c9eda4d784",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains unresolved and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)",
+      "publication_date"
+    ]
+  }
+}

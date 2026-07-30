@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-lpg-raise-your-location-privacy-game-in-direct-to-cell-l-8c0d351b",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is an implemented and evaluated network or networked-system mechanism.",
+  "topics": [
+    "networking",
+    "network-security",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-81a2a3bd0c59cbd1-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan",
+      "kind": "paper-page",
+      "title": "LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d4b1833a84e2998121a5d48e29a778bb4534afec3acd4bb403e889b4968e569f",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

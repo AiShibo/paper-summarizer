@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-zombie-cards-back-online-reviving-expired-credit-cards-f-1c0ba263",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements or technically evaluates authentication, authorization, or public-key infrastructure with material deployment relevance.",
+  "topics": [
+    "systems-security",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-648bbcc2951e5e71-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/anwar",
+      "kind": "paper-page",
+      "title": "Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:9c92091612fcdc04b74c3ba56c1344a77fe0819b72ca23e7a64c0157c566a31e",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

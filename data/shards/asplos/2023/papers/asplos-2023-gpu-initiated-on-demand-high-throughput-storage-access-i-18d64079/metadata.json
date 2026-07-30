@@ -1,0 +1,389 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-gpu-initiated-on-demand-high-throughput-storage-access-i-18d64079",
+  "title": "GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 2B: GPUs",
+  "paper_type": "main-track",
+  "publication_date": "2023-01-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zaid Qureshi",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA / NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vikram Sharma Mailthody",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA / NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Isaac Gelado",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Seungwon Min",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA / NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Amna Masood",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA / AMD, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeongmin Park",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinjun Xiong",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University at Buffalo, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "CJ Newburn",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dmitri Vainbrand",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "IHsin Chung",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Garland",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "William Dally",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, USA / Stanford University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wen-mei Hwu",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, USA / NVIDIA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575748"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3575693.3575748",
+    "official_page": "https://dl.acm.org/doi/10.1145/3575693.3575748",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575748",
+    "artifact": "https://doi.org/10.5281/zenodo.7217356",
+    "code": "https://github.com/ZaidQureshi/bam.git",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/TWlTb4ghW60",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2203.04910",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3575693-3575748",
+      "url": "https://api.crossref.org/works/10.1145/3575693.3575748",
+      "kind": "crossref",
+      "title": "GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:543df509dc96e943105695cb0f666e9c272601d099473c34e3d8b36e93d8de6b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575748",
+      "url": "https://www.semanticscholar.org/paper/6032374bdbe6a6b74cb606bb00aa096229f4f7c5",
+      "kind": "semantic-scholar",
+      "title": "GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:71f6be2c6a9b2ca2258fbb19137b3ffcc07d43ad2a7c139e4097f4da70e5cc3a",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-7217356",
+      "url": "https://zenodo.org/records/7217356",
+      "kind": "artifact-page",
+      "title": "GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:4e2bc084b6fff25743a5abe34854da41f458b30c06638ea25cfa2ed824cccaf6",
+      "official": true,
+      "supports": [
+        "Author-deposited archival software or evaluation artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact paper title, named authors, DOI evidence, or an explicit ASPLOS 2023 artifact statement.",
+      "Code or project links use URLs printed in the indexed abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-optimizing-deep-learning-inference-efficiency-through-bl-9de16a2a",
+  "title": "Optimizing Deep Learning Inference Efficiency through Block Dependency Analysis",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9A: ML Compilers",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhanyuan Di",
+      "position": 1,
+      "orcid": "0000-0003-2716-5051",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Leping Wang",
+      "position": 2,
+      "orcid": "0009-0009-4940-5598",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "En Shao",
+      "position": 3,
+      "orcid": "0000-0002-9678-7228",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhaojia Ma",
+      "position": 4,
+      "orcid": "0009-0005-4824-9336",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyi Ren",
+      "position": 5,
+      "orcid": "0009-0005-5821-1163",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Hua",
+      "position": 6,
+      "orcid": "0009-0007-2198-9304",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lixian Ma",
+      "position": 7,
+      "orcid": "0009-0007-1081-0356",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Zhao",
+      "position": 8,
+      "orcid": "0000-0003-2303-9736",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hunan University, Changsha, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guangming Tan",
+      "position": 9,
+      "orcid": "0000-0002-6361-5948",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ninghui Sun",
+      "position": 10,
+      "orcid": "0000-0002-1953-1392",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, CAS, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716264"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716264",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716264",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716264",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716264",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716264",
+      "kind": "crossref",
+      "title": "Optimizing Deep Learning Inference Efficiency through Block Dependency Analysis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:1719c77709a4e897d94c1aa0f0ae7c62ff185e0ad1fbe198c43bd13c1515a61a",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716264",
+      "url": "https://www.semanticscholar.org/paper/8d5dc9528408b801d6fd880509ec4e77ffb0d4b6",
+      "kind": "semantic-scholar",
+      "title": "Optimizing Deep Learning Inference Efficiency through Block Dependency Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:467dac9b7ca3aeb5df3442da919de4cf890360db427b771437fddd7a1d18eb26",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

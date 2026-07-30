@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-instrsem-automatically-and-generically-inferring-semanti-85a5a821",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a hardware and architecture security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-d0db07031ee7d412-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-instrsem",
+      "kind": "paper-page",
+      "title": "InstrSem: Automatically and Generically Inferring Semantics of (Undocumented) CPU Instructions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:0d7844b9a401493df2b74bdaf0610efc7b7285afde31298c66bceaeba7a3591f",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

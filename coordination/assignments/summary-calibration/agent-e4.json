@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e4-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e4",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "4602c64db93dfb54c41545fc3b279c9bfaa77d663109b073fd4139b4e3d62997"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "nsdi-2025-preacher-secure-and-practical-password-pre-authenticatio-ce1ed3be",
+      "title": "PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks",
+      "venue": "nsdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/nsdi25-lin-shihan.pdf"
+    },
+    {
+      "paper_id": "nsdi-2025-enabling-silent-telemetry-data-transmission-with-invisif-51b52b5e",
+      "title": "Enabling Silent Telemetry Data Transmission with InvisiFlow",
+      "venue": "nsdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/nsdi25-zhang-yinda.pdf"
+    },
+    {
+      "paper_id": "nsdi-2025-runtime-protocol-refinement-checking-for-distributed-pro-98850449",
+      "title": "Runtime Protocol Refinement Checking for Distributed Protocol Implementations",
+      "venue": "nsdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/nsdi25-ding.pdf"
+    },
+    {
+      "paper_id": "nsdi-2025-eden-developer-friendly-application-integrated-far-memor-35551bca",
+      "title": "Eden: Developer-Friendly Application-Integrated Far Memory",
+      "venue": "nsdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/nsdi25-yelam.pdf"
+    },
+    {
+      "paper_id": "nsdi-2025-ndd-a-decision-diagram-for-network-verification-c4a2c09c",
+      "title": "NDD: A Decision Diagram for Network Verification",
+      "venue": "nsdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/nsdi25-li-zechun.pdf"
+    }
+  ]
+}

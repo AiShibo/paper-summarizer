@@ -1,0 +1,85 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/review.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-revisiting-network-coding-for-warm-blob-storage-56534126",
+  "reviewer": "agent-h",
+  "independent_from": [
+    "agent-b",
+    "agent-e",
+    "agent-f",
+    "agent-g"
+  ],
+  "checks": {
+    "metadata": true,
+    "relevance": false,
+    "summary_accuracy": false,
+    "numerical_claims": false,
+    "pi_attribution": true,
+    "awards": true,
+    "duplicates": true,
+    "links": false
+  },
+  "issues": [
+    {
+      "issue_id": "issue-h-56534126-summary-contract",
+      "severity": "ERROR",
+      "stage": "summary",
+      "description": "Owner agent-e: Rewrite to the mandatory brief output contract; this summary has 3 quantitative result objects (maximum 2) and 8 beginner concepts (allowed 3–5).",
+      "status": "OPEN"
+    },
+    {
+      "issue_id": "issue-h-56534126-numeric-provenance",
+      "severity": "ERROR",
+      "stage": "summary",
+      "description": "Owner agent-e: Numeric statements outside claim/result objects, including evaluation.setting and other free-text fields, lack source IDs and page/section/figure/table locators. Audit every number and move each retained value into a sourced claim/result or remove it.",
+      "status": "OPEN"
+    },
+    {
+      "issue_id": "issue-h-56534126-relevance-taxonomy",
+      "severity": "ERROR",
+      "stage": "relevance",
+      "description": "Owner agent-b: Remove reliability-testing-and-debugging. NCBlob is a coded warm-blob storage design with repair mechanisms, not a reliability testing or debugging contribution.",
+      "status": "OPEN"
+    },
+    {
+      "issue_id": "issue-h-56534126-limitation",
+      "severity": "ERROR",
+      "stage": "summary",
+      "description": "Owner agent-e: Correct the limitation that the design focuses on n−k≤4. The paper discusses n−k≥5 and says more subblocks may help; describe instead that evaluation/simulation cover n−k=3/4 and perpetual-existence proof is limited to n−k=3.",
+      "status": "OPEN"
+    },
+    {
+      "issue_id": "issue-h-56534126-locator",
+      "severity": "ERROR",
+      "stage": "summary",
+      "description": "Owner agent-e: Correct the degraded-read result locator: Figure 12 is on physical PDF page 12, not page 13.",
+      "status": "OPEN"
+    },
+    {
+      "issue_id": "issue-h-56534126-group-links",
+      "severity": "ERROR",
+      "stage": "links",
+      "description": "Owner agent-f: Replace the stored STLab evidence URLs or use a host with a valid certificate. The target serves a certificate for *.hust.edu.cn that does not match stlab.wnlo.hust.edu.cn; one linked institution-news page also does not substantiate the stated NCBlob-specific support.",
+      "status": "OPEN"
+    }
+  ],
+  "decision": "CHANGES_REQUESTED",
+  "workflow": {
+    "status": "CHANGES_REQUESTED",
+    "owner": "agent-h",
+    "updated_at": "2026-07-30T04:09:26Z",
+    "notes": [
+      "Reopened the official USENIX paper page and PDF; checked metadata, relevance, mechanism, assumptions, evaluation, baselines, every numeric claim and locator, and limitations.",
+      "Checked official group/faculty evidence, FAST 2025 awards, repository-wide duplicate titles, and stored link targets.",
+      "Open ERROR findings are routed to the owning stage agent; source-stage files were not modified."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:09:26Z",
+    "last_verified_at": "2026-07-30T04:09:26Z",
+    "collector_version": "agent-h-independent-review/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-h",
+    "unresolved_fields": []
+  }
+}

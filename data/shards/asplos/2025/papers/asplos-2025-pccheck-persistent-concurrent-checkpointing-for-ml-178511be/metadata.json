@@ -1,0 +1,161 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-pccheck-persistent-concurrent-checkpointing-for-ml-178511be",
+  "title": "PCcheck: Persistent Concurrent Checkpointing for ML",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6A: ML Systems 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Foteini Strati",
+      "position": 1,
+      "orcid": "0000-0003-3364-2109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707255"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michal Friedman",
+      "position": 2,
+      "orcid": "0009-0003-5588-8617",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707255"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ana Klimovic",
+      "position": 3,
+      "orcid": "0000-0001-8559-0529",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707255"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707255",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707255",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707255",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707255",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707255",
+      "kind": "crossref",
+      "title": "PCcheck: Persistent Concurrent Checkpointing for ML",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3091817ce1747639fd587fd2f8ad078eae90713e096a4ded3f1ddf0284ba1ec9",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707255",
+      "url": "https://www.semanticscholar.org/paper/40cb15e7179b9410ed1ffe647995801dc4587514",
+      "kind": "semantic-scholar",
+      "title": "PCcheck: Persistent Concurrent Checkpointing for ML",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:5d645aa85a1a73db445ccf1bd67549265329208c10781152430d0246cba40071",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

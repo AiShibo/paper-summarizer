@@ -1,0 +1,181 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-serberus-protecting-cryptographic-code-from-spectres-at-2b2d73d5",
+  "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+  "venue": "sp",
+  "year": 2024,
+  "track_or_session": "Spring cycle",
+  "paper_type": "main-track",
+  "publication_date": "2024-05-19",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Nicholas Mosier",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-19ed1fc53b72f215-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hamed Nemati",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-19ed1fc53b72f215-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John C. Mitchell",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-19ed1fc53b72f215-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Caroline Trippel",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-19ed1fc53b72f215-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp54263.2024.00048",
+    "official_page": "https://doi.org/10.1109/SP54263.2024.00048",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx8/10646615/10646598/10646752.pdf?arnumber=10646752",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-19ed1fc53b72f215-program",
+      "url": "https://www.sp2024.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2024 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-12eefd999fa91a91-publisher",
+      "url": "https://doi.org/10.1109/SP54263.2024.00048",
+      "kind": "publisher-page",
+      "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-83ca2620c1c60f5a-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp54263.2024.00048",
+      "kind": "crossref",
+      "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-cfe07950a4650e9e-abstract",
+      "url": "https://openalex.org/W4402264353",
+      "kind": "openalex",
+      "title": "Serberus: Protecting Cryptographic Code from Spectres at Compile-Time",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

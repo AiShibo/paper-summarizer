@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "policy_id": "coordinator-summary-accuracy-first-2026-07-30",
+  "issued_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "applies_to": [
+    "agent-e",
+    "all future summary writers",
+    "all independent summary reviewers"
+  ],
+  "goal": "Produce concise beginner-friendly summaries while minimizing technical error through source discipline, small batches, and independent verification of every summary.",
+  "eligibility": [
+    "The coordinator must assign an exact, immutable, disjoint paper-ID list.",
+    "Only CORE_SYSTEMS and SYSTEMS_ADJACENT papers with metadata.json and relevance.json at READY_FOR_REVIEW may be summarized.",
+    "Do not summarize EXCLUDED or NEEDS_HUMAN_REVIEW papers.",
+    "Do not summarize incoming 2026 papers until their collector handoff is frozen and separately assigned."
+  ],
+  "required_reading": [
+    "official full paper abstract",
+    "introduction",
+    "conclusion",
+    "system overview or central design section",
+    "evaluation overview and the exact sections, figures, or tables supporting reported results"
+  ],
+  "brief_output_contract": {
+    "takeaway": "At most 30 words.",
+    "background": "One or two short sentences containing only context needed to understand the paper.",
+    "villain": "One sentence stating the concrete bottleneck, failure mode, or missing capability.",
+    "approach": "Two or three sentences explaining the actual central mechanism and material assumptions.",
+    "impact": "One sentence, phrased as the authors' claimed consequence rather than independently proven fact.",
+    "evaluation": "At most three short sentences plus no more than two important quantitative results.",
+    "limitations": "One or two source-supported limitations or assumptions; use null when the paper does not support a concise statement.",
+    "phd_group_signal": "One sentence about methodology or artifact style, never advisor quality.",
+    "beginner_concepts": "Three to five concepts."
+  },
+  "technical_accuracy_rules": [
+    "Use the official paper PDF as the primary summary source; metadata, abstracts, snippets, and secondary summaries are insufficient.",
+    "Describe the mechanism at the same scope as the paper. Do not broaden a result from one workload, platform, threat model, or deployment setting into a universal claim.",
+    "Preserve material trust assumptions, hardware requirements, workload constraints, failure assumptions, and excluded cases.",
+    "Every number must exactly match the paper and include a source ID plus a page, section, figure, or table locator.",
+    "Prefer one or two representative results over many numbers.",
+    "Name baselines accurately and distinguish simulation, prototype, trace replay, formal proof, measurement, and production deployment.",
+    "Do not infer causality, production readiness, generality, state of the art, or real-world deployment unless the paper explicitly supports it.",
+    "Do not invent limitations. If evidence is ambiguous, omit the claim, set the relevant field to null when allowed, and record the uncertainty.",
+    "Clearly attribute scientific results to the authors.",
+    "Copying or lightly paraphrasing an abstract does not satisfy the task."
+  ],
+  "writer_workflow": [
+    "A new writer receives at most five calibration papers.",
+    "After its calibration batch passes independent review, the coordinator may assign batches of at most 25 papers.",
+    "Each writer uses a unique agent ID and claim file and edits only assigned summary.json files.",
+    "A writer sets summary workflow to READY_FOR_REVIEW and leaves verification.verified_by null.",
+    "A writer does not begin another batch until the current batch is handed off and validation passes."
+  ],
+  "independent_review_gate": [
+    "Every summary receives independent source-based review; sampling is insufficient for summary accuracy.",
+    "The reviewer reopens the official PDF and verifies the problem, mechanism, assumptions, evaluation setting, baselines, every number and locator, limitations, and claimed impact.",
+    "Any technical misstatement, unsupported generalization, wrong number, wrong baseline, or omitted material assumption produces an ERROR and CHANGES_REQUESTED.",
+    "The writer fixes only summary.json; the independent reviewer then reopens the source and verifies the correction.",
+    "No summary is eligible for release or UI publication until the independent review is APPROVED with no open ERROR."
+  ],
+  "batch_integrity": [
+    "Writer paper-ID lists must be pairwise disjoint.",
+    "Reviewer paper-ID lists must be pairwise disjoint.",
+    "A reviewer cannot review a summary it authored.",
+    "Incoming collector edits or relevance changes do not automatically enter an existing summary assignment."
+  ]
+}

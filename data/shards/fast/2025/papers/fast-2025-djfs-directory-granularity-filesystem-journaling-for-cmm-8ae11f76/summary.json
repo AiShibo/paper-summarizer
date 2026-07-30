@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-djfs-directory-granularity-filesystem-journaling-for-cmm-8ae11f76",
+  "takeaway": "DJFS makes each directory a journal-transaction domain, reducing lock-up and conflicts enough to exploit cache-line writes on a CXL memory-semantic SSD.",
+  "background": "File-system journals make related metadata changes durable before applying them in place. On many-core servers with fast CXL-attached storage, global or coarse transactions serialize otherwise independent applications, while the time spent locking the next transaction becomes visible rather than hidden behind device latency.",
+  "villain": "Simply shrinking journal records from 4 KB to 64 bytes shortens commit I/O but does little for throughput because global transaction lock-up grows proportionally more important. Per-core, per-partition, and per-file journals either conflict on shared metadata or split directory-centered updates awkwardly.",
+  "approach": "DJFS assigns running and committing transactions to directories and logs changed metadata at inode or cache-line granularity. Path-based selection chooses a transaction for multiply linked files, coalescing joins operations spanning directories, and conflict resolution preserves commit order when transactions share metadata. Parallel commits use the CMM-H SSD's cache-line CXL.mem interface, with checkpoint and redo recovery.",
+  "impact": "Directory-granularity journaling turns common application locality into concurrency while preserving POSIX fsync semantics. More broadly, it shows that exploiting faster media can require redesigning transaction boundaries and lock timing, not merely issuing smaller writes.",
+  "evaluation": {
+    "overview": "The paper first traces update patterns in eight applications and measures naïve cache-line journaling, then evaluates scaling, lock-up, conflicts, operation latency, memory, and crash recovery on four macrobenchmarks.",
+    "implemented": "DJFS implemented over Ext4 on Linux 5.18 with 64-byte differential metadata logging and parallel per-directory transactions.",
+    "setting": "An 88-core dual-Sapphire-Rapids server with 128 GB DRAM and a 2 TB CMM-H prototype SSD; Varmail, MDTest, Exim, and RocksDB fillsync run with up to 80 threads.",
+    "baselines": [
+      "cache-line-granularity JBD",
+      "FastCommit",
+      "CJFS",
+      "Z-Journal",
+      "iJournaling"
+    ],
+    "results": [
+      {
+        "id": "claim-djfs-throughput",
+        "text": "At 80 threads, DJFS reportedly outperforms FastCommit by 4.5× on Varmail, 2.5× on MDTest, and 3.7× on Exim, while trailing FastCommit by 5% on RocksDB fillsync.",
+        "source_ids": [
+          "src-fast25-pdf-8ae11f76"
+        ],
+        "locator": "PDF pp. 12–13; §7.2, Figure 15"
+      },
+      {
+        "id": "claim-djfs-lockup",
+        "text": "For 80-thread Varmail, DJFS's average transaction lock-up is 26 µs versus 211 µs for FastCommit, and its creat latency is 2.4 ms versus 12.2 ms.",
+        "source_ids": [
+          "src-fast25-pdf-8ae11f76"
+        ],
+        "locator": "PDF pp. 12–13; §7.2, Figures 16 and 18"
+      },
+      {
+        "id": "claim-djfs-recovery",
+        "text": "DJFS passed 1,000 CrashMonkey-generated cases for each of five selected scenarios and recovered an 80-thread Varmail forced shutdown in 2.5 seconds.",
+        "source_ids": [
+          "src-fast25-pdf-8ae11f76"
+        ],
+        "locator": "PDF p. 14; §7.4"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The implementation targets Ext4 and a 2 TB CMM-H prototype, so benefits depend on that device's DRAM cache and dual CXL access modes. Under all cache misses, cache-line DJFS is slower than its own block-granularity form, though still faster than JBD. Transaction structures consume 10.4–22.1 MB in tested workloads, and Z-Journal could not run RocksDB because of deadlock.",
+  "phd_group_signal": "The paper links an application trace study to a transaction-design choice, then evaluates both mechanism-level effects and end-to-end scaling on prototype hardware. It is a useful example of co-design across workload semantics, file-system concurrency, and an emerging storage interface.",
+  "beginner_concepts": [
+    "file-system journaling",
+    "write-ahead logging",
+    "directory inode",
+    "transaction conflict",
+    "fsync",
+    "CXL",
+    "crash recovery"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-djfs-characterization",
+      "text": "Across eight examined applications, updates commonly stay in an application-specific directory, create or delete entries, and touch multiple files belonging to that directory.",
+      "source_ids": [
+        "src-fast25-pdf-8ae11f76"
+      ],
+      "locator": "PDF pp. 5–6; §3.1, Figure 4"
+    },
+    {
+      "id": "claim-djfs-fine-grain",
+      "text": "Changing JBD from 4 KB to 64-byte journal records cuts commit write time but improves the tested 80-thread workloads by only 1.1–1.3× because transaction lock-up remains.",
+      "source_ids": [
+        "src-fast25-pdf-8ae11f76"
+      ],
+      "locator": "PDF p. 6; §3.2, Tables 1–2 and Figure 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-8ae11f76",
+      "url": "https://www.usenix.org/system/files/fast25-yoo.pdf",
+      "kind": "paper-pdf",
+      "title": "DJFS: Directory-Granularity Filesystem Journaling for CMM-H SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f3c485336c45ca9f188228641a9d5d7fed13388840bb829b5382756a27f4dae5",
+      "official": true,
+      "supports": [
+        "abstract, introduction, characterization, design, implementation, evaluation, discussion, and conclusion",
+        "reported workload behavior, scalability, latency, memory use, and recovery checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:32:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.2 characterization, §§4–6 design and recovery, §§7.1–7.4 evaluation, §8 Discussion, and §10 Conclusion.",
+      "Measurements are author-reported results on a CMM-H prototype and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:32:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

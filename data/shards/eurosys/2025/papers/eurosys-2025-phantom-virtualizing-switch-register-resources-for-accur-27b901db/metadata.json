@@ -1,0 +1,369 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2025-phantom-virtualizing-switch-register-resources-for-accur-27b901db",
+  "title": "Phantom: Virtualizing Switch Register Resources for Accurate Sketch-based Network Measurement",
+  "venue": "eurosys",
+  "year": 2025,
+  "track_or_session": "Session-10.1: Network - Van Oldebarneveldt - Chair: Rong Chen",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xiang Chen",
+      "position": 1,
+      "orcid": "0000-0002-0249-9664",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyan Liu",
+      "position": 2,
+      "orcid": "0000-0001-7753-0294",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhengyan Zhou",
+      "position": 3,
+      "orcid": "0000-0003-0536-3196",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Sun",
+      "position": 4,
+      "orcid": "0009-0005-3371-8734",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenbin Zhang",
+      "position": 5,
+      "orcid": "0009-0002-0528-8755",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyang Du",
+      "position": 6,
+      "orcid": "0000-0002-8220-6525",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dong Zhang",
+      "position": 7,
+      "orcid": "0000-0002-6379-0244",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fuzhou University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuan Liu",
+      "position": 8,
+      "orcid": "0000-0002-7966-4488",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yangzhou University and Southeast University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haifeng Zhou",
+      "position": 9,
+      "orcid": "0000-0002-8008-2805",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dusit Niyato",
+      "position": 10,
+      "orcid": "0000-0002-7442-7416",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanyang Technological University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qun Huang",
+      "position": 11,
+      "orcid": "0000-0002-2387-6131",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunming Wu",
+      "position": 12,
+      "orcid": "0000-0001-7958-9687",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kui Ren",
+      "position": 13,
+      "orcid": "0000-0003-3441-6277",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3689031.3696077",
+    "official_page": "https://doi.org/10.1145/3689031.3696077",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3689031.3696077",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2025-program",
+      "url": "https://2025.eurosys.org/preliminary-program.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2025 Main-Track Program",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:72c98f4f9a55b0ff81c3e44a494d197e3e8234fd2bd3289360199f774b409b6b",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3689031",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Twentieth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:093afa0a858eb181a3be968cefce7cb412b72ba94a59f662bfdb61e20fd64702",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

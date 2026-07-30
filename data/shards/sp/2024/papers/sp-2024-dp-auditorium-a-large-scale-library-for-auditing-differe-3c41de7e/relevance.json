@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-dp-auditorium-a-large-scale-library-for-auditing-differe-3c41de7e",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements and extensively evaluates an extensible testing library for detecting privacy failures in differential-privacy mechanisms.",
+  "topics": [
+    "privacy-systems",
+    "reliability-testing-and-debugging",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-af5978a714859720-abstract",
+      "url": "https://openalex.org/W4402264627",
+      "kind": "openalex",
+      "title": "DP-Auditorium: a Large Scale Library for Auditing Differential Privacy",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-selective-on-device-execution-of-data-dependent-read-i-o-19146c9b",
+  "associations": [
+    {
+      "group_id": "group-unist-computer-systems-security-lab",
+      "faculty_id": "faculty-hyungon-moon",
+      "publication_institution_id": "institution-unist",
+      "current_institution_id": "institution-unist",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-19146c9b-paper-page",
+        "src-agent-f-19146c9b-faculty-profile"
+      ],
+      "rationale": "Hyungon Moon's official UNIST homepage lists the exact FAST 2025 paper, his current appointment, and the Computer Systems & Security Lab.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Chanyoung Park",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Minu Chung",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-19146c9b-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/park",
+      "kind": "paper-page",
+      "title": "Selective On-Device Execution of Data-Dependent Read I/Os",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-19146c9b-faculty-profile",
+      "url": "https://hyungon.unist.ac.kr/",
+      "kind": "faculty-page",
+      "title": "Hyungon Moon",
+      "publisher": "Ulsan National Institute of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact FAST 2025 publication",
+        "current associate-professor appointment",
+        "Computer Systems & Security Lab identity"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

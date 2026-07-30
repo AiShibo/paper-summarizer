@@ -1,0 +1,110 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-archer-adaptive-memory-compression-with-page-association-3c329022",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-zongwei-zhu",
+      "publication_institution_id": "institution-ustc-suzhou-institute",
+      "current_institution_id": "institution-ustc-suzhou-institute",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-3c329022-paper-page",
+        "src-agent-f-3c329022-faculty-profile",
+        "src-agent-f-3c329022-faculty-publication"
+      ],
+      "rationale": "Zongwei Zhu's official USTC profile identifies his appointment at the Suzhou institute, and its publication record lists the exact Archer title.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Changlong Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Chao Wang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Fangming Liu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Fei Xu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Edwin H. -M. Sha",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xuehai Zhou",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-3c329022-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/li",
+      "kind": "paper-page",
+      "title": "Archer: Adaptive Memory Compression with Page-Association-Rule Awareness for High-Speed Response of Mobile Devices",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-3c329022-faculty-profile",
+      "url": "https://faculty.ustc.edu.cn/zhuzongwei/zh_CN/index.htm",
+      "kind": "faculty-page",
+      "title": "Zongwei Zhu — official faculty profile",
+      "publisher": "University of Science and Technology of China",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current appointment at the Suzhou Institute for Advanced Research"
+      ]
+    },
+    {
+      "id": "src-agent-f-3c329022-faculty-publication",
+      "url": "https://faculty.ustc.edu.cn/zhuzongwei/zh_CN/lwcg/501204/content/62662.htm",
+      "kind": "faculty-page",
+      "title": "Archer publication record",
+      "publisher": "University of Science and Technology of China",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper title on the official faculty site"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

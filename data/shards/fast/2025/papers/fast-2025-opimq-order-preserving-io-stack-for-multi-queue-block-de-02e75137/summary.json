@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-opimq-order-preserving-io-stack-for-multi-queue-block-de-02e75137",
+  "takeaway": "OPIMQ preserves filesystem write dependencies across multiple host and NVMe queues using per-stream epochs and FTL-delayed mappings, avoiding repeated transfer-and-flush serialization.",
+  "background": "Journaling file systems must make dirty data, log records, and commit records durable in order. Traditional transfer-and-flush waits for each phase, while modern Linux and NVMe use independent per-core request queues and device command queues for parallelism.",
+  "villain": "Thread migration can split one ordered epoch across queues, and journaling creates dependencies between application and journal threads. Existing barrier designs assume one queue, impose a global order, require persistent device memory, or eliminate compound transactions, sacrificing balance and concurrency.",
+  "approach": "OPIMQ tags writes with stream and epoch IDs. Epoch Pinning keeps an open epoch on one request queue; a dual-stream write represents cross-thread dependencies. An order-preserving FTL flushes data freely but delays logical-to-physical mapping updates until predecessor epochs—and both siblings of a dual-stream write—are mapped.",
+  "impact": "The design retains multi-core and SSD parallelism while offering ordered writes, fbarrier interfaces, and crash-consistent ext4 journaling without a persistent-memory region. It moves the durability-order contract across the filesystem, block layer, NVMe command, and FTL.",
+  "evaluation": {
+    "overview": "Container scaling experiments run varmail, dbench, and MySQL sysbench; fio decomposes fsync latency; further tests examine tail latency, queue balance, work stealing, CrashMonkey states, and FTL translation overhead.",
+    "implemented": "OPIMQ and OP-EXT4 on Linux 5.18.18, with ordered/barrier bio flags, two stream/epoch pairs in NVMe commands, Epoch Pinning, dual-stream writes, and an OPFTL prototype on a Cosmos OpenSSD board.",
+    "setting": "A dual-socket 40-core Dell R740XD with a 2-TB Samsung 980 Pro runs up to hundreds of Docker containers. Because that SSD lacks OPFTL, host results incorporate the 1.05% throughput cost measured separately on a 230-GB, eight-channel, single-core Cosmos board.",
+    "baselines": [
+      "vanilla ext4",
+      "single-queue BarrierFS",
+      "MQFS/ccNVMe",
+      "page-mapping FTL"
+    ],
+    "results": [
+      {
+        "id": "claim-opimq-throughput",
+        "text": "At 40 containers, OPIMQ reports 2.9×, 2.8×, and 2.9× the vanilla Linux/ext4 performance for varmail, dbench, and sysbench, respectively.",
+        "source_ids": [
+          "src-fast25-pdf-02e75137"
+        ],
+        "locator": "PDF pp. 2, 11–12; Abstract and §7.1, Figure 11"
+      },
+      {
+        "id": "claim-opimq-fsync",
+        "text": "For a 4-KB random write followed by fsync, OPIMQ reduces mean fsync latency from 6.7 ms to 2.2 ms; across three application workloads it reduces mean fsync latency by 60.9%–69.5%.",
+        "source_ids": [
+          "src-fast25-pdf-02e75137"
+        ],
+        "locator": "PDF p. 12; §7.2, Figure 12 and Table 2"
+      },
+      {
+        "id": "claim-opimq-ftl",
+        "text": "On the Cosmos OpenSSD with five streams, OPFTL lowers throughput by 1.05% versus page mapping and leaves measured address-translation latency unchanged at 2.65 µs.",
+        "source_ids": [
+          "src-fast25-pdf-02e75137"
+        ],
+        "locator": "PDF p. 13; §7.5, Table 3"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study",
+      "other"
+    ]
+  },
+  "limitations": "The primary Samsung SSD does not implement OPFTL, so its measured prototype penalty is injected into host experiments. The Cosmos board has one core and tests only five streams; higher-stream behavior is projected. CrashMonkey covers two workloads and 1,000 states each. The implementation changes the filesystem-to-FTL contract and assumes a stable, known following stream such as ext4's JBD.",
+  "phd_group_signal": "OPIMQ identifies ordering as an end-to-end property, then assigns a precise partial-order responsibility to every I/O-stack layer. The work is instructive for crash consistency, cross-layer interfaces, queue parallelism, and device firmware co-design.",
+  "beginner_concepts": [
+    "storage order",
+    "filesystem journaling",
+    "multi-queue block layer",
+    "NVMe",
+    "flash translation layer",
+    "writeback cache",
+    "epoch",
+    "fsync"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-opimq-host-order",
+      "text": "Epoch Pinning keeps all writes in an open epoch on one request queue despite thread migration, while dual-stream writes encode one write as belonging to two ordered streams.",
+      "source_ids": [
+        "src-fast25-pdf-02e75137"
+      ],
+      "locator": "PDF pp. 8–10; §§4.5–4.6, Figure 8"
+    },
+    {
+      "id": "claim-opimq-device-order",
+      "text": "OPFTL may flush cache entries in any physical order but exposes them only by advancing mappings in epoch order; sibling-aware delayed mappings wait for both streams of a dual-stream write.",
+      "source_ids": [
+        "src-fast25-pdf-02e75137"
+      ],
+      "locator": "PDF pp. 10–11; §5, Figures 9–10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-02e75137",
+      "url": "https://www.usenix.org/system/files/fast25-kim-jieun.pdf",
+      "kind": "paper-pdf",
+      "title": "OPIMQ: Order Preserving IO Stack for Multi-Queue Block Device",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:0306825bd802cad460b221f54e715d1860267ecc144a1ccec6df24ed6cd51b04",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, problem formulation, design, implementation, crash-consistency test, evaluation, and conclusion",
+        "reported throughput, fsync latency, queue balance, CPU use, and FTL-overhead results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:52:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–3 context/problem, §§4–5 host and FTL design, §6 crash consistency, §7 evaluation, and §8 conclusion.",
+      "All performance and crash-test results are author-reported; the main evaluation simulates the separately measured OPFTL overhead."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:52:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

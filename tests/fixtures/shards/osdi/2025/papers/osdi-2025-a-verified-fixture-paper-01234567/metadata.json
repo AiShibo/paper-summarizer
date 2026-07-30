@@ -1,0 +1,81 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "title": "A Verified Fixture Paper",
+  "venue": "osdi",
+  "year": 2025,
+  "track_or_session": "Fixture session",
+  "paper_type": "main-track",
+  "publication_date": "2025-07-07",
+  "page_count": 12,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": "author-fixture-alice",
+      "name": "Alice Fixture",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": "institution-fixture-university",
+          "name_as_published": "Fixture University",
+          "normalized_name": "Fixture University",
+          "institution_type": "university",
+          "city": "Example City",
+          "state_or_province": "British Columbia",
+          "country": "Canada",
+          "region": "Canada",
+          "source_ids": [
+            "src-fixture-metadata"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1234/fixture.2025.1",
+    "official_page": "https://example.org/fixture/paper",
+    "official_pdf": "https://example.org/fixture/paper.pdf",
+    "artifact": "https://example.org/fixture/artifact",
+    "code": "https://example.org/fixture/code",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings{fixture2025, title={A Verified Fixture Paper}}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-fixture-metadata",
+      "url": "https://example.org/fixture/paper",
+      "kind": "paper-page",
+      "title": "Synthetic fixture paper page",
+      "publisher": "Test fixture",
+      "retrieved_at": "2026-07-29T12:00:00Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "fixture title",
+        "fixture authors",
+        "fixture affiliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-collector",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": [
+      "Synthetic test fixture."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "VERIFIED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2024-what-s-the-story-in-ebs-glory-evolutions-and-lessons-in-086f7be9",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete storage measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "reliability-testing-and-debugging",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "hardware",
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [
+    "optimization",
+    "measurement-study",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-fast24-program",
+      "url": "https://www.usenix.org/conference/fast24/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:711c25cd13e204cf9de6994b60e4174059a58f18a44f0dbb935429d31b5a6a1a",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2024-what-s-the-story-in-ebs-glory-evolutions-and-lessons-in-086f7be9-paper-page",
+      "url": "https://www.usenix.org/conference/fast24/presentation/zhang-weidong",
+      "kind": "paper-page",
+      "title": "What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:a12c5cb6e1627e30e4d86a96a32e7e5c1d0f623afb716a4f4388157f9b3cbd44",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

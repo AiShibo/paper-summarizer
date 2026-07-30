@@ -1,0 +1,65 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-wanilla-sound-noninterference-analysis-for-webassembly-71640c04",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a compiler, language, and runtime security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-0db2886eb0d717cf-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765156",
+      "kind": "publisher-page",
+      "title": "Wanilla: Sound Noninterference Analysis for WebAssembly",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-84bf318236da6744-abstract",
+      "url": "https://openalex.org/W4416549327",
+      "kind": "openalex",
+      "title": "Wanilla: Sound Noninterference Analysis for WebAssembly",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

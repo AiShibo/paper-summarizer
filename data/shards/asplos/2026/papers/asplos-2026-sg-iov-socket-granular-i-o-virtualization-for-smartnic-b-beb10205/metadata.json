@@ -1,0 +1,266 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-sg-iov-socket-granular-i-o-virtualization-for-smartnic-b-beb10205",
+  "title": "SG-IOV: Socket-Granular I/O Virtualization for SmartNIC-Based Container Networks",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 8B: Serverless & Cloud Networking",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 22,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chenxingyu Zhao",
+      "position": 1,
+      "orcid": "0000-0001-8528-1689",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, Washington, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongtao Zhang",
+      "position": 2,
+      "orcid": "0009-0007-6591-4881",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, Washington, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaehong Min",
+      "position": 3,
+      "orcid": "0000-0002-7871-2660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, Washington, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengkai Lin",
+      "position": 4,
+      "orcid": "0009-0003-2615-0525",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wei Zhang",
+      "position": 5,
+      "orcid": "0009-0004-9512-4192",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaiyuan Zhang",
+      "position": 6,
+      "orcid": "0009-0003-4651-3071",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, Washington, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming Liu",
+      "position": 7,
+      "orcid": "0000-0002-6509-9449",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Arvind Krishnamurthy",
+      "position": 8,
+      "orcid": "0000-0002-9505-9528",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, Washington, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790218"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790218",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790218",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790218",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790218",
+      "kind": "crossref",
+      "title": "SG-IOV: Socket-Granular I/O Virtualization for SmartNIC-Based Container Networks",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a318dccd59f7a596f27f6a78aef4fcba9fce2f7fe520793a933b74192d20fe43",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790218",
+      "url": "https://www.semanticscholar.org/paper/4d3eb08d78f99b2dab68a70ad5dd6715ebaf85aa",
+      "kind": "semantic-scholar",
+      "title": "SG-IOV: Socket-Granular I/O Virtualization for SmartNIC-Based Container Networks",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:cc9981b24d51484949d5699158e9be1cc3ce2e274ccb49358307889a6da41f63",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

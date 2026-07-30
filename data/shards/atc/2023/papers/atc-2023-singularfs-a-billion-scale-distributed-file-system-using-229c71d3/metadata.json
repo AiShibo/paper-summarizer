@@ -1,0 +1,235 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2023-singularfs-a-billion-scale-distributed-file-system-using-229c71d3",
+  "title": "SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server",
+  "venue": "atc",
+  "year": 2023,
+  "track_or_session": "Kernel and Concurrency",
+  "paper_type": "main-track",
+  "publication_date": "2023-07-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hao Guo",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youyou Lu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenhao Lv",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaojian Liao",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaoxun Zeng",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiwu Shu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc23/presentation/guo",
+    "official_pdf": "https://www.usenix.org/system/files/atc23-guo.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/bjzU3RhvBXg",
+    "bibtex": "@inproceedings {288697,\nauthor = {Hao Guo and Youyou Lu and Wenhao Lv and Xiaojian Liao and Shaoxun Zeng and Jiwu Shu},\ntitle = {{SingularFS}: A {Billion-Scale} Distributed File System Using a Single Metadata Server},\nbooktitle = {2023 USENIX Annual Technical Conference (USENIX ATC 23)},\nyear = {2023},\nisbn = {978-1-939133-35-9},\naddress = {Boston, MA},\npages = {915--928},\nurl = {https://www.usenix.org/conference/atc23/presentation/guo},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2023-program",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:3d197ad9547105e9204aca605ead5454ea1fb68b806454930e88abf20d488277",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2023-paper-guo",
+      "url": "https://www.usenix.org/conference/atc23/presentation/guo",
+      "kind": "paper-page",
+      "title": "SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:cc77a047000ada6adadbf203c8d692cb4c93c2ccc025cbcfb43111ff32f28644",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2023-proceedings",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2023-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:1fdadd21202697b913895dbe09066eb4fd4a05d3bef13410de183b6c3a6661d2",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

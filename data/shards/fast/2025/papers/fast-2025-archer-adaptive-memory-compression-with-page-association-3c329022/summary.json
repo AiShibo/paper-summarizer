@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-archer-adaptive-memory-compression-with-page-association-3c329022",
+  "takeaway": "Archer mines which mobile-memory pages are used together, then compresses those pages as adaptive-size groups to accelerate memory reclamation without the usual large-granularity read amplification.",
+  "background": "Android compresses anonymous memory pages into ZRAM when free memory runs low, letting it keep more applications alive. Conventional systems compress one 4 KB page at a time because memory is addressed by page and larger units may decompress unused data. Under bursty memory demand, however, per-page software work and context switches can stall foreground applications.",
+  "villain": "Fixed page-granularity compression underuses CPU bandwidth and makes direct memory reclaim slow, but blindly compressing large fixed groups creates read amplification. Useful page relationships change at runtime, and global association mining would be too costly for a phone.",
+  "approach": "Archer turns page-access events into an asynchronous footprint stream, mines associations in per-application frequent-pattern trees, and co-designs those trees with LRU reclaim order. During urgent reclaim it batches associated pages, while an adaptive ZRAM-compatible region records variable-size compressed blocks and prefetches their component pages on decompression.",
+  "impact": "The work suggests that operating systems can use lightweight behavioral structure—not just recency—to choose compression granularity, improving responsiveness during memory pressure while retaining compatibility with applications and existing page-compression mechanisms.",
+  "evaluation": {
+    "overview": "The authors measure app cold and hot launches, continuous photography, short-video frame rate, tail behavior, compression throughput, read amplification, energy, memory overhead, and parameter sensitivity on three Android phones.",
+    "implemented": "A modified Android/Linux memory-reclaim stack with a footprint-stream generator, per-app frequent-pattern-tree list, adaptive compression region, and page-fault support for grouped decompression.",
+    "setting": "Tests run on a Pixel 6 Pro with Android 13 and 12 GB RAM, a Pixel 3 with Android 10 and 4 GB RAM, and a Huawei P20 with Android 9 and 6 GB RAM. Workloads include eight popular foreground apps, twenty background apps, camera bursts, TikTok, and a transformer.",
+    "baselines": [
+      "ZRAM",
+      "ASAP",
+      "static huge-size compression (SHSC)"
+    ],
+    "results": [
+      {
+        "id": "claim-archer-user-response",
+        "text": "The paper reports average improvements of 1.55× for app launching, 1.42× for photographic speed, and 1.31× for frame rate compared with the state-of-the-art baselines.",
+        "source_ids": [
+          "src-fast25-pdf-3c329022"
+        ],
+        "locator": "PDF pp. 2 and 10–11; Abstract and §§5.2.1–5.2.2, Figures 7–8"
+      },
+      {
+        "id": "claim-archer-tail-latency",
+        "text": "On the Pixel 6, the authors report that Archer reduces worst-case cold-launch latency by 44.9% and hot-launch latency by 60.3%; worst-case photography and frame-rendering performance improve by 1.6× and 1.3×.",
+        "source_ids": [
+          "src-fast25-pdf-3c329022"
+        ],
+        "locator": "PDF p. 11; §5.2.3, Figure 9"
+      },
+      {
+        "id": "claim-archer-amplification-overhead",
+        "text": "The measured grouped-page read amplification is at most 1.08 because 92.6% of batch-decompressed pages are soon accessed; enabling Archer raises measured battery use by 0.69% on average.",
+        "source_ids": [
+          "src-fast25-pdf-3c329022"
+        ],
+        "locator": "PDF pp. 12–13; §§5.4.1–5.4.2"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The evaluation covers three Android phones and selected interactive workloads rather than long-term use by participants. The paper says parameters should be customized per device rather than copied across hardware and OS configurations. To bound overhead, Archer delays or drops mining work when the device is busy, trading association accuracy for responsiveness; grouped decompression also takes 17.6% longer than one-page decompression in its microbenchmark.",
+  "phd_group_signal": "This work shows an empirical operating-systems style: identify a user-visible stall, trace it to kernel mechanisms, find exploitable structure in real page footprints, and redesign both policy and data layout. It combines data mining with kernel implementation and device-level measurements without rating any research group.",
+  "beginner_concepts": [
+    "anonymous memory",
+    "memory reclamation",
+    "ZRAM",
+    "least recently used (LRU)",
+    "association-rule mining",
+    "read amplification",
+    "page fault"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-archer-page-association",
+      "text": "The authors' footprint study finds that 26.3% of page combinations have greater than 80% probability of being accessed together, motivating association-aware grouped compression.",
+      "source_ids": [
+        "src-fast25-pdf-3c329022"
+      ],
+      "locator": "PDF pp. 5–6; §3, Figure 3"
+    },
+    {
+      "id": "claim-archer-design",
+      "text": "Archer integrates asynchronous footprint-stream generation, per-application frequent-pattern trees, LRU-aware batch selection, and a variable-size ZRAM-compatible compression region in the Android kernel.",
+      "source_ids": [
+        "src-fast25-pdf-3c329022"
+      ],
+      "locator": "PDF pp. 6–9; §§4.1–4.4, Figures 4–6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-3c329022",
+      "url": "https://www.usenix.org/system/files/fast25-li.pdf",
+      "kind": "paper-pdf",
+      "title": "Archer: Adaptive Memory Compression with Page-Association-Rule Awareness for High-Speed Response of Mobile Devices",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:c99e04be25f9ee6bb3c21fb42fbfb988643afab070b521eeb21b8fffd8aa6a64",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, evaluation, and conclusion",
+        "reported implementation, device settings, numerical results, penalties, and assumptions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:23:12Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3–4 motivation and design, §§5.1–5.4 evaluation including penalty analysis, and §7 Conclusion.",
+      "Numerical results are presented as author-reported measurements and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:23:12Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

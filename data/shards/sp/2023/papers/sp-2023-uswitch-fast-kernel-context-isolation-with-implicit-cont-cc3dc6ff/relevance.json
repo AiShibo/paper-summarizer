@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-uswitch-fast-kernel-context-isolation-with-implicit-cont-cc3dc6ff",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "virtualization-and-isolation",
+    "isolation",
+    "computer-architecture",
+    "hardware-security",
+    "compilers-languages-and-runtimes"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-5dd1c5dd98b392c7-abstract",
+      "url": "https://www.semanticscholar.org/paper/7ddaa49070c732ede191cc431f6512af2892b50a",
+      "kind": "semantic-scholar",
+      "title": "uSWITCH: Fast Kernel Context Isolation with Implicit Context Switches",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

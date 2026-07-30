@@ -1,0 +1,276 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-lmsanitator-defending-prompt-tuning-against-task-agnosti-3eb32ab0",
+  "title": "LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors",
+  "venue": "ndss",
+  "year": 2024,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chengkun Wei",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenlong Meng",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhikun Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security and Stanford University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Min Chen",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minghu Zhao",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenjing Fang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Wang",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihui Zhang",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenzhi Chen",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-4b300ff8b58111c8-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2024.23238",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2024-238-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024-238-slides.pdf",
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-16f06f086f92b84e-program",
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2024 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-4b300ff8b58111c8-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/",
+      "kind": "paper-page",
+      "title": "LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-5810329b76475a2d-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2024.23238",
+      "kind": "crossref",
+      "title": "LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

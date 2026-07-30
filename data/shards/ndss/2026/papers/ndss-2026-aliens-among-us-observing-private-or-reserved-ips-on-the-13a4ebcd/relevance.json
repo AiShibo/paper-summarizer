@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-aliens-among-us-observing-private-or-reserved-ips-on-the-13a4ebcd",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a network security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "networking",
+    "network-security",
+    "secure-routing"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "deployment-experience"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-34f3e7aff6701d3f-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/aliens-among-us-observing-private-or-reserved-ips-on-the-public-internet/",
+      "kind": "paper-page",
+      "title": "Aliens Among Us: Observing Private or Reserved IPs on the Public Internet",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:1d574cf6c9f9f3729f39569066f0c126d0814babd8c83a628f0751a0703e9d41",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

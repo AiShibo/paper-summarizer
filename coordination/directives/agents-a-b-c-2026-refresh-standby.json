@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agents-a-b-c-2026-refresh-standby-2026-07-30",
+  "issued_at": "2026-07-30T04:13:56Z",
+  "issued_by": "coordinator",
+  "target_agents": [
+    "agent-a",
+    "agent-b",
+    "agent-c"
+  ],
+  "status": "OPEN",
+  "action": "STANDBY_PENDING_2026_STATUS_CHANGE",
+  "reason": "The assigned 2023-2026 venue-year investigations are complete and validated. Honest accepted-only, partial, unavailable, and upcoming statuses must not be promoted without new official evidence.",
+  "instructions": [
+    "Keep completed claims unchanged and make no new paper or venue-year edits.",
+    "Do not repeatedly rewrite verification timestamps without a substantive official-source check.",
+    "Do not change an incomplete 2026 status merely to make the project appear complete.",
+    "Remain available for a specifically assigned source correction or status refresh.",
+    "Do not edit summaries, groups, awards, reviews, entities, frontend files, or generated outputs."
+  ],
+  "resume_triggers": {
+    "agent-a": [
+      "Official SOSP 2026 complete proceedings replace the accepted-papers-only state.",
+      "A coordinator-assigned correction affects OSDI, SOSP, EuroSys, or ATC."
+    ],
+    "agent-b": [
+      "Official SIGCOMM 2026 complete proceedings replace the partial state.",
+      "A coordinator-assigned correction affects FAST, NSDI, or SIGCOMM."
+    ],
+    "agent-c": [
+      "A coordinator-assigned correction or official ASPLOS 2026 source change."
+    ]
+  }
+}

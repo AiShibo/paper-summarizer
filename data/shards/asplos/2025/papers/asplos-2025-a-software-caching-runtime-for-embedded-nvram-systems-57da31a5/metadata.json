@@ -1,0 +1,142 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-a-software-caching-runtime-for-embedded-nvram-systems-57da31a5",
+  "title": "A Software Caching Runtime for Embedded NVRAM Systems",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 10B: Solid State Storage",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Harrison Williams",
+      "position": 1,
+      "orcid": "0009-0002-4283-804X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Virginia Tech, Blacksburg, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674183"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Matthew Hicks",
+      "position": 2,
+      "orcid": "0000-0002-3639-4342",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Virginia Tech, Blacksburg, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674183"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674183",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674183",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674183",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674183",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674183",
+      "kind": "crossref",
+      "title": "A Software Caching Runtime for Embedded NVRAM Systems",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:83a9cca42a4cd139998c6a029622545c9bc480bf6d76b633c31da31969909e62",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674183",
+      "url": "https://www.semanticscholar.org/paper/d53f1f5fbc56e1a8c131d41ff53d7857c6618634",
+      "kind": "semantic-scholar",
+      "title": "A Software Caching Runtime for Embedded NVRAM Systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:5ce00ca7af51aefdf21609b409d445c711aff1f15402618c062022f44c0f3b1f",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

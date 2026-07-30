@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-chameleon-channels-measuring-youtube-accounts-repurposed-680037fe",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a user, governance, policy, education, or online-behavior study without a material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-57d8406499a6da74-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/cuevas",
+      "kind": "paper-page",
+      "title": "Chameleon Channels: Measuring YouTube Accounts Repurposed for Deception and Profit",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:f54f99fbba571a60b01f0b5341888fb401617049750784d58d399091df6372f8",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

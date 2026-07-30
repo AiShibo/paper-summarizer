@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-a-standby-2026-07-29",
+  "issued_at": "2026-07-29T23:49:38Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-a",
+  "status": "SUPERSEDED",
+  "action": "STANDBY_NO_EDITS",
+  "reason": "Agent A completed all 12 authorized 2023-2025 venue-year shards: 765 paper records with reconciled proceedings counts and clean draft validation.",
+  "instructions": [
+    "Keep coordination/claims/agent-a.json at COMPLETE.",
+    "Do not make further edits to the completed 2023-2025 shards unless the coordinator assigns a specific correction.",
+    "Do not begin 2026 collection; that year remains outside the authorized scope.",
+    "Do not edit specialist-stage files, entity records, generated exports, or other agents' files.",
+    "Remain available to address narrowly scoped issues returned by Agent H or the coordinator."
+  ],
+  "resume_conditions": [
+    "A new coordinator directive assigns a specific correction or collection scope.",
+    "Agent H reports a review issue tied to an Agent A paper record."
+  ],
+  "superseded_at": "2026-07-30T03:00:08Z",
+  "superseded_by": "coordinator-agent-a-authorize-2026-ytd-2026-07-30",
+  "superseded_reason": "The user explicitly authorized Agent A to begin 2026 year-to-date investigation."
+}

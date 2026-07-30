@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-instruction-aware-cooperative-tlb-and-cache-replacement-efc300d9",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because the paper contributes a concrete virtual-memory or address-translation mechanism for instruction-Aware Cooperative TLB and Cache Replacement Policies.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "computer-architecture",
+    "memory-hierarchy"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707247",
+      "url": "https://www.semanticscholar.org/paper/16f22b3a378bfb140862b1c160dad26e368f29d7",
+      "kind": "semantic-scholar",
+      "title": "Instruction-Aware Cooperative TLB and Cache Replacement Policies",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c72c321520a44c5fd9e9ce4c2ce8b03050eca32352ae11cdefd8d5fb52f980e3",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

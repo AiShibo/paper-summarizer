@@ -1,0 +1,230 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2026-efficient-remote-kv-cache-reuse-with-gpu-native-video-co-3af2f844",
+  "title": "Efficient Remote KV Cache Reuse with GPU-native Video Codec",
+  "venue": "sigcomm",
+  "year": 2026,
+  "track_or_session": "Research Session 1: LLM Inference & Serving — Research Paper",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": null,
+  "venue_year_completion_status": "PARTIAL",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liang Mi",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University and Institute for AI Industry Research(AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weijun Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research(AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinghan Chen",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ting Cao",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research(AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haipeng Dai",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunxin Liu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research(AIR), Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm26-accepted"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm26-accepted",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Accepted Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:76cf694b97a3427e51e3d223497c1d478493d748f36d34b91a6f935370af50ed",
+      "official": true,
+      "supports": [
+        "109 identifiable accepted-paper title and author rows",
+        "accepted-page statement that 110 papers were accepted",
+        "Research Paper and Experience Paper labels"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Technical Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:c777f09d5ce92d6d4b806c719af5abcacf51405e649781ef80c4b53a32c32c3e",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-cfp",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2026 Call for Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:79e613828d1df7966d20fa9e77f2118e1cb91a63086bfa383f3bb627c8b4f001",
+      "official": true,
+      "supports": [
+        "official main-paper scope and track definitions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Canonical identity, title, author order, and affiliations follow the checked official conference sources.",
+      "No alternate version was exposed by the checked official sources; an empty alternate_versions list is not a claim that none exists elsewhere.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official sources; null does not assert that no external repository exists.",
+      "The official accepted-paper table verifies this identity and track, while the detailed draft program supplies its technical session.",
+      "Proceedings and official per-paper publication pages were not available from the checked conference sources, so bibliographic and paper-content fields remain unresolved.",
+      "The venue-year is PARTIAL because the official accepted page claims 110 papers but exposes only 109 identifiable rows."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].orcid (not supplied by the checked official sources)",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "publication_date",
+      "page_count",
+      "links.doi",
+      "links.official_pdf",
+      "links.bibtex",
+      "official abstract or full paper"
+    ]
+  }
+}

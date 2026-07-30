@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-proactive-runtime-detection-of-aging-related-silent-data-0205ca02",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because the paper contributes a concrete systems verification or hardware reliability mechanism for proactive Runtime Detection of Aging-Related Silent Data Corruptions: A Bottom-Up Approach.",
+  "topics": [
+    "formal-methods-and-systems-verification",
+    "verified-systems",
+    "reliability-testing-and-debugging",
+    "fault-injection"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674182",
+      "url": "https://www.semanticscholar.org/paper/de376d05b41a963a8e1d0d4e1350d316554ba804",
+      "kind": "semantic-scholar",
+      "title": "Proactive Runtime Detection of Aging-Related Silent Data Corruptions: A Bottom-Up Approach",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:37e046ca3a230d9a3fdef24284202073cc06b88777f4b835f6a6e1b35cfcebdc",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

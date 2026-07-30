@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-gmi-drl-empowering-multi-gpu-drl-with-adaptive-grained-p-71fc8b9f",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material computer architecture mechanism at the hardware layer.",
+  "topics": [
+    "computer-architecture",
+    "accelerators",
+    "mobile-edge-embedded-and-iot",
+    "cyber-physical-systems"
+  ],
+  "system_layers": [
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-wang-yuke",
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-yuke",
+      "kind": "paper-page",
+      "title": "GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:0e5cb940fd284c79cc8deaed2a3c0f0f1dfef73b896b2d2545bd8dc019051efe",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

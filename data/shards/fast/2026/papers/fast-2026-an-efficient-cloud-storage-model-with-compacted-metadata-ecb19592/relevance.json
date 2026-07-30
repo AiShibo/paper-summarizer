@@ -1,0 +1,83 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2026-an-efficient-cloud-storage-model-with-compacted-metadata-ecb19592",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Indexing session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "networking",
+    "network-measurement",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement",
+    "workload-characterization"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-fast26-program",
+      "url": "https://www.usenix.org/conference/fast26/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:8a530ee04cc68348a5bb1ad8a88de8318bb71c81dd8eb515a07ead138060cab8",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2026-an-efficient-cloud-storage-model-with-compacted-metadata-ecb19592-paper-page",
+      "url": "https://www.usenix.org/conference/fast26/presentation/zhang-kai",
+      "kind": "paper-page",
+      "title": "An Efficient Cloud Storage Model with Compacted Metadata Management for Performance Monitoring Timeseries Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:0147e6ee9698dab2300322f1c7e7f5b110feaa84fad5e022383f84157207d8e4",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-recover-function-signature-from-combined-constraints-1048011f",
+  "title": "Recover Function Signature from Combined Constraints",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haohui Huang",
+      "position": 1,
+      "orcid": "0009-0005-8957-4469",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, School of Computer Science, Nanjing, Jiangsu, China, Nanjing University, Nanjing, Jiangsu, China, and QianXin Group, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yue Liu",
+      "position": 2,
+      "orcid": "0000-0002-3065-0165",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Southeast University, Nanjing, Jiangsu, China and QianXin Group, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxi Cheng",
+      "position": 3,
+      "orcid": "0009-0007-0998-0630",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University, Nanjing, Jiangsu, China and QianXin Group, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haiyang Wei",
+      "position": 4,
+      "orcid": "0009-0003-0248-941X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NanJing University, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiamu Liu",
+      "position": 5,
+      "orcid": "0009-0003-2223-1918",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "QianXin Group, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Wang",
+      "position": 6,
+      "orcid": "0000-0002-7216-6929",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, School of Computer Science, Nanjing, Jiangsu, China and NanJing University, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Linzhang Wang",
+      "position": 7,
+      "orcid": "0000-0003-4794-1652",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory for Novel Software Technology, School of Computer Science, Nanjing, Jiangsu, China and Nanjing University, Nanjing, Jiangsu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7e77cf03a3e2deb2-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765089",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765089",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765089",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-7ce343bff1abb1e6-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-f757e3fcbe4066dd-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765089",
+      "kind": "publisher-page",
+      "title": "Recover Function Signature from Combined Constraints",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-7e77cf03a3e2deb2-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765089",
+      "kind": "crossref",
+      "title": "Recover Function Signature from Combined Constraints",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

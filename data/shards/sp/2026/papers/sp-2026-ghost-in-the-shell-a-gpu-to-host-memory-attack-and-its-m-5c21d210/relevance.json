@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-ghost-in-the-shell-a-gpu-to-host-memory-attack-and-its-m-5c21d210",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "virtualization-and-isolation",
+    "isolation",
+    "computer-architecture",
+    "hardware-security",
+    "compilers-languages-and-runtimes",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime",
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "static-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-5ba779ee977a6495-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500a865/2bojvJmxSKc",
+      "kind": "publisher-page",
+      "title": "GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

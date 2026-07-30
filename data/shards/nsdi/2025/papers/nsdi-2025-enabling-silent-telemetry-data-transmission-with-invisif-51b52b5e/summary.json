@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-enabling-silent-telemetry-data-transmission-with-invisif-51b52b5e",
+  "takeaway": "InvisiFlow routes low-priority telemetry toward less-congested neighboring buffers, exploiting spare paths to reduce monitoring-data loss while leaving user traffic prioritized.",
+  "background": "Fine-grained network monitoring sends switch-generated telemetry to a small set of collectors over the same fabric as user traffic. The transmission channel must preserve useful records without congesting applications.",
+  "villain": "Shortest-path telemetry either competes at normal priority and delays user flows or runs at low priority and is starved or dropped on busy links.",
+  "approach": "Each switch stores telemetry in a programmable egress-register buffer and periodically sends lowest-priority pull requests containing its buffer use to every neighbor. A neighbor with more buffered telemetry replies with data, so records move down local congestion gradients; collectors advertise zero occupancy, and a distance-based slope discourages oscillation. Shared egress storage lets a payload be attached only when a low-priority packet can be scheduled on a port in that pipeline, while optional spare servers can absorb excess data.",
+  "impact": "The authors argue that this content- and topology-agnostic channel can improve monitoring accuracy by harvesting network-wide spare capacity without changing user-traffic forwarding.",
+  "evaluation": {
+    "overview": "The authors evaluate telemetry loss, monitoring accuracy, delay, user-flow completion time, and robustness in ns-3 simulations and a programmable-switch testbed.",
+    "implemented": "A roughly 600-line P4-16 switch program on two Wedge100BF-32X switches, with DPDK collectors and optional storage servers.",
+    "setting": "Simulations use a 144-server, 100-Gbps FatTree with 4:1 oversubscription under Hadoop and ML workloads; the hardware testbed virtualizes four leaves and two spines over 10-Gbps links.",
+    "baselines": [
+      "Default-priority UDP with packet spraying",
+      "Low-priority UDP with OrbWeaver packet generation and packet spraying",
+      "Pull-based shortest-path transmission without congestion gradients"
+    ],
+    "results": [
+      {
+        "id": "claim-invisiflow-missing-paths",
+        "text": "The authors report that, at 70% load in the default FatTree setting, InvisiFlow's missing-path ratio was 33.8× lower than low-priority UDP and 36.3× lower than pull-based shortest-path transmission.",
+        "source_ids": [
+          "src-nsdi25-pdf-51b52b5e"
+        ],
+        "locator": "PDF p. 10 (paper p. 79); §6.2, Figure 6"
+      },
+      {
+        "id": "claim-invisiflow-testbed-loss",
+        "text": "The authors report that, with the testbed's shortest collector path fully occupied by user traffic, InvisiFlow had 0% telemetry loss versus more than 97% for low-priority UDP, while both added less than 0.1% user-flow completion-time overhead.",
+        "source_ids": [
+          "src-nsdi25-pdf-51b52b5e"
+        ],
+        "locator": "PDF pp. 12–13 (paper pp. 81–82); §6.4, Figure 14(b)–(c)"
+      }
+    ],
+    "study_types": [
+      "simulation",
+      "hardware-prototype"
+    ]
+  },
+  "limitations": "Because telemetry remains lowest priority, delivery and latency are unbounded: if every port stays busy, packets can drop, and time-sensitive reports need restricted routing or a fallback channel. Each distinct collector group needs its own switch-buffer allocation, and the prototype's register design assumes small records under 160 B or per-hop segmentation.",
+  "phd_group_signal": "This work exemplifies a networking-systems style that turns queueing theory into data-plane mechanisms, then tests application accuracy and traffic interference in simulation and hardware.",
+  "beginner_concepts": [
+    "network telemetry",
+    "congestion gradients",
+    "low-priority scheduling",
+    "programmable switch data planes",
+    "flow completion time"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-invisiflow-central-mechanism",
+      "text": "InvisiFlow exchanges low-priority neighbor pull requests carrying telemetry-buffer occupancy; a higher-occupancy neighbor returns telemetry, while shared egress-register storage lets a payload be attached when a low-priority packet is scheduled on a port in that pipeline.",
+      "source_ids": [
+        "src-nsdi25-pdf-51b52b5e"
+      ],
+      "locator": "PDF pp. 5–7 (paper pp. 74–76); §3.2, §4, and §4.1, Figures 3–5"
+    },
+    {
+      "id": "claim-invisiflow-operating-boundary",
+      "text": "The design targets telemetry that tolerates asynchronous, out-of-order, and potentially arbitrarily delayed delivery; it cannot guarantee delivery when no spare bandwidth exists, and separate collector groups consume separate buffer allocations.",
+      "source_ids": [
+        "src-nsdi25-pdf-51b52b5e"
+      ],
+      "locator": "PDF p. 5 and p. 13 (paper pp. 74 and 82); §3.1 and §7"
+    },
+    {
+      "id": "claim-invisiflow-prototype-constraint",
+      "text": "The P4 prototype stores telemetry in egress register arrays and assumes records smaller than 160 B; the paper proposes per-hop segmentation for larger messages.",
+      "source_ids": [
+        "src-nsdi25-pdf-51b52b5e"
+      ],
+      "locator": "PDF p. 8 (paper p. 77); §5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-pdf-51b52b5e",
+      "url": "https://www.usenix.org/system/files/nsdi25-zhang-yinda.pdf",
+      "kind": "paper-pdf",
+      "title": "Enabling Silent Telemetry Data Transmission with InvisiFlow",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:27:14Z",
+      "content_hash": "sha256:4fbdd38a54156ec56f3368c281d998a5157dc1fed9801f3ad45ba791d1ac281e",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, architecture, transmission protocol, implementation, simulation and testbed evaluation, discussion, and conclusion",
+        "central mechanism, network and deployment assumptions, baselines, limitations, and author-reported quantitative results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e4",
+    "updated_at": "2026-07-30T03:44:52Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.2, §§3.1–3.2, §§4.1–4.2, §5, §§6.1–6.4, §7, and §9; inspected Figures 6–14 and Tables 2–3 where needed.",
+      "Checked pull semantics, buffer placement, collector behavior, low-priority assumptions, topology and workload parameters, baseline forwarding policies, loss rates, and user-traffic overhead directly against the PDF.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:33:42Z",
+    "last_verified_at": "2026-07-30T03:44:52Z",
+    "collector_version": "agent-e4-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

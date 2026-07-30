@@ -1,0 +1,155 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-finding-unstable-code-via-compiler-driven-differential-t-63624b8d",
+  "title": "Finding Unstable Code via Compiler-driven Differential Testing",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 7B: Software Security and Privacy",
+  "paper_type": "main-track",
+  "publication_date": "2023-03-25",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shaohua Li",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582053"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhendong Su",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582053"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3582016.3582053",
+    "official_page": "https://dl.acm.org/doi/10.1145/3582016.3582053",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.7612226",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/OTLuPv6WlT4",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3582016-3582053",
+      "url": "https://api.crossref.org/works/10.1145/3582016.3582053",
+      "kind": "crossref",
+      "title": "Finding Unstable Code via Compiler-driven Differential Testing",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:92c5e15355a867520cad88abb68f2c52c825f222a95f7b95ff1526dfb1b8de6d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582053",
+      "url": "https://www.semanticscholar.org/paper/03e0d8d1839045a6fd25080bbfa945b2801a2f3f",
+      "kind": "semantic-scholar",
+      "title": "Finding Unstable Code via Compiler-Driven Differential Testing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:357d91faf29d99f85e3e560c7355c0fe788e6cd530ee8f1d0900486266ceb1cc",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-7612226",
+      "url": "https://zenodo.org/records/7612226",
+      "kind": "artifact-page",
+      "title": "Finding Unstable Code via Compiler-driven Differential Testing",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:7c7d8d7686075c33a47c740068c3af0abe40ed2759cccf99e5d0fc985b885e68",
+      "official": true,
+      "supports": [
+        "Author-deposited archival software or evaluation artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact paper title, named authors, DOI evidence, or an explicit ASPLOS 2023 artifact statement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

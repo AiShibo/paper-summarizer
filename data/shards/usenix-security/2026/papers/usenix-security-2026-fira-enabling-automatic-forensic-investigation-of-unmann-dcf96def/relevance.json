@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-fira-enabling-automatic-forensic-investigation-of-unmann-dcf96def",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a concrete attack, analysis, or testing artifact for mobile, embedded, or cyber-physical infrastructure.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware",
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack",
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-48eff27250e77594-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yizhi",
+      "kind": "paper-page",
+      "title": "FIRA: Enabling Automatic Forensic Investigation of Unmanned Aerial Vehicles",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:b91bf60cd26497e2053e49244402261e700214dbcf994142827bb05f2b4c9715",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

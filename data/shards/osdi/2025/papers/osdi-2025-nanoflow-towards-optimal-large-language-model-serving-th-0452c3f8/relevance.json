@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-nanoflow-towards-optimal-large-language-model-serving-th-0452c3f8",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material machine-learning systems mechanism at the runtime layer.",
+  "topics": [
+    "ml-systems",
+    "inference-systems",
+    "compilers-languages-and-runtimes",
+    "runtime-systems",
+    "computer-architecture",
+    "accelerators"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2025-program",
+      "url": "https://www.usenix.org/conference/osdi25/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:dc0caf8b01af2d4d143c0109121f15a8eeb82e24303e03b01cd1caf2e607dea1",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2025-paper-zhu-kan",
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhu-kan",
+      "kind": "paper-page",
+      "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:10a2cf376828a60f3b95db5f5c0daff7d859546849cb8901897ad925ec3e8fed",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

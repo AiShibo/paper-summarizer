@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-lightweight-internet-bandwidth-allocation-and-isolation-027fe946",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a virtualization and isolation system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation",
+    "networking",
+    "network-security"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-e92c20062e0c6b06-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lightweight-internet-bandwidth-allocation-and-isolation-with-fractional-fair-shares/",
+      "kind": "paper-page",
+      "title": "Lightweight Internet Bandwidth Allocation and Isolation with Fractional Fair Shares",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:58b7ad2d7e15fb4762c356e9a7e2752aacf7cd2c25c1a8a799a3947a1b1f9918",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

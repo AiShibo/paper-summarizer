@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-jiwu-shu",
+  "author_id": "author-jiwu-shu",
+  "display_name": "Jiwu Shu",
+  "official_profile_url": "https://www.cs.tsinghua.edu.cn/csen/info/1300/4372.htm",
+  "current_institution_id": "institution-tsinghua-university",
+  "department": "Department of Computer Science and Technology",
+  "faculty_rank": "Professor",
+  "current_location": {
+    "city": "Beijing",
+    "state_or_province": "Beijing",
+    "country": "China",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": null,
+  "sources": [
+    {
+      "id": "src-faculty-jiwu-shu-profile",
+      "url": "https://www.cs.tsinghua.edu.cn/csen/info/1300/4372.htm",
+      "kind": "faculty-page",
+      "title": "Official faculty profile for Jiwu Shu",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null unless an explicit current official statement was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region",
+      "recruiting"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e5",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:27:01Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/sigcomm/2025"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "sigcomm-2025-software-based-live-migration-for-rdma-5d944d48",
+    "sigcomm-2025-fornax-a-hardware-centric-session-management-in-large-pu-5dbf516e",
+    "sigcomm-2025-prete-traffic-engineering-with-predictive-failures-12a9d0d8",
+    "sigcomm-2025-s2-a-distributed-configuration-verifier-for-hyper-scale-cfa14efa",
+    "sigcomm-2025-skynet-analyzing-alert-flooding-from-severe-network-fail-274006f2"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Calibration assignment summary-calibration-agent-e5-001.",
+    "Verified canonical paper-ID SHA-256: 94f625bc7ba798d71a19fea65d82b556da18204a871096e20dabe208b7493871.",
+    "Completed exactly five summary.json files under data/shards/sigcomm/2025; no unresolved summary fields remain.",
+    "Primary sources were the five assigned full papers: two ACM-hosted PDFs, coauthor-hosted PreTE, author-group-hosted S2, and the author-deposited SkyNet version of record in University of Michigan Deep Blue.",
+    "Validation passed: SIGCOMM 2025 draft profile checked 88 bundles and 529 JSON files with 0 errors and 0 warnings; all-shards draft profile checked 6,863 bundles and 41,320 JSON files with 0 errors and 0 warnings; make check passed 12 tests and its release/draft validation targets."
+  ]
+}

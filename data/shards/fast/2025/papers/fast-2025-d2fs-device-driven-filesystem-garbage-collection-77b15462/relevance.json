@@ -1,0 +1,84 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-d2fs-device-driven-filesystem-garbage-collection-77b15462",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete storage measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "file-systems",
+    "ssd-and-flash",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "hardware",
+    "kernel",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "measurement-study",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:d00f43efdd31af60c59e4851dfff621aa4e0086f902ffc7babf0f4917a57f453",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2025-d2fs-device-driven-filesystem-garbage-collection-77b15462-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/kim-juwon",
+      "kind": "paper-page",
+      "title": "D2FS: Device-Driven Filesystem Garbage Collection",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:15b07ce2cd6538317dd93821a321b2c66fc598ece6f0068e22d7d42f9c65236b",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

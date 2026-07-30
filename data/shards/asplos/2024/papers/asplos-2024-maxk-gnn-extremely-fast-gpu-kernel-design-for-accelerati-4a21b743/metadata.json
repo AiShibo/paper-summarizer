@@ -1,0 +1,317 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-maxk-gnn-extremely-fast-gpu-kernel-design-for-accelerati-4a21b743",
+  "title": "MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 7D: Graph Neural Networks",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hongwu Peng",
+      "position": 1,
+      "orcid": "0000-0003-2025-2195",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Xie",
+      "position": 2,
+      "orcid": "0009-0001-7489-2860",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaustubh Shivdikar",
+      "position": 3,
+      "orcid": "0000-0002-4449-7974",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, Massachusetts, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Md Amit Hasan",
+      "position": 4,
+      "orcid": "0000-0001-8774-0228",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiahui Zhao",
+      "position": 5,
+      "orcid": "0009-0000-0558-5579",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaoyi Huang",
+      "position": 6,
+      "orcid": "0000-0001-6093-9798",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Omer Khan",
+      "position": 7,
+      "orcid": "0000-0001-6293-7403",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Kaeli",
+      "position": 8,
+      "orcid": "0000-0002-5692-0151",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, Massachusetts, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Caiwen Ding",
+      "position": 9,
+      "orcid": "0000-0003-0891-1231",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Connecticut, Storrs, Connecticut, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640426"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640426",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640426",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640426",
+    "artifact": "https://doi.org/10.5281/zenodo.10695278",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://ucla.box.com/s/dsdg8llhh0703khnr5rinis303dsyjjd",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2312.08656",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640426",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640426",
+      "kind": "crossref",
+      "title": "MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:39a1ad08cbfebf7f711446d3797785a1bafd2bfeab8c5560607e3278d6044086",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640426",
+      "url": "https://www.semanticscholar.org/paper/ff85cbe6b374f87027b4445e126bd1a64e9504ac",
+      "kind": "semantic-scholar",
+      "title": "MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:16aa0cba3278d6809ff767917ab20cc23c354ab4066839157501ae106ab040b0",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10695278",
+      "url": "https://zenodo.org/records/10695278",
+      "kind": "artifact-page",
+      "title": "ASPLOS 2024 Artifact for \"MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:fb348833d43fc1caf80447d951216a30f1cf4d4791bd34a3fe0ebe7cdf888077",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

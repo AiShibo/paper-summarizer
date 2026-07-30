@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-lost-in-translation-text-message-spoofing-via-email-bc5dbce8",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper technically analyzes, attacks, or defends deployed network infrastructure and therefore has material systems relevance.",
+  "topics": [
+    "network-security",
+    "networking",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-02e45f96af73ad66-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500c570/2hBEszy8168",
+      "kind": "publisher-page",
+      "title": "Lost in Translation: Text Message Spoofing via Email",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

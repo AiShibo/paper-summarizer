@@ -1,0 +1,229 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-parameterized-hardware-design-with-latency-abstract-inte-50cbcde2",
+  "title": "Parameterized Hardware Design with Latency-Abstract Interfaces",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6B: Hardware Design Languages",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rachit Nigam",
+      "position": 1,
+      "orcid": "0000-0003-0983-5867",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ethan Gabizon",
+      "position": 2,
+      "orcid": "0009-0003-1580-807X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Edmund Lam",
+      "position": 3,
+      "orcid": "0009-0001-9375-6397",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Carolyn Zech",
+      "position": 4,
+      "orcid": "0009-0001-5218-4329",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MIT CSAIL, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Balkind",
+      "position": 5,
+      "orcid": "0000-0003-1443-1373",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Santa Barbara, Santa Barbara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adrian Sampson",
+      "position": 6,
+      "orcid": "0000-0003-0837-8924",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790199"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790199",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790199",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2401.02570",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790199",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790199",
+      "kind": "crossref",
+      "title": "Parameterized Hardware Design with Latency-Abstract Interfaces",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:313a0a70f214368d1037ca6b410242a60042da481b66109915900575eefba1b2",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790199",
+      "url": "https://www.semanticscholar.org/paper/907cb3d89375a820a44e2e1f308bf1345fb2c578",
+      "kind": "semantic-scholar",
+      "title": "Parameterized Hardware Design with Latency-Abstract Interfaces",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:d14562dba922c65d8c07ca43ea8be4c689f8a231096b70b33edc173e03bdf997",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

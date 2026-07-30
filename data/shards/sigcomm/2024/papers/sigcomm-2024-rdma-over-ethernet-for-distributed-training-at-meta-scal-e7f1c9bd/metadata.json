@@ -1,0 +1,392 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-rdma-over-ethernet-for-distributed-training-at-meta-scal-e7f1c9bd",
+  "title": "RDMA over Ethernet for Distributed Training at Meta Scale",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Moving bits for AI — Experience Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Adithya Gangidi",
+      "position": 1,
+      "orcid": "0009-0000-9050-0444",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Miao",
+      "position": 2,
+      "orcid": "0000-0002-1436-2374",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengbao Zheng",
+      "position": 3,
+      "orcid": "0000-0003-3904-8725",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sai Jayesh Bondu",
+      "position": 4,
+      "orcid": "0009-0004-9528-9958",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guilherme Goes",
+      "position": 5,
+      "orcid": "0009-0002-4078-5781",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hany Morsy",
+      "position": 6,
+      "orcid": "0009-0009-4622-2382",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rohit Puri",
+      "position": 7,
+      "orcid": "0009-0009-5786-7995",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Riftadi",
+      "position": 8,
+      "orcid": "0000-0002-0903-7315",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ashmitha Jeevaraj Shetty",
+      "position": 9,
+      "orcid": "0009-0002-9220-8353",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingyi Yang",
+      "position": 10,
+      "orcid": "0009-0004-5733-7808",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuqiang Zhang",
+      "position": 11,
+      "orcid": "0009-0003-3255-178X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mikel Jimenez Fernandez",
+      "position": 12,
+      "orcid": "0009-0005-6223-5459",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shashidhar Gandham",
+      "position": 13,
+      "orcid": "0009-0003-7054-1777",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyi Zeng",
+      "position": 14,
+      "orcid": "0000-0002-4205-4678",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672233",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672233",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672233",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=wLW3UzUw5rY",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-rdma-over-ethernet-for-distributed-training-at-meta-scal-e7f1c9bd-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672233",
+      "kind": "publisher-page",
+      "title": "RDMA over Ethernet for Distributed Training at Meta Scale",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-rdma-over-ethernet-for-distributed-training-at-meta-scal-e7f1c9bd-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672233",
+      "kind": "crossref",
+      "title": "Crossref metadata for RDMA over Ethernet for Distributed Training at Meta Scale",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c6727ae9b16a1391710d67fe7862a080cb86a5fb62a7f1d1c44ef6293280ce87",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Experience Track within the Moving bits for AI technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

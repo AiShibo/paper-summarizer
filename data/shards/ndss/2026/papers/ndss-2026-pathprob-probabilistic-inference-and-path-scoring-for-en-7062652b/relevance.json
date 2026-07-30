@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-pathprob-probabilistic-inference-and-path-scoring-for-en-7062652b",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a network security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "networking",
+    "network-security",
+    "secure-routing"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "dataset",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-6010650f87f1a734-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pathprob-probabilistic-inference-and-path-scoring-for-enhanced-and-flexible-bgp-route-leak-detection/",
+      "kind": "paper-page",
+      "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d6542820f52301c89d7c368e2e39b785a9bc1175606450419f19d27388bd5684",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

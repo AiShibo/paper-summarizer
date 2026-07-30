@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-t-ee-m3-core-independent-and-cooperating-trusted-executi-4ecbf49a",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: T EE M³ is an implemented and evaluated trusted-execution or hardware-security mechanism.",
+  "topics": [
+    "trusted-execution-environments",
+    "confidential-computing",
+    "hardware-security",
+    "program-analysis"
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790232",
+      "url": "https://www.semanticscholar.org/paper/1bba5d07c33a3b848d89096d7d06bd21189a66b0",
+      "kind": "semantic-scholar",
+      "title": "TEEM³: Core-Independent and Cooperating Trusted Execution Environments",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:ef6dd4da0880f55a27214235f11f9b888252391c400f1064b5eabf0364a300f1",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

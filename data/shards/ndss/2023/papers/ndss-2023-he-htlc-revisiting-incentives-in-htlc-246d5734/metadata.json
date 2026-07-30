@@ -1,0 +1,171 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-he-htlc-revisiting-incentives-in-htlc-246d5734",
+  "title": "He-HTLC: Revisiting Incentives in HTLC",
+  "venue": "ndss",
+  "year": 2023,
+  "track_or_session": "Blockchains II",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sarisht Wadhwa",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d34b9c13ff78dbc1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jannis Stoeter",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d34b9c13ff78dbc1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University, Yale University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d34b9c13ff78dbc1-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kartik Nayak",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Duke University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d34b9c13ff78dbc1-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2023.24775",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/he-htlc-revisiting-incentives-in-htlc/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-775-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024/10/2023-775-slides.pdf",
+    "video": "https://youtu.be/bMVYRp5bTVk?si=9lQ_gbcYnA7np-Cg",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-430b900b18656639-program",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-d34b9c13ff78dbc1-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/he-htlc-revisiting-incentives-in-htlc/",
+      "kind": "paper-page",
+      "title": "He-HTLC: Revisiting Incentives in HTLC",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-af3b668c9a544ecd-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2023.24775",
+      "kind": "crossref",
+      "title": "He-HTLC: Revisiting Incentives in HTLC",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

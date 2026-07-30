@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-nnsmith-generating-diverse-and-valid-test-cases-for-deep-8e1a3814",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because NNSmith contributes a concrete systems compiler and program optimization mechanism for generating Diverse and Valid Test Cases for Deep Learning Compilers, while its primary contribution is compiler fuzzing and vulnerability discovery.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "compilers",
+    "runtime-systems",
+    "ml-systems",
+    "reliability-testing-and-debugging",
+    "fuzzing",
+    "systems-security",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575707",
+      "url": "https://www.semanticscholar.org/paper/4dc58ffbe6bbcc76cc4c436e9eb8f55dd661bcce",
+      "kind": "semantic-scholar",
+      "title": "NNSmith: Generating Diverse and Valid Test Cases for Deep Learning Compilers",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:0a21fe0772f623b5c9ea1bf066087988c371eb3041b3000f5d34c5ca8b22d762",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Classified from the official ASPLOS technical session and the complete abstract indexed by Semantic Scholar; no official conference abstract page was available, and independent review is still required.",
+      "The indexed abstract identifies a material architecture, compiler, runtime, communication, scheduling, storage, training, inference, or hardware/software co-design mechanism; the paper was not included merely for proposing or applying a machine-learning algorithm."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

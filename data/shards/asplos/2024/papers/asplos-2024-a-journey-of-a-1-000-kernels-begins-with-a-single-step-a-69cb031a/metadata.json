@@ -1,0 +1,236 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-a-journey-of-a-1-000-kernels-begins-with-a-single-step-a-69cb031a",
+  "title": "A Journey of a 1,000 Kernels Begins with a Single Step: A Retrospective of Deep Learning on GPUs",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1C: Case Studies and Experience",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Michael Davies",
+      "position": 1,
+      "orcid": "0009-0004-1588-9604",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ian McDougall",
+      "position": 2,
+      "orcid": "0009-0005-4339-7233",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Selvaraj Anandaraj",
+      "position": 3,
+      "orcid": "0009-0007-0815-9090",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Deep Machchhar",
+      "position": 4,
+      "orcid": "0009-0004-0826-7874",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rithik Jain",
+      "position": 5,
+      "orcid": "0009-0008-7953-6786",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Karthikeyan Sankaralingam",
+      "position": 6,
+      "orcid": "0000-0002-8315-2389",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640367"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640367",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640367",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640367",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/kmR8GV5a1mQ",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640367",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640367",
+      "kind": "crossref",
+      "title": "A Journey of a 1,000 Kernels Begins with a Single Step: A Retrospective of Deep Learning on GPUs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:2cb1a4dc558f4b146532724ce3192c7f596d50f176640db42654f7ac3f0925fe",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640367",
+      "url": "https://www.semanticscholar.org/paper/67e022a965331243f58418a1ace267d869555c06",
+      "kind": "semantic-scholar",
+      "title": "A Journey of a 1,000 Kernels Begins with a Single Step: A Retrospective of Deep Learning on GPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:797e70700783ab1f8fc52ff50af3e6e8fc08a6f599786d8323902fb9cee21b2f",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

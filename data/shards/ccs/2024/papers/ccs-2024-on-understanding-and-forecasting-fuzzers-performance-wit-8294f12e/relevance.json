@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-on-understanding-and-forecasting-fuzzers-performance-wit-8294f12e",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a compiler, language, and runtime security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "bug-finding-or-testing-tool",
+    "benchmark"
+  ],
+  "methods": [
+    "static-analysis",
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-298d83bc2bef308a-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670348",
+      "kind": "publisher-page",
+      "title": "On Understanding and Forecasting Fuzzers Performance with Static Analysis",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-b909b574d83bddc5-abstract",
+      "url": "https://www.semanticscholar.org/paper/a69e3611e3f31a1c0d7cd32d85d6da7f451a10eb",
+      "kind": "semantic-scholar",
+      "title": "On Understanding and Forecasting Fuzzers Performance with Static Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

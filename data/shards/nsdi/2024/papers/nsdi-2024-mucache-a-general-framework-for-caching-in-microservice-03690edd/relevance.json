@@ -1,0 +1,81 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2024-mucache-a-general-framework-for-caching-in-microservice-03690edd",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Serverless session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "caching",
+    "networking",
+    "cloud-and-datacenter-systems",
+    "serverless-computing",
+    "service-management"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "benchmark"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi24-program",
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:1f8993088067edcdad68f3167ffbf70c0f1d4567ff33de608d49018f637edfa5",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2024-mucache-a-general-framework-for-caching-in-microservice-03690edd-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran",
+      "kind": "paper-page",
+      "title": "MuCache: A General Framework for Caching in Microservice Graphs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:bed692ff69b9d977a4ae6169171a7eb4cbc8260c68fc358db7eb99b65530b07a",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

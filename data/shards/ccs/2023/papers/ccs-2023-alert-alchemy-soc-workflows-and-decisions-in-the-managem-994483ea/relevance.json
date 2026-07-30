@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-alert-alchemy-soc-workflows-and-decisions-in-the-managem-994483ea",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is an interview study and organizational recommendations for SOC rule-management workflows, without a material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-6300a5ffbf6574bd-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract and paper identity used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

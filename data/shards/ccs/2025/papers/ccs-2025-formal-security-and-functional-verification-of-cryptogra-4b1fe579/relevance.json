@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-formal-security-and-functional-verification-of-cryptogra-4b1fe579",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper's primary contribution is a network security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "networking",
+    "network-security",
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-4bcb60b9f436c56a-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765213",
+      "kind": "publisher-page",
+      "title": "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-a44aa9a42f90586f-abstract",
+      "url": "https://openalex.org/W4416549386",
+      "kind": "openalex",
+      "title": "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

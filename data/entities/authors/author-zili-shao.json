@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/author.schema.json",
+  "schema_version": "1.0.0",
+  "author_id": "author-zili-shao",
+  "display_name": "Zili Shao",
+  "name_variants": [],
+  "orcid": null,
+  "dblp_url": null,
+  "sources": [
+    {
+      "id": "src-author-zili-shao-profile",
+      "url": "https://www.cse.cuhk.edu.hk/~shao/",
+      "kind": "faculty-page",
+      "title": "Official profile for Zili Shao",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "author identity",
+        "display name"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Created for an evidence-backed faculty association; no metadata.json author reference was rewritten."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "orcid",
+      "dblp_url"
+    ]
+  }
+}

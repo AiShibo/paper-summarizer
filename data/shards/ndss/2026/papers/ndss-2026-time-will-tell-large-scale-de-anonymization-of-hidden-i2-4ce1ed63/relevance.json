@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-time-will-tell-large-scale-de-anonymization-of-hidden-i2-4ce1ed63",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper technically analyzes, attacks, or defends deployed network infrastructure and therefore has material systems relevance.",
+  "topics": [
+    "network-security",
+    "networking",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-2a38b8e08fb19033-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/time-will-tell-large-scale-de-anonymization-of-hidden-i2p-services-via-live-behavior-alignment/",
+      "kind": "paper-page",
+      "title": "Time will Tell: Large-scale De-anonymization of Hidden I2P Services via Live Behavior Alignment",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:f5d0b6b4921bf26283a1d7f60ab6c25fddbda9ea9444ac52aee004a0be78dd26",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

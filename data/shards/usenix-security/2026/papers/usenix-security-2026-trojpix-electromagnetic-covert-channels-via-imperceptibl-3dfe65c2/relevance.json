@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-trojpix-electromagnetic-covert-channels-via-imperceptibl-3dfe65c2",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper demonstrates or analyzes a concrete hardware, microarchitectural, or physical-system security issue.",
+  "topics": [
+    "hardware-security",
+    "computer-architecture",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-660a34bbd527c7bd-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming",
+      "kind": "paper-page",
+      "title": "TrojPix: Electromagnetic Covert Channels via Imperceptible Pixel Modulation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:f533ca7224fe86b36a1cdf971f0dff8f11f5a41d9cf16c93b93bd3e3ed317b8a",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

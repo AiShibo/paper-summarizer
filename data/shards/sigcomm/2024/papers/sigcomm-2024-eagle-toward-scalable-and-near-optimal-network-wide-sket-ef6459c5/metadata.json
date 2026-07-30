@@ -1,0 +1,308 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-eagle-toward-scalable-and-near-optimal-network-wide-sket-ef6459c5",
+  "title": "Eagle: Toward Scalable and Near-Optimal Network-Wide Sketch Deployment in Network Measurement",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Measuring the data center and the Internet — Research Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xiang Chen",
+      "position": 1,
+      "orcid": "0000-0002-0249-9664",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingjiang Xiao",
+      "position": 2,
+      "orcid": "0009-0007-7576-2332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Southeast University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyan Liu",
+      "position": 3,
+      "orcid": "0000-0001-7753-0294",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qun Huang",
+      "position": 4,
+      "orcid": "0000-0002-2387-6131",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dong Zhang",
+      "position": 5,
+      "orcid": "0000-0002-6379-0244",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fuzhou University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuan Liu",
+      "position": 6,
+      "orcid": "0000-0002-7966-4488",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yangzhou University and Southeast University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Longbing Hu",
+      "position": 7,
+      "orcid": "0009-0000-8715-6400",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ZTE Corporation",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haifeng Zhou",
+      "position": 8,
+      "orcid": "0000-0002-8008-2805",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunming Wu",
+      "position": 9,
+      "orcid": "0000-0001-7958-9687",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kui Ren",
+      "position": 10,
+      "orcid": "0000-0002-1969-2591",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672244",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672244",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672244",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=iNWILBG_nlw",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-eagle-toward-scalable-and-near-optimal-network-wide-sket-ef6459c5-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672244",
+      "kind": "publisher-page",
+      "title": "Eagle: Toward Scalable and Near-Optimal Network-Wide Sketch Deployment in Network Measurement",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-eagle-toward-scalable-and-near-optimal-network-wide-sket-ef6459c5-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672244",
+      "kind": "crossref",
+      "title": "Crossref metadata for Eagle: Toward Scalable and Near-Optimal Network-Wide Sketch Deployment in Network Measurement",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:6afb5b1a72b7d4d81ea9fadd8f4980a36bef0aa9716afe362675d1db03b8d3a2",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Research Track within the Measuring the data center and the Internet technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-fault-escaping-improving-robustness-of-dpu-enhanced-plat-c283282b",
+  "title": "Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 9C: Reliability & Fault Tolerance",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-06",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chao Zhang",
+      "position": 1,
+      "orcid": "0009-0000-7824-5823",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tao Xu",
+      "position": 2,
+      "orcid": "0009-0009-2692-3827",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junming Liu",
+      "position": 3,
+      "orcid": "0009-0003-1763-3904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pai Liu",
+      "position": 4,
+      "orcid": "0009-0004-0873-9499",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhilang Xu",
+      "position": 5,
+      "orcid": "0009-0006-6181-0404",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kang Yan",
+      "position": 6,
+      "orcid": "0009-0005-5078-5680",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuo Shi",
+      "position": 7,
+      "orcid": "0009-0007-0476-0938",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jintao Li",
+      "position": 8,
+      "orcid": "0009-0009-3060-698X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinhu Li",
+      "position": 9,
+      "orcid": "0009-0009-0450-8470",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Liang",
+      "position": 10,
+      "orcid": "0009-0001-8040-8545",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenhui Shu",
+      "position": 11,
+      "orcid": "0009-0006-5521-4366",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "FeiFei Fan",
+      "position": 12,
+      "orcid": "0009-0006-8872-1225",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yibin Shen",
+      "position": 13,
+      "orcid": "0009-0009-3447-5577",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hang Yang",
+      "position": 14,
+      "orcid": "0009-0007-9613-2276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianming Song",
+      "position": 15,
+      "orcid": "0009-0003-9372-3805",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xudong Zheng",
+      "position": 16,
+      "orcid": "0009-0002-5629-5082",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, Zhejiang, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiesheng Wu",
+      "position": 17,
+      "orcid": "0000-0001-7417-5469",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Bellvue, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jian Li",
+      "position": 18,
+      "orcid": "0000-0003-0894-0892",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736124"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676642.3736124",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676642.3736124",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676642.3736124",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3676642-3736124",
+      "url": "https://api.crossref.org/works/10.1145/3676642.3736124",
+      "kind": "crossref",
+      "title": "Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:10bc41bdfc9df825decfe6e2c329a9ac50de86816c9d98b045936a5874e66ab2",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736124",
+      "url": "https://www.semanticscholar.org/paper/a0de71e03c61c900c50e44fd0f4f7229cd87a65b",
+      "kind": "semantic-scholar",
+      "title": "Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3b3a47f16d4aa175f886d1265c2a4fb91f36cb44a875dfc6a67f9b918385fe95",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher labels this DOI as ASPLOS 2025 Volume 3 with a 2025-08-06 date; the official ASPLOS 2026 detailed program controls venue-year placement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Publisher prior-volume label/date conflict with official ASPLOS 2026 program placement",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

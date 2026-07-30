@@ -1,0 +1,369 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2023-automated-verification-of-an-in-production-dns-authorita-e83d835c",
+  "title": "Automated Verification of an In-Production DNS Authoritative Engine",
+  "venue": "sosp",
+  "year": 2023,
+  "track_or_session": "Session 2: Reliability",
+  "paper_type": "main-track",
+  "publication_date": "2023-10-23",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Naiqian Zheng",
+      "position": 1,
+      "orcid": "0000-0002-2231-7901",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengqi Liu",
+      "position": 2,
+      "orcid": "0000-0001-7027-4566",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxing Xiang",
+      "position": 3,
+      "orcid": "0009-0001-1942-9902",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Linjian Song",
+      "position": 4,
+      "orcid": "0009-0004-9288-4778",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dong Li",
+      "position": 5,
+      "orcid": "0009-0002-7981-2468",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Han",
+      "position": 6,
+      "orcid": "0009-0000-4816-5224",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nan Wang",
+      "position": 7,
+      "orcid": "0009-0008-3014-348X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Ma",
+      "position": 8,
+      "orcid": "0009-0004-4238-4695",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuo Liang",
+      "position": 9,
+      "orcid": "0009-0008-3875-7902",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dennis Cai",
+      "position": 10,
+      "orcid": "0009-0004-5824-8911",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ennan Zhai",
+      "position": 11,
+      "orcid": "0000-0003-4352-7497",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuanzhe Liu",
+      "position": 12,
+      "orcid": "0000-0002-7908-8484",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Jin",
+      "position": 13,
+      "orcid": "0000-0001-8741-5847",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3600006.3613153",
+    "official_page": "https://dl.acm.org/doi/10.1145/3600006.3613153",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3600006.3613153",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2023-program",
+      "url": "https://sosp2023.mpi-sws.org/program.html",
+      "kind": "conference-program",
+      "title": "SOSP 2023 Program and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:b1ca7574d2135647662905d071529b97d6bceedf399845c430848796aa90bb81",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2023-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3600006",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 29th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2023-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:40ab4d58471a39d911579c087dcf8711502dcc25481990e60b1b8c3c385238c1",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-fuseflow-a-fusion-centric-compilation-framework-for-spar-368d02e7",
+  "title": "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 4B: ML Compilers & Tensor Programs",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 23,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rubens Lacouture",
+      "position": 1,
+      "orcid": "0009-0008-2268-0074",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nathan Zhang",
+      "position": 2,
+      "orcid": "0000-0002-9668-902X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SambaNova Systems, Inc., Palo Alto, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ritvik Sharma",
+      "position": 3,
+      "orcid": "0000-0002-5809-7031",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marco Siracusa",
+      "position": 4,
+      "orcid": "0000-0003-2782-837X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Barcelona Supercomputing Center, Barcelona, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fredrik Kjolstad",
+      "position": 5,
+      "orcid": "0000-0002-2267-903X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunle Olukotun",
+      "position": 6,
+      "orcid": "0000-0002-8779-0636",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olivia Hsu",
+      "position": 7,
+      "orcid": "0000-0002-4195-8106",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA and Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790165"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790165",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790165",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2511.04768",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790165",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790165",
+      "kind": "crossref",
+      "title": "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:cd3dac400e36f907a3348a69684152b67a74d3476ea3b2620c81a2faa2b8c3f1",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790165",
+      "url": "https://www.semanticscholar.org/paper/16c47ca02c5915d52ec921fec43773054c24b85d",
+      "kind": "semantic-scholar",
+      "title": "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:9c3ab04b22447fe0c9cc820f1e95dd31ec64c97622a0a4a0fde826fc2fc7a7f7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

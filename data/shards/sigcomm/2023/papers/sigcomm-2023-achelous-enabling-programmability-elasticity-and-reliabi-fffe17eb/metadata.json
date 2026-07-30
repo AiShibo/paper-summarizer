@@ -1,0 +1,435 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2023-achelous-enabling-programmability-elasticity-and-reliabi-fffe17eb",
+  "title": "Achelous: Enabling Programmability, Elasticity, and Reliability in Hyperscale Cloud Networks",
+  "venue": "sigcomm",
+  "year": 2023,
+  "track_or_session": "Data Center Programming — Experience Paper",
+  "paper_type": "main-track",
+  "publication_date": "2023-09-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chengkun Wei",
+      "position": 1,
+      "orcid": "0000-0001-8849-8808",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing Li",
+      "position": 2,
+      "orcid": "0009-0009-5379-7512",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University and Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ye Yang",
+      "position": 3,
+      "orcid": "0000-0002-3662-3846",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud and Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaochong Jiang",
+      "position": 4,
+      "orcid": "0009-0003-8343-6394",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyu Xu",
+      "position": 5,
+      "orcid": "0009-0005-1159-9180",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bowen Yang",
+      "position": 6,
+      "orcid": "0009-0000-1401-1606",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Taotao Wu",
+      "position": 7,
+      "orcid": "0000-0001-7939-3609",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chao Xu",
+      "position": 8,
+      "orcid": "0009-0004-0099-2609",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yilong Lv",
+      "position": 9,
+      "orcid": "0000-0002-5194-5288",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haifeng Gao",
+      "position": 10,
+      "orcid": "0009-0000-8715-6486",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhentao Zhang",
+      "position": 11,
+      "orcid": "0009-0007-9178-0979",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zikang Chen",
+      "position": 12,
+      "orcid": "0009-0001-3720-0570",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeke Wang",
+      "position": 13,
+      "orcid": "0000-0001-8550-9241",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihui Zhang",
+      "position": 14,
+      "orcid": "0009-0006-7501-4943",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shunmin Zhu",
+      "position": 15,
+      "orcid": "0000-0001-7756-0952",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Alibaba Cloud",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenzhi Chen",
+      "position": 16,
+      "orcid": "0000-0003-1674-4701",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3603269.3604859",
+    "official_page": "https://dl.acm.org/doi/10.1145/3603269.3604859",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3603269.3604859",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=dWCC_U6jCqw&list=PLU4C2_kotFP2JAkoL6pcgbb52f6GIJJd7&index=41",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm23-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e3c4b173cfbedcc908c51c7b97b3b7074aec5a4a2b2b8e0a49d7a9d6f9123e3",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-achelous-enabling-programmability-elasticity-and-reliabi-fffe17eb-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3603269.3604859",
+      "kind": "publisher-page",
+      "title": "Achelous: Enabling Programmability, Elasticity, and Reliability in Hyperscale Cloud Networks",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-achelous-enabling-programmability-elasticity-and-reliabi-fffe17eb-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604859",
+      "kind": "crossref",
+      "title": "Crossref metadata for Achelous: Enabling Programmability, Elasticity, and Reliability in Hyperscale Cloud Networks",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:605f044a6eb2eaca1e600074118a59f3670afbfbb0aff64095b33299e4fad437",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs",
+        "proceedings page range and print publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The publication date follows the publisher-deposited print date and the CFP's first-day-of-conference publication rule.",
+      "The official accepted-paper list labels this item Experience Paper within the Data Center Programming technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

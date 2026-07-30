@@ -1,0 +1,81 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2024-harmony-a-congestion-free-datacenter-architecture-6588765c",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Distributed Systems: Part 1 session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "networking",
+    "transport-protocols",
+    "programmable-networks",
+    "datacenter-networking",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "hardware",
+    "distributed-service",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi24-program",
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:1f8993088067edcdad68f3167ffbf70c0f1d4567ff33de608d49018f637edfa5",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2024-harmony-a-congestion-free-datacenter-architecture-6588765c-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi24/presentation/agarwal-saksham",
+      "kind": "paper-page",
+      "title": "Harmony: A Congestion-free Datacenter Architecture",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:a5dd97b83789a3186aa29e2c9140d165353f2af27e84a2fce738b5363efd5941",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-chasing-shadows-pitfalls-in-llm-security-research-81c1063b",
+  "title": "Chasing Shadows: Pitfalls in LLM Security Research",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Fall submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jonathan Evertz",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Niklas Risse",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nicolai Neuer",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Karlsruhe Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andreas Müller",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ruhr University Bochum",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Philipp Normann",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "TU Wien",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaetano Sapia",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Srishti Gupta",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Pape",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Soumya Shaw",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Devansh Srivastav",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christian Wressnegger",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Karlsruhe Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Erwin Quiring",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "_fbeta",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thorsten Eisenhofer",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Arp",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "TU Wien",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lea Schönherr",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-295c03fda21adb2e-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.241749",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1749-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/f1749-evertz-slides.pdf",
+    "video": "https://youtu.be/iPwKbwxsxAE",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-feef1c6b53b9edb3-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-295c03fda21adb2e-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+      "kind": "paper-page",
+      "title": "Chasing Shadows: Pitfalls in LLM Security Research",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:642a7c05eac03a1437be8ff644a39d2278b3b04cd1186300c75a7ee2e4edec7b",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-c8eda4574ef4811b-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.241749",
+      "kind": "crossref",
+      "title": "Chasing Shadows: Pitfalls in LLM Security Research",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-f544b65ba574f9aa-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/EvertzRNMNSGPSS26",
+      "kind": "dblp",
+      "title": "Chasing Shadows: Pitfalls in LLM Security Research",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

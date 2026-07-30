@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-automatic-tracing-in-task-based-runtime-systems-2ee39440",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because the paper contributes a concrete systems tracing, observability, or performance analysis mechanism for automatic Tracing in Task-Based Runtime Systems.",
+  "topics": [
+    "reliability-testing-and-debugging",
+    "observability",
+    "performance-diagnosis",
+    "measurement-and-empirical-systems-studies",
+    "compilers-languages-and-runtimes",
+    "runtime-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707237",
+      "url": "https://www.semanticscholar.org/paper/929e8a69b2865a6cb436ae0a902eaaa4bd43e5f3",
+      "kind": "semantic-scholar",
+      "title": "Automatic Tracing in Task-Based Runtime Systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:561049728a3ec0a45f5bf4fe9488d974c2123c5cccb59d6144998aa7b9f9d758",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

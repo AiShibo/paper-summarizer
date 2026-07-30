@@ -1,0 +1,150 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2025-beyond-classification-inferring-function-names-in-stripp-c2ba709d",
+  "title": "Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs",
+  "venue": "ndss",
+  "year": 2025,
+  "track_or_session": "Fall submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2025-02-24",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Linxi Jiang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Ohio State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b18b2b5d2da3647-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Jin",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Ohio State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b18b2b5d2da3647-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiqiang Lin",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Ohio State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b18b2b5d2da3647-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2025.240797",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/beyond-classification-inferring-function-names-in-stripped-binaries-via-domain-adapted-llms/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2025-797-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/11B-f0797-jiang-2025-02-15-04.46.44.pdf",
+    "video": "https://youtu.be/lWZWsuRudOk",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-cb6a2753a6a269dc-program",
+      "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2025 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-1b18b2b5d2da3647-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/beyond-classification-inferring-function-names-in-stripped-binaries-via-domain-adapted-llms/",
+      "kind": "paper-page",
+      "title": "Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-34c0ea44a9f26c00-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2025.240797",
+      "kind": "crossref",
+      "title": "Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

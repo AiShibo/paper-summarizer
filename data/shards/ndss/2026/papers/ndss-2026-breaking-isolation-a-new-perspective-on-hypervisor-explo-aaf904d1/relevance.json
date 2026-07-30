@@ -1,0 +1,60 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-breaking-isolation-a-new-perspective-on-hypervisor-explo-aaf904d1",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "memory-safety",
+    "virtualization-and-isolation",
+    "isolation",
+    "compilers-languages-and-runtimes"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "measurement-study",
+    "security-attack"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-efd685fe030ad2dc-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-isolation-a-new-perspective-on-hypervisor-exploitation-via-cross-domain-attacks/",
+      "kind": "paper-page",
+      "title": "Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6643ff697ef4e43aa98baa523a36546f3d76850c255d67ed86120f1a4e1bb1c4",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

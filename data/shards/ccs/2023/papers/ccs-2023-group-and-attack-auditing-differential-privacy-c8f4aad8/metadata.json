@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-group-and-attack-auditing-differential-privacy-c8f4aad8",
+  "title": "Group and Attack: Auditing Differential Privacy",
+  "venue": "ccs",
+  "year": 2023,
+  "track_or_session": "Differential Privacy (Privacy and Anonymity)",
+  "paper_type": "main-track",
+  "publication_date": "2023-11-21",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Johan Lokna",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Eidgenössische Technische Hochschule Zürich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b008865264aefd9f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anouk Paradis",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Eidgenössische Technische Hochschule Zürich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b008865264aefd9f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dimitar I. Dimitrov",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Eidgenössische Technische Hochschule Zürich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b008865264aefd9f-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin T. Vechev",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Eidgenössische Technische Hochschule Zürich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-b008865264aefd9f-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3576915.3616607",
+    "official_page": "https://doi.org/10.1145/3576915.3616607",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3576915.3616607",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b008865264aefd9f-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, title, session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-87b295feb88b83fb-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract, DOI, and page span"
+      ]
+    },
+    {
+      "id": "src-bb1b2e3f5d94f446-publisher",
+      "url": "https://doi.org/10.1145/3576915.3616607",
+      "kind": "publisher-page",
+      "title": "Group and Attack: Auditing Differential Privacy",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-b65e9a41dc7a2294-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3576915.3616607",
+      "kind": "crossref",
+      "title": "Group and Attack: Auditing Differential Privacy",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date and main-proceedings metadata"
+      ]
+    },
+    {
+      "id": "src-f61471d74e078abf-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/LoknaPDV23",
+      "kind": "dblp",
+      "title": "Group and Attack: Auditing Differential Privacy",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

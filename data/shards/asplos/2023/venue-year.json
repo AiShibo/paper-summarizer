@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "asplos",
+  "year": 2023,
+  "official_conference_url": "https://www.asplos-conference.org/asplos2023/index.html",
+  "official_program_url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+  "conference_dates": {
+    "start": "2023-03-25",
+    "end": "2023-03-29"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 128,
+    "core_systems": 113,
+    "systems_adjacent": 15,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2023-cfp",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3357.html",
+      "kind": "other",
+      "title": "Call for Papers – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:f0a119e98aead910f9b621fe5314986c58c3841a1264d3e16f636d742340f1d6",
+      "official": true,
+      "supports": [
+        "Conference scope, three review cycles, main research-paper policy, and artifact-evaluation policy."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-2023-3567955-query",
+      "url": "https://api.crossref.org/works?filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2023-12-31%2Ctype%3Aproceedings-article&query.container-title=28th%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%20Volume%201&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref ASPLOS 2023 Volume 1 metadata query",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:f4a96d52cd6d451226718d6232a4d537798d5e9aa09a18cfc07624c2931603f4",
+      "official": false,
+      "supports": [
+        "Publisher-deposited metadata for 9 official main-program papers in ASPLOS 2023 Volume 1."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-2023-3575693-query",
+      "url": "https://api.crossref.org/works?filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31%2Ctype%3Aproceedings-article&query.container-title=28th%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%20Volume%202&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref ASPLOS 2023 Volume 2 metadata query",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:586c07a24f50013966da7e122c0902e450dd1e0900446ee5da14d7a00790ccb1",
+      "official": false,
+      "supports": [
+        "Publisher-deposited metadata for 65 official main-program papers in ASPLOS 2023 Volume 2."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-2023-3582016-query",
+      "url": "https://api.crossref.org/works?filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31%2Ctype%3Aproceedings-article&query.container-title=28th%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%20Volume%203&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref ASPLOS 2023 Volume 3 metadata query",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:78a78e09dd8a20238de5118d56fbb7bbb31fd9c5d9e1ea2c56c7a6f7249d04d4",
+      "official": false,
+      "supports": [
+        "Publisher-deposited metadata for 54 official main-program papers in ASPLOS 2023 Volume 3. The same proceedings query exposes two one-page keynote abstracts, which were audited and excluded as non-main material."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Enumerated 128 unique DOI-linked main-track papers across 27 numbered technical sessions and three official proceedings volumes.",
+      "Three keynotes, one WACI block, and two poster-session blocks were excluded as non-main program material; lightning talks and posters duplicate main papers and were not added separately.",
+      "Volume 3 additionally contains two one-page archival keynote abstracts (DOIs 10.1145/3582016.3587050 and 10.1145/3582016.3587051), both excluded because the official program labels them keynotes rather than main technical papers.",
+      "All ML-themed papers expose a material architecture, compiler, runtime, communication, scheduling, storage, training, inference, or hardware/software co-design mechanism; no paper was excluded as ML-only.",
+      "Matched 19 papers to author-deposited archival Zenodo artifact records.",
+      "Resolved three duplicate Zenodo artifact candidates by retaining the latest or most complete deposit: two extra TREC records and one extra database-constraint artifact record were not attached.",
+      "Excluded artifact-search hits for ASPLOS 2024 Volume 4, ASPLOS 2026, and a TeraHeap paper-copy deposit because they were not artifacts for the official ASPLOS 2023 main-program boundary.",
+      "Captured all 128 official lightning-talk links, 76 publisher-deposited PDF links, 32 arXiv alternates, and 11 open repository copies.",
+      "Recorded 37 official-program versus Crossref title-rendering differences while preserving the official program title and stable initialized ID.",
+      "Nine official ASPLOS 2023 Volume 1 papers retain their exact publisher-deposited 2022-12-19 print date, reflecting publication before the March 2023 conference.",
+      "No duplicate DOI, duplicate canonical title, paper-ID collision, or proposed alias was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "ORCID values for all 809 author entries; publisher-deposited Crossref records expose none.",
+      "Official PDF links for 52 papers not exposed in publisher-deposited Crossref records.",
+      "Artifact links for 109 papers not exposed by the official program, indexed abstracts, or matched Zenodo audit.",
+      "Code, project, slide, BibTeX, and alternate-version links not exposed by the audited sources.",
+      "Independent title-rendering review for 37 official-program/Crossref differences documented in per-paper workflow notes."
+    ]
+  }
+}

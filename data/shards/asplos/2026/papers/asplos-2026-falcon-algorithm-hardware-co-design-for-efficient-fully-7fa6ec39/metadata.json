@@ -1,0 +1,308 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-falcon-algorithm-hardware-co-design-for-efficient-fully-7fa6ec39",
+  "title": "Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 7A: Fully Homomorphic Encryption",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liang Kong",
+      "position": 1,
+      "orcid": "0009-0009-6031-4312",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianglong Deng",
+      "position": 2,
+      "orcid": "0009-0002-2058-5109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guang Fan",
+      "position": 3,
+      "orcid": "0000-0002-5389-0823",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengyu Fan",
+      "position": 4,
+      "orcid": "0009-0009-9160-8540",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Chen",
+      "position": 5,
+      "orcid": "0009-0002-0001-6929",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yilan Zhu",
+      "position": 6,
+      "orcid": "0009-0006-7480-7562",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Geng Yang",
+      "position": 7,
+      "orcid": "0000-0001-6921-1007",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yisong Chang",
+      "position": 8,
+      "orcid": "0009-0007-3153-2615",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shoumeng Yan",
+      "position": 9,
+      "orcid": "0009-0007-9580-5395",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingzhe Zhang",
+      "position": 10,
+      "orcid": "0000-0002-6440-7550",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790160"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790160",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790160",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790160",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790160",
+      "kind": "crossref",
+      "title": "Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:821cace27334939a1f896814dcb3ed2b5fbd2320888a3dbc567cc63905f86f60",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790160",
+      "url": "https://www.semanticscholar.org/paper/eb38389aa2320bb9c6e7ec4e49dda80e580f19a8",
+      "kind": "semantic-scholar",
+      "title": "Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:2e80d55cd596c97e54c5712d3e25cb68611edfe66028b156f93adbcca7a370f7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

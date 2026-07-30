@@ -1,0 +1,57 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2026-ddb-source-level-interactive-debugging-for-distributed-a-45a1ceba",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material distributed systems mechanism at the distributed service layer.",
+  "topics": [
+    "distributed-systems",
+    "fault-tolerance",
+    "reliability-testing-and-debugging",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-sosp-2026-program",
+      "url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+      "kind": "conference-program",
+      "title": "SOSP 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:c18e1206e83886d27358910b13a46b6d8aa9c674c810d9d43af5fd57f4a8aaf4",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification evidence is limited to the official paper title because no abstract or detailed session was published in the available official list"
+    ]
+  }
+}

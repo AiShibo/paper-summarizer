@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-d-authorize-2023-2024-2026-07-29",
+  "issued_at": "2026-07-29T23:56:53Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-d",
+  "status": "SUPERSEDED",
+  "action": "AUTHORIZE_EARLY_BULK_COLLECTION",
+  "authorized_shards": [
+    "data/shards/ccs/2024",
+    "data/shards/ccs/2023",
+    "data/shards/ndss/2024",
+    "data/shards/ndss/2023",
+    "data/shards/sp/2024",
+    "data/shards/sp/2023",
+    "data/shards/usenix-security/2024",
+    "data/shards/usenix-security/2023"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "still_closed": [
+    "All 2026 shards",
+    "Agent D's completed 2025 records except for a specifically assigned correction",
+    "summary.json",
+    "groups.json",
+    "awards.json",
+    "review.json",
+    "data/entities/**",
+    "generated database and exports"
+  ],
+  "conditions": [
+    "Read coordination/tasks/agent-d-security-collection.md and continue following its source, scope, relevance, validation, and handoff rules.",
+    "Change Agent D's claim to IN_PROGRESS and add the newly authorized shards before editing them.",
+    "Process and validate all four 2024 shards before beginning 2023.",
+    "Consider every main technical paper and reconcile each venue-year against official program or proceedings counts.",
+    "Use one bundle per canonical conference paper and retain minimal auditable bundles for excluded main-track papers.",
+    "Apply the strict security screening rules from Agent D's task; venue membership alone is not evidence of systems relevance.",
+    "Use NEEDS_HUMAN_REVIEW for unresolved boundary cases and record exact rationales instead of guessing.",
+    "Do not infer missing venue status, counts, affiliations, DOI, dates, or links.",
+    "Run draft validation separately for every venue-year.",
+    "Update only Agent D's claim and include every created paper ID.",
+    "Report 2024 and 2023 as separate handoffs with official source coverage, main-track counts, inclusion and exclusion breakdowns, boundary cases, suspected duplicates, unresolved fields, and validator output.",
+    "Early collection does not authorize bulk summarization, specialist stages, entity editing, release merging, or work on 2026."
+  ],
+  "superseded_at": "2026-07-30T03:00:08Z",
+  "superseded_by": "coordinator-agent-d-authorize-2026-ytd-2026-07-30",
+  "superseded_reason": "The 2023-2024 assignment is complete and the user explicitly opened 2026 year-to-date investigation."
+}

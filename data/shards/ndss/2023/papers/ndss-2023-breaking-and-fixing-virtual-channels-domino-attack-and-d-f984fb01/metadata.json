@@ -1,0 +1,171 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-breaking-and-fixing-virtual-channels-domino-attack-and-d-f984fb01",
+  "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+  "venue": "ndss",
+  "year": 2023,
+  "track_or_session": "Blockchains II",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lukas Aumayr",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "TU Wien",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8dde99d020fcf7d8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pedro Moreno-Sanchez",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IMDEA Software Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8dde99d020fcf7d8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aniket Kate",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University / Supra",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8dde99d020fcf7d8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Matteo Maffei",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Christian Doppler Laboratory Blockchain Technologies for the Internet of Things / TU Wien",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8dde99d020fcf7d8-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2023.24370",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/breaking-and-fixing-virtual-channels-domino-attack-and-donner/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-370-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-370-slides.pdf",
+    "video": "https://youtu.be/7SZPncmu0H8?si=L0z4FrP5cC-7ut4K",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-d3fa8a562468cd02-program",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-8dde99d020fcf7d8-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-and-fixing-virtual-channels-domino-attack-and-donner/",
+      "kind": "paper-page",
+      "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-f09eb01df089f597-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2023.24370",
+      "kind": "crossref",
+      "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

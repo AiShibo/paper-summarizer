@@ -1,0 +1,410 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-feasta-a-flexible-and-efficient-accelerator-for-sparse-t-84eff468",
+  "title": "FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 7A: Architecture Support for ML",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Kai Zhong",
+      "position": 1,
+      "orcid": "0000-0002-8448-9530",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenhua Zhu",
+      "position": 2,
+      "orcid": "0009-0007-9259-7180",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guohao Dai",
+      "position": 3,
+      "orcid": "0000-0003-0849-3252",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Infinigence-AI, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyi Wang",
+      "position": 4,
+      "orcid": "0009-0008-7095-7963",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinhao Yang",
+      "position": 5,
+      "orcid": "0009-0001-9739-2930",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoyu Zhang",
+      "position": 6,
+      "orcid": "0009-0003-3889-8688",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jin Si",
+      "position": 7,
+      "orcid": "0009-0006-6829-9637",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing University of Posts and Telecommunications, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiuli Mao",
+      "position": 8,
+      "orcid": "0009-0004-8777-2579",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shulin Zeng",
+      "position": 9,
+      "orcid": "0000-0002-1030-3748",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Infinigence-AI, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Hong",
+      "position": 10,
+      "orcid": "0000-0002-5768-6037",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Genghan Zhang",
+      "position": 11,
+      "orcid": "0000-0002-3866-8167",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huazhong Yang",
+      "position": 12,
+      "orcid": "0000-0003-2421-353X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Wang",
+      "position": 13,
+      "orcid": "0000-0001-6108-5157",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651336"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651336",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651336",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/hbdO4NqVe4o",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651336",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651336",
+      "kind": "crossref",
+      "title": "FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:1858d60f47a60e2a29f6a007bb3e8933607797b21c2fe206816093c5f01df5ca",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651336",
+      "url": "https://www.semanticscholar.org/paper/cc30feefa5c5298dfdfa5873a01ca2e81f7761e8",
+      "kind": "semantic-scholar",
+      "title": "FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:906326663f77fdcb07ef01fbc01c3a4321971a275b86f6ea7d5647dc51ac0e2b",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

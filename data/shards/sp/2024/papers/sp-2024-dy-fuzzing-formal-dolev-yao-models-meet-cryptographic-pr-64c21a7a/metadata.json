@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-dy-fuzzing-formal-dolev-yao-models-meet-cryptographic-pr-64c21a7a",
+  "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+  "venue": "sp",
+  "year": 2024,
+  "track_or_session": "Summer cycle",
+  "paper_type": "main-track",
+  "publication_date": "2024-05-19",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Max Ammann",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher, Trail of Bits",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-efc0c282b588d5a0-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lucca Hirschi",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Inria Nancy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-efc0c282b588d5a0-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Steve Kremer",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Inria Nancy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-efc0c282b588d5a0-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp54263.2024.00096",
+    "official_page": "https://doi.org/10.1109/SP54263.2024.00096",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx8/10646615/10646598/10646658.pdf?arnumber=10646658",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-efc0c282b588d5a0-program",
+      "url": "https://www.sp2024.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2024 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-daaa28ef37ab4e0d-publisher",
+      "url": "https://doi.org/10.1109/SP54263.2024.00096",
+      "kind": "publisher-page",
+      "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-e307a05762cf8dfd-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp54263.2024.00096",
+      "kind": "crossref",
+      "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-6f805264b028c1c5-abstract",
+      "url": "https://openalex.org/W4393137439",
+      "kind": "openalex",
+      "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

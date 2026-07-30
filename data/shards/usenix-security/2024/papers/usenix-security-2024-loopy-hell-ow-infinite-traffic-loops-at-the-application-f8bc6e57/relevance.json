@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-loopy-hell-ow-infinite-traffic-loops-at-the-application-f8bc6e57",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper discovers, validates, and measures application-layer traffic-loop vulnerabilities across deployed network services.",
+  "topics": [
+    "systems-security",
+    "network-security",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a332646b34235937-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/pan-yepeng",
+      "kind": "paper-page",
+      "title": "Loopy Hell(ow): Inﬁnite Traffic Loops at the Application Layer",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

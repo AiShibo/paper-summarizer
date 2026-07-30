@@ -1,0 +1,108 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-drust-language-guided-distributed-shared-memory-with-fin-ccac5687",
+  "takeaway": "DRust uses Rust ownership to give safe Rust programs sequentially consistent distributed shared memory, caching reads and invalidating stale copies through address or color changes.",
+  "background": "Distributed shared memory offers one address space across servers, but software coherence ordinarily tracks sharers and invalidates remote copies. Those network round trips make fine-grained access slow and hard to scale.",
+  "villain": "Generic DSM protocols ignore ownership-enforced single-writer/multiple-reader ordering, paying synchronization costs even when the language already proves that reads and writes cannot overlap illegally.",
+  "approach": "DRust replaces Rust heap pointers and references with global-heap-aware forms and adapts threading, channels, atomics, and mutexes while compiler passes preserve existing interfaces. Immutable borrows cache an object without changing its global address; a mutable borrow has exclusive permission, moves or recolors the object, and updates its owner when the borrow ends, so stale cache keys no longer match. This protocol gives sequential consistency for safe Rust, while the runtime uses RDMA, distributed scheduling, and optional heap replication.",
+  "impact": "The authors claim language-enforced ownership can make object-granular DSM transparent and scalable for safe Rust programs that expose substantial single-writer/multiple-reader behavior.",
+  "evaluation": {
+    "overview": "The authors measured strong scaling, per-node overheads, coherence costs, and runtime microbenchmarks across data analytics, a social-network service, matrix multiplication, and a key-value store.",
+    "implemented": "A modified Rust compiler and Rust/C runtime with a global heap, ownership-aware coherence, adapted standard libraries, a user-space scheduler, a controller, and RDMA transport.",
+    "setting": "An InfiniBand cluster ran DataFrame, SocialNet, GEMM, and a YCSB-driven key-value store under fixed-resource and strong-scaling experiments.",
+    "baselines": [
+      "GAM",
+      "Grappa",
+      "original non-DSM application implementations"
+    ],
+    "results": [
+      {
+        "id": "claim-drust-cluster-throughput",
+        "text": "At the full cluster scale across the four applications, DRust delivered 1.33–2.64× GAM's throughput and 2.53–29.16× Grappa's throughput.",
+        "source_ids": [
+          "src-osdi24-pdf-ccac5687"
+        ],
+        "locator": "PDF p. 13 (paper p. 107); §7.2, Figure 5"
+      },
+      {
+        "id": "claim-drust-single-node-overhead",
+        "text": "On a single node, the authors report that DRust added at most 2.42% overhead relative to the original program.",
+        "source_ids": [
+          "src-osdi24-pdf-ccac5687"
+        ],
+        "locator": "PDF p. 13 (paper p. 107); §7.2, Figure 5"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Sequential consistency and memory safety apply only to safe Rust; unsafe blocks must manage consistency themselves. Mutex-heavy shared-state workloads centralize and serialize access, the prototype disables ASLR, and heap replication does not replicate executing threads.",
+  "phd_group_signal": "This work signals a performance-systems style combining programming-language invariants, coherence-protocol design, compiler/runtime integration, RDMA, and end-to-end application scaling.",
+  "beginner_concepts": [
+    "distributed shared memory and cache coherence",
+    "Rust ownership and borrowing",
+    "single-writer/multiple-reader discipline",
+    "partitioned global address space",
+    "RDMA"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-drust-central-mechanism",
+      "text": "DRust caches immutable borrows under an object's global address; a mutable borrow uses Rust's exclusive permission to move the object or change its pointer color and then updates the owner, making stale cached-address keys unusable without explicit invalidation.",
+      "source_ids": [
+        "src-osdi24-pdf-ccac5687"
+      ],
+      "locator": "PDF pp. 6–9 (paper pp. 101–104); §4.1.1, Algorithms 1–3"
+    },
+    {
+      "id": "claim-drust-consistency-failure-boundary",
+      "text": "DRust provides sequential consistency only for safe Rust, and shared-state operations are serialized at the server holding the state. Its optional failure design replicates global-heap partitions, delays write-back until ownership transfer when safe, promotes a backup after a primary failure, and does not replicate threads.",
+      "source_ids": [
+        "src-osdi24-pdf-ccac5687"
+      ],
+      "locator": "PDF pp. 8–12 (paper pp. 103–106); §§4.1.1–4.2.3 and §6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi24-pdf-ccac5687",
+      "url": "https://www.usenix.org/system/files/osdi24-ma-haoran.pdf",
+      "kind": "paper-pdf",
+      "title": "DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:28:12Z",
+      "content_hash": "sha256:d8215d575ad8914545454a5a6e07226520a17e1fbb3bf823a8b8572ce3f34de8",
+      "official": true,
+      "supports": [
+        "abstract, introduction, ownership background, design, implementation, limitations, evaluation, and conclusion",
+        "central mechanism, consistency and failure boundaries, workloads, baselines, and author-reported performance"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e6",
+    "updated_at": "2026-07-30T03:35:17Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–7, and §9; inspected Algorithms 1–3, Tables 1–2, and Figures 2–7 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:35:17Z",
+    "last_verified_at": "2026-07-30T03:35:17Z",
+    "collector_version": "agent-e6-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

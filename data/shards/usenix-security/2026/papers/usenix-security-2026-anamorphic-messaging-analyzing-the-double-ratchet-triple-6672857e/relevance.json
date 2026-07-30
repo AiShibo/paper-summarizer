@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-anamorphic-messaging-analyzing-the-double-ratchet-triple-6672857e",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a theoretical security or mechanism-design result without a concrete computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-d4240e051b215c8e-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chu",
+      "kind": "paper-page",
+      "title": "Anamorphic Messaging: Analyzing the Double Ratchet, Triple Ratchet, PQ3, and MLS",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:73f5c401bba4c74a1a542dccdc2f5330d6578e1512640367c1f490dbe6f3fa51",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

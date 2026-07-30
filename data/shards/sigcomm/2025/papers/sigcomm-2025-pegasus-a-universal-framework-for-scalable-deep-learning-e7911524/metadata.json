@@ -1,0 +1,349 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-pegasus-a-universal-framework-for-scalable-deep-learning-e7911524",
+  "title": "Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "Network Architecture",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yinchao Zhang",
+      "position": 1,
+      "orcid": "0009-0006-6781-8802",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Su Yao",
+      "position": 2,
+      "orcid": "0000-0001-5165-2787",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Feng",
+      "position": 3,
+      "orcid": "0009-0006-9662-3449",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kang Chen",
+      "position": 4,
+      "orcid": "0000-0002-8368-1109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tong Li",
+      "position": 5,
+      "orcid": "0000-0002-6805-9565",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Renmin University of China",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuotao Liu",
+      "position": 6,
+      "orcid": "0000-0002-7532-0434",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Zhao",
+      "position": 7,
+      "orcid": "0000-0003-3632-3381",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lexuan Zhang",
+      "position": 8,
+      "orcid": "0009-0000-3210-4101",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiangyu Gao",
+      "position": 9,
+      "orcid": "0009-0000-9373-6516",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Xiong",
+      "position": 10,
+      "orcid": "0009-0004-2144-2745",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beihang University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Li",
+      "position": 11,
+      "orcid": "0000-0001-8776-8730",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Xu",
+      "position": 12,
+      "orcid": "0000-0003-2587-8517",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750529",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750529",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750529",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/6CxGBxUS8tI",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-pegasus-a-universal-framework-for-scalable-deep-learning-e7911524-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750529",
+      "kind": "publisher-page",
+      "title": "Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-pegasus-a-universal-framework-for-scalable-deep-learning-e7911524-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750529",
+      "kind": "crossref",
+      "title": "Crossref metadata for Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:c31a0f7ea929f58df82054134ae8cfa7649fb1298fd597a02090b53980d95e2c",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

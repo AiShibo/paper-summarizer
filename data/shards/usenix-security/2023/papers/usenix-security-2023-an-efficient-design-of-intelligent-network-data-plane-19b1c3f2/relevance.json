@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-an-efficient-design-of-intelligent-network-data-plane-19b1c3f2",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper designs and prototypes a programmable-switch dataplane that executes stateful traffic-analysis models at line rate.",
+  "topics": [
+    "networking",
+    "ml-systems",
+    "computer-architecture"
+  ],
+  "system_layers": [
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-84189a40e10fd375-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng",
+      "kind": "paper-page",
+      "title": "An Efficient Design of Intelligent Network Data Plane",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

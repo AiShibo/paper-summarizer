@@ -1,0 +1,156 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-cloudscape-a-study-of-storage-services-in-modern-cloud-a-9d0a7c31",
+  "associations": [
+    {
+      "group_id": "group-uw-madison-adsl",
+      "faculty_id": "faculty-andrea-c-arpaci-dusseau",
+      "publication_institution_id": "institution-university-wisconsin-madison",
+      "current_institution_id": "institution-university-wisconsin-madison",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-9d0a7c31-paper-page",
+        "src-agent-f-9d0a7c31-lab-publications",
+        "src-agent-f-9d0a7c31-lab-people",
+        "src-agent-f-9d0a7c31-andrea-profile"
+      ],
+      "rationale": "The official ADSL publication list contains Cloudscape, the ADSL people page lists Andrea Arpaci-Dusseau as faculty, and her official UW homepage confirms her current appointment.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "group_id": "group-uw-madison-adsl",
+      "faculty_id": "faculty-remzi-h-arpaci-dusseau",
+      "publication_institution_id": "institution-university-wisconsin-madison",
+      "current_institution_id": "institution-university-wisconsin-madison",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-9d0a7c31-paper-page",
+        "src-agent-f-9d0a7c31-lab-publications",
+        "src-agent-f-9d0a7c31-lab-people",
+        "src-agent-f-9d0a7c31-remzi-profile"
+      ],
+      "rationale": "The official ADSL publication list contains Cloudscape, the ADSL people page lists Remzi Arpaci-Dusseau as faculty, and his official UW homepage confirms his current appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Sambhav Satija",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Chenhao Ye",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ranjitha Kosgi",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Aditya Jain",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Romit Kankaria",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yiwei Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Kiran Srinivasan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-9d0a7c31-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/satija",
+      "kind": "paper-page",
+      "title": "Cloudscape: A Study of Storage Services in Modern Cloud Architectures",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-9d0a7c31-lab-publications",
+      "url": "https://research.cs.wisc.edu/wind/Publications/",
+      "kind": "lab-page",
+      "title": "ADSL publications",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Cloudscape publication and authors"
+      ]
+    },
+    {
+      "id": "src-agent-f-9d0a7c31-lab-people",
+      "url": "https://research.cs.wisc.edu/wind/People/",
+      "kind": "lab-page",
+      "title": "ADSL people",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau listed as group faculty"
+      ]
+    },
+    {
+      "id": "src-agent-f-9d0a7c31-andrea-profile",
+      "url": "https://pages.cs.wisc.edu/~dusseau/",
+      "kind": "faculty-page",
+      "title": "Andrea C. Arpaci-Dusseau",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current UW–Madison professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-9d0a7c31-remzi-profile",
+      "url": "https://pages.cs.wisc.edu/~remzi/",
+      "kind": "faculty-page",
+      "title": "Remzi H. Arpaci-Dusseau",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current UW–Madison professor appointment and ADSL co-leadership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-turn-your-face-into-an-attack-surface-screen-attack-usin-6a018fe8",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper demonstrates and evaluates a concrete security attack with material relevance to deployed computer systems.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-5bf6c08aab7db5ea-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yong",
+      "kind": "paper-page",
+      "title": "Turn Your Face Into An Attack Surface: Screen Attack Using Facial Reflections in Video Conferencing",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:6eee9a0fbadb6df3aa1ae1bac2a2867e07c629c2c34ae528299117f11c530ee0",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

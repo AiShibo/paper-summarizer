@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-on-scalable-integrity-checking-for-secure-cloud-disks-69f69e0b",
+  "takeaway": "Dynamic Merkle Trees reshape themselves around skewed block accesses, shortening authentication paths for hot data and making integrity-protected cloud NVMe disks faster and more capacity-scalable.",
+  "background": "Merkle trees authenticate current disk contents for confidential VMs whose memory is trusted but attached storage is not. Every verified read or durable update follows hashes to a protected root, providing freshness against corruption, relocation, and replay.",
+  "villain": "Balanced trees give every block the same path length, so capacity growth adds hashes even though real storage workloads repeatedly touch a small working set. On fast NVMe, serialized SHA-256 updates—not metadata I/O—can dominate the data access, and high fanout hashes more bytes per node.",
+  "approach": "The paper maps an optimal hash tree to a Huffman prefix code weighted by block-access probability, then approximates it online with Dynamic Merkle Trees. DMT probabilistically splays a cached leaf's parent by a hotness-derived distance, preserving leaf/internal-node roles and recomputing authenticated paths after rotations.",
+  "impact": "DMT supplies integrity and freshness while adapting to changing access skew without an advance trace. It establishes that workload-shaped, unbalanced authentication structures can outperform static balanced Merkle trees, though they spend extra memory and storage on explicit links and counters.",
+  "evaluation": {
+    "overview": "AWS experiments sweep capacity, cache size, skew, read ratio, I/O size, threads, and queue depth, then replay an Alibaba volume trace and run Filebench OLTP; metrics include throughput, median/tail latency, and metadata overhead.",
+    "implemented": "About 5 KLOC of C++ implements binary, 4-, 8-, and 64-ary trees, an offline Huffman-optimal oracle, and DMT as Linux userspace block drivers through BDUS, with AES-GCM, keyed SHA-256, an LRU hash cache, and immediate verification/update.",
+    "setting": "AWS EC2 i4i.8xlarge instances with 32 cores, 256 GB memory, and local NVMe devices; fio workloads use five-minute warmups and 15-minute measurements across capacities through 4 TB, followed by Alibaba trace replay and a 922-GB ext4 OLTP dataset.",
+    "baselines": [
+      "no encryption or integrity",
+      "AES-GCM encryption without integrity",
+      "dm-verity-style balanced binary tree",
+      "balanced 4-, 8-, and 64-ary trees",
+      "offline Huffman-optimal binary tree"
+    ],
+    "results": [
+      {
+        "id": "claim-dmt-scale",
+        "text": "Under the write-heavy Zipf(2.5) workload, DMT maintains more than 85% of offline-optimal throughput across tested capacities and reaches 2.2× the balanced binary tree's throughput at 4 TB.",
+        "source_ids": [
+          "src-fast25-pdf-69f69e0b"
+        ],
+        "locator": "PDF pp. 10–11; §7.2, Figures 11–12"
+      },
+      {
+        "id": "claim-dmt-real-trace",
+        "text": "On the evaluated Alibaba cloud-volume trace at 4 TB, DMT is 1.3× faster than the balanced binary tree; on Filebench OLTP it improves read and write throughput by 1.8× and 1.7×.",
+        "source_ids": [
+          "src-fast25-pdf-69f69e0b"
+        ],
+        "locator": "PDF pp. 12–13; §7.2, Figure 17 and Table 2"
+      },
+      {
+        "id": "claim-dmt-tradeoff",
+        "text": "DMT incurs 0.44×/0.80× additional in-memory metadata for leaf/internal nodes and 0.29×/0.75× additional storage metadata, but beats binary trees using one-tenth their cache ratio in a reported comparison.",
+        "source_ids": [
+          "src-fast25-pdf-69f69e0b"
+        ],
+        "locator": "PDF p. 13; §7.2, Table 3"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The AWS instances do not support confidential-VM technology, so the prototype models trusted memory rather than running inside such a VM. Benefits rely on access skew: uniform access costs about 6% versus a binary tree and can favor balanced 4-/8-ary trees. Updates still use a global tree lock; DMT requires explicit metadata; and the study targets NVMe rather than HDDs.",
+  "phd_group_signal": "The paper derives a systems design from an information-theoretic optimum, measures the true bottleneck before optimizing, and tests sensitivity plus real traces. It is a useful bridge among storage security, adaptive data structures, caching, and workload analysis.",
+  "beginner_concepts": [
+    "Merkle hash tree",
+    "data freshness",
+    "confidential virtual machine",
+    "Huffman coding",
+    "splay tree",
+    "workload skew",
+    "authenticated encryption"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-dmt-optimal",
+      "text": "For independent accesses with known probabilities, constructing the Merkle tree as a Huffman prefix tree minimizes the expected number of hashes on an authentication path.",
+      "source_ids": [
+        "src-fast25-pdf-69f69e0b"
+      ],
+      "locator": "PDF pp. 5–7; §5, Theorems 1–2"
+    },
+    {
+      "id": "claim-dmt-adaptation",
+      "text": "DMT samples one percent of accesses by default for splaying and uses cache-resident hotness counters to promote frequently accessed regions while amortizing rotation and rehashing cost.",
+      "source_ids": [
+        "src-fast25-pdf-69f69e0b"
+      ],
+      "locator": "PDF pp. 7–9; §6, Figures 8–10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-69f69e0b",
+      "url": "https://www.usenix.org/system/files/fast25-burke.pdf",
+      "kind": "paper-pdf",
+      "title": "On Scalable Integrity Checking for Secure Cloud Disks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:1fa816bff8d0c2670cbe773dd9c7f59ffbd1609a51786b2d8b3f2544b0263cf1",
+      "official": true,
+      "supports": [
+        "abstract, introduction, threat model, motivation, optimal-tree analysis, design, evaluation, related work, and conclusion",
+        "reported throughput, latency, trace, application, and metadata-overhead results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:52:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–4 context/security/motivation, §5 optimal analysis, §6 DMT design, §7 evaluation, §8 related work, and §9 conclusion.",
+      "Security and numerical results are author-reported; the testbed lacks confidential-VM hardware support."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:52:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

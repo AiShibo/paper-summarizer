@@ -1,0 +1,56 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-vcause-efficient-and-verifiable-causality-analysis-for-c-30b02f9e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a virtualization and isolation system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-f965889472ff6624-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/song-qiyang",
+      "kind": "paper-page",
+      "title": "vCause: Efficient and Verifiable Causality Analysis for Cloud-based Endpoint Auditing",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:64c2b449e5523bd9f1c09bc3aa83d99c77496e461c846d5797255334b6144488",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

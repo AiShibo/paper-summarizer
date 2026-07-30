@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-fast-on-device-llm-inference-with-npus-f98104fa",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because the paper contributes a concrete LLM training or serving system mechanism for fast On-device LLM Inference with NPUs.",
+  "topics": [
+    "ml-systems",
+    "llm-systems",
+    "distributed-ml",
+    "inference-systems",
+    "model-serving"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707239",
+      "url": "https://www.semanticscholar.org/paper/ea5768d746378940d4c062c523f7f3356625177e",
+      "kind": "semantic-scholar",
+      "title": "Fast On-device LLM Inference with NPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:5242b8333c4ba8237a437e8ca980251ac625f1688c107e1a6a9201b3ec37fe9c",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required.",
+      "The abstract identifies a concrete architecture, compiler, runtime, scheduling, serving, training, or hardware/software co-design mechanism; the paper was not included merely for applying machine learning."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

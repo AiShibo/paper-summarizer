@@ -1,0 +1,62 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-meerkat-pushing-the-practical-limits-of-dynamic-bisectio-a789e8e1",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a operating-system and kernel security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "storage-and-file-systems",
+    "databases-and-data-processing",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "kernel",
+    "storage",
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "bug-finding-or-testing-tool",
+    "dataset"
+  ],
+  "methods": [
+    "dynamic-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-670e559127fda35d-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bursey",
+      "kind": "paper-page",
+      "title": "Meerkat: Pushing the Practical Limits of Dynamic Bisection with PoC Mutation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:b4a1a78a2f215f0b27771e277e2e5f841e04b50dd6b8a2a3eaf9a78d95a4d5ce",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

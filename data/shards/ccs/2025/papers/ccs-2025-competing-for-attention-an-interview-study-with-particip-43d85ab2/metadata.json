@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-competing-for-attention-an-interview-study-with-particip-43d85ab2",
+  "title": "Competing for Attention: An Interview Study with Participants of Cryptography Competitions",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ivana Trummová",
+      "position": 1,
+      "orcid": "0000-0002-5094-6158",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Czech Technical University in Prague, Prague, Czech Republic and Leibniz University Hannover, Hannover, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d71b3110b7404933-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juliane Schmüser",
+      "position": 2,
+      "orcid": "0000-0001-7830-6403",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Hannover, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d71b3110b7404933-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nicolas Huaman",
+      "position": 3,
+      "orcid": "0000-0003-2733-5073",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Leibniz University Hannover, Hannover, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d71b3110b7404933-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sascha Fahl",
+      "position": 4,
+      "orcid": "0000-0002-5644-3316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Hannover, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d71b3110b7404933-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765201",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765201",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765201",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-2f2f99234f2b788e-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-6b233847e55c592b-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765201",
+      "kind": "publisher-page",
+      "title": "Competing for Attention: An Interview Study with Participants of Cryptography Competitions",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-d71b3110b7404933-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765201",
+      "kind": "crossref",
+      "title": "Competing for Attention: An Interview Study with Participants of Cryptography Competitions",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

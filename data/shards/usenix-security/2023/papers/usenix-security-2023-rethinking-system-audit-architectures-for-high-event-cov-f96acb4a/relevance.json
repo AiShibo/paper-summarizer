@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-rethinking-system-audit-architectures-for-high-event-cov-f96acb4a",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security"
+  ],
+  "system_layers": [
+    "kernel"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-6bba3687f725cc9a-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/gandhi",
+      "kind": "paper-page",
+      "title": "Rethinking System Audit Architectures for High Event Coverage and Synchronous Log Availability",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

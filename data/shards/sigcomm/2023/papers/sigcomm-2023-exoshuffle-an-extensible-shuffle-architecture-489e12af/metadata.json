@@ -1,0 +1,310 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2023-exoshuffle-an-extensible-shuffle-architecture-489e12af",
+  "title": "Exoshuffle: An Extensible Shuffle Architecture",
+  "venue": "sigcomm",
+  "year": 2023,
+  "track_or_session": "Quality Experiences — Research Paper",
+  "paper_type": "main-track",
+  "publication_date": "2023-09-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Frank Sifei Luan",
+      "position": 1,
+      "orcid": "0000-0001-8709-6823",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stephanie Wang",
+      "position": 2,
+      "orcid": "0009-0006-8684-2357",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Samyukta Yagati",
+      "position": 3,
+      "orcid": "0009-0003-2461-7080",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sean Kim",
+      "position": 4,
+      "orcid": "0009-0000-0717-3666",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kenneth Lien",
+      "position": 5,
+      "orcid": "0009-0008-3531-3660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Isaac Ong",
+      "position": 6,
+      "orcid": "0009-0006-3551-7394",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tony Hong",
+      "position": 7,
+      "orcid": "0000-0002-5336-1454",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "SangBin Cho",
+      "position": 8,
+      "orcid": "0009-0006-8695-5941",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anyscale",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eric Liang",
+      "position": 9,
+      "orcid": "0000-0002-3760-6845",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anyscale",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ion Stoica",
+      "position": 10,
+      "orcid": "0000-0002-5373-0088",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3603269.3604848",
+    "official_page": "https://dl.acm.org/doi/10.1145/3603269.3604848",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3603269.3604848",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=8RXNurRXyds&list=PLU4C2_kotFP2JAkoL6pcgbb52f6GIJJd7&index=28",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm23-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e3c4b173cfbedcc908c51c7b97b3b7074aec5a4a2b2b8e0a49d7a9d6f9123e3",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-exoshuffle-an-extensible-shuffle-architecture-489e12af-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3603269.3604848",
+      "kind": "publisher-page",
+      "title": "Exoshuffle: An Extensible Shuffle Architecture",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-exoshuffle-an-extensible-shuffle-architecture-489e12af-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604848",
+      "kind": "crossref",
+      "title": "Crossref metadata for Exoshuffle: An Extensible Shuffle Architecture",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:2b672b58992aa2cee0b13d49e86eea95832521e3e688feb31814ec98821bb431",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs",
+        "proceedings page range and print publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The publication date follows the publisher-deposited print date and the CFP's first-day-of-conference publication rule.",
+      "The official accepted-paper list labels this item Research Paper within the Quality Experiences technical session.",
+      "The official program displays Artifacts Available, but it exposes no artifact URL, so links.artifact remains null."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

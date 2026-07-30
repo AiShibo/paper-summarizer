@@ -1,0 +1,343 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-npc-rethinking-dataplane-through-network-aware-packet-cl-e5f36892",
+  "title": "NPC: Rethinking Dataplane through Network-aware Packet Classification",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "Network Architecture",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xinyi Zhang",
+      "position": 1,
+      "orcid": "0000-0002-6739-3676",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, CAS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qianrui Qiu",
+      "position": 2,
+      "orcid": "0009-0000-6605-4077",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, CAS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiyuan Xu",
+      "position": 3,
+      "orcid": "0009-0007-5984-4848",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng He",
+      "position": 4,
+      "orcid": "0000-0002-7472-9529",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher",
+          "normalized_name": null,
+          "institution_type": "independent",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xilai Liu",
+      "position": 5,
+      "orcid": "0000-0002-1354-7895",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "government-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kavé Salamatian",
+      "position": 6,
+      "orcid": "0000-0001-5557-9134",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "LISTIC",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Université Savoie Mont Blanc",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Changhua Pei",
+      "position": 7,
+      "orcid": "0000-0001-9288-4787",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, CAS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaogang Xie",
+      "position": 8,
+      "orcid": "0000-0003-4964-1135",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, CAS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750511",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750511",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750511",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/uKw9nFvL8Hc",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-npc-rethinking-dataplane-through-network-aware-packet-cl-e5f36892-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750511",
+      "kind": "publisher-page",
+      "title": "NPC: Rethinking Dataplane through Network-aware Packet Classification",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-npc-rethinking-dataplane-through-network-aware-packet-cl-e5f36892-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750511",
+      "kind": "crossref",
+      "title": "Crossref metadata for NPC: Rethinking Dataplane through Network-aware Packet Classification",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:8bfc00781df95160d0f5f7f47a06b0958d2a9b07e201885c7c6a45d08550191e",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

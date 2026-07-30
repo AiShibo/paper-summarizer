@@ -1,0 +1,276 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-hector-an-efficient-programming-and-compilation-framewor-3063378b",
+  "title": "Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 7D: Graph Neural Networks",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Kun Wu",
+      "position": 1,
+      "orcid": "0000-0002-0149-1409",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mert Hidayetoğlu",
+      "position": 2,
+      "orcid": "0000-0001-9276-5075",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiang Song",
+      "position": 3,
+      "orcid": "0000-0001-5030-5054",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "AWS AI, Santa Clara, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sitao Huang",
+      "position": 4,
+      "orcid": "0000-0001-7669-1467",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Da Zheng",
+      "position": 5,
+      "orcid": "0000-0001-8115-5415",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "AWS AI, Santa Clara, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Israt Nisa",
+      "position": 6,
+      "orcid": "0000-0001-5022-5716",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "AWS AI, Santa Clara, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wen-Mei Hwu",
+      "position": 7,
+      "orcid": "0000-0003-2532-5349",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nvidia, Champaign, Illinois, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651322"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651322",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651322",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/EJmt8w5PrhY",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2301.06284",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651322",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651322",
+      "kind": "crossref",
+      "title": "Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:c9b00a81ef233b1ed2d9e366d1c9060943e7417c4634a26de3f2b987350a823c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651322",
+      "url": "https://www.semanticscholar.org/paper/5a1db85197ca5a608fea362c7d572fafb7193a7e",
+      "kind": "semantic-scholar",
+      "title": "Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:3b4543d7e989ddc1fc496bbae198a9f92088c6167620f199934a9976a51c8325",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

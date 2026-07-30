@@ -1,0 +1,1 @@
+"""Standalone venue collector adapters."""

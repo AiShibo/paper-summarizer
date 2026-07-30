@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-unveiling-collusion-based-ad-attribution-laundering-frau-3f794776",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a vulnerability-discovery, program-analysis, or security-testing artifact with material systems relevance.",
+  "topics": [
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "dataset",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "dynamic-analysis",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-6f42769b8a91afa0-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670314",
+      "kind": "publisher-page",
+      "title": "Unveiling Collusion-Based Ad Attribution Laundering Fraud: Detection, Analysis, and Security Implications",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-3f3b1a84461d03ff-abstract",
+      "url": "https://www.semanticscholar.org/paper/b97affe3cfd0f082563f0de88af7cb60dd9684e4",
+      "kind": "semantic-scholar",
+      "title": "Unveiling Collusion-Based Ad Attribution Laundering Fraud: Detection, Analysis, and Security Implications",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

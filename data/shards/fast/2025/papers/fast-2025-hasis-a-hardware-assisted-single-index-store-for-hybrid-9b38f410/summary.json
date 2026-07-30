@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-hasis-a-hardware-assisted-single-index-store-for-hybrid-9b38f410",
+  "takeaway": "HaSiS uses transparent drive compression to make sparse, large hybrid B+-tree pages practical, serving transactions and analytics from one immediately fresh index.",
+  "background": "Hybrid transactional/analytical databases need fast row updates and wide column scans on current data. Most systems maintain separate row and column indexes and migrate updates between them, trading transaction throughput, analytical speed, and freshness.",
+  "villain": "Cross-index transformation delays fresh data and consumes I/O. A normal single B+-tree cannot simply use large column-oriented pages: updates rewrite too much data, sparse column alignment wastes capacity, scans pollute the buffer, and long analytical queries conflict with transactional changes.",
+  "approach": "HaSiS exploits a commercial computational SSD that transparently compresses each logical block. Its single B+-tree uses 128 KB PAX-style column pages plus sparse 16 KB row delta pages, per-page clustered versions, persistent per-page logging and compaction. A hybrid buffer pool caches mini-pages for transactions while analytics can bypass it.",
+  "impact": "The work shows storage hardware can change a database's viable logical layout: cheap sparse logical space removes the need for duplicated HTAP indexes and their freshness lag. The principle applies when transparent compression truly makes zeros inexpensive without becoming the I/O bottleneck.",
+  "evaluation": {
+    "overview": "Translated TPC-C/TPC-H requests assess freshness, latency, throughput, storage use, isolation, scaling, and design sensitivity against HTAP, row-store, and column-store systems.",
+    "implemented": "An open-source functional single-index store with B+-tree hybrid pages, buffer pool, global/per-page logs, compaction, and multi-version support.",
+    "setting": "A 22-core Xeon E5-2696 v4 server with 64 GB DRAM and a 7.68 TB ScaleFlux CSD-3310 compression SSD; each system's memory is limited to 10% of the dataset.",
+    "baselines": [
+      "TiDB",
+      "custom row store",
+      "custom column store",
+      "MySQL",
+      "PostgreSQL",
+      "Parquet"
+    ],
+    "results": [
+      {
+        "id": "claim-hasis-freshness",
+        "text": "Under the tested HTAP mix, HaSiS reports 17.31–121.5 µs analytical delay versus 30.1–2,676.3 µs for TiDB, while average analytical latency is 6.64% lower.",
+        "source_ids": [
+          "src-fast25-pdf-9b38f410"
+        ],
+        "locator": "PDF pp. 10–11; §5.1, Figure 7(a)"
+      },
+      {
+        "id": "claim-hasis-space",
+        "text": "HaSiS uses 74.1 GB physically, 67.98% less than the tested TiDB deployment and only 2.16% more than the dedicated column-store baseline despite larger sparse logical allocation.",
+        "source_ids": [
+          "src-fast25-pdf-9b38f410"
+        ],
+        "locator": "PDF pp. 11–12; §§5.1 and 5.3, Figures 7(a.3) and 9(a)"
+      },
+      {
+        "id": "claim-hasis-specialized",
+        "text": "Against specialized stores, HaSiS stays within 5.82% of the row baseline's point-operation latency and within 7.71% of the column baseline and 7.12% of Parquet on selected analytical queries.",
+        "source_ids": [
+          "src-fast25-pdf-9b38f410"
+        ],
+        "locator": "PDF pp. 11–12; §5.2, Figure 8"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "HaSiS depends on transparent hardware compression with cheap sparse blocks and is evaluated on one ScaleFlux CSD. The benchmark translates SQL plans into table-specific key/value requests, deliberately excluding planning and other DBMS components, and TiDB runs as a local single-node cluster with Raft propagation excluded from latency. Results therefore do not establish complete distributed SQL performance.",
+  "phd_group_signal": "The paper uses a concrete hardware property to revisit a long-standing database architecture tradeoff, then evaluates freshness, physical capacity, interference, and specialized workloads. It illustrates productive hardware/software co-design while making the comparison boundary visible.",
+  "beginner_concepts": [
+    "HTAP",
+    "B+-tree",
+    "row store",
+    "column store",
+    "computational storage",
+    "transparent compression",
+    "multi-version concurrency control"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-hasis-hybrid-page",
+      "text": "Each B+-tree leaf combines an aligned column page for scans with a sparse row delta page for small updates, both made space-efficient by drive-side compression.",
+      "source_ids": [
+        "src-fast25-pdf-9b38f410"
+      ],
+      "locator": "PDF pp. 6–8; §§4–4.2, Figure 4"
+    },
+    {
+      "id": "claim-hasis-single-index",
+      "text": "Transactional and analytical requests consult one B+-tree and its logs, avoiding the row-to-column migration needed to expose updates in a second index.",
+      "source_ids": [
+        "src-fast25-pdf-9b38f410"
+      ],
+      "locator": "PDF pp. 5–9; §§3.2–4.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-9b38f410",
+      "url": "https://www.usenix.org/system/files/fast25-huang.pdf",
+      "kind": "paper-pdf",
+      "title": "HaSiS: A Hardware-assisted Single-index Store for Hybrid Transactional and Analytical Processing",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:a062c6d3c789f8de5df0f8175c1a1407e568aec839cfffde3f0ddd2ce6798bec",
+      "official": true,
+      "supports": [
+        "abstract, introduction, hardware motivation, design, evaluation, and conclusion",
+        "reported freshness, transaction/analytics performance, storage use, and sensitivity"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:47:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.2 hardware opportunity, §§4–4.5 design, §§5–5.3 evaluation, and §7 Conclusion.",
+      "Results are author-reported on one compression-capable CSD and a storage-engine-focused benchmark."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:47:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

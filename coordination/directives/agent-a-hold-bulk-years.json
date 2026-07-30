@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-a-hold-bulk-2026-07-29",
+  "issued_at": "2026-07-29T23:21:49Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-a",
+  "status": "SUPERSEDED",
+  "action": "HOLD_UNAUTHORIZED_SCOPE",
+  "allowed_shards": [
+    "data/shards/osdi/2025",
+    "data/shards/sosp/2025",
+    "data/shards/eurosys/2025",
+    "data/shards/atc/2025"
+  ],
+  "held_shards": [
+    "data/shards/osdi/2023",
+    "data/shards/osdi/2024",
+    "data/shards/sosp/2023",
+    "data/shards/sosp/2024",
+    "data/shards/eurosys/2023",
+    "data/shards/eurosys/2024",
+    "data/shards/atc/2023",
+    "data/shards/atc/2024"
+  ],
+  "reason": "Wave 4 has not been opened. The 2025 pilot must complete specialist work and independent review before bulk collection.",
+  "required_response": [
+    "Do not create or edit records in held shards.",
+    "Restore the active claim to the four approved 2025 shards.",
+    "Preserve the completed 2025 handoff unchanged.",
+    "Acknowledge this directive in the claim notes."
+  ],
+  "superseded_at": "2026-07-29T23:23:40Z",
+  "superseded_by": "coordinator-agent-a-authorize-2023-2024-2026-07-29",
+  "superseded_reason": "The user explicitly authorized Agent A to begin 2023 and 2024 collection."
+}

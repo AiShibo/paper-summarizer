@@ -1,0 +1,87 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-atomicdisk-a-secure-virtual-disk-for-tees-against-evicti-59e6ddfd",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Security, Integrity, and Consistency session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "file-systems",
+    "caching",
+    "crash-consistency",
+    "virtualization-and-isolation",
+    "confidential-computing",
+    "network-security",
+    "privacy-systems",
+    "privacy-infrastructure",
+    "measurement-and-empirical-systems-studies",
+    "workload-characterization"
+  ],
+  "system_layers": [
+    "kernel",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:d00f43efdd31af60c59e4851dfff621aa4e0086f902ffc7babf0f4917a57f453",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2025-atomicdisk-a-secure-virtual-disk-for-tees-against-evicti-59e6ddfd-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/tian-hongliang",
+      "kind": "paper-page",
+      "title": "AtomicDisk: A Secure Virtual Disk for TEEs against Eviction Attacks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:8f8ccfded069672026b3e64830eb26d6a3b64a2b9a5461989f2403458f88113b",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-perils-of-parallelism-transaction-fee-mechanisms-under-e-cfd64dc1",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a theoretical security or mechanism-design result without a concrete computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-bec35a68da944826-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa",
+      "kind": "paper-page",
+      "title": "Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:3043371ce747d5f9dac0c0521abebf5b454bae7830e9b7770fea2dc2983a3585",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-paralegal-practical-static-analysis-for-privacy-bugs-6999838d",
+  "takeaway": "Paralegal lets privacy engineers write policies over developer-maintained markers, then checks those policies against a Rust program-dependence graph to find privacy bugs as code evolves.",
+  "background": "Privacy compliance is commonly audited manually, while static analyzers often require brittle code-level queries and hand-written models of library behavior.",
+  "villain": "Privacy expertise and code expertise live with different people, yet conventional tools couple policies to implementation details and struggle with library code.",
+  "approach": "Paralegal is a compiler plugin that builds a flow-, context-, and field-sensitive program-dependence graph from Rust MIR. Rust ownership and lifetimes support a conservative type-signature approximation for opaque code, while developers attach semantic markers to program entities. Privacy engineers express controlled-natural-language policies that compile into graph queries over those markers.",
+  "impact": "The authors argue that this division of work makes privacy checks practical to audit, maintain, and run during development or continuous integration for Rust applications.",
+  "evaluation": {
+    "overview": "The evaluation studies bug finding, policy expressiveness, marker maintenance under code evolution, interactive and whole-codebase runtime, and the contribution of adaptive approximation.",
+    "implemented": "A Rust compiler plugin with multi-crate analysis, a marked-PDG policy engine, adaptive function approximation, and source-linked diagnostics.",
+    "setting": "Case studies use the Rust applications in Figure 6; maintenance is replayed over Atomic's development history, and performance runs on an Ubuntu server with a Xeon E3-1230v5 processor and 64 GiB of memory.",
+    "baselines": [
+      "classic information-flow control",
+      "CodeQL over C++ ports",
+      "oracle-selected fixed call-string depth"
+    ],
+    "results": [
+      {
+        "id": "claim-paralegal-bugs",
+        "text": "Across eight applications, the authors report seven privacy bugs in Plume, Atomic, and Lemmy: five previously known bugs and two previously unknown bugs confirmed by developers.",
+        "source_ids": [
+          "src-osdi25-pdf-6999838d"
+        ],
+        "locator": "PDF p. 10 (paper p. 965); §7.1, Figure 7"
+      },
+      {
+        "id": "claim-paralegal-interactive-runtime",
+        "text": "In the workspace-only per-endpoint experiment, excluding rustc overhead under the paper's incremental-compilation assumption, Paralegal averages 0.8 seconds and remains under five seconds for the slowest endpoint.",
+        "source_ids": [
+          "src-osdi25-pdf-6999838d"
+        ],
+        "locator": "PDF p. 14 (paper p. 969); §7.4, Figure 10"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Paralegal's soundness and completeness are policy-dependent; unsafe code or FFI, interior mutability, and external state can hide true dependencies. Its low-latency workspace-only mode may miss markers in dependencies, so the paper suggests complementing it with full-dependency analysis in CI.",
+  "phd_group_signal": "This work reflects a human-centered program-analysis style: split specification labor by expertise, build a compiler-backed artifact, and test bug-finding, expressiveness, maintenance, and latency separately.",
+  "beginner_concepts": [
+    "static analysis",
+    "program-dependence graph",
+    "Rust ownership and lifetimes",
+    "information-flow control",
+    "false positives and false negatives"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-paralegal-central-mechanism",
+      "text": "Paralegal constructs a marked program-dependence graph from Rust MIR, approximates opaque functions from type signatures, propagates developer-supplied semantic markers, and checks privacy-engineer policies as graph relations.",
+      "source_ids": [
+        "src-osdi25-pdf-6999838d"
+      ],
+      "locator": "PDF pp. 3–8 (paper pp. 958–963); §§3–4.4, Figures 3–4"
+    },
+    {
+      "id": "claim-paralegal-analysis-boundary",
+      "text": "The all-true-dependencies guarantee applies to Rust without unsafe features; unsafe code, interior mutability, and external effects can omit dependencies, while workspace-only analysis can miss dependency markers in exchange for lower latency.",
+      "source_ids": [
+        "src-osdi25-pdf-6999838d"
+      ],
+      "locator": "PDF pp. 6–7 and pp. 13–14 (paper pp. 961–962 and 968–969); §§4.1.3 and 7.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi25-pdf-6999838d",
+      "url": "https://www.usenix.org/system/files/osdi25-adam.pdf",
+      "kind": "paper-pdf",
+      "title": "Paralegal: Practical Static Analysis for Privacy Bugs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:29:51Z",
+      "content_hash": "sha256:2159db62f44648e58842856dca5acf7411902d0efa9c12f26e49573688dacae9",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, implementation, case studies, evaluation, and conclusion",
+        "central mechanism, analysis boundaries, experimental conditions, and author-reported bug and runtime results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e1",
+    "updated_at": "2026-07-30T03:29:51Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§3–5, §§6.1–6.3, §§7.1–7.5, and §9; inspected Figures 7–12 where needed.",
+      "CodeQL comparisons use C++ ports and stated omissions; the summary does not generalize those results beyond the paper's evaluated policies."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:29:51Z",
+    "last_verified_at": "2026-07-30T03:29:51Z",
+    "collector_version": "agent-e1-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

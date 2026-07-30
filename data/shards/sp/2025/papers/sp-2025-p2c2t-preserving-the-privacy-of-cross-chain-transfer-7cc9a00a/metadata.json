@@ -1,0 +1,155 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2025-p2c2t-preserving-the-privacy-of-cross-chain-transfer-7cc9a00a",
+  "title": "P2C2T: Preserving the Privacy of Cross-Chain Transfer",
+  "venue": "sp",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-05-01",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Panpan Han",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Cyber Engineering, Xidian University,The State Key Laboratory on Integrated Services Networks,China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d7ed11ba2790b93a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zheng Yan",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Cyber Engineering, Xidian University,The State Key Laboratory on Integrated Services Networks,China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d7ed11ba2790b93a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Laurence T. Yang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Artificial Intelligence, Zhengrhou University,China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d7ed11ba2790b93a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Elisa Bertino",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University,Department of Computer Science,USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-d7ed11ba2790b93a-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp61157.2025.00051",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a051/21B7QYE5x8Q",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/21B7QYE5x8Q/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-8aa502e841811141-program",
+      "url": "https://www.sp2025.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2025 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-d7ed11ba2790b93a-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a051/21B7QYE5x8Q",
+      "kind": "publisher-page",
+      "title": "P2C2T: Preserving the Privacy of Cross-Chain Transfer",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, authors, affiliations, abstract, publication date, pages, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-fide-reliable-and-fast-crash-failure-detection-to-boost-8afb494f",
+  "takeaway": "FiDe reserves an isolated end-to-end heartbeat path for crash detection, turning tightly bounded jitter into short timeouts and faster failure-aware coordination under explicit synchrony assumptions.",
+  "background": "Failure detectors let distributed services react when a process stops, commonly by timing out missing heartbeats. Shared processors and networks create long, unpredictable tails, forcing a tradeoff between false suspicions and slow recovery.",
+  "villain": "A timeout cannot be both short and trustworthy when heartbeat processing and delivery compete unpredictably with ordinary application work.",
+  "approach": "A per-host kernel module watches local process exits, while a dedicated core sends heartbeats and failure notices through an isolated NIC queue and an XDP/eBPF receive path. An SDN controller assigns priority-treated, rate-limited redundant multicast trees, derives timeouts from bounded path latency and jitter, and repairs a tree after network faults. FiDe also carries bounded application payloads in heartbeats; the authors use that property to build and verify new reliable-broadcast and consensus primitives.",
+  "impact": "The authors claim that a controlled crash-detection substrate can improve failure-free coordination performance while notifying services quickly when a process actually exits.",
+  "evaluation": {
+    "overview": "The authors measure long-run interaction stability, crash-detection latency, Redis and ZooKeeper integrations, network-fault risk, deployment distance, and reserved-resource overhead.",
+    "implemented": "A C implementation split among a Linux kernel module, XDP/eBPF hooks, and a userspace API, plus FiDe-backed Redis consensus modules and ZooKeeper configurations.",
+    "setting": "Experiments used Ethernet servers and redundant paths in an SAP production datacenter, with background CPU and network load; a separate multi-switch testbed examined larger topologies.",
+    "baselines": [
+      "uKharon-FD",
+      "X-Lane",
+      "Falcon crash detection",
+      "Redis",
+      "RedisRaft",
+      "ZooKeeper with Zab"
+    ],
+    "results": [
+      {
+        "id": "claim-fide-detection-latency",
+        "text": "For remote application crashes, FiDe's measured maximum detection latency was 26.54 µs versus 193.56 µs for uKharon-FD, which the authors report as a 7.2× improvement in worst-case latency.",
+        "source_ids": [
+          "src-atc25-fide-pdf"
+        ],
+        "locator": "§6.3, Table 2 and Figure 5"
+      },
+      {
+        "id": "claim-fide-zookeeper-performance",
+        "text": "In the failure-free ZooKeeper SET benchmark, the HUC integration achieved up to 2.23× the native throughput and reduced request latency to 0.57× the native value at its best evaluated point.",
+        "source_ids": [
+          "src-atc25-fide-pdf"
+        ],
+        "locator": "§6.4, Figure 6"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "FiDe targets crash-stop failures, not gray, fail-slow, partial-software, or Byzantine failures; its HUC and HSUC protocols can stall on a slow but non-crashed participant. Reliability depends on a controlled synchronous FiDe domain with a dedicated active core, isolated receive resources, priority-treated redundant network paths, and end-host rate limits; a sufficiently close compound network failure can violate that model.",
+  "phd_group_signal": "The work combines OS and network isolation, explicit probabilistic assumptions, formally checked coordination algorithms, long-tail measurement, and application integration rather than treating failure detection as a standalone microbenchmark.",
+  "beginner_concepts": [
+    "heartbeat failure detector",
+    "crash-stop failure",
+    "synchrony assumption",
+    "network traffic engineering",
+    "uniform consensus"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-fide-mechanism",
+      "text": "FiDe combines kernel-level local-exit observation, a dedicated uninterrupted heartbeat loop, isolated NIC and XDP receive processing, and SDN-configured redundant multicast trees with priority queues and end-host rate limiting.",
+      "source_ids": [
+        "src-atc25-fide-pdf"
+      ],
+      "locator": "§§3.1–3.4, Figures 1–2"
+    },
+    {
+      "id": "claim-fide-synchrony-boundary",
+      "text": "FiDe's correctness and efficiency depend on synchrony inside its controlled domain; redundant trees and recovery make violations rare rather than impossible, and critical compound network failures can break the assumption.",
+      "source_ids": [
+        "src-atc25-fide-pdf"
+      ],
+      "locator": "§1, FiDe; §§2.1–2.2; §3.3, Redundancy and tree recovery"
+    },
+    {
+      "id": "claim-fide-failure-scope",
+      "text": "FiDe directly detects crash-stop process failures; gray, fail-slow, partial-software, and Byzantine failures require another detector or lie outside its model, while HUC and HSUC wait for every non-crashed process.",
+      "source_ids": [
+        "src-atc25-fide-pdf"
+      ],
+      "locator": "§2.1, System and failure model; §4.2, Consensus and slow processes"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-atc25-fide-pdf",
+      "url": "https://www.usenix.org/system/files/atc25-rovelli.pdf",
+      "kind": "paper-pdf",
+      "title": "FiDe: Reliable and Fast Crash Failure Detection to Boost Datacenter Coordination",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:32:16Z",
+      "content_hash": "sha256:37a9cbe7c3a7920d8779d7c65faf55a5b4c9444c967dc6a7c3ec0d885d119eb7",
+      "official": true,
+      "supports": [
+        "abstract, introduction, model, system design, FiDe-backed algorithms, implementation, evaluation, limitations, and conclusion",
+        "reported mechanism, synchrony and failure assumptions, baselines, numerical results, deployment costs, and limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e2",
+    "updated_at": "2026-07-30T03:32:16Z",
+    "notes": [
+      "Read the official paper PDF: abstract; §1; §§2.1–2.3; §§3.1–3.4; §§4.1–4.2; §5; §§6.1–6.6; and §8.",
+      "Preserved the crash-stop scope, synchrony/resource assumptions, compound-network-failure caveat, and slow-process limitation; retained one detector and one application result."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:32:16Z",
+    "last_verified_at": "2026-07-30T03:32:16Z",
+    "collector_version": "agent-e2-summary-calibration/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

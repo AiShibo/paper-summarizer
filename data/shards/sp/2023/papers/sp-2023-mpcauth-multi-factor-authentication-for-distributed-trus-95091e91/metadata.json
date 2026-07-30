@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-mpcauth-multi-factor-authentication-for-distributed-trus-95091e91",
+  "title": "MPCAuth: Multi-factor Authentication for Distributed-trust Systems",
+  "venue": "sp",
+  "year": 2023,
+  "track_or_session": "Session 3C: Cryptographic protocols",
+  "paper_type": "main-track",
+  "publication_date": "2023-05-01",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sijun Tan",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3bb52ad0aa1bbffd-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weikeng Chen",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3bb52ad0aa1bbffd-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ryan Deng",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3bb52ad0aa1bbffd-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Raluca Ada Popa",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-3bb52ad0aa1bbffd-schedule"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp46215.2023.10179481",
+    "official_page": "https://doi.org/10.1109/SP46215.2023.10179481",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx7/10179215/10179280/10179481.pdf?arnumber=10179481",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-0ba9020bf8deedc2-program",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official accepted title"
+      ]
+    },
+    {
+      "id": "src-3bb52ad0aa1bbffd-schedule",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-04fac24bdc8ef565-publisher",
+      "url": "https://doi.org/10.1109/SP46215.2023.10179481",
+      "kind": "publisher-page",
+      "title": "MPCAuth: Multi-factor Authentication for Distributed-trust Systems",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-2539d7b8c3cc3c4b-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179481",
+      "kind": "crossref",
+      "title": "MPCAuth: Multi-factor Authentication for Distributed-trust Systems",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-90684a6f37a5f134-abstract",
+      "url": "https://openalex.org/W4385679775",
+      "kind": "openalex",
+      "title": "MPCAuth: Multi-factor Authentication for Distributed-trust Systems",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

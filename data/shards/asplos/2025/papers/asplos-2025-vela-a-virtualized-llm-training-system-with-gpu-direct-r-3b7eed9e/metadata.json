@@ -1,0 +1,623 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-vela-a-virtualized-llm-training-system-with-gpu-direct-r-3b7eed9e",
+  "title": "Vela: A Virtualized LLM Training System with GPU Direct RoCE",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5C: Large Language Models",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Apoorve Mohan",
+      "position": 1,
+      "orcid": "0000-0003-3789-5453",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert Walkup",
+      "position": 2,
+      "orcid": "0009-0000-0636-5439",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bengi Karacali",
+      "position": 3,
+      "orcid": "0009-0005-8068-6165",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming-Hung Chen",
+      "position": 4,
+      "orcid": "0000-0002-6946-2313",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abdullah Kayi",
+      "position": 5,
+      "orcid": "0000-0001-5909-9891",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liran Schour",
+      "position": 6,
+      "orcid": "0000-0002-6163-0060",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Haifa, Israel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shweta Salaria",
+      "position": 7,
+      "orcid": "0009-0008-1234-7657",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sophia Wen",
+      "position": 8,
+      "orcid": "0009-0007-6945-0818",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "IHsin Chung",
+      "position": 9,
+      "orcid": "0000-0003-4555-9257",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abdul Alim",
+      "position": 10,
+      "orcid": "0000-0002-8557-6783",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Constantinos Evangelinos",
+      "position": 11,
+      "orcid": "0000-0002-7906-8651",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lixiang Luo",
+      "position": 12,
+      "orcid": "0000-0001-9850-3201",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marc Dombrowa",
+      "position": 13,
+      "orcid": "0009-0003-4294-4907",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yortown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Laurent Schares",
+      "position": 14,
+      "orcid": "0000-0002-9506-8467",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ali Sydney",
+      "position": 15,
+      "orcid": "0000-0003-4410-2175",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pavlos Maniotis",
+      "position": 16,
+      "orcid": "0000-0002-4490-5253",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sandhya Koteshwara",
+      "position": 17,
+      "orcid": "0000-0003-3182-219X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yortown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brent Tang",
+      "position": 18,
+      "orcid": "0009-0007-1227-3988",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Cloud, Rochester, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joel Belog",
+      "position": 19,
+      "orcid": "0009-0000-2349-3969",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Cloud, Lowell, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rei Odaira",
+      "position": 20,
+      "orcid": "0009-0002-4306-7574",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Cloud, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vasily Tarasov",
+      "position": 21,
+      "orcid": "0000-0003-1424-9977",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Almaden, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eran Gampel",
+      "position": 22,
+      "orcid": "0009-0003-2883-359X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Cloud, Haifa, Israel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Drew Thorstensen",
+      "position": 23,
+      "orcid": "0009-0001-0970-6750",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Cloud, Durham, NC, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Talia Gershon",
+      "position": 24,
+      "orcid": "0000-0001-9408-1080",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Seetharami Seelam",
+      "position": 25,
+      "orcid": "0000-0002-7595-3477",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716280"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716280",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716280",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716280",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716280",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716280",
+      "kind": "crossref",
+      "title": "Vela: A Virtualized LLM Training System with GPU Direct RoCE",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:cf4a0e01a6ac610e45e86f777d6055c53a7b34076df0e221075b472afd5f159d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716280",
+      "url": "https://www.semanticscholar.org/paper/6ef42fd2756167f5e0e47f33fd284f99692a078f",
+      "kind": "semantic-scholar",
+      "title": "Vela: A Virtualized LLM Training System with GPU Direct RoCE",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:de68ed4e37d32db1e693b5d2258ff811c444c85bd6182ab692a22702aa6f236b",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

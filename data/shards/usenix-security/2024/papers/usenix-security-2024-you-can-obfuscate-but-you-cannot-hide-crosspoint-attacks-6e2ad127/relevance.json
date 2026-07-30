@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-you-can-obfuscate-but-you-cannot-hide-crosspoint-attacks-6e2ad127",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper demonstrates and evaluates a concrete security attack with material relevance to deployed computer systems.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization",
+    "measurement-study",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-7f11bbe3b9a30c68-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/huang-xuanbo",
+      "kind": "paper-page",
+      "title": "You Can Obfuscate, but You Cannot Hide: CrossPoint Attacks against Network Topology Obfuscation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

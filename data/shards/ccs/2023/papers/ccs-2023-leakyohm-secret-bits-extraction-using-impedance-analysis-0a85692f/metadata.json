@@ -1,0 +1,173 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-leakyohm-secret-bits-extraction-using-impedance-analysis-0a85692f",
+  "title": "LeakyOhm: Secret Bits Extraction using Impedance Analysis",
+  "venue": "ccs",
+  "year": 2023,
+  "track_or_session": "Crypto & side-channels (Hardware, Side Channels, and CyberPhysical Systems)",
+  "paper_type": "main-track",
+  "publication_date": "2023-11-21",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Saleh Khalaj Monfared",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Worcester Polytechnic Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fa9182fc3424c83e-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tahoura Mosavirik",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Worcester Polytechnic Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fa9182fc3424c83e-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shahin Tajik",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Worcester Polytechnic Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fa9182fc3424c83e-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3576915.3623092",
+    "official_page": "https://doi.org/10.1145/3576915.3623092",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623092",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-fa9182fc3424c83e-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, title, session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-6988f684fb8137fe-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract, DOI, and page span"
+      ]
+    },
+    {
+      "id": "src-e654d1e6cc44cc48-publisher",
+      "url": "https://doi.org/10.1145/3576915.3623092",
+      "kind": "publisher-page",
+      "title": "LeakyOhm: Secret Bits Extraction using Impedance Analysis",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-5ef707c07ecfdab7-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3576915.3623092",
+      "kind": "crossref",
+      "title": "LeakyOhm: Secret Bits Extraction using Impedance Analysis",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date and main-proceedings metadata"
+      ]
+    },
+    {
+      "id": "src-e8e5b3100059e1eb-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/MonfaredMT23",
+      "kind": "dblp",
+      "title": "LeakyOhm: Secret Bits Extraction using Impedance Analysis",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

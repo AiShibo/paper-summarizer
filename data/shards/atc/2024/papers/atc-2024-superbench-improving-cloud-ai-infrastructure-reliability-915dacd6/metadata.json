@@ -1,0 +1,529 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2024-superbench-improving-cloud-ai-infrastructure-reliability-915dacd6",
+  "title": "SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation",
+  "venue": "atc",
+  "year": 2024,
+  "track_or_session": "Reliability",
+  "paper_type": "main-track",
+  "publication_date": "2024-07-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yifan Xiong",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuting Jiang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyue Yang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Qu",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guoshuai Zhao",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuguang Liu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dong Zhong",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boris Pinzur",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Zhang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Wang",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jithin Jose",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hossein Pourreza",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeff Baxter",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kushal Datta",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prabhat Ram",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luke Melton",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joe Chau",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Cheng",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongqiang Xiong",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lidong Zhou",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc24/presentation/xiong",
+    "official_pdf": "https://www.usenix.org/system/files/atc24-xiong.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/mfNRzHHPIiE",
+    "bibtex": "@inproceedings {298589,\nauthor = {Yifan Xiong and Yuting Jiang and Ziyue Yang and Lei Qu and Guoshuai Zhao and Shuguang Liu and Dong Zhong and Boris Pinzur and Jie Zhang and Yang Wang and Jithin Jose and Hossein Pourreza and Jeff Baxter and Kushal Datta and Prabhat Ram and Luke Melton and Joe Chau and Peng Cheng and Yongqiang Xiong and Lidong Zhou},\ntitle = {{SuperBench}: Improving Cloud {AI} Infrastructure Reliability with Proactive Validation},\nbooktitle = {2024 USENIX Annual Technical Conference (USENIX ATC 24)},\nyear = {2024},\nisbn = {978-1-939133-41-0},\naddress = {Santa Clara, CA},\npages = {835--850},\nurl = {https://www.usenix.org/conference/atc24/presentation/xiong},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-paper-xiong",
+      "url": "https://www.usenix.org/conference/atc24/presentation/xiong",
+      "kind": "paper-page",
+      "title": "SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:1a89df59a478dbc1b93cf49a02a19c56850d0bf739252e692f99c0b596cba119",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2024-proceedings",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '24 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2024-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '24",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:ba4ea22ae97a9a279b5fb9dfac2093c0948908af26183be07cad0a7039cbfa80",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-mvp-oram-a-wait-free-concurrent-oram-for-confidential-bf-05d42e95",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements and evaluates a privacy-preserving storage or data-processing system with material concurrency or deployment behavior.",
+  "topics": [
+    "storage-and-file-systems",
+    "databases-and-data-processing",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "storage",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-cfc48d43c8ba2602-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mvp-oram-a-wait-free-concurrent-oram-for-confidential-bft-storage/",
+      "kind": "paper-page",
+      "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:ab0e700a534b204a5989b01876d49685b4e74a400fe21ec5ff3cb1cca6278f3f",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

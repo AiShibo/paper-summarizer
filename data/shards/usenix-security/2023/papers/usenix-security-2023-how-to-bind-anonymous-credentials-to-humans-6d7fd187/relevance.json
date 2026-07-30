@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-how-to-bind-anonymous-credentials-to-humans-6d7fd187",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper designs and prototypes a smart-card mechanism that binds privacy-preserving digital credentials to their physical holders.",
+  "topics": [
+    "authentication-infrastructure",
+    "privacy-infrastructure",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "deployment-experience"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-4ef9dc6f8d4b99ac-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/hesse",
+      "kind": "paper-page",
+      "title": "How to Bind Anonymous Credentials to Humans",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

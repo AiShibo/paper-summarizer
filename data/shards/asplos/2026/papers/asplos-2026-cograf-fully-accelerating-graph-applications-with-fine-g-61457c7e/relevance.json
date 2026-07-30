@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-cograf-fully-accelerating-graph-applications-with-fine-g-61457c7e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: CoGraf is an implemented and evaluated processing-in/near-memory architecture and software mechanism.",
+  "topics": [
+    "accelerators",
+    "memory-hierarchy",
+    "hardware-software-co-design",
+    "data-analytics"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790142",
+      "url": "https://www.semanticscholar.org/paper/d0789d467a65df7cac7fda7f43b47462b998b132",
+      "kind": "semantic-scholar",
+      "title": "CoGraf: Fully Accelerating Graph Applications with Fine-Grained PIM",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a262bf4eff02ddf03503a7baad2123a5316b827521b776684e0c0777043bd75e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-enter-exit-page-fault-leak-testing-isolation-boundaries-e26f1b1b",
+  "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+  "venue": "sp",
+  "year": 2026,
+  "track_or_session": "Accepted Cycle 1 2025; presented in 2026 after embargo",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "ACCEPTED_PAPERS_ONLY",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Oleksii Oleksenko",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Flavien Solt",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cédric Fournet",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jana Hofmann",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boris Köpf",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stavros Volos",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Azure Research, Microsoft",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-796684eca52fb37c-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": null,
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": "https://www.microsoft.com/en-us/research/publication/enter-exit-page-fault-leak-testing-isolation-boundaries-for-microarchitectural-leaks/",
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "project-copy",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/07/Enter-Exit-SP26.pdf",
+      "relationship": "Author-hosted copy of the embargo-delayed paper presented at IEEE S&P 2026."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-796684eca52fb37c-program",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2026 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, authors, affiliations, and cycle"
+      ]
+    },
+    {
+      "id": "src-30a49d54f5a7a08c-project",
+      "url": "https://www.microsoft.com/en-us/research/publication/enter-exit-page-fault-leak-testing-isolation-boundaries-for-microarchitectural-leaks/",
+      "kind": "project-page",
+      "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+      "publisher": "Microsoft Research",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract and fallback publication metadata while the publisher record is unavailable"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page.",
+      "The accepted and scheduled paper is represented from the official program and Microsoft Research copy; publication is explicitly delayed by embargo."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date",
+      "links.official_page",
+      "links.official_pdf",
+      "links.doi",
+      "publisher page span",
+      "publisher record"
+    ]
+  }
+}

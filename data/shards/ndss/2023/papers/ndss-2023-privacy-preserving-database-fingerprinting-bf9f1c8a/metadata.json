@@ -1,0 +1,192 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-privacy-preserving-database-fingerprinting-bf9f1c8a",
+  "title": "Privacy-Preserving Database Fingerprinting",
+  "venue": "ndss",
+  "year": 2023,
+  "track_or_session": "Usable Security and Privacy",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tianxi Ji",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Texas Tech University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-984eaa409c5ed6f8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Erman Ayday",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Case Western Reserve University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-984eaa409c5ed6f8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Emre Yilmaz",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Houston-Downtown",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-984eaa409c5ed6f8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming Li",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CSE Department The University of Texas at Arlington",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-984eaa409c5ed6f8-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pan Li",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Case Western Reserve University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-984eaa409c5ed6f8-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2023.24693",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/privacy-preserving-database-fingerprinting/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-693-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024/10/2023-693-slides.pdf",
+    "video": "https://youtu.be/P-9Z8SdNsIU?si=Gi-DFZpAlndCdF31",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-65efc0c25376e4b7-program",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-984eaa409c5ed6f8-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/privacy-preserving-database-fingerprinting/",
+      "kind": "paper-page",
+      "title": "Privacy-Preserving Database Fingerprinting",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-17b2cb1ceca6bc1b-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2023.24693",
+      "kind": "crossref",
+      "title": "Privacy-Preserving Database Fingerprinting",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

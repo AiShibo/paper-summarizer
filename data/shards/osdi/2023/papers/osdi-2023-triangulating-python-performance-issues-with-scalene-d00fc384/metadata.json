@@ -1,0 +1,172 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2023-triangulating-python-performance-issues-with-scalene-d00fc384",
+  "title": "Triangulating Python Performance Issues with SCALENE",
+  "venue": "osdi",
+  "year": 2023,
+  "track_or_session": "Make Your Bits Go Faster",
+  "paper_type": "main-track",
+  "publication_date": "2023-07-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Emery D. Berger",
+      "position": 1,
+      "orcid": "0000-0002-3222-3271",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sam Stern",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juan Altmayer Pizzorno",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts Amherst",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi23/presentation/berger",
+    "official_pdf": "https://www.usenix.org/system/files/osdi23-berger.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/LLxhCPWfBhg",
+    "bibtex": "@inproceedings {288540,\nauthor = {Emery D. Berger and Sam Stern and Juan Altmayer Pizzorno},\ntitle = {Triangulating Python Performance Issues with {SCALENE}},\nbooktitle = {17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)},\nyear = {2023},\nisbn = {978-1-939133-34-2},\naddress = {Boston, MA},\npages = {51--64},\nurl = {https://www.usenix.org/conference/osdi23/presentation/berger},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-paper-berger",
+      "url": "https://www.usenix.org/conference/osdi23/presentation/berger",
+      "kind": "paper-page",
+      "title": "Triangulating Python Performance Issues with SCALENE",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:11859781c23299470a0705d2f30d150672c300172975a2ccea756fca7af22221",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-proceedings",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:f42cbb9247f7079fca3a5d336c3404c03f895c470db460f3a0597e3367e830e3",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

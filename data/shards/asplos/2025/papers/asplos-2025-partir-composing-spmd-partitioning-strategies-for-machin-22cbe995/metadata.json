@@ -1,0 +1,455 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-partir-composing-spmd-partitioning-strategies-for-machin-22cbe995",
+  "title": "PartIR: Composing SPMD Partitioning Strategies for Machine Learning",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5A: ML Systems 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sami Alabed",
+      "position": 1,
+      "orcid": "0000-0001-8716-526X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Belov",
+      "position": 2,
+      "orcid": "0009-0003-8374-1874",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bart Chrzaszcz",
+      "position": 3,
+      "orcid": "0009-0003-1400-3624",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juliana Franco",
+      "position": 4,
+      "orcid": "0009-0005-1031-2598",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dominik Grewe",
+      "position": 5,
+      "orcid": "0009-0008-6483-3841",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dougal Maclaurin",
+      "position": 6,
+      "orcid": "0000-0003-0122-1377",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, Cambridge, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "James Molloy",
+      "position": 7,
+      "orcid": "0000-0002-9024-7618",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tom Natan",
+      "position": 8,
+      "orcid": "0009-0000-1789-2824",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tamara Norman",
+      "position": 9,
+      "orcid": "0009-0007-0703-6435",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoyue Pan",
+      "position": 10,
+      "orcid": "0009-0001-0846-3208",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adam Paszke",
+      "position": 11,
+      "orcid": "0000-0002-7665-4559",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, Warsaw, Poland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Norman Alexander Rink",
+      "position": 12,
+      "orcid": "0009-0000-8591-5215",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Schaarschmidt",
+      "position": 13,
+      "orcid": "0009-0000-1179-1934",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Isomorphic Labs, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Timur Sitdikov",
+      "position": 14,
+      "orcid": "0009-0007-4010-8912",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Agnieszka Swietlik",
+      "position": 15,
+      "orcid": "0009-0003-7276-9038",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dimitrios Vytiniotis",
+      "position": 16,
+      "orcid": "0009-0007-2079-1996",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joel Wee",
+      "position": 17,
+      "orcid": "0009-0005-3518-3526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google DeepMind, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707284"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707284",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707284",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707284",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707284",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707284",
+      "kind": "crossref",
+      "title": "PartIR: Composing SPMD Partitioning Strategies for Machine Learning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:34d12119a6e3df743cb57f1ac1f817032674acec4c9ff0868a459bd573185206",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707284",
+      "url": "https://www.semanticscholar.org/paper/b12775806f607aa2415680630037f4ede509bc95",
+      "kind": "semantic-scholar",
+      "title": "PartIR: Composing SPMD Partitioning Strategies for Machine Learning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:99a996d0367f464b74ccff73b5779bcde696293c35bc736e92476a01523a668a",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

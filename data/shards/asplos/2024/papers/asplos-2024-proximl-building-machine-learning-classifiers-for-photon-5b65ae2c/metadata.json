@@ -1,0 +1,216 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-proximl-building-machine-learning-classifiers-for-photon-5b65ae2c",
+  "title": "ProxiML: Building Machine Learning Classifiers for Photonic Quantum Computing",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6D: Variational Quantum Computing",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Aditya Ranjan",
+      "position": 1,
+      "orcid": "0009-0007-6808-0093",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tirthak Patel",
+      "position": 2,
+      "orcid": "0000-0003-3127-5931",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rice University, Houston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Silver",
+      "position": 3,
+      "orcid": "0000-0002-7085-2626",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Harshitta Gandhi",
+      "position": 4,
+      "orcid": "0009-0004-5247-2533",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651367"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Devesh Tiwari",
+      "position": 5,
+      "orcid": "0000-0002-7253-2458",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651367"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651367",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651367",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/ikUZhCVF5lI",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651367",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651367",
+      "kind": "crossref",
+      "title": "ProxiML: Building Machine Learning Classifiers for Photonic Quantum Computing",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:c2211606ff8d128b80ecea95d04e5cf90af3f0c90e47386b78496c792382b1b8",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651367",
+      "url": "https://www.semanticscholar.org/paper/408620bea26c93252817c1e1e36439634fe5e45b",
+      "kind": "semantic-scholar",
+      "title": "ProxiML: Building Machine Learning Classifiers for Photonic Quantum Computing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:03f1049edefcc2f9decf94aefd3f4d7e6bda6a3244f4227c7455ebbc24939f25",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2024-combining-buffered-i-o-and-direct-i-o-in-distributed-fil-22de8ea4",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete storage system, architecture, or mechanism evaluated in the Distributed Storage session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "file-systems",
+    "caching",
+    "networking",
+    "programmable-networks",
+    "reliability-testing-and-debugging",
+    "measurement-and-empirical-systems-studies",
+    "workload-characterization"
+  ],
+  "system_layers": [
+    "kernel",
+    "distributed-service",
+    "application-infrastructure",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast24-program",
+      "url": "https://www.usenix.org/conference/fast24/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:711c25cd13e204cf9de6994b60e4174059a58f18a44f0dbb935429d31b5a6a1a",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2024-combining-buffered-i-o-and-direct-i-o-in-distributed-fil-22de8ea4-paper-page",
+      "url": "https://www.usenix.org/conference/fast24/presentation/qian",
+      "kind": "paper-page",
+      "title": "Combining Buffered I/O and Direct I/O in Distributed File Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:0ad46dce1b30e0ed1ad3bf8416a191dc117441c44a6b1828ff3ebb709ab287b4",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

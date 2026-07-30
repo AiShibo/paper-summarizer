@@ -1,0 +1,151 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-fast-transparent-filesystem-microkernel-recovery-with-an-911ba3a1",
+  "associations": [
+    {
+      "group_id": "group-uw-madison-adsl",
+      "faculty_id": "faculty-andrea-c-arpaci-dusseau",
+      "publication_institution_id": "institution-university-wisconsin-madison",
+      "current_institution_id": "institution-university-wisconsin-madison",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-911ba3a1-paper-page",
+        "src-agent-f-911ba3a1-lab-publications",
+        "src-agent-f-911ba3a1-lab-people",
+        "src-agent-f-911ba3a1-andrea-profile",
+        "src-agent-f-911ba3a1-uw-news"
+      ],
+      "rationale": "The official ADSL list and UW news identify Ananke; ADSL's people page lists Andrea Arpaci-Dusseau as faculty and her UW page confirms her current appointment.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "group_id": "group-uw-madison-adsl",
+      "faculty_id": "faculty-remzi-h-arpaci-dusseau",
+      "publication_institution_id": "institution-university-wisconsin-madison",
+      "current_institution_id": "institution-university-wisconsin-madison",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-911ba3a1-paper-page",
+        "src-agent-f-911ba3a1-lab-publications",
+        "src-agent-f-911ba3a1-lab-people",
+        "src-agent-f-911ba3a1-remzi-profile",
+        "src-agent-f-911ba3a1-uw-news"
+      ],
+      "rationale": "The official ADSL list and UW news identify Ananke; ADSL's people page lists Remzi Arpaci-Dusseau as faculty and his UW page confirms his current appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Jing Liu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yifan Dai",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-911ba3a1-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/liu-jing",
+      "kind": "paper-page",
+      "title": "Fast, Transparent Filesystem Microkernel Recovery with Ananke",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-911ba3a1-lab-publications",
+      "url": "https://research.cs.wisc.edu/wind/Publications/",
+      "kind": "lab-page",
+      "title": "ADSL publications",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Ananke publication and authors"
+      ]
+    },
+    {
+      "id": "src-agent-f-911ba3a1-lab-people",
+      "url": "https://research.cs.wisc.edu/wind/People/",
+      "kind": "lab-page",
+      "title": "ADSL people",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau listed as group faculty"
+      ]
+    },
+    {
+      "id": "src-agent-f-911ba3a1-andrea-profile",
+      "url": "https://pages.cs.wisc.edu/~dusseau/",
+      "kind": "faculty-page",
+      "title": "Andrea C. Arpaci-Dusseau",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current UW–Madison professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-911ba3a1-remzi-profile",
+      "url": "https://pages.cs.wisc.edu/~remzi/",
+      "kind": "faculty-page",
+      "title": "Remzi H. Arpaci-Dusseau",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current UW–Madison professor appointment and ADSL co-leadership"
+      ]
+    },
+    {
+      "id": "src-agent-f-911ba3a1-uw-news",
+      "url": "https://www.cs.wisc.edu/2025/03/31/alum-jing-liu-wins-best-paper-award-at-usenix-file-and-storage-systems-conference/",
+      "kind": "institution-page",
+      "title": "UW–Madison news about Ananke",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Ananke paper and UW research context"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

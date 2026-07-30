@@ -1,0 +1,392 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-turbo-efficient-communication-framework-for-large-scale-07c9d24f",
+  "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Accelerating the datacenter edge — Experience Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xuya Jia",
+      "position": 1,
+      "orcid": "0000-0001-8995-879X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhiyi Yao",
+      "position": 2,
+      "orcid": "0009-0002-2778-6077",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chao Peng",
+      "position": 3,
+      "orcid": "0009-0005-1269-7575",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihao Zhao",
+      "position": 4,
+      "orcid": "0009-0008-6850-2185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Lei",
+      "position": 5,
+      "orcid": "0009-0003-2517-9262",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Edison Liu",
+      "position": 6,
+      "orcid": "0009-0003-8969-3789",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiang Li",
+      "position": 7,
+      "orcid": "0009-0009-0556-5290",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zekun He",
+      "position": 8,
+      "orcid": "0009-0000-8020-0595",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yachen Wang",
+      "position": 9,
+      "orcid": "0009-0003-3669-1202",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianneng Zou",
+      "position": 10,
+      "orcid": "0009-0005-5370-8162",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chongqing Zhao",
+      "position": 11,
+      "orcid": "0009-0000-1345-9484",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinhui Chu",
+      "position": 12,
+      "orcid": "0009-0009-4323-8063",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jilong Wang",
+      "position": 13,
+      "orcid": "0000-0002-4493-5145",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Congcong Miao",
+      "position": 14,
+      "orcid": "0000-0003-3265-049X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672241",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672241",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672241",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-turbo-efficient-communication-framework-for-large-scale-07c9d24f-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672241",
+      "kind": "publisher-page",
+      "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-turbo-efficient-communication-framework-for-large-scale-07c9d24f-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672241",
+      "kind": "crossref",
+      "title": "Crossref metadata for Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:2c7c7199a6963d6679c77c082c16ac41f6cf194f3e7e4dd67638168a1025ae26",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Experience Track within the Accelerating the datacenter edge technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

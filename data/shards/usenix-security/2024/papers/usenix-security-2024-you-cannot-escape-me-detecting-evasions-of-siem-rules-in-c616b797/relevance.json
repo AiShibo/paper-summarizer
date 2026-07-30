@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-you-cannot-escape-me-detecting-evasions-of-siem-rules-in-c616b797",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements an open-source adaptive enterprise detection system and evaluates it on real SIEM events and hundreds of rule evasions.",
+  "topics": [
+    "systems-security",
+    "network-security",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-ecf056cf188180ad-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/uetz",
+      "kind": "paper-page",
+      "title": "You Cannot Escape Me: Detecting Evasions of SIEM Rules in Enterprise Networks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

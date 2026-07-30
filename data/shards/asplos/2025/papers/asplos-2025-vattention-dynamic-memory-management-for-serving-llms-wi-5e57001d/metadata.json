@@ -1,0 +1,203 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-vattention-dynamic-memory-management-for-serving-llms-wi-5e57001d",
+  "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 10D: Memory Management",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ramya Prabhu",
+      "position": 1,
+      "orcid": "0009-0002-7266-5522",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707256"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ajay Nayak",
+      "position": 2,
+      "orcid": "0000-0001-5313-1328",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Indian Institute of Science, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707256"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jayashree Mohan",
+      "position": 3,
+      "orcid": "0009-0005-5260-3203",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707256"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ramachandran Ramjee",
+      "position": 4,
+      "orcid": "0000-0003-0007-6040",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707256"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ashish Panwar",
+      "position": 5,
+      "orcid": "0009-0007-0621-4412",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Bangalore, India",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707256"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707256",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707256",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707256",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707256",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707256",
+      "kind": "crossref",
+      "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:58988c1ccfff7eff7fb69aa0adc121877ce1ea0a7c39b341cf6fe2de9c65997d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707256",
+      "url": "https://www.semanticscholar.org/paper/e03827ea5638ae9f9f987b73b2017fd115f9f79b",
+      "kind": "semantic-scholar",
+      "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:193b8ec4e13e092428ebbba24904c0cb1861affc9cf19568a13ab2171af2b9b0",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

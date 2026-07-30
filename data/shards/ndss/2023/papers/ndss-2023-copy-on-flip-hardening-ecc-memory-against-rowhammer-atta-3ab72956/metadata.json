@@ -1,0 +1,171 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-copy-on-flip-hardening-ecc-memory-against-rowhammer-atta-3ab72956",
+  "title": "Copy-on-Flip: Hardening ECC Memory Against Rowhammer Attacks",
+  "venue": "ndss",
+  "year": 2023,
+  "track_or_session": "Trustworthy Computing",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Andrea Di Dio",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1396385a066fca9a-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Koen Koning",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1396385a066fca9a-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Herbert Bos",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1396385a066fca9a-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cristiano Giuffrida",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1396385a066fca9a-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2023.24337",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/copy-on-flip-hardening-ecc-memory-against-rowhammer-attacks/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-337-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-337-slides.pdf",
+    "video": "https://youtu.be/JHxvhrRrM74?si=Zj4nSwZfddpWJut_",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-a0f2f61336c63c10-program",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-1396385a066fca9a-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/copy-on-flip-hardening-ecc-memory-against-rowhammer-attacks/",
+      "kind": "paper-page",
+      "title": "Copy-on-Flip: Hardening ECC Memory Against Rowhammer Attacks",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-5e3e948579e971dc-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2023.24337",
+      "kind": "crossref",
+      "title": "Copy-on-Flip: Hardening ECC Memory Against Rowhammer Attacks",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

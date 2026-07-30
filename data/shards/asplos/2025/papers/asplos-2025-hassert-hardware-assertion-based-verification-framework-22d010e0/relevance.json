@@ -1,0 +1,73 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-hassert-hardware-assertion-based-verification-framework-22d010e0",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because Hassert contributes a concrete FPGA architecture or cloud integration mechanism for hardware Assertion-Based Verification Framework with FPGA Acceleration.",
+  "topics": [
+    "computer-architecture",
+    "accelerators",
+    "hardware-software-co-design",
+    "formal-methods-and-systems-verification",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "implementation",
+    "simulation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3698899",
+      "url": "https://www.semanticscholar.org/paper/84174a3f23f31860a009da8f321f23c7e79f4233",
+      "kind": "semantic-scholar",
+      "title": "Hassert: Hardware Assertion-Based Verification Framework with FPGA Acceleration",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:8f2e78d2e445be6478df0d620bdc2e47e913f23d4a6e87a8f6c44d150bc61b4d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-realistic-website-fingerprinting-by-augmenting-network-t-17588ef6",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper builds and evaluates a network-trace augmentation pipeline for realistic website-fingerprinting attacks.",
+  "topics": [
+    "network-security",
+    "network-measurement",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "deployment-experience"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-3d9ef817cd783935-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "Realistic Website Fingerprinting By Augmenting Network Traces",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract and paper identity used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

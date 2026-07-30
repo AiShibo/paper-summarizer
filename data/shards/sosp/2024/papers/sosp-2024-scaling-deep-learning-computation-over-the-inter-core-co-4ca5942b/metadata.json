@@ -1,0 +1,243 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2024-scaling-deep-learning-computation-over-the-inter-core-co-4ca5942b",
+  "title": "Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10",
+  "venue": "sosp",
+  "year": 2024,
+  "track_or_session": "Session 7: Verification and Compilers 16:00 - 18:00 Session Chair: Manos Kapritsos",
+  "paper_type": "main-track",
+  "publication_date": "2024-11-04",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yiqi Liu",
+      "position": 1,
+      "orcid": "0009-0006-8171-4970",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuqi Xue",
+      "position": 2,
+      "orcid": "0009-0002-0363-9486",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Cheng",
+      "position": 3,
+      "orcid": "0009-0003-9436-674X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lingxiao Ma",
+      "position": 4,
+      "orcid": "0009-0009-9524-5476",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziming Miao",
+      "position": 5,
+      "orcid": "0000-0001-7466-2128",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jilong Xue",
+      "position": 6,
+      "orcid": "0000-0002-4495-1997",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jian Huang",
+      "position": 7,
+      "orcid": "0000-0002-1125-671X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3694715.3695955",
+    "official_page": "https://doi.org/10.1145/3694715.3695955",
+    "official_pdf": "https://sigops.org/s/conferences/sosp/2024/assets/papers/sosp24-final145-acmpaginated.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2024-program",
+      "url": "https://sigops.org/s/conferences/sosp/2024/schedule.html",
+      "kind": "conference-program",
+      "title": "SOSP 2024 Schedule and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:4dfe0d9294242b288ea2d49116228eb840f22263918493c75f49f8ee99acab97",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3694715",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:67fd2c1864e3206c47cd4453a05ec4a4787f374aeb886a7146059067d6b0f83c",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The PDF URL is published directly by the official SOSP program; the endpoint returned an access-control response during automated link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

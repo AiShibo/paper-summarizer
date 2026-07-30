@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-h-fast-2025-independent-review-2026-07-30",
+  "issued_at": "2026-07-30T03:37:05Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-h",
+  "status": "OPEN",
+  "action": "REVIEW_FROZEN_FAST_2025_SPECIALIST_PILOT",
+  "task_brief": "coordination/tasks/agent-h-independent-review.md",
+  "assignment": "coordination/assignments/fast-2025-specialist-pilot.json",
+  "summary_accuracy_policy": "coordination/directives/summary-accuracy-first-policy.json",
+  "paper_count": 36,
+  "paper_ids_sha256": "f2086a4e857823806214e08e4ff832cd044cb57151cda3526e6df57314996633",
+  "stage_owners": {
+    "metadata.json": "agent-b",
+    "relevance.json": "agent-b",
+    "summary.json": "agent-e",
+    "groups.json": "agent-f",
+    "awards.json": "agent-g"
+  },
+  "authorized_write_scope": [
+    "The 36 assigned review.json files",
+    "data/review_queue/agent-h/**",
+    "coordination/claims/agent-h.json"
+  ],
+  "preflight": [
+    "Discard the earlier stale status snapshot and inspect the current shared workspace.",
+    "Verify the assignment contains exactly 36 unique paper IDs and matches the declared SHA-256.",
+    "Verify metadata, relevance, summary, groups, and awards are READY_FOR_REVIEW for every assigned paper before reviewing it.",
+    "Change coordination/claims/agent-h.json from PLANNED to IN_PROGRESS and list exactly the 36 assigned paper IDs."
+  ],
+  "review_requirements": [
+    "Review all 36 assigned papers; do not sample.",
+    "Reopen authoritative sources independently rather than trusting stage prose or another agent's handoff.",
+    "Check metadata identity, author order, paper type, official links, and publication-time affiliations.",
+    "Challenge the relevance class, rationale, topics, system layers, contribution types, and methods.",
+    "For every summary, verify the problem, central mechanism, material assumptions, evaluation setting, baselines, study type, limitations, and claimed impact against the official full paper.",
+    "Verify every quantitative result, unit, comparison direction, experimental condition, and page, section, figure, or table locator.",
+    "Treat an unsupported generalization, incorrect mechanism, wrong baseline, wrong number, omitted material assumption, or invented limitation as an ERROR against the summary owner.",
+    "Verify every group or faculty association has suitable official evidence and is not inferred from author order; verify current and publication-time affiliations remain separate.",
+    "Verify each award or verified empty award result against the official FAST 2025 award source.",
+    "Check duplicates and link targets."
+  ],
+  "issue_and_approval_rules": [
+    "Create one actionable issue per defect with the correct owner, severity, and stage.",
+    "Do not edit metadata, relevance, summary, groups, awards, entities, schemas, frontend files, or generated artifacts.",
+    "Set decision to CHANGES_REQUESTED when any open ERROR exists and route each issue to the responsible owner.",
+    "Use BLOCKED when authoritative evidence required for a decision cannot be obtained.",
+    "Set decision and workflow to APPROVED only when every applicable check is true, all stage owners are listed in independent_from, and no open ERROR remains.",
+    "After an owner reports a correction, reopen the source and verify the corrected file before resolving the issue."
+  ],
+  "handoff": [
+    "Report all 36 reviewed IDs and decisions.",
+    "Report issues by severity, stage, and owner, including systematic error patterns across summaries.",
+    "Report approved, changes-requested, and blocked counts, duplicate candidates, unresolved evidence, and validator output.",
+    "Run targeted FAST 2025 and full-root draft validation.",
+    "Do not begin any expanded-corpus review without another coordinator assignment."
+  ]
+}

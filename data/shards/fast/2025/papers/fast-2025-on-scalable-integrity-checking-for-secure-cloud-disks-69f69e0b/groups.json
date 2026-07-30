@@ -1,0 +1,106 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-on-scalable-integrity-checking-for-secure-cloud-disks-69f69e0b",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-michael-swift",
+      "publication_institution_id": "institution-university-wisconsin-madison",
+      "current_institution_id": "institution-university-wisconsin-madison",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-69f69e0b-paper-page",
+        "src-agent-f-69f69e0b-faculty-publications",
+        "src-agent-f-69f69e0b-faculty-directory"
+      ],
+      "rationale": "Michael Swift's official UW publication page lists the exact paper and the UW faculty directory confirms his current appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Quinn Burke",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ryan Sheatsley",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Rachel King",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Owen Hines",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Patrick McDaniel",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-69f69e0b-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/burke",
+      "kind": "paper-page",
+      "title": "On Scalable Integrity Checking for Secure Cloud Disks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-69f69e0b-faculty-publications",
+      "url": "https://pages.cs.wisc.edu/~swift/publications.html",
+      "kind": "faculty-page",
+      "title": "Michael Swift publications",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact secure-cloud-disk publication"
+      ]
+    },
+    {
+      "id": "src-agent-f-69f69e0b-faculty-directory",
+      "url": "https://www.cs.wisc.edu/people/faculty-2/",
+      "kind": "institution-page",
+      "title": "UW–Madison Computer Sciences faculty",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current Michael Swift faculty appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

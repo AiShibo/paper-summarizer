@@ -1,0 +1,306 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2025-alloystack-a-library-operating-system-for-serverless-wor-48f77cde",
+  "title": "AlloyStack: A Library Operating System for Serverless Workflow Applications",
+  "venue": "eurosys",
+  "year": 2025,
+  "track_or_session": "Session-7.1: Cloud and Serverless Computing - Location: Rotterdam hall 1B - Chair: Martin Kleppmann",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jianing You",
+      "position": 1,
+      "orcid": "0009-0008-2857-4838",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kang Chen",
+      "position": 2,
+      "orcid": "0000-0002-8368-1109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Laiping Zhao",
+      "position": 3,
+      "orcid": "0000-0003-1967-2192",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiming Li",
+      "position": 4,
+      "orcid": "0000-0002-6844-8763",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yichi Chen",
+      "position": 5,
+      "orcid": "0009-0006-8072-6152",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxuan Du",
+      "position": 6,
+      "orcid": "0009-0007-6813-6835",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanjie Wang",
+      "position": 7,
+      "orcid": "0009-0000-1167-0614",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Luhang Wen",
+      "position": 8,
+      "orcid": "0009-0003-7340-7215",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Keyang Hu",
+      "position": 9,
+      "orcid": "0009-0003-6634-3604",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Keqiu Li",
+      "position": 10,
+      "orcid": "0000-0003-3089-7907",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3689031.3717490",
+    "official_page": "https://doi.org/10.1145/3689031.3717490",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3689031.3717490",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2025-program",
+      "url": "https://2025.eurosys.org/preliminary-program.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2025 Main-Track Program",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:72c98f4f9a55b0ff81c3e44a494d197e3e8234fd2bd3289360199f774b409b6b",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3689031",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Twentieth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2025-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:093afa0a858eb181a3be968cefce7cb412b72ba94a59f662bfdb61e20fd64702",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

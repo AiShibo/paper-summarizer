@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2023-rubbledb-cpu-efficient-replication-with-nvme-of-4846b4bc",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material distributed systems mechanism at the distributed service layer.",
+  "topics": [
+    "distributed-systems",
+    "replication",
+    "databases-and-data-processing",
+    "database-engines",
+    "storage-and-file-systems",
+    "storage-reliability",
+    "networking",
+    "datacenter-networking"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "storage",
+    "network"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2023-program",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:3d197ad9547105e9204aca605ead5454ea1fb68b806454930e88abf20d488277",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2023-paper-li-haoyu",
+      "url": "https://www.usenix.org/conference/atc23/presentation/li-haoyu",
+      "kind": "paper-page",
+      "title": "RubbleDB: CPU-Efficient Replication with NVMe-oF",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:3a5d0d0583eaa27f1d9a01a99cc0c7c4ad15e151d5ffdf32752d2256d090b3f5",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

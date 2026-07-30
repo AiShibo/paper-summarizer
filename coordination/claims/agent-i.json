@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-i",
+  "role": "static-frontend-and-client-side-search",
+  "claimed_at": "2026-07-29T22:46:29Z",
+  "status": "COMPLETE",
+  "shards": [],
+  "stage_files": [
+    "site/index.html",
+    "site/styles.css",
+    "site/app.js",
+    "site/pages/**",
+    "site/components/**",
+    "site/data/fixture-papers.json",
+    "tests/frontend/**"
+  ],
+  "paper_ids": [],
+  "entity_directories": [],
+  "notes": [
+    "Completed the synthetic pilot frontend, client-side search, filter views, URL restoration, local browser library, saved searches, and explicit browser exports. Generated site/data/papers.json remains untouched.",
+    "Validation passed at 2026-07-29T23:37:58Z: node syntax check, 16 frontend tests, live fixture fallback and browser viewport/theme/storage smoke checks, and make check with the draft profile across a stable snapshot of 939 paper bundles.",
+    "Entity detail and supervisor-comparison work remains coordinator-gated until the static export supplies stable entity names/details, explicit venue-year coverage, geography facets, story/provenance fields, and comparison inputs."
+  ]
+}

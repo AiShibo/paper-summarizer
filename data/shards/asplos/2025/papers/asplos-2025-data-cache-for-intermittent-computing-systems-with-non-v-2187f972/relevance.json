@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-data-cache-for-intermittent-computing-systems-with-non-v-2187f972",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "Core systems fit because the paper contributes a concrete intermittent-computing cache architecture mechanism for data Cache for Intermittent Computing Systems with Non-Volatile Main Memory.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "embedded-systems",
+    "storage-and-file-systems",
+    "persistent-memory",
+    "caching"
+  ],
+  "system_layers": [
+    "hardware",
+    "storage",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715989",
+      "url": "https://www.semanticscholar.org/paper/2406e45c7597f1e2ee33da9818b8aa59cd12868d",
+      "kind": "semantic-scholar",
+      "title": "Data Cache for Intermittent Computing Systems with Non-Volatile Main Memory",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:e2dc0925314a93bf6f6fad5beab9502e2dcd623bf4d8b2afbfee4652fb0ad2f9",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

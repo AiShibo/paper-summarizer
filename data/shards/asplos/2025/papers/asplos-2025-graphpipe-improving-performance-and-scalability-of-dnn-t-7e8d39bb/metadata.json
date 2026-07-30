@@ -1,0 +1,392 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-graphpipe-improving-performance-and-scalability-of-dnn-t-7e8d39bb",
+  "title": "GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 8A: ML Training",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Byungsoo Jeon",
+      "position": 1,
+      "orcid": "0000-0002-6321-2989",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Arlington, VA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengdi Wu",
+      "position": 2,
+      "orcid": "0009-0001-6672-1252",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon Univerisity, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shiyi Cao",
+      "position": 3,
+      "orcid": "0009-0005-6834-375X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sunghyun Kim",
+      "position": 4,
+      "orcid": "0000-0001-8200-3106",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sunghyun Park",
+      "position": 5,
+      "orcid": "0000-0003-4793-9069",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Neeraj Aggarwal",
+      "position": 6,
+      "orcid": "0009-0007-5128-5017",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Colin Unger",
+      "position": 7,
+      "orcid": "0009-0001-2608-6522",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Palo Alto, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daiyaan Arfeen",
+      "position": 8,
+      "orcid": "0009-0009-5626-4551",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peiyuan Liao",
+      "position": 9,
+      "orcid": "0000-0002-4387-7940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xupeng Miao",
+      "position": 10,
+      "orcid": "0000-0002-9371-8358",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Alizadeh",
+      "position": 11,
+      "orcid": "0000-0002-0014-6742",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gregory R. Ganger",
+      "position": 12,
+      "orcid": "0000-0002-3065-7316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianqi Chen",
+      "position": 13,
+      "orcid": "0000-0002-5744-3940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Jia",
+      "position": 14,
+      "orcid": "0000-0002-1270-5185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707220"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707220",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707220",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707220",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707220",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707220",
+      "kind": "crossref",
+      "title": "GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:157cf843b27207255bec82d60256ea3e07ab0245a18e8e82cf4291a66527426d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707220",
+      "url": "https://www.semanticscholar.org/paper/9b1ef16bb9c7a8e8ce952e724cdaa0478f4b5681",
+      "kind": "semantic-scholar",
+      "title": "GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:1c9ff591186ac0121eccc98f77391b08bb26ce498321030231866f0183eec6dd",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

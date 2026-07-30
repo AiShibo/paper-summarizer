@@ -1,0 +1,370 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2025-cheriot-rtos-an-os-for-fine-grained-memory-safe-compartm-398f5772",
+  "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+  "venue": "sosp",
+  "year": 2025,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2025-10-12",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Saar Amar",
+      "position": 1,
+      "orcid": "0009-0006-2679-6504",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Apple",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tony Chen",
+      "position": 2,
+      "orcid": "0009-0008-9204-7047",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Chisnall",
+      "position": 3,
+      "orcid": "0000-0001-6060-0153",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SCI Semiconductor",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nathaniel Wesley Filardo",
+      "position": 4,
+      "orcid": "0009-0002-9698-1503",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SCI Semiconductor",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ben Laurie",
+      "position": 5,
+      "orcid": "0000-0002-3490-3473",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hugo Lefeuvre",
+      "position": 6,
+      "orcid": "0000-0001-9547-7458",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of British Columbia",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunyan Liu",
+      "position": 7,
+      "orcid": "0009-0007-2071-6750",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Simon W. Moore",
+      "position": 8,
+      "orcid": "0000-0002-2806-495X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert Norton-Wright",
+      "position": 9,
+      "orcid": "0000-0002-6095-6405",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SCI Semiconductor",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Margo Seltzer",
+      "position": 10,
+      "orcid": "0000-0002-2165-4658",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of British Columbia",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yucong Tao",
+      "position": 11,
+      "orcid": "0009-0004-2055-8092",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert N. M. Watson",
+      "position": 12,
+      "orcid": "0000-0001-8139-8783",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyan Xia",
+      "position": 13,
+      "orcid": "0000-0002-8047-899X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ARM Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3731569.3764844",
+    "official_page": "https://doi.org/10.1145/3731569.3764844",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764844",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2025-program",
+      "url": "https://sigops.org/s/conferences/sosp/2025/accepted.html",
+      "kind": "conference-program",
+      "title": "SOSP 2025 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:7096099ed3679d1421a95c3d0b1722bc04f8516da6eaef7c3011fcd0f372fb39",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2025-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3731569",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2025-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2025",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:e797db7544ea4e452bace07bda8f9cc7b5976d94a7ef7a126151a59fb8006bab",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

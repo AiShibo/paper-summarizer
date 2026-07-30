@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-ddlumos-understanding-and-detecting-atomic-ddl-bugs-in-d-09437477",
+  "takeaway": "DDLumos turns a study of atomic schema-change failures into conflict-guided SQL generation and a metadata-graph oracle for rollback, recovery, and concurrency bugs in relational DBMSs.",
+  "background": "Atomic DDL should either complete a schema change or leave the database unchanged. Failures can instead leave catalogs, tables, indexes, or constraints inconsistent, sometimes only becoming visible after recovery or later operations.",
+  "villain": "General DBMS testing tools rarely generate interacting schema changes or maintain an oracle precise enough to catch partial metadata updates and post-recovery inconsistencies.",
+  "approach": "DDLumos records schema objects and conflict points in a metadata table, then synthesizes SQL sequences biased toward DDL operations that reuse conflicting objects. It builds an expected metadata graph, compares it with actual DBMS metadata after each statement, checks server responsiveness, and asynchronously kills and restarts the server to test recovery state. Multiple clients exercise concurrency while sequence identifiers let the oracle reconstruct statement order.",
+  "impact": "The authors claim this targeted generator and oracle can help database vendors find atomic schema-change bugs that general query-testing tools miss.",
+  "evaluation": {
+    "overview": "The authors combine a manual study of public PostgreSQL, MySQL, and MariaDB bugs with new-bug discovery, cross-tool comparison, and historical-bug rediscovery.",
+    "implemented": "A C++ test generator and analyzer with Bison/Flex grammar support, Python grammar adaptation, multi-client execution, and crash/recovery testing.",
+    "setting": "Tests ran official DBMS containers on Ubuntu on an AMD server; the evaluation covered new-bug discovery, repeated cross-tool comparisons, and replay against historical DBMS versions.",
+    "baselines": [
+      "SQLancer",
+      "SQLsmith",
+      "SQUIRREL",
+      "TXCHECK"
+    ],
+    "results": [
+      {
+        "id": "claim-ddlumos-new-bugs",
+        "text": "In a two-week campaign across MySQL, MariaDB, Percona, PolarDB, GreatSQL, and PostgreSQL, the authors report that DDLumos found 73 previously unknown atomic DDL bugs, all confirmed by vendors.",
+        "source_ids": [
+          "src-atc25-ddlumos-pdf"
+        ],
+        "locator": "§§7.1–7.2, Table 2"
+      },
+      {
+        "id": "claim-ddlumos-rediscovery",
+        "text": "When run on DBMS versions corresponding to the 207 surveyed bugs, DDLumos rediscovered 196 bugs, or approximately 94.7%, within one week.",
+        "source_ids": [
+          "src-atc25-ddlumos-pdf"
+        ],
+        "locator": "§7.4, Figure 11"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The study draws only on public issues from PostgreSQL, MySQL, and MariaDB, so undisclosed high-severity bugs and other database models may be absent. DDLumos does not install plugins or enable special configurations, so environment-dependent bugs can remain unreachable.",
+  "phd_group_signal": "The paper demonstrates a study-to-tool methodology: classify real failures, extract a recurring trigger pattern, encode that pattern in test generation and an oracle, then validate against both new and historical bugs.",
+  "beginner_concepts": [
+    "atomic data definition language",
+    "database metadata catalog",
+    "test oracle",
+    "conflict-guided test generation",
+    "crash recovery"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-ddlumos-mechanism",
+      "text": "DDLumos tracks schema elements and metadata-conflict points to guide DDL synthesis, then compares a dynamically maintained expected metadata graph with the DBMS's actual metadata.",
+      "source_ids": [
+        "src-atc25-ddlumos-pdf"
+      ],
+      "locator": "§§5.1–5.2, Figures 5–7 and Algorithms 1–2"
+    },
+    {
+      "id": "claim-ddlumos-detection-scenarios",
+      "text": "Its oracle separately checks server responsiveness, metadata after ordinary execution, and metadata after an asynchronous kill and reboot to detect system unavailability, incorrect results, and post-recovery inconsistency.",
+      "source_ids": [
+        "src-atc25-ddlumos-pdf"
+      ],
+      "locator": "§5.2, Metadata Consistency Analysis and Algorithm 2"
+    },
+    {
+      "id": "claim-ddlumos-validity-scope",
+      "text": "The surveyed dataset is limited to public issues and commits from PostgreSQL, MySQL, and MariaDB; the authors identify undisclosed severe bugs and other database models as threats to representativeness.",
+      "source_ids": [
+        "src-atc25-ddlumos-pdf"
+      ],
+      "locator": "§3, Threats to Validity"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-atc25-ddlumos-pdf",
+      "url": "https://www.usenix.org/system/files/atc25-wu-zhiyong.pdf",
+      "kind": "paper-pdf",
+      "title": "DDLumos: Understanding and Detecting Atomic DDL Bugs in DBMSs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:32:16Z",
+      "content_hash": "sha256:8d011bfd8e68908849ed87703c2444121ce8d3c84b201898541677cff626400e",
+      "official": true,
+      "supports": [
+        "abstract, introduction, methodology, empirical findings, design, implementation, evaluation, discussion, and conclusion",
+        "reported mechanism, test oracle, comparison conditions, numerical results, and validity limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e2",
+    "updated_at": "2026-07-30T03:32:16Z",
+    "notes": [
+      "Read the official paper PDF: abstract; §1; §3 including threats to validity; §§4.1–4.4; §§5.1–5.2; §6; §§7.1–7.4; §8; and §10.",
+      "Omitted the fixed-bug count because §1 reports 20 while the abstract, Table 2, and §7.2 report 14; all retained numerical claims use internally consistent evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:32:16Z",
+    "last_verified_at": "2026-07-30T03:32:16Z",
+    "collector_version": "agent-e2-summary-calibration/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "The paper is internally inconsistent about how many newly found bugs were fixed at writing: §1 says 20, while the abstract, Table 2, and §7.2 say 14; the summary omits this count."
+    ]
+  }
+}

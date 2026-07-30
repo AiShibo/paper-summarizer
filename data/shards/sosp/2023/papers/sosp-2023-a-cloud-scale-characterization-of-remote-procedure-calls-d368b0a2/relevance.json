@@ -1,0 +1,57 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2023-a-cloud-scale-characterization-of-remote-procedure-calls-d368b0a2",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because its empirical study directly characterizes cloud and datacenter systems behavior and informs concrete systems design at the distributed service layer.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-sosp-2023-program",
+      "url": "https://sosp2023.mpi-sws.org/program.html",
+      "kind": "conference-program",
+      "title": "SOSP 2023 Program and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:b1ca7574d2135647662905d071529b97d6bceedf399845c430848796aa90bb81",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification was based on the official title and session/list entry; abstract not present on the program page"
+    ]
+  }
+}

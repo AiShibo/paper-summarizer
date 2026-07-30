@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-clapton-clifford-assisted-problem-transformation-for-err-d2319933",
+  "title": "Clapton: Clifford Assisted Problem Transformation for Error Mitigation in Variational Quantum Algorithms",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7B: Quantum Error Correction",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lennart Maximilian Seifert",
+      "position": 1,
+      "orcid": "0000-0002-2605-3720",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, University of Chicago, Chicago, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674178"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Siddharth Dangwal",
+      "position": 2,
+      "orcid": "0000-0002-2483-9105",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, University of Chicago, Chicago, Illinois, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674178"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Frederic T. Chong",
+      "position": 3,
+      "orcid": "0000-0001-9282-4645",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, University of Chicago, Chicago, Illinois, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674178"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gokul Subramanian Ravi",
+      "position": 4,
+      "orcid": "0000-0002-2334-2682",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Electrical Engineering and Computer Science Department, University of Michigan, Ann Arbor, Michigan, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674178"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674178",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674178",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674178",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674178",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674178",
+      "kind": "crossref",
+      "title": "Clapton: Clifford Assisted Problem Transformation for Error Mitigation in Variational Quantum Algorithms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:58d39696f13bce20402749b49b7061f812c22eab1d6ebe52add0e29f60bd88d8",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674178",
+      "url": "https://www.semanticscholar.org/paper/24d3f8667d9421e13d15ce056093666b71a4de0c",
+      "kind": "semantic-scholar",
+      "title": "Clapton: Clifford Assisted Problem Transformation for Error Mitigation in Variational Quantum Algorithms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:e24c0c1b045b4a75e00731928d8bc4a384522f75a68189a5d2eb1f020fad85be",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

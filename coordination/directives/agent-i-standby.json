@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-i-standby-2026-07-29",
+  "issued_at": "2026-07-29T23:40:47Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-i",
+  "status": "SUPERSEDED",
+  "action": "STANDBY_NO_EDITS",
+  "reason": "The pilot frontend is accepted. Entity details and supervisor comparison require a stable enriched export contract that does not exist yet.",
+  "instructions": [
+    "Keep coordination/claims/agent-i.json at COMPLETE.",
+    "Do not make additional frontend or fixture changes while on standby.",
+    "Do not edit generated site/data/papers.json.",
+    "Wait for a bounded integration assignment from the coordinator.",
+    "The next assignment will include a frozen export schema and generated fixture."
+  ],
+  "resume_conditions": [
+    "Agent F entity resolution has produced validated entity records.",
+    "Summary and provenance exports have stable fields.",
+    "The coordinator has generated and validated the enriched static export.",
+    "The coordinator explicitly reopens Agent I's claim."
+  ],
+  "superseded_at": "2026-07-30T04:13:56Z",
+  "superseded_by": "coordinator-agent-i-venue-year-coverage-ui-2026-07-30",
+  "superseded_reason": "The collectors completed all 48 venue-year status records and the coordinator now supplies a generated coverage feed."
+}

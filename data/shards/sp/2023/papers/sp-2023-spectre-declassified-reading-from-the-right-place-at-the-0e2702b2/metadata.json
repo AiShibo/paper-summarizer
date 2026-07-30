@@ -1,0 +1,346 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-spectre-declassified-reading-from-the-right-place-at-the-0e2702b2",
+  "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+  "venue": "sp",
+  "year": 2023,
+  "track_or_session": "Session 6C: Rowhammer and spectre",
+  "paper_type": "main-track",
+  "publication_date": "2023-05-01",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Basavesh Ammanaghatta Shivakumar",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jack Barnes",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilles Barthe",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "IMDEA Software Institute, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sunjay Cauligi",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chitchanok Chuengsatiansup",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Genkin",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sioli O'Connell",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Schwabe",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Radboud University, Netherlands",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Qi Sim",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuval Yarom",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Adelaide, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-347fd3f16fbed7bf-schedule"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp46215.2023.10179355",
+    "official_page": "https://doi.org/10.1109/SP46215.2023.10179355",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx7/10179215/10179280/10179355.pdf?arnumber=10179355",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-6b627bcbb441a76b-program",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official accepted title"
+      ]
+    },
+    {
+      "id": "src-347fd3f16fbed7bf-schedule",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-452b4d0e1dd1e64a-publisher",
+      "url": "https://doi.org/10.1109/SP46215.2023.10179355",
+      "kind": "publisher-page",
+      "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-bf31225574515a42-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179355",
+      "kind": "crossref",
+      "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-4eb7b47ef41529e7-abstract",
+      "url": "https://openalex.org/W4385187318",
+      "kind": "openalex",
+      "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

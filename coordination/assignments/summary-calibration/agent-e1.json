@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e1-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e1",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "b64726ef85a368d75cb084b4c4b6637bfda38481746e98aa4232fe576effb5fe"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "osdi-2025-nanoflow-towards-optimal-large-language-model-serving-th-0452c3f8",
+      "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
+      "venue": "osdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi25-zhu-kan.pdf"
+    },
+    {
+      "paper_id": "osdi-2025-paralegal-practical-static-analysis-for-privacy-bugs-6999838d",
+      "title": "Paralegal: Practical Static Analysis for Privacy Bugs",
+      "venue": "osdi",
+      "year": 2025,
+      "relevance_class": "SYSTEMS_ADJACENT",
+      "official_pdf": "https://www.usenix.org/system/files/osdi25-adam.pdf"
+    },
+    {
+      "paper_id": "osdi-2025-os-rendering-service-made-parallel-with-out-of-order-exe-92da448c",
+      "title": "OS Rendering Service Made Parallel with Out-of-Order Execution and In-Order Commit",
+      "venue": "osdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi25-wu-yuanpei.pdf"
+    },
+    {
+      "paper_id": "osdi-2025-building-bridges-safe-interactions-with-foreign-language-107f105c",
+      "title": "Building Bridges: Safe Interactions with Foreign Languages through Omniglot",
+      "venue": "osdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi25-schuermann.pdf"
+    },
+    {
+      "paper_id": "osdi-2025-training-with-confidence-catching-silent-errors-in-deep-0a5ee1bc",
+      "title": "Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks",
+      "venue": "osdi",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/osdi25-jiang.pdf"
+    }
+  ]
+}

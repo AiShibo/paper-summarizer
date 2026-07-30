@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-remzi-h-arpaci-dusseau",
+  "author_id": "author-remzi-h-arpaci-dusseau",
+  "display_name": "Remzi H. Arpaci-Dusseau",
+  "official_profile_url": "https://pages.cs.wisc.edu/~remzi/",
+  "current_institution_id": "institution-university-wisconsin-madison",
+  "department": "Department of Computer Sciences",
+  "faculty_rank": "Vilas Distinguished Achievement Professor",
+  "current_location": {
+    "city": "Madison",
+    "state_or_province": "Wisconsin",
+    "country": "United States",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": null,
+  "sources": [
+    {
+      "id": "src-faculty-remzi-h-arpaci-dusseau-profile",
+      "url": "https://pages.cs.wisc.edu/~remzi/",
+      "kind": "faculty-page",
+      "title": "Official homepage for Remzi H. Arpaci-Dusseau",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null because no explicit current official statement was recorded."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region",
+      "recruiting"
+    ]
+  }
+}

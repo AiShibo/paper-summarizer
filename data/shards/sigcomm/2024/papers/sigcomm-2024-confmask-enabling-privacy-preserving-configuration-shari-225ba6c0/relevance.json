@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-confmask-enabling-privacy-preserving-configuration-shari-225ba6c0",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Making networks secure and fair session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "storage-and-file-systems",
+    "crash-consistency",
+    "networking",
+    "programmable-networks",
+    "network-security",
+    "ml-systems",
+    "inference-systems",
+    "privacy-systems",
+    "privacy-infrastructure"
+  ],
+  "system_layers": [
+    "runtime",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "dataset",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

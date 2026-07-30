@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-tensorzkp-repurposing-gpu-tensor-cores-for-high-performa-f0b76640",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The primary contribution is an implemented hardware/software or runtime architecture with evaluated systems behavior.",
+  "topics": [
+    "computer-architecture",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-173c565e1030c820-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-tao",
+      "kind": "paper-page",
+      "title": "TensorZKP: Repurposing GPU Tensor Cores for High-Performance Zero-Knowledge Proofs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:8d64f45abd6718a412e8acf5a12f465904e31eae72786b76e3d2ae1d3bbe406a",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

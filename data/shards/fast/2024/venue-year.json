@@ -1,0 +1,80 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "fast",
+  "year": 2024,
+  "official_conference_url": "https://www.usenix.org/conference/fast24",
+  "official_program_url": "https://www.usenix.org/conference/fast24/technical-sessions",
+  "conference_dates": {
+    "start": "2024-02-27",
+    "end": "2024-02-29"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 22,
+    "core_systems": 22,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-fast24-conference",
+      "url": "https://www.usenix.org/conference/fast24",
+      "kind": "other",
+      "title": "FAST '24",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:131d82a9cfedd25ac06f5d201b94546c22a8d0eb5b21952e9fbb693386c3cf36",
+      "official": true,
+      "supports": [
+        "official conference identity, location context, and dates"
+      ]
+    },
+    {
+      "id": "src-fast24-program",
+      "url": "https://www.usenix.org/conference/fast24/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:711c25cd13e204cf9de6994b60e4174059a58f18a44f0dbb935429d31b5a6a1a",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast24-proceedings",
+      "url": "https://www.usenix.org/system/files/fast24-full_proceedings.pdf",
+      "kind": "conference-proceedings",
+      "title": "FAST '24 Proceedings",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and paper-coverage reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Enumerated 22 archival main-track papers from the official technical sessions and full proceedings.",
+      "Excluded non-paper program items include the keynote, panel, Test of Time presentation, poster session, tutorials, Birds-of-a-Feather sessions, and social/sponsor events.",
+      "No excluded-main-track or excluded-non-main paper bundle was required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

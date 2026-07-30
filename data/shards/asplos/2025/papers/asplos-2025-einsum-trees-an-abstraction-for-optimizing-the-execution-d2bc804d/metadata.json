@@ -1,0 +1,257 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-einsum-trees-an-abstraction-for-optimizing-the-execution-d2bc804d",
+  "title": "Einsum Trees: An Abstraction for Optimizing the Execution of Tensor Expressions",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9A: ML Compilers",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Alexander Breuer",
+      "position": 1,
+      "orcid": "0000-0001-8145-3877",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mark Blacher",
+      "position": 2,
+      "orcid": "0009-0007-2009-7996",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Max Engel",
+      "position": 3,
+      "orcid": "0009-0008-3417-9535",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joachim Giesen",
+      "position": 4,
+      "orcid": "0000-0001-6598-6833",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alexander Heinecke",
+      "position": 5,
+      "orcid": "0009-0007-0947-5394",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel Corporation, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Julien Klaus",
+      "position": 6,
+      "orcid": "0000-0002-1498-2653",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stefan Remke",
+      "position": 7,
+      "orcid": "0009-0005-6815-6217",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Friedrich Schiller University Jena, Jena, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716254"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716254",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716254",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716254",
+    "artifact": "https://doi.org/10.5281/zenodo.14843576",
+    "code": "https://github.com/scalable-analyses/et_asplos25",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716254",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716254",
+      "kind": "crossref",
+      "title": "Einsum Trees: An Abstraction for Optimizing the Execution of Tensor Expressions",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:8ff09de1817e0aa30ba6b7bfbf3c239d61b8931757e7d628a1d165c777414f79",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716254",
+      "url": "https://www.semanticscholar.org/paper/0c2bfa95550404f466e2ae414cb1a9fc4ddf4fde",
+      "kind": "semantic-scholar",
+      "title": "Einsum Trees: An Abstraction for Optimizing the Execution of Tensor Expressions",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:2c6dc29ae608183c682c5e82cfde19c0c953f9b00b9c7077009214986c4d7495",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14843576",
+      "url": "https://zenodo.org/records/14843576",
+      "kind": "artifact-page",
+      "title": "scalable-analyses/et_asplos25: Einsum Trees: An Abstraction for Optimizing the Execution of Tensor Expressions (ASPLOS 2025)",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:bfe5ce1b400321461174d22cb4525f69b1a47b813d1f650a53ed5ef63f6182bc",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

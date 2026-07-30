@@ -1,0 +1,288 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2023-tensor-lightweight-bgp-non-stop-routing-e0bcfc76",
+  "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+  "venue": "sigcomm",
+  "year": 2023,
+  "track_or_session": "BGP Configuration — Experience Paper",
+  "paper_type": "main-track",
+  "publication_date": "2023-09-10",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Congcong Miao",
+      "position": 1,
+      "orcid": "0000-0003-3265-049X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunming Xiao",
+      "position": 2,
+      "orcid": "0000-0002-4913-4881",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northwestern University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marco Canini",
+      "position": 3,
+      "orcid": "0000-0002-5051-4283",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAUST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruiqiang Dai",
+      "position": 4,
+      "orcid": "0009-0008-3026-0387",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengli Zheng",
+      "position": 5,
+      "orcid": "0009-0008-0918-1465",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jilong Wang",
+      "position": 6,
+      "orcid": "0000-0002-4493-5145",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Quancheng Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiwu Bu",
+      "position": 7,
+      "orcid": "0009-0007-6090-2742",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aleksandar Kuzmanovic",
+      "position": 8,
+      "orcid": "0000-0003-2622-6019",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northwestern University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yachen Wang",
+      "position": 9,
+      "orcid": "0009-0003-3669-1202",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm23-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3603269.3604852",
+    "official_page": "https://dl.acm.org/doi/10.1145/3603269.3604852",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3603269.3604852",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=J2eEQwMoQD8&list=PLU4C2_kotFP2JAkoL6pcgbb52f6GIJJd7&index=5",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm23-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e3c4b173cfbedcc908c51c7b97b3b7074aec5a4a2b2b8e0a49d7a9d6f9123e3",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-tensor-lightweight-bgp-non-stop-routing-e0bcfc76-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3603269.3604852",
+      "kind": "publisher-page",
+      "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2023-tensor-lightweight-bgp-non-stop-routing-e0bcfc76-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604852",
+      "kind": "crossref",
+      "title": "Crossref metadata for TENSOR: Lightweight BGP Non-Stop Routing",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:c568b6a03e1f4094ad38bcb0ca63101fc5ec0131aa0aa9eec5d8dbb33e58d5d6",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs",
+        "proceedings page range and print publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The publication date follows the publisher-deposited print date and the CFP's first-day-of-conference publication rule.",
+      "The official accepted-paper list labels this item Experience Paper within the BGP Configuration technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

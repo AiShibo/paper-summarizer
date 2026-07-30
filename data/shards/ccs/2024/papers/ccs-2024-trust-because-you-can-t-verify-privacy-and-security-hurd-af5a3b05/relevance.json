@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-trust-because-you-can-t-verify-privacy-and-security-hurd-af5a3b05",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a user, perception, or policy study without a material systems artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-3330f2604df6c4f0-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690353",
+      "kind": "publisher-page",
+      "title": "Trust, Because You Can't Verify: Privacy and Security Hurdles in Education Technology Acquisition Practices",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-ea9843aca2d8297a-abstract",
+      "url": "https://www.semanticscholar.org/paper/0a2446df7d5c8a898118c9abe912704acd21d579",
+      "kind": "semantic-scholar",
+      "title": "Trust, Because You Can't Verify: Privacy and Security Hurdles in Education Technology Acquisition Practices",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

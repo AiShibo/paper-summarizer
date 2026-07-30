@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-picasso-scaling-cheri-use-after-free-protection-to-milli-72eceee0",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "memory-safety",
+    "computer-architecture",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-b4c188dff0b5c0d8-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guelmez",
+      "kind": "paper-page",
+      "title": "PICASSO: Scaling CHERI Use-After-Free Protection to Millions of Allocations using Colored Capabilities",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:04e53f826aba5dc7983f5fe259471452e972a2a98cffdf003eb8b2c7ec98a3c1",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

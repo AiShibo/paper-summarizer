@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-graphguard-private-time-constrained-pattern-detection-ov-b3436330",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements and evaluates a cloud system for privacy-preserving time-window pattern queries over streaming graphs.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "databases-and-data-processing",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-f9b7f6ba684f3a95-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wang-songlei",
+      "kind": "paper-page",
+      "title": "GraphGuard: Private Time-Constrained Pattern Detection Over Streaming Graphs in the Cloud",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

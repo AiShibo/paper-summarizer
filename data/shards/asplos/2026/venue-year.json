@@ -1,0 +1,209 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "asplos",
+  "year": 2026,
+  "official_conference_url": "https://www.asplos-conference.org/asplos2026/",
+  "official_program_url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+  "conference_dates": {
+    "start": "2026-03-22",
+    "end": "2026-03-26"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 168,
+    "core_systems": 158,
+    "systems_adjacent": 10,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-asplos-2026-conference",
+      "url": "https://www.asplos-conference.org/asplos2026/",
+      "kind": "other",
+      "title": "ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:4a9d8939a4104bf40501852a0b7f10a8a327123d73c188e9f007c90852f5dbd5",
+      "official": true,
+      "supports": [
+        "Conference identity, Pittsburgh location, and March 22–26, 2026 dates."
+      ]
+    },
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-asplos-2026-cfp",
+      "url": "https://www.asplos-conference.org/asplos2026/cfp/",
+      "kind": "other",
+      "title": "ASPLOS 2026 Call for Papers",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:c7818d31871b8b8318fe740d3a36852877ec5d819b96ab717b2947ac8a95e04f",
+      "official": true,
+      "supports": [
+        "Main research-paper scope and the architecture, languages, operating systems, and systems boundary."
+      ]
+    },
+    {
+      "id": "src-asplos-2026-aec",
+      "url": "https://sites.google.com/view/asplos26aec/home",
+      "kind": "artifact-page",
+      "title": "ASPLOS 2026 Artifact Evaluation",
+      "publisher": "ASPLOS 2026 AEC",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "ASPLOS 2026 artifact-evaluation context used for the artifact audit."
+      ]
+    },
+    {
+      "id": "src-acm-asplos-prior-volume3",
+      "url": "https://doi.org/10.1145/3676642",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3",
+      "publisher": "ACM",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Publisher proceedings identity for the volume containing 16 papers reconciled to the official ASPLOS 2026 program."
+      ]
+    },
+    {
+      "id": "src-acm-asplos-2026-volume1",
+      "url": "https://doi.org/10.1145/3760250",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1",
+      "publisher": "ACM",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Publisher proceedings identity for 20 official ASPLOS 2026 papers."
+      ]
+    },
+    {
+      "id": "src-acm-asplos-2026-volume2",
+      "url": "https://doi.org/10.1145/3779212",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",
+      "publisher": "ACM",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Publisher proceedings identity for 132 official main papers and three excluded archival keynote records."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-prior-volume3-query",
+      "url": "https://api.crossref.org/works?query.container-title=Proceedings%20of%20the%2030th%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%2C%20Volume%203&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref query for publisher-labelled ASPLOS 2025 Volume 3",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:b69c2b8f228a53e1cbc5f4b5fcc54c5aa10519191eadf6ebbee15f9856cbf4a5",
+      "official": false,
+      "supports": [
+        "Publisher metadata for 16 official ASPLOS 2026 papers plus three excluded non-main records."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-2026-volume1-query",
+      "url": "https://api.crossref.org/works?query.container-title=Proceedings%20of%20the%2031st%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%2C%20Volume%201&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref query for ASPLOS 2026 Volume 1",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3dfb86fdd2454785cd53ee53c80cfabd2b4d0a62fae04f115ad70932990269c6",
+      "official": false,
+      "supports": [
+        "Publisher metadata for 20 official ASPLOS 2026 papers."
+      ]
+    },
+    {
+      "id": "src-crossref-asplos-2026-volume2-query",
+      "url": "https://api.crossref.org/works?query.container-title=Proceedings%20of%20the%2031st%20ACM%20International%20Conference%20on%20Architectural%20Support%20for%20Programming%20Languages%20and%20Operating%20Systems%2C%20Volume%202&rows=1000",
+      "kind": "crossref",
+      "title": "Crossref query for ASPLOS 2026 Volume 2",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:26dfadbc0c3f00f67140cece674498868d9b595e3ea9bb0cfb7b77946c96052b",
+      "official": false,
+      "supports": [
+        "Publisher metadata for 132 official ASPLOS 2026 papers plus three excluded archival keynote records."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-asplos-2026-batch",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/batch",
+      "kind": "semantic-scholar",
+      "title": "Semantic Scholar ASPLOS 2026 DOI batch",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:f7f3ff6af8659b03cee9e8cd91752c8d8cbef3f0a1791a342c7e9e5cd832b383",
+      "official": false,
+      "supports": [
+        "Indexed abstracts for 165 papers, 70 arXiv identifiers, and ancillary open-access link evidence."
+      ]
+    },
+    {
+      "id": "src-zenodo-asplos-2026-audit",
+      "url": "https://zenodo.org/search?q=ASPLOS%202026",
+      "kind": "other",
+      "title": "Zenodo ASPLOS 2026 artifact audit",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:94bbf2253928431cdef25816306035b0eeed9401f3360295669724d0a45fdc3a",
+      "official": false,
+      "supports": [
+        "Audit of 147 ASPLOS-labelled candidate records and 13 confident author-deposited artifact matches."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Enumerated 168 unique main-track papers across 36 numbered technical sessions; the program overview says 167, but the detailed schedule contains 168 and reconciles one-to-one to publisher DOI records.",
+      "The complete archival boundary is 16 papers in publisher-labelled ASPLOS 2025 Volume 3, 20 in ASPLOS 2026 Volume 1, and 132 in ASPLOS 2026 Volume 2.",
+      "Excluded three detailed-program keynotes and non-main workshop, tutorial, WACI, poster, social, and business blocks; also excluded three non-main Volume 3 records and three short Volume 2 archival keynote records.",
+      "Applied the strict ASPLOS rule to all 168 real papers: 158 CORE_SYSTEMS and 10 SYSTEMS_ADJACENT; every ML-themed included paper has a concrete architecture, compiler, runtime, scheduling, serving, training-system, or co-design mechanism.",
+      "Matched abstracts for all 168 papers (165 Semantic Scholar and 3 arXiv), 73 arXiv alternates, 41 publisher-exposed PDF links, 13 Zenodo artifacts, 5 code repositories, and 2 project pages.",
+      "Flagged 22 normalized program/publisher title differences and four author-list discrepancies; no duplicate DOI, normalized title, or canonical paper ID was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "Official program overview count of 167 versus 168 unique paper entries in the detailed schedule and publisher reconciliation.",
+      "Publisher prior-conference Volume 3 label and 2025-08-06 date for 16 official ASPLOS 2026 program papers.",
+      "Independent author-list review for SNIP, PUSHtap, ASDR, and Voyager.",
+      "Independent title-rendering review for 22 normalized program/publisher wording differences.",
+      "Independent relevance-boundary review for Syno, retained as SYSTEMS_ADJACENT because its primary contribution is neural-operator synthesis with material systems evaluation.",
+      "Official PDF links for 127 papers not exposed in publisher-deposited metadata.",
+      "Artifact links for 155 papers not matched confidently; four matched artifacts retain naming or year-label discrepancies.",
+      "Code, project, slide, video, and BibTeX links not exposed by checked sources remain null per paper.",
+      "Author entity IDs and normalized affiliation entities/geography."
+    ]
+  }
+}

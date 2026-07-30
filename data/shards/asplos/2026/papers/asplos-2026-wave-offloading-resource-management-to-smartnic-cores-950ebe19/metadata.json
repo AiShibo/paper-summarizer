@@ -1,0 +1,272 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-wave-offloading-resource-management-to-smartnic-cores-950ebe19",
+  "title": "Wave: Offloading Resource Management to SmartNIC Cores",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 9D: Network & Cloud Infrastructure",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-06",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jack Tigar Humphries",
+      "position": 1,
+      "orcid": "0000-0001-5163-516X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stellar Development Foundation, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Neel Natu",
+      "position": 2,
+      "orcid": "0009-0007-7656-109X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sunnyvale, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kostis Kaffes",
+      "position": 3,
+      "orcid": "0000-0002-0517-7206",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Columbia University, New York, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stanko Novaković",
+      "position": 4,
+      "orcid": "0000-0002-9331-6463",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Paul Turner",
+      "position": 5,
+      "orcid": "0000-0003-2226-9310",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sunnyvale, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Henry M. Levy",
+      "position": 6,
+      "orcid": "0009-0008-7786-8541",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Seattle, WA, USA and University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Culler",
+      "position": 7,
+      "orcid": "0000-0002-0460-9900",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sunnyvale, CA, USA and University of California,, Berkeley, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christos Kozyrakis",
+      "position": 8,
+      "orcid": "0000-0002-3154-7530",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736113"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676642.3736113",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676642.3736113",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676642.3736113",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2408.17351",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3676642-3736113",
+      "url": "https://api.crossref.org/works/10.1145/3676642.3736113",
+      "kind": "crossref",
+      "title": "Wave: Offloading Resource Management to SmartNIC Cores",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:8530e417709ec4c3fb74eb8ca76759c75024bd0fcbb02405deaa7317738077a6",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736113",
+      "url": "https://www.semanticscholar.org/paper/14cdc0cd86ab57079429aeed90111160b99d646b",
+      "kind": "semantic-scholar",
+      "title": "Wave: Offloading Resource Management to SmartNIC Cores",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a79118ff9fdb72618cb76fba1806623b7f0c3cfb15ca8fe86af20a6036b9af03",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher labels this DOI as ASPLOS 2025 Volume 3 with a 2025-08-06 date; the official ASPLOS 2026 detailed program controls venue-year placement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Publisher prior-volume label/date conflict with official ASPLOS 2026 program placement",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

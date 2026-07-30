@@ -1,0 +1,290 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-cps-a-cooperative-para-virtualized-scheduling-framework-a31798ea",
+  "title": "CPS: A Cooperative Para-virtualized Scheduling Framework for Manycore Machines",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 11B: Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yuxuan Liu",
+      "position": 1,
+      "orcid": "0009-0008-2770-7926",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianqiang Xu",
+      "position": 2,
+      "orcid": "0009-0004-5483-7110",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeyu Mi",
+      "position": 3,
+      "orcid": "0000-0001-8395-1319",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhichao Hua",
+      "position": 4,
+      "orcid": "0000-0002-2211-9120",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Binyu Zang",
+      "position": 5,
+      "orcid": "0000-0002-1968-7645",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Chen",
+      "position": 6,
+      "orcid": "0000-0002-9720-0361",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624762"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624762",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624762",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624762",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/I7z9u3zcdWU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624762",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624762",
+      "kind": "crossref",
+      "title": "CPS: A Cooperative Para-virtualized Scheduling Framework for Manycore Machines",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:03a4f8454ba53e6c67eff571251f4bf194027eb5ae5cf6870a5183257767566b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624762",
+      "url": "https://www.semanticscholar.org/paper/18ba02b71d316d4af1f9cc18fa6535b0566fce2a",
+      "kind": "semantic-scholar",
+      "title": "CPS: A Cooperative Para-virtualized Scheduling Framework for Manycore Machines",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:002450056d69a5d1664b077088e98b6128ee9b50d7adb783957e1f0f53f0888c",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

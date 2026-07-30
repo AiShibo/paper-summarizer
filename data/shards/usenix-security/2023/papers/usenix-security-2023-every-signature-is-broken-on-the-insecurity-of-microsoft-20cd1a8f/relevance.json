@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-every-signature-is-broken-on-the-insecurity-of-microsoft-20cd1a8f",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs an implementation-level analysis of office signature handling and validates five attack classes across major office suites.",
+  "topics": [
+    "systems-security",
+    "vulnerability-discovery",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "runtime"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-54d48562d73e523b-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/rohlmann",
+      "kind": "paper-page",
+      "title": "Every Signature is Broken: On the Insecurity of Microsoft Office’s OOXML Signatures",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

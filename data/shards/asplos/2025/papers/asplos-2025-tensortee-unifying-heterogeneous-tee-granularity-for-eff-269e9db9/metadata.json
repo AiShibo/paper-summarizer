@@ -1,0 +1,550 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-tensortee-unifying-heterogeneous-tee-granularity-for-eff-269e9db9",
+  "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9D: Trust",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Husheng Han",
+      "position": 1,
+      "orcid": "0000-0003-0873-3471",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Cambricon Technologies, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinyao Zheng",
+      "position": 2,
+      "orcid": "0009-0005-7727-440X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Cambricon Technologies, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuanbo Wen",
+      "position": 3,
+      "orcid": "0000-0002-7775-2724",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yifan Hao",
+      "position": 4,
+      "orcid": "0009-0002-9823-2573",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Erhu Feng",
+      "position": 5,
+      "orcid": "0009-0006-5957-3024",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IPADS, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Engineering Research Center for Domain-specific Operating Systems (MoE), Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ling Liang",
+      "position": 6,
+      "orcid": "0000-0002-8534-6494",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking university, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianan Mu",
+      "position": 7,
+      "orcid": "0000-0001-8513-0792",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaqing Li",
+      "position": 8,
+      "orcid": "0000-0002-7748-7967",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianyun Ma",
+      "position": 9,
+      "orcid": "0009-0006-4204-0686",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Cambricon Technologies, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengwei Jin",
+      "position": 10,
+      "orcid": "0000-0002-8267-9824",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Cambricon Technologies, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinkai Song",
+      "position": 11,
+      "orcid": "0000-0003-3458-1555",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zidong Du",
+      "position": 12,
+      "orcid": "0000-0002-7603-4210",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Innovation Center for Processor Technologies, SHIC, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Guo",
+      "position": 13,
+      "orcid": "0000-0003-2530-5874",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing Hu",
+      "position": 14,
+      "orcid": "0000-0002-9979-0561",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SKLP, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "ZGC LAB, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674168"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674168",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674168",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674168",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674168",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674168",
+      "kind": "crossref",
+      "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:d068b9dd1bfe4a78e79a0183ca383947d27ea307ec7e3347221b588ab81fdde1",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674168",
+      "url": "https://www.semanticscholar.org/paper/b1c27c523ece08ff2286cc0e088b3e04d0811ab3",
+      "kind": "semantic-scholar",
+      "title": "TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:32d1a096aee6ef70c438b7d305c123194eb6bc1f0ed8430a32f33b86802ae554",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

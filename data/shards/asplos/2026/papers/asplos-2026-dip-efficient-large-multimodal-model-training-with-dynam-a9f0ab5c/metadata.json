@@ -1,0 +1,313 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-dip-efficient-large-multimodal-model-training-with-dynam-a9f0ab5c",
+  "title": "DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 2A: LLM Training Systems",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhenliang Xue",
+      "position": 1,
+      "orcid": "0009-0004-4904-0078",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hanpeng Hu",
+      "position": 2,
+      "orcid": "0009-0008-5787-5226",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xing Chen",
+      "position": 3,
+      "orcid": "0000-0002-6453-5026",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yimin Jiang",
+      "position": 4,
+      "orcid": "0009-0001-0049-873X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yixin Song",
+      "position": 5,
+      "orcid": "0009-0001-4605-7382",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeyu Mi",
+      "position": 6,
+      "orcid": "0000-0001-8395-1319",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yibo Zhu",
+      "position": 7,
+      "orcid": "0000-0002-9113-2660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daxin Jiang",
+      "position": 8,
+      "orcid": "0000-0002-6657-5806",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yubin Xia",
+      "position": 9,
+      "orcid": "0000-0001-6558-5298",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Chen",
+      "position": 10,
+      "orcid": "0000-0002-9720-0361",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790154"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790154",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790154",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2504.14145",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790154",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790154",
+      "kind": "crossref",
+      "title": "DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:1936aee1c05af0bb88c102e48d2566b92ddd226cfd06f2b1a8006a69c87fc520",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790154",
+      "url": "https://www.semanticscholar.org/paper/f407ed577156a85ac89ea3aaa13b948fb4b5e193",
+      "kind": "semantic-scholar",
+      "title": "DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:40a674d34954411ef7db15bb86ad29ea6f9d579dd3e45e91890e92ec9ed8b00f",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

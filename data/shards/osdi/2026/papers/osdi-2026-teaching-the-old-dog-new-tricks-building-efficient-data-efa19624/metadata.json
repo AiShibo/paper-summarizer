@@ -1,0 +1,519 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2026-teaching-the-old-dog-new-tricks-building-efficient-data-efa19624",
+  "title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
+  "venue": "osdi",
+  "year": 2026,
+  "track_or_session": "LLM Training at Scale",
+  "paper_type": "main-track",
+  "publication_date": "2026-07-13",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Luofan Chen",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China and ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenhan Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China and ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weidong Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinxin Chi",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hequan Zhang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zanbo Wang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenyuan Wang",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lishu Luo",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sijin Wu",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junqi Hu",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jun Wang",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cheng Chen",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lixin Huang",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liyang Zhao",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Tian",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jun Guo",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youhui Bai",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wencong Xiao",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance Seed",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kang Chen",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cheng Li",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China and Institute of Artificial Intelligence, Hefei Comprehensive National Science Center",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi26/presentation/chen-luofan",
+    "official_pdf": "https://www.usenix.org/system/files/osdi26-chen-luofan.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": "@inproceedings {318419,\nauthor = {Luofan Chen and Chenhan Wang and Weidong Zhang and Jinxin Chi and Hequan Zhang and Zanbo Wang and Chenyuan Wang and Lishu Luo and Sijin Wu and Junqi Hu and Jun Wang and Cheng Chen and Lixin Huang and Liyang Zhao and Yong Tian and Jun Guo and Youhui Bai and Wencong Xiao and Kang Chen and Cheng Li},\ntitle = {Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for {Large-Scale} {LLM} {Pre-Training} (Operational Systems)},\nbooktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-55-7},\naddress = {Seattle, WA},\npages = {349--365},\nurl = {https://www.usenix.org/conference/osdi26/presentation/chen-luofan},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2026-program",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '26 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-paper-chen-luofan",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/chen-luofan",
+      "kind": "paper-page",
+      "title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:15e47f38a773a166753f6c6b7043089cd4c3be834420277705d88650d30aae7b",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, final PDF, page range, and BibTeX."
+      ]
+    },
+    {
+      "id": "src-osdi-2026-proceedings",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:b3eaa593c4df7ce0555730e565632ce6498fb005c9e9ceabe10d86ca5cc3b530",
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official technical-session inventory and individual final-paper pages were reconciled one-to-one.",
+      "USENIX does not assign DOIs to OSDI proceedings papers.",
+      "Slides and videos were not present on the official paper page at retrieval time."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (where not published unambiguously in available sources)",
+      "links.slides (not published on the official paper page as retrieved)",
+      "links.video (not published on the official paper page as retrieved)"
+    ]
+  }
+}

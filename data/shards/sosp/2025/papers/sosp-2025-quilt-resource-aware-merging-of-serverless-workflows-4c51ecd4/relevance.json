@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2025-quilt-resource-aware-merging-of-serverless-workflows-4c51ecd4",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material cloud and datacenter systems mechanism at the distributed service layer.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "serverless-computing"
+  ],
+  "system_layers": [
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-sosp-2025-program",
+      "url": "https://sigops.org/s/conferences/sosp/2025/accepted.html",
+      "kind": "conference-program",
+      "title": "SOSP 2025 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:7096099ed3679d1421a95c3d0b1722bc04f8516da6eaef7c3011fcd0f372fb39",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification was based on the official title and session/list entry; abstract not present on the program page"
+    ]
+  }
+}

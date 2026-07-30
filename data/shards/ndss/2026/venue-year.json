@@ -1,0 +1,80 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "ndss",
+  "year": 2026,
+  "official_conference_url": "https://www.ndss-symposium.org/ndss2026/",
+  "official_program_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+  "conference_dates": {
+    "start": "2026-02-23",
+    "end": "2026-02-27"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 265,
+    "core_systems": 40,
+    "systems_adjacent": 129,
+    "excluded": 96,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-ndss-2026-venue-1",
+      "url": "https://www.ndss-symposium.org/ndss2026/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:d98b1d6728acfce5a40c3f7e74fe57536a76973eedab41bdcee121bb1798a6bf",
+      "official": true,
+      "supports": [
+        "conference identity, dates, and program navigation"
+      ]
+    },
+    {
+      "id": "src-ndss-2026-venue-2",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-proceedings",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "265 main-track papers, submission cycles, and official paper pages"
+      ]
+    },
+    {
+      "id": "src-ndss-2026-venue-3",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/NDSS2026_Proceedings_Front_Matter.pdf",
+      "kind": "conference-proceedings",
+      "title": "NDSS Symposium 2026 Proceedings Front Matter",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:547045bacd7b792b2ce86c3bd2474da176b3f71088b4a1f9088286572d94e70f",
+      "official": true,
+      "supports": [
+        "the complete proceedings count of 265 papers"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "The 113 Summer-cycle and 152 Fall-cycle entries total 265.",
+      "All 265 official entries reconcile one-to-one with Crossref and DBLP proceedings records."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "individual paper page spans are not exposed by the official paper pages"
+    ]
+  }
+}

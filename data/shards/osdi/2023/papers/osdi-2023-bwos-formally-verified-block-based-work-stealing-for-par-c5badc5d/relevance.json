@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2023-bwos-formally-verified-block-based-work-stealing-for-par-c5badc5d",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it verifies a concrete compilers, languages, and runtimes mechanism at the runtime layer and targets deployable system correctness.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "runtime-systems",
+    "resource-management-and-scheduling",
+    "scheduling",
+    "formal-methods-and-systems-verification",
+    "verified-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "middleware"
+  ],
+  "contribution_types": [
+    "formal-model-or-proof",
+    "optimization"
+  ],
+  "methods": [
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-osdi-2023-program",
+      "url": "https://www.usenix.org/conference/osdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:c69a6ac99ac5415e3cd5b502400a13661eac1b938e238ebff428cecf0adba931",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2023-paper-wang-jiawei",
+      "url": "https://www.usenix.org/conference/osdi23/presentation/wang-jiawei",
+      "kind": "paper-page",
+      "title": "BWoS: Formally Verified Block-based Work Stealing for Parallel Processing",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:6407fe46cee920c721fbb052d7fc38e4f59134932cdf0151e533db14cde1a64d",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

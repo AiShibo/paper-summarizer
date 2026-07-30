@@ -1,0 +1,116 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-maxk-gnn-extremely-fast-gpu-kernel-design-for-accelerati-4a21b743",
+  "takeaway": "MaxK-GNN changes both the GNN activation and CUDA kernels to sparsify node features, reducing memory traffic for full-batch training on one A100 GPU.",
+  "background": "GNN training repeatedly aggregates irregular graph neighborhoods. On GPUs, sparse-dense multiplication often moves far more feature data than it computes, leaving memory bandwidth and cores underused.",
+  "villain": "Standard ReLU produces irregular sparsity, while existing SpMM kernels still fetch dense feature rows and suffer uncoalesced accesses and load imbalance.",
+  "approach": "MaxK keeps the k largest values in each node-feature row and stores values plus indices in Compressed Balanced Sparse Row form. A row-wise SpGEMM forward kernel uses warp partitioning and shared-memory accumulation; an outer-product SSpMM backward kernel reuses the known sparsity pattern and prefetches dense rows. The method replaces ReLU, so k is an accuracy-speed choice, and the evaluated system targets single-GPU, full-batch training.",
+  "impact": "The authors claim this algorithm-kernel co-design can approach the workload's Amdahl-law speedup ceiling while retaining comparable accuracy at selected k values.",
+  "evaluation": {
+    "overview": "The authors measured kernels over a broad graph suite and end-to-end full-batch training for GraphSAGE, GCN, and GIN on Reddit, ogbn-proteins, ogbn-products, Yelp, and Flickr.",
+    "implemented": "C++ and CUDA SpGEMM and SSpMM kernels integrated with a PyTorch training front end and a pivot-based MaxK selection kernel.",
+    "setting": "Reported runs used one NVIDIA A100 80 GB GPU with a 32-core AMD EPYC 7513 host; kernel latencies average 1,000 runs and complete forward/backward training times average 50 runs, while the artifact requires an x86-64 host with at least 256 GB RAM and an NVIDIA GPU of architecture sm_80 or newer with at least 48 GB of device memory.",
+    "baselines": [
+      "DGL with cuSPARSE 12.0",
+      "GNNAdvisor",
+      "ReLU-based versions of the same GNN models"
+    ],
+    "results": [
+      {
+        "id": "claim-maxk-reddit-result",
+        "text": "For GraphSAGE on Reddit with a 256-wide hidden layer and k=16, the authors report 3.22× speedup over DGL/cuSPARSE and 4.24× over GNNAdvisor, with 96.37% accuracy versus 96.51% for the ReLU baseline.",
+        "source_ids": [
+          "src-maxk-full-paper"
+        ],
+        "locator": "Section 5.3, Table 5, SAGE/Reddit rows"
+      },
+      {
+        "id": "claim-maxk-low-ceiling-result",
+        "text": "On ogbn-products, Yelp, and Flickr, which have lower SpMM-derived speedup ceilings, the paper reports 1.1–2× end-to-end gains without significant accuracy loss.",
+        "source_ids": [
+          "src-maxk-full-paper"
+        ],
+        "locator": "Section 5.3, Accuracy and Speedup discussion; Figure 9"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Evidence is from full-batch training on one A100 GPU rather than multi-GPU or mini-batch settings. Smaller k can trade accuracy for speed, benefits shrink when SpMM is a small fraction of total training, and ogbn-proteins showed high accuracy variance for some models.",
+  "phd_group_signal": "The work couples an activation-function change, sparse-format design, CUDA memory mapping, theoretical approximation analysis, and end-to-end accuracy/performance measurement.",
+  "beginner_concepts": [
+    "graph neural network",
+    "GPU memory coalescing",
+    "MaxK sparsity",
+    "SpGEMM and SSpMM",
+    "Amdahl's law"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-maxk-mechanism",
+      "text": "MaxK-GNN applies a top-k nonlinearity per feature row, stores the regular sparse output in CBSR, uses row-wise SpGEMM in the forward pass, and uses outer-product SSpMM with the inherited sparsity pattern in the backward pass.",
+      "source_ids": [
+        "src-maxk-full-paper"
+      ],
+      "locator": "Sections 3.1-3.2 and 4.1-4.2, Figures 5-7"
+    },
+    {
+      "id": "claim-maxk-hardware-scope",
+      "text": "The evaluation is single-GPU and full-batch on an A100 80 GB GPU with a 32-core AMD EPYC 7513 host; kernel latencies average 1,000 runs, training times average 50 runs, and the released instructions require an x86-64 host with at least 256 GB RAM plus an NVIDIA GPU of architecture sm_80 or newer with at least 48 GB of device memory.",
+      "source_ids": [
+        "src-maxk-full-paper"
+      ],
+      "locator": "Section 5.1, Environment Setup; Appendix A.2 and A.3.2"
+    },
+    {
+      "id": "claim-maxk-tradeoff",
+      "text": "Reducing k increases sparsity and speed but may reduce accuracy, and the attainable end-to-end gain depends on the fraction of training time originally spent in SpMM.",
+      "source_ids": [
+        "src-maxk-full-paper"
+      ],
+      "locator": "Sections 5.2-5.3, Figures 8-9 and Table 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-maxk-full-paper",
+      "url": "https://xiexi51.github.io/assets/pdf/maxk_gnn.pdf",
+      "kind": "paper-pdf",
+      "title": "MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training",
+      "publisher": "Xi Xie (author-hosted copy)",
+      "retrieved_at": "2026-07-30T03:34:28Z",
+      "content_hash": "sha256:a14771bc8d20ff8ec45da7d573e45f76478a42712fe7e6d32ac8fb102d607942",
+      "official": true,
+      "supports": [
+        "Full paper abstract, introduction, dataflow, GPU kernel design, evaluation, limitations, conclusion, and artifact requirements."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e7",
+    "updated_at": "2026-07-30T03:51:17Z",
+    "notes": [
+      "Read the abstract; Sections 1, 3, 4, 5, and 6; Appendix A.2, A.3.2, and A.5-A.6; and Figures 5-10 and Tables 1-5 needed for the mechanism, GPU requirements, baselines, tradeoffs, and results.",
+      "The ACM endpoint returned HTTP 403, so the DOI-matching full paper linked from an author's publication page was used and hashed.",
+      "Section 5.1 names an EPYC 7513 evaluation host, whereas the artifact checklist names a tested EPYC 7543 host; the summary uses 7513 for the reported evaluation and states only the artifact's minimum host requirements."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:34:28Z",
+    "last_verified_at": "2026-07-30T03:51:17Z",
+    "collector_version": "agent-e7-summary-calibration-v1",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

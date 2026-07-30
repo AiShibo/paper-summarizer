@@ -1,0 +1,76 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "takeaway": "This synthetic paper demonstrates the complete, source-backed summary contract.",
+  "background": "Operating-system mechanisms mediate how programs use shared machine resources.",
+  "villain": "The fixture models an interface whose behavior is difficult to inspect and test.",
+  "approach": "The fictional design exposes a small mechanism with explicit invariants and a testable implementation.",
+  "impact": "The example shows how a real paper summary would connect a design choice to a practical systems outcome.",
+  "evaluation": {
+    "overview": "A synthetic prototype is compared with a fictional baseline on a controlled workload.",
+    "implemented": "A test-only prototype.",
+    "setting": "An isolated fixture environment.",
+    "baselines": [
+      "Fixture baseline"
+    ],
+    "results": [
+      {
+        "id": "claim-fixture-result",
+        "text": "The fixture reports a synthetic 10 percent improvement.",
+        "source_ids": [
+          "src-fixture-summary"
+        ],
+        "locator": "Fixture evaluation"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "All people, institutions, results, and claims in this record are synthetic test data.",
+  "phd_group_signal": "The fixture demonstrates how implementation-heavy methodology would be described without ranking a group.",
+  "beginner_concepts": [
+    "kernel mechanism",
+    "system invariant",
+    "experimental baseline"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [],
+  "sources": [
+    {
+      "id": "src-fixture-summary",
+      "url": "https://example.org/fixture/paper.pdf",
+      "kind": "paper-pdf",
+      "title": "Synthetic fixture paper PDF for summary tests",
+      "publisher": "Test fixture",
+      "retrieved_at": "2026-07-29T12:00:00Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "fixture summary",
+        "fixture numerical result"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-summary-writer",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": []
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "VERIFIED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": []
+  }
+}

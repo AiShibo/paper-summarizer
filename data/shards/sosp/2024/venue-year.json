@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sosp",
+  "year": 2024,
+  "official_conference_url": "https://sigops.org/s/conferences/sosp/2024/",
+  "official_program_url": "https://sigops.org/s/conferences/sosp/2024/schedule.html",
+  "conference_dates": {
+    "start": "2024-11-04",
+    "end": "2024-11-06"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 43,
+    "core_systems": 43,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sosp-2024-conference",
+      "url": "https://sigops.org/s/conferences/sosp/2024/",
+      "kind": "other",
+      "title": "SOSP 2024",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:89e250a09accef862198ddab2f81a72abe00b87e11f68b7a5394982e037ae8f1",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2024 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-program",
+      "url": "https://sigops.org/s/conferences/sosp/2024/schedule.html",
+      "kind": "conference-program",
+      "title": "SOSP 2024 Schedule and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:4dfe0d9294242b288ea2d49116228eb840f22263918493c75f49f8ee99acab97",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3694715",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:67fd2c1864e3206c47cd4453a05ec4a4787f374aeb886a7146059067d6b0f83c",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

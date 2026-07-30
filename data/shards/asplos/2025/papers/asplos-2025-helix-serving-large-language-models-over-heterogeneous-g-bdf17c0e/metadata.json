@@ -1,0 +1,236 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-helix-serving-large-language-models-over-heterogeneous-g-bdf17c0e",
+  "title": "Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5C: Large Language Models",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yixuan Mei",
+      "position": 1,
+      "orcid": "0009-0003-5781-9164",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yonghao Zhuang",
+      "position": 2,
+      "orcid": "0009-0001-8969-7478",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xupeng Miao",
+      "position": 3,
+      "orcid": "0000-0002-9371-8358",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Juncheng Yang",
+      "position": 4,
+      "orcid": "0000-0002-0412-1139",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Jia",
+      "position": 5,
+      "orcid": "0000-0002-1270-5185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rashmi Vinayak",
+      "position": 6,
+      "orcid": "0000-0002-2227-7460",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707215"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707215",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707215",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707215",
+    "artifact": "https://doi.org/10.5281/zenodo.14060580",
+    "code": "https://github.com/Thesys-lab/Helix-ASPLOS25",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707215",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707215",
+      "kind": "crossref",
+      "title": "Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:e519ac2597b05db120e73508107cd01b8bc6f409223c0a687c6e3c4e448e5ea8",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707215",
+      "url": "https://www.semanticscholar.org/paper/6a111d13b9c272459fb3d7628a7b0307c8ebd0f7",
+      "kind": "semantic-scholar",
+      "title": "Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:846e648dbb38965e087a864037ce87d58ebd7b2078996b4c0bff388826bc8bb3",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14060580",
+      "url": "https://zenodo.org/records/14060580",
+      "kind": "artifact-page",
+      "title": "Official Implementation for \"Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3aa49393b394ff0fc2cc195fe49ea8451faf0afa474506b8d6edc78e20760c53",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

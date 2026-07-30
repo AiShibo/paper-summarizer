@@ -1,0 +1,108 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-vectorcdc-accelerating-data-deduplication-with-vector-in-20baa9bd",
+  "associations": [
+    {
+      "group_id": "group-waterloo-advanced-systems-lab",
+      "faculty_id": "faculty-samer-al-kiswany",
+      "publication_institution_id": "institution-university-waterloo",
+      "current_institution_id": "institution-university-waterloo",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-20baa9bd-paper-page",
+        "src-agent-f-20baa9bd-lab-publications",
+        "src-agent-f-20baa9bd-faculty-profile",
+        "src-agent-f-20baa9bd-personal-profile"
+      ],
+      "rationale": "WASL's official publication list contains VectorCDC; official Waterloo pages confirm Samer Al-Kiswany's current appointment and leadership of WASL.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Sreeharsha Udayashankar",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Abdelrahman Baba",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-20baa9bd-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/udayashankar",
+      "kind": "paper-page",
+      "title": "VectorCDC: Accelerating Data Deduplication with Vector Instructions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-20baa9bd-lab-publications",
+      "url": "https://wasl.uwaterloo.ca/publications/",
+      "kind": "lab-page",
+      "title": "Waterloo Advanced Systems Lab publications",
+      "publisher": "University of Waterloo",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact VectorCDC publication"
+      ]
+    },
+    {
+      "id": "src-agent-f-20baa9bd-faculty-profile",
+      "url": "https://uwaterloo.ca/computer-science/contacts/samer-al-kiswany",
+      "kind": "faculty-page",
+      "title": "Samer Al-Kiswany",
+      "publisher": "University of Waterloo",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current associate-professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-20baa9bd-personal-profile",
+      "url": "https://cs.uwaterloo.ca/~alkiswan/",
+      "kind": "faculty-page",
+      "title": "Samer Al-Kiswany — official homepage",
+      "publisher": "University of Waterloo",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "leadership of the Waterloo Advanced Systems Lab"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

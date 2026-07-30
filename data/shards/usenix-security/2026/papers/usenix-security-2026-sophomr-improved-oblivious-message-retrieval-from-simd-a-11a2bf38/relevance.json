@@ -1,0 +1,43 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-sophomr-improved-oblivious-message-retrieval-from-simd-a-11a2bf38",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is a cryptographic primitive, protocol, or proof construction rather than a material computer-system artifact.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-016b41446d3af863-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo",
+      "kind": "paper-page",
+      "title": "SophOMR: Improved Oblivious Message Retrieval from SIMD-Aware Homomorphic Compression",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:916710e6fc805c52c6ec6ec04e73e68e2f121bd9427e75ec9cb263ee11ab5e0e",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

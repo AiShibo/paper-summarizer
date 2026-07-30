@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e4",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:27:14Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/nsdi/2025"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "nsdi-2025-preacher-secure-and-practical-password-pre-authenticatio-ce1ed3be",
+    "nsdi-2025-enabling-silent-telemetry-data-transmission-with-invisif-51b52b5e",
+    "nsdi-2025-runtime-protocol-refinement-checking-for-distributed-pro-98850449",
+    "nsdi-2025-eden-developer-friendly-application-integrated-far-memor-35551bca",
+    "nsdi-2025-ndd-a-decision-diagram-for-network-verification-c4a2c09c"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Verified canonical paper-ID SHA-256 4602c64db93dfb54c41545fc3b279c9bfaa77d663109b073fd4139b4e3d62997 before editing.",
+    "Claim is limited to the five-paper NSDI 2025 summary calibration batch.",
+    "Completed exactly the five assigned summary.json stages from the official USENIX full-paper PDFs; all five workflows are READY_FOR_REVIEW with verification.verified_by left null.",
+    "Eden contains an internal Memcached hint-count discrepancy: Table 1 reports 2 while §5.3.3 reports 4; the count was omitted and the uncertainty recorded in summary verification.",
+    "Draft validation passed for data/shards/nsdi/2025 (83 bundles, 499 JSON files) and data/shards (6863 bundles, 41320 JSON files), both with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, release validation for the fixture, and repository-wide draft validation.",
+    "Removed all temporary Agent E4 PDFs, extracted text, rendered inspection images, and PDFKit helper files after source verification."
+  ]
+}

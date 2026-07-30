@@ -1,0 +1,289 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-control-logic-synthesis-drawing-the-rest-of-the-owl-70339fd7",
+  "title": "Control Logic Synthesis: Drawing the Rest of the OWL",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3D: EDA",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zachary D. Sisco",
+      "position": 1,
+      "orcid": "0009-0003-8349-7701",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andrew David Alex",
+      "position": 2,
+      "orcid": "0009-0001-6987-5724",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zechen Ma",
+      "position": 3,
+      "orcid": "0009-0001-6315-1952",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yeganeh Aghamohammadi",
+      "position": 4,
+      "orcid": "0000-0002-7700-5112",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boming Kong",
+      "position": 5,
+      "orcid": "0009-0007-8373-9685",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Benjamin Darnell",
+      "position": 6,
+      "orcid": "0000-0001-7046-4589",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Champaign, Illinois, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Timothy Sherwood",
+      "position": 7,
+      "orcid": "0000-0002-6550-6075",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ben Hardekopf",
+      "position": 8,
+      "orcid": "0009-0008-1199-6129",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Balkind",
+      "position": 9,
+      "orcid": "0000-0003-1443-1373",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674170"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674170",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674170",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674170",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674170",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674170",
+      "kind": "crossref",
+      "title": "Control Logic Synthesis: Drawing the Rest of the OWL",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:ef4d58c9f16942494d742ef3955d10b7fc3c2515dbeb35972babc4bf19801182",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674170",
+      "url": "https://www.semanticscholar.org/paper/438e612e661ed90f0b31dfa07ef9b282d6cdd1fa",
+      "kind": "semantic-scholar",
+      "title": "Control Logic Synthesis: Drawing the Rest of the OWL",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c4e1d3bbdd909019d2ae6a29ba52ecf6232ab25327f578e060c26e5250e00fa6",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

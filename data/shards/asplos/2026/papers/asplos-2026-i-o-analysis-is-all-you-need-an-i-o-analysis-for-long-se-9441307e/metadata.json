@@ -1,0 +1,203 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-i-o-analysis-is-all-you-need-an-i-o-analysis-for-long-se-9441307e",
+  "title": "I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 3A: LLM Attention & KV Cache",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xiaoyang Lu",
+      "position": 1,
+      "orcid": "0009-0005-9481-7234",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Illinois Institute of Technology, Chicago, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Boyu Long",
+      "position": 2,
+      "orcid": "0009-0002-5774-6893",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoming Chen",
+      "position": 3,
+      "orcid": "0000-0002-7337-1844",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinhe Han",
+      "position": 4,
+      "orcid": "0000-0003-0904-6681",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xian-He Sun",
+      "position": 5,
+      "orcid": "0000-0002-1093-0792",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Illinois Institute of Technology, Chicago, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790174"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790174",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790174",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790174",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790174",
+      "kind": "crossref",
+      "title": "I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3a549149aaca0c2d90084676ba33510f1ea79060be2a925dde624dc0d9a9ee27",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790174",
+      "url": "https://www.semanticscholar.org/paper/c20fa666b15e955f9708f1c28ba61b15ee83cf98",
+      "kind": "semantic-scholar",
+      "title": "I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58794e9c2f604ca07bb0588a0805ce537f3dbc6eb2b2cab5e8d4c1bafd833b3e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

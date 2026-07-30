@@ -1,0 +1,1141 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-pytorch-2-faster-machine-learning-through-dynamic-python-8d206490",
+  "title": "PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6C: Optimization of Tensor Programs",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jason Ansel",
+      "position": 1,
+      "orcid": "0009-0007-5207-2179",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Edward Yang",
+      "position": 2,
+      "orcid": "0009-0008-0621-7872",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Horace He",
+      "position": 3,
+      "orcid": "0009-0004-1133-816X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Natalia Gimelshein",
+      "position": 4,
+      "orcid": "0009-0002-9867-5075",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Animesh Jain",
+      "position": 5,
+      "orcid": "0000-0001-6777-9168",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Voznesensky",
+      "position": 6,
+      "orcid": "0009-0000-0539-0667",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Bao",
+      "position": 7,
+      "orcid": "0009-0008-8090-7660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Bell",
+      "position": 8,
+      "orcid": "0009-0003-6824-4343",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Quansight, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Berard",
+      "position": 9,
+      "orcid": "0009-0005-4954-1849",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Evgeni Burovski",
+      "position": 10,
+      "orcid": "0000-0001-8149-0483",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Quansight, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Geeta Chauhan",
+      "position": 11,
+      "orcid": "0009-0003-0830-7330",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anjali Chourdia",
+      "position": 12,
+      "orcid": "0009-0005-4276-2227",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Will Constable",
+      "position": 13,
+      "orcid": "0009-0001-7846-744X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alban Desmaison",
+      "position": 14,
+      "orcid": "0009-0002-4359-1974",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zachary DeVito",
+      "position": 15,
+      "orcid": "0009-0002-8863-1503",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Elias Ellison",
+      "position": 16,
+      "orcid": "0009-0005-8337-3498",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Will Feng",
+      "position": 17,
+      "orcid": "0009-0009-6406-4699",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiong Gong",
+      "position": 18,
+      "orcid": "0009-0009-0845-5628",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Gschwind",
+      "position": 19,
+      "orcid": "0009-0001-4963-4915",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brian Hirsh",
+      "position": 20,
+      "orcid": "0009-0004-1239-3320",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sherlock Huang",
+      "position": 21,
+      "orcid": "0009-0005-7558-5570",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kshiteej Kalambarkar",
+      "position": 22,
+      "orcid": "0009-0009-8198-4526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Quansight, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Laurent Kirsch",
+      "position": 23,
+      "orcid": "0009-0007-4121-2308",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Lazos",
+      "position": 24,
+      "orcid": "0009-0007-8706-9447",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mario Lezcano",
+      "position": 25,
+      "orcid": "0009-0006-8893-2276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Quansight, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanbo Liang",
+      "position": 26,
+      "orcid": "0009-0003-2111-0014",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Melo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jason Liang",
+      "position": 27,
+      "orcid": "0009-0008-5462-1466",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinghai Lu",
+      "position": 28,
+      "orcid": "0009-0003-1993-8648",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "C. K. Luk",
+      "position": 29,
+      "orcid": "0009-0009-9938-8327",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bert Maher",
+      "position": 30,
+      "orcid": "0009-0004-6873-645X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunjie Pan",
+      "position": 31,
+      "orcid": "0009-0002-9351-431X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, MI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Christian Puhrsch",
+      "position": 32,
+      "orcid": "0009-0002-3925-967X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Matthias Reso",
+      "position": 33,
+      "orcid": "0000-0002-1582-5860",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mark Saroufim",
+      "position": 34,
+      "orcid": "0009-0009-2612-6588",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marcos Yukio Siraichi",
+      "position": 35,
+      "orcid": "0000-0001-5377-8607",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Quansight, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Helen Suk",
+      "position": 36,
+      "orcid": "0009-0007-6048-3189",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shunting Zhang",
+      "position": 37,
+      "orcid": "0009-0008-8370-5554",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Suo",
+      "position": 38,
+      "orcid": "0009-0000-5454-3113",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Phil Tillet",
+      "position": 39,
+      "orcid": "0009-0007-0636-8710",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xu Zhao",
+      "position": 40,
+      "orcid": "0000-0003-2906-8677",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eikan Wang",
+      "position": 41,
+      "orcid": "0009-0009-2648-5193",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Keren Zhou",
+      "position": 42,
+      "orcid": "0000-0002-7977-3182",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Richard Zou",
+      "position": 43,
+      "orcid": "0009-0000-9597-1405",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaodong Wang",
+      "position": 44,
+      "orcid": "0000-0001-5436-9952",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ajit Mathews",
+      "position": 45,
+      "orcid": "0009-0003-4199-0434",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "William Wen",
+      "position": 46,
+      "orcid": "0009-0009-1502-9520",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gregory Chanan",
+      "position": 47,
+      "orcid": "0009-0006-0635-4725",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Wu",
+      "position": 48,
+      "orcid": "0000-0003-2913-3280",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Soumith Chintala",
+      "position": 49,
+      "orcid": "0000-0003-2147-9850",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640366"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640366",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640366",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640366",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/c6NZ1l5ecMo",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640366",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640366",
+      "kind": "crossref",
+      "title": "PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:316f498432b70d6a539cf1efe8886c975722e77c4898841579d1959e4fe28336",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640366",
+      "url": "https://www.semanticscholar.org/paper/a509670659e8b054e2b7d1b6f8a0bc722398fa62",
+      "kind": "semantic-scholar",
+      "title": "PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:597f1e9acb0a11f65199d69af1550910f53c6aabad76de78dc6d2bc5fedfdc86",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official program displays 44 authors, whereas the ACM-published paper and publisher-deposited Crossref record contain 49; the complete published 49-author list and order are retained and the discrepancy is flagged for independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "authors.official_program_publisher_discrepancy"
+    ]
+  }
+}

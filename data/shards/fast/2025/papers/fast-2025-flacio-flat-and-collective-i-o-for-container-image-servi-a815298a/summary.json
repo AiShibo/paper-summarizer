@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-flacio-flat-and-collective-i-o-for-container-image-servi-a815298a",
+  "takeaway": "FlacIO packages the exact root-file-system pages a service needs at startup into one contiguous runtime image, then injects it into a kernel cache for low-I/O container launch.",
+  "background": "A cold container normally downloads its whole image, while lazy loaders fetch compressed chunks on demand. Both approaches reconstruct a disk-oriented, general-purpose image even though a particular service starts from a small, repeatable subset of file-system pages.",
+  "villain": "Lazy loading avoids full downloads but still issues many small network requests and fetches amplified chunks because access granularity differs from image layout. Trace prefetch alone does not make scattered data contiguous or shorten the layered local I/O path.",
+  "approach": "FlacIO traces root-file-system access until a service-specific readiness probe fires, then asynchronously extracts and deduplicates those pages into a flat runtime image with embedded indexes. At launch it incrementally transfers missing pages and injects them into a Runtime Page Cache inside OverlayFS; misses fall back to the underlying CRFS or Nydus lazy loader.",
+  "impact": "The design reframes container images from global disk snapshots into service-oriented memory state, improving both network aggregation and local construction while retaining fallback compatibility. It is applicable where entrypoints and readiness behavior are stable enough to trace.",
+  "evaluation": {
+    "overview": "Six services measure cold and warm startup; design studies isolate tracing, cache, network, storage, memory, and incremental loading; object storage, ML training, and an eight-node scaling experiment assess end-to-end effects.",
+    "implemented": "A containerd-integrated FlacIO prototype with an eBPF-style I/O tracker, registry runtime-image service, OverlayFS runtime page cache, and adapters for CRFS and Nydus.",
+    "setting": "A 24-core 2.30 GHz server with 256 GB DRAM, Linux 6.5/openEuler, containerd 1.7.1, and a 10 Gb/s registry link; the scaling test uses eight nodes and 64 Postgres containers.",
+    "baselines": [
+      "native containerd full-image loading",
+      "CRFS",
+      "Nydus",
+      "DADI",
+      "DADI with trace prefetching"
+    ],
+    "results": [
+      {
+        "id": "claim-flacio-startup",
+        "text": "Across six services, FlacIO reports up to 23× lower cold-start latency than full-image loading and up to 4.5× lower latency than tested lazy loaders, without material warm-start regression.",
+        "source_ids": [
+          "src-fast25-pdf-a815298a"
+        ],
+        "locator": "PDF pp. 11–12; §§5.1.1–5.1.2, Figure 6"
+      },
+      {
+        "id": "claim-flacio-overhead",
+        "text": "For nine services, runtime images total 4.7% of Nydus and 6.0% of CRFS compressed-image size; on PyTorch, FlacIO transfers at least 1.6× less data and 4.4× fewer packets than other lazy loaders.",
+        "source_ids": [
+          "src-fast25-pdf-a815298a"
+        ],
+        "locator": "PDF pp. 12–13; §§5.2.3–5.2.4, Figure 9 and Table 3"
+      },
+      {
+        "id": "claim-flacio-apps",
+        "text": "The paper reports up to 2.2× object-insertion throughput, 70.1% faster cold-start-plus-training, and 55.1% faster cluster scaling compared with the corresponding tested alternatives.",
+        "source_ids": [
+          "src-fast25-pdf-a815298a"
+        ],
+        "locator": "PDF p. 14; §§5.3.1–5.3.3, Figure 12"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Runtime images require a representative trace and readiness probe for every service/entrypoint; behavior not observed during tracing falls back to lazy loading. They consume additional registry storage and kernel memory, and stale traces may lose benefit as software changes. Most experiments use one host and 10 Gb/s network, with only the scaling experiment using a cluster.",
+  "phd_group_signal": "The paper diagnoses both data-volume and request-shape bottlenecks, introduces a new abstraction rather than a cache policy alone, and validates it from kernel micro-costs through cluster scaling. It illustrates systems work spanning container tooling, file systems, networking, and workload semantics.",
+  "beginner_concepts": [
+    "container image",
+    "cold start",
+    "lazy loading",
+    "page cache",
+    "OverlayFS",
+    "I/O amplification",
+    "readiness probe"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-flacio-runtime-image",
+      "text": "A runtime image stores only traced service-startup pages in contiguous form and indexes them by file and page, replacing scattered on-demand network reads with a few metadata requests and one large transfer.",
+      "source_ids": [
+        "src-fast25-pdf-a815298a"
+      ],
+      "locator": "PDF pp. 5–8; §3 and §§4–4.1, Figures 2–3"
+    },
+    {
+      "id": "claim-flacio-rtpc",
+      "text": "RTPC overlays runtime-image pages on the normal VFS cache, supports incremental sharing among images from one base, and redirects absent pages to the legacy loader.",
+      "source_ids": [
+        "src-fast25-pdf-a815298a"
+      ],
+      "locator": "PDF pp. 8–10; §4.2, Figures 4–5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-a815298a",
+      "url": "https://www.usenix.org/system/files/fast25-liu-yubo.pdf",
+      "kind": "paper-pdf",
+      "title": "FlacIO: Flat and Collective I/O for Container Image Service",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:e4fbe7f7aea4d5de9db9cf8132ecc888ab19c5e93059d316efe0b52da8650208",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, and conclusion",
+        "reported startup, network, storage, memory, and application results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:40:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §3 motivation, §§4–4.4 design/implementation, §§5.1–5.3 evaluation, and §6 Conclusion.",
+      "Performance values are author-reported and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:40:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

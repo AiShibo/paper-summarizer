@@ -1,0 +1,93 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "nsdi",
+  "year": 2026,
+  "official_conference_url": "https://www.usenix.org/conference/nsdi26",
+  "official_program_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+  "conference_dates": {
+    "start": "2026-05-04",
+    "end": "2026-05-06"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 150,
+    "core_systems": 150,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-nsdi26-conference",
+      "url": "https://www.usenix.org/conference/nsdi26",
+      "kind": "other",
+      "title": "NSDI '26",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:2ca07c1f64d6423ac9c94faa193495bebb85b89861184acfc92958205f63b073",
+      "official": true,
+      "supports": [
+        "official conference identity, dates, and status"
+      ]
+    },
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi26-proceedings",
+      "url": "https://www.usenix.org/sites/default/files/nsdi26_full_proceedings.pdf",
+      "kind": "conference-proceedings",
+      "title": "NSDI '26 Proceedings",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:43Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and archival paper-coverage reconciliation"
+      ]
+    },
+    {
+      "id": "src-nsdi26-cfp",
+      "url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+      "kind": "other",
+      "title": "NSDI '26 Call for Papers",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:56fb4cf4ca37a4c8df99bfbe4f149aa4860f5187115059dc53c9cd067f365984",
+      "official": true,
+      "supports": [
+        "official main-paper scope and track definitions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Enumerated 150 archival main-track papers from the official technical sessions and full proceedings.",
+      "The excluded-non-main paper audit count is zero; opening remarks, keynotes, awards, breaks, poster sessions, and social or sponsor events are non-paper program items.",
+      "No excluded-main-track or excluded-non-main paper bundle was required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-sok-analysis-of-accelerator-tee-designs-6164beb8",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a virtualization and isolation system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation",
+    "confidential-computing",
+    "trusted-execution-environments",
+    "computer-architecture",
+    "hardware-security",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime",
+    "hardware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-bfd09c1da03fae8b-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sok-analysis-of-accelerator-tee-designs/",
+      "kind": "paper-page",
+      "title": "SoK: Analysis of Accelerator TEE Designs",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:cdf90033f2a09f3c9490800aa3648b53f67fbe578b4d0dc7bf3a034ebe87f00d",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

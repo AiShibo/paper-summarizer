@@ -1,0 +1,308 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-bat-efficient-generative-recommender-serving-with-bipart-9d47aa03",
+  "title": "Bat: Efficient Generative Recommender Serving with Bipartite Attention",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 1B: LLM Serving: Latency & Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jie Sun",
+      "position": 1,
+      "orcid": "0000-0001-7030-0146",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China and Taobao &amp;#38; Tmall Group of Alibaba, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaohang Wang",
+      "position": 2,
+      "orcid": "0009-0001-2045-5366",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Taobao &amp;#38; Tmall Group of Alibaba, Beijing, China and The University of Hong Kong, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zimo Zhang",
+      "position": 3,
+      "orcid": "0009-0002-9840-0346",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhengyu Liu",
+      "position": 4,
+      "orcid": "0009-0002-4437-9975",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Taobao &amp;#38; Tmall Group of Alibaba, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunlong Xu",
+      "position": 5,
+      "orcid": "0000-0003-4727-0676",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Taobao &amp;#38; Tmall Group of Alibaba, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Sun",
+      "position": 6,
+      "orcid": "0009-0006-8559-1234",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Taobao &amp;#38; Tmall Group of Alibaba, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bo Zhao",
+      "position": 7,
+      "orcid": "0000-0002-0768-3444",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Aalto University, Espoo, Finland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bingsheng He",
+      "position": 8,
+      "orcid": "0000-0001-8618-4581",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fei Wu",
+      "position": 9,
+      "orcid": "0000-0003-2139-8807",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeke Wang",
+      "position": 10,
+      "orcid": "0000-0001-8550-9241",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790131"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790131",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790131",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790131",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790131",
+      "kind": "crossref",
+      "title": "Bat: Efficient Generative Recommender Serving with Bipartite Attention",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:18a2b541d995e9642ce066f55c5466ffa2e27ad328274a6ba1dcf22e8a93a74c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790131",
+      "url": "https://www.semanticscholar.org/paper/6d8a5e7c0a86c65c3f530c412a084a3176fa59c2",
+      "kind": "semantic-scholar",
+      "title": "Bat: Efficient Generative Recommender Serving with Bipartite Attention",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:b6bcac28f9074b4e68b2571335a41665e386ba3a8bd51064bdbc9b8525d91f7a",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

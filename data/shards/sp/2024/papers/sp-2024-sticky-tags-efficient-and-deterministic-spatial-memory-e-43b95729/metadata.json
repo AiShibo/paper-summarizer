@@ -1,0 +1,181 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-sticky-tags-efficient-and-deterministic-spatial-memory-e-43b95729",
+  "title": "Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags",
+  "venue": "sp",
+  "year": 2024,
+  "track_or_session": "Winter cycle",
+  "paper_type": "main-track",
+  "publication_date": "2024-05-19",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Floris Gorter",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-47e7f59af24eb96a-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Taddeus Kroes",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-47e7f59af24eb96a-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Herbert Bos",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-47e7f59af24eb96a-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cristiano Giuffrida",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vrije Universiteit Amsterdam",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-47e7f59af24eb96a-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp54263.2024.00263",
+    "official_page": "https://doi.org/10.1109/SP54263.2024.00263",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx8/10646615/10646598/10646704.pdf?arnumber=10646704",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-47e7f59af24eb96a-program",
+      "url": "https://www.sp2024.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2024 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-dc50bb739ca2ae43-publisher",
+      "url": "https://doi.org/10.1109/SP54263.2024.00263",
+      "kind": "publisher-page",
+      "title": "Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-d63483a337a57325-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp54263.2024.00263",
+      "kind": "crossref",
+      "title": "Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-88e82671b2137cdb-abstract",
+      "url": "https://openalex.org/W4402264134",
+      "kind": "openalex",
+      "title": "Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

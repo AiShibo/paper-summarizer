@@ -1,0 +1,68 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-rust-for-embedded-systems-current-state-and-open-problem-c9ed566a",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "memory-safety"
+  ],
+  "system_layers": [
+    "kernel"
+  ],
+  "contribution_types": [
+    "dataset",
+    "language-or-api",
+    "defense"
+  ],
+  "methods": [
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-db588f947257e1d4-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690275",
+      "kind": "publisher-page",
+      "title": "Rust for Embedded Systems: Current State and Open Problems",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-7a4418db3901fa92-abstract",
+      "url": "https://www.semanticscholar.org/paper/71e060576b91646c3cbed8178cb202a85fc11fa5",
+      "kind": "semantic-scholar",
+      "title": "Rust for Embedded Systems: Current State and Open Problems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

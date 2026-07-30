@@ -1,0 +1,123 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-pimlex-a-high-performance-learned-index-with-processing-def7b6d2",
+  "takeaway": "PIMLex places a compact learned search layer near memory and full data in DRAM, using compute-light models and hot-partition replicas to turn PIM bandwidth into index throughput.",
+  "background": "Learned indexes approximate the cumulative distribution of sorted keys to predict a narrow search region. Their model traversal and last-mile lookup move enough data to spend more than 60% of execution time stalled on memory in the paper's ALEX and LIPP profiles.",
+  "villain": "Commercial UPMEM modules have little capacity and weak processors without native floating-point multiplication, while a range-partitioned PIM index becomes badly imbalanced under skew. Directly transplanting a conventional multi-level learned index therefore exhausts space, computes slowly, and idles most modules.",
+  "approach": "PIMLex samples DRAM-resident sorted data into an in-PIM anchor-key search layer. It chooses global binary search or model search by measured cost, replaces floating-point predictions with bounded lookup tables when profitable, stores models in fast WRAM, and replicates hot immutable partitions across modules using a two-stage balancing algorithm.",
+  "impact": "The design supports hundreds of millions of key-value pairs despite only 32 GB of PIM memory and demonstrates learned indexes on commercial PIM. Its split hierarchy also illustrates how to allocate an index across heterogeneous capacity, bandwidth, and compute resources.",
+  "evaluation": {
+    "overview": "Experiments compare get, insert, mixed, range, and update workloads, large datasets, model and replication components, CPU-memory traffic, space, dynamic-hotspot adjustment, and anchor sampling.",
+    "implemented": "A batch-oriented PIMLex prototype on UPMEM with 128 search partitions, anchor sampling, piecewise-linear models, WRAM lookup tables, DRAM data/buffer layers, and adaptive partition replication.",
+    "setting": "Four 8-GB UPMEM DIMMs provide 512 modules alongside four 32-GB DRAM DIMMs and dual Xeon Silver 4110 CPUs. Five real key datasets contain 200 or 800 million 8-byte keys; default values are 32 bytes and tests use 32 host threads.",
+    "baselines": [
+      "BasicLex PIM learned index",
+      "ALEX",
+      "LIPP",
+      "FINEdex",
+      "SALI",
+      "PIM-tree"
+    ],
+    "results": [
+      {
+        "id": "claim-pimlex-basic",
+        "text": "On skewed get workloads, PIMLex achieves up to 36.5× BasicLex throughput; on insert-only workloads it reaches up to 9.5× BasicLex.",
+        "source_ids": [
+          "src-fast25-pdf-def7b6d2"
+        ],
+        "locator": "PDF pp. 9–10; §4.2, Figure 9"
+      },
+      {
+        "id": "claim-pimlex-dram",
+        "text": "Against DRAM indexes on 200-million-key workloads, PIMLex reports up to 2.2× ALEX throughput for gets and up to 3.6× for mixed get/insert operations.",
+        "source_ids": [
+          "src-fast25-pdf-def7b6d2"
+        ],
+        "locator": "PDF pp. 10–11; §4.3, Figure 11"
+      },
+      {
+        "id": "claim-pimlex-scale",
+        "text": "On 800-million-key Books and Osm datasets, PIMLex exceeds ALEX by up to 2.47×, 2.09×, and 2.93× for get, insert, and mixed workloads while an all-PIM index cannot fit.",
+        "source_ids": [
+          "src-fast25-pdf-def7b6d2"
+        ],
+        "locator": "PDF pp. 11–12; §4.3, Figure 14"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "PIMLex uses batched requests and one commercial PIM design; CPU–PIM transfer is only 2.5 GB/s per DIMM. Its DRAM data layer limits inserts, contention reduces update gains, and range scans dilute the PIM advantage. Changing hotspots may pause operations or trade 10%–31% throughput for faster replica adjustment. Several baseline scale/value limits narrow individual comparisons.",
+  "phd_group_signal": "The work starts from hardware measurements—capacity, floating-point cost, memory levels, and skew—then changes both model structure and placement. It is a good case study in indexing, near-data processing, heterogeneity, and workload-aware replication.",
+  "beginner_concepts": [
+    "learned index",
+    "processing in memory",
+    "piecewise linear regression",
+    "memory wall",
+    "range partitioning",
+    "hotspot replication",
+    "load balancing",
+    "batch processing"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-pimlex-decoupling",
+      "text": "PIMLex keeps every δth key as an anchor in PIM, obtains an approximate DRAM-array position there, and confines the remaining exact search to at most δ sorted data positions.",
+      "source_ids": [
+        "src-fast25-pdf-def7b6d2"
+      ],
+      "locator": "PDF pp. 5–6; §3.1, Figures 4–5"
+    },
+    {
+      "id": "claim-pimlex-replication",
+      "text": "PIMLex assigns more immutable search-layer replicas to busy key ranges and rebalances when the observed maximum normalized module load exceeds a configurable multiple of its prior value.",
+      "source_ids": [
+        "src-fast25-pdf-def7b6d2"
+      ],
+      "locator": "PDF pp. 7–8; §3.3, Algorithm 1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-def7b6d2",
+      "url": "https://www.usenix.org/system/files/fast25-cui.pdf",
+      "kind": "paper-pdf",
+      "title": "PIMLex: A High-Performance Learned Index with Processing-in-Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:c5d03fbe325be6cbd5eb2af3594c86f2f4e18efa921a41682d9a920488b1a45b",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, motivation, design, operations, evaluation, discussion, related work, and conclusion",
+        "reported throughput, traffic, space, component, scale, and adjustment results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:52:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context/motivation, §3 design and operations, §4 evaluation, §5 discussion, §6 related work, and §7 conclusion.",
+      "All performance measurements are author-reported; comparisons use real but not identical CPU/DRAM platforms where explained by the paper."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:52:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

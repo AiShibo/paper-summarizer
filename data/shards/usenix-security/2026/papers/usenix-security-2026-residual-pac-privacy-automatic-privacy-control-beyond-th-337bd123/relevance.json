@@ -1,0 +1,46 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-residual-pac-privacy-automatic-privacy-control-beyond-th-337bd123",
+  "class": "EXCLUDED",
+  "score": 0,
+  "rationale": "The primary contribution is cryptographic primitive or protocol design rather than a computer-system mechanism or implementation.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "optimization",
+    "dataset"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-566fd206057c388c-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-tao-residual",
+      "kind": "paper-page",
+      "title": "Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:cc09fa6defdaba9ff7e6fd356d946039a99a5730c511113ede5db28d22fe866e",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}
