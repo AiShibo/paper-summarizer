@@ -1,0 +1,312 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-utopia-automatic-generation-of-fuzz-driver-using-unit-te-e89ed7bb",
+  "title": "UTOPIA: Automatic Generation of Fuzz Driver using Unit Tests",
+  "venue": "sp",
+  "year": 2023,
+  "track_or_session": "Session 10A: Fuzzing",
+  "paper_type": "main-track",
+  "publication_date": "2023-05-01",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Bokdeuk Jeong",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joonun Jang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hayoon Yi",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiin Moon",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junsik Kim",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Intae Jeon",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Taesoo Kim",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "WooChul Shim",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Ho Hwang",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Research, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe6f1d0715ec53f0-schedule"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp46215.2023.10179394",
+    "official_page": "https://doi.org/10.1109/SP46215.2023.10179394",
+    "official_pdf": "http://xplorestaging.ieee.org/ielx7/10179215/10179280/10179394.pdf?arnumber=10179394",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f3678edbff14a2ef-program",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official accepted title"
+      ]
+    },
+    {
+      "id": "src-fe6f1d0715ec53f0-schedule",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-c5f1b63a88b40d73-publisher",
+      "url": "https://doi.org/10.1109/SP46215.2023.10179394",
+      "kind": "publisher-page",
+      "title": "UTopia: Automatic Generation of Fuzz Driver using Unit Tests",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI and canonical publisher record"
+      ]
+    },
+    {
+      "id": "src-ae9aa7e7888d4c45-crossref",
+      "url": "https://api.crossref.org/works/10.1109/sp46215.2023.10179394",
+      "kind": "crossref",
+      "title": "UTOPIA: Automatic Generation of Fuzz Driver using Unit Tests",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date, page span, and official PDF link"
+      ]
+    },
+    {
+      "id": "src-28c839fb50a6be44-abstract",
+      "url": "https://openalex.org/W4385187202",
+      "kind": "openalex",
+      "title": "UTOPIA: Automatic Generation of Fuzz Driver using Unit Tests",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

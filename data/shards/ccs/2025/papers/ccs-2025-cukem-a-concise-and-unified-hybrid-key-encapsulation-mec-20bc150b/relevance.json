@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-cukem-a-concise-and-unified-hybrid-key-encapsulation-mec-20bc150b",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 0,
+  "rationale": "The available record lacks an abstract, so the paper's systems artifact cannot be established from the title alone.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-ed2f54c8b03cda81-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744863",
+      "kind": "publisher-page",
+      "title": "CuKEM: A Concise and Unified Hybrid Key Encapsulation Mechanism",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-73d2fa365479603a-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
+      "kind": "conference-program",
+      "title": "CuKEM: A Concise and Unified Hybrid Key Encapsulation Mechanism",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "title-only accepted-paper evidence; abstract unavailable"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership.",
+      "No automatic inclusion or exclusion was inferred across an unresolved boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "UNRESOLVED",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "classification requires abstract or paper review"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-fox-coverage-guided-fuzzing-as-online-stochastic-control-2687529a",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a hardware and architecture security attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "systems-security",
+    "reliability-testing-and-debugging",
+    "vulnerability-discovery",
+    "fuzzing",
+    "bug-finding"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "bug-finding-or-testing-tool",
+    "dataset"
+  ],
+  "methods": [
+    "implementation",
+    "fuzzing",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-9c7c491c614e7d21-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670362",
+      "kind": "publisher-page",
+      "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-7e9b94dba3a19828-abstract",
+      "url": "https://www.semanticscholar.org/paper/e064c74635beabf430243ae83b0a4ead9ad6e9fe",
+      "kind": "semantic-scholar",
+      "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

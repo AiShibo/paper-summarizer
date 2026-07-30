@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e6",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:27:11Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/osdi/2024"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "osdi-2024-detecting-logic-bugs-in-database-engines-via-equivalent-3e48bebc",
+    "osdi-2024-drust-language-guided-distributed-shared-memory-with-fin-ccac5687",
+    "osdi-2024-beaver-practical-partial-snapshots-for-distributed-cloud-aedf7465",
+    "osdi-2024-chameleonapi-automatic-and-efficient-customization-of-ne-a42df30c",
+    "osdi-2024-motor-enabling-multi-versioning-for-distributed-transact-d951956c"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Verified canonical paper-ID SHA-256 d8e15a864dec6746bf0f55e0d4069b27b5310788e94375c8e56f0b5ed8e2ebcd before editing.",
+    "Claim is limited to the five-paper OSDI 2024 summary calibration batch.",
+    "Completed exactly the five assigned summary.json stages from official USENIX full-paper PDFs; every stage is READY_FOR_REVIEW with required reading coverage marked READ and verification.verified_by left null.",
+    "Official PDF SHA-256 values: EET 4d3b059aef9fb016fee4ae72c7dcb0d73ae9569bdf431f297063d3712a2fcf4c; DRust d8215d575ad8914545454a5a6e07226520a17e1fbb3bf823a8b8572ce3f34de8; Beaver 5a43a23b98bcfb587305b00c33fa4f4779d139e095540971120b78335b77d693; ChameleonAPI 53a706ab2cc70660d2d9c0c45c62d1309ab99a6ed23ea3ad58ad7bbc1c23c0c4; Motor 5648eefae34988ac75679226a746d5119f8d9d5c6156ad46637fae091b673224.",
+    "Draft validation passed for data/shards/osdi/2024 (53 bundles, 319 JSON files) and data/shards (5989 bundles, 36072 JSON files), both with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, release validation for the fixture, and repository-wide draft validation.",
+    "No summary field remains unresolved; all five summaries await independent source-based review.",
+    "Removed the temporary data/tmp/agent-e6 directory containing downloaded PDFs, extracted text, and the inspection image."
+  ]
+}

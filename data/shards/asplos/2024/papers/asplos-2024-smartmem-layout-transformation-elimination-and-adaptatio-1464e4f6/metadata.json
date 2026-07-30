@@ -1,0 +1,284 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-smartmem-layout-transformation-elimination-and-adaptatio-1464e4f6",
+  "title": "SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 9C: ML Systems and Optimizations",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Wei Niu",
+      "position": 1,
+      "orcid": "0000-0002-2697-7042",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Georgia, Athens, Georgia, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Md Musfiqur Rahman Sanim",
+      "position": 2,
+      "orcid": "0009-0009-8431-3699",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Georgia, Athens, Georgia, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhihao Shu",
+      "position": 3,
+      "orcid": "0009-0008-8749-7115",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Georgia, Athens, Georgia, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiexiong Guan",
+      "position": 4,
+      "orcid": "0000-0001-5274-9169",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "William & Mary, Williamsburg, Virginia, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xipeng Shen",
+      "position": 5,
+      "orcid": "0000-0003-3599-8010",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "North Carolina State University, Raleigh, North Carolina, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Miao Yin",
+      "position": 6,
+      "orcid": "0000-0002-5554-5417",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Arlington, Arlington, Texas, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gagan Agrawal",
+      "position": 7,
+      "orcid": "0000-0002-2609-1428",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Georgia, Athens, Georgia, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Ren",
+      "position": 8,
+      "orcid": "0000-0002-4116-5237",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "William & Mary, Williamsburg, Virginia, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651384"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651384",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651384",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/r8YpSwpAdY0",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2404.13528",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651384",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651384",
+      "kind": "crossref",
+      "title": "SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:ffd34cfac71c31f61bcfeed99faaaacdb720b33e00685dadb7fe7301796e08da",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651384",
+      "url": "https://www.semanticscholar.org/paper/9b3bc2991e105cb6571929bd0aead186b5827e02",
+      "kind": "semantic-scholar",
+      "title": "SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:1a9efdee8eb37650bb33e183f5ef6389cd24e06835f63dd70b4bbaf1c7598e4c",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

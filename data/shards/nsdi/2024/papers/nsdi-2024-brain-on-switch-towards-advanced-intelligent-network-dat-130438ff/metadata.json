@@ -1,0 +1,235 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff",
+  "title": "Brain-on-Switch: Towards Advanced Intelligent Network Data Plane via NN-Driven Traffic Analysis at Line-Speed",
+  "venue": "nsdi",
+  "year": 2024,
+  "track_or_session": "Programming the Network: Part 1",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 22,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jinzhu Yan",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haotian Xu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuotao Liu",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Li",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Xu",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingwei Xu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianping Wu",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi24-yan.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/nsdi24_slides-yan.pdf",
+    "video": "https://www.youtube.com/embed/8lucgvrW-vw?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {295515,\nauthor = {Jinzhu Yan and Haotian Xu and Zhuotao Liu and Qi Li and Ke Xu and Mingwei Xu and Jianping Wu},\ntitle = {{Brain-on-Switch}: Towards Advanced Intelligent Network Data Plane via {NN-Driven} Traffic Analysis at {Line-Speed}},\nbooktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},\nyear = {2024},\nisbn = {978-1-939133-39-7},\naddress = {Santa Clara, CA},\npages = {419--440},\nurl = {https://www.usenix.org/conference/nsdi24/presentation/yan},\npublisher = {USENIX Association},\nmonth = apr\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi24-program",
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:1f8993088067edcdad68f3167ffbf70c0f1d4567ff33de608d49018f637edfa5",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2024-brain-on-switch-towards-advanced-intelligent-network-dat-130438ff-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+      "kind": "paper-page",
+      "title": "Brain-on-Switch: Towards Advanced Intelligent Network Data Plane via NN-Driven Traffic Analysis at Line-Speed",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:23648354611173ee6e7358b0f3ff097bfb4d3290cd0e1b240559f5ee331c5b6d",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains unresolved and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)",
+      "publication_date"
+    ]
+  }
+}

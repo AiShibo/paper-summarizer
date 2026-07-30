@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-a-authorize-2023-2024-2026-07-29",
+  "issued_at": "2026-07-29T23:23:40Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-a",
+  "status": "SUPERSEDED",
+  "action": "AUTHORIZE_EARLY_BULK_COLLECTION",
+  "authorized_shards": [
+    "data/shards/osdi/2024",
+    "data/shards/osdi/2023",
+    "data/shards/sosp/2024",
+    "data/shards/sosp/2023",
+    "data/shards/eurosys/2024",
+    "data/shards/eurosys/2023",
+    "data/shards/atc/2024",
+    "data/shards/atc/2023"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "still_closed": [
+    "All 2026 shards",
+    "summary.json",
+    "groups.json",
+    "awards.json",
+    "review.json",
+    "data/entities/**",
+    "generated database and exports"
+  ],
+  "conditions": [
+    "Preserve the completed 2025 records unchanged.",
+    "Process and validate 2024 before 2023 so errors are caught earlier.",
+    "Use one bundle per canonical conference paper and retain excluded main-track records.",
+    "Do not infer missing venue status, counts, affiliations, DOI, or links.",
+    "Run draft validation separately for every venue-year.",
+    "Update only Agent A's claim and include all created paper IDs.",
+    "Report 2024 and 2023 as separate handoffs with official source coverage and unresolved fields.",
+    "Early collection does not authorize bulk summarization or release merging."
+  ],
+  "superseded_at": "2026-07-30T03:00:08Z",
+  "superseded_by": "coordinator-agent-a-authorize-2026-ytd-2026-07-30",
+  "superseded_reason": "The 2023-2024 assignment is complete and the user explicitly opened 2026 year-to-date investigation."
+}

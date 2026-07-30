@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-apex-accurate-parallel-expressive-homomorphic-execution-3c560793",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements and evaluates a privacy-preserving storage or data-processing system with material concurrency or deployment behavior.",
+  "topics": [
+    "storage-and-file-systems",
+    "databases-and-data-processing",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "storage",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fe0ab6fc99b6a89d-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500d111/2hBEt2kZIZO",
+      "kind": "publisher-page",
+      "title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

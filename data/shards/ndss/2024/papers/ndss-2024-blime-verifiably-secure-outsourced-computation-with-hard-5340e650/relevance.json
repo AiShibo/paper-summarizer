@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-blime-verifiably-secure-outsourced-computation-with-hard-5340e650",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper adds taint-tracking ISA extensions, implements them in a RISC-V core, and evaluates secure outsourced computation on FPGA.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "optimization",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-616bad58c92506ec-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/",
+      "kind": "paper-page",
+      "title": "BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

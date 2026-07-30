@@ -1,0 +1,64 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-ksfs-repurposing-a-microkernel-like-interface-for-fast-a-cf27dbe1",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a operating-system and kernel security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "systems-security",
+    "linux",
+    "virtualization-and-isolation",
+    "isolation",
+    "storage-and-file-systems",
+    "databases-and-data-processing",
+    "compilers-languages-and-runtimes"
+  ],
+  "system_layers": [
+    "kernel",
+    "hypervisor",
+    "runtime",
+    "storage",
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-69bfb10ec250e6bf-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-dinglan",
+      "kind": "paper-page",
+      "title": "kSFS: Repurposing a Microkernel-like Interface for Fast and Secure In-Kernel Linux File Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:c875e6b2089f6078a9574203f726dd95cae98e45b672e84b082b81ba386cb2bc",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

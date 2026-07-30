@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-zenith-towards-a-formally-verified-highly-available-cont-72157328",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract applies formal verification or synthesis to a concrete networked-system mechanism, placing it in core systems verification.",
+  "topics": [
+    "networking",
+    "programmable-networks",
+    "datacenter-networking",
+    "network-verification",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "service-management",
+    "formal-methods-and-systems-verification",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "formal-model-or-proof",
+    "bug-finding-or-testing-tool"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

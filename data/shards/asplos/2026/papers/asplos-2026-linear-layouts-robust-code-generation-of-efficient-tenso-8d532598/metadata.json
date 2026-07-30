@@ -1,0 +1,336 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-linear-layouts-robust-code-generation-of-efficient-tenso-8d532598",
+  "title": "Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 4B: ML Compilers & Tensor Programs",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Keren Zhou",
+      "position": 1,
+      "orcid": "0000-0002-7977-3182",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "George Mason University, Fairfax, VA, USA and OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mario Lezcano-Casado",
+      "position": 2,
+      "orcid": "0009-0006-8893-2276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adam P. Goucher",
+      "position": 3,
+      "orcid": "0000-0002-2532-6950",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Akhmed Rakhmati",
+      "position": 4,
+      "orcid": "0009-0009-7309-8321",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeff Niu",
+      "position": 5,
+      "orcid": "0009-0004-8035-3726",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Justin Lebar",
+      "position": 6,
+      "orcid": "0009-0008-2376-7307",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pawel Szczerbuk",
+      "position": 7,
+      "orcid": "0009-0004-0203-6610",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Bell",
+      "position": 8,
+      "orcid": "0009-0003-6824-4343",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Phil Tillet",
+      "position": 9,
+      "orcid": "0009-0007-0636-8710",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Raoux",
+      "position": 10,
+      "orcid": "0009-0002-8259-7578",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zahi Moudallal",
+      "position": 11,
+      "orcid": "0009-0006-6010-5682",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762221"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762221",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762221",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762221",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2505.23819",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762221",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762221",
+      "kind": "crossref",
+      "title": "Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e58ac22e2e79a10c22fa4f17a0b86bf88a9234a810db86219cff78c3f18890ef",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762221",
+      "url": "https://www.semanticscholar.org/paper/98bacafe249a64f6c2d06e4e0694bae3dc7f4fa5",
+      "kind": "semantic-scholar",
+      "title": "Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:212283975c8874f0976ca1ca43f8e2ed5e6c6b7ef1f7695daf0654d04676591d",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F2",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

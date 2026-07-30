@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "title": "Paper relevance and taxonomy stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "class",
+    "score",
+    "rationale",
+    "topics",
+    "system_layers",
+    "contribution_types",
+    "methods",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "class": {
+      "enum": [
+        "CORE_SYSTEMS",
+        "SYSTEMS_ADJACENT",
+        "EXCLUDED",
+        "NEEDS_HUMAN_REVIEW"
+      ]
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "uniqueItems": true
+    },
+    "system_layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "contribution_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

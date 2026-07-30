@@ -1,0 +1,184 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-pando-extremely-scalable-bft-based-on-committee-sampling-cf68ee43",
+  "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+  "venue": "ndss",
+  "year": 2026,
+  "track_or_session": "Summer submission cycle",
+  "paper_type": "main-track",
+  "publication_date": "2026-02-23",
+  "page_count": null,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xin Wang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and State Key Laboratory of Cryptography and Digital Economy Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-e7cd998e4d8f1717-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haochen Wang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-e7cd998e4d8f1717-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibin Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yangtze Delta Region Institute of Tsinghua University, Zhejiang",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-e7cd998e4d8f1717-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sisi Duan",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Zhongguancun Laboratory, Shandong Institute of Blockchains and State Key Laboratory of Cryptography and Digital Economy Security",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-e7cd998e4d8f1717-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2026.230273",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/pando-extremely-scalable-bft-based-on-committee-sampling/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s273-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/s0273-wang-slides.pdf",
+    "video": "https://youtu.be/gagvu6_5pg8",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-842bfcbad8e94c6a-program",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2026 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:25ea0dff73721b95ac9e129d84ccf32b245e089846426346d3a923021b12f6d9",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-e7cd998e4d8f1717-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pando-extremely-scalable-bft-based-on-committee-sampling/",
+      "kind": "paper-page",
+      "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:38f16c97c4424e0d0104af24761c7cb9b27ab876e91d3b46cf35449b254a0a31",
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, and main-track paper identity"
+      ]
+    },
+    {
+      "id": "src-6456ff362288f459-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2026.230273",
+      "kind": "crossref",
+      "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-4662f6686b857d6c-dblp",
+      "url": "https://dblp.org/rec/conf/ndss/WangWZD26",
+      "kind": "dblp",
+      "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "independent proceedings identity reconciliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "page_count"
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-dilu-enabling-gpu-resourcing-on-demand-for-serverless-dl-45d1b813",
+  "title": "Dilu: Enabling GPU Resourcing-on-Demand for Serverless DL Serving via Introspective Elasticity",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 10C: Serverless Computing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Cunchi Lv",
+      "position": 1,
+      "orcid": "0009-0001-7089-0315",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China and UCAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiao Shi",
+      "position": 2,
+      "orcid": "0000-0001-7105-8355",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China and Nanjing Institute of InforSuperBahn, Nanjing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhengyu Lei",
+      "position": 3,
+      "orcid": "0009-0004-2170-6560",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China and UCAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinyue Huang",
+      "position": 4,
+      "orcid": "0009-0004-9015-777X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijng, China and UCAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenting Tan",
+      "position": 5,
+      "orcid": "0009-0004-2710-9660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaohui Zheng",
+      "position": 6,
+      "orcid": "0009-0008-5500-9332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaofang Zhao",
+      "position": 7,
+      "orcid": "0009-0001-1680-9969",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ICT, CAS, Beijing, China and IICT, Suzhou, CAS, Suzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707251"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707251",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707251",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707251",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707251",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707251",
+      "kind": "crossref",
+      "title": "Dilu: Enabling GPU Resourcing-on-Demand for Serverless DL Serving via Introspective Elasticity",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:f8573f1affe64b4dca141f52502b1f6bbb9f3391f886dab7bd82023416d68758",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707251",
+      "url": "https://www.semanticscholar.org/paper/947c3472f340af33e320d8e0080d24c1284ffdc7",
+      "kind": "semantic-scholar",
+      "title": "Dilu: Enabling GPU Resourcing-on-Demand for Serverless DL Serving via Introspective Elasticity",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:36bf4e47f735ae19301622c44d7149cc96dfcab7ef7094867b54d441e2a3add4",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

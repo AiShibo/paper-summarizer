@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-arto-efficient-execution-integrity-attestation-for-real-efc4fd9d",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a compiler, language, and runtime security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "systems-security",
+    "mobile-edge-embedded-and-iot"
+  ],
+  "system_layers": [
+    "runtime",
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "optimization",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-3725efbb7030a04c-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-ruizhe",
+      "kind": "paper-page",
+      "title": "ARTO: Efficient Execution Integrity Attestation for Real-Time Operation of Cyber-Physical Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:9ae28aaa2b7f354cf92b0f3c145921074328ce55aa6e2e60aec93e24b10163cb",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

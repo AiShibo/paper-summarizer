@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-rega-scalable-rowhammer-mitigation-with-refresh-generati-d49892a6",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a hardware and architecture security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-78daf6dc90c6ed15-abstract",
+      "url": "https://www.semanticscholar.org/paper/bbc8d7a73908b6f79f6c167aa5d954dc4b4f6f4b",
+      "kind": "semantic-scholar",
+      "title": "REGA: Scalable Rowhammer Mitigation with Refresh-Generating Activations",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

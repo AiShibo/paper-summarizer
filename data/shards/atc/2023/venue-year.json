@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "atc",
+  "year": 2023,
+  "official_conference_url": "https://www.usenix.org/conference/atc23",
+  "official_program_url": "https://www.usenix.org/conference/atc23/technical-sessions",
+  "conference_dates": {
+    "start": "2023-07-10",
+    "end": "2023-07-12"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 65,
+    "core_systems": 65,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-atc-2023-conference",
+      "url": "https://www.usenix.org/conference/atc23",
+      "kind": "other",
+      "title": "USENIX ATC '23",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:b49c4b892d80cfd51a0a3f38d183d645201b9dea9d64e41b1697c93330d34d89",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2023 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-atc-2023-program",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '23 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:3d197ad9547105e9204aca605ead5454ea1fb68b806454930e88abf20d488277",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2023-proceedings",
+      "url": "https://www.usenix.org/conference/atc23/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '23 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2023-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '23",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:1fdadd21202697b913895dbe09066eb4fd4a05d3bef13410de183b6c3a6661d2",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

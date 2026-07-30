@@ -1,0 +1,350 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-netedit-an-orchestration-platform-for-ebpf-network-funct-42d2a070",
+  "title": "NetEdit: An Orchestration Platform for eBPF Network Functions at Scale",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Virtualizing the network — Experience Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Theophilus A. Benson",
+      "position": 1,
+      "orcid": "0000-0002-5855-8811",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prashanth Kannan",
+      "position": 2,
+      "orcid": "0009-0005-4794-9971",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prankur Gupta",
+      "position": 3,
+      "orcid": "0009-0004-7340-5831",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Balasubramanian Madhavan",
+      "position": 4,
+      "orcid": "0009-0007-0833-4485",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kumar Saurabh Arora",
+      "position": 5,
+      "orcid": "0009-0004-5208-8953",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Meng",
+      "position": 6,
+      "orcid": "0009-0008-0924-7604",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin Lau",
+      "position": 7,
+      "orcid": "0009-0000-1997-8015",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhishek Dhamija",
+      "position": 8,
+      "orcid": "0009-0007-1217-148X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rajiv Krishnamurthy",
+      "position": 9,
+      "orcid": "0009-0000-9993-3617",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Srikanth Sundaresan",
+      "position": 10,
+      "orcid": "0009-0003-6230-9396",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Neil Spring",
+      "position": 11,
+      "orcid": "0009-0005-1606-6746",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ying Zhang",
+      "position": 12,
+      "orcid": "0000-0003-2736-5694",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672227",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672227",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672227",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=y-SFpf8hnYU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-netedit-an-orchestration-platform-for-ebpf-network-funct-42d2a070-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672227",
+      "kind": "publisher-page",
+      "title": "NetEdit: An Orchestration Platform for eBPF Network Functions at Scale",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-netedit-an-orchestration-platform-for-ebpf-network-funct-42d2a070-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672227",
+      "kind": "crossref",
+      "title": "Crossref metadata for NetEdit: An Orchestration Platform for eBPF Network Functions at Scale",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:1e6607bcba7a453a23dc4183f35dbd919caf49940af9cb0f747e4ac377ed63bd",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Experience Track within the Virtualizing the network technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

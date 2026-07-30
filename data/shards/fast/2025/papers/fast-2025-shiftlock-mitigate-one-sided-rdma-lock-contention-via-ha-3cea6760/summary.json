@@ -1,0 +1,124 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-shiftlock-mitigate-one-sided-rdma-lock-contention-via-ha-3cea6760",
+  "takeaway": "ShiftLock queues contending RDMA writers and hands locks directly between clients, replacing server-bound retries with reliable notifications while preserving fast reader-writer acquisition and failure recovery.",
+  "background": "One-sided RDMA locks mutate entries in a server's memory without its CPU, often acquiring an uncontended lock in one network round trip. Reader-writer locks permit shared reads, and MCS queue locks hand ownership directly to a successor on one machine.",
+  "villain": "Under skew and concurrency, failed one-sided atomics repeatedly hit the same lock-server RNIC, consuming inbound IOPS and increasing queueing latency; tuning backoff only reduces retries. A distributed MCS translation would need scalable client connectivity, compact routing, reader semantics, fairness, and recovery from broken queues.",
+  "approach": "ShiftLock uses masked 128-bit RDMA atomics for a compact queue-tail/reader/release/epoch entry and dynamic-connected two-sided Sends for successor and handover notices. Writers form an MCS queue, readers count concurrently, epochs alternate ownership after bounded writer batches, and server-mediated lease recovery prevents stale ABA resets.",
+  "impact": "The design retains one-roundtrip uncontended acquisition but moves contended coordination off the central RNIC. It shows that judicious two-sided client communication can improve an otherwise one-sided RDMA abstraction without dedicating polling CPUs.",
+  "evaluation": {
+    "overview": "Uniform and Zipfian microbenchmarks vary read mix, locks, clients, and skew; transaction traces, a Redis banking application, latency/verb decomposition, fairness tuning, and injected client failures test broader behavior.",
+    "implemented": "A 7.2-KLOC Rust implementation using Mellanox dynamic connection, 16-byte lock entries, extended CAS/FAA, buffered Send/Recv notifications, reader/writer epochs, a 16-writer fairness threshold, and 10-ms lease plus server-era recovery.",
+    "setting": "Six dual-socket 48-core machines with 128 GB DRAM and ConnectX-5 100-Gbps RNICs; one is the lock server and five run 240 total clients. Default tests use ten million locks on Ubuntu 18.04/Linux 4.15.",
+    "baselines": [
+      "CAS with SMART backoff",
+      "DrTM",
+      "DSLR",
+      "MCS",
+      "RMA-RW",
+      "server-side RPC lock",
+      "Redis RedLock"
+    ],
+    "results": [
+      {
+        "id": "claim-shiftlock-micro",
+        "text": "Under skewed high-contention microbenchmarks, ShiftLock reports up to 3.62× the goodput and up to 76.6% lower 99th-percentile latency than evaluated RDMA-lock alternatives.",
+        "source_ids": [
+          "src-fast25-pdf-3cea6760"
+        ],
+        "locator": "PDF pp. 9–10; §4.2, Figures 4–6"
+      },
+      {
+        "id": "claim-shiftlock-txn",
+        "text": "ShiftLock improves TATP goodput by 1.25×–2.85× and TPC-C goodput by 1.09×–2.14× over other RDMA locks while providing comparable or lower transaction latency.",
+        "source_ids": [
+          "src-fast25-pdf-3cea6760"
+        ],
+        "locator": "PDF pp. 10–11; §4.4, Figure 10"
+      },
+      {
+        "id": "claim-shiftlock-app",
+        "text": "In the Redis-backed banking application, ShiftLock reaches 36.55 K transactions/s versus RedLock's 5.56 K and reduces median and 99th-percentile latency by 62.9% and 95.2%.",
+        "source_ids": [
+          "src-fast25-pdf-3cea6760"
+        ],
+        "locator": "PDF p. 11; §4.5, Figure 11"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "ShiftLock requires modern RNIC support for dynamic connection and masked 128-bit extended atomics. Its centralized server RNIC remains the eventual throughput bottleneck. Lease recovery assumes bounded clock-rate drift, waits three lease periods, invokes server CPUs, and under tested failures trails DSLR. Evaluation uses six machines, synthetic critical sections/failures, and a Redis comparison whose RedLock traffic uses IP over InfiniBand.",
+  "phd_group_signal": "The paper reintroduces a local queue-lock principle under RDMA constraints and carefully engineers routing, message progress, bit layout, fairness, and recovery. It exemplifies network/storage concurrency research backed by proofs, hardware counters, applications, and failure tests.",
+  "beginner_concepts": [
+    "RDMA",
+    "one-sided operation",
+    "reader-writer lock",
+    "MCS queue lock",
+    "lock handover",
+    "backoff",
+    "lease",
+    "ABA problem"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-shiftlock-handover",
+      "text": "A writer atomically replaces the queue tail, notifies its predecessor through a dynamically connected RDMA Send, waits locally, and later receives ownership directly rather than retrying the server entry.",
+      "source_ids": [
+        "src-fast25-pdf-3cea6760"
+      ],
+      "locator": "PDF pp. 4–5; §§3.2–3.3, Figure 1"
+    },
+    {
+      "id": "claim-shiftlock-fairness",
+      "text": "A one-bit epoch releases the current waiting-reader cohort after at most 16 consecutive writers, while a non-null writer tail blocks newly arriving readers, preventing starvation in both directions.",
+      "source_ids": [
+        "src-fast25-pdf-3cea6760"
+      ],
+      "locator": "PDF pp. 6–8; §§3.5–3.7, Algorithms 2–3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-3cea6760",
+      "url": "https://www.usenix.org/system/files/fast25-gao.pdf",
+      "kind": "paper-pdf",
+      "title": "ShiftLock: Mitigate One-sided RDMA Lock Contention via Handover",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:ee50e50cbce8a63c6c58a667b4a3aebf1ee1fe3eff4f2e4372bb291058f6c9ec",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, design, fault tolerance, proof, evaluation, related work, and conclusion",
+        "reported goodput, latency, verb, scalability, transaction, application, and failure results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T02:13:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context/motivation, §§3.1–3.7 design/recovery, §3.8 correctness proof, §§4.1–4.8 evaluation, §5 related work, and §6 conclusion.",
+      "All numerical results are author-reported; recovery relies on leases and is materially slower than DSLR under injected failures."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T02:13:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

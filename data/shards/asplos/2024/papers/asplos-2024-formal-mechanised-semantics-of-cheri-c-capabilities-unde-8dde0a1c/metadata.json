@@ -1,0 +1,341 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-formal-mechanised-semantics-of-cheri-c-capabilities-unde-8dde0a1c",
+  "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Undefined Behaviour, and Provenance",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 4D: Static Analysis and Verification",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Vadim Zaliva",
+      "position": 1,
+      "orcid": "0000-0002-9145-3288",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kayvan Memarian",
+      "position": 2,
+      "orcid": "0000-0003-3723-636X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ricardo Almeida",
+      "position": 3,
+      "orcid": "0009-0000-1667-1683",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Edinburgh, Edinburgh, Scotland Uk",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jessica Clarke",
+      "position": 4,
+      "orcid": "0000-0001-8157-5567",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brooks Davis",
+      "position": 5,
+      "orcid": "0009-0006-6256-0419",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SRI International, Menlo Park, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alexander Richardson",
+      "position": 6,
+      "orcid": "0000-0002-6372-217X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Chisnall",
+      "position": 7,
+      "orcid": "0000-0001-6060-0153",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brian Campbell",
+      "position": 8,
+      "orcid": "0000-0001-6941-5034",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Edinburgh, Edinburgh, Scotland Uk",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ian Stark",
+      "position": 9,
+      "orcid": "0000-0001-6800-812X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Edinburgh, Edinburgh, Scotland Uk",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert N. M. Watson",
+      "position": 10,
+      "orcid": "0000-0001-8139-8783",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peter Sewell",
+      "position": 11,
+      "orcid": "0000-0001-9352-1013",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Cambridge, Cambridge, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624859"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624859",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624859",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624859",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/g7BSvewOfUM",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624859",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624859",
+      "kind": "crossref",
+      "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Undefined Behaviour, and Provenance",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:34bd24c4bf2b15741204556b19c91a0002e498c741c2711cfca5aa266231a360",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624859",
+      "url": "https://www.semanticscholar.org/paper/606074ae655cbd43468b080e8ae35dde827ff395",
+      "kind": "semantic-scholar",
+      "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Undefined Behaviour, and Provenance",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:a0bf9d81235ec987d10e9e4a0b682ed27ba9689c438cde8614032fe356f5b2c5",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

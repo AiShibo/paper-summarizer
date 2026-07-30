@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-attestable-builds-compiling-verifiable-binaries-on-untru-4b67243f",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a virtualization and isolation system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-36b0839001128068-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765128",
+      "kind": "publisher-page",
+      "title": "Attestable Builds: Compiling Verifiable Binaries on Untrusted Systems using Trusted Execution Environments",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-bf08ebdb0852460a-abstract",
+      "url": "https://openalex.org/W4415031792",
+      "kind": "openalex",
+      "title": "Attestable Builds: Compiling Verifiable Binaries on Untrusted Systems using Trusted Execution Environments",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

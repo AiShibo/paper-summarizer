@@ -1,0 +1,292 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-mint-cost-efficient-tracing-with-all-requests-collection-a3d7d8a7",
+  "title": "Mint: Cost-Efficient Tracing with All Requests Collection via Commonality and Variability Analysis",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3A: Performance Analysis & Tracing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haiyu Huang",
+      "position": 1,
+      "orcid": "0009-0000-6146-2493",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cheng Chen",
+      "position": 2,
+      "orcid": "0009-0004-7917-8086",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunyi Chen",
+      "position": 3,
+      "orcid": "0000-0003-4359-9861",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengfei Chen",
+      "position": 4,
+      "orcid": "0000-0003-0972-6900",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guangba Yu",
+      "position": 5,
+      "orcid": "0000-0001-6195-9088",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zilong He",
+      "position": 6,
+      "orcid": "0000-0001-7963-082X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yilun Wang",
+      "position": 7,
+      "orcid": "0000-0001-9262-8652",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huxing Zhang",
+      "position": 8,
+      "orcid": "0009-0007-1761-9044",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Zhou",
+      "position": 9,
+      "orcid": "0000-0002-7759-800X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707287"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707287",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707287",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707287",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2411.04605",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707287",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707287",
+      "kind": "crossref",
+      "title": "Mint: Cost-Efficient Tracing with All Requests Collection via Commonality and Variability Analysis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:b2e153c98be78d80d8b10b65dcc095103e8e4f66db722f80c59c5ae0e2c1e39f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707287",
+      "url": "https://www.semanticscholar.org/paper/9643e3a1599093daf6681f4a67dac0c0301c6430",
+      "kind": "semantic-scholar",
+      "title": "Mint: Cost-Efficient Tracing with All Requests Collection via Commonality and Variability Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:1554fa74c401452462fdcb0f67932d3e13ae97aa1909041559f01b516171d653",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-ctng-secure-certificate-and-revocation-transparency-aee7c72e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper contributes an implemented end-to-end privacy-preserving system, rather than only a cryptographic primitive or proof.",
+  "topics": [
+    "privacy-systems",
+    "systems-security"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-618c1e119db80de9-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+      "kind": "paper-page",
+      "title": "CTng: Secure Certificate and Revocation Transparency",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e0426d94090a54e2f9241ac17c22a3fe670a7419ff14a9d0ec6ceb39d59f8744",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

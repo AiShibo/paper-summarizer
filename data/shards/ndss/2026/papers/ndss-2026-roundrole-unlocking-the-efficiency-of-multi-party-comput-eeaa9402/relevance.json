@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-roundrole-unlocking-the-efficiency-of-multi-party-comput-eeaa9402",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds and evaluates a compiler or execution framework whose optimization of secure computation is the primary systems contribution.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "privacy-systems",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-a96bab16beecd7c8-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/roundrole-unlocking-the-efficiency-of-multi-party-computation-with-bandwidth-aware-execution/",
+      "kind": "paper-page",
+      "title": "RoundRole: Unlocking the Efficiency of Multi-party Computation with Bandwidth-aware Execution",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:21a6ae83a7892d0f7c51546c1b0544b16cd87cc8c689cd460289fc87fcbcd955",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

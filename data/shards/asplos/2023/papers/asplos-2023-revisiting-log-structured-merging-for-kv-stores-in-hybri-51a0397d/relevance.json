@@ -1,0 +1,72 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-revisiting-log-structured-merging-for-kv-stores-in-hybri-51a0397d",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because the paper contributes a concrete memory management and near-data processing mechanism for revisiting Log-structured Merging for KV Stores in Hybrid Memory Systems.",
+  "topics": [
+    "operating-systems-and-kernels",
+    "memory-management",
+    "computer-architecture",
+    "memory-hierarchy",
+    "accelerators",
+    "storage-and-file-systems"
+  ],
+  "system_layers": [
+    "kernel",
+    "hardware",
+    "runtime",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575715",
+      "url": "https://www.semanticscholar.org/paper/6592083164db8f5d62d082eaa9eb41c82b9e4c37",
+      "kind": "semantic-scholar",
+      "title": "Revisiting Log-Structured Merging for KV Stores in Hybrid Memory Systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b8b6008b591f6646583a3375bfd200ff3ba04dc760fb79439b7f744309eda58b",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Classified from the official ASPLOS technical session and the complete abstract indexed by Semantic Scholar; no official conference abstract page was available, and independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

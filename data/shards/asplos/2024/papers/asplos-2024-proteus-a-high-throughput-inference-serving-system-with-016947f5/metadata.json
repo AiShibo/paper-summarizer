@@ -1,0 +1,249 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-proteus-a-high-throughput-inference-serving-system-with-016947f5",
+  "title": "Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2D: ML Inference Systems",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sohaib Ahmad",
+      "position": 1,
+      "orcid": "0009-0008-3892-9460",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts, Amherst, Amherst, Massachusetts, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hui Guan",
+      "position": 2,
+      "orcid": "0000-0001-9128-2231",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts, Amherst, Amherst, Massachusetts, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brian D. Friedman",
+      "position": 3,
+      "orcid": "0009-0003-3534-8787",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nokia Bell Labs, Murray Hill, New Jersey, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Williams",
+      "position": 4,
+      "orcid": "0009-0008-9675-0928",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nokia Bell Labs, Murray Hill, New Jersey, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ramesh K. Sitaraman",
+      "position": 5,
+      "orcid": "0000-0003-0558-6875",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Massachusetts, Amherst, Amherst, Massachusetts, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Woo",
+      "position": 6,
+      "orcid": "0009-0003-2028-5533",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nokia Bell Labs, Murray Hill, New Jersey, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624849"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624849",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624849",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624849",
+    "artifact": "https://doi.org/10.5281/zenodo.10428550",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/F5pM5h9X2QU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624849",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624849",
+      "kind": "crossref",
+      "title": "Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:0af2ee5cdd9ce4a6e778702c76022a59a78be4d6a2963f0c691ad98f70015a58",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624849",
+      "url": "https://www.semanticscholar.org/paper/f1176b99cb494c96a429541d72fba69f8b048313",
+      "kind": "semantic-scholar",
+      "title": "Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:318ff4b59c3a6fa2522ac3bf789193cd291d835ab846bd871b6340096dfae0eb",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10428550",
+      "url": "https://zenodo.org/records/10428550",
+      "kind": "artifact-page",
+      "title": "Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:05fecc506f659d0ce9c8d4fd7b24941c61b18f91572a8df6dd6b26a359f626b7",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

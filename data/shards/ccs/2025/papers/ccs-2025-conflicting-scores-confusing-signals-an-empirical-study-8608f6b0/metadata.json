@@ -1,0 +1,191 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-conflicting-scores-confusing-signals-an-empirical-study-8608f6b0",
+  "title": "Conflicting Scores, Confusing Signals: An Empirical Study of Vulnerability Scoring Systems",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Viktoria Koscinski",
+      "position": 1,
+      "orcid": "0000-0003-1616-0167",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rochester Institute of Technology, Rochester, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-0a6ece3b478914f2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mark Nelson",
+      "position": 2,
+      "orcid": "0000-0002-0775-0627",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Hawai'i at Mānoa, Honolulu, HI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-0a6ece3b478914f2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ahmet Okutan",
+      "position": 3,
+      "orcid": "0000-0001-6664-515X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Leidos, Reston, VA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-0a6ece3b478914f2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Robert Falso",
+      "position": 4,
+      "orcid": "0009-0009-8354-0830",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rochester Institute of Technology, Rochester, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-0a6ece3b478914f2-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mehdi Mirakhorli",
+      "position": 5,
+      "orcid": "0009-0000-7963-3756",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Hawai'i at Mānoa, Honolulu, HI, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-0a6ece3b478914f2-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765210",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765210",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765210",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-789ad591dbc35657-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-77dc882dcad03b4c-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765210",
+      "kind": "publisher-page",
+      "title": "Conflicting Scores, Confusing Signals: An Empirical Study of Vulnerability Scoring Systems",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-0a6ece3b478914f2-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765210",
+      "kind": "crossref",
+      "title": "Conflicting Scores, Confusing Signals: An Empirical Study of Vulnerability Scoring Systems",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

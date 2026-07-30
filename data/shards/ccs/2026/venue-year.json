@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "ccs",
+  "year": 2026,
+  "official_conference_url": "https://www.sigsac.org/ccs/CCS2026/",
+  "official_program_url": null,
+  "conference_dates": {
+    "start": "2026-11-15",
+    "end": "2026-11-19"
+  },
+  "collection_status": "UPCOMING",
+  "counts": {
+    "main_track": null,
+    "core_systems": null,
+    "systems_adjacent": null,
+    "excluded": null,
+    "needs_review": null
+  },
+  "sources": [
+    {
+      "id": "src-ccs-2026-venue-1",
+      "url": "https://www.sigsac.org/ccs/CCS2026/",
+      "kind": "conference-program",
+      "title": "ACM CCS 2026",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:e50c58b1d6ba0fccefa12858837eb51e4154e47d89002c0449164db849483085",
+      "official": true,
+      "supports": [
+        "conference identity, location, and November 15–19, 2026 dates"
+      ]
+    },
+    {
+      "id": "src-ccs-2026-venue-2",
+      "url": "https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2026 Call for Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:b144f87a929cbc099289ea4a74b4dbfb7e995db622e95547d00b6db3510505cf",
+      "official": true,
+      "supports": [
+        "two submission cycles and the July 17, 2026 final notification date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "The official conference and call-for-papers pages were checked after the final notification date.",
+      "No public accepted-paper list, main technical program, or archival proceedings page was linked or retrievable at verification time.",
+      "Known accepted-paper and program endpoint candidates returned HTTP 404; unknown papers are not represented as zero."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "official_program_url",
+      "main technical-paper identities and counts",
+      "archival proceedings"
+    ]
+  }
+}

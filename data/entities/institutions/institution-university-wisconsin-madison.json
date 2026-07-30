@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/institution.schema.json",
+  "schema_version": "1.0.0",
+  "institution_id": "institution-university-wisconsin-madison",
+  "normalized_name": "University of Wisconsin–Madison",
+  "aliases": [
+    "University of Wisconsin-Madison",
+    "UW–Madison",
+    "UW-Madison"
+  ],
+  "institution_type": "university",
+  "official_url": "https://www.wisc.edu/",
+  "location": {
+    "city": "Madison",
+    "state_or_province": "Wisconsin",
+    "country": "United States",
+    "continent": "North America",
+    "region": null
+  },
+  "sources": [
+    {
+      "id": "src-university-wisconsin-madison-official",
+      "url": "https://www.wisc.edu/",
+      "kind": "institution-page",
+      "title": "Official website for University of Wisconsin–Madison",
+      "publisher": "University of Wisconsin–Madison",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "normalized institution identity",
+        "official institutional location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Normalized from an official institutional source; publication-time affiliations remain in metadata.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "location.region"
+    ]
+  }
+}

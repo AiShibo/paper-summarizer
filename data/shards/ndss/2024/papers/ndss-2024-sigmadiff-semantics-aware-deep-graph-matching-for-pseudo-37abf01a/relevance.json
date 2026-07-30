@@ -1,0 +1,49 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-sigmadiff-semantics-aware-deep-graph-matching-for-pseudo-37abf01a",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper builds and evaluates a semantics-aware binary-analysis tool that pinpoints vulnerabilities in decompiled programs.",
+  "topics": [
+    "systems-security",
+    "compilers-languages-and-runtimes",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-fd7281f7556e3d16-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sigmadiff-semantics-aware-deep-graph-matching-for-pseudocode-diffing/",
+      "kind": "paper-page",
+      "title": "SigmaDiff: Semantics-Aware Deep Graph Matching for Pseudocode Diffing",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

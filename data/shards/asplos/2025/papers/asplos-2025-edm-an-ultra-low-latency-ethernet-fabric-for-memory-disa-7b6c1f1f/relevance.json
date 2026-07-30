@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-edm-an-ultra-low-latency-ethernet-fabric-for-memory-disa-7b6c1f1f",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because EDM contributes a concrete network fabric, SmartNIC, or on-NIC execution mechanism for an Ultra-Low Latency Ethernet Fabric for Memory Disaggregation.",
+  "topics": [
+    "networking",
+    "datacenter-networking",
+    "programmable-networks",
+    "computer-architecture",
+    "memory-hierarchy",
+    "resource-management-and-scheduling",
+    "resource-disaggregation",
+    "scheduling"
+  ],
+  "system_layers": [
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation",
+    "simulation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707221",
+      "url": "https://www.semanticscholar.org/paper/a2f48cfaa7805b87f153cf4ac1fd949281a246fb",
+      "kind": "semantic-scholar",
+      "title": "EDM: An Ultra-Low Latency Ethernet Fabric for Memory Disaggregation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6e882fbecb8d7a2d728b3f48ead8c310f807ed8a14b18856e715e45f27c7363d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

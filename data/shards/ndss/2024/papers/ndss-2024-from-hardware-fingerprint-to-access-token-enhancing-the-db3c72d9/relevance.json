@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-from-hardware-fingerprint-to-access-token-enhancing-the-db3c72d9",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds and evaluates MCU-Token, a hardware-fingerprint authentication framework for resource-constrained IoT devices.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "hardware-security",
+    "authentication-infrastructure",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware"
+  ],
+  "contribution_types": [
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-1de544f59557ddf4-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-hardware-fingerprint-to-access-token-enhancing-the-authentication-on-iot-devices/",
+      "kind": "paper-page",
+      "title": "From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

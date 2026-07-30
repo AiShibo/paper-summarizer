@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/research-group.schema.json",
+  "schema_version": "1.0.0",
+  "group_id": "group-sjtu-ipads",
+  "name": "Institute of Parallel and Distributed Systems",
+  "official_url": "https://ipads.se.sjtu.edu.cn/",
+  "group_kind": "academic",
+  "institution_id": "institution-shanghai-jiao-tong-university",
+  "department_or_division": null,
+  "faculty_ids": [],
+  "research_topics": [],
+  "sources": [
+    {
+      "id": "src-sjtu-ipads-official",
+      "url": "https://ipads.se.sjtu.edu.cn/",
+      "kind": "lab-page",
+      "title": "Institute of Parallel and Distributed Systems",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity",
+        "institutional affiliation",
+        "listed faculty leadership or membership where faculty_ids is non-empty"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "faculty_ids contains only people directly supported by the cited official source; no PI was inferred from author order."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics"
+    ]
+  }
+}

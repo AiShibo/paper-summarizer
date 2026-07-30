@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-rethinking-tamper-evident-logging-a-high-performance-co-63b357cc",
+  "title": "Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rui Zhao",
+      "position": 1,
+      "orcid": "0009-0004-7898-6831",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, Charlottesville, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a3ce3b50b10af43f-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Muhammad Shoaib",
+      "position": 2,
+      "orcid": "0009-0008-2009-9542",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, Charlottesville, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a3ce3b50b10af43f-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Viet Tung Hoang",
+      "position": 3,
+      "orcid": "0000-0003-3092-6405",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida State University, Tallahassee, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a3ce3b50b10af43f-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wajih Ul Hassan",
+      "position": 4,
+      "orcid": "0000-0002-5676-6027",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, Charlottesville, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-a3ce3b50b10af43f-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765024",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765024",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765024",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b4deb13b29af4d7b-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-5a863abebfed02c8-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765024",
+      "kind": "publisher-page",
+      "title": "Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-a3ce3b50b10af43f-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765024",
+      "kind": "crossref",
+      "title": "Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

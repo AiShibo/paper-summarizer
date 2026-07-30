@@ -1,0 +1,199 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-counterpoint-using-hardware-event-counters-to-refute-and-4387da48",
+  "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 8C: Memory Hierarchy & Performance",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Nick Lindsay",
+      "position": 1,
+      "orcid": "0009-0001-6478-3185",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yale University, New Haven, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Caroline Trippel",
+      "position": 2,
+      "orcid": "0000-0002-5776-1121",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anurag Khandelwal",
+      "position": 3,
+      "orcid": "0000-0002-2199-6391",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yale University, New Haven, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhishek Bhattacharjee",
+      "position": 4,
+      "orcid": "0000-0003-2742-2679",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yale University, New Haven, Connecticut, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790145"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790145",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790145",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3779212.3790145",
+    "artifact": "https://zenodo.org/records/18017051",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2601.01265",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790145",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790145",
+      "kind": "crossref",
+      "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:05103f15bfd466def05c03833c2e1f3e2bfb08262085b11b7eb7f089491510c0",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-arxiv-2601-01265",
+      "url": "https://export.arxiv.org/api/query?id_list=2601.01265",
+      "kind": "other",
+      "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions (Extended Version)",
+      "publisher": "arXiv",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:8a6f2db5102a6e750b20c7ce56f99405b49fada2c43bb18d00e228d2fe2dc91c",
+      "official": false,
+      "supports": [
+        "Author-posted abstract and alternate-version identifier used for relevance classification."
+      ]
+    },
+    {
+      "id": "src-zenodo-18017051",
+      "url": "https://zenodo.org/records/18017051",
+      "kind": "artifact-page",
+      "title": "CounterPoint: Haswell MMU dataset, models, and analysis",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:3ceee9ec47cd3618b819ba9fa79e85eccbe616b11fc5c28d5645d5806e965cc7",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "A confident author-deposited Zenodo artifact match is recorded."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

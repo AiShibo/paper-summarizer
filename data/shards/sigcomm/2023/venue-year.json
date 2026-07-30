@@ -1,0 +1,112 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sigcomm",
+  "year": 2023,
+  "official_conference_url": "https://conferences.sigcomm.org/sigcomm/2023/",
+  "official_program_url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+  "conference_dates": {
+    "start": "2023-09-10",
+    "end": "2023-09-14"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 71,
+    "core_systems": 68,
+    "systems_adjacent": 3,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sigcomm23-conference",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2023",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:392f981adda4d5972ba3b9f095b0c19b46411262857a336829a18e7d8b6c1a46",
+      "official": true,
+      "supports": [
+        "official conference identity, location context, and dates"
+      ]
+    },
+    {
+      "id": "src-sigcomm23-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e3c4b173cfbedcc908c51c7b97b3b7074aec5a4a2b2b8e0a49d7a9d6f9123e3",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-sigcomm23-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3603269",
+      "kind": "conference-proceedings",
+      "title": "ACM SIGCOMM 2023 Proceedings",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and paper-coverage reconciliation"
+      ]
+    },
+    {
+      "id": "src-sigcomm23-accepted",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2023 List of Accepted Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:7e696d13f652ba8d58c6a30c16282265c2fa138dd8da882f7e328b2aff0d1426",
+      "official": true,
+      "supports": [
+        "accepted-paper coverage reconciliation",
+        "Research Paper and Experience Paper labels",
+        "absence of a SIGCOMM Shorts category in the accepted-paper list"
+      ]
+    },
+    {
+      "id": "src-sigcomm23-cfp",
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/cfp.html",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2023 Call for Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:dafffabea2e19bf9fe6b6f0df91514b6bc74e6c959db0eea8bc6e92577cba030",
+      "official": true,
+      "supports": [
+        "main-paper scope",
+        "Research Track and Experience Track definitions",
+        "official publication-date policy"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Enumerated 71 archival main-track papers: 61 Research Papers and 10 Experience Papers, reconciled one-to-one across the official program, accepted-paper list, and ACM proceedings deposit.",
+      "The official program, accepted-paper list, and CFP contain no SIGCOMM Shorts, so the excluded-non-main paper audit count is zero.",
+      "Posters, demos, workshops, tutorials, keynotes, and social events were excluded as non-main program categories and received no paper bundles.",
+      "Main-track relevance counts keep the three systems-adjacent main-track papers distinct from excluded-main-track and non-main audit counts."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-os-rendering-service-made-parallel-with-out-of-order-exe-92da448c",
+  "takeaway": "Spars parallelizes CPU-heavy OS rendering by preparing self-contained tasks in order, executing them across cores out of order, then committing overlapping results in a safe drawing order.",
+  "background": "An OS rendering service turns a stateful render tree into GPU objects while preserving relative state and back-to-front drawing constraints. Foldable and multi-screen devices increase this CPU-side work.",
+  "villain": "A sequential depth-first renderer leaves most CPU cores idle, but naïve parallel execution can break inherited drawing state, overlap order, existing APIs, and state-based batching optimizations.",
+  "approach": "Spars first traverses the render tree in order without rendering, computes absolute state, and packages self-contained tasks plus overlap metadata. Worker threads run those tasks out of order through the stateless Spade2D engine. A commit thread uses task order and axis-aligned bounding boxes to submit completed GPU objects only when doing so preserves the partial drawing order.",
+  "impact": "The authors argue that this architecture can scale OS rendering for richer foldable and multi-screen interfaces while using otherwise idle CPU cores.",
+  "evaluation": {
+    "overview": "The evaluation measures parallelizable work, frame time, core utilization, power, rendering scalability, and system costs under smartphone and multi-screen scenarios.",
+    "implemented": "A C++ Spars rendering service and stateless Spade2D drawing engine using a Vulkan GPU backend, deployed as a custom service that directly uses GPU resources.",
+    "setting": "The authors export and reconstruct OpenHarmony render trees from real applications on Mate 70, Mate X5, Mate XT, and Kirin 9010 devices, using dummy page data and matched core and clock settings for comparisons.",
+    "baselines": [
+      "OpenHarmony 5.0 commercial rendering service",
+      "Sequential, the authors' sequential Spars variant"
+    ],
+    "results": [
+      {
+        "id": "claim-spars-smartphone-frame-rate",
+        "text": "Across 42 reconstructed smartphone scenarios with all compared loads pinned to medium cores at the same clock rate, the authors report 1.76× average frame-rate improvement for five-worker Spars over Sequential.",
+        "source_ids": [
+          "src-osdi25-pdf-92da448c"
+        ],
+        "locator": "PDF p. 12 (paper p. 703); §6.3, Figure 11"
+      },
+      {
+        "id": "claim-spars-multiscreen-frame-rate",
+        "text": "When driving two to six 2K-resolution virtual screens on the Kirin 9010, the authors report 1.91× average frame-rate improvement for five-worker Spars over Sequential.",
+        "source_ids": [
+          "src-osdi25-pdf-92da448c"
+        ],
+        "locator": "PDF p. 13 (paper p. 704); §6.3, Figure 13"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The prototype bypasses the vanilla rendering service and evaluates reconstructed app render trees with dummy content; Spade2D still lacks some production features. Commercial baseline data are not reported for Mate XT, and the authors describe full deployment as a major refactoring effort.",
+  "phd_group_signal": "This work reflects an operating-systems co-design style: borrow an architectural scheduling idea, preserve legacy interface semantics, build a graphics stack, and validate it on device-class hardware.",
+  "beginner_concepts": [
+    "render tree",
+    "out-of-order execution and in-order commit",
+    "partial drawing order",
+    "axis-aligned bounding box",
+    "stateful versus stateless API"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-spars-central-mechanism",
+      "text": "Spars separates rendering into in-order dry-run preparation of self-contained tasks, out-of-order execution in Spade2D worker threads, and dependency-aware commit using a task chain and bounding-box overlap checks.",
+      "source_ids": [
+        "src-osdi25-pdf-92da448c"
+      ],
+      "locator": "PDF pp. 7–10 (paper pp. 698–701); §§4.1–5.4, Figure 6"
+    },
+    {
+      "id": "claim-spars-evaluation-boundary",
+      "text": "The evaluation uses a custom service that bypasses the vanilla renderer, reconstructed exported render trees with dummy content, and an incomplete Spade2D feature set; the paper says production deployment requires substantial refactoring.",
+      "source_ids": [
+        "src-osdi25-pdf-92da448c"
+      ],
+      "locator": "PDF pp. 11–14 (paper pp. 702–705); §§6.1, 6.3, and 6.7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi25-pdf-92da448c",
+      "url": "https://www.usenix.org/system/files/osdi25-wu-yuanpei.pdf",
+      "kind": "paper-pdf",
+      "title": "OS Rendering Service Made Parallel with Out-of-Order Execution and In-Order Commit",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:29:51Z",
+      "content_hash": "sha256:4313e74bb9997cfead49f591d28beffc400090ad3fc909b84d2461336218cda5",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, costs, and conclusion",
+        "central mechanism, evaluation boundary, baselines, and author-reported frame-rate results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e1",
+    "updated_at": "2026-07-30T03:29:51Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§3.1–3.3, §§4.1–5.4, §§6.1–6.7, and §8; inspected Figures 6 and 9–15 where needed.",
+      "The summary preserves the distinction between reconstructed scenarios, the authors' Sequential implementation, and the commercial OpenHarmony baseline."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:29:51Z",
+    "last_verified_at": "2026-07-30T03:29:51Z",
+    "collector_version": "agent-e1-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

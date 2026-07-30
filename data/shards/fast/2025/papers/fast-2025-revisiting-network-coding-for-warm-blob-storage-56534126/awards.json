@@ -1,0 +1,39 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/awards.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-revisiting-network-coding-for-warm-blob-storage-56534126",
+  "awards": [],
+  "sources": [
+    {
+      "id": "src-fast25-official-awards-program",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "award-page",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:19:31Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete official FAST '25 award annotations",
+        "exact title match and verified empty paper-level award result for this staged paper"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-g",
+    "updated_at": "2026-07-30T01:19:31Z",
+    "notes": [
+      "Matched the staged title exactly on the official FAST '25 Technical Sessions page.",
+      "The official program does not designate this paper as an Erik Riedel Best Paper or Distinguished Artifact Award winner; verified empty award result."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:19:31Z",
+    "last_verified_at": "2026-07-30T01:19:31Z",
+    "collector_version": "agent-g-official-award-verifier/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-g",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353",
+  "title": "Learnings from Deploying Network QoS Alignment to Application Priorities for Storage Services",
+  "venue": "nsdi",
+  "year": 2025,
+  "track_or_session": "Data Centers Queuing and Routing",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Matthew Buckley",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google and University of Toronto",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Parsa Pazhooheshy",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google and University of Toronto",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Z. Morley Mao",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nandita Dukkipati",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hamid Hajabdolali Bazzaz",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Priyaranjan Jha",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yingjie Bi",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Steve Middlekauff",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yashar Ganjali",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi25/presentation/buckley",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi25-buckley.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/vt8ZOe51nec?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {305332,\nauthor = {Matthew Buckley and Parsa Pazhooheshy and Z. Morley Mao and Nandita Dukkipati and Hamid Hajabdolali Bazzaz and Priyaranjan Jha and Yingjie Bi and Steve Middlekauff and Yashar Ganjali},\ntitle = {Learnings from Deploying Network {QoS} Alignment to Application Priorities for Storage Services},\nbooktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},\nyear = {2025},\nisbn = {978-1-939133-46-5},\naddress = {Philadelphia, PA},\npages = {37--53},\nurl = {https://www.usenix.org/conference/nsdi25/presentation/buckley},\npublisher = {USENIX Association},\nmonth = apr\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi25-program",
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:5190c4bfe0795a131e0d38ceda8da95de909a27d468766c5128a668aab4fceb6",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2025-learnings-from-deploying-network-qos-alignment-to-applic-68be6353-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi25/presentation/buckley",
+      "kind": "paper-page",
+      "title": "Learnings from Deploying Network QoS Alignment to Application Priorities for Storage Services",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:8cde22ba085dc388e968f04a6a880a7701a77a880cc8ae7c8009e7915775a610",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains unresolved and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)",
+      "publication_date"
+    ]
+  }
+}

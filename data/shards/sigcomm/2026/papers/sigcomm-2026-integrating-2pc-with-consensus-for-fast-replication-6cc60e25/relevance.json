@@ -1,0 +1,66 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2026-integrating-2pc-with-consensus-for-fast-replication-6cc60e25",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 3,
+  "rationale": "The official accepted-paper table verifies a main-track identity, but no official abstract or paper was available to confirm corpus fit without inferring from the title.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-sigcomm26-accepted",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Accepted Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:76cf694b97a3427e51e3d223497c1d478493d748f36d34b91a6f935370af50ed",
+      "official": true,
+      "supports": [
+        "109 identifiable accepted-paper title and author rows",
+        "accepted-page statement that 110 papers were accepted",
+        "Research Paper and Experience Paper labels"
+      ]
+    },
+    {
+      "id": "src-sigcomm26-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2026 Technical Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:c777f09d5ce92d6d4b806c719af5abcacf51405e649781ef80c4b53a32c32c3e",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "The official accepted list and draft program provide only title, authors, track, and session; inclusion-policy v1 requires human review rather than title-only inference."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "official abstract or full conference paper",
+      "topics",
+      "system_layers",
+      "contribution_types",
+      "methods"
+    ]
+  }
+}

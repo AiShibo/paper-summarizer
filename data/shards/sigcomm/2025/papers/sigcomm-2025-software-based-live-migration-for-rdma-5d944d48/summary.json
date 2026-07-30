@@ -1,0 +1,110 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-software-based-live-migration-for-rdma-5d944d48",
+  "takeaway": "MigrRDMA pre-establishes replacement RDMA resources, virtualizes exposed identifiers, and drains in-flight requests so containers can migrate across commodity Mellanox RNICs without hardware changes.",
+  "background": "Live migration normally copies memory while a service keeps running, then briefly stops it to transfer the remaining state. RDMA complicates this because applications directly observe RNIC-managed queue and memory-region identifiers, while in-flight work requests and completion entries live across software and hardware.",
+  "villain": "Recreating every RDMA resource only after stop-and-copy lengthens blackout, but recreating resources early changes identifiers and memory mappings. Simply stopping the process can also lose, duplicate, or reorder in-flight RDMA work, and hardware-assisted proposals require modified RNICs.",
+  "approach": "MigrRDMA extends Mellanox OFED, CRIU, and runc. During memory pre-copy it maps RDMA-related structures at their original virtual addresses and creates replacement resources and connections at the destination. A driver/library indirection layer translates virtual QP and memory keys to the old or new physical identifiers. Before stop-and-copy, the migrated endpoint and every communication partner suspend new work, drain in-flight work requests, retain unconsumed completions in fake queues, and replay buffered work after restoration.",
+  "impact": "The authors show that software coordination can preserve application-visible RDMA state and shorten migration blackout on unmodified commodity RNICs, including for an unmodified RDMA-based Hadoop binary.",
+  "evaluation": {
+    "overview": "The evaluation decomposes migration blackout, checks work-request and completion consistency, measures wait-before-stop and virtualization costs, follows throughput during migration, and migrates RDMA-based Hadoop.",
+    "implemented": "A container-migration prototype based on Mellanox OFED 5.4, with about 4,500 C lines in the kernel driver, 11,000 in the userspace RDMA library, 3,200 in CRIU, and 1,100 in runc; Docker and application binaries are unchanged.",
+    "setting": "The six-server testbed has one source, one destination, and four communication partners connected by one Arista 7260CX3-64 switch. Every server has dual 16-core Intel Xeon E5-2698 v3 CPUs, 256 GB RAM, and a ConnectX-5 100 Gb/s RNIC. Perftest exercises SEND/RECV/READ/WRITE patterns; the application experiment uses one HDFS master and two slave containers.",
+    "baselines": [
+      "The same software migration workflow without RDMA pre-setup",
+      "The same RDMA operations without identifier virtualization",
+      "RDMA-based Hadoop without migration",
+      "Hadoop native failover"
+    ],
+    "results": [
+      {
+        "id": "claim-migr-rdma-presetup-blackout",
+        "text": "Across migrated-sender and migrated-receiver WRITE and SEND/RECV microbenchmarks with 1–4,096 QPs, pre-establishing RDMA resources reduced blackout by up to 58% relative to the same workflow that restored RDMA only after stop-and-copy.",
+        "source_ids": [
+          "src-sigcomm25-rdma-pdf-5d944d48"
+        ],
+        "locator": "§5.2, Figure 3"
+      },
+      {
+        "id": "claim-migr-rdma-virtualization-overhead",
+        "text": "For one reliable-connected QP sending 64-byte messages for five seconds, identifier virtualization added 4.6–8.3 CPU cycles per SEND, RECV, WRITE, or READ operation, corresponding to 3.7%–8.9% overhead after excluding busy-poll cycles.",
+        "source_ids": [
+          "src-sigcomm25-rdma-pdf-5d944d48"
+        ],
+        "locator": "§5.5.1, Table 4"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Wait-before-stop requires the migrated service and all of its communication partners to run MigrRDMA; a regular-RDMA partner cannot participate in migration, and mixed deployments exclude one-sided virtualization unless they add special negotiation. Partners must have enough spare QPs for replacement connections. The experiments use one switch and ConnectX-5 RNICs, and the MigrOS comparison is theoretical because its published prototype uses SoftRoCE rather than hardware. A timeout handles spotty networks by replaying unfinished work, so the normal drain-before-stop argument depends on communication completing before that timeout.",
+  "phd_group_signal": "This is systems work at the OS/network boundary: identify externally visible device state, introduce the smallest indirection needed to relocate it, coordinate distributed endpoints around a cutover, and validate both correctness and data-path overhead.",
+  "beginner_concepts": [
+    "container live migration",
+    "RDMA queue pairs and work requests",
+    "memory registration keys",
+    "completion queues",
+    "identifier virtualization",
+    "stop-and-copy versus pre-copy"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-migr-rdma-mechanism",
+      "text": "MigrRDMA restores RDMA-related memory and creates destination resources during pre-copy, translates virtual QPNs and access keys in the software driver/library path, and uses coordinated wait-before-stop plus fake completion queues and replay to preserve in-flight and unconsumed work.",
+      "source_ids": [
+        "src-sigcomm25-rdma-pdf-5d944d48"
+      ],
+      "locator": "§§3.1–3.4, Figure 2 and Table 1; §4, Tables 2–3"
+    },
+    {
+      "id": "claim-migr-rdma-deployment-boundary",
+      "text": "The migration protocol assumes software support at every communication partner and spare partner-side queue pairs; services with a non-MigrRDMA partner cannot be migrated, and mixed-environment one-sided operations require additional handling because virtual-to-physical remote-key mappings cannot otherwise be exchanged.",
+      "source_ids": [
+        "src-sigcomm25-rdma-pdf-5d944d48"
+      ],
+      "locator": "§3.2 under “Restoring RDMA communication”; §6 under “MigrRDMA in hybrid case”"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-rdma-pdf-5d944d48",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750487?download=true",
+      "kind": "paper-pdf",
+      "title": "Software-based Live Migration for RDMA",
+      "publisher": "ACM",
+      "retrieved_at": "2026-07-30T04:03:46Z",
+      "content_hash": "sha256:0605e905870788fe91558721a029ae802314e4ff2f8eb6cc7669309a1229da04",
+      "official": true,
+      "supports": [
+        "abstract, introduction, RDMA and migration background, design, implementation, evaluation, discussion, and conclusion",
+        "endpoint coordination, identifier and memory-mapping assumptions, RNIC and topology conditions, baselines, and migration limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e5",
+    "updated_at": "2026-07-30T04:03:46Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–2; §§3.1–3.4; §4; §§5.1–5.6 including Figures 3–6 and Tables 2–4; §6; and §8.",
+      "The summary preserves the six-node single-switch topology, ConnectX-5 dependency, all-partner protocol requirement, spare-QP assumption, baseline conditions, and the lack of a hardware MigrOS comparison."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:03:46Z",
+    "last_verified_at": "2026-07-30T04:03:46Z",
+    "collector_version": "agent-e5-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

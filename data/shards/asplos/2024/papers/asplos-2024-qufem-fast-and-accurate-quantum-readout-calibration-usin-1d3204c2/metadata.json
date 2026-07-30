@@ -1,0 +1,320 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-qufem-fast-and-accurate-quantum-readout-calibration-usin-1d3204c2",
+  "title": "QuFEM: Fast and Accurate Quantum Readout Calibration Using the Finite Element Method",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 5D: Quantum Architecture",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Siwei Tan",
+      "position": 1,
+      "orcid": "0000-0002-0634-8089",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liqiang Lu",
+      "position": 2,
+      "orcid": "0000-0002-3801-6847",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hanyu Zhang",
+      "position": 3,
+      "orcid": "0009-0007-5127-5783",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jia Yu",
+      "position": 4,
+      "orcid": "0009-0009-5147-6838",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Congliang Lang",
+      "position": 5,
+      "orcid": "0009-0008-8028-9727",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongheng Shang",
+      "position": 6,
+      "orcid": "0000-0001-8550-6710",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinkui Zhao",
+      "position": 7,
+      "orcid": "0000-0002-1115-5652",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingshuai Chen",
+      "position": 8,
+      "orcid": "0000-0001-9663-7441",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yun Liang",
+      "position": 9,
+      "orcid": "0000-0002-9076-7998",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianwei Yin",
+      "position": 10,
+      "orcid": "0000-0003-4703-7348",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhejiang University, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640380"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640380",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640380",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640380",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/oxIzFyw8ovk",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640380",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640380",
+      "kind": "crossref",
+      "title": "QuFEM: Fast and Accurate Quantum Readout Calibration Using the Finite Element Method",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:c621b5b1a1eb45fd570e54d337b8b42129b222d1bd3c678879a7cc4020bc8934",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640380",
+      "url": "https://www.semanticscholar.org/paper/e25fe8ffe69a538e61152a1a15788704ddcacdc0",
+      "kind": "semantic-scholar",
+      "title": "QuFEM: Fast and Accurate Quantum Readout Calibration Using the Finite Element Method",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:83b497082ea37e880c4bc127da77d835cee4e862d4f3fcc8a8c0780f4e075b84",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

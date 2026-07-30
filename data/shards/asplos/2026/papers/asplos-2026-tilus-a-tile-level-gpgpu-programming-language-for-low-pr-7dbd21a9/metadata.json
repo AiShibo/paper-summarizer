@@ -1,0 +1,284 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-tilus-a-tile-level-gpgpu-programming-language-for-low-pr-7dbd21a9",
+  "title": "Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 5A: Generative Model Serving",
+  "paper_type": "main-track",
+  "publication_date": "2025-12-11",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yaoyao Ding",
+      "position": 1,
+      "orcid": "0000-0002-9801-6080",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Univerisity of Toronto, Toronto, ON, Canada, NVIDIA, Santa Clara, CA, USA, and Vector Institute, Toronto, ON, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bohan Hou",
+      "position": 2,
+      "orcid": "0000-0001-5718-3387",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiao Zhang",
+      "position": 3,
+      "orcid": "0009-0000-0914-5669",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, ON, Canada and NVIDIA, Santa Clara, CA, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Allan Lin",
+      "position": 4,
+      "orcid": "0009-0008-0401-1053",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Waterloo, Waterloo, ON, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianqi Chen",
+      "position": 5,
+      "orcid": "0000-0002-5744-3940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, PA, USA and NVIDIA, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cody Hao Yu",
+      "position": 6,
+      "orcid": "0000-0002-9298-6254",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yida Wang",
+      "position": 7,
+      "orcid": "0000-0001-8165-840X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Amazon Web Services, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gennady Pekhimenko",
+      "position": 8,
+      "orcid": "0000-0002-3839-0919",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, ON, Canada, NVIDIA, Santa Clara, CA, Canada, and Vector Institute, Toronto, ON, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3760250-3762219"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3760250.3762219",
+    "official_page": "https://dl.acm.org/doi/10.1145/3760250.3762219",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3760250.3762219",
+    "artifact": "https://zenodo.org/records/16777547",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2504.12984",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3760250-3762219",
+      "url": "https://api.crossref.org/works/10.1145/3760250.3762219",
+      "kind": "crossref",
+      "title": "Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:2a506820247b4fbf2c4203b02529ee99021df387b0cc782758f31095f47f899f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3760250-3762219",
+      "url": "https://www.semanticscholar.org/paper/dcb25e0ebfe080947075252c7f75bf92296afe04",
+      "kind": "semantic-scholar",
+      "title": "Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:abc4b173b734c273c69a526e586a30f141d37c94f7799b80b6b5eb91c8853695",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    },
+    {
+      "id": "src-zenodo-16777547",
+      "url": "https://zenodo.org/records/16777547",
+      "kind": "artifact-page",
+      "title": "Artifacts for Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:be8f5fe52c92568acdacce7e042936bf04cca3e88bbdb405a3ea8f19fbec9b82",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher records online publication on 2025-12-11 and print publication on 2026-03-22; publication_date preserves the earlier publisher date.",
+      "A confident author-deposited Zenodo artifact match is recorded."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

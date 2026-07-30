@@ -1,0 +1,91 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "atc",
+  "year": 2024,
+  "official_conference_url": "https://www.usenix.org/conference/atc24",
+  "official_program_url": "https://www.usenix.org/conference/atc24/technical-sessions",
+  "conference_dates": {
+    "start": "2024-07-10",
+    "end": "2024-07-12"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 77,
+    "core_systems": 75,
+    "systems_adjacent": 2,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-atc-2024-conference",
+      "url": "https://www.usenix.org/conference/atc24",
+      "kind": "other",
+      "title": "USENIX ATC '24",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:138ac44ff41b249602b89346fdaf814c49fea0e3c5863a5a5995107ef915f324",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2024 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-atc-2024-program",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:876c941759cb91599fab05ec6fe6f09db6daa70926abe2374897d6ddbe076b58",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2024-proceedings",
+      "url": "https://www.usenix.org/conference/atc24/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '24 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2024-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '24",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:ba4ea22ae97a9a279b5fb9dfac2093c0948908af26183be07cad0a7039cbfa80",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Coverage was reconciled one-to-one between the official main-track program and DBLP proceedings table.",
+      "Keynotes, awards presentations, posters, workshops, and other non-main-track items were excluded before initialization."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

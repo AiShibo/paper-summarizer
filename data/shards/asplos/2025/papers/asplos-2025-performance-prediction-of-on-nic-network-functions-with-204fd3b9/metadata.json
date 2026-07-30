@@ -1,0 +1,182 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-performance-prediction-of-on-nic-network-functions-with-204fd3b9",
+  "title": "Performance Prediction of On-NIC Network Functions with Multi-Resource Contention and Traffic Awareness",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 8B: Networking",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shaofeng Wu",
+      "position": 1,
+      "orcid": "0009-0006-2007-990X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong, Hong Kong SAR, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707232"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiang Su",
+      "position": 2,
+      "orcid": "0000-0002-4482-6248",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong, Hong Kong SAR, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707232"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhixiong Niu",
+      "position": 3,
+      "orcid": "0000-0001-6947-9740",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707232"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hong Xu",
+      "position": 4,
+      "orcid": "0000-0002-9359-9571",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong, Hong Kong SAR, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707232"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707232",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707232",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707232",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707232",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707232",
+      "kind": "crossref",
+      "title": "Performance Prediction of On-NIC Network Functions with Multi-Resource Contention and Traffic Awareness",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:51f18ae9e22c98565394433066ab960372a5605d4b2c3bd1857c24c304816a3f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707232",
+      "url": "https://www.semanticscholar.org/paper/160f0ea7db6323c0e8ac4103f3b0d98fd90c119c",
+      "kind": "semantic-scholar",
+      "title": "Performance Prediction of On-NIC Network Functions with Multi-Resource Contention and Traffic Awareness",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:eefbb20742eb493431ffc6e4c51d9d70550f137067784be9b2a80764c38fe8cd",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

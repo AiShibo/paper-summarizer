@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "title": "Paper group and faculty resolution stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "associations",
+    "unresolved_authors",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "group_id",
+          "faculty_id",
+          "publication_institution_id",
+          "current_institution_id",
+          "association_type",
+          "evidence_source_ids",
+          "rationale",
+          "confidence"
+        ],
+        "properties": {
+          "group_id": {
+            "type": ["string", "null"]
+          },
+          "faculty_id": {
+            "type": ["string", "null"]
+          },
+          "publication_institution_id": {
+            "type": ["string", "null"]
+          },
+          "current_institution_id": {
+            "type": ["string", "null"]
+          },
+          "association_type": {
+            "enum": [
+              "official-lab-publication",
+              "official-faculty-publication",
+              "official-student-advisor",
+              "institution-evidence",
+              "paper-or-project-evidence",
+              "industrial-group",
+              "unresolved"
+            ]
+          },
+          "evidence_source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "confidence": {
+            "enum": ["VERIFIED", "HIGH", "MEDIUM", "LOW", "UNRESOLVED"]
+          }
+        }
+      }
+    },
+    "unresolved_authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

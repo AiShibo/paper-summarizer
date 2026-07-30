@@ -1,0 +1,106 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "ccs",
+  "year": 2023,
+  "official_conference_url": "https://www.sigsac.org/ccs/CCS2023/",
+  "official_program_url": "https://www.sigsac.org/ccs/CCS2023/program.html",
+  "conference_dates": {
+    "start": "2023-11-26",
+    "end": "2023-11-30"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 234,
+    "core_systems": 49,
+    "systems_adjacent": 87,
+    "excluded": 98,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-ccs-2023-venue-1",
+      "url": "https://www.sigsac.org/ccs/CCS2023/",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "conference identity and dates"
+      ]
+    },
+    {
+      "id": "src-ccs-2023-venue-2",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "234 accepted main-track papers"
+      ]
+    },
+    {
+      "id": "src-ccs-2023-venue-3",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstracts, DOI values, and page spans"
+      ]
+    },
+    {
+      "id": "src-ccs-2023-venue-4",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3576915",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher proceedings coverage"
+      ]
+    },
+    {
+      "id": "src-ccs-2023-venue-5",
+      "url": "https://dblp.org/db/conf/ccs/ccs2023.html",
+      "kind": "dblp",
+      "title": "ACM CCS 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "proceedings reconciliation and identification of 58 non-main entries"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "The official dynamic program data and main technical sessions contain 234 unique main-track papers.",
+      "DBLP lists 292 proceedings entries; 42 posters, 13 workshop papers, and 3 demonstrations are excluded from the main-track inventory."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "one publisher DOI page is inaccessible and its exact publication date and official PDF are unavailable"
+    ]
+  }
+}

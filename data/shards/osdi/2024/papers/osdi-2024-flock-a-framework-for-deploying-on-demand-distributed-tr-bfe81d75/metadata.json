@@ -1,0 +1,193 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-flock-a-framework-for-deploying-on-demand-distributed-tr-bfe81d75",
+  "title": "Flock: A Framework for Deploying On-Demand Distributed Trust",
+  "venue": "osdi",
+  "year": 2024,
+  "track_or_session": "Cloud Security",
+  "paper_type": "main-track",
+  "publication_date": "2024-07-10",
+  "page_count": 23,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Darya Kaviani",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sijun Tan",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pravein Govindan Kannan",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Raluca Ada Popa",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC Berkeley",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-osdi-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/osdi24/presentation/kaviani",
+    "official_pdf": "https://www.usenix.org/system/files/osdi24-kaviani.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/fCnzAyJwt-I",
+    "bibtex": "@inproceedings {298742,\nauthor = {Darya Kaviani and Sijun Tan and Pravein Govindan Kannan and Raluca Ada Popa},\ntitle = {Flock: A Framework for Deploying {On-Demand} Distributed Trust},\nbooktitle = {18th USENIX Symposium on Operating Systems Design and Implementation (OSDI 24)},\nyear = {2024},\nisbn = {978-1-939133-40-3},\naddress = {Santa Clara, CA},\npages = {721--743},\nurl = {https://www.usenix.org/conference/osdi24/presentation/kaviani},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-osdi-2024-program",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "OSDI '24 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:f899905ec70b2cc62c3ef71d43b6a3d95c9f867b79636165e361aab2735fce75",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-paper-kaviani",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/kaviani",
+      "kind": "paper-page",
+      "title": "Flock: A Framework for Deploying On-Demand Distributed Trust",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:7046868540eca073dd612fdc99d65d16331a019afe2564031d66a5b186aca964",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-proceedings",
+      "url": "https://www.usenix.org/conference/osdi24/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "OSDI '24 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-osdi-2024-dblp",
+      "url": "https://dblp.org/db/conf/osdi/osdi2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for OSDI '24",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:e95939b43f8a802d9cb1b884d3ff91474ccbfccb9baff5994ff60615ff32e9ca",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

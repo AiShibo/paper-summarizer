@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-spotproxy-rediscovering-the-cloud-for-censorship-circumv-1b578628",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds and evaluates a cloud circumvention infrastructure that migrates live WireGuard and Snowflake clients across rapidly changing proxy instances.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "networking",
+    "network-security",
+    "privacy-infrastructure"
+  ],
+  "system_layers": [
+    "network",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-58057567732ebee1-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kon",
+      "kind": "paper-page",
+      "title": "SpotProxy: Rediscovering the Cloud for Censorship Circumvention",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

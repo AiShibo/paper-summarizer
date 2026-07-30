@@ -1,0 +1,297 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca",
+  "title": "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers",
+  "venue": "nsdi",
+  "year": 2026,
+  "track_or_session": "Hardware, Mobility, and Systems",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhiyu Zhang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minkun Xue",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kan Yu",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruyi Yao",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shili Chen",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Mei",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zixuan Chen",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China Telecom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weiyi Chen",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yibo Fan",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Xu",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhiyu",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi26-zhang-zhiyu.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/AoDijyU_X90?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {316756,\nauthor = {Zhiyu Zhang and Minkun Xue and Kan Yu and Ruyi Yao and Shili Chen and Hao Mei and Zixuan Chen and Weiyi Chen and Yibo Fan and Yang Xu},\ntitle = {Themis: {Scheduling-Aware} Buffer Management for {HBM-Based} Hybrid Buffers},\nbooktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-54-0},\naddress = {Renton, WA},\npages = {1975--1993},\nurl = {https://www.usenix.org/conference/nsdi26/presentation/zhang-zhiyu},\npublisher = {USENIX Association},\nmonth = may\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2026-themis-scheduling-aware-buffer-management-for-hbm-based-48d915ca-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhiyu",
+      "kind": "paper-page",
+      "title": "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:82c95a988ed9d4c99661942e1cb8403bb409ceb7ff660f86fc5c327065fabc2a",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Canonical identity, title, author order, and affiliations follow the checked official conference sources.",
+      "No alternate version was exposed by the checked official sources; an empty alternate_versions list is not a claim that none exists elsewhere.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official sources; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains null and conference dates stay in venue-year.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].orcid (not supplied by the checked official sources)",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "publication_date"
+    ]
+  }
+}

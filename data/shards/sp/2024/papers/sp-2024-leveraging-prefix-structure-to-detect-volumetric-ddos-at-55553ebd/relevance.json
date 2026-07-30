@@ -1,0 +1,51 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-leveraging-prefix-structure-to-detect-volumetric-ddos-at-55553ebd",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds hardware and software prototypes of an in-switch, prefix-level DDoS detection system for production-scale edge traffic.",
+  "topics": [
+    "networking",
+    "network-security",
+    "hardware-security",
+    "systems-security"
+  ],
+  "system_layers": [
+    "network",
+    "hardware"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-2f055a117639f717-abstract",
+      "url": "https://openalex.org/W4402265182",
+      "kind": "openalex",
+      "title": "Leveraging Prefix Structure to Detect Volumetric DDoS Attack Signatures with Programmable Switches",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

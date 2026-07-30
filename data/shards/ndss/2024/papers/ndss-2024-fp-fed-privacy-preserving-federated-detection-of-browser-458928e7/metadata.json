@@ -1,0 +1,150 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-fp-fed-privacy-preserving-federated-detection-of-browser-458928e7",
+  "title": "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+  "venue": "ndss",
+  "year": 2024,
+  "track_or_session": "Fall submission cycle",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Meenatchi Sundaram Muthu Selva Annamalai",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University College London",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b52378ab5e3d0cb-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Igor Bilogrevic",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b52378ab5e3d0cb-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Emiliano De Cristofaro",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Riverside",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-1b52378ab5e3d0cb-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2024.24360",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2024-360-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024-360-slides.pdf",
+    "video": "https://youtu.be/8I6uQO4_8aw?si=iWCShVSo_s94hMxp",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-c2d5ab8587bbe25d-program",
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2024 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-1b52378ab5e3d0cb-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/",
+      "kind": "paper-page",
+      "title": "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-d468bf5fab9d55b6-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2024.24360",
+      "kind": "crossref",
+      "title": "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

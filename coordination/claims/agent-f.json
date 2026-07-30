@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-f",
+  "role": "faculty-group-institution-resolution",
+  "claimed_at": "2026-07-29T22:54:07Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/fast/2025"
+  ],
+  "stage_files": [
+    "groups.json"
+  ],
+  "paper_ids": [
+    "fast-2025-3l-cache-low-overhead-and-precise-learning-based-evictio-19b539fc",
+    "fast-2025-aegonkv-a-high-bandwidth-low-tail-latency-and-low-storag-d2c300a6",
+    "fast-2025-archer-adaptive-memory-compression-with-page-association-3c329022",
+    "fast-2025-atomicdisk-a-secure-virtual-disk-for-tees-against-evicti-59e6ddfd",
+    "fast-2025-awupf-rediscovered-atomic-writes-to-unleash-pivotal-faul-72e04053",
+    "fast-2025-boosting-file-systems-elegantly-a-transparent-nvm-write-3edfa0ca",
+    "fast-2025-cloudscape-a-study-of-storage-services-in-modern-cloud-a-9d0a7c31",
+    "fast-2025-d2fs-device-driven-filesystem-garbage-collection-77b15462",
+    "fast-2025-djfs-directory-granularity-filesystem-journaling-for-cmm-8ae11f76",
+    "fast-2025-dna-data-storage-a-generative-tool-for-motif-based-dna-s-a24c25d0",
+    "fast-2025-don-t-maintain-twice-it-s-alright-merged-metadata-manage-1b4ff9a4",
+    "fast-2025-fast-transparent-filesystem-microkernel-recovery-with-an-911ba3a1",
+    "fast-2025-flacio-flat-and-collective-i-o-for-container-image-servi-a815298a",
+    "fast-2025-geminifs-a-companion-file-system-for-gpus-686e6280",
+    "fast-2025-gphash-an-efficient-hash-index-for-gpu-with-byte-granula-1de38335",
+    "fast-2025-hasis-a-hardware-assisted-single-index-store-for-hybrid-9b38f410",
+    "fast-2025-hidpu-a-dpu-oriented-hybrid-indexing-scheme-for-disaggre-308c4a59",
+    "fast-2025-impress-an-importance-informed-multi-tier-prefix-kv-stor-4c0ba7a9",
+    "fast-2025-leapgnn-accelerating-distributed-gnn-training-leveraging-146064db",
+    "fast-2025-liquid-state-drive-a-case-for-dna-block-device-for-enorm-8496b7a2",
+    "fast-2025-maat-analyzing-and-optimizing-overcharge-on-blockchain-s-545cf6c9",
+    "fast-2025-medfs-pursuing-low-update-overhead-via-metadata-enabled-f8b37899",
+    "fast-2025-mooncake-trading-more-storage-for-less-computation-a-kvc-0f1fcb08",
+    "fast-2025-oasis-an-out-of-core-approximate-graph-system-via-all-di-cd91b087",
+    "fast-2025-on-scalable-integrity-checking-for-secure-cloud-disks-69f69e0b",
+    "fast-2025-opimq-order-preserving-io-stack-for-multi-queue-block-de-02e75137",
+    "fast-2025-pimlex-a-high-performance-learned-index-with-processing-def7b6d2",
+    "fast-2025-polystore-exploiting-combined-capabilities-of-heterogene-4f4b5007",
+    "fast-2025-rethinking-the-request-to-io-transformation-process-of-f-ec2dd2f5",
+    "fast-2025-revisiting-network-coding-for-warm-blob-storage-56534126",
+    "fast-2025-scalelfs-a-log-structured-file-system-with-scalable-garb-375f2fa9",
+    "fast-2025-selective-on-device-execution-of-data-dependent-read-i-o-19146c9b",
+    "fast-2025-shiftlock-mitigate-one-sided-rdma-lock-contention-via-ha-3cea6760",
+    "fast-2025-silhouette-leveraging-consistency-mechanisms-to-detect-b-40ec63b1",
+    "fast-2025-towards-high-throughput-and-low-latency-billion-scale-ve-0f381907",
+    "fast-2025-vectorcdc-accelerating-data-deduplication-with-vector-in-20baa9bd"
+  ],
+  "entity_directories": [
+    "data/entities/authors",
+    "data/entities/faculty",
+    "data/entities/research-groups",
+    "data/entities/institutions"
+  ],
+  "notes": [
+    "Bounded FAST 2025 specialist pilot authorized by coordination/directives/agent-f-fast-2025-specialist-pilot.json.",
+    "Assignment fast-2025-specialist-pilot-001 contains exactly 36 unique paper IDs; canonical SHA-256 verified as f2086a4e857823806214e08e4ff832cd044cb57151cda3526e6df57314996633 before data editing.",
+    "Completed all 36 assigned groups.json stages and set each to READY_FOR_REVIEW: 35 have at least one official-evidence paper association and FlacIO remains a documented zero-association result.",
+    "Created 27 author, 27 faculty, 18 research-group, and 22 institution entities; recorded 37 paper associations and preserved 188 unresolved paper-author occurrences instead of inferring group membership or PI relationships.",
+    "Publication-time institutions remain in metadata.json and are represented separately from current faculty institutions; no metadata stage was edited.",
+    "Recorded three exact current recruiting statements from official faculty sources; all other recruiting fields remain null.",
+    "No duplicate author, faculty, research-group, or normalized institution names were detected among the new entity records.",
+    "Targeted FAST 2025 draft validation checked 36 paper bundles and 311 JSON files with 0 errors and 0 warnings; repository-wide draft validation checked 5,182 paper bundles and 31,222 JSON files with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, the release fixture validation, and repository-wide draft validation with 0 errors and 0 warnings."
+  ]
+}

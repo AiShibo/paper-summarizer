@@ -1,0 +1,422 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-salus-a-practical-trusted-execution-environment-for-cpu-473d10e3",
+  "title": "Salus: A Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 2D: FPGAs",
+  "paper_type": "main-track",
+  "publication_date": "2025-04-10",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yu Zou",
+      "position": 1,
+      "orcid": "0000-0002-4541-6638",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiran Li",
+      "position": 2,
+      "orcid": "0009-0008-2378-6284",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sheng Wang",
+      "position": 3,
+      "orcid": "0009-0007-1582-3316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Le Su",
+      "position": 4,
+      "orcid": "0009-0008-9631-152X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhen Gu",
+      "position": 5,
+      "orcid": "0000-0002-7067-492X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DAMO Academy, Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Hupan Lab, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanheng Lu",
+      "position": 6,
+      "orcid": "0009-0004-4024-6125",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DAMO Academy, Alibaba Group, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Hupan Lab, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yijin Guan",
+      "position": 7,
+      "orcid": "0000-0002-8854-2132",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DAMO Academy, Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Hupan Lab, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dimin Niu",
+      "position": 8,
+      "orcid": "0000-0001-8440-3875",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DAMO Academy, Alibaba Group, Sunnyvale, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Hupan Lab, Sunnyvale, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingyu Gao",
+      "position": 9,
+      "orcid": "0000-0001-8433-7281",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai AI Laboratory, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Qi Zhi Institute, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Xie",
+      "position": 10,
+      "orcid": "0000-0003-2093-1788",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "DAMO Academy, Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Hupan Lab, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feifei Li",
+      "position": 11,
+      "orcid": "0009-0003-0770-5775",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3622781-3674169"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3622781.3674169",
+    "official_page": "https://dl.acm.org/doi/10.1145/3622781.3674169",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674169",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3622781-3674169",
+      "url": "https://api.crossref.org/works/10.1145/3622781.3674169",
+      "kind": "crossref",
+      "title": "Salus: A Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c6711d900afcb5ce2e1cb3d1e8615c23fef6e17c17ce0b5a8853ab2ca626bd74",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674169",
+      "url": "https://www.semanticscholar.org/paper/63251bad255ce4c25be9afe37d9cdc23dea3f854",
+      "kind": "semantic-scholar",
+      "title": "Salus: A Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6ad01be2c868d1712f6f5182577d345185e10e3e7970b7004c8760f2bfeb9525",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The official ASPLOS 2025 program schedules this paper, while ACM/Crossref container metadata names the 29th conference, Volume 4, and deposits a conflicting 2024 print date; the 2025-04-10 publisher-record creation date is retained pending independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

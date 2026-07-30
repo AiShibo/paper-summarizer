@@ -1,0 +1,151 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-storm-a-multipath-quic-scheduler-for-quick-streaming-med-0d7eaf21",
+  "title": "STORM: a Multipath QUIC Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks",
+  "venue": "atc",
+  "year": 2025,
+  "track_or_session": "Network Performance & Protocols: From Space to VR",
+  "paper_type": "main-track",
+  "publication_date": "2025-07-07",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liekun Hu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "East China Normal University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Changlong Li",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "East China Normal University, Jianghuai Advance Technology Center, and MoE Engineering Research Center of Hardware/Software Co-Design Technology and Application",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-atc-2025-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/atc25/presentation/hu-liekun",
+    "official_pdf": "https://www.usenix.org/system/files/atc25-hu-liekun.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/sites/default/files/conference/protected-files/atc25_slides-hu_liekun.pdf",
+    "video": "https://www.youtube.com/embed/hBsZ8YGPj20",
+    "bibtex": "@inproceedings {308512,\nauthor = {Liekun Hu and Changlong Li},\ntitle = {{STORM}: a Multipath {QUIC} Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks},\nbooktitle = {2025 USENIX Annual Technical Conference (USENIX ATC 25)},\nyear = {2025},\nisbn = {978-1-939133-48-9},\naddress = {Boston, MA},\npages = {851--866},\nurl = {https://www.usenix.org/conference/atc25/presentation/hu-liekun},\npublisher = {USENIX Association},\nmonth = jul\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-hu-liekun",
+      "url": "https://www.usenix.org/conference/atc25/presentation/hu-liekun",
+      "kind": "paper-page",
+      "title": "STORM: a Multipath QUIC Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:2bd38b63d4dc5241d30c4ba9a6921c1815cdeb320936964cf85c567d82728480",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    },
+    {
+      "id": "src-atc-2025-proceedings",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-proceedings",
+      "title": "USENIX ATC '25 Proceedings",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-atc-2025-dblp",
+      "url": "https://dblp.org/db/conf/usenix/usenix2025.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for USENIX ATC '25",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:6b9b3db519ab6e5825983c02af17feb636d34658a3d20e8e59dab24b81e4386b",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "USENIX does not assign DOIs to these proceedings papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "authors[*].orcid (for authors without an ORCID in DBLP)"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-rteaal-sim-using-tensor-algebra-to-represent-and-acceler-914e774e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: RTeAAL Sim is an implemented and evaluated hardware language, type system, simulator, or precise-exception mechanism.",
+  "topics": [
+    "language-mechanisms",
+    "systems-programming-languages",
+    "processors",
+    "reliability-testing-and-debugging"
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware"
+  ],
+  "contribution_types": [
+    "language-or-api",
+    "new-system"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790214",
+      "url": "https://www.semanticscholar.org/paper/6fd0edcb1c4a236f035cc42f84fb6d56965c84f0",
+      "kind": "semantic-scholar",
+      "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:199d50468c099cce7804e564d6512b8fccbf967e18a52230232650592345b9fa",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

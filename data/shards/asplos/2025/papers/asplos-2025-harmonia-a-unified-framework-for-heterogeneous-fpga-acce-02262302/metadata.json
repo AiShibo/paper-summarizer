@@ -1,0 +1,350 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-harmonia-a-unified-framework-for-heterogeneous-fpga-acce-02262302",
+  "title": "Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 2D: FPGAs",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Luyang Li",
+      "position": 1,
+      "orcid": "0009-0004-3814-3776",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heng Pan",
+      "position": 2,
+      "orcid": "0000-0002-5506-5958",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinchen Wan",
+      "position": 3,
+      "orcid": "0000-0001-6503-5309",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology, Hong Kong SAR, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kai Lv",
+      "position": 4,
+      "orcid": "0009-0005-7675-5711",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zilong Wang",
+      "position": 5,
+      "orcid": "0000-0003-3184-4081",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology, Hong Kong SAR, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qian Zhao",
+      "position": 6,
+      "orcid": "0000-0003-0032-1974",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Ning",
+      "position": 7,
+      "orcid": "0009-0009-2602-3407",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingsong Ning",
+      "position": 8,
+      "orcid": "0009-0001-4951-3099",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shideng Zhang",
+      "position": 9,
+      "orcid": "0009-0007-7167-5768",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Douyin Co., Ltd., Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenyu Li",
+      "position": 10,
+      "orcid": "0000-0002-9959-1124",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Layong Luo",
+      "position": 11,
+      "orcid": "0009-0005-0371-1515",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Researcher, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gaogang Xie",
+      "position": 12,
+      "orcid": "0000-0003-4964-1135",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716259"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716259",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716259",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716259",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716259",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716259",
+      "kind": "crossref",
+      "title": "Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:64548f8f92a0f0d09ba81cf239d1c101506d3c7165cb7ce4b0a99565394fd019",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716259",
+      "url": "https://www.semanticscholar.org/paper/d26ad7d751036903ca27ec432f8ac9b1d33c7527",
+      "kind": "semantic-scholar",
+      "title": "Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:48081c2e6e37f3ae72f31b2c6b852ff3726156b5167185a4b782200d48e073b8",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

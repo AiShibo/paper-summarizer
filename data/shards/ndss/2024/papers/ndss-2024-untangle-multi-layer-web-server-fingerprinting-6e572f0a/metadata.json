@@ -1,0 +1,171 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-untangle-multi-layer-web-server-fingerprinting-6e572f0a",
+  "title": "Untangle: Multi-Layer Web Server Fingerprinting",
+  "venue": "ndss",
+  "year": 2024,
+  "track_or_session": "Fall submission cycle",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Cem Topcuoglu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7c85a098d0f24362-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaan Onarlioglu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Akamai Technologies",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7c85a098d0f24362-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bahruz Jabiyev",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7c85a098d0f24362-paper"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Engin Kirda",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7c85a098d0f24362-paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.14722/ndss.2024.24497",
+    "official_page": "https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/",
+    "official_pdf": "https://www.ndss-symposium.org/wp-content/uploads/2024-497-paper.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.ndss-symposium.org/wp-content/uploads/2024-497-slides.pdf",
+    "video": "https://youtu.be/aA0yjwYh17g?si=vf8dLQI2aC8RMRpb",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-8f4b52960db05dae-program",
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2024 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and official title"
+      ]
+    },
+    {
+      "id": "src-7c85a098d0f24362-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/",
+      "kind": "paper-page",
+      "title": "Untangle: Multi-Layer Web Server Fingerprinting",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "published-order authors and affiliations",
+        "abstract, PDF, slides, video, and submission cycle"
+      ]
+    },
+    {
+      "id": "src-a8037c21efef80e0-crossref",
+      "url": "https://api.crossref.org/works/10.14722/ndss.2024.24497",
+      "kind": "crossref",
+      "title": "Untangle: Multi-Layer Web Server Fingerprinting",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "DOI and main-proceedings membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "publication_date"
+    ]
+  }
+}

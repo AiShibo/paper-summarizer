@@ -1,0 +1,336 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-m-2-xfp-a-metadata-augmented-microscaling-data-format-fo-010158d3",
+  "title": "M 2 XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 9A: Systems Profiling & Optimization",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Weiming Hu",
+      "position": 1,
+      "orcid": "0009-0003-5115-0498",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China and Shanghai Qi Zhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihan Zhang",
+      "position": 2,
+      "orcid": "0009-0008-7683-2934",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoyan Zhang",
+      "position": 3,
+      "orcid": "0009-0009-8634-5395",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China and Shanghai Qi Zhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Zhang",
+      "position": 4,
+      "orcid": "0000-0003-2762-2726",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cong Guo",
+      "position": 5,
+      "orcid": "0000-0002-4479-5525",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Feng",
+      "position": 6,
+      "orcid": "0000-0002-2192-5737",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianchi Hu",
+      "position": 7,
+      "orcid": "0009-0004-2986-9858",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computing Product Line, Huawei, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guanglin Li",
+      "position": 8,
+      "orcid": "0009-0000-8996-3775",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computing Product Line, Huawei, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guipeng Hu",
+      "position": 9,
+      "orcid": "0009-0007-7721-0048",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computing Product Line, Huawei, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junsong Wang",
+      "position": 10,
+      "orcid": "0009-0006-5954-6958",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Computing Product Line, Huawei, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingwen Leng",
+      "position": 11,
+      "orcid": "0000-0002-5660-5493",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China and Shanghai Qi Zhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790185"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790185",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790185",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2601.19213",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790185",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790185",
+      "kind": "crossref",
+      "title": "M 2 XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:d47e684a08c5ddb78efbaaa21907a0aff6add014fbf6c150aade0962731b195d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790185",
+      "url": "https://www.semanticscholar.org/paper/d38f01d6c2fba9dfd4a4154594213cca04b3ff1e",
+      "kind": "semantic-scholar",
+      "title": "M2XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:e7c8decb907f91ad130efaec83dc763a6965cab3399838f234844972f2635ac8",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: M2XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization"
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-gscore-efficient-radiance-field-rendering-via-architectu-44e3ccc2",
+  "title": "GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 4A: Accelerators",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Junseo Lee",
+      "position": 1,
+      "orcid": "0009-0009-4953-1383",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651385"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Seokwon Lee",
+      "position": 2,
+      "orcid": "0009-0009-9028-1312",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651385"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jungi Lee",
+      "position": 3,
+      "orcid": "0009-0004-5629-6258",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651385"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junyong Park",
+      "position": 4,
+      "orcid": "0009-0003-4228-1138",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651385"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaewoong Sim",
+      "position": 5,
+      "orcid": "0000-0002-0403-9928",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651385"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651385",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651385",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/TByYGw837IU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651385",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651385",
+      "kind": "crossref",
+      "title": "GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:59f0164cd492d4a978f12d7d4260b8ba78601ce6cada2a4973a0cd8ce03d78ce",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651385",
+      "url": "https://www.semanticscholar.org/paper/f9a32f3e889273e381764a05eddb6bbf072f9e76",
+      "kind": "semantic-scholar",
+      "title": "GSCore: Efficient Radiance Field Rendering via Architectural Support for 3D Gaussian Splatting",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:674168b75e6fdced2dc73336db9f857eb8deca022a5c2a602c2280b591ddf189",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

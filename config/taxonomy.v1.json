@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.0.0",
+  "tracks": [
+    {
+      "id": "operating-systems-and-kernels",
+      "label": "Operating Systems and Kernels",
+      "subtopics": [
+        "linux",
+        "ebpf",
+        "kernel-extensibility",
+        "memory-management",
+        "concurrency",
+        "synchronization",
+        "scheduling",
+        "device-drivers",
+        "memory-safety",
+        "capability-systems",
+        "unikernels",
+        "kernel-verification"
+      ]
+    },
+    {
+      "id": "distributed-systems",
+      "label": "Distributed Systems",
+      "subtopics": [
+        "consensus",
+        "replication",
+        "fault-tolerance",
+        "distributed-transactions",
+        "consistency",
+        "geo-distribution",
+        "coordination",
+        "distributed-debugging",
+        "byzantine-systems"
+      ]
+    },
+    {
+      "id": "databases-and-data-processing",
+      "label": "Databases and Data Processing",
+      "subtopics": [
+        "transaction-processing",
+        "query-processing",
+        "stream-processing",
+        "data-analytics",
+        "database-engines"
+      ]
+    },
+    {
+      "id": "storage-and-file-systems",
+      "label": "Storage and File Systems",
+      "subtopics": [
+        "file-systems",
+        "key-value-stores",
+        "persistent-memory",
+        "ssd-and-flash",
+        "disaggregated-storage",
+        "caching",
+        "crash-consistency",
+        "deduplication",
+        "storage-reliability"
+      ]
+    },
+    {
+      "id": "networking",
+      "label": "Networking",
+      "subtopics": [
+        "transport-protocols",
+        "congestion-control",
+        "programmable-networks",
+        "datacenter-networking",
+        "wireless",
+        "network-measurement",
+        "middleboxes",
+        "rdma",
+        "network-verification"
+      ]
+    },
+    {
+      "id": "cloud-and-datacenter-systems",
+      "label": "Cloud and Datacenter Systems",
+      "subtopics": [
+        "cloud-computing",
+        "serverless-computing",
+        "datacenter-systems",
+        "service-management"
+      ]
+    },
+    {
+      "id": "virtualization-and-isolation",
+      "label": "Virtualization and Isolation",
+      "subtopics": [
+        "virtual-machines",
+        "containers",
+        "sandboxing",
+        "confidential-computing",
+        "trusted-execution-environments"
+      ]
+    },
+    {
+      "id": "computer-architecture",
+      "label": "Computer Architecture",
+      "subtopics": [
+        "processors",
+        "memory-hierarchy",
+        "accelerators",
+        "chiplets",
+        "heterogeneous-computing",
+        "persistent-memory",
+        "secure-architecture",
+        "hardware-software-co-design"
+      ]
+    },
+    {
+      "id": "compilers-languages-and-runtimes",
+      "label": "Compilers, Languages, and Runtimes",
+      "subtopics": [
+        "compilers",
+        "managed-runtimes",
+        "language-mechanisms",
+        "runtime-systems",
+        "systems-programming-languages"
+      ]
+    },
+    {
+      "id": "formal-methods-and-systems-verification",
+      "label": "Formal Methods and Systems Verification",
+      "subtopics": [
+        "formal-specification",
+        "model-checking",
+        "theorem-proving",
+        "verified-systems",
+        "network-verification"
+      ]
+    },
+    {
+      "id": "systems-security",
+      "label": "Systems Security",
+      "subtopics": [
+        "kernel-security",
+        "memory-safety",
+        "isolation",
+        "sandboxing",
+        "trusted-computing",
+        "confidential-computing",
+        "supply-chain-security",
+        "fuzzing",
+        "vulnerability-discovery",
+        "program-analysis",
+        "authentication-infrastructure"
+      ]
+    },
+    {
+      "id": "hardware-security",
+      "label": "Hardware Security",
+      "subtopics": [
+        "secure-architecture",
+        "side-channels",
+        "hardware-roots-of-trust",
+        "trusted-execution-environments"
+      ]
+    },
+    {
+      "id": "network-security",
+      "label": "Network Security",
+      "subtopics": [
+        "network-defense",
+        "ddos",
+        "secure-routing",
+        "traffic-analysis",
+        "network-measurement"
+      ]
+    },
+    {
+      "id": "reliability-testing-and-debugging",
+      "label": "Reliability, Testing, and Debugging",
+      "subtopics": [
+        "fault-injection",
+        "fuzzing",
+        "bug-finding",
+        "distributed-debugging",
+        "observability",
+        "performance-diagnosis"
+      ]
+    },
+    {
+      "id": "resource-management-and-scheduling",
+      "label": "Resource Management and Scheduling",
+      "subtopics": [
+        "scheduling",
+        "cluster-management",
+        "gpu-scheduling",
+        "resource-disaggregation",
+        "quality-of-service"
+      ]
+    },
+    {
+      "id": "ml-systems",
+      "label": "ML Systems",
+      "subtopics": [
+        "training-systems",
+        "inference-systems",
+        "distributed-ml",
+        "model-serving",
+        "gpu-scheduling",
+        "accelerator-systems",
+        "data-pipelines",
+        "llm-systems"
+      ]
+    },
+    {
+      "id": "mobile-edge-embedded-and-iot",
+      "label": "Mobile, Edge, Embedded, and IoT",
+      "subtopics": [
+        "mobile-systems",
+        "edge-computing",
+        "embedded-systems",
+        "internet-of-things",
+        "cyber-physical-systems"
+      ]
+    },
+    {
+      "id": "high-performance-computing",
+      "label": "High-Performance Computing",
+      "subtopics": [
+        "parallel-computing",
+        "scientific-computing",
+        "hpc-runtime",
+        "hpc-storage"
+      ]
+    },
+    {
+      "id": "privacy-systems",
+      "label": "Privacy Systems",
+      "subtopics": [
+        "privacy-infrastructure",
+        "private-computation",
+        "anonymous-communication",
+        "privacy-preserving-systems"
+      ]
+    },
+    {
+      "id": "energy-and-sustainable-computing",
+      "label": "Energy and Sustainable Computing",
+      "subtopics": [
+        "energy-efficiency",
+        "carbon-aware-computing",
+        "sustainable-datacenters",
+        "power-management"
+      ]
+    },
+    {
+      "id": "measurement-and-empirical-systems-studies",
+      "label": "Measurement and Empirical Systems Studies",
+      "subtopics": [
+        "internet-measurement",
+        "production-measurement",
+        "workload-characterization",
+        "longitudinal-study"
+      ]
+    }
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware",
+    "hypervisor",
+    "kernel",
+    "runtime",
+    "middleware",
+    "distributed-service",
+    "application-infrastructure",
+    "network",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "formal-model-or-proof",
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "benchmark",
+    "dataset",
+    "language-or-api",
+    "deployment-experience",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification",
+    "static-analysis",
+    "dynamic-analysis",
+    "fuzzing",
+    "simulation",
+    "trace-analysis",
+    "production-deployment",
+    "hardware-prototype",
+    "user-study"
+  ]
+}

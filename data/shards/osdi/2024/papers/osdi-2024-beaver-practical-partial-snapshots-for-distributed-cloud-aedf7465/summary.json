@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-beaver-practical-partial-snapshots-for-distributed-cloud-aedf7465",
+  "takeaway": "Beaver marks inbound cloud traffic at software load balancers and accepts a partial snapshot only when timing bounds exclude hidden external causality, avoiding traffic blocking.",
+  "background": "Distributed snapshots are causally consistent only when every process that can relay dependencies participates. Cloud services interact with clients and managed services that cannot always be instrumented.",
+  "villain": "A single external participant can carry a hidden happened-before edge back into the target service, making a snapshot of only that service inconsistent.",
+  "approach": "Beaver treats the target VIP's backends as the in-group and uses their existing layer-4 software load balancers as gateways that attach snapshot IDs to all inbound external packets; in-group messages propagate the IDs. Gateways initiate asynchronously, so Optimistic Gateway Marking accepts a snapshot only when a single stable clock bounds their initiation spread below a conservative minimum time for an external causal loop; otherwise it rejects the snapshot. Piggybacked IDs tolerate data-plane loss and reordering, while missing or delayed acknowledgments make the controller invalidate or withhold affected snapshots.",
+  "impact": "The authors argue this optimistic check makes causally consistent partial snapshots practical for cloud services with black-box external interactions while leaving user packets unblocked.",
+  "evaluation": {
+    "overview": "The prototype was stress-tested for snapshot rate, acceptance, and service-traffic impact, then exercised in anomaly detection, serverless garbage collection, integration testing, in-flight tracking, and deadlock detection.",
+    "implemented": "End-to-end DPDK software load balancers, XDP/eBPF backend hooks, a UDP controller using NIC hardware timestamps, and the partial-snapshot protocol.",
+    "setting": "A public-cloud-like testbed varied gateway/backend scale and external-client placement; iperf and Cassandra YCSB traffic measured datapath impact, with application-specific local state capture treated separately.",
+    "baselines": [
+      "wait-for-completion snapshot strawman",
+      "Lai–Yang global snapshot protocol",
+      "polling with synchronized clocks",
+      "service traffic without Beaver"
+    ],
+    "results": [
+      {
+        "id": "claim-beaver-snapshot-rate",
+        "text": "At the largest evaluated gateway/backend scale, Beaver sustained more than 77,000 snapshots per second, over 18× the wait-for-completion strawman's rate.",
+        "source_ids": [
+          "src-osdi24-pdf-aedf7465"
+        ],
+        "locator": "PDF p. 11 (paper p. 242); §7.1, Figure 10"
+      },
+      {
+        "id": "claim-beaver-external-effective-rate",
+        "text": "With external processes in another data center or on the Internet, the authors report a 100% effective snapshot rate across more than 10 million snapshot operations.",
+        "source_ids": [
+          "src-osdi24-pdf-aedf7465"
+        ],
+        "locator": "PDF p. 12 (paper p. 243); §7.2, Figure 13"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Correctness depends on all external inbound traffic crossing instrumented gateways, a trustworthy lower bound on external-loop latency, and a single clock with bounded frequency drift. Beaver may reject consistent snapshots, assumes cloud membership machinery handles server changes, and its protocol evaluation uses no-op local captures, leaving application-specific capture cost outside scope.",
+  "phd_group_signal": "This work signals a distributed-systems style combining causal proofs, topology-specific protocol design, kernel and dataplane implementation, conservative validation, and use-case-driven evaluation.",
+  "beginner_concepts": [
+    "distributed snapshots and consistent cuts",
+    "happened-before and causal consistency",
+    "software load balancers and virtual IPs",
+    "clock drift and timing bounds",
+    "optimistic validation"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-beaver-central-mechanism",
+      "text": "Beaver's gateways mark external inbound packets with snapshot IDs, and its controller accepts a partial snapshot only when a single-clock upper bound on gateway initiation spread is smaller than a lower bound on the fastest external causal loop.",
+      "source_ids": [
+        "src-osdi24-pdf-aedf7465"
+      ],
+      "locator": "PDF pp. 6–10 (paper pp. 237–241); §§3–5, Theorem 2, Figures 6–8"
+    },
+    {
+      "id": "claim-beaver-operating-assumptions",
+      "text": "The correctness argument relies on gateways observing all external inbound traffic to the target VIPs, a conservative lower bound on external-loop latency, and a single hardware clock with bounded frequency drift; uncertainty causes rejection rather than acceptance.",
+      "source_ids": [
+        "src-osdi24-pdf-aedf7465"
+      ],
+      "locator": "PDF pp. 4 and 7–10 (paper pp. 235 and 238–241); §§2.1, 4.1–4.2, and 5"
+    },
+    {
+      "id": "claim-beaver-failure-evaluation-boundary",
+      "text": "Missing software-load-balancer ACKs or in-group FINs cause invalidation or removal of affected states, membership changes rely on existing cloud management, and the protocol stress tests use no-op local state capture.",
+      "source_ids": [
+        "src-osdi24-pdf-aedf7465"
+      ],
+      "locator": "PDF pp. 10–11 (paper pp. 241–242); §5 and §7.1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi24-pdf-aedf7465",
+      "url": "https://www.usenix.org/system/files/osdi24-yu.pdf",
+      "kind": "paper-pdf",
+      "title": "Beaver: Practical Partial Snapshots for Distributed Cloud Services",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:28:12Z",
+      "content_hash": "sha256:5a43a23b98bcfb587305b00c33fa4f4779d139e095540971120b78335b77d693",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, design, protocol, implementation, evaluation, discussion, and conclusion",
+        "central mechanism, causal guarantee, trust and failure boundaries, workloads, baselines, and author-reported rates"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e6",
+    "updated_at": "2026-07-30T03:35:17Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–8, and §10; inspected Theorems 1–2, Tables 2–3, and Figures 6–20 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:35:17Z",
+    "last_verified_at": "2026-07-30T03:35:17Z",
+    "collector_version": "agent-e6-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

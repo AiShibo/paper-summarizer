@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-medfs-pursuing-low-update-overhead-via-metadata-enabled-f8b37899",
+  "takeaway": "MedFS stores small update deltas inside F2FS inode metadata and packs overflow only for write-hot, read-cold files, cutting mobile flash writes without a new hardware buffer.",
+  "background": "Mobile apps repeatedly make small changes to SQLite and temporary files. Delta compression can store only the XOR difference from an old page, extending flash life, but the base, delta, mappings, and recovery ordering create extra reads and writes on cost-sensitive phones.",
+  "villain": "Prior delta-compressed file systems rely on persistent memory or battery-backed DRAM. Keeping all deltas in ordinary data pages lowers cache hit rate and causes read amplification, while the inode's limited inline area can overflow and synchronously evict many deltas, creating long write tails.",
+  "approach": "MedFS's Delta Chunk Inlining stores sub-256-byte deltas and mappings in the already-dirty inode so they persist with metadata. Delta Chunk Maintenance packs overflow into Compact pages only for files classified write-hot/read-cold by online clustering; background restoration decompresses files that become read-hot. Ordered flushes reuse F2FS checkpoint recovery.",
+  "impact": "The hybrid design turns otherwise unused metadata space into a durable compression buffer and adapts overflow placement to file behavior. It targets update-intensive mobile workloads and prioritizes endurance and latency rather than capacity savings.",
+  "evaluation": {
+    "overview": "Replayed I/O from seven popular Android applications measures written volume, user-visible latency, read/write latency, cache hit rate, clustering, sensitivity, compression cost, energy, and metadata overhead.",
+    "implemented": "An F2FS prototype on Android 14/Linux 4.19 with inode delta inlining, Compact/meta pages, online K-means hotness clustering, background restoration, and ordered recovery.",
+    "setting": "A OnePlus 8T with Snapdragon 865, 8 GB DRAM, and 128 GB UFS 3.1; each 30-minute app trace is replayed five times with LZO and compared under identical operations.",
+    "baselines": [
+      "F2FS without compression",
+      "F2FS compression",
+      "FPC random-I/O compression",
+      "DCI-only",
+      "DCM-only"
+    ],
+    "results": [
+      {
+        "id": "claim-medfs-writes",
+        "text": "Across seven mobile traces, MedFS reduces written volume by 55.1% on average and up to 64.8% versus uncompressed F2FS; the paper estimates 122.7% idealized lifetime improvement from that average.",
+        "source_ids": [
+          "src-fast25-pdf-f8b37899"
+        ],
+        "locator": "PDF pp. 10–11; §6.2.1, Figure 7"
+      },
+      {
+        "id": "claim-medfs-latency",
+        "text": "MedFS improves tested user-perceived latency by 7.9% on average and read/write I/O latency by 25.3%/28.8%, but app-launch latency increases by 3.0% because reads incur decompression.",
+        "source_ids": [
+          "src-fast25-pdf-f8b37899"
+        ],
+        "locator": "PDF pp. 11–12; §§6.2.2–6.2.3, Figures 8–9"
+      },
+      {
+        "id": "claim-medfs-cost",
+        "text": "Delta compression averages 7.4 µs to compress and 8.3 µs to decompress versus 48.8/45.2 µs for conventional compression, while MedFS reduces measured application power by 9.2% versus uncompressed F2FS.",
+        "source_ids": [
+          "src-fast25-pdf-f8b37899"
+        ],
+        "locator": "PDF p. 14; §6.4"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay"
+    ]
+  },
+  "limitations": "The study uses one phone and write-heavy, replayed 30-minute traces rather than long-term field deployment or direct flash-wear measurement. The 122.7% lifetime gain is derived from write-volume reduction and an idealized amplification model. Benefits shrink for read-dominated startup, DCI-only eviction can stall writes for 42–475 ms, and thresholds/clustering may need device-specific tuning.",
+  "phd_group_signal": "The work starts from measured mobile update semantics, reuses an existing metadata layout, and evaluates endurance proxies alongside user latency, cache behavior, and energy. It exemplifies file-system design that balances compression ratio against recovery and foreground-read cost.",
+  "beginner_concepts": [
+    "delta compression",
+    "log-structured file system",
+    "inode",
+    "flash endurance",
+    "page cache",
+    "write amplification",
+    "background cleaning"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-medfs-dci",
+      "text": "DCI computes an XOR delta against the cached base page and stores one small delta plus its offset in the file inode, piggybacking persistence on the inode's ordinary write.",
+      "source_ids": [
+        "src-fast25-pdf-f8b37899"
+      ],
+      "locator": "PDF pp. 6–8; §§4.1–4.1.3, Figure 4"
+    },
+    {
+      "id": "claim-medfs-dcm",
+      "text": "DCM packs deltas into data pages only for write-hot/read-cold files and restores them uncompressed during idle time if the observed hotness changes.",
+      "source_ids": [
+        "src-fast25-pdf-f8b37899"
+      ],
+      "locator": "PDF pp. 8–10; §§4.2–5, Figures 5–6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-f8b37899",
+      "url": "https://www.usenix.org/system/files/fast25-wu.pdf",
+      "kind": "paper-pdf",
+      "title": "MedFS: Pursuing Low Update Overhead via Metadata-Enabled Delta Compression for Log-structured File System on Mobile Device",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f68e11e1bfcd8a977ea9847de201049c4529eb9d137b171c7c6c7b4730a15a5a",
+      "official": true,
+      "supports": [
+        "abstract, introduction, empirical study, design, implementation, evaluation, and conclusion",
+        "reported write volume, latency, cache, energy, and overhead results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:55:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §3 empirical study, §§4.1–4.2 design, §5 implementation/recovery, §§6.1–6.4 evaluation, and §8 Conclusion.",
+      "Endurance is inferred from write reduction; all measurements are author-reported and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:55:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

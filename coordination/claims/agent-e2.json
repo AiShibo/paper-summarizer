@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e2",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:26:55Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/atc/2025"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "atc-2025-fast-acs-low-latency-file-based-ordered-message-delivery-eabba56e",
+    "atc-2025-ddlumos-understanding-and-detecting-atomic-ddl-bugs-in-d-09437477",
+    "atc-2025-dshuffle-dpu-optimized-shuffle-framework-for-large-scale-93947705",
+    "atc-2025-dsa-2lm-a-cpu-free-tiered-memory-architecture-with-intel-e1266c71",
+    "atc-2025-fide-reliable-and-fast-crash-failure-detection-to-boost-8afb494f"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Verified canonical paper-ID SHA-256 baccff608a0afc0d2e0c8156f9d2e2301a3281298450cc41397fbe40325adb12 before editing.",
+    "Claim is limited to the five-paper USENIX ATC 2025 summary calibration batch.",
+    "Completed exactly the five assigned summary.json stages from the official USENIX PDFs; every summary is READY_FOR_REVIEW with all required reading coverage marked READ and verification.verified_by left null.",
+    "DDLumos contains an internal fixed-bug-count discrepancy: §1 says 20, while the abstract, Table 2, and §7.2 say 14; the uncertain count was omitted and recorded in summary verification.",
+    "Final draft validation passed for data/shards/atc/2025 (100 bundles, 601 JSON files) and data/shards (5989 bundles, 36072 JSON files), both with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, release validation for the fixture, and repository-wide draft validation.",
+    "Removed all temporary Agent E2 PDF and extracted-text files under data/tmp/agent-e2 after recording official-PDF hashes and completing the sentence-level audit."
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2026-handling-network-faults-in-distributed-ai-training-failo-81832adb",
+  "title": "Handling Network Faults in Distributed AI Training: Failover is Now an Option",
+  "venue": "eurosys",
+  "year": 2026,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2026-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xin Zhe Khooi",
+      "position": 1,
+      "orcid": "0009-0005-8048-8556",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuo Jiang",
+      "position": 2,
+      "orcid": "0000-0002-6144-7899",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pan Xie",
+      "position": 3,
+      "orcid": "0009-0008-7593-8956",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhigang Cui",
+      "position": 4,
+      "orcid": "0009-0004-7726-188X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Meng Wang",
+      "position": 5,
+      "orcid": "0000-0002-2829-1976",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuze Jin",
+      "position": 6,
+      "orcid": "0009-0001-2077-3786",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengfei Huo",
+      "position": 7,
+      "orcid": "0009-0000-9713-8134",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongyang Wang",
+      "position": 8,
+      "orcid": "0009-0005-6446-700X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lulu Chen",
+      "position": 9,
+      "orcid": "0000-0002-5108-8116",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Wang",
+      "position": 10,
+      "orcid": "0009-0002-3809-1879",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liaoyuan Feng",
+      "position": 11,
+      "orcid": "0009-0005-4599-0532",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaodong Liu",
+      "position": 12,
+      "orcid": "0009-0000-0296-5664",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Li",
+      "position": 13,
+      "orcid": "0009-0002-3355-2269",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qinlong Wang",
+      "position": 14,
+      "orcid": "0009-0007-5406-6354",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Bai",
+      "position": 15,
+      "orcid": "0009-0009-6416-0074",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongcan Wang",
+      "position": 16,
+      "orcid": "0009-0001-7215-9753",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Jin",
+      "position": 17,
+      "orcid": "0009-0004-0540-1089",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinshuai Sun",
+      "position": 18,
+      "orcid": "0009-0000-0600-7009",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shan Lu",
+      "position": 19,
+      "orcid": "0009-0002-8200-3717",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiang Shi",
+      "position": 20,
+      "orcid": "0000-0001-6179-4332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yingkai Zhao",
+      "position": 21,
+      "orcid": "0009-0008-4775-0438",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haiquan Chen",
+      "position": 22,
+      "orcid": "0009-0009-8336-8065",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Li",
+      "position": 23,
+      "orcid": "0009-0004-3069-9948",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianxi Ye",
+      "position": 24,
+      "orcid": "0009-0007-3395-3624",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mun Choon Chan",
+      "position": 25,
+      "orcid": "0000-0002-6563-275X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2026-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3767295.3769322",
+    "official_page": "https://dl.acm.org/doi/10.1145/3767295.3769322",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3767295.3769322",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2026-program",
+      "url": "https://2026.eurosys.org/papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:6ca604bb4ca627fc704c9f3cc3f0323946ce5a2c145bf453361ad61d4933fa8c",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3767295",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 21st European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2026.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2026",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:bd74c8afb3a1cbbf365cdca17145ed7698e3acd0b4664d63f88c10843024fbfa",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official conference list."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-publisher-metadata",
+      "url": "https://api.crossref.org/works/10.1145%2F3767295",
+      "kind": "crossref",
+      "title": "Publisher-deposited metadata for the EuroSys 2026 proceedings",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:e1570741a739d3e6bc8249956df27e219d644d9d67c75c0c11d1b052270f276c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited proceedings identity and print publication date."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "Publication-time affiliation strings preserve official conference wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The official final-paper list was reconciled one-to-one with all 138 DBLP proceedings records and DOI links.",
+      "The ACM PDF endpoint is derived from the verified official DOI; ACM returned an automated-access response during link auditing.",
+      "The official site did not publish a detailed paper-session program, so track_or_session remains null."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

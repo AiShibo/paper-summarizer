@@ -1,0 +1,68 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-m-step-a-single-stepping-framework-for-side-channel-anal-1cab4f88",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a virtualization and isolation attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation",
+    "confidential-computing",
+    "trusted-execution-environments",
+    "networking",
+    "network-security",
+    "computer-architecture",
+    "hardware-security",
+    "side-channels",
+    "mobile-edge-embedded-and-iot"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime",
+    "network",
+    "hardware",
+    "firmware",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-system",
+    "deployment-experience",
+    "security-attack"
+  ],
+  "methods": [
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-58a37e7f8852bca6-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/rodrigues",
+      "kind": "paper-page",
+      "title": "M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:37574caa7782559e7dea219fcd749e98d9391e0a8fe3aeb4f7cdf27286f7ba53",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

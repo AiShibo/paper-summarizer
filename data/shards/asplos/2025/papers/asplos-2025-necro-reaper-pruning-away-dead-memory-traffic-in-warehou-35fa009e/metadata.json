@@ -1,0 +1,182 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-necro-reaper-pruning-away-dead-memory-traffic-in-warehou-35fa009e",
+  "title": "Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 4A: Cloud Computing 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sotiris Apostolakis",
+      "position": 1,
+      "orcid": "0000-0003-4716-9332",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, New York, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chris Kennelly",
+      "position": 2,
+      "orcid": "0000-0002-9404-7875",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, New York, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinliang David Li",
+      "position": 3,
+      "orcid": "0000-0002-4223-2796",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sunnyvale, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Parthasarathy Ranganathan",
+      "position": 4,
+      "orcid": "0000-0002-9751-5902",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sunnyvale, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716007"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716007",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716007",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716007",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716007",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716007",
+      "kind": "crossref",
+      "title": "Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6e8da76badef339d5fc081a6dc5b7028da4192b75b88e3edfc72bc4c8dbd126d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716007",
+      "url": "https://www.semanticscholar.org/paper/5d44371af617d6b2f337a0b54619a87c71a02a08",
+      "kind": "semantic-scholar",
+      "title": "Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:cbb0a3d29119881a6e4b31946b7cec065a652c36547faa21e96e586bb2dd4f1a",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

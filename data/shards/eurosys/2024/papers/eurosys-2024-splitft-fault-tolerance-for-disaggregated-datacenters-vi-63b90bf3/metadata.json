@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2024-splitft-fault-tolerance-for-disaggregated-datacenters-vi-63b90bf3",
+  "title": "SplitFT: Fault Tolerance for Disaggregated Datacenters via Remote Memory Logging",
+  "venue": "eurosys",
+  "year": 2024,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2024-04-22",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xuhao Luo",
+      "position": 1,
+      "orcid": "0009-0002-9054-8389",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ramnatthan Alagappan",
+      "position": 2,
+      "orcid": "0000-0001-9911-4208",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign and VMware Research",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aishwarya Ganesan",
+      "position": 3,
+      "orcid": "0000-0002-5078-8436",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign and VMware Research",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3627703.3629561",
+    "official_page": "https://doi.org/10.1145/3627703.3629561",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3627703.3629561",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2024-program",
+      "url": "https://2024.eurosys.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2024 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:0ce581fa5ee47fdf90c4bfd7a323b25adbcd4d1f165a002808ec1d73dd75d0a9",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3627703",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Nineteenth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2024-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:10ae4c4e260b8f432cbcc1a7740a49b63dfb21edfa54bb220fa07084a41e78e4",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

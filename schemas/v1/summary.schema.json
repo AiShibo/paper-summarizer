@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "title": "Beginner-friendly paper summary stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "takeaway",
+    "background",
+    "villain",
+    "approach",
+    "impact",
+    "evaluation",
+    "limitations",
+    "phd_group_signal",
+    "beginner_concepts",
+    "reading_coverage",
+    "claims",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "takeaway": {
+      "type": ["string", "null"]
+    },
+    "background": {
+      "type": ["string", "null"]
+    },
+    "villain": {
+      "type": ["string", "null"]
+    },
+    "approach": {
+      "type": ["string", "null"]
+    },
+    "impact": {
+      "type": ["string", "null"]
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "implemented",
+        "setting",
+        "baselines",
+        "results",
+        "study_types"
+      ],
+      "properties": {
+        "overview": {
+          "type": ["string", "null"]
+        },
+        "implemented": {
+          "type": ["string", "null"]
+        },
+        "setting": {
+          "type": ["string", "null"]
+        },
+        "baselines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "results": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "$ref": "common.schema.json#/$defs/claim"
+          }
+        },
+        "study_types": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "simulation",
+              "prototype",
+              "production-deployment",
+              "trace-replay",
+              "formal-proof",
+              "user-study",
+              "measurement-study",
+              "hardware-prototype",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "limitations": {
+      "type": ["string", "null"]
+    },
+    "phd_group_signal": {
+      "type": ["string", "null"]
+    },
+    "beginner_concepts": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "reading_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "abstract",
+        "introduction",
+        "conclusion",
+        "system_overview_or_design",
+        "evaluation_overview"
+      ],
+      "properties": {
+        "abstract": {
+          "enum": ["NOT_READ", "READ", "NOT_AVAILABLE"]
+        },
+        "introduction": {
+          "enum": ["NOT_READ", "READ", "NOT_AVAILABLE"]
+        },
+        "conclusion": {
+          "enum": ["NOT_READ", "READ", "NOT_AVAILABLE"]
+        },
+        "system_overview_or_design": {
+          "enum": ["NOT_READ", "READ", "NOT_AVAILABLE"]
+        },
+        "evaluation_overview": {
+          "enum": ["NOT_READ", "READ", "NOT_AVAILABLE"]
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/claim"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

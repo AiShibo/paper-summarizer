@@ -1,0 +1,75 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-helix-serving-large-language-models-over-heterogeneous-g-bdf17c0e",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because Helix contributes a concrete LLM training or serving system mechanism for serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow.",
+  "topics": [
+    "ml-systems",
+    "llm-systems",
+    "distributed-ml",
+    "inference-systems",
+    "model-serving",
+    "networking",
+    "distributed-systems"
+  ],
+  "system_layers": [
+    "runtime",
+    "application-infrastructure",
+    "distributed-service",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707215",
+      "url": "https://www.semanticscholar.org/paper/6a111d13b9c272459fb3d7628a7b0307c8ebd0f7",
+      "kind": "semantic-scholar",
+      "title": "Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:846e648dbb38965e087a864037ce87d58ebd7b2078996b4c0bff388826bc8bb3",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required.",
+      "The abstract identifies a concrete architecture, compiler, runtime, scheduling, serving, training, or hardware/software co-design mechanism; the paper was not included merely for applying machine learning."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

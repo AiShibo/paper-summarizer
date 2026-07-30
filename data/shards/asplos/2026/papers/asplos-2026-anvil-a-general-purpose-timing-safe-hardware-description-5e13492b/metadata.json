@@ -1,0 +1,219 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-anvil-a-general-purpose-timing-safe-hardware-description-5e13492b",
+  "title": "Anvil: A General-Purpose Timing-Safe Hardware Description Language",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 6B: Hardware Design Languages",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 27,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jason Zhijingcheng Yu",
+      "position": 1,
+      "orcid": "0000-0001-6013-157X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790125"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aditya Ranjan Jha",
+      "position": 2,
+      "orcid": "0009-0005-3553-0903",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790125"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Umang Mathur",
+      "position": 3,
+      "orcid": "0000-0002-7610-0660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790125"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Trevor E. Carlson",
+      "position": 4,
+      "orcid": "0000-0001-8742-134X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790125"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prateek Saxena",
+      "position": 5,
+      "orcid": "0000-0002-1875-8675",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790125"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790125",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790125",
+    "official_pdf": null,
+    "artifact": "https://zenodo.org/records/18346123",
+    "code": "https://github.com/kisp-nus/anvil",
+    "project": "https://docs.anvil.kisp-lab.org/",
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2503.19447",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790125",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790125",
+      "kind": "crossref",
+      "title": "Anvil: A General-Purpose Timing-Safe Hardware Description Language",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:ffb7e7943d73741a0cd90bc7bb3055e78be3530846af67a43962580ab23805fc",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-arxiv-2503-19447",
+      "url": "https://export.arxiv.org/api/query?id_list=2503.19447",
+      "kind": "other",
+      "title": "Anvil: A General-Purpose Timing-Safe Hardware Description Language",
+      "publisher": "arXiv",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:fd3ad247f3c9de45f8850b7a81b632a08a3ef144ae43e9e65fc2b95293314c06",
+      "official": false,
+      "supports": [
+        "Author-posted abstract and alternate-version identifier used for relevance classification."
+      ]
+    },
+    {
+      "id": "src-zenodo-18346123",
+      "url": "https://zenodo.org/records/18346123",
+      "kind": "artifact-page",
+      "title": "Artefacts of ASPLOS '26 \"Anvil: A General-Purpose Timing-Safe Hardware Description Language\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:0a8415e8d14642bb77f102afa3aa31ee49e2f26901c0b35acd8864976f1924cb",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "A confident author-deposited Zenodo artifact match is recorded."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

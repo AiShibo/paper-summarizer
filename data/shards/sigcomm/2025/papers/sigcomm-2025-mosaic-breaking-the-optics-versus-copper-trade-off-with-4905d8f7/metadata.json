@@ -1,0 +1,456 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-mosaic-breaking-the-optics-versus-copper-trade-off-with-4905d8f7",
+  "title": "Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "Hardware",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Kaoutar Benyahya",
+      "position": 1,
+      "orcid": "0000-0002-1523-8674",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ariel Gomez Diaz",
+      "position": 2,
+      "orcid": "0000-0002-1292-1507",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junyi Liu",
+      "position": 3,
+      "orcid": "0000-0002-4277-1802",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vassily Lyutsarev",
+      "position": 4,
+      "orcid": "0000-0003-1660-1129",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marianna Pantouvaki",
+      "position": 5,
+      "orcid": "0000-0003-4222-3678",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kai Shi",
+      "position": 6,
+      "orcid": "0000-0002-3788-6269",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shawn Yohanes Siew",
+      "position": 7,
+      "orcid": "0000-0001-5891-6212",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hitesh Ballani",
+      "position": 8,
+      "orcid": "0000-0003-1573-3314",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Burridge",
+      "position": 9,
+      "orcid": "0009-0008-8591-2864",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Cletheroe",
+      "position": 10,
+      "orcid": "0009-0003-6444-9149",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Karagiannis",
+      "position": 11,
+      "orcid": "0009-0008-4236-4503",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brian Robertson",
+      "position": 12,
+      "orcid": "0009-0007-5019-1019",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ant Rowstron",
+      "position": 13,
+      "orcid": "0009-0009-5936-6895",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengyang Yang",
+      "position": 14,
+      "orcid": "0009-0002-9236-4938",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Arash Behziz",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jamie Gaudette",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Paolo Costa",
+      "position": 17,
+      "orcid": "0000-0003-1939-5690",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750510",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750510",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750510",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/nMJuK_3_0Hw",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-mosaic-breaking-the-optics-versus-copper-trade-off-with-4905d8f7-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750510",
+      "kind": "publisher-page",
+      "title": "Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-mosaic-breaking-the-optics-versus-copper-trade-off-with-4905d8f7-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750510",
+      "kind": "crossref",
+      "title": "Crossref metadata for Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4e62e4ac2a328789120b15e6d27adef361a82dc902ca2a35366f2cafa8cbf6c4",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy.",
+      "The official SIGCOMM program includes Arash Behziz and Jamie Gaudette; the Crossref deposit omits them, so the higher-priority program controls authorship."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)"
+    ]
+  }
+}

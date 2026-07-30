@@ -1,0 +1,82 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2023-integrated-host-ssd-mapping-table-management-for-improvi-a17232e8",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete storage measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "ssd-and-flash",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "mobile-edge-embedded-and-iot",
+    "mobile-systems",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "hardware",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast23-program",
+      "url": "https://www.usenix.org/conference/fast23/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:76e7618a49d49865f53fc1600f8f46b5e849ba922ef0494b69cc0c301d8094ec",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-fast-2023-integrated-host-ssd-mapping-table-management-for-improvi-a17232e8-paper-page",
+      "url": "https://www.usenix.org/conference/fast23/presentation/kim-yoona",
+      "kind": "paper-page",
+      "title": "Integrated Host-SSD Mapping Table Management for Improving User Experience of Smartphones",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:c4deaa842e086b2f0e7ba6be494fbc7dce0fc10cec4e6f65d041f9814b38d93c",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

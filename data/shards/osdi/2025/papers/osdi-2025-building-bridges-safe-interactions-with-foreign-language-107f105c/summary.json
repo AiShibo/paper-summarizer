@@ -1,0 +1,109 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-building-bridges-safe-interactions-with-foreign-language-107f105c",
+  "takeaway": "Omniglot combines memory isolation, runtime validation, and Rust typestate scopes so safe Rust can call unmodified foreign libraries without copying shared data.",
+  "background": "An unsafe foreign-function interface can invalidate the guarantees of a memory- and type-safe host language. Memory sandboxing alone does not enforce type validity, aliasing, lifetimes, or safe concurrent access.",
+  "villain": "Foreign code can corrupt host memory or return pointers and bit patterns that violate Rust invariants, while copying and serialization impose costs that discourage stronger isolation.",
+  "approach": "A platform runtime confines each foreign library's memory and execution, while Rust accesses only allocations created for that library. Raw foreign pointers become writable OGMutRef values only after allocation checks and readable OGVal values only after representation validation. Branded allocation and access scopes use Rust's borrow checker to prevent references from surviving writes, revocation, or foreign invocation that could invalidate them.",
+  "impact": "The authors argue that Omniglot preserves host-side Rust soundness for practical foreign-library integration while retaining zero-copy access to sandbox-owned data.",
+  "evaluation": {
+    "overview": "Case studies test interface generality and overhead across embedded-kernel and Linux-user-space runtimes, followed by operation-level microbenchmarks.",
+    "implemented": "A Rust framework, generated bindings and invoke trampoline, a strong RISC-V PMP runtime for Tock, and a weak x86 MPK runtime for Linux user space.",
+    "setting": "Kernel tests use Tock on a ChipWhisperer CW310 with an OpenTitan RISC-V core; Linux tests use a single pinned core on a CloudLab c220g5 node. Libraries include CryptoLib, LittleFS, LwIP, Brotli, libsodium, and libpng.",
+    "baselines": [
+      "native unsafe Rust FFI",
+      "memory isolation without Omniglot runtime checks",
+      "Sandcrust",
+      "conventional Tock upcall"
+    ],
+    "results": [
+      {
+        "id": "claim-omniglot-cryptolib-overhead",
+        "text": "For Tock CryptoLib HMAC-SHA256 over 4 kB in 512 B batches, the authors report that PMP isolation adds 0.44% over unsafe FFI and Omniglot's upgrade and validation checks add no measurable overhead beyond isolation.",
+        "source_ids": [
+          "src-osdi25-pdf-107f105c"
+        ],
+        "locator": "PDF p. 13 (paper p. 606); §6.1, Table 2"
+      },
+      {
+        "id": "claim-omniglot-libpng-overhead",
+        "text": "For the 23 kB libpng decode reported in Table 2, MPK isolation-only takes 397.93 µs and full Omniglot takes 401.25 µs, an additional 0.8%; the size sweep attributes Omniglot's advantage over Sandcrust to zero-copy access.",
+        "source_ids": [
+          "src-osdi25-pdf-107f105c"
+        ],
+        "locator": "PDF pp. 13–14 (paper pp. 606–607); §§6.1–6.2, Table 2 and Figure 5"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Strong host-soundness guarantees assume correct Omniglot, binding generation, compiler, non-bypassable memory isolation, and control of foreign concurrency; host unsafe code remains trusted. The Linux MPK runtime is explicitly weak against malicious libraries, and Omniglot does not guarantee application correctness or address side channels.",
+  "phd_group_signal": "This work reflects a language-and-systems methodology that derives a threat model from language invariants, encodes temporal rules in types, and validates the design across kernel and user-space isolation mechanisms.",
+  "beginner_concepts": [
+    "foreign-function interface",
+    "memory isolation",
+    "typestate",
+    "Rust borrow checker and lifetimes",
+    "time-of-check to time-of-use"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-omniglot-central-mechanism",
+      "text": "Omniglot combines sandbox-owned memory, staged pointer validation into OGMutRef and OGVal types, and compile-time allocation/access scopes that invalidate references across writes, allocation revocation, callbacks, and foreign execution.",
+      "source_ids": [
+        "src-osdi25-pdf-107f105c"
+      ],
+      "locator": "PDF pp. 5–9 (paper pp. 598–602); §§3–4.4, Figures 2–3 and Table 1"
+    },
+    {
+      "id": "claim-omniglot-trust-boundary",
+      "text": "Soundness against adversarial libraries requires strong memory isolation and foreign-concurrency restrictions plus trusted Omniglot and compiler components; the Linux MPK runtime does not enforce these assumptions against actively malicious libraries.",
+      "source_ids": [
+        "src-osdi25-pdf-107f105c"
+      ],
+      "locator": "PDF p. 7 and p. 11 (paper pp. 600 and 604); §4.1 and §5.2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi25-pdf-107f105c",
+      "url": "https://www.usenix.org/system/files/osdi25-schuermann.pdf",
+      "kind": "paper-pdf",
+      "title": "Building Bridges: Safe Interactions with Foreign Languages through Omniglot",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:29:51Z",
+      "content_hash": "sha256:59edcd0a84a331d16caf50199143ab34f832191cdf856ffc2f0f65e8b83b633d",
+      "official": true,
+      "supports": [
+        "abstract, introduction, approach, threat model, design, implementation, evaluation, discussion, and conclusion",
+        "central mechanism, trust boundary, runtime distinction, baselines, and author-reported overheads"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e1",
+    "updated_at": "2026-07-30T03:29:51Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.4, §§3–4.5, §§5.1–5.3, §§6.1–6.3, §8, and §9; inspected Tables 1–3 and Figures 2–5 where needed.",
+      "The summary distinguishes the strong Tock PMP runtime from the weak Linux MPK runtime and does not broaden host soundness into application correctness."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:29:51Z",
+    "last_verified_at": "2026-07-30T03:29:51Z",
+    "collector_version": "agent-e1-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

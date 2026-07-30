@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e7-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e7",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "cf48d51af79ba5433484bd4aeeb4a594851f124192856a454c913fc761fb5173"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "asplos-2024-flame-a-centralized-cache-controller-for-serverless-comp-8dcb4378",
+      "title": "Flame: A Centralized Cache Controller for Serverless Computing",
+      "venue": "asplos",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624769"
+    },
+    {
+      "paper_id": "asplos-2024-maxk-gnn-extremely-fast-gpu-kernel-design-for-accelerati-4a21b743",
+      "title": "MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training",
+      "venue": "asplos",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640426"
+    },
+    {
+      "paper_id": "asplos-2024-marple-scalable-spike-sorting-for-untethered-brain-machi-53cc69f5",
+      "title": "Marple: Scalable Spike Sorting for Untethered Brain-Machine Interfacing",
+      "venue": "asplos",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640357"
+    },
+    {
+      "paper_id": "asplos-2024-cornucopia-reloaded-load-barriers-for-cheri-heap-tempora-1daf4497",
+      "title": "Cornucopia Reloaded: Load Barriers for CHERI Heap Temporal Safety",
+      "venue": "asplos",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640416"
+    },
+    {
+      "paper_id": "asplos-2024-freepart-hardening-data-processing-software-via-framewor-7abc91e8",
+      "title": "FreePart: Hardening Data Processing Software via Framework-based Partitioning and Isolation",
+      "venue": "asplos",
+      "year": 2024,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624760"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/institution.schema.json",
+  "schema_version": "1.0.0",
+  "institution_id": "institution-ustc-suzhou-institute",
+  "normalized_name": "Suzhou Institute for Advanced Research, University of Science and Technology of China",
+  "aliases": [
+    "USTC Suzhou Institute",
+    "Suzhou Institute for Advanced Research, USTC"
+  ],
+  "institution_type": "university",
+  "official_url": "https://sz.ustc.edu.cn/",
+  "location": {
+    "city": "Suzhou",
+    "state_or_province": "Jiangsu",
+    "country": "China",
+    "continent": "Asia",
+    "region": null
+  },
+  "sources": [
+    {
+      "id": "src-ustc-suzhou-institute-official",
+      "url": "https://sz.ustc.edu.cn/",
+      "kind": "institution-page",
+      "title": "Official website for Suzhou Institute for Advanced Research, University of Science and Technology of China",
+      "publisher": "Suzhou Institute for Advanced Research, University of Science and Technology of China",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "normalized institution identity",
+        "official institutional location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Normalized from an official institutional source; publication-time affiliations remain in metadata.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "location.region"
+    ]
+  }
+}

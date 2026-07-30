@@ -1,0 +1,77 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-tnic-a-trusted-nic-architecture-a-hardware-network-subst-80439457",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit because TNIC contributes a concrete network fabric, SmartNIC, or on-NIC execution mechanism for a Trusted NIC Architecture: A hardware-network substrate for building high-performance trustworthy distributed systems.",
+  "topics": [
+    "networking",
+    "datacenter-networking",
+    "programmable-networks",
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "distributed-systems",
+    "formal-methods-and-systems-verification",
+    "verified-systems"
+  ],
+  "system_layers": [
+    "network",
+    "hardware",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716277",
+      "url": "https://www.semanticscholar.org/paper/2fa24d8b3e7fbb17e01e5315e35a5dd41e95cfdf",
+      "kind": "semantic-scholar",
+      "title": "TNIC: A Trusted NIC Architecture: A hardware-network substrate for building high-performance trustworthy distributed systems",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:0ffdf6d96eac789d518873aa93414616f00659362bf28967e0d3a22c3a9521ea",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

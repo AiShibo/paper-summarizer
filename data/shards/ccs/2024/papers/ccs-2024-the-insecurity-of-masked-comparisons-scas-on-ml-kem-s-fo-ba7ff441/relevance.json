@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-the-insecurity-of-masked-comparisons-scas-on-ml-kem-s-fo-ba7ff441",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper demonstrates practical side-channel attacks against masked ML-KEM implementations on multiple physical embedded devices.",
+  "topics": [
+    "systems-security",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-19f54c74c3a67cad-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690339",
+      "kind": "publisher-page",
+      "title": "The Insecurity of Masked Comparisons: SCAs on ML-KEM's FO-Transform",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-9b7729b0305e51ef-abstract",
+      "url": "https://www.semanticscholar.org/paper/6a7bc8b0601fbeceef92aa79c429f6d981e93fae",
+      "kind": "semantic-scholar",
+      "title": "The Insecurity of Masked Comparisons: SCAs on ML-KEM's FO-Transform",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

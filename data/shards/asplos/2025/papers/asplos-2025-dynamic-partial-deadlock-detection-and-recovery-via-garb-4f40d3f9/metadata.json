@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-dynamic-partial-deadlock-detection-and-recovery-via-garb-4f40d3f9",
+  "title": "Dynamic Partial Deadlock Detection and Recovery via Garbage Collection",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6D: Testing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Georgian-Vlad Saioc",
+      "position": 1,
+      "orcid": "0009-0000-1714-3866",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Aarhus University, Aarhus, Denmark and Programming Systems Group, Uber Technologies, Inc., Aarhus, Denmark",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715990"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "I-Ting Angelina Lee",
+      "position": 2,
+      "orcid": "0000-0002-0687-5508",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Washington University in St. Louis, St. Louis, Missouri, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715990"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anders Møller",
+      "position": 3,
+      "orcid": "0000-0003-1333-2314",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Aarhus University, Aarhus, Denmark",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715990"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Milind Chabbi",
+      "position": 4,
+      "orcid": "0000-0003-1021-7644",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Programming Systems Group, Uber Technologies, Inc., Sunnyvale, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715990"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3715990",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3715990",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3715990",
+    "artifact": "https://doi.org/10.5281/zenodo.14849367",
+    "code": "https://github.com/VladSaioc/asplos-artifact-2025",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3715990",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3715990",
+      "kind": "crossref",
+      "title": "Dynamic Partial Deadlock Detection and Recovery via Garbage Collection",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:23549ccbee1ae324e8a6f67e2446bc78632aa34a804fed3a811b08aa11dd46ff",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715990",
+      "url": "https://www.semanticscholar.org/paper/2d99e87b983a31c7c686b521df11fdd9b52d13a7",
+      "kind": "semantic-scholar",
+      "title": "Dynamic Partial Deadlock Detection and Recovery via Garbage Collection",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a56bdaea60299c371bb3a5a9e1791282a005ca17040732cdd8f12bf62c83c2c3",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14849367",
+      "url": "https://zenodo.org/records/14849367",
+      "kind": "artifact-page",
+      "title": "Artifact for \"Dynamic Partial Deadlock Detection and Recovery via Garbage Collection\"",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:25dafa1931f0fce0fcfc3e91f86e21d1d223159700107758a9050a140659cf67",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

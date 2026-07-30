@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/institution.schema.json",
+  "schema_version": "1.0.0",
+  "institution_id": "institution-imperial-college-london",
+  "normalized_name": "Imperial College London",
+  "aliases": [
+    "Imperial"
+  ],
+  "institution_type": "university",
+  "official_url": "https://www.imperial.ac.uk/",
+  "location": {
+    "city": "London",
+    "state_or_province": "England",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "region": null
+  },
+  "sources": [
+    {
+      "id": "src-imperial-college-london-official",
+      "url": "https://www.imperial.ac.uk/",
+      "kind": "institution-page",
+      "title": "Official website for Imperial College London",
+      "publisher": "Imperial College London",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "normalized institution identity",
+        "official institutional location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Normalized from an official institutional source; publication-time affiliations remain in metadata.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "location.region"
+    ]
+  }
+}

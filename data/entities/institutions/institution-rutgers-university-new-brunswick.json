@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/institution.schema.json",
+  "schema_version": "1.0.0",
+  "institution_id": "institution-rutgers-university-new-brunswick",
+  "normalized_name": "Rutgers University–New Brunswick",
+  "aliases": [
+    "Rutgers University-New Brunswick",
+    "Rutgers"
+  ],
+  "institution_type": "university",
+  "official_url": "https://www.rutgers.edu/",
+  "location": {
+    "city": "Piscataway",
+    "state_or_province": "New Jersey",
+    "country": "United States",
+    "continent": "North America",
+    "region": null
+  },
+  "sources": [
+    {
+      "id": "src-rutgers-university-new-brunswick-official",
+      "url": "https://www.rutgers.edu/",
+      "kind": "institution-page",
+      "title": "Official website for Rutgers University–New Brunswick",
+      "publisher": "Rutgers University–New Brunswick",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "normalized institution identity",
+        "official institutional location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Normalized from an official institutional source; publication-time affiliations remain in metadata.json."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "location.region"
+    ]
+  }
+}

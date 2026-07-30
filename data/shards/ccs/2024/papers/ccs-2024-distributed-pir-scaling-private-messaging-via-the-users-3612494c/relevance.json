@@ -1,0 +1,66 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-distributed-pir-scaling-private-messaging-via-the-users-3612494c",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper introduces and prototypes a client-assisted private-messaging architecture that distributes PIR work to improve scalability.",
+  "topics": [
+    "distributed-systems",
+    "privacy-systems",
+    "systems-security"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-bc5229040fe9f15b-publisher",
+      "url": "https://doi.org/10.1145/3658644.3670350",
+      "kind": "publisher-page",
+      "title": "Distributed PIR: Scaling Private Messaging via the Users' Machines",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-5d8d10c8b1075197-abstract",
+      "url": "https://openalex.org/W4405184286",
+      "kind": "openalex",
+      "title": "Distributed PIR: Scaling Private Messaging via the Users' Machines",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

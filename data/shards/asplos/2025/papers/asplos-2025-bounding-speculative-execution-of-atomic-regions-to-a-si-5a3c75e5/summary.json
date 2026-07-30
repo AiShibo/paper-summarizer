@@ -1,0 +1,109 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-bounding-speculative-execution-of-atomic-regions-to-a-si-5a3c75e5",
+  "takeaway": "cleAR learns a failed atomic region’s cache-line footprint, then locks suitable footprints on retry so many transactions avoid repeated speculation and coarse-grained fallback.",
+  "background": "Hardware transactional memory and speculative lock elision run atomic regions concurrently, detect conflicts, and roll back failed work. Implementations eventually serialize repeatedly failing regions with a fallback lock.",
+  "villain": "Contention can cause repeated aborts and expensive coarse-grained fallback, yet software usually does not know the region’s complete address footprint early enough to lock only the needed cache lines.",
+  "approach": "During an initial speculative execution, cleAR tracks accessed cache lines and propagates dependency bits to judge whether the footprint can change; after a conflict, discovery continues to the region’s end when hardware resources permit. A small immutable, lockable footprint retries non-speculatively after locking all lines in a deadlock-free order, while a possibly mutable footprint locks selected lines but retains speculative rollback. Larger or unconvertible regions use the ordinary speculative retry or fallback path, with no source-program changes.",
+  "impact": "The authors argue that dynamically combining speculation with fine-grained cache-line locking can preserve low-contention concurrency while bounding retries for the eligible subset of atomic regions.",
+  "evaluation": {
+    "overview": "The authors use full-system gem5 to measure execution time, aborts, commit modes, fallback frequency, and McPAT-modeled energy on data-structure programs, two standalone applications, and the STAMP suite.",
+    "implemented": "A simulated TSX-like HTM core extended with register dependency bits, per-region discovery state, a 32-entry Address to Lock Table, a Conflicting Reads Table, cache-line locking and coherence changes, totaling less than 1 KiB per core.",
+    "setting": "The model is a 32-core Ice-Lake-like out-of-order x86 system running Ubuntu 18.04 and Linux 5.4.49; applications use 32 threads. Each configuration runs ten seeds, discards three outliers for a trimmed mean, and selects the best-performing retry limit for each application from one through ten.",
+    "baselines": [
+      "requester-wins TSX-like HTM",
+      "PowerTM",
+      "cleAR over requester-wins",
+      "cleAR over PowerTM"
+    ],
+    "results": [
+      {
+        "id": "claim-clear-execution-time",
+          "text": "Across the simulated benchmark set, the authors report that cleAR over PowerTM reduced average execution time by 35.0% versus requester-wins HTM and by 23.3% versus PowerTM.",
+        "source_ids": [
+          "src-asplos25-pdf-5a3c75e5"
+        ],
+          "locator": "Abstract; §1; §7, Figure 8"
+      },
+      {
+        "id": "claim-clear-single-retry",
+        "text": "The baseline completed 35.4% of retried regions on the first retry and sent 37.2% to fallback; cleAR over PowerTM changed those shares to 64.4% and 15.4%, respectively.",
+        "source_ids": [
+          "src-asplos25-pdf-5a3c75e5"
+        ],
+        "locator": "§7, “Bounding ARs to a Single Retry,” Figure 13"
+      }
+    ],
+    "study_types": [
+      "simulation"
+    ]
+  },
+  "limitations": "The single-retry guarantee applies only when discovery finishes and the learned footprint is small, simultaneously lockable, and immutable; mutable or large regions can still retry or fall back, and many STAMP regions exceed the modeled discovery resources. All results are simulation-based and use a per-application retry limit selected by design-space exploration.",
+  "phd_group_signal": "The work reflects a concurrency-architecture style that derives correctness conditions first, adds explicit microarchitectural state and coherence behavior, and then studies both common-case speed and fallback behavior in full-system simulation.",
+  "beginner_concepts": [
+    "atomic regions and critical sections",
+    "hardware transactional memory",
+    "speculative rollback",
+    "cache-line locking",
+    "deadlock-free lock ordering"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-clear-central-mechanism",
+      "text": "cleAR extends speculative execution with a discovery phase that learns cache-line addresses and footprint mutability, then chooses non-speculative cache-line locking, speculative cache-line locking, an ordinary retry, or fallback according to the learned conditions.",
+      "source_ids": [
+        "src-asplos25-pdf-5a3c75e5"
+      ],
+      "locator": "§§4.1–4.4, Figures 2–4"
+    },
+    {
+      "id": "claim-clear-guarantee-boundary",
+      "text": "Completion on a single retry is guaranteed only for regions whose complete footprint fits discovery resources, remains immutable, and can be locked simultaneously in the prescribed order; the speculative locking mode does not provide that unconditional guarantee.",
+      "source_ids": [
+        "src-asplos25-pdf-5a3c75e5"
+      ],
+      "locator": "§§4.1–4.4 and 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos25-pdf-5a3c75e5",
+      "url": "https://uu.diva-portal.org/smash/get/diva2%3A1945952/FULLTEXT02.pdf",
+      "kind": "paper-pdf",
+      "title": "Bounding Speculative Execution of Atomic Regions to a Single Retry",
+      "publisher": "Association for Computing Machinery (Uppsala University DiVA copy)",
+      "retrieved_at": "2026-07-30T03:36:28Z",
+      "content_hash": "sha256:11bf9fe451c6a2776eb68640da971bcdd2ef0ee7d805204671ff8fc0ad67d92c",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, atomic-region analysis, cleAR design, implementation, methodology, results, and conclusion",
+        "single-retry conditions, simulated hardware state, workloads, baseline selection, performance results, and limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e3",
+    "updated_at": "2026-07-30T03:45:38Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–3; §§4.1–4.4; §§5–5.2; §6; §7 including Figures 8–13; and §9.",
+      "The summary limits the single-retry guarantee to immutable, fully discovered, simultaneously lockable footprints and treats all performance and energy evidence as simulation."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:36:28Z",
+    "last_verified_at": "2026-07-30T03:45:38Z",
+    "collector_version": "agent-e3-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

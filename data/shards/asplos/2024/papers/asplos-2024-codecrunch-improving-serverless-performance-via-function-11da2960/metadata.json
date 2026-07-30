@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-codecrunch-improving-serverless-performance-via-function-11da2960",
+  "title": "CodeCrunch: Improving Serverless Performance via Function Compression and Cost-Aware Warmup Location Optimization",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 4B: Serverless Computing 1",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rohan Basu Roy",
+      "position": 1,
+      "orcid": "0000-0002-1082-9846",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624866"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tirthak Patel",
+      "position": 2,
+      "orcid": "0000-0003-3127-5931",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rice University, Houston, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624866"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rohan Garg",
+      "position": 3,
+      "orcid": "0000-0002-6546-5234",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nutanix Inc., Seattle, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624866"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Devesh Tiwari",
+      "position": 4,
+      "orcid": "0000-0002-7253-2458",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624866"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624866",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624866",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624866",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/gnq9pdpitvE",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624866",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624866",
+      "kind": "crossref",
+      "title": "CodeCrunch: Improving Serverless Performance via Function Compression and Cost-Aware Warmup Location Optimization",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:3a1c7238398589a6b175dec00ccd8a75c54b2dbb8b68a2e31aa742c148e1ce14",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624866",
+      "url": "https://www.semanticscholar.org/paper/ad00b539034b9d7d557f72eee6e90f2421a33cda",
+      "kind": "semantic-scholar",
+      "title": "CodeCrunch: Improving Serverless Performance via Function Compression and Cost-Aware Warmup Location Optimization",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:9d7ea8a4057b7dc5c4b43bc17dbf5e912fb3bb6fe248aeab5746eebccc1dc4f7",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

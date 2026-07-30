@@ -1,0 +1,65 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-chekhov-s-gun-uncovering-hidden-risks-in-macos-applicati-6f1c7f61",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The paper's primary contribution is a virtualization and isolation system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-7c2ea4499f5101e4-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765205",
+      "kind": "publisher-page",
+      "title": "Chekhov's Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-45fd798bd8e42a02-abstract",
+      "url": "https://openalex.org/W4416549272",
+      "kind": "openalex",
+      "title": "Chekhov's Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

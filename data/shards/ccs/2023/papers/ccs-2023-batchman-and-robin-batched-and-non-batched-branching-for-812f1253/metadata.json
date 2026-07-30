@@ -1,0 +1,228 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-batchman-and-robin-batched-and-non-batched-branching-for-812f1253",
+  "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+  "venue": "ccs",
+  "year": 2023,
+  "track_or_session": "Zero Knowledge Proofs (Applied Cryptography)",
+  "paper_type": "main-track",
+  "publication_date": "2023-11-21",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yibin Yang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Heath",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Carmit Hazay",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Bar-Ilan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Ligero Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vladimir Kolesnikov",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Muthuramakrishnan Venkitasubramaniam",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ligero Inc.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-019bd524f204f78c-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3576915.3623169",
+    "official_page": "https://doi.org/10.1145/3576915.3623169",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623169",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-019bd524f204f78c-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, title, session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-ef2a8ba9da0fd3a3-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract, DOI, and page span"
+      ]
+    },
+    {
+      "id": "src-63fe99f52ee60508-publisher",
+      "url": "https://doi.org/10.1145/3576915.3623169",
+      "kind": "publisher-page",
+      "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-e41781253cc1e537-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3576915.3623169",
+      "kind": "crossref",
+      "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date and main-proceedings metadata"
+      ]
+    },
+    {
+      "id": "src-a58d77f872ac7a96-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/YangHHKV23",
+      "kind": "dblp",
+      "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

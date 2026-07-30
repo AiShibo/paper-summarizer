@@ -1,0 +1,222 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2024-aceso-achieving-efficient-fault-tolerance-in-memory-disa-09f77a21",
+  "title": "Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores",
+  "venue": "sosp",
+  "year": 2024,
+  "track_or_session": "Session 2: Memory 11:00 - 12:30 Session Chair: Sudarsun Kannan",
+  "paper_type": "main-track",
+  "publication_date": "2024-11-04",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhisheng Hu",
+      "position": 1,
+      "orcid": "0009-0003-1498-7053",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengfei Zuo",
+      "position": 2,
+      "orcid": "0000-0001-9982-5130",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Cloud",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yizou Chen",
+      "position": 3,
+      "orcid": "0009-0003-8226-6856",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chao Wang",
+      "position": 4,
+      "orcid": "0009-0003-2162-5675",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junliang Hu",
+      "position": 5,
+      "orcid": "0000-0001-6253-4233",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming-Chang Yang",
+      "position": 6,
+      "orcid": "0000-0002-4029-757X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3694715.3695951",
+    "official_page": "https://doi.org/10.1145/3694715.3695951",
+    "official_pdf": "https://sigops.org/s/conferences/sosp/2024/assets/papers/sosp24-final116-acmpaginated.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2024-program",
+      "url": "https://sigops.org/s/conferences/sosp/2024/schedule.html",
+      "kind": "conference-program",
+      "title": "SOSP 2024 Schedule and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:4dfe0d9294242b288ea2d49116228eb840f22263918493c75f49f8ee99acab97",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3694715",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:67fd2c1864e3206c47cd4453a05ec4a4787f374aeb886a7146059067d6b0f83c",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The PDF URL is published directly by the official SOSP program; the endpoint returned an access-control response during automated link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

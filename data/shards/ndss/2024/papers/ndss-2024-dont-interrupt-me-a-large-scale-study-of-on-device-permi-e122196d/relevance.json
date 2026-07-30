@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-dont-interrupt-me-a-large-scale-study-of-on-device-permi-e122196d",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper evaluates Chrome's deployed on-device permission-prompt quieting mechanism at large scale and measures its operational effects.",
+  "topics": [
+    "systems-security",
+    "privacy-systems",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-e330a76cb4a2b99c-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dont-interrupt-me-a-large-scale-study-of-on-device-permission-prompt-quieting-in-chrome/",
+      "kind": "paper-page",
+      "title": "Don’t Interrupt Me – A Large-Scale Study of On-Device Permission Prompt Quieting in Chrome",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

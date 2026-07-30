@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/review.schema.json",
+  "title": "Independent paper review stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "reviewer",
+    "independent_from",
+    "checks",
+    "issues",
+    "decision",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": ["string", "null"]
+    },
+    "independent_from": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metadata",
+        "relevance",
+        "summary_accuracy",
+        "numerical_claims",
+        "pi_attribution",
+        "awards",
+        "duplicates",
+        "links"
+      ],
+      "properties": {
+        "metadata": {
+          "type": ["boolean", "null"]
+        },
+        "relevance": {
+          "type": ["boolean", "null"]
+        },
+        "summary_accuracy": {
+          "type": ["boolean", "null"]
+        },
+        "numerical_claims": {
+          "type": ["boolean", "null"]
+        },
+        "pi_attribution": {
+          "type": ["boolean", "null"]
+        },
+        "awards": {
+          "type": ["boolean", "null"]
+        },
+        "duplicates": {
+          "type": ["boolean", "null"]
+        },
+        "links": {
+          "type": ["boolean", "null"]
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["issue_id", "severity", "stage", "description", "status"],
+        "properties": {
+          "issue_id": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": ["INFO", "WARNING", "ERROR"]
+          },
+          "stage": {
+            "enum": [
+              "venue-year",
+              "metadata",
+              "relevance",
+              "summary",
+              "groups",
+              "awards",
+              "duplicates",
+              "links"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": ["OPEN", "RESOLVED", "WONT_FIX"]
+          }
+        }
+      }
+    },
+    "decision": {
+      "enum": ["NOT_REVIEWED", "APPROVED", "CHANGES_REQUESTED", "BLOCKED"]
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "read_only": true,
+  "phase_gate": {
+    "pilot_year": 2025,
+    "bulk_years": [
+      2023,
+      2024,
+      2026
+    ],
+    "bulk_requires_coordinator_approval": true
+  },
+  "tasks": [
+    {
+      "task_id": "coordinator",
+      "role": "merge-and-phase-gates",
+      "owned_paths": [
+        "AGENTS.md",
+        "README.md",
+        "Makefile",
+        "config/**",
+        "coordination/tasks/**",
+        "docs/**",
+        "migrations/**",
+        "schemas/**",
+        "src/**",
+        "data/venue-year-manifest.generated.json",
+        "data/database.sqlite",
+        "data/exports/**",
+        "site/data/papers.json"
+      ]
+    },
+    {
+      "task_id": "agent-a",
+      "role": "systems-collection-and-relevance",
+      "venues": [
+        "osdi",
+        "sosp",
+        "eurosys",
+        "atc"
+      ],
+      "stage_files": [
+        "venue-year.json",
+        "metadata.json",
+        "relevance.json"
+      ]
+    },
+    {
+      "task_id": "agent-b",
+      "role": "storage-networking-collection-and-relevance",
+      "venues": [
+        "fast",
+        "nsdi",
+        "sigcomm"
+      ],
+      "stage_files": [
+        "venue-year.json",
+        "metadata.json",
+        "relevance.json"
+      ]
+    },
+    {
+      "task_id": "agent-c",
+      "role": "asplos-collection-and-relevance",
+      "venues": [
+        "asplos"
+      ],
+      "stage_files": [
+        "venue-year.json",
+        "metadata.json",
+        "relevance.json"
+      ]
+    },
+    {
+      "task_id": "agent-d",
+      "role": "security-collection-and-relevance",
+      "venues": [
+        "ccs",
+        "ndss",
+        "sp",
+        "usenix-security"
+      ],
+      "stage_files": [
+        "venue-year.json",
+        "metadata.json",
+        "relevance.json"
+      ]
+    },
+    {
+      "task_id": "agent-e",
+      "role": "paper-summary",
+      "stage_files": [
+        "summary.json"
+      ],
+      "paper_ids_must_be_assigned": true
+    },
+    {
+      "task_id": "agent-f",
+      "role": "faculty-group-institution-resolution",
+      "stage_files": [
+        "groups.json"
+      ],
+      "owned_paths": [
+        "data/entities/authors/**",
+        "data/entities/faculty/**",
+        "data/entities/research-groups/**",
+        "data/entities/institutions/**"
+      ],
+      "paper_ids_must_be_assigned": true
+    },
+    {
+      "task_id": "agent-g",
+      "role": "award-verification",
+      "stage_files": [
+        "awards.json"
+      ],
+      "paper_ids_must_be_assigned": true
+    },
+    {
+      "task_id": "agent-h",
+      "role": "independent-review",
+      "stage_files": [
+        "review.json"
+      ],
+      "owned_paths": [
+        "data/review_queue/agent-h/**"
+      ],
+      "paper_ids_must_be_assigned": true
+    },
+    {
+      "task_id": "agent-i",
+      "role": "frontend",
+      "owned_paths": [
+        "site/index.html",
+        "site/styles.css",
+        "site/app.js",
+        "site/pages/**",
+        "site/components/**",
+        "tests/frontend/**"
+      ],
+      "forbidden_paths": [
+        "site/data/papers.json",
+        "data/**"
+      ]
+    }
+  ]
+}

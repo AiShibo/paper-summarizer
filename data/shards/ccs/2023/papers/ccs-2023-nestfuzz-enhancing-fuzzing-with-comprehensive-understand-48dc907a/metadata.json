@@ -1,0 +1,257 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-nestfuzz-enhancing-fuzzing-with-comprehensive-understand-48dc907a",
+  "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+  "venue": "ccs",
+  "year": 2023,
+  "track_or_session": "Fuzzing I (approaches) (Software Security)",
+  "paper_type": "main-track",
+  "publication_date": "2023-11-21",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Peng Deng",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhemin Yang",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Zhang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guangliang Yang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenzheng Hong",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Zhang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Min Yang",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fudan University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-f8ea10d20ee12c21-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3576915.3623103",
+    "official_page": "https://doi.org/10.1145/3576915.3623103",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623103",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f8ea10d20ee12c21-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, title, session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-0b4bf4cf74b01329-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract, DOI, and page span"
+      ]
+    },
+    {
+      "id": "src-a12fbe22d21e967d-publisher",
+      "url": "https://doi.org/10.1145/3576915.3623103",
+      "kind": "publisher-page",
+      "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-3525c6ecafd264ab-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3576915.3623103",
+      "kind": "crossref",
+      "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date and main-proceedings metadata"
+      ]
+    },
+    {
+      "id": "src-348bd778095e8103-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/DengYZYHZY23",
+      "kind": "dblp",
+      "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

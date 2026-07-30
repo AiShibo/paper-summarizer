@@ -1,0 +1,601 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-astral-a-datacenter-infrastructure-for-large-language-mo-b475268e",
+  "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "NetAI",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Qingkai Meng",
+      "position": 1,
+      "orcid": "0000-0001-5394-8450",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Zheng",
+      "position": 2,
+      "orcid": "0000-0002-2663-4146",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhenhui Zhang",
+      "position": 3,
+      "orcid": "0009-0009-9381-2019",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "ChonLam Lao",
+      "position": 4,
+      "orcid": "0000-0002-0214-664X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chengyuan Huang",
+      "position": 5,
+      "orcid": "0000-0002-6079-6579",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Baojia Li",
+      "position": 6,
+      "orcid": "0009-0005-6714-5014",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyuan Zhu",
+      "position": 7,
+      "orcid": "0009-0002-9354-9117",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Lu",
+      "position": 8,
+      "orcid": "0009-0007-4554-8554",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weizhen Dang",
+      "position": 9,
+      "orcid": "0000-0003-2390-7978",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zitong Lin",
+      "position": 10,
+      "orcid": "0009-0004-7982-8894",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weifeng Zhang",
+      "position": 11,
+      "orcid": "0009-0002-3595-6750",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lingfeng Liu",
+      "position": 12,
+      "orcid": "0009-0004-3574-2052",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuanyuan Gong",
+      "position": 13,
+      "orcid": "0009-0008-0992-6017",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunzhi He",
+      "position": 14,
+      "orcid": "0009-0003-6128-0384",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoyuan Hu",
+      "position": 15,
+      "orcid": "0009-0007-8233-1143",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinben Xia",
+      "position": 16,
+      "orcid": "0009-0005-2816-9777",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiang Li",
+      "position": 17,
+      "orcid": "0009-0009-0556-5290",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zekun He",
+      "position": 18,
+      "orcid": "0009-0000-8020-0595",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yachen Wang",
+      "position": 19,
+      "orcid": "0009-0003-3669-1202",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianneng Zou",
+      "position": 20,
+      "orcid": "0009-0005-5370-8162",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kun Yang",
+      "position": 21,
+      "orcid": "0009-0006-1979-4420",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gianni Antichi",
+      "position": 22,
+      "orcid": "0000-0002-6063-4975",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Politecnico di Milano and Queen Mary University of London",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guihai Chen",
+      "position": 23,
+      "orcid": "0000-0002-6934-1685",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Tian",
+      "position": 24,
+      "orcid": "0000-0003-2710-7628",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750521",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750521",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750521",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/Ou389tkXL1I",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-astral-a-datacenter-infrastructure-for-large-language-mo-b475268e-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750521",
+      "kind": "publisher-page",
+      "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-astral-a-datacenter-infrastructure-for-large-language-mo-b475268e-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750521",
+      "kind": "crossref",
+      "title": "Crossref metadata for Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4c428ead2c353eb07b932a7949003129c43dc8a788c18f93c71a060d3b5c4d26",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2026-one-email-many-faces-a-deep-dive-into-identity-confusion-d538de77",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper demonstrates and evaluates a concrete security attack with material relevance to deployed computer systems.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "security-attack"
+  ],
+  "methods": [
+    "implementation",
+    "user-study"
+  ],
+  "sources": [
+    {
+      "id": "src-70453e4312f18378-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/one-email-many-faces-a-deep-dive-into-identity-confusion-in-email-aliases/",
+      "kind": "paper-page",
+      "title": "One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:915b50b3979a3a0235e0e1cc40f5f77f47a0ca6fc65ffef9896eda3f76d84665",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

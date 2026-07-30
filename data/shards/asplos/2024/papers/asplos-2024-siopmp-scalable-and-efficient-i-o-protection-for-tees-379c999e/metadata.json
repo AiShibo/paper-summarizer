@@ -1,0 +1,257 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-siopmp-scalable-and-efficient-i-o-protection-for-tees-379c999e",
+  "title": "sIOPMP: Scalable and Efficient I/O Protection for TEEs",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 10D: Trusted Computing",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Erhu Feng",
+      "position": 1,
+      "orcid": "0009-0006-5957-3024",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dahu Feng",
+      "position": 2,
+      "orcid": "0000-0002-1146-8552",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua university, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dong Du",
+      "position": 3,
+      "orcid": "0000-0002-7945-8430",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yubin Xia",
+      "position": 4,
+      "orcid": "0000-0001-6558-5298",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenbin Zheng",
+      "position": 5,
+      "orcid": "0009-0007-4775-7165",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba DAMO Academy, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Siqi Zhao",
+      "position": 6,
+      "orcid": "0009-0009-5177-2821",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba DAMO Academy, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Chen",
+      "position": 7,
+      "orcid": "0000-0002-9720-0361",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640378"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640378",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640378",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640378",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/72BMTwAFHZM",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640378",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640378",
+      "kind": "crossref",
+      "title": "sIOPMP: Scalable and Efficient I/O Protection for TEEs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:6fc19313c4b8b71d75fa03fdf82b710da5ee8d7ece1fb046e27a212b7fa74146",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640378",
+      "url": "https://www.semanticscholar.org/paper/2375c04e951a0d8c7cd9b15c9b3fcb2d324cf2b0",
+      "kind": "semantic-scholar",
+      "title": "sIOPMP: Scalable and Efficient I/O Protection for TEEs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:eb1b151b5c8f8c3c2b3c5ba245b4e35bb8c88c21e915ce145728bd35f34459f6",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

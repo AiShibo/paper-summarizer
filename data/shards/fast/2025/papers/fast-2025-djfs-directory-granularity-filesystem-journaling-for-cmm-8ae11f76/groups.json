@@ -1,0 +1,132 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-djfs-directory-granularity-filesystem-journaling-for-cmm-8ae11f76",
+  "associations": [
+    {
+      "group_id": "group-kaist-operating-systems-lab",
+      "faculty_id": "faculty-youjip-won",
+      "publication_institution_id": "institution-kaist",
+      "current_institution_id": "institution-kaist",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-8ae11f76-paper-page",
+        "src-agent-f-8ae11f76-lab-publications",
+        "src-agent-f-8ae11f76-faculty-profile",
+        "src-agent-f-8ae11f76-lab-pi"
+      ],
+      "rationale": "KAIST's official Operating Systems Lab lists DJFS, and KAIST pages identify Youjip Won as the lab's current professor.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Seung Won Yoo",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Joontaek Oh",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Myeongin Cheon",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Bonmoo Koo",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Wonseb Jeong",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Hyunsub Song",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Hyeonho Song",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Donghun Lee",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-8ae11f76-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/yoo",
+      "kind": "paper-page",
+      "title": "DJFS : Directory-Granularity Filesystem Journaling for CMM-H SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-8ae11f76-lab-publications",
+      "url": "https://oslab.kaist.ac.kr/publications/",
+      "kind": "lab-page",
+      "title": "Operating Systems Lab publications",
+      "publisher": "KAIST",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact DJFS publication"
+      ]
+    },
+    {
+      "id": "src-agent-f-8ae11f76-faculty-profile",
+      "url": "https://ee.kaist.ac.kr/en/professor-s1/4/",
+      "kind": "faculty-page",
+      "title": "Youjip Won",
+      "publisher": "KAIST",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current professor appointment"
+      ]
+    },
+    {
+      "id": "src-agent-f-8ae11f76-lab-pi",
+      "url": "https://ee.kaist.ac.kr/en/research-division-01/",
+      "kind": "institution-page",
+      "title": "KAIST research division",
+      "publisher": "KAIST",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Youjip Won identified with the Operating Systems Lab"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-i-venue-year-coverage-ui-2026-07-30",
+  "issued_at": "2026-07-30T04:13:56Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-i",
+  "status": "OPEN",
+  "action": "ADD_ZERO_PAPER_VENUE_YEAR_COVERAGE_VIEW",
+  "task_brief": "coordination/tasks/agent-i-frontend.md",
+  "generated_read_only_input": "site/data/venue-years.json",
+  "input_contract": {
+    "schema_version": "1.0.0",
+    "venue_year_count": 48,
+    "required_fields": [
+      "venue",
+      "year",
+      "workflow_status",
+      "collection_status",
+      "last_verified_at"
+    ],
+    "current_2026_statuses": {
+      "COMPLETE_PROCEEDINGS": 6,
+      "ACCEPTED_PAPERS_ONLY": 2,
+      "PARTIAL": 2,
+      "UPCOMING": 1,
+      "UNAVAILABLE": 1
+    }
+  },
+  "authorized_write_scope": [
+    "site/index.html",
+    "site/styles.css",
+    "site/app.js",
+    "site/data/fixture-venue-years.json",
+    "tests/frontend/**",
+    "coordination/claims/agent-i.json"
+  ],
+  "requirements": [
+    "Preserve all existing search, filtering, annotation, export, responsive, dark-theme, and accessibility behavior.",
+    "Load data/venue-years.json independently from the paper index and use a clearly synthetic coverage fixture only as a development or fallback input.",
+    "Add an accessible conference coverage view that can display every venue-year even when it has zero paper cards.",
+    "Make 2026 coverage immediately understandable, with distinct human-readable labels for Complete proceedings, Accepted papers only, Partial, Upcoming, and Unavailable.",
+    "For UPCOMING and UNAVAILABLE records, never display zero papers or imply that a completed search found none; display status-oriented wording such as program not published yet or unavailable.",
+    "Do not create fake paper cards for zero-paper venue-years.",
+    "Expose last-verified information and distinguish coverage workflow from scientific confidence.",
+    "Allow users to inspect coverage by year and venue without conflating coverage filters with paper-result counts.",
+    "If coverage data fails to load, keep the paper explorer usable and show a scoped accessible coverage error.",
+    "Do not edit site/data/venue-years.json, site/data/papers.json, source research records, schemas, collectors' claims, database files, or generated exports.",
+    "Add frontend tests for all five status labels, zero-paper visibility, 2026 venue completeness, error isolation, responsive layout, and fixture labeling."
+  ],
+  "validation": [
+    "node --check site/app.js",
+    "node --test tests/frontend/*.test.js",
+    "make check",
+    "Browser smoke test at desktop and narrow widths in light and dark themes"
+  ],
+  "handoff": [
+    "Report changed paths and test output.",
+    "Confirm that the 2026 UPCOMING and UNAVAILABLE venues appear without paper cards.",
+    "Confirm that generated real coverage data was read but not edited.",
+    "Stop after this bounded coverage-view task."
+  ]
+}

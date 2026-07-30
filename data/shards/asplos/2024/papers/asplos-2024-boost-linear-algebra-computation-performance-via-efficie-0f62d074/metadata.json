@@ -1,0 +1,242 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-boost-linear-algebra-computation-performance-via-efficie-0f62d074",
+  "title": "Boost Linear Algebra Computation Performance via Efficient VNNI Utilization",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 8C: High Performance Systems",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hao Zhou",
+      "position": 1,
+      "orcid": "0009-0009-3536-7623",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Enflame-Tech Inc., Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiukun Han",
+      "position": 2,
+      "orcid": "0009-0003-7829-2963",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Enflame-Tech Inc., Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heng Shi",
+      "position": 3,
+      "orcid": "0000-0002-1779-9221",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Enflame-Tech Inc., Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "SJTU, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yalin Zhang",
+      "position": 4,
+      "orcid": "0009-0001-0533-1111",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Enflame-Tech Inc., Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianguo Yao",
+      "position": 5,
+      "orcid": "0000-0002-1142-4496",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Enflame-Tech Inc., Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "SJTU, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651333"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651333",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651333",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/Iu8ab3TrUis",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651333",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651333",
+      "kind": "crossref",
+      "title": "Boost Linear Algebra Computation Performance via Efficient VNNI Utilization",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:c98344af93a38365f7020a1e53dbf175c63d7c1011e42b485172f7af5cebd0fd",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651333",
+      "url": "https://www.semanticscholar.org/paper/8a300d79e52f5d854a074e8088a0403c22cda292",
+      "kind": "semantic-scholar",
+      "title": "Boost Linear Algebra Computation Performance via Efficient VNNI Utilization",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:b7838359b8360f1ca936b2835bc436e85b01f103aa0f9a2552dea17eb8101bdc",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

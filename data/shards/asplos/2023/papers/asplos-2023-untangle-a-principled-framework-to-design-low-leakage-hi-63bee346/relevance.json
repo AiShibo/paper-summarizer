@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-untangle-a-principled-framework-to-design-low-leakage-hi-63bee346",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because Untangle contributes a concrete hardware side-channel security mechanism for a Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes, while its primary contribution is hardware side-channel security.",
+  "topics": [
+    "hardware-security",
+    "side-channels",
+    "secure-architecture",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "kernel",
+    "hypervisor"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582033",
+      "url": "https://www.semanticscholar.org/paper/baefef11c92ce5fbbd9a151028bbe520a2c4d047",
+      "kind": "semantic-scholar",
+      "title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:0a20c811cc8368cf0c6729cb042f8529e2f238230e99a16f1515beae3d50ce1e",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "Classified from the official ASPLOS technical session and the complete abstract indexed by Semantic Scholar; no official conference abstract page was available, and independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-bin2wrong-a-unified-fuzzing-framework-for-uncovering-sem-1246bf5d",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "This work is systems-adjacent because its primary contribution is program analysis, formal reasoning, or testing applied to compilers, languages, and runtimes, rather than a new end-to-end system.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "compilers",
+    "reliability-testing-and-debugging",
+    "fuzzing",
+    "systems-security",
+    "isolation"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "bug-finding-or-testing-tool",
+    "optimization",
+    "defense"
+  ],
+  "methods": [
+    "fuzzing"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-yang-zao",
+      "url": "https://www.usenix.org/conference/atc25/presentation/yang-zao",
+      "kind": "paper-page",
+      "title": "Bin2Wrong: a Unified Fuzzing Framework for Uncovering Semantic Errors in Binary-to-C Decompilers",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:b63e919ad48d24f05f276ade593dce21d2e8d233535396f941f9eba3036e674f",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

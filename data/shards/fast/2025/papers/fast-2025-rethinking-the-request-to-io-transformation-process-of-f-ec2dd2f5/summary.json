@@ -1,0 +1,125 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-rethinking-the-request-to-io-transformation-process-of-f-ec2dd2f5",
+  "takeaway": "OrchFS partitions arbitrary writes into aligned, parallel direct I/O for a high-bandwidth SSD and small residual NVM writes, optimizing the request-to-I/O transformation itself.",
+  "background": "Applications issue byte-offset writes, but file systems convert them into page-aligned block I/O. Modern SSDs achieve peak bandwidth through internal parallelism and prefer larger page-aligned transfers; byte-addressable NVM instead handles small unaligned persistence efficiently but costs more per byte.",
+  "villain": "Existing SSD file systems align writes through read-modify-write, copy and manage pages in the page cache, then often submit too little explicit concurrency. Even large direct writes can undersaturate a fast SSD, while hybrid systems typically absorb most traffic in NVM or merely separate small from large requests.",
+  "approach": "OrchFS splits every write into 32-KB-aligned SSD blocks, 4-KB NVM pages, and residual NVM Upage chunks. A heterogeneous radix tree maps all units, while dedicated interlaced threads use direct SSD writes, buffered SSD reads, and memory-semantic NVM access in parallel; background migration consolidates NVM fragments to SSD.",
+  "impact": "The design shows that a small NVM complement can unlock rather than replace SSD bandwidth. It reframes I/O transformation—alignment, path selection, splitting, and concurrency—as a first-class file-system policy.",
+  "evaluation": {
+    "overview": "Microbenchmarks cover diverse sizes, reads/writes, components, NVM space, concurrency, and SSD generations; Filebench, synchronous LevelDB/YCSB, GridGraph, and aging experiments evaluate mixed and real workloads.",
+    "implemented": "A from-scratch LibFS/KernelFS prototype exposing more than 30 POSIX APIs, with a three-unit data layout, O(1) write partitioner, heterogeneous radix tree, default 4 NVM and 32 SSD I/O threads, logical metadata journaling, leases, and NVM-to-SSD migration.",
+    "setting": "Dual 28-core Xeon Gold 6348 processors, 256 GB DRAM, 128-GB Optane PM, and a 3.84-TB PCIe 4 Samsung PM9A3 SSD; selected tests use a PCIe 5 PM1743 or two PCIe 4 SSDs. Results average at least three runs.",
+    "baselines": [
+      "ext4",
+      "F2FS",
+      "NOVA",
+      "OdinFS",
+      "ArckFS",
+      "Strata",
+      "SPFS",
+      "PHFS small/large splitter"
+    ],
+    "results": [
+      {
+        "id": "claim-orchfs-write",
+        "text": "Across single-thread random-write sizes, OrchFS reduces latency by up to 29.76× versus SSD file systems, 3.49× versus NVM file systems, and 7.16× versus hybrid NVM/SSD file systems.",
+        "source_ids": [
+          "src-fast25-pdf-ec2dd2f5"
+        ],
+        "locator": "PDF pp. 2, 10–11; Abstract and §5.2.1, Figure 10"
+      },
+      {
+        "id": "claim-orchfs-small-nvm",
+        "text": "For 1-MB random writes, only about 4.7% of file data resides in NVM, yet OrchFS cuts write latency by 68.4% and 72.4% versus ext4 and F2FS.",
+        "source_ids": [
+          "src-fast25-pdf-ec2dd2f5"
+        ],
+        "locator": "PDF p. 11; §5.2.1, Table 2"
+      },
+      {
+        "id": "claim-orchfs-apps",
+        "text": "OrchFS reaches 1.76×–15.12× baseline Filebench throughput with 16 threads and runs 20-iteration GridGraph workloads 1.69×–3.20× faster across three graphs.",
+        "source_ids": [
+          "src-fast25-pdf-ec2dd2f5"
+        ],
+        "locator": "PDF pp. 13–14; §§5.3–5.4, Figures 16 and 18"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "OrchFS needs auxiliary byte-addressable NVM and uses discontinued Optane in evaluation. All-small-write workloads reside in NVM until migration and can degenerate into a hierarchy. The prototype implements a subset of POSIX, guarantees atomic metadata but not atomic data by default, and some baselines provide stricter write atomicity. Fixed granularity and thread counts require retuning for other devices.",
+  "phd_group_signal": "The work derives a design from careful latency decomposition rather than accepting the legacy storage path. It spans device behavior, file layout, indexing, concurrency, userspace/kernel architecture, consistency, and aging—useful territory for storage-systems research.",
+  "beginner_concepts": [
+    "direct I/O",
+    "buffered I/O",
+    "read-modify-write",
+    "I/O alignment",
+    "persistent memory",
+    "radix tree",
+    "write partitioning",
+    "file-system journaling"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-orchfs-partition",
+      "text": "OrchFS transforms aligned middles of writes into SSD-block I/O and maps unaligned heads, tails, and overwrites into NVM pages or chunk-bearing Upages without host or SSD read-modify-write.",
+      "source_ids": [
+        "src-fast25-pdf-ec2dd2f5"
+      ],
+      "locator": "PDF pp. 7–8; §§3.3–3.4, Algorithm 1 and Figures 7–8"
+    },
+    {
+      "id": "claim-orchfs-paths",
+      "text": "Dedicated threads interlace 32-KB address ranges so SSD writes are aligned, direct, and parallel, while SSD reads retain page caching and NVM I/O follows a memory-semantic path.",
+      "source_ids": [
+        "src-fast25-pdf-ec2dd2f5"
+      ],
+      "locator": "PDF pp. 9–10; §§3.6–4, Figure 6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-ec2dd2f5",
+      "url": "https://www.usenix.org/system/files/fast25-zhan.pdf",
+      "kind": "paper-pdf",
+      "title": "Rethinking the Request-to-IO Transformation Process of File Systems for Full Utilization of High-Bandwidth SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:5980267cb17994b249d2366c30d0e68e434c834605ce9aa988a4957af35cb7fe",
+      "official": true,
+      "supports": [
+        "abstract, introduction, bottleneck analysis, design, implementation, evaluation, related work, and conclusion",
+        "reported write/read, space, concurrency, application, fragmentation, and sensitivity results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T02:03:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context/analysis, §§3.1–3.7 design, §4 implementation/consistency, §§5.1–5.5 evaluation, §6 related work, and §7 conclusion.",
+      "All measurements are author-reported; baseline consistency guarantees and unsupported systems are documented in §5.1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T02:03:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

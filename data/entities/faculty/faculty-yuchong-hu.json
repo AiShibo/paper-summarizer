@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-yuchong-hu",
+  "author_id": "author-yuchong-hu",
+  "display_name": "Yuchong Hu",
+  "official_profile_url": "https://stlab.wnlo.hust.edu.cn/dy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013",
+  "current_institution_id": "institution-huazhong-university-science-technology",
+  "department": "School of Computer Science and Technology",
+  "faculty_rank": "Professor",
+  "current_location": {
+    "city": "Wuhan",
+    "state_or_province": "Hubei",
+    "country": "China",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": null,
+  "sources": [
+    {
+      "id": "src-faculty-yuchong-hu-profile",
+      "url": "https://stlab.wnlo.hust.edu.cn/dy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013",
+      "kind": "faculty-page",
+      "title": "Official faculty profile for Yuchong Hu",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null unless an explicit current official statement was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region",
+      "recruiting"
+    ]
+  }
+}

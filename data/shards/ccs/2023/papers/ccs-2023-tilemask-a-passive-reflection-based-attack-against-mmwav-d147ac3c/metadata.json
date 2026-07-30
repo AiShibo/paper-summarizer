@@ -1,0 +1,278 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-tilemask-a-passive-reflection-based-attack-against-mmwav-d147ac3c",
+  "title": "TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving",
+  "venue": "ccs",
+  "year": 2023,
+  "track_or_session": "IoT & embedded security (Hardware, Side Channels, and CyberPhysical Systems)",
+  "paper_type": "main-track",
+  "publication_date": "2023-11-21",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yi Zhu",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University at Buffalo, the State University of New York",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenglin Miao",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Iowa State University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongfei Xue",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of North Carolina at Charlotte",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhengxiong Li",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Colorado Denver",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunnan Yu",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University at Buffalo, the State University of New York",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenyao Xu",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University at Buffalo, the State University of New York",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lu Su",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chunming Qiao",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University at Buffalo, the State University of New York",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-22ac3fc78c399250-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3576915.3616661",
+    "official_page": "https://doi.org/10.1145/3576915.3616661",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3576915.3616661",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-22ac3fc78c399250-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "kind": "conference-program",
+      "title": "ACM CCS 2023 Accepted Papers Data",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, title, session, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-09762b4968045e27-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "ACM CCS 2023 Table of Contents",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract, DOI, and page span"
+      ]
+    },
+    {
+      "id": "src-a1f00ee8bbe50bd2-publisher",
+      "url": "https://doi.org/10.1145/3576915.3616661",
+      "kind": "publisher-page",
+      "title": "TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-5a8195edbb6af72b-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3576915.3616661",
+      "kind": "crossref",
+      "title": "TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "publication date and main-proceedings metadata"
+      ]
+    },
+    {
+      "id": "src-bcf5691874e34467-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/ZhuMXLYXSQ23",
+      "kind": "dblp",
+      "title": "TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

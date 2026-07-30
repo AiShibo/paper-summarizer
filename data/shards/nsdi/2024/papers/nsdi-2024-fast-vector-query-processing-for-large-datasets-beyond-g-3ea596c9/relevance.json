@@ -1,0 +1,89 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2024-fast-vector-query-processing-for-large-datasets-beyond-g-3ea596c9",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Clouds but Faster session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "databases-and-data-processing",
+    "storage-and-file-systems",
+    "caching",
+    "networking",
+    "rdma",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "computer-architecture",
+    "accelerators",
+    "hardware-software-co-design"
+  ],
+  "system_layers": [
+    "hardware",
+    "kernel",
+    "distributed-service",
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "benchmark",
+    "dataset"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi24-program",
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '24 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:1f8993088067edcdad68f3167ffbf70c0f1d4567ff33de608d49018f637edfa5",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2024-fast-vector-query-processing-for-large-datasets-beyond-g-3ea596c9-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi24/presentation/zhang-zili-pipelining",
+      "kind": "paper-page",
+      "title": "Fast Vector Query Processing for Large Datasets Beyond GPU Memory with Reordered Pipelining",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:d97df59828a26db0f80c7664221d55e9c41c68001eedc11e4c479b3b4461f572",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

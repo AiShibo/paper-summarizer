@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-what-you-trace-is-what-you-get-dynamic-stack-layout-reco-fd05b3bb",
+  "title": "What You Trace is What You Get: Dynamic Stack-Layout Recovery for Binary Recompilation",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 2A: Binary Analysis",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Fabian Parzefall",
+      "position": 1,
+      "orcid": "0009-0008-5324-5403",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640371"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chinmay Deshpande",
+      "position": 2,
+      "orcid": "0000-0003-3035-9869",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640371"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Felicitas Hetzelt",
+      "position": 3,
+      "orcid": "0009-0003-4755-6495",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640371"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Franz",
+      "position": 4,
+      "orcid": "0000-0001-5911-2275",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Irvine, Irvine, California, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640371"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640371",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640371",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640371",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/It_TQFjP4KY",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640371",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640371",
+      "kind": "crossref",
+      "title": "What You Trace is What You Get: Dynamic Stack-Layout Recovery for Binary Recompilation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:0b3bb92abfd2c80fbc3de100f2e4bee681277a5179996218239e364e294b6770",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640371",
+      "url": "https://www.semanticscholar.org/paper/f8ad82542f3e21c0241b21694ab97089744e271b",
+      "kind": "semantic-scholar",
+      "title": "What You Trace is What You Get: Dynamic Stack-Layout Recovery for Binary Recompilation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:3d8e68f93e266f67fa79da65e3f6fd2d1fa49db256545fbee2ed938894425c9b",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e7",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:27:39Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/asplos/2024"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "asplos-2024-flame-a-centralized-cache-controller-for-serverless-comp-8dcb4378",
+    "asplos-2024-maxk-gnn-extremely-fast-gpu-kernel-design-for-accelerati-4a21b743",
+    "asplos-2024-marple-scalable-spike-sorting-for-untethered-brain-machi-53cc69f5",
+    "asplos-2024-cornucopia-reloaded-load-barriers-for-cheri-heap-tempora-1daf4497",
+    "asplos-2024-freepart-hardening-data-processing-software-via-framewor-7abc91e8"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Claimed exactly assignment summary-calibration-agent-e7-001.",
+    "Verified canonical paper-ID SHA-256 cf48d51af79ba5433484bd4aeeb4a594851f124192856a454c913fc761fb5173 before editing.",
+    "Completed exactly the five assigned summary.json stages; every workflow is READY_FOR_REVIEW, all required reading coverage is marked READ, and verification.verified_by remains null.",
+    "Full-paper PDF SHA-256 values: Flame 1642090aeef8a96d524eda5cd6ef345642a1ff9dc424ed0e927a19fcf99411df; MaxK-GNN a14771bc8d20ff8ec45da7d573e45f76478a42712fe7e6d32ac8fb102d607942; Marple 92262655932068c5c39043892c8da3b86cb85849fa07d4781674c94bbfbc86ef; Cornucopia Reloaded b4475b162c74d5c688636f83dfc8e8f6b61e903a6eaf90d44aba364cbe195114; FreePart d30199967ca2487bdf48a1bdb8ec9345c6b5a102965516fd07dcf309b48e7678.",
+    "Exact sections, figures, and tables read are recorded in each summary workflow note.",
+    "Marple has one preserved source inconsistency: the abstract reports 78.08 mW while Section 5.2 and Table 7 report 78.94 mW; the detailed value is used and the field is listed in verification.unresolved_fields.",
+    "Draft validation passed for data/shards/asplos/2024 (193 bundles, 1159 JSON files) and data/shards (6863 bundles, 41320 JSON files), both with 0 errors and 0 warnings.",
+    "make check passed 12 unit tests, release validation for the fixture, and repository-wide draft validation.",
+    "Removed data/tmp/agent-e7 after verification; no temporary PDF or extracted-text copy remains.",
+    "All five summaries now await independent source-based review; no additional paper was selected."
+  ]
+}

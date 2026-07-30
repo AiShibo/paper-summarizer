@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "title": "Paper metadata stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "title",
+    "venue",
+    "year",
+    "track_or_session",
+    "paper_type",
+    "publication_date",
+    "page_count",
+    "venue_year_completion_status",
+    "authors",
+    "links",
+    "alternate_versions",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "venue": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2023,
+      "maximum": 2026
+    },
+    "track_or_session": {
+      "type": ["string", "null"]
+    },
+    "paper_type": {
+      "enum": ["main-track", "other-archival", "excluded-non-main", "unknown"]
+    },
+    "publication_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "page_count": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "venue_year_completion_status": {
+      "enum": [
+        "UNVERIFIED",
+        "COMPLETE_PROCEEDINGS",
+        "ACCEPTED_PAPERS_ONLY",
+        "PARTIAL",
+        "UPCOMING",
+        "UNAVAILABLE"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "author_id",
+          "name",
+          "position",
+          "orcid",
+          "affiliations"
+        ],
+        "properties": {
+          "author_id": {
+            "type": ["string", "null"]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "orcid": {
+            "type": ["string", "null"],
+            "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+          },
+          "affiliations": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/affiliation"
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "doi",
+        "official_page",
+        "official_pdf",
+        "artifact",
+        "code",
+        "project",
+        "slides",
+        "video",
+        "bibtex"
+      ],
+      "properties": {
+        "doi": {
+          "type": ["string", "null"]
+        },
+        "official_page": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "official_pdf": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "artifact": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "code": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "project": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "slides": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "video": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "bibtex": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "alternate_versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "url", "relationship"],
+        "properties": {
+          "kind": {
+            "enum": ["arxiv", "journal", "workshop", "project-copy", "other"]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "relationship": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

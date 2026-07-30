@@ -1,0 +1,107 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-geminifs-a-companion-file-system-for-gpus-686e6280",
+  "associations": [
+    {
+      "group_id": "group-nice-lab",
+      "faculty_id": "faculty-yiming-zhang",
+      "publication_institution_id": "institution-xiamen-university",
+      "current_institution_id": "institution-shanghai-jiao-tong-university",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-686e6280-paper-page",
+        "src-agent-f-686e6280-faculty-profile"
+      ],
+      "rationale": "Yiming Zhang's official NICE Lab profile lists GeminiFS and documents a move from the publication-time Xiamen University affiliation to a current Shanghai Jiao Tong University appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Shi Qiu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Weinan Liu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yifan Hu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Jianqin Yan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zhirong Shen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xin Yao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Renhai Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Gong Zhang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-686e6280-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/qiu",
+      "kind": "paper-page",
+      "title": "GeminiFS: A Companion File System for GPUs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-686e6280-faculty-profile",
+      "url": "https://nicexlab.com/zym.htm",
+      "kind": "faculty-page",
+      "title": "Yiming Zhang",
+      "publisher": "NICE Lab",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact GeminiFS publication",
+        "NICE Lab leadership",
+        "current Shanghai Jiao Tong University appointment",
+        "publication-period Xiamen University appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

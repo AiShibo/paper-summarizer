@@ -1,0 +1,111 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-s2-a-distributed-configuration-verifier-for-hyper-scale-cfa14efa",
+  "takeaway": "S2 partitions switch models and BDD forwarding across workers, then shards dependency-connected prefixes into rounds, enabling Batfish-based IPv4 verification of hyper-scale data-center configurations.",
+  "background": "Configuration verification simulates routing protocols to derive forwarding state, then symbolically checks properties such as reachability, waypoints, loops, and blackholes. Faithful simulators inherit many vendor-specific behaviors, but route and BDD state grow rapidly with network size.",
+  "villain": "A centralized verifier is bounded by one server’s memory, cores, and shared BDD node table. Merely parallelizing switches on that server does not accommodate tens of thousands of switches or billions of routes, while compressing the control plane may trade away feature coverage or still run out of compute.",
+  "approach": "S2 partitions switches among workers, represents remote neighbors with RPC-backed shadow nodes, and runs Batfish’s route computation to a distributed fixpoint. Workers keep separate BDD engines and serialize symbolic packets at partition boundaries for parallel data-plane checking. When routes still exceed worker memory, S2 builds a prefix-dependency graph, keeps each weakly connected component in one shard, and computes shards sequentially while spilling completed routes to persistent storage.",
+  "impact": "The prototype scales Batfish’s faithful switch models to the paper’s IPv4 hyper-scale cases while changing only a small part of Batfish, showing that distributed orchestration can extend an existing verifier rather than replace its protocol semantics.",
+  "evaluation": {
+    "overview": "The evaluation checks all-pairs reachability on real service-provider configurations and synthetic BGP FatTrees, varies workers, partitions, and shard counts, and separately measures distributed control-plane and BDD data-plane components.",
+    "implemented": "About 12,000 lines of Java implement the controller, workers, sidecars, sharding, and distributed checks. The system reuses Batfish’s parsers and BGP/OSPF models with about 500 modified lines, uses METIS for partitioning, gRPC with Java serialization for communication, and JDD BDDIO for symbolic-packet transfer.",
+    "setting": "Five physical Linux servers each have two 32-core Intel Xeon Platinum 8336C CPUs and 500 GB RAM. Four machines are divided into as many as sixteen 15-core, 100 GB worker slots; the controller uses a slot on the fifth machine. The real case has over 16,000 BGP switches and about 200 million parsed IPv4 routes. Synthetic FatTrees use eBGP, one ASN per switch, and at most 64 ECMP routes per prefix; S2 uses 20 prefix shards unless stated otherwise.",
+    "baselines": [
+      "Vanilla Batfish on one logical server",
+      "Batfish with prefix sharding on one logical server",
+      "Bonsai control-plane compression on one logical server",
+      "S2 without prefix sharding",
+      "Random and expert-designed network partitions"
+    ],
+    "results": [
+      {
+        "id": "claim-s2-real-dcn",
+        "text": "For the real data-center network with over 16,000 BGP switches and about 200 million IPv4 routes, 16-worker S2 produced the same RIBs as the sharded Batfish run and completed all-pairs verification in 16 minutes with 35 GB peak memory per worker; vanilla Batfish exhausted memory.",
+        "source_ids": [
+          "src-sigcomm25-s2-pdf-cfa14efa"
+        ],
+        "locator": "§§5.2–5.3, Figure 4; §8"
+      },
+      {
+        "id": "claim-s2-fat-tree-scale",
+        "text": "With 16 workers and 20 prefix shards, S2 completed all-pairs verification of FatTree90—10,125 switches and about three billion routes—within the two-hour limit, while Batfish failed beyond 2,000 switches and Bonsai timed out before 8,000.",
+        "source_ids": [
+          "src-sigcomm25-s2-pdf-cfa14efa"
+        ],
+        "locator": "§§5.2 and 5.4, Figure 5"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "S2 currently verifies IPv4 only. It assumes routing converges after a small number of rounds and returns one converged state even if several exist. Prefix sharding fails to reduce memory when one dependency component covers all prefixes, and statically missed dependencies require a proposed runtime detect-and-recompute extension. Fidelity remains bounded by the reused Batfish models. The experiments check a converged configuration and five forwarding-property families, not arbitrary link-failure states; the real-network experiment parses only its IPv4-related configuration.",
+  "phd_group_signal": "The paper is a clean distributed-systems decomposition of a mature analysis tool: preserve model semantics behind proxies, partition the dominant state, expose dependency constraints before sharding, and quantify when communication is cheaper than centralized memory pressure.",
+  "beginner_concepts": [
+    "control-plane simulation",
+    "data-plane verification",
+    "binary decision diagrams",
+    "distributed fixpoint computation",
+    "prefix dependency",
+    "graph partitioning"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-s2-mechanism",
+      "text": "S2 assigns real switch nodes to workers, uses RPC-backed shadow nodes for remote neighbors, orchestrates distributed route fixpoints, and forwards symbolic packets between independent per-worker BDD engines; sequential prefix shards further cap memory after grouping dependent prefixes together.",
+      "source_ids": [
+        "src-sigcomm25-s2-pdf-cfa14efa"
+      ],
+      "locator": "§§3.1–3.3, Figure 1; §§4.2–4.5, Figures 2–3 and Algorithm 1"
+    },
+    {
+      "id": "claim-s2-correctness-boundary",
+      "text": "Prefix-sharding correctness requires all route-computation dependencies to be captured in the same shard; the implemented analysis covers announced, redistributed, aggregate, and conditional prefixes, while unforeseen runtime dependencies would require merging and recomputing affected shards.",
+      "source_ids": [
+        "src-sigcomm25-s2-pdf-cfa14efa"
+      ],
+      "locator": "§4.5; §7 under “Correctness of Prefix Sharding”"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-s2-pdf-cfa14efa",
+      "url": "https://xjtu-netverify.github.io/papers/S2/s2_final_version.pdf",
+      "kind": "paper-pdf",
+      "title": "S2: A Distributed Configuration Verifier for Hyper-Scale Networks",
+      "publisher": "Xi’an Jiaotong University Network Verification Group (author-hosted final paper)",
+      "retrieved_at": "2026-07-30T04:03:46Z",
+      "content_hash": "sha256:3dedfb6c3d470be3f6c14fbd4a3b6bfc59df616ad83630123cbad11d1ee893c1",
+      "official": true,
+      "supports": [
+        "abstract, motivation, architecture, control-plane and data-plane design, prefix sharding, implementation, experiments, discussion, limitations, and conclusion",
+        "topology and route scale, worker hardware, baseline resource limits, convergence and IPv4 assumptions, property coverage, and sharding correctness boundary"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e5",
+    "updated_at": "2026-07-30T04:03:46Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–2; §§3.1–3.3; §§4.1–4.5; §§5.1–5.8 including Figures 4–10; §7; and §8.",
+      "The summary preserves logical-versus-physical server resources, real-versus-synthetic network scale, Batfish/Bonsai failure modes, prefix-dependency requirements, convergence assumptions, and the IPv4-only evaluation boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:03:46Z",
+    "last_verified_at": "2026-07-30T04:03:46Z",
+    "collector_version": "agent-e5-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

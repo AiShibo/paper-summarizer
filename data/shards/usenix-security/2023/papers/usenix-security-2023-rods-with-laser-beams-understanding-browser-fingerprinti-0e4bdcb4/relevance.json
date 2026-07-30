@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2023-rods-with-laser-beams-understanding-browser-fingerprinti-0e4bdcb4",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs a 21-month technical measurement of browser-fingerprinting mechanisms across 1.7 million phishing pages.",
+  "topics": [
+    "network-security",
+    "network-measurement",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "network",
+    "application-infrastructure"
+  ],
+  "contribution_types": [
+    "measurement-study",
+    "defense"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-9926f5f3ab936355-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/sanchez-rola",
+      "kind": "paper-page",
+      "title": "Rods with Laser Beams: Understanding Browser Fingerprinting on Phishing Pages",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

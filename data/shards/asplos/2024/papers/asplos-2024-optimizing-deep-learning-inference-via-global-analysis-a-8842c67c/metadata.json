@@ -1,0 +1,382 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-optimizing-deep-learning-inference-via-global-analysis-a-8842c67c",
+  "title": "Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6C: Optimization of Tensor Programs",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chunwei Xia",
+      "position": 1,
+      "orcid": "0000-0003-2014-5453",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computing, University of Leeds, Leeds, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiacheng Zhao",
+      "position": 2,
+      "orcid": "0000-0001-5228-8972",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qianqi Sun",
+      "position": 3,
+      "orcid": "0009-0009-8939-7721",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zheng Wang",
+      "position": 4,
+      "orcid": "0000-0001-6157-0662",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computing, University of Leeds, Leeds, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Wen",
+      "position": 5,
+      "orcid": "0000-0002-6747-947X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Aberdeen, Aberdeen, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Teng Yu",
+      "position": 6,
+      "orcid": "0000-0003-4391-8295",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Thewake Systems Ltd, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaobing Feng",
+      "position": 7,
+      "orcid": "0000-0003-2909-7750",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Zhongguancun Laboratory, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huimin Cui",
+      "position": 8,
+      "orcid": "0000-0002-2491-7679",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624858"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624858",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624858",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624858",
+    "artifact": "https://doi.org/10.5281/zenodo.8404599",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://ucla.box.com/s/3hqli8jm3frvdji6tf4jnnmoh0y7w0dz",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624858",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624858",
+      "kind": "crossref",
+      "title": "Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:20b0e27a05b9385c6047b3a56dc0c69f16ece104a82e3f15262e332d504aedf5",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624858",
+      "url": "https://www.semanticscholar.org/paper/46d082480191d18d33a1c4ca2ce815ea5bd754c6",
+      "kind": "semantic-scholar",
+      "title": "Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:e7f4fb76b2121f755298dd0873a3d46ae4db5653b234ba2c9d9c4e4d62709ed8",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-8404599",
+      "url": "https://zenodo.org/records/8404599",
+      "kind": "artifact-page",
+      "title": "Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:b34bca4a42ea1769364d44da207a32a76246d9e4e0a374b60ef8399aac1c228e",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-automatic-generation-of-vectorizing-compilers-for-custom-67194775",
+  "title": "Automatic Generation of Vectorizing Compilers for Customizable Digital Signal Processors",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 5A: Compiler and Optimization Techniques",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Samuel Thomas",
+      "position": 1,
+      "orcid": "0009-0004-1412-2241",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Austin, Austin, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624873"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "James Bornholt",
+      "position": 2,
+      "orcid": "0000-0002-3258-3226",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Austin, Austin, Texas, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624873"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624873",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624873",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624873",
+    "artifact": "https://doi.org/10.5281/zenodo.10058900",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/XcZCMI4wuX4",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624873",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624873",
+      "kind": "crossref",
+      "title": "Automatic Generation of Vectorizing Compilers for Customizable Digital Signal Processors",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:94ad2de3f280a1de5d665502f54c0ce3a774adfb1501f32345c9fb142064a811",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624873",
+      "url": "https://www.semanticscholar.org/paper/682ae2dec64c6d2054550edbb0d647940195bedb",
+      "kind": "semantic-scholar",
+      "title": "Automatic Generation of Vectorizing Compilers for Customizable Digital Signal Processors",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:8df76d593a548dc55236592ad8b45f631207ccff8bc503930e4a8db6ab9bef00",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10058900",
+      "url": "https://zenodo.org/records/10058900",
+      "kind": "artifact-page",
+      "title": "ASPLOS Artifact Evaluation for Isaria",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:597ba7fdbac1cfa133e6150b578b7aa998050693ebe3524e800bf8a50cb0c945",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

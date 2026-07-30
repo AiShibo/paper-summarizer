@@ -1,0 +1,109 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-nanoflow-towards-optimal-large-language-model-serving-th-0452c3f8",
+  "takeaway": "NanoFlow overlaps compute-, memory-, and network-bound LLM inference operations inside each GPU by scheduling profiled nano-batches, raising throughput when serving is compute-bound and heavily batched.",
+  "background": "LLM inference mixes matrix multiplications, attention, and collective communication, each stressing different GPU resources. At large batches, the paper argues many evaluated models and workloads are compute-bound overall.",
+  "villain": "Existing engines execute those heterogeneous operations sequentially within a device, leaving compute units idle between kernels even when each kernel uses its own bottlenecked resource well.",
+  "approach": "NanoFlow divides a dense batch into independent nano-batches and overlaps nano-operations that bottleneck on different resources. A two-stage MILP search first chooses split sizes and ordering without interference, then uses profiled pairwise kernel interference to select resource allocations and kernel implementations. Its runtime forms mixed prefill/decode batches, executes the schedule with CUDA streams and events, and manages paged KV caches.",
+  "impact": "The authors argue that this operation-level pipeline can move throughput-oriented LLM serving closer to a profiled compute ceiling without changing model semantics.",
+  "evaluation": {
+    "overview": "The authors measure offline throughput, latency under request traces, ablations, resource use, and schedule portability across dense and mixture-of-experts models.",
+    "implemented": "An end-to-end NVIDIA GPU serving runtime with custom CUDA kernels, automatic pipeline search, request scheduling, and hierarchical KV-cache management.",
+    "setting": "Primary tests serve FP16 LLaMA-2-70B on one DGX node with eight A100 GPUs using Splitwise, LMSYS-Chat-1M, ShareGPT, and fixed-length requests; additional models test schedule portability.",
+    "baselines": [
+      "vLLM",
+      "DeepSpeed-FastGen",
+      "TensorRT-LLM",
+      "profile-derived theoretical optimal throughput"
+    ],
+    "results": [
+      {
+        "id": "claim-nanoflow-dataset-throughput",
+        "text": "For request lengths drawn from Splitwise, LMSYS-Chat-1M, and ShareGPT, the authors report 1.91× average offline throughput versus TensorRT-LLM, the strongest system baseline in those tests.",
+        "source_ids": [
+          "src-osdi25-pdf-0452c3f8"
+        ],
+        "locator": "PDF p. 13 (paper p. 760); §6.2, Figure 7(b)"
+      },
+      {
+        "id": "claim-nanoflow-optimal-throughput",
+        "text": "In its LLaMA-2-70B offline tests, NanoFlow reaches 68.5% of the paper's profile-derived theoretical optimal throughput in the best case.",
+        "source_ids": [
+          "src-osdi25-pdf-0452c3f8"
+        ],
+        "locator": "PDF pp. 12–13 (paper pp. 759–760); §6.2, Figure 7"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The paper's optimal-throughput analysis assumes the largest memory-fitting batch and applies to compute-bound workloads. A NanoFlow instance assumes abundant equal-priority requests, with autoscaling, load balancing, and priority routing outside the system.",
+  "phd_group_signal": "This work signals a performance-systems style that combines analytical bottleneck modeling, kernel interference profiling, schedule search, and an end-to-end CUDA runtime.",
+  "beginner_concepts": [
+    "LLM prefill and decode",
+    "GPU compute, memory, and network bottlenecks",
+    "nano-batching and intra-device pipelining",
+    "mixed-integer linear programming",
+    "KV-cache management"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-nanoflow-central-mechanism",
+      "text": "NanoFlow splits operations over independent nano-batches, overlaps nano-operations constrained by different GPU resources, and uses a two-stage search with measured interference to choose the pipeline and resource allocation.",
+      "source_ids": [
+        "src-osdi25-pdf-0452c3f8"
+      ],
+      "locator": "PDF pp. 8–11 (paper pp. 755–758); §§3.7–4.2, Figure 6"
+    },
+    {
+      "id": "claim-nanoflow-operating-regime",
+      "text": "The optimal-throughput model assumes the largest batch that fits model weights and KV caches, while each runtime instance assumes abundant equal-priority requests and delegates autoscaling, load balancing, and priority routing to an external control plane.",
+      "source_ids": [
+        "src-osdi25-pdf-0452c3f8"
+      ],
+      "locator": "PDF p. 5 and p. 11 (paper pp. 752 and 758); §§3.1 and 4.2.1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi25-pdf-0452c3f8",
+      "url": "https://www.usenix.org/system/files/osdi25-zhu-kan.pdf",
+      "kind": "paper-pdf",
+      "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:29:51Z",
+      "content_hash": "sha256:0b6a8d61e59bf808d9e5426364e6637095b2a22a2eced4fcba09b6eece145481",
+      "official": true,
+      "supports": [
+        "abstract, introduction, analysis, design, implementation, evaluation, and conclusion",
+        "central mechanism, operating assumptions, baselines, and author-reported throughput results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e1",
+    "updated_at": "2026-07-30T03:29:51Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§3.1–3.7, §§4.1–4.2, §5, §§6.1–6.6, and §8; inspected Figures 6–11 and Table 4 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:29:51Z",
+    "last_verified_at": "2026-07-30T03:29:51Z",
+    "collector_version": "agent-e1-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-f-fast-2025-specialist-pilot-2026-07-30",
+  "issued_at": "2026-07-30T01:10:33Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-f",
+  "status": "OPEN",
+  "action": "BEGIN_BOUNDED_ENTITY_AND_GROUP_PILOT",
+  "task_brief": "coordination/tasks/agent-f-faculty-groups.md",
+  "assignment": "coordination/assignments/fast-2025-specialist-pilot.json",
+  "authorized_stage_file": "groups.json",
+  "authorized_entity_paths": [
+    "data/entities/authors/**",
+    "data/entities/faculty/**",
+    "data/entities/research-groups/**",
+    "data/entities/institutions/**"
+  ],
+  "conditions": [
+    "Change coordination/claims/agent-f.json from PLANNED to IN_PROGRESS and list exactly the 36 assigned paper IDs before editing data.",
+    "Edit only assigned groups.json files, the authorized entity directories, and Agent F's own claim.",
+    "Search existing entity records before creating identifiers or aliases.",
+    "Use official evidence for faculty and group associations; never infer a PI from author order.",
+    "Keep publication-time affiliations separate from current faculty affiliations and do not edit metadata.json.",
+    "Use unresolved_authors when evidence is insufficient rather than guessing.",
+    "Do not process any paper outside the assignment, including incoming 2023-2024 records.",
+    "Run full-root draft validation and hand off entity creations, reuse decisions, evidence, duplicate candidates, unresolved associations, and validation output."
+  ]
+}

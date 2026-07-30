@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-fast-transparent-filesystem-microkernel-recovery-with-an-911ba3a1",
+  "takeaway": "Ananke transparently survives a user-space file-system process crash by replaying a protected operation log against durable state while a preinitialized replacement process takes over.",
+  "background": "A microkernel-style file system runs in a user process, so its failure need not crash applications or the host OS. Restarting it is insufficient, however: applications may depend on dirty pages, open descriptors, offsets, and completed operations that ordinary whole-system crash recovery never made durable.",
+  "villain": "Forcing every operation to storage closes this state gap but destroys common-case performance; replaying every call naively can duplicate already durable effects or violate changed preconditions. Recovery must also distrust the failed process's memory and reestablish device and IPC connections quickly.",
+  "approach": "Ananke records state-changing calls and their affected descriptors/inodes in replicated, checksummed per-core p-logs. Its Act–Ignore–Modify algorithm combines log status with on-disk recovery to replay only the missing effects, rescuing referenced dirty pages. The kernel detects failure and activates a preinitialized replacement process; checksums make semantic-memory corruption fail fast.",
+  "impact": "The system demonstrates that process-level file-system recovery can be stronger and cheaper than treating every failure as a machine crash. It identifies host coordination and transient state captured at failure time as valuable recovery resources unique to microkernel services.",
+  "evaluation": {
+    "overview": "Fault injection covers crashes after and during calls, concurrent applications, and exhaustive corruption of major memory regions. Separate experiments measure application throughput, log/checksum memory, garbage-collection tradeoffs, and restart latency.",
+    "implemented": "Approximately 4,000 lines added to the open-source uFS user-space file system, including p-logs, AIM replay, memory checksums, page rescue, and kernel-coordinated speculative restart.",
+    "setting": "A 64-core AMD 2.80 GHz server with 256 GB RAM and a Samsung PM173X NVMe SSD; workloads include GNU sort/copy/unzip, SQLite, LevelDB, YCSB, and injected fail-stop or memory-corruption faults.",
+    "baselines": [
+      "uFS",
+      "uFS-Sync",
+      "Membrane-style replay"
+    ],
+    "results": [
+      {
+        "id": "claim-ananke-faults",
+        "text": "Across more than 30,000 injected p-crash points in five applications, Ananke completes with the expected result and data; 300 additional multi-application crash points also recover correctly.",
+        "source_ids": [
+          "src-fast25-pdf-911ba3a1"
+        ],
+        "locator": "PDF pp. 10–11; §5.3, Figure 7"
+      },
+      {
+        "id": "claim-ananke-overhead",
+        "text": "Fully protected Ananke adds about 7% overhead for its two most write-intensive workloads and below 2% for the others, whereas synchronous persistence makes workloads as much as 6× slower.",
+        "source_ids": [
+          "src-fast25-pdf-911ba3a1"
+        ],
+        "locator": "PDF pp. 11–12; §5.5.1, Figure 8"
+      },
+      {
+        "id": "claim-ananke-restart",
+        "text": "Recovery remains below 400 ms in the tested write-intensive workloads because speculative initialization overlaps the roughly 2.9-second device-reconnection setup.",
+        "source_ids": [
+          "src-fast25-pdf-911ba3a1"
+        ],
+        "locator": "PDF pp. 12–13; §5.6, Figure 10"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "other"
+    ]
+  },
+  "limitations": "Ananke assumes correct logging code, an intact recovery stack, successful rescue of referenced pages, and application-level handling of user-data corruption. It does not protect the application–file-system message ring. Nine injected stack/heap corruptions prevented complete data rescue in the current signal-handler implementation, and corruption of both p-log replicas aborts recovery.",
+  "phd_group_signal": "The paper separates process-crash and system-crash semantics, then supports its recovery invariants with tens of thousands of precisely placed failures and memory corruptions. It models strong systems work that combines a clear fault model, mechanism design, adversarial testing, and common-path cost accounting.",
+  "beginner_concepts": [
+    "microkernel",
+    "user-space file system",
+    "write-ahead log",
+    "process crash",
+    "state gap",
+    "exactly-once semantics",
+    "fault injection"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-ananke-aim",
+      "text": "AIM classifies each logged operation as Act, Ignore, or Modify so replay reconstructs only transient effects absent from the recovered on-disk state.",
+      "source_ids": [
+        "src-fast25-pdf-911ba3a1"
+      ],
+      "locator": "PDF pp. 5–8; §§3.4–3.6, Figures 3–5"
+    },
+    {
+      "id": "claim-ananke-trust",
+      "text": "Recovery trusts only the replicated, checksummed p-log and explicitly rescued pages; it discards other failed-process memory and rebuilds file-system state from disk.",
+      "source_ids": [
+        "src-fast25-pdf-911ba3a1"
+      ],
+      "locator": "PDF pp. 4–7; §§3.3–3.5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-911ba3a1",
+      "url": "https://www.usenix.org/system/files/fast25-liu-jing.pdf",
+      "kind": "paper-pdf",
+      "title": "Fast, Transparent Filesystem Microkernel Recovery with Ananke",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:bd6daf6f2204556ef752df5ce1073543d810a169eee77e1d7413bf6607ffc207",
+      "official": true,
+      "supports": [
+        "abstract, introduction, fault model, design, implementation, evaluation, and conclusion",
+        "reported fault-injection outcomes, overheads, memory-corruption behavior, and recovery latency"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:37:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§2.1–2.5 recovery model, §§3.1–3.6 design, §4 implementation and assumptions, §§5.1–5.6 evaluation, and §7 Conclusion.",
+      "Fault-injection and performance results are author-reported and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:37:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

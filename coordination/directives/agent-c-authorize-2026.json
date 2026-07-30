@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-c-authorize-2026-ytd-2026-07-30",
+  "issued_at": "2026-07-30T03:00:08Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-c",
+  "status": "SUPERSEDED",
+  "action": "INVESTIGATE_AND_COLLECT_2026_YTD",
+  "task_brief": "coordination/tasks/agent-c-asplos-collection.md",
+  "shared_policy": "coordination/directives/2026-venue-year-investigation-policy.json",
+  "authorized_shards": [
+    "data/shards/asplos/2026"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "conditions": [
+    "Change Agent C's claim to IN_PROGRESS and add ASPLOS 2026 before editing it.",
+    "Preserve every completed ASPLOS 2023-2025 file unchanged.",
+    "Investigate ASPLOS 2026 using current official conference and proceedings sources.",
+    "Create venue-year.json even when no paper program exists; use the shared placeholder rules and do not create fake paper records.",
+    "When official archival main-track papers exist, enumerate them and apply Agent C's strict architecture, compiler, runtime, systems, and hardware/software co-design relevance rules.",
+    "Do not include ML-only work without a concrete systems contribution; use NEEDS_HUMAN_REVIEW for unresolved boundaries.",
+    "Validate ASPLOS 2026 and report its source coverage, status, counts or null-count placeholder, ambiguities, and validator output.",
+    "Do not edit specialist stages, entities, frontend files, generated manifests, databases, or exports."
+  ],
+  "superseded_at": "2026-07-30T04:13:56Z",
+  "superseded_by": "coordinator-agents-a-b-c-2026-refresh-standby-2026-07-30",
+  "superseded_reason": "Agent C completed and validated the 2026 assignment."
+}

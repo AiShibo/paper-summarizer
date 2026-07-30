@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-page-oriented-programming-subverting-control-flow-integr-b8b742b2",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper demonstrates a kernel exploit technique that bypasses deployed control-flow-integrity defenses.",
+  "topics": [
+    "systems-security",
+    "operating-systems-and-kernels",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "kernel",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-36f9441afcbbd757-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/han-seunghun",
+      "kind": "paper-page",
+      "title": "Page-Oriented Programming: Subverting Control-Flow Integrity of Commodity Operating System Kernels with Non-Writable Code Pages",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

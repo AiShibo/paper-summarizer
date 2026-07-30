@@ -1,0 +1,258 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-evt-accelerating-deep-learning-training-with-epilogue-vi-f8cf654a",
+  "title": "EVT: Accelerating Deep Learning Training with Epilogue Visitor Tree",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 11C: ML Training Optimizations",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhaodong Chen",
+      "position": 1,
+      "orcid": "0000-0001-9601-4586",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California, Santa Barbara, Santa Barbara, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andrew Kerr",
+      "position": 2,
+      "orcid": "0009-0003-5708-0216",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Richard Cai",
+      "position": 3,
+      "orcid": "0009-0000-5645-6718",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jack Kosaian",
+      "position": 4,
+      "orcid": "0000-0001-8812-7847",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haicheng Wu",
+      "position": 5,
+      "orcid": "0000-0003-0357-9049",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yufei Ding",
+      "position": 6,
+      "orcid": "0000-0002-8716-5793",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California San Diego, San Diego, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Xie",
+      "position": 7,
+      "orcid": "0000-0003-2093-1788",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, HongKong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651369"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651369",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651369",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/l_lCOmxcjeQ",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651369",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651369",
+      "kind": "crossref",
+      "title": "EVT: Accelerating Deep Learning Training with Epilogue Visitor Tree",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:4203d185de86a44af0aa3f701be48be32b3775e7254bec6bc64a7ea136547a0c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651369",
+      "url": "https://www.semanticscholar.org/paper/fab3e1ef6cb6e5c326194d4b8581e8266ab727b2",
+      "kind": "semantic-scholar",
+      "title": "EVT: Accelerating Deep Learning Training with Epilogue Visitor Tree",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:916d0915bceef2b85039f6f9116227b11bcc47e5cfb4d872aa436cdcfc639c47",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

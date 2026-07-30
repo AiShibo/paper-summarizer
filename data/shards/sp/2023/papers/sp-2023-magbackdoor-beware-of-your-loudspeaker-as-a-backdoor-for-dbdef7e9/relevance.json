@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-magbackdoor-beware-of-your-loudspeaker-as-a-backdoor-for-dbdef7e9",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper builds a magnetic-injection attack prototype and evaluates it across phones, laptops, tablets, and smart speakers.",
+  "topics": [
+    "hardware-security",
+    "mobile-edge-embedded-and-iot",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware",
+    "firmware"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-7c085aa32b9c728c-abstract",
+      "url": "https://openalex.org/W4385080301",
+      "kind": "openalex",
+      "title": "MagBackdoor: Beware of Your Loudspeaker as A Backdoor For Magnetic Injection Attacks",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

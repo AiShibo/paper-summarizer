@@ -1,0 +1,350 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-hetec-architectures-for-heterogeneous-quantum-error-corr-8d9b92d8",
+  "title": "HetEC: Architectures for Heterogeneous Quantum Error Correction Codes",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7B: Quantum Error Correction",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Samuel Stein",
+      "position": 1,
+      "orcid": "0000-0002-2655-8251",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Future Computing Technologies, Pacific Northwest National Laboratory, Richland, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shifan Xu",
+      "position": 2,
+      "orcid": "0009-0005-9103-228X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Departments of Applied Physics and Yale Quantum Institute, Yale University, New Haven, CT, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andrew W. Cross",
+      "position": 3,
+      "orcid": "0000-0001-9786-8196",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Quantum, IBM T.J Watson Research Center, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Theodore J. Yoder",
+      "position": 4,
+      "orcid": "0000-0001-9614-2836",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Quantum, IBM T. J. Watson Research Center, Yorktown Heights, BY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ali Javadi-Abhari",
+      "position": 5,
+      "orcid": "0000-0002-8022-2695",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IBM Quantum, IBM T. J. Watson Research Center, Yorktown Heights, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chenxu Liu",
+      "position": 6,
+      "orcid": "0000-0003-2616-3126",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Future Computing Technologies, Pacific Northwest National Laboratory, Richland, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kun Liu",
+      "position": 7,
+      "orcid": "0009-0002-9038-8733",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Departments of Applied Physics and Yale Quantum Institute, Yale University, New Haven, CT, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeyuan Zhou",
+      "position": 8,
+      "orcid": "0009-0001-1065-0942",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Departments of Applied Physics and Yale Quantum Institute, Yale University, New Haven, CT, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Charlie Guinn",
+      "position": 9,
+      "orcid": "0000-0002-5337-5821",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Physics, Princeton University, Princeton, NJ, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yufei Ding",
+      "position": 10,
+      "orcid": "0000-0002-8716-5793",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science & Engineering, University of California San Diego, San Diego, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongshan Ding",
+      "position": 11,
+      "orcid": "0000-0002-2338-1315",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Departments of Applied Physics, Yale Quantum Institute and Department of Computer Science, Yale University, New Haven, CT, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ang Li",
+      "position": 12,
+      "orcid": "0000-0003-3734-9137",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Future Computing Technologies, Pacific Northwest National Laboratory, Richland, WA, USA and Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716001"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716001",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716001",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716001",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716001",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716001",
+      "kind": "crossref",
+      "title": "HetEC: Architectures for Heterogeneous Quantum Error Correction Codes",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:ecb52c2002ca5aa84c69db8e2254ccf2a7d64d8cddf4c8aa8cda6914be325f04",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716001",
+      "url": "https://www.semanticscholar.org/paper/eae93aa5234361b09779fba9ccfb275182ff42d5",
+      "kind": "semantic-scholar",
+      "title": "HetEC: Architectures for Heterogeneous Quantum Error Correction Codes",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:91243aab74065183a90ae9d083d7231b08c347ec6a6ca59c4e77889244452071",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

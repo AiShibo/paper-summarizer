@@ -1,0 +1,186 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-pipellm-fast-and-confidential-large-language-model-servi-db52692c",
+  "title": "PipeLLM: Fast and Confidential Large Language Model Services with Speculative Pipelined Encryption",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3C: ML Security",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yifan Tan",
+      "position": 1,
+      "orcid": "0009-0008-6329-7274",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707224"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cheng Tan",
+      "position": 2,
+      "orcid": "0000-0002-1420-5125",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Northeastern University, Boston, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707224"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zeyu Mi",
+      "position": 3,
+      "orcid": "0000-0001-8395-1319",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707224"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haibo Chen",
+      "position": 4,
+      "orcid": "0000-0002-9720-0361",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707224"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707224",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707224",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707224",
+    "artifact": null,
+    "code": "https://github.com/SJTU-IPADS/PipeLLM",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2411.03357",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707224",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707224",
+      "kind": "crossref",
+      "title": "PipeLLM: Fast and Confidential Large Language Model Services with Speculative Pipelined Encryption",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:43e3666ce7def7fc8f7c8773b0ac0eb4e3d214590db589d1cfbb918a1723b002",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707224",
+      "url": "https://www.semanticscholar.org/paper/0e6b7e1bf0215b52cbe5e356ebcccde4719162ec",
+      "kind": "semantic-scholar",
+      "title": "PipeLLM: Fast and Confidential Large Language Model Services with Speculative Pipelined Encryption",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:0f5ac61186b99fe697d02393c260dd8e7bdceabdd63272a55fd2f2187a40034d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.project"
+    ]
+  }
+}

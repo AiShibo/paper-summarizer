@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-cloudscape-a-study-of-storage-services-in-modern-cloud-a-9d0a7c31",
+  "takeaway": "Cloudscape turns 396 AWS architecture videos into a graph dataset, revealing object storage's dominance, frequent multi-store designs, and tight storage coupling with serverless, ML, and analytics services.",
+  "background": "Public clouds offer many specialized storage, compute, messaging, machine-learning, and analytics services. Researchers designing cloud storage need evidence about which services practitioners combine and how data moves among them, but provider-internal traces and isolated benchmarks expose little of this architectural context.",
+  "villain": "Existing production traces emphasize resource utilization or private-cloud internals, while public-cloud studies often isolate one service class. That leaves storage research dependent on anecdotes and testbeds that may omit common object stores, multi-store workflows, or cross-service interactions.",
+  "approach": "Cloudscape manually converts AWS Architecture Explained videos into directed graphs whose nodes are services and whose labeled edges capture data, metadata, and workflow relationships. Six annotators iteratively produced a 134-service taxonomy and used the resulting graphs for quantitative and qualitative analyses of storage roles, clients, data types, ML, analytics, caches, queues, and registries.",
+  "impact": "The released dataset gives systems researchers a concrete basis for building more representative cloud testbeds and studying object lifecycles, cross-service consistency, storage formats, and service-aware optimizations. Its observations especially motivate treating S3-like object storage as infrastructure shared across heterogeneous workflows.",
+  "evaluation": {
+    "overview": "The study measures service prevalence and connectivity across annotated architecture graphs, then qualitatively classifies functional goals and stored data for sufficiently detailed examples. It separately analyzes S3 traffic direction, ML and analytics interactions, and storage-adjacent services.",
+    "implemented": "A public dataset of 396 AWS architecture graphs plus annotations and analysis artifacts, built through roughly 18 human-months of iterative viewing and cross-checking by six annotators.",
+    "setting": "The source corpus comprises more than 40 hours of 396 AWS Architecture Explained videos published from 2019 through 2023 in 11 languages. Of these, 340 had enough detail for quantitative analysis and 176 for qualitative storage-type analysis.",
+    "baselines": [
+      "AWS-tag frequencies in the Stack Overflow dataset",
+      "DeathStarBench",
+      "vHive-serverless",
+      "FunctionBench"
+    ],
+    "results": [
+      {
+        "id": "claim-cloudscape-storage-prevalence",
+        "text": "Across the analyzed architectures, the paper reports S3 in 68%, NoSQL storage in about 41%, SQL storage in about 31%, and distributed file systems in about 4%.",
+        "source_ids": [
+          "src-fast25-pdf-9d0a7c31"
+        ],
+        "locator": "PDF pp. 7–8; §§4.1–4.2, Figures 3–4"
+      },
+      {
+        "id": "claim-cloudscape-heterogeneity",
+        "text": "The dataset shows 52.35% of architectures using at least two storage services, while 35.3% contain a workflow that touches at least two stores.",
+        "source_ids": [
+          "src-fast25-pdf-9d0a7c31"
+        ],
+        "locator": "PDF pp. 8–9; §4.3, Figure 5 and Table 2"
+      },
+      {
+        "id": "claim-cloudscape-specialized-services",
+        "text": "The authors find an ML service in 18% and an analytics service in 42% of architectures; both service families interact predominantly with object storage.",
+        "source_ids": [
+          "src-fast25-pdf-9d0a7c31"
+        ],
+        "locator": "PDF pp. 11–12; §§4.7–4.8, Figures 8–9"
+      }
+    ],
+    "study_types": [
+      "measurement-study"
+    ]
+  },
+  "limitations": "The corpus covers only AWS and is curated by AWS, so it may overrepresent architectures selected for publication and cannot establish how representative the sample is of all deployments or other clouds. Videos omit some implicit services, data volumes, object identities, and developer rationale. Qualitative analyses use only the 176 sufficiently descriptive architectures, and graph edges record stated relationships rather than observed runtime traffic.",
+  "phd_group_signal": "This work exemplifies an empirical systems-research style: construct a reusable dataset from messy public evidence, define a reproducible taxonomy, state sampling biases, and turn descriptive measurements into concrete testbed and research-design implications without treating the sample as universal.",
+  "beginner_concepts": [
+    "object storage",
+    "cloud architecture",
+    "serverless computing",
+    "data pipeline",
+    "storage service",
+    "architecture graph",
+    "selection bias"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-cloudscape-method",
+      "text": "Cloudscape represents each described deployment as a graph of cloud-service nodes and labeled data, metadata, and workflow edges, using a taxonomy of 134 unique services.",
+      "source_ids": [
+        "src-fast25-pdf-9d0a7c31"
+      ],
+      "locator": "PDF pp. 4–6; §§2.1–2.2 and §3"
+    },
+    {
+      "id": "claim-cloudscape-s3-role",
+      "text": "Among architectures containing S3, about 70% show both uploads and downloads, supporting the paper's interpretation of S3 as an active cross-workflow staging layer rather than only an archive.",
+      "source_ids": [
+        "src-fast25-pdf-9d0a7c31"
+      ],
+      "locator": "PDF p. 10; §4.5, Figure 7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-9d0a7c31",
+      "url": "https://www.usenix.org/system/files/fast25-satija.pdf",
+      "kind": "paper-pdf",
+      "title": "Cloudscape: A Study of Storage Services in Modern Cloud Architectures",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:a29b2991872b3d51ef7c43ac5e50cfceb73ef8a269fb4f0181ba6a990c621b8e",
+      "official": true,
+      "supports": [
+        "abstract, introduction, dataset methodology, analysis, discussion, and conclusion",
+        "reported corpus composition, storage prevalence, service interactions, and study limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:28:27Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§2.1–2.3 dataset construction and limitations, §3 dataset overview, §§4.1–4.9 analysis, §5 Discussion, and §7 Conclusion.",
+      "Percentages are observations from the curated AWS-video corpus, not estimates of all public-cloud deployments, and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:28:27Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

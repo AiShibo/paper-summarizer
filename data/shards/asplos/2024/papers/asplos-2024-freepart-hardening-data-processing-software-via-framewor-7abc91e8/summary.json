@@ -1,0 +1,123 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-freepart-hardening-data-processing-software-via-framewor-7abc91e8",
+  "takeaway": "FreePart isolates data-processing framework APIs by workflow phase, then tightens data and syscall permissions to contain framework exploits with modest overhead in tested applications.",
+  "background": "Machine-learning and image-processing applications entrust large parts of their execution to frameworks such as OpenCV, PyTorch, Caffe, and TensorFlow. A memory bug in one framework API can otherwise reach the host application's code and data.",
+  "villain": "General-purpose partitioning either needs difficult dependency analysis or incurs heavy copying, while isolating an entire framework leaves unrelated APIs and critical data inside one compromise domain.",
+  "approach": "FreePart uses hybrid static and dynamic analysis to classify framework APIs as loading, processing, visualizing, or storing, then hooks calls so each class runs in a separate agent process. It tracks the current API phase to make earlier critical data read-only, applies seccomp-BPF syscall and file-descriptor restrictions, and uses RPC with lazy data copying between agents. Custom data structures require annotations, and security depends on correct classification plus a trusted OS kernel and FreePart runtime.",
+  "impact": "The authors claim this framework-aware boundary can contain supported framework exploits without first deriving a complete code-level dependency partition.",
+  "evaluation": {
+    "overview": "The prototype was applied to 23 applications using OpenCV, Caffe, PyTorch, and TensorFlow, tested with application workloads and reproduced attacks from real CVEs.",
+    "implemented": "A 3,829-SLOC prototype used LLVM and PyCG for API analysis, C++ runtime support, inter-process RPC over shared-memory ring buffers, mprotect-based data permissions, and seccomp-BPF syscall filters.",
+    "setting": "Experiments ran on an Intel i7-9750H host with 32 GB RAM, Ubuntu 18.04, and a GeForce RTX 2060; workloads included application demos and tests, 144 GB of ImageNet-derived image/video data, and text inputs.",
+    "baselines": [
+      "Original unprotected applications",
+      "FreePart without lazy data copy"
+    ],
+    "results": [
+      {
+        "id": "claim-freepart-security-result",
+        "text": "Across 23 programs, the authors reproduced eight attacks from 18 CVEs plus six case-study attacks and report that FreePart mitigated all of them, with no false negatives observed.",
+        "source_ids": [
+          "src-freepart-full-paper"
+        ],
+        "locator": "Section 5, Correctness of FreePart; Table 5; Sections 5.3-5.4"
+      },
+      {
+        "id": "claim-freepart-overhead-result",
+        "text": "The authors report 3.68% average runtime overhead across 23 programs, compared with 9.7% when lazy data copy was disabled.",
+        "source_ids": [
+          "src-freepart-full-paper"
+        ],
+        "locator": "Section 5.2, Figure 13"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The threat model covers malicious inputs exploiting supported framework vulnerabilities; host-application bugs, ML adversarial examples, a compromised OS, and compromise of the FreePart runtime are outside scope. Attackers retain control within a compromised agent process, and misclassified APIs or missing custom-data annotations can expose data or break functionality.",
+  "phd_group_signal": "The work starts from an empirical workflow pattern, turns it into isolation boundaries and least-privilege policies, then validates both exploit containment and IPC-performance optimizations on real applications.",
+  "beginner_concepts": [
+    "process isolation",
+    "remote procedure call",
+    "seccomp-BPF syscall filtering",
+    "temporal memory permission",
+    "threat model and CVE"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-freepart-mechanism",
+      "text": "FreePart partitions four framework API classes into separate processes, changes earlier data to read-only as the workflow advances, restricts each process's syscalls, and uses lazy data copy to avoid routing every object through the host process.",
+      "source_ids": [
+        "src-freepart-full-paper"
+      ],
+      "locator": "Sections 3.2 and 4.1-4.4, Figures 3, 5, 10-12"
+    },
+    {
+      "id": "claim-freepart-threat-boundary",
+      "text": "FreePart assumes an attacker exploits a data-processing framework through malicious input, while the OS kernel and FreePart runtime remain trusted; host-application vulnerabilities and attacks on ML algorithm robustness are outside scope.",
+      "source_ids": [
+        "src-freepart-full-paper"
+      ],
+      "locator": "Section 2, Threat Model"
+    },
+    {
+      "id": "claim-freepart-residual-risk",
+      "text": "A compromised agent remains vulnerable to attacks within that process, API miscategorization can grant access to sensitive data, and user-defined protected data structures require manual layout annotations.",
+      "source_ids": [
+        "src-freepart-full-paper"
+      ],
+      "locator": "Section 4.4.3 and Section 6, Impact of API Miscategorization and Impact of Intra-Process Attacks"
+    },
+    {
+      "id": "claim-freepart-evaluation-setting",
+      "text": "The 3,829-SLOC prototype was evaluated on 23 applications using an Intel i7-9750H host with 32 GB RAM, Ubuntu 18.04, and a GeForce RTX 2060, including workloads drawn from 144 GB of data.",
+      "source_ids": [
+        "src-freepart-full-paper"
+      ],
+      "locator": "Section 5, Implementation and Experimental Setup; Section 5.1, Program Selection and Workloads"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-freepart-full-paper",
+      "url": "https://yonghwi-kwon.github.io/data/freepart_asplos24.pdf",
+      "kind": "paper-pdf",
+      "title": "FreePart: Hardening Data Processing Software via Framework-based Partitioning and Isolation",
+      "publisher": "Yonghwi Kwon (author-hosted copy)",
+      "retrieved_at": "2026-07-30T03:34:28Z",
+      "content_hash": "sha256:d30199967ca2487bdf48a1bdb8ec9345c6b5a102965516fd07dcf309b48e7678",
+      "official": true,
+      "supports": [
+        "Full paper abstract, introduction, threat model, design, runtime enforcement, evaluation, security analysis, limitations, and conclusion."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e7",
+    "updated_at": "2026-07-30T03:51:17Z",
+    "notes": [
+      "Read the abstract; Sections 1-6 and 8; and Figures 3-15 and Tables 1-7 needed for the mechanism, trust boundary, residual risks, workloads, baselines, and results.",
+      "The ACM endpoint returned HTTP 403, so a DOI-matching full paper hosted by an author was used and hashed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:34:28Z",
+    "last_verified_at": "2026-07-30T03:51:17Z",
+    "collector_version": "agent-e7-summary-calibration-v1",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

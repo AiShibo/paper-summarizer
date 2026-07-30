@@ -1,0 +1,191 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-severifast-minimizing-the-root-of-trust-for-fast-startup-7a0f482d",
+  "title": "SEVeriFast: Minimizing the root of trust for fast startup of SEV microVMs",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 10D: Trusted Computing",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Benjamin Holmes",
+      "position": 1,
+      "orcid": "0009-0004-1250-0835",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, Cambridge, MA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640424"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Vassar College, Poughkeepsie, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jason Waterman",
+      "position": 2,
+      "orcid": "0000-0002-2891-3173",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Vassar College, Poughkeepsie, NY, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dan Williams",
+      "position": 3,
+      "orcid": "0000-0003-1537-0525",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Virginia Tech, Blacksburg, VA, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640424"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640424",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640424",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640424",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/BqHSGwFJDas",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "project-copy",
+      "url": "https://vtechworks.lib.vt.edu/bitstreams/08af8c2d-681f-4edf-ab72-c960ab94fa54/download",
+      "relationship": "Institutional-repository copy indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640424",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640424",
+      "kind": "crossref",
+      "title": "SEVeriFast: Minimizing the root of trust for fast startup of SEV microVMs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:bb8fc7014a1fb5d041ce2b7cfe68fa0df45f758bb2f38f61bee8187f1840c78d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640424",
+      "url": "https://www.semanticscholar.org/paper/ce43271c8e18b63d181b43b971128ebacec8cf9a",
+      "kind": "semantic-scholar",
+      "title": "SEVeriFast: Minimizing the root of trust for fast startup of SEV microVMs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:b72395d07036c9365c4caceb017c0b43bfc668e05fec7a5895652b82f048e6ee",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

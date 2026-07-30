@@ -1,0 +1,173 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-efficient-lossless-compression-of-scientific-floating-po-787ccaf3",
+  "title": "Efficient Lossless Compression of Scientific Floating-Point Data on CPUs and GPUs",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 4C: Potpourri 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Noushin Azami",
+      "position": 1,
+      "orcid": "0009-0002-7771-6480",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, Texas State University, San Marcos, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alex Fallin",
+      "position": 2,
+      "orcid": "0000-0002-9200-6260",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, Texas State University, San Marcos, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707280"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin Burtscher",
+      "position": 3,
+      "orcid": "0000-0001-7717-3354",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, Texas State University, San Marcos, Texas, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707280"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707280",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707280",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707280",
+    "artifact": "https://doi.org/10.5281/zenodo.14059695",
+    "code": "https://github.com/alexfallin/LosslessFP-Artifact-ASPLOS25/tree/1.0.2",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707280",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707280",
+      "kind": "crossref",
+      "title": "Efficient Lossless Compression of Scientific Floating-Point Data on CPUs and GPUs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:886c03d957e1f1aa65904cf97d05a4ad07ea81f704169a3506a76f9098f18c5c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707280",
+      "url": "https://www.semanticscholar.org/paper/285c3a0288072e6f719f25583a00dd3e0f724bdb",
+      "kind": "semantic-scholar",
+      "title": "Efficient Lossless Compression of Scientific Floating-Point Data on CPUs and GPUs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:9200e340ff8cf1837f80586cd171e7f448383c3cf2767684a750431ffd2ffb2f",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14059695",
+      "url": "https://zenodo.org/records/14059695",
+      "kind": "artifact-page",
+      "title": "alexfallin/LosslessFP-Artifact-ASPLOS25: ASPLOS '25 Artifact Release 2",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a441a06af593c81efc2cf540c93dcca1e2b369f5ab08279b2a4c8bf25f2df47f",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

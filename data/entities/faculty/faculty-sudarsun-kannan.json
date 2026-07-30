@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/faculty.schema.json",
+  "schema_version": "1.0.0",
+  "faculty_id": "faculty-sudarsun-kannan",
+  "author_id": "author-sudarsun-kannan",
+  "display_name": "Sudarsun Kannan",
+  "official_profile_url": "https://people.cs.rutgers.edu/~sk2113/",
+  "current_institution_id": "institution-rutgers-university-new-brunswick",
+  "department": "Department of Computer Science",
+  "faculty_rank": "Associate Professor",
+  "current_location": {
+    "city": "Piscataway",
+    "state_or_province": "New Jersey",
+    "country": "United States",
+    "region": null
+  },
+  "research_topics": [],
+  "recruiting": {
+    "exact_statement": "I will be hiring 1–2 Ph.D. students with strong interests in operating systems and computer architecture.",
+    "source_id": "src-faculty-sudarsun-kannan-profile",
+    "last_verified_at": "2026-07-30T02:52:23Z"
+  },
+  "sources": [
+    {
+      "id": "src-faculty-sudarsun-kannan-profile",
+      "url": "https://people.cs.rutgers.edu/~sk2113/",
+      "kind": "faculty-page",
+      "title": "Official faculty profile for Sudarsun Kannan",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current faculty appointment",
+        "current institution",
+        "faculty rank",
+        "current location",
+        "explicit current recruiting statement"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Current affiliation is stored here and is not substituted for publication-time affiliation in metadata.json.",
+      "Recruiting is null unless an explicit current official statement was found."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics",
+      "current_location.region"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-flacio-flat-and-collective-i-o-for-container-image-servi-a815298a",
+  "associations": [],
+  "unresolved_authors": [
+    {
+      "name": "Yubo Liu",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Hongbo Li",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Mingrui Liu",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Rui Jing",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Jian Guo",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Bo Zhang",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Hanjun Guo",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Yuxin Ren",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    },
+    {
+      "name": "Ning Jia",
+      "reason": "The official USENIX page identifies only Huawei Technologies; no collected official source established a research division, research-group association, or faculty relationship for this author."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-a815298a-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/liu-yubo",
+      "kind": "paper-page",
+      "title": "FlacIO: Flat and Collective I/O for Container Image Service",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "UNRESOLVED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors",
+      "associations"
+    ]
+  }
+}

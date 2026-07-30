@@ -1,0 +1,55 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2024-concealing-compression-accelerated-i-o-for-hpc-applicati-ca457bf4",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material resource management and scheduling mechanism at the middleware layer.",
+  "topics": [
+    "resource-management-and-scheduling",
+    "scheduling"
+  ],
+  "system_layers": [
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-eurosys-2024-program",
+      "url": "https://2024.eurosys.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2024 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:0ce581fa5ee47fdf90c4bfd7a323b25adbcd4d1f165a002808ec1d73dd75d0a9",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification was based on the official title and session/list entry; abstract not present on the program page"
+    ]
+  }
+}

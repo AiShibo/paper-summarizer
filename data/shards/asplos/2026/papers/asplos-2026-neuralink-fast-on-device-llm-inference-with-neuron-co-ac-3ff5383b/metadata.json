@@ -1,0 +1,293 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-neuralink-fast-on-device-llm-inference-with-neuron-co-ac-3ff5383b",
+  "title": "Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 5B: On-Device & Edge AI",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-06",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tuowei Wang",
+      "position": 1,
+      "orcid": "0009-0006-8272-8151",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruwen Fan",
+      "position": 2,
+      "orcid": "0009-0002-3590-7473",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minxing Huang",
+      "position": 3,
+      "orcid": "0009-0003-8024-4928",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tianjin University, Tianjin, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zixu Hao",
+      "position": 4,
+      "orcid": "0009-0007-1671-1367",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kun Li",
+      "position": 5,
+      "orcid": "0000-0002-1013-1325",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ting Cao",
+      "position": 6,
+      "orcid": "0000-0002-9107-013X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youyou Lu",
+      "position": 7,
+      "orcid": "0000-0002-6214-5390",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yaoxue Zhang",
+      "position": 8,
+      "orcid": "0000-0002-4833-9789",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ju Ren",
+      "position": 9,
+      "orcid": "0000-0003-2782-183X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676642-3736114"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676642.3736114",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676642.3736114",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676642.3736114",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2410.19274",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3676642-3736114",
+      "url": "https://api.crossref.org/works/10.1145/3676642.3736114",
+      "kind": "crossref",
+      "title": "Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:02e998bc75eb9f3167f935726ceed305dd9126c6aacf308768b8b0c82d0de40b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676642-3736114",
+      "url": "https://www.semanticscholar.org/paper/b58c0be63ba19c2b4a135ac6fc3f465b13211b65",
+      "kind": "semantic-scholar",
+      "title": "Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:b06001557ba2af79332026f6a984ca6344e2828954abddbbae2133a856bce8e7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "The publisher labels this DOI as ASPLOS 2025 Volume 3 with a 2025-08-06 date; the official ASPLOS 2026 detailed program controls venue-year placement."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Publisher prior-volume label/date conflict with official ASPLOS 2026 program placement",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-clockwork-finance-automated-analysis-of-economic-securit-09b32118",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements an automated smart-contract economic-security analysis tool.",
+  "topics": [
+    "systems-security",
+    "program-analysis",
+    "vulnerability-discovery"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "formal-model-or-proof",
+    "deployment-experience"
+  ],
+  "methods": [
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-518fa10f6b4b407b-abstract",
+      "url": "https://openalex.org/W3198478013",
+      "kind": "openalex",
+      "title": "Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

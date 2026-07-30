@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-e3-summary-calibration-001",
+  "issued_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e3",
+  "status": "OPEN",
+  "action": "COMPLETE_FIVE_PAPER_SUMMARY_CALIBRATION",
+  "task_brief": "coordination/tasks/agent-e-paper-summaries.md",
+  "accuracy_policy": "coordination/directives/summary-accuracy-first-policy.json",
+  "writer_procedure": "coordination/directives/summary-calibration-writer-procedure.json",
+  "assignment": "coordination/assignments/summary-calibration/agent-e3.json",
+  "claim_path": "coordination/claims/agent-e3.json",
+  "authorized_shard": "data/shards/asplos/2025",
+  "paper_count": 5,
+  "conditions": [
+    "Follow the task brief, accuracy policy, writer procedure, and assignment without widening scope.",
+    "Edit only the five assigned summary.json files and coordination/claims/agent-e3.json.",
+    "Stop after handoff and wait for independent calibration review."
+  ]
+}

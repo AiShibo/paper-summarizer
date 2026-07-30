@@ -1,0 +1,418 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-msccl-rethinking-gpu-communication-abstractions-for-ai-i-9f8dd8bc",
+  "title": "MSCCL++: Rethinking GPU Communication Abstractions for AI Inference",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 2C: GPU Systems & Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Changho Hwang",
+      "position": 1,
+      "orcid": "0009-0007-8756-4480",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Vancouver, BC, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Cheng",
+      "position": 2,
+      "orcid": "0000-0003-4014-4757",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Roshan Dathathri",
+      "position": 3,
+      "orcid": "0009-0006-8815-7468",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhinav Jangda",
+      "position": 4,
+      "orcid": "0000-0002-4849-6776",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Saeed Maleki",
+      "position": 5,
+      "orcid": "0000-0002-7998-3681",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Madan Musuvathi",
+      "position": 6,
+      "orcid": "0000-0002-2482-7892",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Olli Saarikivi",
+      "position": 7,
+      "orcid": "0000-0001-7596-4734",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aashaka Shah",
+      "position": 8,
+      "orcid": "0009-0004-0628-4515",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyue Yang",
+      "position": 9,
+      "orcid": "0009-0008-0491-7082",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Binyang Li",
+      "position": 10,
+      "orcid": "0000-0002-9295-6530",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Caio Rocha",
+      "position": 11,
+      "orcid": "0009-0008-2036-1379",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qinghua Zhou",
+      "position": 12,
+      "orcid": "0009-0001-8490-7990",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mahdieh Ghazimirsaeed",
+      "position": 13,
+      "orcid": "0009-0009-8226-5515",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Cambridge, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sreevatsa Anantharamu",
+      "position": 14,
+      "orcid": "0009-0006-0414-2200",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, ,",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jithin Jose",
+      "position": 15,
+      "orcid": "0000-0001-9549-7918",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Austin, TX, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790188"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790188",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790188",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2504.09014",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790188",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790188",
+      "kind": "crossref",
+      "title": "MSCCL++: Rethinking GPU Communication Abstractions for AI Inference",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:c74ba373865f4b644c7e349acb6ececd8ae18bdeaf8775c7f8e10f4986d93c88",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790188",
+      "url": "https://www.semanticscholar.org/paper/cfaf1e88111e1b3135a845557f7ff014f1b8e092",
+      "kind": "semantic-scholar",
+      "title": "MSCCL++: Rethinking GPU Communication Abstractions for AI Inference",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:eaa288e1ef894af858696c83a5d2fcfbb44a206f797d4a9d1fe494d392afb119",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

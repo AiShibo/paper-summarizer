@@ -1,0 +1,96 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-dna-data-storage-a-generative-tool-for-motif-based-dna-s-a24c25d0",
+  "associations": [
+    {
+      "group_id": "group-imperial-scale-lab",
+      "faculty_id": "faculty-thomas-heinis",
+      "publication_institution_id": "institution-imperial-college-london",
+      "current_institution_id": "institution-imperial-college-london",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-a24c25d0-paper-page",
+        "src-agent-f-a24c25d0-faculty-profile",
+        "src-agent-f-a24c25d0-lab-page"
+      ],
+      "rationale": "Imperial's official profile identifies Thomas Heinis as professor leading SCALE Lab and links his DNA data-storage research; the USENIX page supplies the exact paper record.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Samira Brunmayr",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Omer S. Sella",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-a24c25d0-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/brunmayr",
+      "kind": "paper-page",
+      "title": "DNA data storage: A generative tool for Motif-based DNA storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-a24c25d0-faculty-profile",
+      "url": "https://profiles.imperial.ac.uk/t.heinis",
+      "kind": "faculty-page",
+      "title": "Thomas Heinis",
+      "publisher": "Imperial College London",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current professor appointment",
+        "leadership of SCALE Lab",
+        "DNA data-storage research"
+      ]
+    },
+    {
+      "id": "src-agent-f-a24c25d0-lab-page",
+      "url": "https://scale.doc.ic.ac.uk/",
+      "kind": "lab-page",
+      "title": "SCALE Lab",
+      "publisher": "Imperial College London",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official lab identity"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

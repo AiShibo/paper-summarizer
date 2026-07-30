@@ -1,0 +1,41 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/review.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "reviewer": "fixture-reviewer",
+  "independent_from": [
+    "fixture-collector",
+    "fixture-classifier",
+    "fixture-summary-writer",
+    "fixture-group-resolver",
+    "fixture-award-verifier"
+  ],
+  "checks": {
+    "metadata": true,
+    "relevance": true,
+    "summary_accuracy": true,
+    "numerical_claims": true,
+    "pi_attribution": true,
+    "awards": true,
+    "duplicates": true,
+    "links": true
+  },
+  "issues": [],
+  "decision": "APPROVED",
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-reviewer",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": [
+      "This approves a synthetic schema fixture, not a scientific paper."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "VERIFIED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": []
+  }
+}

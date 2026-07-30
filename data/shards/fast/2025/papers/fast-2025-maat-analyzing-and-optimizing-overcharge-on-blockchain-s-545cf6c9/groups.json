@@ -1,0 +1,127 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-maat-analyzing-and-optimizing-overcharge-on-blockchain-s-545cf6c9",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-xiaosong-zhang",
+      "publication_institution_id": "institution-uestc",
+      "current_institution_id": "institution-uestc",
+      "association_type": "official-student-advisor",
+      "evidence_source_ids": [
+        "src-agent-f-545cf6c9-paper-page",
+        "src-agent-f-545cf6c9-institution-news",
+        "src-agent-f-545cf6c9-faculty-profile"
+      ],
+      "rationale": "Official UESTC news identifies Maat and explicitly names Professor Xiaosong Zhang as Zheyuan He's doctoral advisor; the official profile confirms Zhang's current appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Zheyuan He",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zihao Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ao Qiao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Jingwei Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Feng Luo",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Sen Yang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Gelei Deng",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Shuwei Song",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ting Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xiapu Luo",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-545cf6c9-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/he",
+      "kind": "paper-page",
+      "title": "Maat: Analyzing and Optimizing Overcharge on Blockchain Storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-545cf6c9-institution-news",
+      "url": "https://news.uestc.edu.cn/info/1005/5781.htm",
+      "kind": "institution-page",
+      "title": "UESTC FAST 2025 news",
+      "publisher": "University of Electronic Science and Technology of China",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact Maat paper",
+        "Xiaosong Zhang explicitly identified as Zheyuan He's doctoral advisor"
+      ]
+    },
+    {
+      "id": "src-agent-f-545cf6c9-faculty-profile",
+      "url": "https://faculty.uestc.edu.cn/zhangxiaosong/zh_CN/index.htm",
+      "kind": "faculty-page",
+      "title": "Xiaosong Zhang",
+      "publisher": "University of Electronic Science and Technology of China",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current UESTC professor appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

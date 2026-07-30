@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2025-atlas-towards-real-time-verification-in-large-scale-netw-88b24248",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material distributed systems mechanism at the distributed service layer.",
+  "topics": [
+    "distributed-systems",
+    "fault-tolerance",
+    "networking",
+    "datacenter-networking",
+    "formal-methods-and-systems-verification",
+    "verified-systems"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-eurosys-2025-program",
+      "url": "https://2025.eurosys.org/preliminary-program.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2025 Main-Track Program",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:72c98f4f9a55b0ff81c3e44a494d197e3e8234fd2bd3289360199f774b409b6b",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification was based on the official title and session/list entry; abstract not present on the program page"
+    ]
+  }
+}

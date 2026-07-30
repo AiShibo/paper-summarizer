@@ -1,0 +1,111 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-dna-data-storage-a-generative-tool-for-motif-based-dna-s-a24c25d0",
+  "takeaway": "A stochastic motif generator scores each next DNA base against interacting biological constraints, producing reusable keys and payloads that remain valid in any concatenation order.",
+  "background": "DNA offers extreme density and archival durability, but nucleotide-by-nucleotide synthesis is too slow and expensive for practical storage. Motif-based schemes pre-manufacture short DNA symbols and assemble them as an alphabet, shifting the problem toward designing reusable sequences that chemistry can synthesize, join, and read reliably.",
+  "villain": "Keys and payloads cannot be chosen independently or merely filtered one at a time: any concatenation may create long homopolymers, poor GC balance, hairpins, reserved sequences, or unintended key matches. Random search becomes inefficient as motifs lengthen and constraints interact.",
+  "approach": "The tool models sequence construction as a Markov decision process. At every base, weighted log-score functions assess homopolymers, GC content, hairpin risk, similarity, and key-in-payload collisions; normalized rewards stochastically select A, C, G, or T. A separate exhaustive validator checks each motif and its possible combinations against adjustable constraints.",
+  "impact": "The work supplies open generation and validation tools for adapting motif alphabets as synthesis technology changes. It advances the sequence-design layer needed before motif-based DNA can function as a lower-cost storage medium, without claiming an end-to-end physical storage system.",
+  "evaluation": {
+    "overview": "Evaluation measures generation time for single constraints across motif lengths 3–100, then tests an eight-key, fifteen-payload configuration against simultaneous constraints supplied by a commercial synthesis provider.",
+    "implemented": "Open-source stochastic key/payload generator and an independent pass/fail validation tool.",
+    "setting": "A quad-core Intel processor; the combined test uses 20-base keys, 60-base payloads, up to eight keys and fifteen payloads, homopolymers no longer than five, GC content from 25–65%, and restricted hairpins.",
+    "baselines": [
+      "DNA Fountain",
+      "Euclid",
+      "Preuss et al. shortmer combinatorial encoding",
+      "random sequence generation"
+    ],
+    "results": [
+      {
+        "id": "claim-dna-single-constraint",
+        "text": "For tested single constraints, the motif generator's maximum reported time is 25 ms, versus at least 377 ms for Preuss et al. and more than eight minutes for Euclid; random search is faster only in easier regimes.",
+        "source_ids": [
+          "src-fast25-pdf-a24c25d0"
+        ],
+        "locator": "PDF p. 7; §5.2, Figure 7"
+      },
+      {
+        "id": "claim-dna-combined-constraints",
+        "text": "Under all Table 1 constraints, the tool generates a conforming motif set in 2.54 seconds, while none of four comparison methods produces one within five minutes.",
+        "source_ids": [
+          "src-fast25-pdf-a24c25d0"
+        ],
+        "locator": "PDF pp. 8–9; §5.3, Tables 1–2"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Validation is computational rather than a wet-lab synthesis, assembly, sequencing, or data-recovery experiment. The combined evaluation uses one parameter set, a quad-core machine, and short five-minute comparison cutoffs. The reward functions cover selected constraints and require tuned weights; the paper calls this a first step, not a complete DNA-storage codec or device.",
+  "phd_group_signal": "This interdisciplinary systems work translates physical failure modes into an adjustable optimization interface and provides an independent checker. It is a useful example of building a storage abstraction around emerging media while clearly separating algorithmic feasibility from laboratory validation.",
+  "beginner_concepts": [
+    "DNA data storage",
+    "DNA motif",
+    "GC content",
+    "homopolymer",
+    "DNA hairpin",
+    "Markov decision process",
+    "constraint validation"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-dna-reward",
+      "text": "The generator extends keys and payloads one nucleotide at a time using a categorical distribution derived from weighted constraint-specific log scores.",
+      "source_ids": [
+        "src-fast25-pdf-a24c25d0"
+      ],
+      "locator": "PDF pp. 3–6; §§2.1–2.6 and §3"
+    },
+    {
+      "id": "claim-dna-validation-scope",
+      "text": "The validator rejects a motif if either it alone or any tested concatenation with other motifs violates the configured biological constraints.",
+      "source_ids": [
+        "src-fast25-pdf-a24c25d0"
+      ],
+      "locator": "PDF p. 7; §5.1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-a24c25d0",
+      "url": "https://www.usenix.org/system/files/fast25-brunmayr.pdf",
+      "kind": "paper-pdf",
+      "title": "DNA data storage: A generative tool for Motif-based DNA storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:67c1da3f90aa9a6c8d3942ecbed7b97625db4de28d5289255c899b648a83c138",
+      "official": true,
+      "supports": [
+        "abstract, introduction, mathematical formulation, methods, evaluation, and conclusion",
+        "reported constraints, comparison settings, generation times, and stated scope"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:34:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§2.1–2.6 formulation, §§3.1–3.2 generation methods, §§5.1–5.3 validation/evaluation, and §6 Conclusions.",
+      "Results are author-reported software-generation measurements; no physical DNA experiment is claimed."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:34:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

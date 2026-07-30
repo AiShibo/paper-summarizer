@@ -1,0 +1,110 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sigcomm",
+  "year": 2024,
+  "official_conference_url": "https://conferences.sigcomm.org/sigcomm/2024/",
+  "official_program_url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+  "conference_dates": {
+    "start": "2024-08-04",
+    "end": "2024-08-08"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 62,
+    "core_systems": 60,
+    "systems_adjacent": 2,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sigcomm24-conference",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2024",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:9e4ed4eaf3f809ac4ae04f51248ae3e3e578f881d7497c4ae752649f255e27a2",
+      "official": true,
+      "supports": [
+        "official conference identity, location context, and dates"
+      ]
+    },
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm24-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3651890",
+      "kind": "conference-proceedings",
+      "title": "ACM SIGCOMM 2024 Proceedings",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and paper-coverage reconciliation"
+      ]
+    },
+    {
+      "id": "src-sigcomm24-accepted",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 List of Accepted Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:da54c18bad36d36fa29e6263f103e9f132fcd462837a3dbf36c0e3801cdb7fb4",
+      "official": true,
+      "supports": [
+        "accepted-paper coverage reconciliation",
+        "Research Track and Experience Track labels",
+        "absence of a SIGCOMM Shorts category in the accepted-paper list"
+      ]
+    },
+    {
+      "id": "src-sigcomm24-cfp",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/cfp/",
+      "kind": "other",
+      "title": "ACM SIGCOMM 2024 Call for Papers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:cb266b1e0f62b7eb1a4fe0ca503b4f9faa4a211b062c24ea30392465d924bacd",
+      "official": true,
+      "supports": [
+        "main-paper scope",
+        "Research Track and Experience Track definitions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Enumerated 62 archival main-track papers: 49 Research Track and 13 Experience Track papers, reconciled across the official program, accepted-paper list, and ACM proceedings deposit.",
+      "The official program and accepted-paper list contain no SIGCOMM Shorts, so the excluded-non-main paper audit count is zero.",
+      "Four timetable blocks are explicitly labeled Non-Paper Session and were excluded as program sessions rather than paper bundles.",
+      "Main-track relevance counts exclude non-paper sessions and keep the two systems-adjacent main-track papers distinct from excluded-main-track and non-main audit counts."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-deeptheft-stealing-dnn-model-architectures-through-power-9cd4aab7",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper demonstrates end-to-end power and CPU-frequency side-channel attacks against models served in shared cloud environments.",
+  "topics": [
+    "systems-security",
+    "cloud-and-datacenter-systems",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "optimization",
+    "deployment-experience"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-7f9f19a3d21b9d5a-abstract",
+      "url": "https://openalex.org/W4402263668",
+      "kind": "openalex",
+      "title": "DeepTheft: Stealing DNN Model Architectures through Power Side Channel",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

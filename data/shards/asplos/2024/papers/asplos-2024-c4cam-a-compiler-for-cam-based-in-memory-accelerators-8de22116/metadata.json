@@ -1,0 +1,242 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-c4cam-a-compiler-for-cam-based-in-memory-accelerators-8de22116",
+  "title": "C4CAM: A Compiler for CAM-based In-memory Accelerators",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 5A: Compiler and Optimization Techniques",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hamid Farzaneh",
+      "position": 1,
+      "orcid": "0000-0002-1780-6217",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chair for Compiler Construction, TU Dresden, Dresden, Saxony, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Joao Paulo Cardoso De Lima",
+      "position": 2,
+      "orcid": "0000-0001-9295-3519",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chair for Compiler Construction, TU Dresden, Dresden, Saxony, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mengyuan Li",
+      "position": 3,
+      "orcid": "0000-0002-6322-9908",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, Indiana, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Asif Ali Khan",
+      "position": 4,
+      "orcid": "0000-0002-5130-9855",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chair for Compiler Construction, TU Dresden, Dresden, Saxony, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaobo Sharon Hu",
+      "position": 5,
+      "orcid": "0000-0002-6636-9738",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, Indiana, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeronimo Castrillon",
+      "position": 6,
+      "orcid": "0000-0002-5007-445X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chair for Compiler Construction, TU Dresden, Dresden, Saxony, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651386"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651386",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651386",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/xZTjSRoFnlg",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2309.06418",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651386",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651386",
+      "kind": "crossref",
+      "title": "C4CAM: A Compiler for CAM-based In-memory Accelerators",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:bc2c39f9ef0f7852638e0a9916e57cc78c1ca1fa3444da511b0543c81f041f47",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651386",
+      "url": "https://www.semanticscholar.org/paper/2e3a3172f9b302096d9d367fce03b47857fcfd80",
+      "kind": "semantic-scholar",
+      "title": "C4CAM: A Compiler for CAM-based In-memory Accelerators",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:36e6c2ceeca19fa92391841ef7841da550d6a76b6ec2c72c7157c53911164281",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

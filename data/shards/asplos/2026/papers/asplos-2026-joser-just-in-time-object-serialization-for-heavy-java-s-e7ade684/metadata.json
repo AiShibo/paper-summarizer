@@ -1,0 +1,266 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-joser-just-in-time-object-serialization-for-heavy-java-s-e7ade684",
+  "title": "JOSer: Just-In-Time Object Serialization for Heavy Java Serialization Workloads",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 9D: Network & Cloud Infrastructure",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chaokun Yang",
+      "position": 1,
+      "orcid": "0009-0005-7544-6132",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pengbo Nie",
+      "position": 2,
+      "orcid": "0000-0002-3759-5242",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziyi Lin",
+      "position": 3,
+      "orcid": "0000-0001-9615-4968",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weipeng Wang",
+      "position": 4,
+      "orcid": "0009-0008-8736-3950",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qianwei Yu",
+      "position": 5,
+      "orcid": "0009-0009-7443-5967",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chengcheng Wan",
+      "position": 6,
+      "orcid": "0000-0001-9162-9688",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "East China Normal University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "He Jiang",
+      "position": 7,
+      "orcid": "0000-0001-8674-4948",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Dalian University of Technology, Dalian, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuting Chen",
+      "position": 8,
+      "orcid": "0000-0002-4128-8966",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, Select one..., China and Shanghai Key Laboratory of Trusted Data Circulation and Governance, and Web3, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790179"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790179",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790179",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790179",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790179",
+      "kind": "crossref",
+      "title": "JOSer: Just-In-Time Object Serialization for Heavy Java Serialization Workloads",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a953a60dd9db0955dca6a2176d8a47f842e0811983b50c9e3966f8abf1da4d78",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790179",
+      "url": "https://www.semanticscholar.org/paper/25116edc0533b8d47e9538155537564f2801f1c1",
+      "kind": "semantic-scholar",
+      "title": "JOSer: Just-In-Time Object Serialization for Heavy Java Serialization Workloads",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:130127781d6f1c5e4d1e987812a9fad750ad674568197ff6e253bf6f3d7c4284",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-end-to-end-encrypted-git-services-206f1785",
+  "title": "End-to-End Encrypted Git Services",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ya-Nan Li",
+      "position": 1,
+      "orcid": "0000-0002-1413-7273",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Sydney, Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-54ddaebc15b360cf-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yaqing Song",
+      "position": 2,
+      "orcid": "0009-0004-8966-2779",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UESTC, Chengdu, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-54ddaebc15b360cf-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiang Tang",
+      "position": 3,
+      "orcid": "0000-0003-1113-6352",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Sydney, Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-54ddaebc15b360cf-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Moti Yung",
+      "position": 4,
+      "orcid": "0000-0003-0848-0873",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, New York, USA and Columbia University, New York, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-54ddaebc15b360cf-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3744815",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3744815",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3744815",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-4af6e7ab272b2a9a-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-fc28bce7c206814e-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744815",
+      "kind": "publisher-page",
+      "title": "End-to-End Encrypted Git Services",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-54ddaebc15b360cf-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744815",
+      "kind": "crossref",
+      "title": "End-to-End Encrypted Git Services",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

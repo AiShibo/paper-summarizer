@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-on-bridging-the-gap-between-control-flow-integrity-and-a-27ece33b",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper analyzes the security guarantees and gaps between control-flow integrity and remote-attestation mechanisms.",
+  "topics": [
+    "systems-security",
+    "vulnerability-discovery",
+    "authentication-infrastructure"
+  ],
+  "system_layers": [
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "benchmark",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-3ce1d7bd9915d574-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ammar",
+      "kind": "paper-page",
+      "title": "On Bridging the Gap between Control Flow Integrity and Attestation Schemes",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

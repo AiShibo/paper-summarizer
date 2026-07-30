@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-approximate-algorithms-for-verifying-differential-privac-34a82a87",
+  "title": "Approximate Algorithms for Verifying Differential Privacy with Gaussian Distributions",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Bishnu Bhusal",
+      "position": 1,
+      "orcid": "0000-0001-7522-5878",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Missouri, Columbia, MO, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-104db954325a92b6-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rohit Chadha",
+      "position": 2,
+      "orcid": "0000-0002-1674-1650",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Missouri, Columbia, MO, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-104db954325a92b6-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "A. Prasad Sistla",
+      "position": 3,
+      "orcid": "0009-0005-8331-7912",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Chicago, Chicago, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-104db954325a92b6-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mahesh Viswanathan",
+      "position": 4,
+      "orcid": "0000-0001-7977-0080",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-104db954325a92b6-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765043",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765043",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765043",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-37ebc997d8bbad48-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-ef2155fe7bbe6705-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765043",
+      "kind": "publisher-page",
+      "title": "Approximate Algorithms for Verifying Differential Privacy with Gaussian Distributions",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-104db954325a92b6-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765043",
+      "kind": "crossref",
+      "title": "Approximate Algorithms for Verifying Differential Privacy with Gaussian Distributions",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

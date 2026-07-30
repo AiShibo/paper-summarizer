@@ -1,0 +1,63 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-scannergrouper-a-generalizable-and-effective-scanning-or-8dcaeeba",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 1,
+  "rationale": "The abstract establishes a security contribution but does not make a material systems artifact or a clear exclusion boundary sufficiently unambiguous for automatic screening.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-7400a56f9d8537d7-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765053",
+      "kind": "publisher-page",
+      "title": "ScannerGrouper: A Generalizable and Effective Scanning Organization Identification System Toward the Open World",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-fd3954001486186a-abstract",
+      "url": "https://openalex.org/W4416549300",
+      "kind": "openalex",
+      "title": "ScannerGrouper: A Generalizable and Effective Scanning Organization Identification System Toward the Open World",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership.",
+      "No automatic inclusion or exclusion was inferred across an unresolved boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "UNRESOLVED",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "systems artifact requires paper-level review"
+    ]
+  }
+}

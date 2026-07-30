@@ -1,0 +1,307 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2023-tea-a-general-purpose-temporal-graph-random-walk-engine-d368fa5a",
+  "title": "TEA: A General-Purpose Temporal Graph Random Walk Engine",
+  "venue": "eurosys",
+  "year": 2023,
+  "track_or_session": null,
+  "paper_type": "main-track",
+  "publication_date": "2023-05-08",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chengying Huan",
+      "position": 1,
+      "orcid": "0000-0002-3154-3580",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University and Baihai Technology Inc.",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuaiwen Leon Song",
+      "position": 2,
+      "orcid": "0000-0002-8402-1436",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Sydney",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Santosh Pandey",
+      "position": 3,
+      "orcid": "0000-0002-3528-6868",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stevens Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hang Liu",
+      "position": 4,
+      "orcid": "0000-0001-6323-7388",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stevens Institute of Technology",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongchao Liu",
+      "position": 5,
+      "orcid": "0000-0003-3440-9675",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Baptiste Lepers",
+      "position": 6,
+      "orcid": "0000-0001-7580-0131",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Université de Neuchâtel",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Changhua He",
+      "position": 7,
+      "orcid": "0000-0002-9300-1939",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kang Chen",
+      "position": 8,
+      "orcid": "0000-0002-8368-1109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinlei Jiang",
+      "position": 9,
+      "orcid": "0000-0003-4034-7490",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongwei Wu",
+      "position": 10,
+      "orcid": "0000-0002-6651-7032",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eurosys-2023-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3552326.3567491",
+    "official_page": "https://doi.org/10.1145/3552326.3567491",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3552326.3567491",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eurosys-2023-program",
+      "url": "https://2023.eurosys.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2023 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:70ac1be1448c85bc766594de9874d52a2af996fee73bf076a6c43de7fdb3a1f6",
+      "official": true,
+      "supports": [
+        "Official 2023 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-eurosys-2023-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3552326",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the Eighteenth European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-eurosys-2023-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2023.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2023",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:38:46Z",
+      "content_hash": "sha256:edc45e9d2d90cfd4d3e5ea9291809fc2565b1d95dfefa7c6a507dea2b3184a44",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:38:46Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The ACM PDF endpoint is derived from the verified DOI; ACM returned an automated-access response during link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:38:46Z",
+    "last_verified_at": "2026-07-29T23:38:46Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "track_or_session",
+      "links.bibtex"
+    ]
+  }
+}

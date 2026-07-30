@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-atomicdisk-a-secure-virtual-disk-for-tees-against-evicti-59e6ddfd",
+  "takeaway": "AtomicDisk adds sync atomicity to TEE storage, letting recovery reject transient cache-eviction snapshots that are cryptographically valid but were never intentionally committed by the application.",
+  "background": "A trusted execution environment protects code and memory from a privileged host, but persistent data still leaves that boundary. SGX Protected File System encrypts data and uses a Merkle hash tree and recovery journal for confidentiality, integrity, freshness, and crash consistency.",
+  "villain": "The storage interface does not constrain when dirty cache blocks reach disk. SGX-PFS can therefore create valid intermediate snapshots before an application calls sync; a malicious host can capture and replay one of these states, such as a Redis configuration before its password directive was written.",
+  "approach": "AtomicDisk defines sync atomicity: all writes preceding a completed sync become committed together. It marks eviction-written disk images uncommitted, retains old block versions in an authenticated journal until sync, commits by updating protected metadata and clearing the journal, and after a crash restores only the latest committed versions.",
+  "impact": "The mechanism closes a gap between cryptographic validity and application intent without modifying upper-layer applications or file systems, and highlights that transient crash states become security states when an untrusted host can replay them deliberately.",
+  "evaluation": {
+    "overview": "The authors reproduce an eviction attack, count snapshots under five block traces, and compare microbenchmarks, trace replay, Redis, and BadgerDB performance.",
+    "implemented": "A roughly 5,000-line Rust secure virtual disk derived from SGX-PFS and integrated with the Occlum SGX library OS, plus a public attack-reproduction artifact.",
+    "setting": "Tests use a 64-core Ice Lake Xeon server, Intel DC S3500 SATA SSD, 256 GB memory with 64 GB SGX EPC, Linux 5.17, and 100 GB virtual disks with 4 KB blocks.",
+    "baselines": [
+      "PFSDisk using SGX-PFS",
+      "CRYPT DISK modeled after dm-crypt plus dm-integrity"
+    ],
+    "results": [
+      {
+        "id": "claim-atomicdisk-snapshots",
+        "text": "Across five traces containing 8–49 GB of writes, PFSDisk creates 173,000–788,000 replayable snapshots, whereas AtomicDisk creates exactly the one valid snapshot caused by the trace's final sync.",
+        "source_ids": [
+          "src-fast25-pdf-59e6ddfd"
+        ],
+        "locator": "PDF pp. 7–8; §5.2, Table 2"
+      },
+      {
+        "id": "claim-atomicdisk-pfs-performance",
+        "text": "The authors report that AtomicDisk and PFSDisk have comparable throughput in fio microbenchmarks and all five trace-driven workloads because both incur similar Merkle-tree and journal work.",
+        "source_ids": [
+          "src-fast25-pdf-59e6ddfd"
+        ],
+        "locator": "PDF pp. 7–8; §§5.3–5.4, Figures 3–4"
+      },
+      {
+        "id": "claim-atomicdisk-ycsb",
+        "text": "For BadgerDB YCSB workloads, AtomicDisk reaches 50%–85% of CRYPT DISK throughput while matching PFSDisk; Redis performance is reported as comparable across all three disks.",
+        "source_ids": [
+          "src-fast25-pdf-59e6ddfd"
+        ],
+        "locator": "PDF p. 8; §5.5, Figure 5"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay"
+    ]
+  },
+  "limitations": "The threat model excludes denial-of-service, access-pattern side channels, and whole-disk rollback; the latter still needs a trusted monotonic counter. AtomicDisk keeps journal versions until sync, so it can consume more space than SGX-PFS. The prototype is evaluated in one SGX/Occlum environment, and its Merkle-tree protection remains substantially slower than encryption-only CRYPT DISK on some microbenchmarks.",
+  "phd_group_signal": "The paper exemplifies security-systems research that starts from an interface-semantic mismatch, builds a concrete exploit, formalizes the missing property, and implements the smallest storage-layer mechanism that enforces it. Its artifact and adversarial evaluation reveal methodology rather than advisor quality.",
+  "beginner_concepts": [
+    "trusted execution environment",
+    "Merkle hash tree",
+    "authenticated encryption",
+    "write-back cache",
+    "sync operation",
+    "crash recovery journal",
+    "rollback attack"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-atomicdisk-attack",
+      "text": "The authors demonstrate that replaying an SGX-PFS snapshot captured before Redis's requirepass directive is persisted can start an SGX-protected Redis server without authentication.",
+      "source_ids": [
+        "src-fast25-pdf-59e6ddfd"
+      ],
+      "locator": "PDF p. 5; §3, Figure 2"
+    },
+    {
+      "id": "claim-atomicdisk-mechanism",
+      "text": "AtomicDisk distinguishes cache-evicted writes from user-synced writes with a protected commit flag and an authenticated journal that retains old versions until sync.",
+      "source_ids": [
+        "src-fast25-pdf-59e6ddfd"
+      ],
+      "locator": "PDF pp. 5–7; §§4.1–4.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-59e6ddfd",
+      "url": "https://www.usenix.org/system/files/fast25-tian-hongliang.pdf",
+      "kind": "paper-pdf",
+      "title": "AtomicDisk: A Secure Virtual Disk for TEEs against Eviction Attacks",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:3b2f9ad7e37165d8f7f5cdb9ffcbb0091778eeb7453e4c31fc75c5680b7de34f",
+      "official": true,
+      "supports": [
+        "abstract, introduction, threat model, attack, design, evaluation, and discussion",
+        "reported implementation, security results, performance results, and scope limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:24:09Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §2 threat model, §3 eviction attack, §§4.1–4.4 AtomicDisk design and implementation, §§5.1–5.5 evaluation, and §7 Conclusion and Discussion.",
+      "Security and performance statements are presented as author-reported claims and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:24:09Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

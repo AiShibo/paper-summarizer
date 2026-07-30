@@ -1,0 +1,191 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-the-och-authenticated-encryption-scheme-4545d029",
+  "title": "The OCH Authenticated Encryption Scheme",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Sanketh Menda",
+      "position": 1,
+      "orcid": "0000-0003-2216-2425",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell Tech, New York, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57fa5bad89cbc620-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mihir Bellare",
+      "position": 2,
+      "orcid": "0000-0002-8765-5573",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC San Diego, La Jolla, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57fa5bad89cbc620-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Viet Tung Hoang",
+      "position": 3,
+      "orcid": "0000-0003-3092-6405",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Florida State University, Tallahassee, FL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57fa5bad89cbc620-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Julia Len",
+      "position": 4,
+      "orcid": "0000-0002-9625-6363",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UNC Chapel Hill, Chapel Hill, NC, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57fa5bad89cbc620-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Ristenpart",
+      "position": 5,
+      "orcid": "0000-0002-8642-9558",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell Tech, New York, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-57fa5bad89cbc620-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765224",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765224",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765224",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-ea9b5bb591bff7f5-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-768d2c2424e1454c-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765224",
+      "kind": "publisher-page",
+      "title": "The OCH Authenticated Encryption Scheme",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-57fa5bad89cbc620-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765224",
+      "kind": "crossref",
+      "title": "The OCH Authenticated Encryption Scheme",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

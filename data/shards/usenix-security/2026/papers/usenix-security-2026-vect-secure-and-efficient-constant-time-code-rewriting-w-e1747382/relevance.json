@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-vect-secure-and-efficient-constant-time-code-rewriting-w-e1747382",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a compiler, language, and runtime security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "runtime"
+  ],
+  "contribution_types": [
+    "optimization",
+    "language-or-api"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-e6137ba830f1665b-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qisheng",
+      "kind": "paper-page",
+      "title": "VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:992dcad6d3faf0bdcebdd88a2a66a3dd21019ebafc001d53bf21dd51064e1bb9",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

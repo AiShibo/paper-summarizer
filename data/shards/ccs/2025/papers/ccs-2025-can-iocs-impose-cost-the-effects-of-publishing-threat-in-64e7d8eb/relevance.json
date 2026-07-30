@@ -1,0 +1,64 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-can-iocs-impose-cost-the-effects-of-publishing-threat-in-64e7d8eb",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper presents a concrete security analysis or tool, but the available abstract does not place its primary contribution within a core systems area.",
+  "topics": [
+    "systems-security"
+  ],
+  "system_layers": [],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "dataset"
+  ],
+  "methods": [
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-19dbd66e33b5d442-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765026",
+      "kind": "publisher-page",
+      "title": "Can IOCs Impose Cost? The Effects of Publishing Threat Intelligence on Adversary Behavior",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-d933a630ca8be40e-abstract",
+      "url": "https://openalex.org/W4416549583",
+      "kind": "openalex",
+      "title": "Can IOCs Impose Cost? The Effects of Publishing Threat Intelligence on Adversary Behavior",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "LOW",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

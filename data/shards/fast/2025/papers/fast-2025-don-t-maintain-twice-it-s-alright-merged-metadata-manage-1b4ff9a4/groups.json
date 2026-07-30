@@ -1,0 +1,107 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-don-t-maintain-twice-it-s-alright-merged-metadata-manage-1b4ff9a4",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-wen-xia",
+      "publication_institution_id": "institution-harbin-institute-technology-shenzhen",
+      "current_institution_id": "institution-harbin-institute-technology-shenzhen",
+      "association_type": "official-faculty-publication",
+      "evidence_source_ids": [
+        "src-agent-f-1b4ff9a4-paper-page",
+        "src-agent-f-1b4ff9a4-institution-news",
+        "src-agent-f-1b4ff9a4-faculty-profile"
+      ],
+      "rationale": "Official HIT Shenzhen news names the exact paper and Professor Wen Xia as corresponding author; the official faculty directory confirms his current appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Yanqi Pan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Erci Xu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Hao Huang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xiangyu Zou",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Shiyi Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-1b4ff9a4-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/pan",
+      "kind": "paper-page",
+      "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-1b4ff9a4-institution-news",
+      "url": "https://www.hitsz.edu.cn/news/2025/0310/c6a10984/page.htm",
+      "kind": "institution-page",
+      "title": "HIT Shenzhen FAST 2025 research news",
+      "publisher": "Harbin Institute of Technology, Shenzhen",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper title",
+        "Wen Xia identified as professor and corresponding author"
+      ]
+    },
+    {
+      "id": "src-agent-f-1b4ff9a4-faculty-profile",
+      "url": "https://cs.hitsz.edu.cn/szll1.htm",
+      "kind": "faculty-page",
+      "title": "Wen Xia",
+      "publisher": "Harbin Institute of Technology, Shenzhen",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current professor appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

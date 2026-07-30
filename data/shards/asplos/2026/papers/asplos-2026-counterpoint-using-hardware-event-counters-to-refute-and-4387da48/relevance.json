@@ -1,0 +1,69 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-counterpoint-using-hardware-event-counters-to-refute-and-4387da48",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "Core systems fit: CounterPoint is an implemented and evaluated memory-hierarchy design, prefetching, or performance-analysis mechanism.",
+  "topics": [
+    "memory-hierarchy",
+    "performance-diagnosis",
+    "llm-systems"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-arxiv-2601-01265",
+      "url": "https://export.arxiv.org/api/query?id_list=2601.01265",
+      "kind": "other",
+      "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions (Extended Version)",
+      "publisher": "arXiv",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:8a6f2db5102a6e750b20c7ce56f99405b49fada2c43bb18d00e228d2fe2dc91c",
+      "official": false,
+      "supports": [
+        "Author-posted abstract and alternate-version identifier used for relevance classification."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "Classified from the official technical session and a paper abstract under the strict ASPLOS systems-mechanism rule; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

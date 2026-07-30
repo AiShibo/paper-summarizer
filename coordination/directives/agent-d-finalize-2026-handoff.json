@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-d-finalize-2026-handoff-2026-07-30",
+  "issued_at": "2026-07-30T04:13:56Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-d",
+  "status": "OPEN",
+  "action": "FINALIZE_COMPLETED_2026_HANDOFF",
+  "reason": "All four assigned 2026 security venue-year records and 874 paper bundles are present and READY_FOR_REVIEW, but Agent D's claim remains IN_PROGRESS.",
+  "assigned_2026_shards": [
+    "data/shards/ccs/2026",
+    "data/shards/ndss/2026",
+    "data/shards/sp/2026",
+    "data/shards/usenix-security/2026"
+  ],
+  "observed_status": {
+    "ccs_2026": "UPCOMING",
+    "ndss_2026": "COMPLETE_PROCEEDINGS",
+    "sp_2026": "ACCEPTED_PAPERS_ONLY",
+    "usenix_security_2026": "PARTIAL",
+    "paper_count_2026": 874,
+    "total_claimed_paper_count": 4188
+  },
+  "instructions": [
+    "Do not begin new collection or change an honest 2026 status merely to make it complete.",
+    "Verify the four venue-year statuses, paper counts, current official sources, and claim paper-ID coverage.",
+    "Run draft validation separately for each 2026 shard and then run make check.",
+    "Correct only an Agent D-owned file when validation or a direct source comparison proves it wrong.",
+    "Update coordination/claims/agent-d.json to COMPLETE and record separate handoff details for complete, accepted-only, partial, and upcoming venues.",
+    "Report validator output, unresolved fields, future refresh triggers for CCS, IEEE S&P, and USENIX Security, and confirmation that 2023-2025 files remained unchanged.",
+    "Stop after the closeout and wait for a specific correction or refresh directive."
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-tapas-thermal-and-power-aware-scheduling-for-llm-inferen-08232814",
+  "title": "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 7A: Serving LLMs",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jovan Stojkovic",
+      "position": 1,
+      "orcid": "0009-0007-4914-336X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chaojie Zhang",
+      "position": 2,
+      "orcid": "0009-0002-8334-1291",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Íñigo Goiri",
+      "position": 3,
+      "orcid": "0000-0003-2591-4012",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Esha Choukse",
+      "position": 4,
+      "orcid": "0000-0003-0371-5522",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haoran Qiu",
+      "position": 5,
+      "orcid": "0000-0002-8071-1130",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rodrigo Fonseca",
+      "position": 6,
+      "orcid": "0000-0001-9662-2661",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure Research, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Josep Torrellas",
+      "position": 7,
+      "orcid": "0000-0003-2595-5228",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois at Urbana-Champaign, Champaign, IL, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ricardo Bianchini",
+      "position": 8,
+      "orcid": "0000-0001-5971-5084",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Azure, Redmond, WA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716025"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716025",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716025",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716025",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716025",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716025",
+      "kind": "crossref",
+      "title": "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:a38f9e1582fdf028a56ce023a4f7f81974fbd197d69c119d46d7dfe3faa87e55",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716025",
+      "url": "https://www.semanticscholar.org/paper/ee6f3649585d3fff47f17fc9f73e50714edefe87",
+      "kind": "semantic-scholar",
+      "title": "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:1b52857dff5abe0a2267d1e050444ef80029c21dacd73e021f681007a2c6f567",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

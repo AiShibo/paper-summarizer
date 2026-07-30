@@ -1,0 +1,67 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "ndss",
+  "year": 2023,
+  "official_conference_url": "https://www.ndss-symposium.org/ndss2023/",
+  "official_program_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+  "conference_dates": {
+    "start": "2023-02-27",
+    "end": "2023-03-03"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 94,
+    "core_systems": 13,
+    "systems_adjacent": 55,
+    "excluded": 26,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-ndss-2023-venue-1",
+      "url": "https://www.ndss-symposium.org/ndss2023/",
+      "kind": "conference-program",
+      "title": "NDSS Symposium 2023",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "conference identity, dates, and 94 research presentations"
+      ]
+    },
+    {
+      "id": "src-ndss-2023-venue-2",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "kind": "conference-proceedings",
+      "title": "NDSS Symposium 2023 Accepted Papers",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "94 main-track papers and official paper pages"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "All 94 official accepted entries reconcile one-to-one with DBLP and Crossref main-proceedings records.",
+      "Official records identify the publication year but do not expose a defensible exact publication date."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "exact publication dates are unavailable for all 94 papers"
+    ]
+  }
+}

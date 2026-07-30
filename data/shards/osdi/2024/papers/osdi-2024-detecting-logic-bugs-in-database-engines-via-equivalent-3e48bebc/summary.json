@@ -1,0 +1,112 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-detecting-logic-bugs-in-database-engines-via-equivalent-3e48bebc",
+  "takeaway": "EET finds DBMS logic bugs by replacing query expressions with semantically equivalent forms and flagging discrepancies between original and transformed executions, without restricting whole-query shape.",
+  "background": "DBMS logic bugs silently return wrong rows or updates. Existing metamorphic or query-synthesis oracles constrain SQL shapes because they must reason about the whole query.",
+  "villain": "Query-level manipulation cannot reliably model complex SQL semantics, so prior tools omit features such as correlated subqueries, joins, windows, or DML and miss bugs reached by those queries.",
+  "approach": "EET generates SQL with SQLsmith, walks each query's AST, and transforms every supported expression while preserving semantics. Boolean expressions gain determined true or false subexpressions derived from SQL's three-valued logic; other types gain redundant CASE WHEN branches. It runs original and transformed queries, compares both outputs and database changes, and reduces mismatching pairs in stages.",
+  "impact": "The authors argue that expression-level metamorphic testing broadens logic-bug detection to complex queries whose overall semantics need not be modeled.",
+  "evaluation": {
+    "overview": "The authors ran randomized tests on selected open-source engines, classified reported bugs, analyzed fixed bugs and SQL features, and compared bug age with prior techniques rather than rerunning those techniques.",
+    "implemented": "A fully automatic black-box C/C++ testing tool built on SQLsmith, including database/query generation, AST transformation, result and database-state comparison, and staged test-case reduction.",
+    "setting": "Development versions of MySQL, PostgreSQL, SQLite, ClickHouse, and TiDB ran on Ubuntu on an AMD EPYC host during an intermittent testing campaign.",
+    "baselines": [
+      "PQS",
+      "NoREC",
+      "TLP",
+      "TQS",
+      "Pinolo",
+      "DQE"
+    ],
+    "results": [
+      {
+        "id": "claim-eet-reported-bugs",
+        "text": "Across the evaluated engines, the authors report 66 unique bugs: 65 confirmed and 37 fixed; 35 were logic bugs.",
+        "source_ids": [
+          "src-osdi24-pdf-3e48bebc"
+        ],
+        "locator": "PDF p. 9 (paper p. 828); §5.2, Tables 3–4"
+      },
+      {
+        "id": "claim-eet-long-latency",
+        "text": "The authors traced 13 of the 35 logic bugs to versions released before 2020; the longest-latent bug had existed for 20 years.",
+        "source_ids": [
+          "src-osdi24-pdf-3e48bebc"
+        ],
+        "locator": "PDF p. 13 (paper p. 832); §5.4, Table 6"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "EET assumes deterministic query results and therefore excludes SQL features involving randomness. As a metamorphic oracle, it misses bugs when original and transformed queries produce the same wrong result, and each SQL dialect may require its own branch syntax.",
+  "phd_group_signal": "This work signals a testing-systems style combining logical equivalence, grammar-based generation, black-box differential checking, automatic reduction, and developer-confirmed bug reports.",
+  "beginner_concepts": [
+    "DBMS logic bugs",
+    "metamorphic testing and test oracles",
+    "abstract syntax trees",
+    "SQL three-valued logic",
+    "test-case reduction"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-eet-central-mechanism",
+      "text": "EET traverses a generated query's AST, replaces supported expressions with equivalents built from determined Boolean expressions or redundant CASE WHEN branches, and treats any difference in query output or database changes as a bug signal.",
+      "source_ids": [
+        "src-osdi24-pdf-3e48bebc"
+      ],
+      "locator": "PDF pp. 5–8 (paper pp. 824–827); §§3.1–4, Figure 3, Table 2"
+    },
+    {
+      "id": "claim-eet-oracle-boundary",
+      "text": "The soundness argument excludes nondeterministic SQL features, and the authors note that EET cannot detect a bug when both original and transformed queries return the same incorrect result.",
+      "source_ids": [
+        "src-osdi24-pdf-3e48bebc"
+      ],
+      "locator": "PDF p. 7 and p. 13 (paper pp. 826 and 832); §§3.3 and 5.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi24-pdf-3e48bebc",
+      "url": "https://www.usenix.org/system/files/osdi24-jiang.pdf",
+      "kind": "paper-pdf",
+      "title": "Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:28:12Z",
+      "content_hash": "sha256:4d3b059aef9fb016fee4ae72c7dcb0d73ae9569bdf431f297063d3712a2fcf4c",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, and conclusion",
+        "central mechanism, oracle boundary, workloads, prior-technique comparison, and author-reported bug results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e6",
+    "updated_at": "2026-07-30T03:35:17Z",
+    "notes": [
+      "Read the official paper PDF: abstract and §§1–7; inspected Tables 1–6 and Figures 2–10 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:35:17Z",
+    "last_verified_at": "2026-07-30T03:35:17Z",
+    "collector_version": "agent-e6-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

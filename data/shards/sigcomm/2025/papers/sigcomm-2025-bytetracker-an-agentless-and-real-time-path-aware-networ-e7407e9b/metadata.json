@@ -1,0 +1,580 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-bytetracker-an-agentless-and-real-time-path-aware-networ-e7407e9b",
+  "title": "ByteTracker: An Agentless and Real-time Path-aware Network Probing System",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "NetMon",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 13,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shixian Guo",
+      "position": 1,
+      "orcid": "0009-0004-0542-8281",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kefei Liu",
+      "position": 2,
+      "orcid": "0009-0008-5874-6610",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing University of Posts and Telecommunications",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yulin Lai",
+      "position": 3,
+      "orcid": "0009-0001-5981-8742",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yangyang Bai",
+      "position": 4,
+      "orcid": "0000-0002-1201-3293",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziwei Zhao",
+      "position": 5,
+      "orcid": "0009-0009-6860-7929",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Songlin Liu",
+      "position": 6,
+      "orcid": "0009-0004-6814-9829",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianghang Ning",
+      "position": 7,
+      "orcid": "0009-0006-2121-5838",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gen Li",
+      "position": 8,
+      "orcid": "0009-0009-8656-6462",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jianwei Hu",
+      "position": 9,
+      "orcid": "0009-0005-7267-4316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongbin Dong",
+      "position": 10,
+      "orcid": "0009-0003-8576-9109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Feng Luo",
+      "position": 11,
+      "orcid": "0009-0000-2012-4658",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sisi Wen",
+      "position": 12,
+      "orcid": "0009-0004-6381-7728",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qi Zhang",
+      "position": 13,
+      "orcid": "0009-0009-2549-1583",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuan Chen",
+      "position": 14,
+      "orcid": "0009-0000-8149-4441",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiale Feng",
+      "position": 15,
+      "orcid": "0009-0000-1915-4665",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Bai",
+      "position": 16,
+      "orcid": "0009-0009-6416-0074",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chengcai Yao",
+      "position": 17,
+      "orcid": "0009-0008-2124-9565",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhe Liu",
+      "position": 18,
+      "orcid": "0009-0001-4865-229X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xin Hu",
+      "position": 19,
+      "orcid": "0009-0002-4837-8355",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Lv",
+      "position": 20,
+      "orcid": "0009-0000-1092-8855",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhuo Jiang",
+      "position": 21,
+      "orcid": "0000-0002-6144-7899",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance China",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiao Zhang",
+      "position": 22,
+      "orcid": "0000-0001-5614-3420",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing University of Posts and Telecommunications",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tao Huang",
+      "position": 23,
+      "orcid": "0000-0002-3545-1122",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Beijing University of Posts and Telecommunications",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750515",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750515",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750515",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/5SBN3Ng-Z1g",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-bytetracker-an-agentless-and-real-time-path-aware-networ-e7407e9b-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750515",
+      "kind": "publisher-page",
+      "title": "ByteTracker: An Agentless and Real-time Path-aware Network Probing System",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-bytetracker-an-agentless-and-real-time-path-aware-networ-e7407e9b-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750515",
+      "kind": "crossref",
+      "title": "Crossref metadata for ByteTracker: An Agentless and Real-time Path-aware Network Probing System",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:5500d2ecbf9ef4e035446a0bbf56c1cf89e9d753a16797d015ae1ccfe9c6db3b",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

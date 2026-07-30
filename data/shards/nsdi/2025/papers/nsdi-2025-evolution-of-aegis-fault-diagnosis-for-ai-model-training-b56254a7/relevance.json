@@ -1,0 +1,89 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-evolution-of-aegis-fault-diagnosis-for-ai-model-training-b56254a7",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Operational Experiences session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "networking",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "compilers-languages-and-runtimes",
+    "reliability-testing-and-debugging",
+    "ml-systems",
+    "training-systems",
+    "distributed-ml",
+    "high-performance-computing",
+    "parallel-computing",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "runtime",
+    "distributed-service",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "bug-finding-or-testing-tool",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-program",
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:5190c4bfe0795a131e0d38ceda8da95de909a27d468766c5128a668aab4fceb6",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2025-evolution-of-aegis-fault-diagnosis-for-ai-model-training-b56254a7-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi25/presentation/dong",
+      "kind": "paper-page",
+      "title": "Evolution of Aegis: Fault Diagnosis for AI Model Training Service in Production",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:caded070a7813bbf4124f3481c627364b8caed4874920a0ed5cd44d94569f754",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

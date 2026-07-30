@@ -1,0 +1,236 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-rethinking-java-performance-analysis-3d6a6bbd",
+  "title": "Rethinking Java Performance Analysis",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3A: Performance Analysis & Tracing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Stephen M. Blackburn",
+      "position": 1,
+      "orcid": "0000-0001-6632-6001",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Google, Sydney, Australia, & Australian National University, Canberra, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zixian Cai",
+      "position": 2,
+      "orcid": "0000-0003-2262-2380",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Australian National University, Canberra, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rui Chen",
+      "position": 3,
+      "orcid": "0009-0009-5002-9913",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Unaffiliated-Independent, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Yang",
+      "position": 4,
+      "orcid": "0009-0008-1691-4858",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "IOP Systems, Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John Zhang",
+      "position": 5,
+      "orcid": "0009-0003-5041-6290",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Canva, Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John Zigman",
+      "position": 6,
+      "orcid": "0000-0002-1975-7308",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The University of Sydney, Sydney, Australia",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707217"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707217",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707217",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707217",
+    "artifact": "https://doi.org/10.5281/zenodo.12682890",
+    "code": "https://github.com/anupli/dacapo-asplos-2025-artifact",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707217",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707217",
+      "kind": "crossref",
+      "title": "Rethinking Java Performance Analysis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:db20d9e8d6c9259a62ebe3e559f99dc86202f2fd7ff1314392a7a3d1f342aa57",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707217",
+      "url": "https://www.semanticscholar.org/paper/d5f108b4df066c23a9011d26f8ab203be1f227ec",
+      "kind": "semantic-scholar",
+      "title": "Rethinking Java Performance Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3ca851a0b8660d2cf065252335853f88a9648f6fbfc258490c8c39aaea966e8c",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-12682890",
+      "url": "https://zenodo.org/records/12682890",
+      "kind": "artifact-page",
+      "title": "ASPLOS 2025 Artifact: Rethinking Java Performance Analysis",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:9b197cbb8cd3f978ef8c33c6caf7a8886d89d1e9059088124a501d31bb939c51",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

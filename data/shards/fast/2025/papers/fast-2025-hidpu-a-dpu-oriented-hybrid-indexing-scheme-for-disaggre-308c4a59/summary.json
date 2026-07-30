@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-hidpu-a-dpu-oriented-hybrid-indexing-scheme-for-disaggre-308c4a59",
+  "takeaway": "HiDPU compresses disaggregated-storage address maps into continuity-aware segments, keeping tiny learned metadata and hot hash pilots on the DPU for mostly one-DMA lookup.",
+  "background": "Disaggregated storage maps a huge logical space to remote physical pages. A DPU can remove host software from the I/O path, but its weak cores and small memory cannot hold or traverse a conventional full page table efficiently.",
+  "villain": "Multi-level tables waste host memory on sparse addresses and require repeated DPU–host accesses; compact learned indexes mispredict on irregular mappings. Updating a complex offloaded index on the DPU would also consume scarce compute and disrupt concurrent lookups.",
+  "approach": "HiDPU partitions mappings by address continuity: exact linear segments cover contiguous ranges, LPTHash covers partially continuous ranges, and perfect-hash segments cover random ones. A learned upper index and segment metadata reside on the DPU; entries and pilots stay in host memory, with a grouped Pilot Cache. Host-side insertion buffers trigger versioned local rebuilds and occasional global reconstruction.",
+  "impact": "The design offers a practical mapping-index split for constrained DPUs, using workload structure rather than a uniform representation. The same hybrid indexing idea may transfer to disaggregated memory or other remote address-translation tasks.",
+  "evaluation": {
+    "overview": "Enterprise block traces and Filebench, LevelDB/YCSB, and PostgreSQL/TPC-DS traces measure throughput, latency, memory amplification, component gains, reconstruction, sensitivity, and comparison with LearnedFTL.",
+    "implemented": "A HiDPU prototype on Huawei's Hi1823, including hybrid segmentation, DPU cache, host insertion buffer, and versioned two-level reconstruction.",
+    "setting": "A 96-core Xeon Platinum 8260 server with 512 GB DRAM and a Huawei Hi1823 DPU; default DPU state uses a 23.74 KB internal index and 1 MB Pilot Cache.",
+    "baselines": [
+      "DPU-originated three-level page table",
+      "DPU-originated learned table",
+      "LearnedFTL",
+      "HiDPU running on the host"
+    ],
+    "results": [
+      {
+        "id": "claim-hidpu-performance",
+        "text": "On four enterprise traces, HiDPU reports 1.1–5.5× throughput over the DPU page table and 1.4–6.3× over the learned baseline, keeping latency below 6.47 µs at up to 256 clients.",
+        "source_ids": [
+          "src-fast25-pdf-308c4a59"
+        ],
+        "locator": "PDF pp. 9–10; §5.2.1, Figure 8(a)"
+      },
+      {
+        "id": "claim-hidpu-macro",
+        "text": "Application-derived traces show 1.3–4.3× throughput over the page table and 1.3–1.5× over the learned baseline, with HiDPU latency below 5.76 µs.",
+        "source_ids": [
+          "src-fast25-pdf-308c4a59"
+        ],
+        "locator": "PDF p. 10; §5.2.1, Figure 8(b)"
+      },
+      {
+        "id": "claim-hidpu-memory",
+        "text": "For a projected 1.35 billion 1 MB pages, HiDPU needs 29 GB host memory and 23 KB DPU index space versus 102 GB for the page-table baseline.",
+        "source_ids": [
+          "src-fast25-pdf-308c4a59"
+        ],
+        "locator": "PDF p. 11; §5.2.2, Figure 9"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay"
+    ]
+  },
+  "limitations": "The prototype uses one Huawei DPU and replayed traces rather than a deployed end-to-end storage service. Memory at petabyte scale is extrapolated by extending a trace. Global reconstruction briefly blocks new queries and is reported under ten minutes for 1.2 PB; index quality depends on address continuity and tunable segmentation parameters.",
+  "phd_group_signal": "The work explicitly designs for DPU constraints—tiny memory, weak cores, expensive PCIe interactions—and tests both compactness and lookup latency. It is a useful example of tiering data-structure state according to where computation and memory actually reside.",
+  "beginner_concepts": [
+    "data processing unit",
+    "disaggregated storage",
+    "address translation",
+    "learned index",
+    "perfect hash",
+    "DMA",
+    "index reconstruction"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-hidpu-segments",
+      "text": "HiDPU selects exact linear, locality-preserving perfect-hash, or ordinary perfect-hash indexing per segment according to logical-address continuity.",
+      "source_ids": [
+        "src-fast25-pdf-308c4a59"
+      ],
+      "locator": "PDF pp. 5–7; §3.1, Figure 4"
+    },
+    {
+      "id": "claim-hidpu-offload",
+      "text": "Only learned models, segment parameters, and cached pilots reside on the DPU; mapping entries remain in host memory, yielding one host access for exact or cache-hit lookups.",
+      "source_ids": [
+        "src-fast25-pdf-308c4a59"
+      ],
+      "locator": "PDF pp. 6–8; §§3.2–3.3, Figures 5–6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-308c4a59",
+      "url": "https://www.usenix.org/system/files/fast25-zhu.pdf",
+      "kind": "paper-pdf",
+      "title": "HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:829d2c75222b2500eadf79da94515aa44a6414b9ed95324b78824b84146afe8b",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, implementation, evaluation, and conclusion",
+        "reported trace performance, memory use, cache behavior, and reconstruction"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:47:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.3 design, §4 implementation, §§5.1–5.6 evaluation, and §7 Conclusion.",
+      "Measurements are author-reported on a single DPU with trace replay and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:47:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-sharing-is-leaking-blocking-transient-execution-attacks-94343762",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because the paper contributes a concrete systems-security or isolation mechanism for sharing is leaking: blocking transient-execution attacks with core-gapped confidential VMs, while its primary contribution is transient-execution security.",
+  "topics": [
+    "systems-security",
+    "isolation",
+    "program-analysis",
+    "hardware-security",
+    "side-channels",
+    "virtualization-and-isolation",
+    "confidential-computing",
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "secure-architecture"
+  ],
+  "system_layers": [
+    "kernel",
+    "runtime",
+    "hypervisor",
+    "middleware",
+    "hardware"
+  ],
+  "contribution_types": [
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674190",
+      "url": "https://www.semanticscholar.org/paper/2ca723a0bd93622ee4e7cae881bbc8bc724620ba",
+      "kind": "semantic-scholar",
+      "title": "Sharing is leaking: blocking transient-execution attacks with core-gapped confidential VMs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:eb1b7cd7e475408b6b7c9d0ab577fba0192e0355e11706f7dc1d30f36c88c37d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

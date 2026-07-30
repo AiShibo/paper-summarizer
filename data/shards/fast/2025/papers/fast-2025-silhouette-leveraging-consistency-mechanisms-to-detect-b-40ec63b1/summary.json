@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-silhouette-leveraging-consistency-mechanisms-to-detect-b-40ec63b1",
+  "takeaway": "Silhouette makes persistent-memory file-system crash testing tractable by recognizing stores protected by known consistency mechanisms and applying a two-plan heuristic only to the remaining stores.",
+  "background": "Persistent-memory writes can remain in volatile CPU caches and can be reordered, so file systems use flushes, fences, journaling, log-structured writes, and replication to guarantee recoverable states. Crash testers construct possible persisted images and run recovery checks.",
+  "villain": "Exhaustively choosing which in-flight stores survive a crash creates an exponential image space. Prior file-system tools prune it by recovery reads or cache-line flushes, but still generate large numbers of plans and can miss bugs outside their validation scope.",
+  "approach": "Silhouette combines LLVM instrumentation, runtime data-type tracking, and lightweight file-system annotations to identify journaling, log-structured-write, and checksum-replication phases. It checks their ordering invariants, marks their stores protected, hashes duplicate operation traces, and explores two complementary crash plans per unprotected store.",
+  "impact": "The work shows how domain-specific consistency semantics can replace blind state enumeration. Its invariant-plus-heuristic design expands the tested operations and validation checks while producing orders of magnitude fewer crash plans than prior PM file-system testers.",
+  "evaluation": {
+    "overview": "Experiments test PMFS, NOVA-fortis, and WineFS with ACE sequences, custom cases, and NOVA snapshot operations; compare bug-finding time with Vinter and Chipmunk; and measure crash-plan scaling on 50,000 sampled Seq3 cases.",
+    "implemented": "An open-source client-server prototype instruments Linux file-system modules with LLVM, extends Witcher's cache simulator, dynamically maps persistent writes to annotated structure fields, checks mechanism invariants, validates recovered images in QEMU VMs, and deduplicates repeated instruction sequences.",
+    "setting": "Linux 5.1 file-system modules run in Ubuntu 20.04 QEMU VMs on a Dell 7820 with a Xeon Silver 4215R, 144 GB DRAM, and a 2 TB HDD. Each VM has one core, 8 GB DRAM, and a 128 MB DRAM-emulated PM device; scalability tests use ten VMs.",
+    "baselines": [
+      "Vinter",
+      "Chipmunk"
+    ],
+    "results": [
+      {
+        "id": "claim-silhouette-bugs",
+        "text": "Silhouette reproduced all 7 bugs reported by Vinter and all 20 reported by Chipmunk, then reported 15 previously unreported bugs across the three file systems; 3 of the new reports had been confirmed and fixed at publication time.",
+        "source_ids": [
+          "src-fast25-pdf-40ec63b1"
+        ],
+        "locator": "PDF pp. 10–11; §5.1, Table 2"
+      },
+      {
+        "id": "claim-silhouette-time",
+        "text": "On NOVA with ACE Seq3 over a six-hour window, Silhouette tested 5.3K cases and found 10 bugs in 17 minutes, while Vinter found 4 in 156 minutes after 36 cases and Chipmunk found 6 in 164 minutes after 2.6K cases.",
+        "source_ids": [
+          "src-fast25-pdf-40ec63b1"
+        ],
+        "locator": "PDF p. 12; §5.2, Figure 8"
+      },
+      {
+        "id": "claim-silhouette-scale",
+        "text": "For 50K ACE Seq3 cases, Silhouette generated 14,416, 2,427, and 1,079 crash plans for NOVA, PMFS, and WineFS—reported as 100×–3000× fewer than the original Vinter and Chipmunk runs.",
+        "source_ids": [
+          "src-fast25-pdf-40ec63b1"
+        ],
+        "locator": "PDF pp. 12–13; §5.3, Table 3"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study",
+      "other"
+    ]
+  },
+  "limitations": "Silhouette does not systematically explore concurrent thread interleavings. Its two-crash-plan heuristic can miss failures requiring combinations of multiple critical stores, and data mismatches can be false positives requiring manual review. Deploying on another file system requires annotations and, for a new consistency mechanism, new phase and invariant definitions. The study uses three x86 PM file systems, DRAM-emulated PM, and sampled memcpy/memset stores; broader architectures and devices are not evaluated.",
+  "phd_group_signal": "This is a strong example of systems research that turns file-system semantics into scalable testing machinery: it formalizes persistence phases, bridges source-level types to dynamic traces, builds a recovery harness, and pairs bug case studies with search-space measurements.",
+  "beginner_concepts": [
+    "persistent memory",
+    "cache flush",
+    "memory fence",
+    "crash consistency",
+    "journaling",
+    "log-structured write",
+    "replication",
+    "fault injection"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-silhouette-invariants",
+      "text": "Silhouette derives update and persistence times from instrumented stores, flushes, and fences, then checks phase-specific ordering invariants for journaling, log-structured writes, and checksum-based replication before classifying their writes as protected.",
+      "source_ids": [
+        "src-fast25-pdf-40ec63b1"
+      ],
+      "locator": "PDF pp. 5–9; §§3–4.2, Table 1, Figures 2–6"
+    },
+    {
+      "id": "claim-silhouette-2cp",
+      "text": "For each unprotected store, the 2CP strategy tests one image that persists only that store and another that persists every other in-flight store but not it, reducing exploration from combinations of stores to two plans per store.",
+      "source_ids": [
+        "src-fast25-pdf-40ec63b1"
+      ],
+      "locator": "PDF pp. 9–10; §4.3.1, Figure 7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-40ec63b1",
+      "url": "https://www.usenix.org/system/files/fast25-jiao.pdf",
+      "kind": "paper-pdf",
+      "title": "Silhouette: Leveraging Consistency Mechanisms to Detect Bugs in Persistent Memory-Based File Systems",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:5638768cbf17dd201d80a1561b3d633d59ce0c439e2f8c9479a60af1ff893dec",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, invariant design, implementation, validation, evaluation, discussion, related work, conclusion, and artifact appendix",
+        "reported bug counts, bug-finding time, crash-plan counts, testbed details, and stated limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:58:18Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 background and motivation, §§3–4 invariants and implementation, §§5.1–5.4 evaluation and discussion, §6 conclusion, and the artifact appendix.",
+      "The 'other' study type denotes controlled crash-image generation and recovery testing; the summary writer has not independently approved this record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:58:18Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

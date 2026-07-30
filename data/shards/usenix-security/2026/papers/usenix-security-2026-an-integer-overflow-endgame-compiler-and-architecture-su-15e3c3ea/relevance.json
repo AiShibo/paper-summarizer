@@ -1,0 +1,58 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2026-an-integer-overflow-endgame-compiler-and-architecture-su-15e3c3ea",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper's primary contribution is a hardware and architecture security system or mechanism with a concrete systems artifact.",
+  "topics": [
+    "computer-architecture",
+    "hardware-security",
+    "compilers-languages-and-runtimes",
+    "systems-security"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "language-or-api",
+    "defense"
+  ],
+  "methods": [
+    "simulation"
+  ],
+  "sources": [
+    {
+      "id": "src-0e7e38e72b10dbda-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-zheng",
+      "kind": "paper-page",
+      "title": "An Integer Overflow Endgame: Compiler and Architecture Support for Default-On Integer Overflow Mitigation",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:1130a1ed45f288576a9c5dcbe11709a337f22657072dc787cf20548ab777f4e5",
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Strict systems-relevance screening used the actual available abstract and primary contribution rather than venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

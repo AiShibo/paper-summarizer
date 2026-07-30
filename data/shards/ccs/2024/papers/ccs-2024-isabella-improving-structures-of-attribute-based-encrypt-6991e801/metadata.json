@@ -1,0 +1,160 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-isabella-improving-structures-of-attribute-based-encrypt-6991e801",
+  "title": "ISABELLA: Improving Structures of Attribute-Based Encryption Leveraging Linear Algebra",
+  "venue": "ccs",
+  "year": 2024,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2024-12-02",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Doreen Riepel",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UC San Diego",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eed087a4d3a34000-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marloes Venema",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Wuppertal",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eed087a4d3a34000-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tanya Verma",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ArmisticeAI",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-eed087a4d3a34000-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3658644.3690371",
+    "official_page": "https://doi.org/10.1145/3658644.3690371",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690371",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-eed087a4d3a34000-program",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "ACM CCS 2024 Accepted Papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance, submission cycle, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-0bc27d3ec31c4d80-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690371",
+      "kind": "publisher-page",
+      "title": "ISABELLA: Improving Structures of Attribute-Based Encryption Leveraging Linear Algebra",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, publication date, and PDF link"
+      ]
+    },
+    {
+      "id": "src-1588ca7c5a140d03-dblp",
+      "url": "https://dblp.org/rec/conf/ccs/RiepelVV24",
+      "kind": "dblp",
+      "title": "ISABELLA: Improving Structures of Attribute-Based Encryption Leveraging Linear Algebra",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published title, author order, and page span"
+      ]
+    },
+    {
+      "id": "src-402a1ab617d9315c-abstract",
+      "url": "https://www.semanticscholar.org/paper/105db64063dab7455e1d2dd6528e9014ac66c22f",
+      "kind": "semantic-scholar",
+      "title": "ISABELLA: Improving Structures of Attribute-Based Encryption Leveraging Linear Algebra",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

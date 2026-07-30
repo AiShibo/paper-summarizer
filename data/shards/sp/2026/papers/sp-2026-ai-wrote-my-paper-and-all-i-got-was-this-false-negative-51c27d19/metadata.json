@@ -1,0 +1,155 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2026-ai-wrote-my-paper-and-all-i-got-was-this-false-negative-51c27d19",
+  "title": "AI Wrote My Paper and All I Got Was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors",
+  "venue": "sp",
+  "year": 2026,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2026-05-01",
+  "page_count": 20,
+  "venue_year_completion_status": "ACCEPTED_PAPERS_ONLY",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Seth Layton",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Florida",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-10af036d622e968a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bernardo B. P. Medeiros",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Florida",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-10af036d622e968a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kevin Butler",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Florida",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-10af036d622e968a-publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Patrick Traynor",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Florida",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-10af036d622e968a-publisher"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1109/sp63933.2026.00088",
+    "official_page": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500b634/2bojwhSNnuE",
+    "official_pdf": "https://www.computer.org/csdl/api/v1/csdl/proceedings/download-article/2bojwhSNnuE/pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-96c07d28f0772708-program",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2026 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": "sha256:ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "official": true,
+      "supports": [
+        "main-track acceptance, official title, authors, affiliations, and cycle"
+      ]
+    },
+    {
+      "id": "src-10af036d622e968a-publisher",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500b634/2bojwhSNnuE",
+      "kind": "publisher-page",
+      "title": "AI Wrote My Paper and All I Got Was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T03:19:32Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "DOI, published-order authors and affiliations, abstract, publication date, page span, and PDF"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T03:19:32Z",
+    "notes": [
+      "Canonical conference metadata was collected from the official program and paper or publisher page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:19:32Z",
+    "last_verified_at": "2026-07-30T03:19:32Z",
+    "collector_version": "agent-d-security-collector/1.1-2026-ytd",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

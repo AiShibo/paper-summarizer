@@ -1,0 +1,96 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "usenix-security",
+  "year": 2024,
+  "official_conference_url": "https://www.usenix.org/conference/usenixsecurity24",
+  "official_program_url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+  "conference_dates": {
+    "start": "2024-08-14",
+    "end": "2024-08-16"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 418,
+    "core_systems": 39,
+    "systems_adjacent": 215,
+    "excluded": 163,
+    "needs_review": 1
+  },
+  "sources": [
+    {
+      "id": "src-usenix-security-2024-venue-1",
+      "url": "https://www.usenix.org/conference/usenixsecurity24",
+      "kind": "conference-program",
+      "title": "33rd USENIX Security Symposium",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "conference identity and dates"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2024-venue-2",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX Security 2024 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "417 live research-paper entries"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2024-venue-3",
+      "url": "https://www.usenix.org/sites/default/files/sec24_message.pdf",
+      "kind": "conference-proceedings",
+      "title": "Message from the USENIX Security 2024 Program Co-Chairs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "program composition including 35 carry-over papers"
+      ]
+    },
+    {
+      "id": "src-usenix-security-2024-venue-4",
+      "url": "https://dblp.org/db/conf/uss/uss2024.html",
+      "kind": "dblp",
+      "title": "USENIX Security Symposium 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "418 proceedings-paper records and the schedule-missing paper"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "The live technical schedule has 417 research papers; DBLP identifies one additional proceedings paper whose official URL is login-gated.",
+      "USENIX records do not assign DOI values and do not expose defensible exact publication dates for these papers."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-security-collector/1.1",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "one proceedings paper is absent from the live schedule and its official page is login-gated",
+      "six official PDF links are unavailable",
+      "seven page counts are unavailable",
+      "exact publication dates are unavailable for all 418 papers"
+    ]
+  }
+}

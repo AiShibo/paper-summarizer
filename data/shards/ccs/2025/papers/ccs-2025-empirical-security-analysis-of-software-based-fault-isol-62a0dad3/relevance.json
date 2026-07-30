@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-empirical-security-analysis-of-software-based-fault-isol-62a0dad3",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper contributes a virtualization and isolation attack, analysis, or testing artifact with material systems relevance, but its primary contribution is security analysis rather than a new systems design.",
+  "topics": [
+    "virtualization-and-isolation",
+    "systems-security",
+    "isolation",
+    "computer-architecture",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hypervisor",
+    "runtime",
+    "hardware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "deployment-experience",
+    "security-attack",
+    "defense"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-f7b803ab50ea1e15-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765027",
+      "kind": "publisher-page",
+      "title": "Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-dbeef94ae0e78d43-abstract",
+      "url": "https://openalex.org/W4415059868",
+      "kind": "openalex",
+      "title": "Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

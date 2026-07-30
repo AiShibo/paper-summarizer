@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "agent_id": "agent-e3",
+  "role": "paper-summary-calibration",
+  "claimed_at": "2026-07-30T03:26:52Z",
+  "status": "COMPLETE",
+  "shards": [
+    "data/shards/asplos/2025"
+  ],
+  "stage_files": [
+    "summary.json"
+  ],
+  "paper_ids": [
+    "asplos-2025-cinm-cinnamon-a-compilation-infrastructure-for-heterogen-1f111f3f",
+    "asplos-2025-hierarchical-prefetching-a-software-hardware-instruction-2ac734cd",
+    "asplos-2025-micro-blossom-accelerated-minimum-weight-perfect-matchin-d8b6548d",
+    "asplos-2025-bounding-speculative-execution-of-atomic-regions-to-a-si-5a3c75e5",
+    "asplos-2025-bqsim-gpu-accelerated-batch-quantum-circuit-simulation-u-485ead3b"
+  ],
+  "entity_directories": [],
+  "notes": [
+    "Verified canonical paper-ID SHA-256 b0585a7e6f7e612215d83f2b01e856135f34f04dbd8824e45f0e4156f5722b00 before editing.",
+    "Completed exactly the five assigned ASPLOS 2025 summary.json files; each is READY_FOR_REVIEW with owner agent-e3 and verified_by null.",
+    "Reopened each full paper and audited the hardware/software boundary, architectural assumptions, workloads, evidence type, quantitative conditions, source hash, and locator.",
+    "Full draft validation passed for data/shards: 6863 paper bundles and 41320 JSON files, with 0 errors and 0 warnings."
+  ]
+}

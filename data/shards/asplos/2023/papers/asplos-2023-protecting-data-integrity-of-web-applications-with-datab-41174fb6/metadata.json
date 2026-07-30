@@ -1,0 +1,196 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-protecting-data-integrity-of-web-applications-with-datab-41174fb6",
+  "title": "Protecting Data Integrity of Web Applications With Database Constraints Inferred From Application Code",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 5A: Debugging",
+  "paper_type": "main-track",
+  "publication_date": "2023-01-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Haochen Huang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at San Diego, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575699"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bingyu Shen",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at San Diego, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575699"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Li Zhong",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at San Diego, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575699"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuanyuan Zhou",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of California at San Diego, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3575693-3575699"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3575693.3575699",
+    "official_page": "https://dl.acm.org/doi/10.1145/3575693.3575699",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575699",
+    "artifact": "https://doi.org/10.5281/zenodo.7425382",
+    "code": "https://github.com/huanghc/cFinder",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/XEORoLwbl3s",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3575693-3575699",
+      "url": "https://api.crossref.org/works/10.1145/3575693.3575699",
+      "kind": "crossref",
+      "title": "Protecting Data Integrity of Web Applications With Database Constraints Inferred From Application Code",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:4d591a8ce45fc7d3597d8898ec2d5e9bcaeb563e62582ec5295223bcae91f8aa",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3575693-3575699",
+      "url": "https://www.semanticscholar.org/paper/4dfb14ea0795e0a1aeeded6388e9e9c998dbdf3d",
+      "kind": "semantic-scholar",
+      "title": "Protecting Data Integrity of Web Applications with Database Constraints Inferred from Application Code",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:348c99e220f474168a1f24f51dbaf2ebab9d92e101796ff03f6a2e34e6c2aa12",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-7425382",
+      "url": "https://zenodo.org/records/7425382",
+      "kind": "artifact-page",
+      "title": "Artifact for paper `Protecting Data Integrity of Web Applications with Database Constraints Inferred from Application Code`",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:c974bd3d46e9c4b593c15a999cc91b9e64e776d87c0a07f4b0ea8c5610c8714d",
+      "official": true,
+      "supports": [
+        "Author-deposited archival software or evaluation artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The canonical title follows the official program; the publisher-deposited Crossref rendering differs in capitalization, hyphenation, punctuation, or wording.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact paper title, named authors, DOI evidence, or an explicit ASPLOS 2023 artifact statement.",
+      "Code or project links use URLs printed in the indexed abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/awards.schema.json",
+  "title": "Official paper award stage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "paper_id",
+    "awards",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "award_id",
+          "official_name",
+          "category",
+          "venue",
+          "year",
+          "official_source_id",
+          "last_verified_at"
+        ],
+        "properties": {
+          "award_id": {
+            "type": "string"
+          },
+          "official_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "enum": [
+              "best-paper",
+              "distinguished-paper",
+              "best-student-paper",
+              "best-practical-paper",
+              "community-award",
+              "test-of-time",
+              "artifact-award",
+              "honorable-mention",
+              "other"
+            ]
+          },
+          "venue": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 2023,
+            "maximum": 2026
+          },
+          "official_source_id": {
+            "type": "string"
+          },
+          "last_verified_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

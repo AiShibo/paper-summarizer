@@ -1,0 +1,116 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-prete-traffic-engineering-with-predictive-failures-12a9d0d8",
+  "takeaway": "PreTE uses second-level optical degradation telemetry to estimate time-varying fiber-cut risk, prebuild failure-avoiding tunnels, and optimize traffic allocations for predicted failures.",
+  "background": "WAN traffic engineering balances utilization against availability under rare but disruptive fiber cuts. Reactive schemes can lose traffic while controllers build routes, whereas proactive schemes reserve capacity for failure scenarios before a cut occurs.",
+  "villain": "Existing probabilistic TE treats each link’s cut probability as constant. That over-reserves capacity during healthy epochs and underestimates risk when a short optical degradation precedes a cut; coarse telemetry can miss those degradation signals entirely.",
+  "approach": "PreTE collects one-second optical transmission-loss telemetry and uses an MLP over degradation timing, degree, gradient, fluctuation, and fiber attributes to estimate cut probability for the next TE period. A degradation also triggers creation of replacement tunnels that exclude the affected fiber. A Benders-decomposed optimization then allocates traffic across existing and new tunnels subject to capacity and probabilistic availability constraints.",
+  "impact": "The paper argues that prediction can combine proactive protection with more aggressive normal-state utilization, but its principal availability and demand gains come from simulation; only prediction and tunnel-update components were gradually deployed at publication time.",
+  "evaluation": {
+    "overview": "The authors characterize a year of production optical telemetry, test controller and tunnel-update latency on production-equivalent optical equipment, evaluate the predictor on real TWAN data, simulate availability and demand at scale, and describe a partially deployed production case.",
+    "implemented": "A controller integrates degradation detection, offline-trained MLP inference, tunnel construction, failure-scenario generation, and a Julia/Gurobi traffic-allocation optimizer using Benders decomposition.",
+    "setting": "The testbed has three production-identical routers, about 100 km of fiber, one variable optical attenuator, and 100 Gb/s wavelengths. Simulations use IBM (23 fibers, 85 IP links, 340 tunnels), B4 (19, 52, 208), and a confidential TWAN subset of order tens of fibers and hundreds of links/tunnels, with 24 traffic matrices and four fiber-disjoint/k-shortest tunnels per node pair. B4 and IBM degradation probabilities are Weibull-generated and linked to cut probabilities; TWAN uses production data.",
+    "baselines": [
+      "ECMP",
+      "FFC-1 and FFC-2",
+      "TeaVaR",
+      "ARROW with eight-second optical restoration",
+      "Flexile",
+      "Statistical failure predictor",
+      "Decision-tree failure predictor"
+    ],
+    "results": [
+      {
+        "id": "claim-prete-demand-availability",
+        "text": "In the IBM simulation at 99% availability, PreTE sustained a 5.7× demand scale while TeaVaR and FFC-1 sustained 2.3×; the B4 and confidential TWAN simulations showed the same qualitative trend.",
+        "source_ids": [
+          "src-sigcomm25-prete-pdf-12a9d0d8"
+        ],
+        "locator": "§6.2, Figure 13 and Table 4"
+      },
+      {
+        "id": "claim-prete-predictor",
+        "text": "On production TWAN degradation examples, the MLP reached 0.81 precision and 0.81 recall, compared with 0.45/0.37 for a statistical predictor and 0.68/0.53 for a decision tree.",
+        "source_ids": [
+          "src-sigcomm25-prete-pdf-12a9d0d8"
+        ],
+        "locator": "§6.3, Table 5"
+      }
+    ],
+    "study_types": [
+      "measurement-study",
+      "prototype",
+      "simulation",
+      "production-deployment"
+    ]
+  },
+  "limitations": "The production study finds only a subset of cuts predictable from degradation, and the method depends on one-second optical telemetry; coarser collection misses most precursors. The predictor is imperfect, and tunnel creation must finish between degradation and failure; sequentially creating many tunnels can take too long. Large-scale availability gains are simulations: B4 and IBM use generated degradation/failure probabilities and topologies derived from published data, while TWAN details are confidential. Failure-scenario probabilities multiply per-fiber probabilities, and the no-degradation theorem assumes fixed degradation probability and geometrically distributed unpredictable cuts. At publication time the predictor and tunnel updater were deployed gradually, not the complete optimization pipeline.",
+  "phd_group_signal": "This work links measurement, prediction, and optimization: establish that a physical-layer precursor is statistically informative, expose its assumptions, turn it into time-varying risk, and account for controller actuation time in a WAN TE design.",
+  "beginner_concepts": [
+    "wide-area traffic engineering",
+    "proactive versus reactive rerouting",
+    "optical transmission loss",
+    "fiber-disjoint tunnels",
+    "probabilistic availability",
+    "Benders decomposition"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-prete-mechanism",
+      "text": "PreTE estimates a fiber’s next-period cut probability from degradation features when a signal is present, lowers its estimate otherwise, creates replacement tunnels that avoid each degraded fiber, and jointly allocates traffic over old and new tunnels under capacity and availability constraints.",
+      "source_ids": [
+        "src-sigcomm25-prete-pdf-12a9d0d8"
+      ],
+      "locator": "§§4.1–4.3, Figures 8–9, Algorithm 1, Equations 1–8"
+    },
+    {
+      "id": "claim-prete-assumptions",
+      "text": "The design requires fine-grained optical loss telemetry and enough warning to install tunnels before a cut; its probability model treats failure-scenario likelihood as a product of per-fiber probabilities and derives healthy-epoch risk assuming fixed degradation probability and geometrically distributed unpredictable cuts.",
+      "source_ids": [
+        "src-sigcomm25-prete-pdf-12a9d0d8"
+      ],
+      "locator": "§3.1; §§4.1.2–4.3, Theorem 4.1 and Table 2; §6.4, Figure 16; §8 under “Impact of data granularity”"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-prete-pdf-12a9d0d8",
+      "url": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/prete.pdf",
+      "kind": "paper-pdf",
+      "title": "PreTE: Traffic Engineering with Predictive Failures",
+      "publisher": "UC Santa Barbara (coauthor-hosted SIGCOMM 2025 full paper)",
+      "retrieved_at": "2026-07-30T04:03:46Z",
+      "content_hash": "sha256:37219eeeac7d632a7a8fb6f70d1ac23367923a0e93c64eca585416d4a825461a",
+      "official": true,
+      "supports": [
+        "abstract, motivation, production measurement, predictor, tunnel construction, TE formulation, testbed, simulation, production case, discussion, and conclusion",
+        "telemetry granularity, topology and probability models, actuation latency, baseline assumptions, deployment boundary, and confidentiality caveats"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e5",
+    "updated_at": "2026-07-30T04:03:46Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–3; §§4.1–4.3; §5; §§6.1–6.4 including Figures 12–17 and Tables 3–5; §7; §§8–10; and the cited appendix assumptions in the main text.",
+      "The summary labels the headline throughput/availability claim as simulation, preserves generated-versus-production topology inputs and probability assumptions, and records that only the predictor and tunnel updater were in gradual production deployment."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:03:46Z",
+    "last_verified_at": "2026-07-30T04:03:46Z",
+    "collector_version": "agent-e5-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

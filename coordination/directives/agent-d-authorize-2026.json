@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-d-authorize-2026-ytd-2026-07-30",
+  "issued_at": "2026-07-30T03:00:08Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-d",
+  "status": "SUPERSEDED",
+  "action": "INVESTIGATE_AND_COLLECT_2026_YTD",
+  "task_brief": "coordination/tasks/agent-d-security-collection.md",
+  "shared_policy": "coordination/directives/2026-venue-year-investigation-policy.json",
+  "authorized_shards": [
+    "data/shards/ccs/2026",
+    "data/shards/ndss/2026",
+    "data/shards/sp/2026",
+    "data/shards/usenix-security/2026"
+  ],
+  "authorized_stage_files": [
+    "venue-year.json",
+    "metadata.json",
+    "relevance.json"
+  ],
+  "conditions": [
+    "Retain Agent D's completed 2023-2025 claim scope, keep the claim IN_PROGRESS, and add all four authorized 2026 shards before editing them.",
+    "Preserve every completed 2023-2025 file unchanged.",
+    "Investigate each assigned security venue independently using current official 2026 sources.",
+    "Create venue-year.json for every assigned venue even when no paper program exists; use the shared placeholder rules and do not create fake paper records.",
+    "When official archival main-track papers exist, collect every main-track candidate and apply Agent D's strict systems-security screening rather than including papers by venue membership.",
+    "Retain auditable excluded records for pure cryptography, theory, policy, social-science, or unrelated ML work when they are main-track papers.",
+    "Validate each venue-year separately and report status-only placeholders separately from collected paper shards.",
+    "Do not edit specialist stages, entities, frontend files, generated manifests, databases, or exports."
+  ],
+  "superseded_at": "2026-07-30T04:13:56Z",
+  "superseded_by": "coordinator-agent-d-finalize-2026-handoff-2026-07-30",
+  "superseded_reason": "Agent D's 2026 records are present; only final validation and claim closeout remain."
+}

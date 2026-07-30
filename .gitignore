@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Generated canonical data and exports
+data/database.sqlite
+data/database.sqlite-*
+data/venue-year-manifest.generated.json
+data/exports/*
+!data/exports/.gitkeep
+data/review_queue/generated/*
+data/logs/*
+data/cache/*
+data/tmp/*
+site/data/papers.json
+site/data/venue-years.json
+!site/data/fixture-papers.json
+
+# Temporary paper downloads must never be committed
+*.pdf
+*.pdf.part
+
+# Local user state
+.env
+.DS_Store
+coordination/claims/local-*.json

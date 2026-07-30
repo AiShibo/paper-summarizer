@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-cross-x-generalized-and-stable-cross-cache-attack-on-the-2a963ec3",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 0,
+  "rationale": "The available record lacks an abstract, so the paper's systems artifact cannot be established from the title alone.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-d2c8272add3b2ba4-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765152",
+      "kind": "publisher-page",
+      "title": "CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-8028c3662cc50268-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
+      "kind": "conference-program",
+      "title": "CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "title-only accepted-paper evidence; abstract unavailable"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership.",
+      "No automatic inclusion or exclusion was inferred across an unresolved boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "UNRESOLVED",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "classification requires abstract or paper review"
+    ]
+  }
+}

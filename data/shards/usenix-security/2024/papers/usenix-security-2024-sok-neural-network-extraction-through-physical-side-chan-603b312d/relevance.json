@@ -1,0 +1,51 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "usenix-security-2024-sok-neural-network-extraction-through-physical-side-chan-603b312d",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 2,
+  "rationale": "The paper systematizes physical side channels against deployed DNN accelerators and validates practical limitations experimentally on commercial hardware.",
+  "topics": [
+    "systems-security",
+    "hardware-security",
+    "side-channels"
+  ],
+  "system_layers": [
+    "hardware"
+  ],
+  "contribution_types": [
+    "deployment-experience"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-4f6620ba161261d5-paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/horvath",
+      "kind": "paper-page",
+      "title": "SoK: Neural Network Extraction Through Physical Side Channels",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

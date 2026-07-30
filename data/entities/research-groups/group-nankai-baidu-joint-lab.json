@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/research-group.schema.json",
+  "schema_version": "1.0.0",
+  "group_id": "group-nankai-baidu-joint-lab",
+  "name": "Nankai–Baidu Joint Laboratory",
+  "official_url": "https://nbjl.nankai.edu.cn/",
+  "group_kind": "academic",
+  "institution_id": "institution-nankai-university",
+  "department_or_division": "College of Computer Science",
+  "faculty_ids": [
+    "faculty-xiaoguang-liu"
+  ],
+  "research_topics": [],
+  "sources": [
+    {
+      "id": "src-nankai-baidu-joint-lab-official",
+      "url": "https://nbjl.nankai.edu.cn/12125/list.htm",
+      "kind": "lab-page",
+      "title": "Nankai–Baidu Joint Laboratory members",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official group identity",
+        "institutional affiliation",
+        "listed faculty leadership or membership where faculty_ids is non-empty"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "faculty_ids contains only people directly supported by the cited official source; no PI was inferred from author order."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "research_topics"
+    ]
+  }
+}

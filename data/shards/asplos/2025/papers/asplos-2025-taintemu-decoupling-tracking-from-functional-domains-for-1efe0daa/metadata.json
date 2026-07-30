@@ -1,0 +1,182 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-taintemu-decoupling-tracking-from-functional-domains-for-1efe0daa",
+  "title": "TaintEMU: Decoupling Tracking from Functional Domains for Architecture-Agnostic and Efficient Whole-System Taint Tracking",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 8D: Security",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lei Cui",
+      "position": 1,
+      "orcid": "0000-0002-8478-3297",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Guangxi Normal University, Guilin, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716023"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Youquan Xian",
+      "position": 2,
+      "orcid": "0009-0007-2704-7094",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Guangxi Normal University, Guilin, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716023"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Liu",
+      "position": 3,
+      "orcid": "0000-0003-2583-9112",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Guangxi Normal University, Guilin, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716023"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Longjin Lu",
+      "position": 4,
+      "orcid": "0009-0008-6160-6168",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Independent Researcher, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716023"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716023",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716023",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716023",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716023",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716023",
+      "kind": "crossref",
+      "title": "TaintEMU: Decoupling Tracking from Functional Domains for Architecture-Agnostic and Efficient Whole-System Taint Tracking",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c74f9ab92306072a08d9b24c43301cc42856a51e65f123360dec63f62afe8b74",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716023",
+      "url": "https://www.semanticscholar.org/paper/69bf1c93cb9f971d847d75e647c307b6d5c7f408",
+      "kind": "semantic-scholar",
+      "title": "TaintEMU: Decoupling Tracking from Functional Domains for Architecture-Agnostic and Efficient Whole-System Taint Tracking",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:4f6328b6d9264caa0fee85076f3ea168010d051ce3dbf34c6c3fd08db7aa588c",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

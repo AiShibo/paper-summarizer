@@ -1,0 +1,245 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2024-redte-mitigating-subsecond-traffic-bursts-with-real-time-4bb41fd4",
+  "title": "RedTE: Mitigating Subsecond Traffic Bursts with Real-time and Distributed Traffic Engineering",
+  "venue": "sigcomm",
+  "year": 2024,
+  "track_or_session": "Moving bits over the WAN — Research Track",
+  "paper_type": "main-track",
+  "publication_date": "2024-08-04",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Fei Gui",
+      "position": 1,
+      "orcid": "0000-0001-6808-3242",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Songtao Wang",
+      "position": 2,
+      "orcid": "0000-0002-2073-8235",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dan Li",
+      "position": 3,
+      "orcid": "0000-0002-7581-8865",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Li Chen",
+      "position": 4,
+      "orcid": "0000-0002-4228-7885",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaihui Gao",
+      "position": 5,
+      "orcid": "0000-0001-9013-5993",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Zhongguancun Laboratory",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Congcong Min",
+      "position": 6,
+      "orcid": "0009-0004-5476-226X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Guangdong Communications & Networks Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yi Wang",
+      "position": 7,
+      "orcid": "0000-0002-9095-6879",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Future Networks in Southern University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm24-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3651890.3672231",
+    "official_page": "https://dl.acm.org/doi/10.1145/3651890.3672231",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672231",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=NJvXiDwKNPU",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm24-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "kind": "conference-program",
+      "title": "ACM SIGCOMM 2024 Program",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:c61d8b9a0195f9d56e5c101bfb03acd82226d049365e6d5d67bca8dc771386bb",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-redte-mitigating-subsecond-traffic-bursts-with-real-time-4bb41fd4-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3651890.3672231",
+      "kind": "publisher-page",
+      "title": "RedTE: Mitigating Subsecond Traffic Bursts with Real-time and Distributed Traffic Engineering",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2024-redte-mitigating-subsecond-traffic-bursts-with-real-time-4bb41fd4-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672231",
+      "kind": "crossref",
+      "title": "Crossref metadata for RedTE: Mitigating Subsecond Traffic Bursts with Real-time and Distributed Traffic Engineering",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:50:22Z",
+      "content_hash": "sha256:70d86a7ede0eb85cf95eb939e3667b14a7450f399c1b3b81e1638de0d905dad3",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date",
+        "empty publisher relation metadata for alternate-version checks"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:50:22Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, which is also the first day of the official conference.",
+      "The official program labels this paper Research Track within the Moving bits over the WAN technical session."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-29T23:50:22Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

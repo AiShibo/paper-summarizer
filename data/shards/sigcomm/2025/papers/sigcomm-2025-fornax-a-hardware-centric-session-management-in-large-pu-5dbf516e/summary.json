@@ -1,0 +1,114 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-fornax-a-hardware-centric-session-management-in-large-pu-5dbf516e",
+  "takeaway": "Fornax groups bidirectional flows into hardware sessions and lets SmartNICs trigger aging, policy-update, and recovery events, shrinking software state and management work at public-cloud scale.",
+  "background": "Cloud SmartNICs offload very large stateful flow tables, but software still has to create, update, age, and repair their entries. A bidirectional connection also carries state spanning its forward and reverse entries, including protocol state, traffic direction, and statistics.",
+  "villain": "Software-centric managers keep a full shadow copy and issue one-way commands for individual flows. Scanning or updating millions of entries can exhaust management-plane memory and CPU, delay packets, and create loss precisely when tables or event rates spike.",
+  "approach": "Fornax makes a bidirectional session the management unit. Its FPGA session engine stores in-context state, emits typed events, and performs fine-grained local entry operations. A lightweight SoC manager retains only volatile or hard-to-regenerate information and reconstructs other actions through the slow path. Hardware-driven protocols use packet-triggered inactivity, per-address policy versions, and per-entry CRC checks to initiate aging, lazy policy repair, and error recovery.",
+  "impact": "The design moves routine decisions and retained state toward the SmartNIC while keeping complex recovery in software; the authors report deployment on millions of public-cloud servers and management of session tables reaching 16 million entries.",
+  "evaluation": {
+    "overview": "The paper measures FPGA and software storage costs, stresses aging, change-detection, and error-recovery workflows in a two-server testbed, replays three production traffic regimes against prior designs, and reports multi-day and fleet-wide production statistics.",
+    "implemented": "The data plane is Verilog on a custom FPGA-plus-DRAM SmartNIC, while a multithreaded C manager runs on the card’s x86 SoC. Events traverse Ethernet and entry-operation requests and responses traverse PCIe.",
+    "setting": "The testbed has two servers connected through a ToR; each has dual 96-core AMD EPYC 9K84 CPUs, 1,536 GB DDR5, and one dual-port custom SmartNIC with two 100 Gb/s network ports. Production evidence covers deployment on millions of servers for more than two years. For the comparative production experiment, Fornax ran on live traffic and the captured traffic was replayed against reproduced Tiara-plus-AccelNet logic.",
+    "baselines": [
+      "Traditional full software shadow-state management",
+      "Tiara aging protocol",
+      "AccelNet change-detection protocol",
+      "OVS-style periodic hardware/software reconciliation",
+      "Reproduced Tiara plus AccelNet under captured production-traffic replay"
+    ],
+    "results": [
+      {
+        "id": "claim-fornax-storage",
+        "text": "Dispersing regenerable and hardware-resident session information reduced software management storage from 960 to 192 bytes per session, an 80% saving, while adding 64 bytes in hardware.",
+        "source_ids": [
+          "src-sigcomm25-fornax-pdf-5dbf516e"
+        ],
+        "locator": "§5.2, Figure 10"
+      },
+      {
+        "id": "claim-fornax-production-replay",
+        "text": "Across three captured production traffic regimes ranging from 0.5 million to 16 million sessions, live Fornax used over 79% less average management-plane CPU than reproduced Tiara-plus-AccelNet under replay; the largest regime also maintained near-zero loss while the replayed baseline overloaded.",
+        "source_ids": [
+          "src-sigcomm25-fornax-pdf-5dbf516e"
+        ],
+        "locator": "§6.1, Figure 15"
+      }
+    ],
+    "study_types": [
+      "hardware-prototype",
+      "production-deployment",
+      "trace-replay",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Fornax depends on a programmable SmartNIC with FPGA, off-chip DRAM, an x86 SoC, and card-local PCIe/Ethernet channels; its session abstraction and protocol logic must be implemented in that dataplane. Lazy policy changes and CRC checks are triggered by packet processing, while complex or large-area failures still fall back to software, potentially abandoning acceleration. The manager’s periodic channel polling consumes CPU even when idle. Testbed competitors were reproduced from papers and OVS practice, and the production comparison runs Fornax live but replays captured traffic for the baseline rather than running both concurrently.",
+  "phd_group_signal": "The work exemplifies production hardware/software co-design: redefine the state unit, decide which state is authoritative or regenerable, turn routine management into dataplane protocols, and retain software escape paths for rare failures and upgrades.",
+  "beginner_concepts": [
+    "SmartNIC management plane",
+    "bidirectional flow sessions",
+    "hardware event notification",
+    "lazy policy updates",
+    "flow aging",
+    "CRC-based memory error detection"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-fornax-mechanism",
+      "text": "Fornax couples forward and reverse entries into a hardware session, exposes event and local-entry-operation interfaces, scatters management state so software retains only hard-to-recover contents, and implements hardware-driven aging, version-based change detection, and CRC-based repair protocols.",
+      "source_ids": [
+        "src-sigcomm25-fornax-pdf-5dbf516e"
+      ],
+      "locator": "§§3.1–3.4, Figures 5–8"
+    },
+    {
+      "id": "claim-fornax-operating-boundary",
+      "text": "The demonstrated system assumes a custom FPGA/DRAM dataplane with an x86 management SoC; packets activate lazy update and per-entry error checks, while software regenerates omitted actions, resolves harder failures, and can fail over completely when hardware acceleration is unusable.",
+      "source_ids": [
+        "src-sigcomm25-fornax-pdf-5dbf516e"
+      ],
+      "locator": "§§3.3–3.4; §4 and Figure 9; §7.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-sigcomm25-fornax-pdf-5dbf516e",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750501?download=true",
+      "kind": "paper-pdf",
+      "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Networks",
+      "publisher": "ACM",
+      "retrieved_at": "2026-07-30T04:03:46Z",
+      "content_hash": "sha256:061d3510b55c7a731b0145246f57115e70f04fcd3c61fc725ac6c8f0e8f38010",
+      "official": true,
+      "supports": [
+        "abstract, motivation, architecture, hardware-driven protocols, implementation, testbed evaluation, production evaluation, operational lessons, and conclusion",
+        "SmartNIC dependencies, session-state boundary, error and update behavior, baseline reproductions, replay conditions, and production scale"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e5",
+    "updated_at": "2026-07-30T04:03:46Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–2; §§3.1–3.4; §4; §§5.1–5.5 including Figures 10–14 and Table 1; §§6.1–6.3 including Figures 15–20; §§7.1–7.3; and §9.",
+      "The summary distinguishes live production Fornax measurements from replayed comparison systems and preserves the custom SmartNIC, packet-triggered protocol, software-fallback, and testbed conditions."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T04:03:46Z",
+    "last_verified_at": "2026-07-30T04:03:46Z",
+    "collector_version": "agent-e5-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

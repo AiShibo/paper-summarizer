@@ -1,0 +1,78 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2023-dashlet-taming-swipe-uncertainty-for-robust-short-video-02b29c37",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete network measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "networking",
+    "ml-systems",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "new-mechanism",
+    "optimization",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi23-program",
+      "url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:cac988a2e147b34e6feb8a05e8f68f38cb1693eb619fcc375b24235686fe8610",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-nsdi-2023-dashlet-taming-swipe-uncertainty-for-robust-short-video-02b29c37-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi23/presentation/li-zhuqi",
+      "kind": "paper-page",
+      "title": "Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:4100c3b19dd5ed15138f64f3ebb25fc9e86a6b936cdba3ae6515397878836baf",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-f-completion-handoff-required-2026-07-30",
+  "issued_at": "2026-07-30T01:30:26Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-f",
+  "status": "SUPERSEDED",
+  "action": "COMPLETE_OR_RECOVER_MISSING_HANDOFF",
+  "reason": "Agent F reported completion, but no completed Agent F output is visible in the shared workspace.",
+  "observed_state": {
+    "claim_status": "PLANNED",
+    "claimed_paper_count": 0,
+    "fast_2025_groups_ready_for_review": 0,
+    "fast_2025_groups_not_started": 36,
+    "entity_json_file_count": 0
+  },
+  "task_brief": "coordination/tasks/agent-f-faculty-groups.md",
+  "assignment": "coordination/assignments/fast-2025-specialist-pilot.json",
+  "previous_directive": "coordination/directives/agent-f-fast-2025-specialist-pilot.json",
+  "instructions": [
+    "Do not start a new paper batch.",
+    "Confirm that you are working in the shared paper_explorer workspace and recover or reapply any completed work that was written elsewhere.",
+    "Update coordination/claims/agent-f.json to claim exactly the 36 assigned FAST 2025 paper IDs.",
+    "Persist the evidence-backed group resolution for all 36 assigned groups.json files and any required entity records in Agent F's authorized entity directories.",
+    "Set completed groups.json workflows to READY_FOR_REVIEW; unresolved but fully investigated results must explicitly document missing evidence.",
+    "Run targeted FAST 2025 and full-root draft validation.",
+    "Report exact changed paths, entity counts, resolved and unresolved paper counts, official evidence, duplicate candidates, and validator output.",
+    "Wait for coordinator acceptance and Agent H review before requesting another batch."
+  ],
+  "completion_gate": [
+    "All 36 assigned IDs appear in Agent F's claim.",
+    "No assigned groups.json remains NOT_STARTED.",
+    "Every created entity reference resolves under full-root validation.",
+    "The handoff names unresolved associations rather than silently guessing them."
+  ],
+  "superseded_at": "2026-07-30T01:30:57Z",
+  "superseded_by": "coordinator-agent-f-fast-2025-specialist-pilot-2026-07-30",
+  "superseded_reason": "The user corrected the completion report: Agent G finished, not Agent F. Agent F's original specialist-pilot directive remains active."
+}

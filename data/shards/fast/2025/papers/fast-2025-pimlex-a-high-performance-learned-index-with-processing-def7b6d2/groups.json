@@ -1,0 +1,102 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-pimlex-a-high-performance-learned-index-with-processing-def7b6d2",
+  "associations": [
+    {
+      "group_id": "group-nankai-baidu-joint-lab",
+      "faculty_id": "faculty-xiaoguang-liu",
+      "publication_institution_id": "institution-nankai-university",
+      "current_institution_id": "institution-nankai-university",
+      "association_type": "official-lab-publication",
+      "evidence_source_ids": [
+        "src-agent-f-def7b6d2-paper-page",
+        "src-agent-f-def7b6d2-lab-publications",
+        "src-agent-f-def7b6d2-lab-members"
+      ],
+      "rationale": "The official Nankai–Baidu laboratory site lists PIMLex and separately lists Xiaoguang Liu among its professors.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Lixiao Cui",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Kedi Yang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yusen Li",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Gang Wang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-def7b6d2-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/cui",
+      "kind": "paper-page",
+      "title": "PIMLex: A High-Performance Learned Index with Processing-in-Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-def7b6d2-lab-publications",
+      "url": "https://nbjl.nankai.edu.cn/12126/list.htm",
+      "kind": "lab-page",
+      "title": "Nankai–Baidu Joint Laboratory publications",
+      "publisher": "Nankai University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact PIMLex publication"
+      ]
+    },
+    {
+      "id": "src-agent-f-def7b6d2-lab-members",
+      "url": "https://nbjl.nankai.edu.cn/12125/list.htm",
+      "kind": "lab-page",
+      "title": "Nankai–Baidu Joint Laboratory members",
+      "publisher": "Nankai University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Xiaoguang Liu listed among group professors"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

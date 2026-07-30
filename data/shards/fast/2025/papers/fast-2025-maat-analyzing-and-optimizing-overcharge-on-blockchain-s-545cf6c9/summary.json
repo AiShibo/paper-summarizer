@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-maat-analyzing-and-optimizing-overcharge-on-blockchain-s-545cf6c9",
+  "takeaway": "Maat prices Ethereum storage operations from deterministic cache and deduplication semantics, reducing gas assigned to disk work that nodes do not actually perform.",
+  "background": "Ethereum charges gas to ration computation, bandwidth, and persistent state. Opcode prices approximate resource cost, but clients cache state within and across blocks and deduplicate contract bytecode, so a nominal disk access can actually be a memory hit or metadata-only operation.",
+  "villain": "Current rules charge some repeated object accesses and duplicate contract deployments as if they performed full storage I/O. Any correction must be deterministic across different clients and machines; otherwise nodes can disagree about transaction validity and break consensus.",
+  "approach": "Maat instruments clients at the higher-level storage-operation boundary, collects fees and access semantics, and applies four rules for same-block hits, recent-block cache hits, updates, and duplicate bytecode. It predefines cache resources and persists cache state with a write-ahead log so heterogeneous nodes derive identical fees.",
+  "impact": "The study reframes fee schedules as a storage-accounting problem and contributed to EIP-7863. Its measured savings are historical counterfactuals: adoption would require a consensus upgrade and may change user or validator behavior.",
+  "evaluation": {
+    "overview": "One million historical blocks each from Ethereum and BSC quantify affected transactions and counterfactual fee reductions; experiments isolate four rules, processing/memory overhead, and portability to 50 geth-derived chains.",
+    "implemented": "An open-source geth/BSC-client instrumentation and rule engine with fine-grained storage-operation tracing, deterministic caches, resource preallocation, and WAL recovery.",
+    "setting": "A 12-core Xeon Gold 5218R with 64 GB RAM and 4 TB SSD; Ethereum blocks 18M–19M contain 158 million transactions and BSC blocks 34.15M–35.15M contain 168 million.",
+    "baselines": [
+      "unmodified geth",
+      "EIP-2929 gas accounting"
+    ],
+    "results": [
+      {
+        "id": "claim-maat-prevalence",
+        "text": "In the measured windows, the three overcharge patterns affect 70.4% of Ethereum transactions and 42.0% of fees, and 92.8% of BSC transactions and 41.7% of fees.",
+        "source_ids": [
+          "src-fast25-pdf-545cf6c9"
+        ],
+        "locator": "PDF pp. 5–6; §3, Table 1"
+      },
+      {
+        "id": "claim-maat-savings",
+        "text": "Historical replay attributes a 32% Ethereum fee reduction—about $112 million across one million blocks and $5.6 million per week on average—versus 11% under EIP-2929.",
+        "source_ids": [
+          "src-fast25-pdf-545cf6c9"
+        ],
+        "locator": "PDF pp. 9–11; §5.1, Table 4 and Figures 3–5"
+      },
+      {
+        "id": "claim-maat-overhead",
+        "text": "Maat adds 1.4% average block-processing time and 5.6% memory allocation; BSC replay reports a 31% fee reduction, about $7.71 million over its one-million-block window.",
+        "source_ids": [
+          "src-fast25-pdf-545cf6c9"
+        ],
+        "locator": "PDF pp. 11–12; §§5.3–5.4, Figure 7 and Table 6"
+      }
+    ],
+    "study_types": [
+      "measurement-study",
+      "prototype",
+      "trace-replay"
+    ]
+  },
+  "limitations": "Dollar savings are counterfactual replays of 2023–2024 blocks using historical token and gas prices, not realized user refunds, and behavior could change after repricing. Deployment needs consensus adoption by all nodes and durable identical cache configuration. Portability tests cover geth-derived fee/storage code; they do not establish equivalence for unrelated blockchains or client semantics.",
+  "phd_group_signal": "The work combines code archaeology across clients, large historical measurement, consensus-aware mechanism design, and an economic metric. It illustrates how storage-system behavior can surface at a protocol layer where correctness includes deterministic accounting, not only performance.",
+  "beginner_concepts": [
+    "blockchain",
+    "transaction gas",
+    "world state",
+    "smart contract",
+    "copy-on-write",
+    "consensus",
+    "write-ahead log"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-maat-issues",
+      "text": "Maat identifies repeated access within one block, repeated access while an object remains in the recent-block cache, and duplicate bytecode deployment as cases where charged disk work is absent.",
+      "source_ids": [
+        "src-fast25-pdf-545cf6c9"
+      ],
+      "locator": "PDF pp. 4–6; §3"
+    },
+    {
+      "id": "claim-maat-determinism",
+      "text": "Optimization rules use consensus-visible account, slot, block, and bytecode relationships, while resource preallocation fixes cache behavior across clients and hardware.",
+      "source_ids": [
+        "src-fast25-pdf-545cf6c9"
+      ],
+      "locator": "PDF pp. 6–9; §§4.1–4.5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-545cf6c9",
+      "url": "https://www.usenix.org/system/files/fast25-he.pdf",
+      "kind": "paper-pdf",
+      "title": "Maat: Analyzing and Optimizing Overcharge on Blockchain Storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:02b7bd87fc545eb4af5aa2ef7bcd09ac211c6304fcc37af141b6a158bfddcf5a",
+      "official": true,
+      "supports": [
+        "abstract, introduction, measurement, design, implementation, evaluation, discussion, and conclusion",
+        "reported prevalence, counterfactual fee savings, overhead, and portability"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:55:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §3 measurement/motivation, §§4.1–4.5 design/implementation, §§5.1–5.4 evaluation, §6 Discussion/limitations, and §8 Conclusion.",
+      "Fee reductions are author-reported historical counterfactuals, not deployed savings, and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:55:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

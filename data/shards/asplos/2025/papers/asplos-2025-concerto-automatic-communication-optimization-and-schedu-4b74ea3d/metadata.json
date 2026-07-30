@@ -1,0 +1,329 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-concerto-automatic-communication-optimization-and-schedu-4b74ea3d",
+  "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6A: ML Systems 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shenggan Cheng",
+      "position": 1,
+      "orcid": "0000-0002-7966-2941",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengjie Lin",
+      "position": 2,
+      "orcid": "0009-0004-6794-9293",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Georgia Institute of Technology, Atlanta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lansong Diao",
+      "position": 3,
+      "orcid": "0009-0000-6193-6126",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Wu",
+      "position": 4,
+      "orcid": "0009-0003-6318-4505",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "George Mason University, Fairfax, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Siyu Wang",
+      "position": 5,
+      "orcid": "0009-0002-4064-6984",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chang Si",
+      "position": 6,
+      "orcid": "0009-0000-4612-7371",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziming Liu",
+      "position": 7,
+      "orcid": "0009-0009-3355-6770",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuanlei Zhao",
+      "position": 8,
+      "orcid": "0009-0000-4877-3115",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiangsu Du",
+      "position": 9,
+      "orcid": "0000-0003-4707-9492",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wei Lin",
+      "position": 10,
+      "orcid": "0000-0002-3003-0150",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Alibaba Group, Hangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang You",
+      "position": 11,
+      "orcid": "0000-0003-2816-4384",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National University of Singapore, Singapore, Singapore",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707223"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707223",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707223",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707223",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707223",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707223",
+      "kind": "crossref",
+      "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:56a5042ce73ea82884558c3b2862877314315ac3e23862bbc7d18c0ba392f1c6",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707223",
+      "url": "https://www.semanticscholar.org/paper/6349276a48bcfac880be09914bea91a60200edcb",
+      "kind": "semantic-scholar",
+      "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:2df60a7275b70a4dd7fcdb06469ef78d6e9f7e896360176941f601b6b74921c1",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

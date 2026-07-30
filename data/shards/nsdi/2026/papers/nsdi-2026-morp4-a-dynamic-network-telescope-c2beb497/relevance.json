@@ -1,0 +1,77 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2026-morp4-a-dynamic-network-telescope-c2beb497",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract presents a concrete networked system, architecture, or mechanism evaluated in the Measuring at Scale session, placing it squarely in the core systems corpus.",
+  "topics": [
+    "networking",
+    "programmable-networks",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "new-system",
+    "deployment-experience"
+  ],
+  "methods": [
+    "implementation",
+    "production-deployment",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2026-morp4-a-dynamic-network-telescope-c2beb497-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xygkou",
+      "kind": "paper-page",
+      "title": "MORP4: A Dynamic Network Telescope",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:36cb4b9e72cfb57609be01cc93c93a18d8b19a8d3d6cbbdb043cc46edf003947",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

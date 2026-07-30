@@ -1,0 +1,76 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-understanding-and-detecting-fail-slow-hardware-failure-b-a2b91912",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because its empirical study directly characterizes cloud and datacenter systems behavior and informs concrete systems design at the distributed service layer.",
+  "topics": [
+    "cloud-and-datacenter-systems",
+    "cloud-computing",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "reliability-testing-and-debugging",
+    "bug-finding",
+    "measurement-and-empirical-systems-studies",
+    "production-measurement"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "hardware"
+  ],
+  "contribution_types": [
+    "measurement-study",
+    "bug-finding-or-testing-tool",
+    "optimization"
+  ],
+  "methods": [
+    "implementation",
+    "trace-analysis",
+    "dynamic-analysis"
+  ],
+  "sources": [
+    {
+      "id": "src-atc-2025-program",
+      "url": "https://www.usenix.org/conference/atc25/technical-sessions",
+      "kind": "conference-program",
+      "title": "USENIX ATC '25 Technical Sessions",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:729f0c4cf2d7ab3ba2f1f2730f0e87595f448e2b3ba8c73b1b543705b969159d",
+      "official": true,
+      "supports": [
+        "Official 2025 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-atc-2025-paper-dong",
+      "url": "https://www.usenix.org/conference/atc25/presentation/dong",
+      "kind": "paper-page",
+      "title": "Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems",
+      "publisher": "USENIX",
+      "retrieved_at": "2026-07-29T23:11:58Z",
+      "content_hash": "sha256:6fd70809bde3895b5c829239dc8bfde7d7fb6bb5e5db3c1509548a10a3495540",
+      "official": true,
+      "supports": [
+        "Official paper identity, abstract, PDF, slides, video, BibTeX, and publication metadata where present."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:11:58Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:11:58Z",
+    "last_verified_at": "2026-07-29T23:11:58Z",
+    "collector_version": "agent-a-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": []
+  }
+}

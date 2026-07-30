@@ -1,0 +1,237 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-slimslam-an-adaptive-runtime-for-visual-inertial-simulta-4b1315fb",
+  "title": "SlimSLAM: An Adaptive Runtime for Visual-Inertial Simultaneous Localization and Mapping",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 8C: High Performance Systems",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Armand Behroozi",
+      "position": 1,
+      "orcid": "0009-0008-0318-3371",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxiang Chen",
+      "position": 2,
+      "orcid": "0009-0001-7450-0687",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vlad Fruchter",
+      "position": 3,
+      "orcid": "0009-0008-4097-1641",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta Platforms Inc., Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lavanya Subramanian",
+      "position": 4,
+      "orcid": "0000-0001-9809-3361",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta Platforms Inc., Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sriseshan Srikanth",
+      "position": 5,
+      "orcid": "0000-0001-9203-8011",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta Platforms Inc., Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Scott Mahlke",
+      "position": 6,
+      "orcid": "0000-0002-0438-0616",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651361"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651361",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651361",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/6AxTP-onEjg",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651361",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651361",
+      "kind": "crossref",
+      "title": "SlimSLAM: An Adaptive Runtime for Visual-Inertial Simultaneous Localization and Mapping",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:bd4a3299ca6616dbf0afc498a3f39b021cef84ddb429b7ccb15b455a8d59c54d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651361",
+      "url": "https://www.semanticscholar.org/paper/9aade60fc807c9230e22ef994629d6a7cb747df1",
+      "kind": "semantic-scholar",
+      "title": "SlimSLAM: An Adaptive Runtime for Visual-Inertial Simultaneous Localization and Mapping",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:cdfad49881bb1bea1f9cb4926ed646eaaae2436e92a71bc71bc71379ab048343",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

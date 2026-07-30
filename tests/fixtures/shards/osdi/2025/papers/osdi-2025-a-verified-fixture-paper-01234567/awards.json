@@ -1,0 +1,37 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/awards.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2025-a-verified-fixture-paper-01234567",
+  "awards": [],
+  "sources": [
+    {
+      "id": "src-fixture-awards",
+      "url": "https://example.org/fixture/osdi-2025/awards",
+      "kind": "award-page",
+      "title": "Synthetic fixture award list",
+      "publisher": "Test fixture",
+      "retrieved_at": "2026-07-29T12:00:00Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "fixture award check"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "APPROVED",
+    "owner": "fixture-award-verifier",
+    "updated_at": "2026-07-29T12:00:00Z",
+    "notes": [
+      "Synthetic fixture checked; no award exists."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T12:00:00Z",
+    "last_verified_at": "2026-07-29T12:00:00Z",
+    "collector_version": "test-fixture-1",
+    "confidence": "VERIFIED",
+    "verified_by": "fixture-reviewer",
+    "unresolved_fields": []
+  }
+}

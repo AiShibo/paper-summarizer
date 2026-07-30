@@ -1,0 +1,309 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-ciphermatch-accelerating-homomorphic-encryption-based-st-d282fadc",
+  "title": "CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 1D: Homomorphic Encryption",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Mayank Kabra",
+      "position": 1,
+      "orcid": "0009-0000-2304-3124",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rakesh Nadig",
+      "position": 2,
+      "orcid": "0000-0002-4709-2323",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Harshita Gupta",
+      "position": 3,
+      "orcid": "0009-0009-6704-0473",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Manos Frouzakis",
+      "position": 4,
+      "orcid": "0009-0001-2536-7082",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rahul Bera",
+      "position": 5,
+      "orcid": "0000-0003-1129-1889",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vamanan Arulchelvan",
+      "position": 6,
+      "orcid": "0009-0008-5623-2376",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Liang",
+      "position": 7,
+      "orcid": "0000-0002-7754-9427",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Haiyu Mao",
+      "position": 8,
+      "orcid": "0000-0002-7393-4504",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "King's College London, London, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Sadrosadati",
+      "position": 9,
+      "orcid": "0000-0002-4029-0175",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Onur Mutlu",
+      "position": 10,
+      "orcid": "0000-0002-0075-2312",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zürich, Zurich, Switzerland",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716251"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716251",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716251",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716251",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716251",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716251",
+      "kind": "crossref",
+      "title": "CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:db0025791021119deaa92afbf97d983cca654bf7d645b912d89394c49d56f528",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716251",
+      "url": "https://www.semanticscholar.org/paper/dfd5af3cc1dee2e5a109ac3335da63dc34f30e02",
+      "kind": "semantic-scholar",
+      "title": "CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:7361cfc465adf4e1bf85d4929afa2161ba32215236fcb3bad306e20c5bd73843",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The stored title follows the publisher-deposited/indexed rendering where it differs from the official program, correcting inline typography, an apparent program typo or truncation, or a published subtitle; this lower-priority-source override is flagged for independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

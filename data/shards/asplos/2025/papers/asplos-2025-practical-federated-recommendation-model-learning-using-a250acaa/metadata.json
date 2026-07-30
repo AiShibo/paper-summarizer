@@ -1,0 +1,194 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-practical-federated-recommendation-model-learning-using-a250acaa",
+  "title": "Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 3C: ML Security",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jinyu Liu",
+      "position": 1,
+      "orcid": "0009-0006-0069-4542",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Pennsylvania State University, University Park, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716014"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenjie Xiong",
+      "position": 2,
+      "orcid": "0000-0002-7626-2651",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Virginia Tech, Blacksburg, VA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716014"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "G. Edward Suh",
+      "position": 3,
+      "orcid": "0000-0001-6409-9888",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Westford, MA, USA and Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716014"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kiwan Maeng",
+      "position": 4,
+      "orcid": "0000-0002-0321-8406",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Pennsylvania State University, University Park, PA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716014"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716014",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716014",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716014",
+    "artifact": "https://doi.org/10.5281/zenodo.14846665",
+    "code": "https://github.com/psu-paws/FEDORA-OramSim",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716014",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716014",
+      "kind": "crossref",
+      "title": "Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:38cf59b5863d7b9eb958e8d25f007328c267a8c6be5fcc7d2c4b0c8d71b7f744",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716014",
+      "url": "https://www.semanticscholar.org/paper/fd8c0d5b7a71024e8bfdc6b926a84c364e4c3ad0",
+      "kind": "semantic-scholar",
+      "title": "Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:d8dbe3222f4555fe97c465a9013ad2464b58650028cc25ca33acd248e611099d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-14846665",
+      "url": "https://zenodo.org/records/14846665",
+      "kind": "artifact-page",
+      "title": "psu-paws/FEDORA-OramSim: ASPLOS 2025 post AE",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:ba9fa28ea17391525954bc09e1cff1362e7fef47871149c44ea345f6fb8adee0",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The artifact link is an author-deposited archival Zenodo record matched by DOI, exact title, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

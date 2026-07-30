@@ -1,0 +1,243 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-varsaw-application-tailored-measurement-error-mitigation-68d2a4f8",
+  "title": "VarSaw: Application-tailored Measurement Error Mitigation for Variational Quantum Algorithms",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 6D: Variational Quantum Computing",
+  "paper_type": "main-track",
+  "publication_date": "2024-02-07",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Siddharth Dangwal",
+      "position": 1,
+      "orcid": "0000-0002-2483-9105",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, Chicago, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gokul Subramanian Ravi",
+      "position": 2,
+      "orcid": "0000-0002-2334-2682",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Poulami Das",
+      "position": 3,
+      "orcid": "0000-0002-5811-6108",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Austin, Austin, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaitlin N. Smith",
+      "position": 4,
+      "orcid": "0000-0002-1169-3696",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Infleqtion, Chicago, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonathan Mark Baker",
+      "position": 5,
+      "orcid": "0000-0002-0775-8274",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Texas at Austin, Austin, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Frederic T. Chong",
+      "position": 6,
+      "orcid": "0000-0001-9282-4645",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Chicago, Chicago, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3623278-3624764"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3623278.3624764",
+    "official_page": "https://dl.acm.org/doi/10.1145/3623278.3624764",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624764",
+    "artifact": null,
+    "code": "https://github.com/siddharthdangwal/VarSaw",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/76r3aP9GYZ8",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2306.06027",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3623278-3624764",
+      "url": "https://api.crossref.org/works/10.1145/3623278.3624764",
+      "kind": "crossref",
+      "title": "VarSaw: Application-tailored Measurement Error Mitigation for Variational Quantum Algorithms",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:422e526785c0c11255867ba28bdaecd8947aeb985dbc255331dc887eeda097bc",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3623278-3624764",
+      "url": "https://www.semanticscholar.org/paper/965ab47d9c39d79ced3c3b7961ba567379364e09",
+      "kind": "semantic-scholar",
+      "title": "VarSaw: Application-tailored Measurement Error Mitigation for Variational Quantum Algorithms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:98ed7a540e1a6426c3ce151f07ced51f0ec940d9b1505be287f8f76e11426fd0",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The official ASPLOS 2024 program schedules this paper, while ACM/Crossref container metadata labels it as ASPLOS 2023 Volume 4 and deposits a conflicting 2023 print date; the 2024-02-07 publisher-record creation date is retained pending independent review.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.project",
+      "publication_date.publisher_container_conflict"
+    ]
+  }
+}

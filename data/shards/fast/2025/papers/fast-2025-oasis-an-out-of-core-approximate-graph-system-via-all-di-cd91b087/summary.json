@@ -1,0 +1,120 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-oasis-an-out-of-core-approximate-graph-system-via-all-di-cd91b087",
+  "takeaway": "Oasis makes all-distances graph sketches practical beyond memory by partitioning construction and scheduling locality-aware, dual-sketch estimation, trading modest runtime and accuracy costs for much lower memory.",
+  "background": "An all-distances sketch (ADS) samples each vertex's distance-ranked neighborhood and supports approximate centrality, similarity, distance, and influence queries with statistical guarantees. The sketch can accelerate repeated graph analysis by orders of magnitude.",
+  "villain": "ADS data can be several times larger than its graph, while prior constructors and estimators assume it fits in memory. Naively placing it on storage causes random I/O, repeated scans, lock contention, and large working sets that erase the sketch's performance advantage.",
+  "approach": "Oasis partitions graph edges and ADS updates for out-of-core construction, uses a lock-free edge layout, separates active data, and selectively loads only affected sketches. During estimation it assigns queries for storage locality and combines two ADS orientations with a grid traversal to reduce random reads.",
+  "impact": "Oasis preserves the reusable approximate-analytics model on graphs too large for memory. Users can choose partition counts to fit available DRAM, gaining a practical memory/runtime tradeoff while retaining roughly 95% average accuracy in the reported applications.",
+  "evaluation": {
+    "overview": "Experiments on four real graphs measure construction and estimation time, peak memory, accuracy, component speedups, query locality, and the memory/performance tradeoff for closeness centrality and similarity.",
+    "implemented": "A C++ out-of-core ADS system with partitioned construction, lock-free organization, active-data separation, selective ADS access, locality-aware query assignment, and grid-based dual-ADS estimation.",
+    "setting": "Pokec, LiveJournal, Hollywood, and Twitter graphs range from 1.1–42 million vertices and 31 million–1.4 billion edges. A 16-thread HPE DL560 with Xeon 8160 CPUs, 1 TB DRAM, and two 1-TB Samsung NVMe SSDs runs default 16-partition tests.",
+    "baselines": [
+      "Basic out-of-core ADS construction",
+      "state-of-the-art in-memory ADS",
+      "in-memory ADS estimation",
+      "Ligra+ exact graph processing"
+    ],
+    "results": [
+      {
+        "id": "claim-oasis-construction",
+        "text": "Oasis construction uses 13.8× less memory on average than the in-memory ADS baseline while taking 1.79× as long; the basic out-of-core design is hundreds to thousands of times slower.",
+        "source_ids": [
+          "src-fast25-pdf-cd91b087"
+        ],
+        "locator": "PDF pp. 10–11; §4.2, Figures 6–7"
+      },
+      {
+        "id": "claim-oasis-estimation",
+        "text": "For the tested centrality and similarity workloads, Oasis estimation uses 42× less memory on average than in-memory ADS and is 2.9× slower, while retaining 95.4% average accuracy.",
+        "source_ids": [
+          "src-fast25-pdf-cd91b087"
+        ],
+        "locator": "PDF pp. 6, 11–12; Table 2 and §4.3, Figures 8–9"
+      },
+      {
+        "id": "claim-oasis-components",
+        "text": "Locality-aware query assignment improves estimation time by 40.7% on average, and grid-based estimation adds 11.8%–16.7% improvement in the evaluated cases.",
+        "source_ids": [
+          "src-fast25-pdf-cd91b087"
+        ],
+        "locator": "PDF pp. 12–13; §4.4.2, Figures 10–11"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Oasis is approximate and the reported mean accuracy is below exact processing. Experiments cover four graphs and only closeness centrality and similarity, although the framework lists seven supported applications. The machine has unusually large DRAM, SSD bandwidth is limited to two devices, and partition-count tuning exposes a clear memory/runtime tradeoff.",
+  "phd_group_signal": "The paper reformulates a theoretically grounded in-memory sketch for the storage hierarchy, then decomposes overheads and tunable tradeoffs experimentally. It connects graph algorithms, external-memory layout, scheduling locality, and approximation error.",
+  "beginner_concepts": [
+    "graph sketch",
+    "all-distances sketch",
+    "out-of-core processing",
+    "graph centrality",
+    "similarity estimation",
+    "partitioning",
+    "I/O locality"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-oasis-construction-design",
+      "text": "Oasis confines concurrent construction to edge partitions and reduces storage traffic through lock-free organization, separate active data, and selective access to ADS records that may change.",
+      "source_ids": [
+        "src-fast25-pdf-cd91b087"
+      ],
+      "locator": "PDF pp. 7–8; §3.2, Figures 3–4"
+    },
+    {
+      "id": "claim-oasis-estimation-design",
+      "text": "The estimator groups queries by storage locality and traverses a grid formed by forward and reverse ADS partitions so that shared sketch reads serve multiple query pairs.",
+      "source_ids": [
+        "src-fast25-pdf-cd91b087"
+      ],
+      "locator": "PDF pp. 8–10; §3.3, Figure 5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-cd91b087",
+      "url": "https://www.usenix.org/system/files/fast25-yang.pdf",
+      "kind": "paper-pdf",
+      "title": "Oasis: An Out-of-Core Approximate Graph System via All-Distances Sketches",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:f7d13ded15664a335440609406962aaced0fcfd8cd650dcd8165501f3e8382ae",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, design, implementation, evaluation, related work, and conclusion",
+        "reported construction, estimation, memory, accuracy, and component results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:44:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 introduction, §2 background, §3 design, §4 evaluation, §5 related work, and §6 conclusion.",
+      "Accuracy and performance results are author-reported; application coverage in the evaluation is narrower than the advertised framework."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:44:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

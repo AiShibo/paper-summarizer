@@ -1,0 +1,116 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-dshuffle-dpu-optimized-shuffle-framework-for-large-scale-93947705",
+  "takeaway": "DShuffle moves Spark shuffle serialization, preprocessing, transport, and spilling onto a BlueField DPU, then pipelines those stages to avoid the stalls caused by naive offload.",
+  "background": "A Spark shuffle redistributes map outputs among reducers and repeatedly serializes, transfers, spills, and deserializes intermediate data. Faster storage and networks expose CPU serialization and garbage collection as important bottlenecks.",
+  "villain": "Simply moving shuffle work to a DPU can make jobs slower because its general-purpose cores and memory are limited, while leaving serialization and spilling on the host preserves CPU and garbage-collection costs.",
+  "approach": "On the map side, DPA hardware threads traverse registered JVM object layouts and serialize batches from host memory; Arm workers partition, aggregate, or sort them; DSpill workers move them over RDMA or directly to disk. Fine-grained blocks, parallel workers, and coroutines pipeline these stages, while preallocated spill files let the DPU write disk data without a host copy. Reduce-side deserialization still runs in the host agent to avoid fine-grained cross-PCIe object creation.",
+  "impact": "The authors claim this division lets shuffle-intensive Spark jobs reclaim host resources without accepting the slowdown observed under naive DPU offload.",
+  "evaluation": {
+    "overview": "The authors compare resource use, phase timing, workload sensitivity, component throughput, and concurrent-job scaling.",
+    "implemented": "A Spark-compatible DShuffle prototype with a host agent and scheduler plus DPA serializer, Arm shuffle workers, and direct-spill workers on NVIDIA BlueField hardware.",
+    "setting": "A small Spark testbed paired each Intel host with an NVIDIA BlueField DPU; HiBench Sort was the default workload, and shuffle compression was disabled.",
+    "baselines": [
+      "Native Spark",
+      "Naive Offloading"
+    ],
+    "results": [
+      {
+        "id": "claim-dshuffle-job-time",
+        "text": "Under the default 285 GB, 32-partition HiBench Sort test with shuffle compression disabled, DShuffle reduced whole-job execution time by approximately 16% versus native Spark, whereas naive offloading increased it by 57%.",
+        "source_ids": [
+          "src-atc25-dshuffle-pdf"
+        ],
+        "locator": "§§9.2–9.3, Figures 9–10"
+      },
+      {
+        "id": "claim-dshuffle-shuffle-time",
+        "text": "In the same Sort experiment, the authors report that DShuffle reduced shuffle-phase execution time by 62.7% relative to native Spark and by 70.7% relative to naive offloading.",
+        "source_ids": [
+          "src-atc25-dshuffle-pdf"
+        ],
+        "locator": "§9.3, Figure 10"
+      }
+    ],
+    "study_types": [
+      "hardware-prototype",
+      "prototype"
+    ]
+  },
+  "limitations": "The evaluation uses a small BlueField testbed with shuffle compression disabled; because SmartShuffle was unavailable, the empirical offload baseline is a custom approximation. DPU compute and memory eventually saturate under concurrent workloads, reduce-side deserialization remains on the host, and porting the DPA serializer is hardware-specific.",
+  "phd_group_signal": "The paper reflects hardware/software co-design: profile an end-to-end data path, assign each stage to the hardware unit that fits it, and use ablations plus whole-job measurements to test the partitioning.",
+  "beginner_concepts": [
+    "distributed data shuffle",
+    "data processing unit",
+    "serialization and deserialization",
+    "pipeline parallelism",
+    "direct data spilling"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-dshuffle-mechanism",
+      "text": "DShuffle combines DPA-based host-object serialization, pipelined Arm workers for shuffle preprocessing, and DPU-managed RDMA and direct-disk spilling to move most shuffle work off the host.",
+      "source_ids": [
+        "src-atc25-dshuffle-pdf"
+      ],
+      "locator": "§§4–7, Figures 5–8"
+    },
+    {
+      "id": "claim-dshuffle-host-boundary",
+      "text": "DShuffle leaves reduce-side deserialization on the host because recreating Java objects on the DPA would require many small cross-PCIe interactions with the JVM.",
+      "source_ids": [
+        "src-atc25-dshuffle-pdf"
+      ],
+      "locator": "§6, Fine-Grained Pipeline Shuffle"
+    },
+    {
+      "id": "claim-dshuffle-evaluation-boundary",
+      "text": "The experiments disable shuffle compression, use a small BlueField testbed, and compare empirically with native Spark and a custom naive-offload design because SmartShuffle is not open source.",
+      "source_ids": [
+        "src-atc25-dshuffle-pdf"
+      ],
+      "locator": "§9.2, Testbed and Methodology; Baselines"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-atc25-dshuffle-pdf",
+      "url": "https://www.usenix.org/system/files/atc25-ding.pdf",
+      "kind": "paper-pdf",
+      "title": "DShuffle: DPU-Optimized Shuffle Framework for Large-scale Data Processing",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:32:16Z",
+      "content_hash": "sha256:f1fe825b2e5343cdf68de72947328afc37fde8a7a15a2d102664d36a0840c87f",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, discussion, and conclusion",
+        "reported mechanism, hardware and workload assumptions, baselines, numerical results, and limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e2",
+    "updated_at": "2026-07-30T03:32:16Z",
+    "notes": [
+      "Read the official paper PDF: abstract; §§1–3; §§4–8; §§9.1–9.7; §10; and §12.",
+      "Kept reduce-side deserialization and unavailable-SmartShuffle caveats explicit; retained only whole-job and shuffle-phase results from the default Sort condition."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:32:16Z",
+    "last_verified_at": "2026-07-30T03:32:16Z",
+    "collector_version": "agent-e2-summary-calibration/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

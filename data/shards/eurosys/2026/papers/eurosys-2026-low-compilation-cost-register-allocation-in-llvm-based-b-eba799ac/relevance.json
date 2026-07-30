@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "eurosys-2026-low-compilation-cost-register-allocation-in-llvm-based-b-eba799ac",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "This work is a core-systems fit because it develops or evaluates a material resource management and scheduling mechanism at the middleware layer.",
+  "topics": [
+    "resource-management-and-scheduling",
+    "cluster-management"
+  ],
+  "system_layers": [
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-eurosys-2026-program",
+      "url": "https://2026.eurosys.org/papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:6ca604bb4ca627fc704c9f3cc3f0323946ce5a2c145bf453361ad61d4933fa8c",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "The fit score measures corpus relevance only, not paper quality, impact, or venue prestige."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "classification evidence is limited to the official paper title because no abstract or detailed session was published in the available official list"
+    ]
+  }
+}

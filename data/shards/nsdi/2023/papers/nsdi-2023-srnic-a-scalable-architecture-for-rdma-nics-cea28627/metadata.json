@@ -1,0 +1,532 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627",
+  "title": "SRNIC: A Scalable Architecture for RDMA NICs",
+  "venue": "nsdi",
+  "year": 2023,
+  "track_or_session": "RDMA",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zilong Wang",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Layong Luo",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qingsong Ning",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chaoliang Zeng",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenxue Li",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinchen Wan",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Peng Xie",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tao Feng",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Cheng",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiongfei Geng",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianhao Wang",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Weicheng Ling",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kejia Huo",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pingbo An",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kui Ji",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shideng Zhang",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bin Xu",
+      "position": 17,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruiqing Feng",
+      "position": 18,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tao Ding",
+      "position": 19,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kai Chen",
+      "position": 20,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chuanxiong Guo",
+      "position": 21,
+      "orcid": null,
+      "affiliations": []
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi23/presentation/wang-zilong",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi23-wang-zilong.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": "https://www.usenix.org/system/files/nsdi23_slides_wang-zilong.pdf",
+    "video": "https://www.youtube.com/embed/izXT4BTU5WA?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {285104,\nauthor = {Zilong Wang and Layong Luo and Qingsong Ning and Chaoliang Zeng and Wenxue Li and Xinchen Wan and Peng Xie and Tao Feng and Ke Cheng and Xiongfei Geng and Tianhao Wang and Weicheng Ling and Kejia Huo and Pingbo An and Kui Ji and Shideng Zhang and Bin Xu and Ruiqing Feng and Tao Ding and Kai Chen and Chuanxiong Guo},\ntitle = {{SRNIC}: A Scalable Architecture for {RDMA} {NICs}},\nbooktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},\nyear = {2023},\nisbn = {978-1-939133-33-5},\naddress = {Boston, MA},\npages = {1--14},\nurl = {https://www.usenix.org/conference/nsdi23/presentation/wang-zilong},\npublisher = {USENIX Association},\nmonth = apr\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi23-program",
+      "url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:cac988a2e147b34e6feb8a05e8f68f38cb1693eb619fcc375b24235686fe8610",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi23/presentation/wang-zilong",
+      "kind": "paper-page",
+      "title": "SRNIC: A Scalable Architecture for RDMA NICs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:6f9fe3172f6958ec8f8d4050547ba0d119b7835394e164e787f27684472c9135",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    },
+    {
+      "id": "src-nsdi-2023-srnic-a-scalable-architecture-for-rdma-nics-cea28627-paper-pdf",
+      "url": "https://www.usenix.org/system/files/nsdi23-wang-zilong.pdf",
+      "kind": "paper-pdf",
+      "title": "SRNIC: A Scalable Architecture for RDMA NICs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:6c03f49a630babef65cf8a42bd3d671b3af9edff77b408bd26c96eb6691808c4",
+      "official": true,
+      "supports": [
+        "canonical author line and publication-time affiliations",
+        "resolution of conflicting or malformed citation metadata on the official paper page"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains unresolved and conference dates stay in venue-year.json.",
+      "The official paper PDF controls the author line and affiliations because the official page's citation metadata conflicts with or malforms that line."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "authors[].orcid (not available for every author)",
+      "publication_date",
+      "authors[21].affiliations (official conference version lists no affiliation)"
+    ]
+  }
+}

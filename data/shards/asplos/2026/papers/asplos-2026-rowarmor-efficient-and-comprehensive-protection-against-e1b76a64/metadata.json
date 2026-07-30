@@ -1,0 +1,304 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-rowarmor-efficient-and-comprehensive-protection-against-e1b76a64",
+  "title": "RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 2D: DRAM Reliability & Security",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 20,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Minbok Wi",
+      "position": 1,
+      "orcid": "0000-0003-4202-6201",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yoonyul Yoo",
+      "position": 2,
+      "orcid": "0009-0001-1152-6871",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yoojin Kim",
+      "position": 3,
+      "orcid": "0000-0001-9399-9367",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sungkyunkwan University, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaeho Shin",
+      "position": 4,
+      "orcid": "0009-0008-7547-301X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sungkyunkwan University, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jumin Kim",
+      "position": 5,
+      "orcid": "0009-0009-0523-7860",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yesin Ryu",
+      "position": 6,
+      "orcid": "0000-0002-2678-7396",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sungkyunkwan University, Suwon, Republic of Korea and Samsung Electronics, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Saeid Gorgin",
+      "position": 7,
+      "orcid": "0000-0001-5898-4872",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sungkyunkwan University, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jung Ho Ahn",
+      "position": 8,
+      "orcid": "0000-0003-1733-1394",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jungrae Kim",
+      "position": 9,
+      "orcid": "0000-0003-1587-0677",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sungkyunkwan University, Suwon, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790213"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790213",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790213",
+    "official_pdf": null,
+    "artifact": "https://zenodo.org/records/15686737",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790213",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790213",
+      "kind": "crossref",
+      "title": "RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:296b96db42673dad6b2b29b4a6bb8c18934251081ac98f822ebe88705e0f1081",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790213",
+      "url": "https://www.semanticscholar.org/paper/69bfa46113feba272ec81588dc5f363859111485",
+      "kind": "semantic-scholar",
+      "title": "RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:ef0b8d75c75dcac7f6177111d85070fd1bd6dd111d871f33ce098490d77c45e7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    },
+    {
+      "id": "src-zenodo-15686737",
+      "url": "https://zenodo.org/records/15686737",
+      "kind": "artifact-page",
+      "title": "RowArmor : Efficient and Comprehensive Protection Against DRAM Disturbance Attacks",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:4e89d40e41dc19e2a31eaaa289f5bdecc25ac2674f8dbcc49b5dbf04d6634d2f",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "Official-program title differs from the publisher rendering: RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Errors",
+      "A confident author-deposited Zenodo artifact match is recorded.",
+      "The matched artifact description says ASPLOS 2025, while the official detailed program places RowArmor in ASPLOS 2026."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of official-program versus publisher title rendering",
+      "Independent review of matched artifact naming/year-label discrepancy",
+      "links.official_pdf",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "alternate_versions"
+    ]
+  }
+}

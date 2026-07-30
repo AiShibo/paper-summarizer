@@ -1,0 +1,237 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-longnail-high-level-synthesis-of-portable-custom-instruc-6815445f",
+  "title": "Longnail: High-Level Synthesis of Portable Custom Instruction Set Extensions for RISC-V Processors from Descriptions in the Open-Source CoreDSL Language",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1A: Synthesis for Architectures",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Julian Oppermann",
+      "position": 1,
+      "orcid": "0000-0002-8073-720X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt, Darmstadt, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Brindusa Mihaela Damian-Kosterhon",
+      "position": 2,
+      "orcid": "0009-0009-5589-5124",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt, Darmstadt, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Florian Meisel",
+      "position": 3,
+      "orcid": "0000-0002-4671-9526",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt, Darmstadt, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tammo Mürmann",
+      "position": 4,
+      "orcid": "0009-0004-6617-5230",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt, Darmstadt, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eyck Jentzsch",
+      "position": 5,
+      "orcid": "0009-0007-1440-7433",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MINRES Technologies GmbH, Neubiberg, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Andreas Koch",
+      "position": 6,
+      "orcid": "0000-0002-1164-3082",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technical University of Darmstadt, Darmstadt, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651375"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651375",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651375",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/-hDoJ3vL4mY",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651375",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651375",
+      "kind": "crossref",
+      "title": "Longnail: High-Level Synthesis of Portable Custom Instruction Set Extensions for RISC-V Processors from Descriptions in the Open-Source CoreDSL Language",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:3bda13fb093e752a3ca6757c0e5925cf022bc6ff807599409306af7bca3e22a7",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651375",
+      "url": "https://www.semanticscholar.org/paper/a5968629288c98c7b7c15a7be01e10ab84b5e3bf",
+      "kind": "semantic-scholar",
+      "title": "Longnail: High-Level Synthesis of Portable Custom Instruction Set Extensions for RISC-V Processors from Descriptions in the Open-Source CoreDSL Language",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:507e00e658d47becc2d857459618eb0263c95af7d432bcbf270572d6f0eb6111",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

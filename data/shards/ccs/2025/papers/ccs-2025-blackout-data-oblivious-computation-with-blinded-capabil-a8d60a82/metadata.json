@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-blackout-data-oblivious-computation-with-blinded-capabil-a8d60a82",
+  "title": "BLACKOUT: Data-Oblivious Computation with Blinded Capabilities",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Hossam ElAtali",
+      "position": 1,
+      "orcid": "0009-0003-6553-8557",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Waterloo, Waterloo, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-569ca0a45e22da01-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Merve Gülmez",
+      "position": 2,
+      "orcid": "0000-0002-3150-0687",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ericsson Security Research, Kista, Sweden",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-569ca0a45e22da01-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Thomas Nyman",
+      "position": 3,
+      "orcid": "0000-0001-7647-6230",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ericsson Product Security, Kista, Sweden",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-569ca0a45e22da01-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "N. Asokan",
+      "position": 4,
+      "orcid": "0000-0002-5093-9871",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Waterloo, Waterloo, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-569ca0a45e22da01-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765169",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765169",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765169",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-caa02fe9065332f4-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-6dbcc82585c7cc8b-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765169",
+      "kind": "publisher-page",
+      "title": "BLACKOUT: Data-Oblivious Computation with Blinded Capabilities",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-569ca0a45e22da01-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765169",
+      "kind": "crossref",
+      "title": "BLACKOUT: Data-Oblivious Computation with Blinded Capabilities",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

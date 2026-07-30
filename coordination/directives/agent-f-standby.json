@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-f-standby-2026-07-30",
+  "issued_at": "2026-07-30T04:13:56Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-f",
+  "status": "OPEN",
+  "action": "STANDBY_PENDING_INDEPENDENT_REVIEW",
+  "reason": "Agent F completed the 36-paper FAST 2025 group and entity pilot, which is now assigned to Agent H for independent review.",
+  "instructions": [
+    "Keep coordination/claims/agent-f.json at COMPLETE.",
+    "Do not begin another paper batch or create additional entity records.",
+    "Do not edit completed groups.json or entity files unless Agent H or the coordinator assigns a specific evidence issue.",
+    "For a returned issue, reopen the official evidence, correct only Agent F-owned files, document the resolution, validate, and return the stage to READY_FOR_REVIEW.",
+    "Remain available until Agent H completes the pilot."
+  ]
+}

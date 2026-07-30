@@ -1,0 +1,93 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "fast",
+  "year": 2026,
+  "official_conference_url": "https://www.usenix.org/conference/fast26",
+  "official_program_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+  "conference_dates": {
+    "start": "2026-02-24",
+    "end": "2026-02-26"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 44,
+    "core_systems": 44,
+    "systems_adjacent": 0,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-fast26-conference",
+      "url": "https://www.usenix.org/conference/fast26",
+      "kind": "other",
+      "title": "FAST '26",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:0e6f5592c111966eb361aa046827b3cac98706ac1ea509481e5789cf083c9347",
+      "official": true,
+      "supports": [
+        "official conference identity, dates, and status"
+      ]
+    },
+    {
+      "id": "src-fast26-program",
+      "url": "https://www.usenix.org/conference/fast26/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:8a530ee04cc68348a5bb1ad8a88de8318bb71c81dd8eb515a07ead138060cab8",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast26-proceedings",
+      "url": "https://www.usenix.org/system/files/fast26_full_proceedings.pdf",
+      "kind": "conference-proceedings",
+      "title": "FAST '26 Proceedings",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:19:43Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "complete proceedings and archival paper-coverage reconciliation"
+      ]
+    },
+    {
+      "id": "src-fast26-cfp",
+      "url": "https://www.usenix.org/conference/fast26/call-for-papers",
+      "kind": "other",
+      "title": "FAST '26 Call for Papers",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:f9b965ee858eda0fe6113338158591ab09de85f4bc9af7d58e64df0198292d47",
+      "official": true,
+      "supports": [
+        "official main-paper scope and track definitions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Enumerated 44 archival main-track papers from the official technical sessions and full proceedings.",
+      "The excluded-non-main paper audit count is zero; keynotes, invited talks, awards, breaks, poster sessions, and social or sponsor events are non-paper program items.",
+      "No excluded-main-track or excluded-non-main paper bundle was required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

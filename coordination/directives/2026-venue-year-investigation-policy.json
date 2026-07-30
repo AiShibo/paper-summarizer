@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "policy_id": "coordinator-2026-venue-year-investigation-policy-2026-07-30",
+  "issued_at": "2026-07-30T03:00:08Z",
+  "issued_by": "coordinator",
+  "applies_to": [
+    "agent-a",
+    "agent-b",
+    "agent-c",
+    "agent-d"
+  ],
+  "purpose": "Investigate every assigned 2026 venue using current official sources and preserve an explicit venue-year status even when no archival paper program is available.",
+  "required_record": {
+    "path": "data/shards/<venue>/2026/venue-year.json",
+    "rule": "Every assigned venue must receive exactly one venue-year.json. A venue with no available papers receives this record only; never create a fake paper bundle."
+  },
+  "status_rules": {
+    "COMPLETE_PROCEEDINGS": "Use only when the complete official main technical-paper proceedings are available and fully reconciled.",
+    "ACCEPTED_PAPERS_ONLY": "Use when an official accepted-paper list is available but complete proceedings are not; create records only for verified archival main-track papers and resolve all counts.",
+    "PARTIAL": "Use when official paper information exists but is demonstrably incomplete; document the missing portion and resolve counts for the explicitly represented scope.",
+    "UPCOMING": "Use when an official source confirms the 2026 conference is scheduled but its archival main-paper program is not yet available.",
+    "UNAVAILABLE": "Use when official evidence shows there is no 2026 edition, or the relevant 2026 main-paper information is not published or retrievable. Explain which case applies.",
+    "UNVERIFIED": "Temporary investigation state only; do not use it as the final handoff merely because a search returned no papers."
+  },
+  "placeholder_rules": [
+    "For UPCOMING or UNAVAILABLE, set every counts field to null, never zero.",
+    "Set official_conference_url and conference_dates only when supported by a current official source; otherwise retain null and name the unresolved field.",
+    "Set official_program_url to null when no official program or accepted-paper page exists.",
+    "Include the official conference, sponsoring-organization, or publisher source that supports the status, with retrieval time and a concrete supports description.",
+    "Set workflow.status to READY_FOR_REVIEW after the status investigation is complete and keep the collector as workflow.owner.",
+    "Use verification confidence and unresolved_fields honestly; do not copy dates, URLs, paper counts, or status assumptions from another year.",
+    "Do not infer that an event is upcoming, canceled, biennial, discontinued, or empty without official evidence.",
+    "A future or unpublished program is unknown, not a zero-paper conference."
+  ],
+  "evidence_failure_rule": "If authoritative evidence remains insufficient after checking official conference, sponsoring-organization, and publisher sources, create the venue-year record with collection_status UNVERIFIED, workflow.status BLOCKED, null counts, and explicit unresolved fields and search notes. Do not mislabel absence of evidence as UPCOMING or UNAVAILABLE.",
+  "paper_collection_rules": [
+    "When an official 2026 paper list exists, follow the agent's original collection, main-track boundary, relevance, provenance, and deduplication rules.",
+    "Create one canonical bundle per verified archival conference paper and retain auditable excluded main-track records.",
+    "Do not collect workshops, posters, demos, keynotes, invited talks, doctoral-consortium items, or non-archival abstracts unless the venue explicitly classifies them as archival main-track papers.",
+    "For COMPLETE_PROCEEDINGS, ACCEPTED_PAPERS_ONLY, or PARTIAL, reconcile main-track and relevance counts and ensure the count fields agree with staged records.",
+    "Record the verification date because 2026 status can change; never silently promote an earlier placeholder when a program later appears."
+  ],
+  "ui_handoff": [
+    "Collectors must not edit the frontend or generated artifacts.",
+    "The coordinator will regenerate the venue-year manifest after handoff.",
+    "The UI coverage view must display zero-paper 2026 records using their status, such as Upcoming, Unavailable, Accepted papers only, Partial, or Complete proceedings."
+  ]
+}

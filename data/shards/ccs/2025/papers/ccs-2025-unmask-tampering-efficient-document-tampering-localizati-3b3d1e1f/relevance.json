@@ -1,0 +1,59 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-unmask-tampering-efficient-document-tampering-localizati-3b3d1e1f",
+  "class": "NEEDS_HUMAN_REVIEW",
+  "score": 0,
+  "rationale": "The available record lacks an abstract, so the paper's systems artifact cannot be established from the title alone.",
+  "topics": [],
+  "system_layers": [],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-db71625bf080ac95-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744809",
+      "kind": "publisher-page",
+      "title": "Unmask Tampering: Efficient Document Tampering Localization under Recapturing Attacks with Real Distortion Knowledge",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-5d6bf923d2b6e1d5-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
+      "kind": "conference-program",
+      "title": "Unmask Tampering: Efficient Document Tampering Localization under Recapturing Attacks with Real Distortion Knowledge",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "title-only accepted-paper evidence; abstract unavailable"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership.",
+      "No automatic inclusion or exclusion was inferred across an unresolved boundary."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-strict-systems-screen/1.0",
+    "confidence": "UNRESOLVED",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "classification requires abstract or paper review"
+    ]
+  }
+}

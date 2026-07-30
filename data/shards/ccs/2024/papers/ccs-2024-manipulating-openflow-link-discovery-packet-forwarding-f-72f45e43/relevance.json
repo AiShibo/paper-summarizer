@@ -1,0 +1,64 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2024-manipulating-openflow-link-discovery-packet-forwarding-f-72f45e43",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper implements and evaluates a control-plane topology-poisoning attack against multiple SDN controllers and discovery protocols.",
+  "topics": [
+    "systems-security",
+    "networking",
+    "network-security"
+  ],
+  "system_layers": [
+    "network"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-2d3a10e7410fb777-publisher",
+      "url": "https://doi.org/10.1145/3658644.3690345",
+      "kind": "publisher-page",
+      "title": "Manipulating OpenFlow Link Discovery Packet Forwarding for Topology Poisoning",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper identity and official publication"
+      ]
+    },
+    {
+      "id": "src-34064ffe36125ded-abstract",
+      "url": "https://openalex.org/W4402951223",
+      "kind": "openalex",
+      "title": "Manipulating OpenFlow Link Discovery Packet Forwarding for Topology Poisoning",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

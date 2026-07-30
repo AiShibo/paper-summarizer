@@ -1,0 +1,74 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-salus-a-practical-trusted-execution-environment-for-cpu-473d10e3",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because Salus contributes a concrete FPGA architecture or cloud integration mechanism for a Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms, while its primary contribution is trusted execution.",
+  "topics": [
+    "computer-architecture",
+    "accelerators",
+    "hardware-software-co-design",
+    "hardware-security",
+    "trusted-execution-environments",
+    "confidential-computing",
+    "cloud-and-datacenter-systems",
+    "cloud-computing"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "hypervisor"
+  ],
+  "contribution_types": [
+    "defense"
+  ],
+  "methods": [
+    "implementation",
+    "hardware-prototype"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3622781-3674169",
+      "url": "https://www.semanticscholar.org/paper/63251bad255ce4c25be9afe37d9cdc23dea3f854",
+      "kind": "semantic-scholar",
+      "title": "Salus: A Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:6ad01be2c868d1712f6f5182577d345185e10e3e7970b7004c8760f2bfeb9525",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

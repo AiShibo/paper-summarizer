@@ -1,0 +1,267 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-k-lotski-efficient-mixture-of-expert-inference-via-exper-f185d8a9",
+  "title": "Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6C: Mixture of Experts",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Zhiyuan Fang",
+      "position": 1,
+      "orcid": "0009-0003-9655-658X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Zhuhai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuegui Huang",
+      "position": 2,
+      "orcid": "0009-0001-0135-894X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Guangzhou, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zicong Hong",
+      "position": 3,
+      "orcid": "0000-0001-5689-382X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yufeng Lyu",
+      "position": 4,
+      "orcid": "0000-0002-6531-8277",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co. Ltd, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wuhui Chen",
+      "position": 5,
+      "orcid": "0000-0003-4430-7904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Zhuhai, China and Peng Cheng Laboratory, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yue Yu",
+      "position": 6,
+      "orcid": "0000-0002-9865-2212",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peng Cheng Laboratory, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Yu",
+      "position": 7,
+      "orcid": "0009-0001-2189-351X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huawei Technologies Co. Ltd, Shenzhen, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zibin Zheng",
+      "position": 8,
+      "orcid": "0000-0002-7878-4330",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sun Yat-sen University, Zhuhai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716261"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716261",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716261",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716261",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716261",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716261",
+      "kind": "crossref",
+      "title": "Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:f833c506429a27df25728ee747bb7d5031a47957fc81fc917141eac5cc057fa4",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716261",
+      "url": "https://www.semanticscholar.org/paper/4aeb2fb6eec0f126ae4c75202b8286bd640f76cc",
+      "kind": "semantic-scholar",
+      "title": "Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:58181097e390dfd0f44564c73542716b7d301b62e75a9ef99116f7ef2c5ee6c8",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL.",
+      "The displayed title follows the clean publisher-indexed rendering; the stable paper ID was not renamed after initialization from inline publisher markup."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

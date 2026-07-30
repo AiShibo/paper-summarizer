@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e2-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e2",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "baccff608a0afc0d2e0c8156f9d2e2301a3281298450cc41397fbe40325adb12"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "atc-2025-fast-acs-low-latency-file-based-ordered-message-delivery-eabba56e",
+      "title": "Fast ACS: Low-Latency File-Based Ordered Message Delivery at Scale",
+      "venue": "atc",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/atc25-gupta.pdf"
+    },
+    {
+      "paper_id": "atc-2025-ddlumos-understanding-and-detecting-atomic-ddl-bugs-in-d-09437477",
+      "title": "DDLumos: Understanding and Detecting Atomic DDL Bugs in DBMSs",
+      "venue": "atc",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/atc25-wu-zhiyong.pdf"
+    },
+    {
+      "paper_id": "atc-2025-dshuffle-dpu-optimized-shuffle-framework-for-large-scale-93947705",
+      "title": "DShuffle: DPU-Optimized Shuffle Framework for Large-scale Data Processing",
+      "venue": "atc",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/atc25-ding.pdf"
+    },
+    {
+      "paper_id": "atc-2025-dsa-2lm-a-cpu-free-tiered-memory-architecture-with-intel-e1266c71",
+      "title": "DSA-2LM: A CPU-Free Tiered Memory Architecture with Intel DSA",
+      "venue": "atc",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/atc25-liu-ruili.pdf"
+    },
+    {
+      "paper_id": "atc-2025-fide-reliable-and-fast-crash-failure-detection-to-boost-8afb494f",
+      "title": "FiDe: Reliable and Fast Crash Failure Detection to Boost Datacenter Coordination",
+      "venue": "atc",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://www.usenix.org/system/files/atc25-rovelli.pdf"
+    }
+  ]
+}

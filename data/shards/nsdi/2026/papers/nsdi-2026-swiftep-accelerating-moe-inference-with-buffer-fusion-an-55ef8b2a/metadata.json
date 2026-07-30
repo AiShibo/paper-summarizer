@@ -1,0 +1,369 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a",
+  "title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+  "venue": "nsdi",
+  "year": 2026,
+  "track_or_session": "Smart Pipes, Smarter Learning",
+  "paper_type": "main-track",
+  "publication_date": null,
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Xingyi Li",
+      "position": 1,
+      "orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_id": null,
+      "name": "Yadong Liu",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaojie Huang",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yiran Zhang",
+      "position": 4,
+      "orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_id": null,
+      "name": "Shuai Wang",
+      "position": 5,
+      "orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_id": null,
+      "name": "Shangguang Wang",
+      "position": 6,
+      "orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_id": null,
+      "name": "Zhehao Lin",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yinben Xia",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chang Yu",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Nanjing University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qihang Liu",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xuan Zhang",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Lu",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiang Li",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zekun He",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yachen Wang",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianneng Zou",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tencent",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": null,
+    "official_page": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi",
+    "official_pdf": "https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://www.youtube.com/embed/9iDwzmiB5mU?width%3D745%26amp%3Bheight%3D420%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dhd720%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D0%26amp%3Biv_load_policy%3D1%26amp%3Bcontrols%3D1%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque",
+    "bibtex": "@inproceedings {316662,\nauthor = {Xingyi Li and Yadong Liu and Xiaojie Huang and Yiran Zhang and Shuai Wang and Shangguang Wang and Zhehao Lin and Yinben Xia and Chang Yu and Qihang Liu and Xuan Zhang and Hao Lu and Xiang Li and Zekun He and Yachen Wang and Xianneng Zou},\ntitle = {{SwiftEP}: Accelerating {MoE} Inference with Buffer Fusion and {TMA} Offloading},\nbooktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-54-0},\naddress = {Renton, WA},\npages = {1073--1089},\nurl = {https://www.usenix.org/conference/nsdi26/presentation/li-xingyi},\npublisher = {USENIX Association},\nmonth = may\n}"
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-nsdi26-program",
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "kind": "conference-program",
+      "title": "NSDI '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:3493b45dce6aa803009937dd54e4e8345b7fc9b4d65d2107efd898ce0667cd3c",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-nsdi-2026-swiftep-accelerating-moe-inference-with-buffer-fusion-an-55ef8b2a-paper-page",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi",
+      "kind": "paper-page",
+      "title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:3a838d8310eabcd202e88f24e1d843c7dd9f3200ddadc805aa3db8c330212d3e",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Canonical identity, title, author order, and affiliations follow the checked official conference sources.",
+      "No alternate version was exposed by the checked official sources; an empty alternate_versions list is not a claim that none exists elsewhere.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official sources; null does not assert that no external repository exists.",
+      "USENIX exposes a publication year but not a day-level publication date, so publication_date remains null and conference dates stay in venue-year.json.",
+      "The official conference version explicitly lists Xingyi Li, Yiran Zhang, Shuai Wang, Shangguang Wang without an affiliation; no affiliation was inferred."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].orcid (not supplied by the checked official sources)",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography",
+      "publication_date",
+      "authors[].affiliations (official conference source explicitly lists one or more authors as unaffiliated)"
+    ]
+  }
+}

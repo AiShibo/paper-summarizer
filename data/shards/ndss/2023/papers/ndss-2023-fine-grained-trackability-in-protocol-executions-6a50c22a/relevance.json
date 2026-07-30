@@ -1,0 +1,52 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2023-fine-grained-trackability-in-protocol-executions-6a50c22a",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper develops a formal analysis framework and validates new tracking attacks on real LoRaWAN and 5G protocol executions.",
+  "topics": [
+    "network-security",
+    "privacy-systems",
+    "program-analysis"
+  ],
+  "system_layers": [
+    "network",
+    "firmware"
+  ],
+  "contribution_types": [
+    "new-mechanism"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-dcf8dddc6394370a-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fine-grained-trackability-in-protocol-executions/",
+      "kind": "paper-page",
+      "title": "Fine-Grained Trackability in Protocol Executions",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

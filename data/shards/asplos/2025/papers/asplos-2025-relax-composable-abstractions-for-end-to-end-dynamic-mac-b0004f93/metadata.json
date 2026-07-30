@@ -1,0 +1,497 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-relax-composable-abstractions-for-end-to-end-dynamic-mac-b0004f93",
+  "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9A: ML Compilers",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Ruihang Lai",
+      "position": 1,
+      "orcid": "0000-0001-6400-5079",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junru Shao",
+      "position": 2,
+      "orcid": "0000-0002-7370-1495",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Siyuan Feng",
+      "position": 3,
+      "orcid": "0000-0002-4682-983X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Steven Lyubomirsky",
+      "position": 4,
+      "orcid": "0009-0003-6747-7014",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bohan Hou",
+      "position": 5,
+      "orcid": "0000-0001-5718-3387",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wuwei Lin",
+      "position": 6,
+      "orcid": "0000-0001-8589-5453",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OpenAI, San Francisco, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zihao Ye",
+      "position": 7,
+      "orcid": "0000-0002-6450-8108",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Washington, Seattle, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hongyi Jin",
+      "position": 8,
+      "orcid": "0000-0001-6894-6554",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuchen Jin",
+      "position": 9,
+      "orcid": "0009-0000-8193-3010",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hyperbolic, San Francisco, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jiawei Liu",
+      "position": 10,
+      "orcid": "0000-0001-7122-8625",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Champaign, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lesheng Jin",
+      "position": 11,
+      "orcid": "0009-0001-9957-9141",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Hyperbolic, San Francisco, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yaxing Cai",
+      "position": 12,
+      "orcid": "0009-0004-9924-3543",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziheng Jiang",
+      "position": 13,
+      "orcid": "0009-0001-7732-4391",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ByteDance, Seattle, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Wu",
+      "position": 14,
+      "orcid": "0009-0004-9571-8660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sunghyun Park",
+      "position": 15,
+      "orcid": "0000-0003-4793-9069",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prakalp Srivastava",
+      "position": 16,
+      "orcid": "0000-0002-3834-7996",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Netflix, Los Gatos, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jared Roesch",
+      "position": 17,
+      "orcid": "0009-0008-3525-2503",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Todd C. Mowry",
+      "position": 18,
+      "orcid": "0000-0003-4076-5684",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianqi Chen",
+      "position": 19,
+      "orcid": "0000-0002-5744-3940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, Pittsburgh, USA and NVIDIA, Santa Clara, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716249"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716249",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716249",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716249",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716249",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716249",
+      "kind": "crossref",
+      "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c64f42e66e5cc3294345a7bfff6ff900890cb85305eca4e8fa8c615883e58607",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716249",
+      "url": "https://www.semanticscholar.org/paper/40e8037ea711c90f43aa24ea089719fc35df578b",
+      "kind": "semantic-scholar",
+      "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c4e0e54768afea64140b267e390b601de872aba63ef190d13a6c0fbc570c6778",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

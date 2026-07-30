@@ -1,0 +1,125 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-towards-high-throughput-and-low-latency-billion-scale-ve-0f381907",
+  "associations": [
+    {
+      "group_id": "group-hust-service-computing-cluster-grid",
+      "faculty_id": "faculty-haikun-liu",
+      "publication_institution_id": "institution-huazhong-university-science-technology",
+      "current_institution_id": "institution-huazhong-university-science-technology",
+      "association_type": "paper-or-project-evidence",
+      "evidence_source_ids": [
+        "src-agent-f-0f381907-paper-page",
+        "src-agent-f-0f381907-paper-pdf",
+        "src-agent-f-0f381907-faculty-profile"
+      ],
+      "rationale": "The official paper identifies Haikun Liu as a HUST corresponding author and gives the laboratory affiliations; Liu's official homepage confirms his current HUST faculty and lab role.",
+      "confidence": "HIGH"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Bing Tian",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yuhang Tang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Shihai Xiao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zhuohui Duan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xiaofei Liao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Hai Jin",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xuecang Zhang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Junhua Zhu",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Yu Zhang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-0f381907-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/tian-bing",
+      "kind": "paper-page",
+      "title": "Towards High-throughput and Low-latency Billion-scale Vector Search via CPU/GPU Collaborative Filtering and Re-ranking",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f381907-paper-pdf",
+      "url": "https://www.usenix.org/system/files/fast25-tian-bing.pdf",
+      "kind": "paper-pdf",
+      "title": "Billion-scale vector search paper PDF",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "paper title and author affiliations",
+        "laboratory affiliation",
+        "Haikun Liu identified as corresponding author"
+      ]
+    },
+    {
+      "id": "src-agent-f-0f381907-faculty-profile",
+      "url": "https://haikunliu.github.io/",
+      "kind": "faculty-page",
+      "title": "Haikun Liu",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current HUST faculty appointment",
+        "laboratory affiliation"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

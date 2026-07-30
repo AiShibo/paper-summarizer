@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ndss-2024-decentralized-information-flow-control-for-ros2-d51bad21",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper designs, implements, and experimentally evaluates Picaros, a decentralized information-flow-control system integrated with the ROS2 distributed robotics middleware.",
+  "topics": [
+    "systems-security",
+    "distributed-systems",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "middleware",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-system"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-942739538d54d836-paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/decentralized-information-flow-control-for-ros2/",
+      "kind": "paper-page",
+      "title": "Decentralized Information-Flow Control for ROS2",
+      "publisher": "Internet Society",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

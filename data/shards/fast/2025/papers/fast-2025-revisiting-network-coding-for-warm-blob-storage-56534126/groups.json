@@ -1,0 +1,106 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-revisiting-network-coding-for-warm-blob-storage-56534126",
+  "associations": [
+    {
+      "group_id": "group-hust-information-storage-systems-key-lab",
+      "faculty_id": "faculty-yuchong-hu",
+      "publication_institution_id": "institution-huazhong-university-science-technology",
+      "current_institution_id": "institution-huazhong-university-science-technology",
+      "association_type": "paper-or-project-evidence",
+      "evidence_source_ids": [
+        "src-agent-f-56534126-paper-page",
+        "src-agent-f-56534126-institution-news",
+        "src-agent-f-56534126-lab-members"
+      ],
+      "rationale": "The official USENIX page names Yuchong Hu on the paper; HUST's official lab pages document his related network-coding storage work and current professor membership in the Information Storage Systems Laboratory.",
+      "confidence": "HIGH"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Chuang Gan",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Leyan Zhao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Xin Zhao",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Pengyu Gong",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Dan Feng",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-56534126-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/gan",
+      "kind": "paper-page",
+      "title": "Revisiting Network Coding for Warm Blob Storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-56534126-institution-news",
+      "url": "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2017&wbtreeid=1044",
+      "kind": "institution-page",
+      "title": "HUST storage-lab network-coding news",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Yuchong Hu's network-coding storage work and faculty research context"
+      ]
+    },
+    {
+      "id": "src-agent-f-56534126-lab-members",
+      "url": "https://stlab.wnlo.hust.edu.cn/dy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013",
+      "kind": "lab-page",
+      "title": "Information Storage Systems Laboratory members",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Yuchong Hu's current professor and lab membership"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

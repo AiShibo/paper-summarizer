@@ -1,0 +1,250 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-coserve-efficient-collaboration-of-experts-coe-model-inf-53a51bbf",
+  "title": "CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 6C: Mixture of Experts",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jiashun Suo",
+      "position": 1,
+      "orcid": "0000-0002-5360-353X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaojian Liao",
+      "position": 2,
+      "orcid": "0000-0002-7924-9268",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Limin Xiao",
+      "position": 3,
+      "orcid": "0000-0001-9438-9181",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Li Ruan",
+      "position": 4,
+      "orcid": "0000-0002-2386-961X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinquan Wang",
+      "position": 5,
+      "orcid": "0000-0001-6690-8386",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiao Su",
+      "position": 6,
+      "orcid": "0000-0001-5365-2537",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhisheng Huo",
+      "position": 7,
+      "orcid": "0000-0002-5366-0892",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of CCSE and School of Computer Science and Engineering, Beihang University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3715986"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3715986",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3715986",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3715986",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2503.02354",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3715986",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3715986",
+      "kind": "crossref",
+      "title": "CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:9700a65a85eb947ab2f1f510b041c5659b22f3b852c3bae39c221caabb851a8b",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3715986",
+      "url": "https://www.semanticscholar.org/paper/51d0a66949a88f48558cdaf63470410f94ab72a3",
+      "kind": "semantic-scholar",
+      "title": "CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:0f535d710bb0518150d05dc117e44a6f32cd6bbd08a314370f956ab1a6732d91",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-shift-parallelism-low-latency-high-throughput-llm-infere-878edff4",
+  "title": "Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 1A: LLM Serving: Throughput Optimization",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Mert Hidayetoglu",
+      "position": 1,
+      "orcid": "0000-0001-9276-5075",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Aurick Qiao",
+      "position": 2,
+      "orcid": "0009-0004-9119-8696",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Bellevue, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Wyatt",
+      "position": 3,
+      "orcid": "0000-0003-2860-6859",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeff Rasley",
+      "position": 4,
+      "orcid": "0000-0003-2153-0409",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Bellevue, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxiong He",
+      "position": 5,
+      "orcid": "0000-0003-0478-8854",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Bellevue, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Samyam Rajbhandari",
+      "position": 6,
+      "orcid": "0000-0002-0386-8759",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Snowflake, Bellevue, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790219"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790219",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790219",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2509.16495",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790219",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790219",
+      "kind": "crossref",
+      "title": "Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:cd1b02e259b75c1c47a7a7615cf0ac96380843a287de0b30348457a6050a9fd5",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790219",
+      "url": "https://www.semanticscholar.org/paper/717ae39ea86cb80ad6f68b4c77ea08e135feb906",
+      "kind": "semantic-scholar",
+      "title": "Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:a91a2c419c74a952262c3e5f717a1e41bfbaff70ab0779c3f4091ec1fac75cb7",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

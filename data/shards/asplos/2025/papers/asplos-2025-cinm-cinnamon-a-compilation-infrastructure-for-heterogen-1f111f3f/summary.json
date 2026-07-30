@@ -1,0 +1,110 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-cinm-cinnamon-a-compilation-infrastructure-for-heterogen-1f111f3f",
+  "takeaway": "CINM uses layered MLIR dialects to compile shared high-level operations into UPMEM or memristor-specific code while exposing where device-aware mapping and optimization must occur.",
+  "background": "Compute-near-memory and compute-in-memory devices reduce data movement by placing computation beside or inside memory. Their architectures and low-level programming interfaces differ substantially.",
+  "villain": "Programs must otherwise be rewritten around device-specific APIs, explicit transfers, memory hierarchies, and synchronization, while existing compilers generally target one device class or application pattern.",
+  "approach": "CINM progressively lowers supported high-level MLIR operations through a device-neutral cinm dialect, common cnm or cim dialects, and finally UPMEM or memristor device dialects. Device passes tile work, manage device memory, reduce costly writes, expose parallelism, and emit target runtime calls. The user or a current heuristic selects targets because the paper provides cost-model hooks but does not implement an automatic cross-device mapping policy.",
+  "impact": "The authors argue that these reusable abstraction levels can make emerging memory-centric hardware easier to program and extend while retaining device-specific optimization opportunities.",
+  "evaluation": {
+    "overview": "The authors evaluate compiler-generated INT32 code on real UPMEM hardware and separately in a full-system simulation of a PCM crossbar accelerator, comparing generated variants with optimized CPU, prior compiler, and hand-written device implementations.",
+    "implemented": "An MLIR compiler prototype with cinm, cnm, cim, UPMEM, and memristor dialects; target-specific tiling and loop transformations; UPMEM code generation; and a memristor backend extending OCC.",
+    "setting": "UPMEM measurements use a Xeon-hosted 16-DIMM machine with 128 350 MHz DPUs per DIMM. CIM results use gem5 with an in-order ARMv8-A host and four simulated 64×64 PCM crossbar tiles; all workloads use INT32, and reported results are geometric means of ten runs.",
+    "baselines": [
+      "optimized Intel CPU code (cpu-opt)",
+      "hand-optimized PriM UPMEM implementations (prim-nd)",
+      "OCC-generated memristor results",
+      "simulated ARMv8-A host CPU"
+    ],
+    "results": [
+      {
+        "id": "claim-cinm-upmem-optimization",
+        "text": "On the real UPMEM machine, the authors report that device-aware optimized CINM variants were 47%, 42%, and 40% faster in geometric mean than the corresponding unoptimized generated variants using 4, 8, and 16 DIMMs.",
+        "source_ids": [
+          "src-asplos25-pdf-1f111f3f"
+        ],
+        "locator": "§4.2.2, Figure 11"
+      },
+      {
+        "id": "claim-cinm-simulated-cim-speedup",
+        "text": "For the evaluated matrix-multiplication-like kernels, the authors report that the optimized CINM configuration achieved a 30× performance gain over the ARM CPU in the simulated four-tile PCM crossbar system.",
+        "source_ids": [
+          "src-asplos25-pdf-1f111f3f"
+        ],
+        "locator": "§§4.1 and 4.2, Figure 10"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "simulation"
+    ]
+  },
+  "limitations": "The implemented backends cover UPMEM CNM and memristor-crossbar CIM only; PriM programs were manually translated, and the paper does not evaluate a host with multiple heterogeneous accelerators. CINM can accept cost models, but this work does not implement a cross-device cost model or automated mapping policy.",
+  "phd_group_signal": "The work reflects a compiler-and-architecture methodology: define reusable IR boundaries, implement two materially different backends, and separate real-hardware evidence from simulated emerging-device evidence.",
+  "beginner_concepts": [
+    "compute near memory and compute in memory",
+    "MLIR dialects and progressive lowering",
+    "device-aware tiling",
+    "UPMEM data-processing units",
+    "memristor crossbar simulation"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-cinm-central-mechanism",
+      "text": "CINM lowers supported high-level operations through a device-neutral cinm dialect, shared cim or cnm abstractions, and target device dialects where architecture-specific transformations and code generation occur.",
+      "source_ids": [
+        "src-asplos25-pdf-1f111f3f"
+      ],
+      "locator": "§§3.1–3.2, Figure 4"
+    },
+    {
+      "id": "claim-cinm-scope-assumptions",
+      "text": "The implemented flow targets UPMEM and memristor crossbars, uses user selection or a simple operation-based heuristic in the absence of device cost models, and evaluates a CPU paired with one memory-centric target rather than a multi-accelerator heterogeneous system.",
+      "source_ids": [
+        "src-asplos25-pdf-1f111f3f"
+      ],
+      "locator": "§§3.2.2, 3.3, and 3.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos25-pdf-1f111f3f",
+      "url": "https://cfaed.tu-dresden.de/files/Images/people/chair-cc/publications/2504_Khan_CINM_ASPLOS.pdf",
+      "kind": "paper-pdf",
+      "title": "CINM (Cinnamon): A Compilation Infrastructure for Heterogeneous Compute In-Memory and Compute Near-Memory Paradigms",
+      "publisher": "Association for Computing Machinery (author-hosted at TU Dresden)",
+      "retrieved_at": "2026-07-30T03:36:28Z",
+      "content_hash": "sha256:fd6f9993e7ffdf0afcef21df1416ef5d9825ad35c8ba19493895ca252e1d4f98",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, compiler design, evaluation, and conclusion",
+        "hardware scope, target-selection assumptions, real UPMEM measurements, simulated PCM results, baselines, and limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e3",
+    "updated_at": "2026-07-30T03:36:28Z",
+    "notes": [
+      "Read the full paper: abstract; §1; §§2.1–2.4; §§3.1–3.4; §§4.1–4.3 including Figures 10–12 and Table 4; and §6.",
+      "The summary distinguishes measurements on a real UPMEM system from gem5 simulation of the memristor target and does not claim automated heterogeneous target selection."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:36:28Z",
+    "last_verified_at": "2026-07-30T03:36:28Z",
+    "collector_version": "agent-e3-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

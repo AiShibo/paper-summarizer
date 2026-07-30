@@ -1,0 +1,266 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-halo-loop-aware-bootstrapping-management-for-fully-homom-84372491",
+  "title": "HALO: Loop-aware Bootstrapping Management for Fully Homomorphic Encryption",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 1D: Homomorphic Encryption",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Seonyoung Cheon",
+      "position": 1,
+      "orcid": "0009-0005-3463-716X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yongwoo Lee",
+      "position": 2,
+      "orcid": "0000-0002-7458-8885",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hoyun Youm",
+      "position": 3,
+      "orcid": "0009-0005-6623-3995",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongkwan Kim",
+      "position": 4,
+      "orcid": "0000-0002-9611-0233",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sungwoo Yun",
+      "position": 5,
+      "orcid": "0009-0000-8908-1289",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kunmo Jeong",
+      "position": 6,
+      "orcid": "0009-0006-1425-6164",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Dongyoon Lee",
+      "position": 7,
+      "orcid": "0000-0002-2240-3316",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stony Brook University, Stony Brook, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hanjun Kim",
+      "position": 8,
+      "orcid": "0000-0002-0762-7901",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yonsei University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707275"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707275",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707275",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707275",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707275",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707275",
+      "kind": "crossref",
+      "title": "HALO: Loop-aware Bootstrapping Management for Fully Homomorphic Encryption",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3a2f7ed1a88278aa3bf7b477150fbeeec5a18cfd511a37c9a74a1afed02e2a6d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707275",
+      "url": "https://www.semanticscholar.org/paper/ad3105c2b3165a4d1c76724fddb2fd4f8491c982",
+      "kind": "semantic-scholar",
+      "title": "HALO: Loop-aware Bootstrapping Management for Fully Homomorphic Encryption",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:f2f2b6a2450ed601b01efe3341cce8d8a70fbf99fd7ce463f3c158d63ab9f11d",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

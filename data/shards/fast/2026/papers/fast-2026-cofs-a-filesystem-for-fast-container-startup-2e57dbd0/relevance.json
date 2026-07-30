@@ -1,0 +1,90 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2026-cofs-a-filesystem-for-fast-container-startup-2e57dbd0",
+  "class": "CORE_SYSTEMS",
+  "score": 4,
+  "rationale": "The official abstract contributes a concrete storage measurement method, operational system, or empirically grounded systems insight, so it is core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "file-systems",
+    "caching",
+    "networking",
+    "rdma",
+    "cloud-and-datacenter-systems",
+    "serverless-computing",
+    "virtualization-and-isolation",
+    "containers",
+    "computer-architecture",
+    "hardware-software-co-design",
+    "high-performance-computing",
+    "parallel-computing",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "hardware",
+    "kernel",
+    "distributed-service",
+    "application-infrastructure",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "measurement-study"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-fast26-program",
+      "url": "https://www.usenix.org/conference/fast26/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '26 Technical Program",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:06:12Z",
+      "content_hash": "sha256:8a530ee04cc68348a5bb1ad8a88de8318bb71c81dd8eb515a07ead138060cab8",
+      "official": true,
+      "supports": [
+        "main-track enumeration and program-category boundaries",
+        "paper titles, sessions or tracks, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-fast-2026-cofs-a-filesystem-for-fast-container-startup-2e57dbd0-paper-page",
+      "url": "https://www.usenix.org/conference/fast26/presentation/wang-li",
+      "kind": "paper-page",
+      "title": "CoFS: A Filesystem for Fast Container Startup",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:09:39Z",
+      "content_hash": "sha256:de7b159de3124217049205eeac5d8fa4ce5e07db547e30cdacc3c08f7e473195",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where the cited paper PDF resolves official-page citation metadata",
+        "official paper page and PDF",
+        "proceedings page range and page count",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T03:19:43Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:06:12Z",
+    "last_verified_at": "2026-07-30T03:19:43Z",
+    "collector_version": "agent-b-2026-official-source-investigator/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

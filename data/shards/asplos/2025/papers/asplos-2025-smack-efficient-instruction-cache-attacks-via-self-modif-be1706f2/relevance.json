@@ -1,0 +1,71 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-smack-efficient-instruction-cache-attacks-via-self-modif-be1706f2",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "Systems-adjacent because SMaCk contributes a concrete microarchitectural side-channel attack or defense mechanism for efficient Instruction Cache Attacks via Self-Modifying Code Conflicts, while its primary contribution is microarchitectural side-channel security.",
+  "topics": [
+    "hardware-security",
+    "side-channels",
+    "systems-security",
+    "secure-architecture"
+  ],
+  "system_layers": [
+    "hardware",
+    "hypervisor",
+    "kernel"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization",
+    "security-attack"
+  ],
+  "methods": [
+    "implementation"
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716274",
+      "url": "https://www.semanticscholar.org/paper/f2a5a06a9a7b25f5086fdd81cd249876e34881a2",
+      "kind": "semantic-scholar",
+      "title": "SMaCk: Efficient Instruction Cache Attacks via Self-Modifying Code Conflicts",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:cc47ccea9f2ec8793bf9e8c1e2b0a157b50cfedc74391b97c2a99c7a9a389daf",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "Classified from the official program session and an abstract indexed by Semantic Scholar; independent review is still required."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": []
+  }
+}

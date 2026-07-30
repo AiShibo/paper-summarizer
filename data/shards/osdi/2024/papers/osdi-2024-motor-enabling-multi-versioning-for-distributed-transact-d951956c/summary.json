@@ -1,0 +1,116 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-motor-enabling-multi-versioning-for-distributed-transact-d951956c",
+  "takeaway": "Motor packs multiple record versions into fixed consecutive tuples and uses one-sided RDMA MVCC, reducing remote version walks while supporting serializability or snapshot isolation.",
+  "background": "Disaggregated-memory systems keep application data on memory nodes with little compute and execute transactions from a separate compute pool. Multi-versioning can unblock reads and let old versions replace undo logs.",
+  "villain": "Conventional pointer-linked version chains require repeated remote reads and CPU-assisted management, while single-version designs block reads during writes and send undo logs to replicas.",
+  "approach": "Motor stores each record's fixed number of version cells contiguously in a consecutive version tuple, while keeping the newest full value plus modified old attributes in a separate value region. Coordinators fetch a tuple in one network round trip, select a version locally, use anchor bytes to detect value/version races, and preemptively overwrite old versions when space fills. A one-sided RDMA MVCC protocol locks and validates from the compute pool, batches replica updates, and selects serializability or snapshot isolation by enabling or skipping read-set validation.",
+  "impact": "The authors claim this co-design brings multi-version concurrency to CPU-light disaggregated memory without pointer chasing or per-update undo-log traffic.",
+  "evaluation": {
+    "overview": "The authors measured version-structure costs, end-to-end throughput and latency, memory footprint, isolation modes, persistent memory, and coordinator and replica recovery.",
+    "implemented": "A coroutine-based transaction engine with hash indexes, consecutive-version-tuple storage, one-sided RDMA reads, writes and atomics, replication, leases, and recovery logs.",
+    "setting": "A disaggregated InfiniBand testbed ran a configurable key-value microbenchmark plus TATP, SmallBank, and TPCC with replicated memory-pool data.",
+    "baselines": [
+      "FORD (single-version disaggregated-memory transactions)",
+      "FaRMv2-DM (the paper's one-sided-RDMA adaptation of FaRMv2)",
+      "old-to-new and new-to-old linked version chains"
+    ],
+    "results": [
+      {
+        "id": "claim-motor-ford-tpcc",
+        "text": "On TPCC with serializability, Motor improved throughput by 98.1% and reduced median latency by 55.8% relative to FORD.",
+        "source_ids": [
+          "src-osdi24-pdf-d951956c"
+        ],
+        "locator": "PDF p. 12 (paper p. 811); §7.4, Figure 11"
+      },
+      {
+        "id": "claim-motor-farmv2-tpcc",
+        "text": "On TPCC with serializability, Motor improved throughput by 44.3% and reduced median and 99th-percentile latency by 52.1% and 35.6% relative to FaRMv2-DM.",
+        "source_ids": [
+          "src-osdi24-pdf-d951956c"
+        ],
+        "locator": "PDF p. 12 (paper p. 811); §7.4, Figure 11"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Motor assumes fail-stop rather than Byzantine faults, a scalable strictly increasing timestamp service, reliable ordered RDMA with DDIO disabled, and durable coordinator logs. During partitions it serves only the majority side; durability additionally requires UPS-backed DRAM or persistent memory, and fixed-size tuples can reclaim a version needed by a long transaction and force an abort.",
+  "phd_group_signal": "This work signals a systems co-design style joining remote-memory data layout, transaction-protocol reasoning, RDMA batching, recovery design, and end-to-end benchmarking.",
+  "beginner_concepts": [
+    "memory disaggregation",
+    "multi-version concurrency control",
+    "serializability versus snapshot isolation",
+    "one-sided RDMA",
+    "primary-backup replication"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-motor-central-mechanism",
+      "text": "Motor places fixed-count version cells contiguously so coordinators can fetch them together, stores the newest full value plus modified old attributes separately, checks anchor bytes for value/version consistency, and runs locking, validation, and replica updates with one-sided RDMA.",
+      "source_ids": [
+        "src-osdi24-pdf-d951956c"
+      ],
+      "locator": "PDF pp. 5–10 (paper pp. 804–809); §§4.1–5.2, Figures 3–6"
+    },
+    {
+      "id": "claim-motor-isolation-failure-model",
+      "text": "Motor supports serializability and snapshot isolation; f+1 primary-backup replicas tolerate up to f fail-stop replica failures, while Byzantine faults are excluded. Leases detect coordinator failures, replacement coordinators use UPS-backed operation logs, and only the majority partition serves during a network split.",
+      "source_ids": [
+        "src-osdi24-pdf-d951956c"
+      ],
+      "locator": "PDF pp. 4 and 9–10 (paper pp. 803 and 808–809); §§2.2 and 5.1–5.3"
+    },
+    {
+      "id": "claim-motor-ordering-gc-assumptions",
+      "text": "Motor assumes a strictly increasing timestamp service and relies on reliable ordered RDMA with DDIO disabled for write order; its preemptive garbage collector may reclaim a version still needed by a long transaction, which then aborts.",
+      "source_ids": [
+        "src-osdi24-pdf-d951956c"
+      ],
+      "locator": "PDF pp. 7–8 (paper pp. 806–807); §§4.3–4.4 and §5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi24-pdf-d951956c",
+      "url": "https://www.usenix.org/system/files/osdi24-zhang-ming.pdf",
+      "kind": "paper-pdf",
+      "title": "Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:28:12Z",
+      "content_hash": "sha256:5648eefae34988ac75679226a746d5119f8d9d5c6156ad46637fae091b673224",
+      "official": true,
+      "supports": [
+        "abstract, introduction, system model, storage and protocol design, implementation, evaluation, and conclusion",
+        "central mechanism, isolation and failure model, ordering assumptions, workloads, baselines, and author-reported performance"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e6",
+    "updated_at": "2026-07-30T03:35:17Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–7, and §9; inspected Figures 1–19 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:35:17Z",
+    "last_verified_at": "2026-07-30T03:35:17Z",
+    "collector_version": "agent-e6-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

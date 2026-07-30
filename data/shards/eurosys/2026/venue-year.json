@@ -1,0 +1,108 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "eurosys",
+  "year": 2026,
+  "official_conference_url": "https://2026.eurosys.org/",
+  "official_program_url": "https://2026.eurosys.org/papers.html",
+  "conference_dates": {
+    "start": "2026-04-27",
+    "end": "2026-04-30"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 138,
+    "core_systems": 134,
+    "systems_adjacent": 4,
+    "excluded": 0,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-eurosys-2026-conference",
+      "url": "https://2026.eurosys.org/",
+      "kind": "other",
+      "title": "EuroSys 2026",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:7e99f9bd20710d8522cd6875db6466291d7714a2d095a3969dce5a11e9ac95ed",
+      "official": true,
+      "supports": [
+        "Official venue identity, 2026 conference dates, and location."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-program",
+      "url": "https://2026.eurosys.org/papers.html",
+      "kind": "conference-program",
+      "title": "EuroSys 2026 Accepted Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:6ca604bb4ca627fc704c9f3cc3f0323946ce5a2c145bf453361ad61d4933fa8c",
+      "official": true,
+      "supports": [
+        "Official 2026 archival main-track inventory, titles, author order, and publication-time affiliations."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3767295",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the 21st European Conference on Computer Systems",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability and canonical conference versions."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-dblp",
+      "url": "https://dblp.org/db/conf/eurosys/eurosys2026.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for EuroSys 2026",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:bd74c8afb3a1cbbf365cdca17145ed7698e3acd0b4664d63f88c10843024fbfa",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official conference list."
+      ]
+    },
+    {
+      "id": "src-eurosys-2026-publisher-metadata",
+      "url": "https://api.crossref.org/works/10.1145%2F3767295",
+      "kind": "crossref",
+      "title": "Publisher-deposited metadata for the EuroSys 2026 proceedings",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-30T03:18:26Z",
+      "content_hash": "sha256:e1570741a739d3e6bc8249956df27e219d644d9d67c75c0c11d1b052270f276c",
+      "official": false,
+      "supports": [
+        "Publisher-deposited proceedings identity and print publication date."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-30T03:18:26Z",
+    "notes": [
+      "All 138 official final-paper rows were reconciled one-to-one with the 138-paper DBLP proceedings table and official DOI links.",
+      "The official site did not expose a detailed paper-session program; track_or_session remains null for every paper."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:18:26Z",
+    "last_verified_at": "2026-07-30T03:18:26Z",
+    "collector_version": "agent-a-2026-official-program-parser/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "track_or_session for all 138 papers",
+      "page_count for Ethane: Debloating State Data using Compact Trie for Account-based Blockchain because both DBLP and the publisher deposit contain an invalid range",
+      "publication-time affiliation for Sebastien Chevalier on Practical and Efficient x86-64 Emulation on RISC-V because the official paper list publishes empty parentheses"
+    ]
+  }
+}

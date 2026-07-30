@@ -1,0 +1,170 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-from-ot-to-ole-with-subquadratic-communication-1b65f402",
+  "title": "From OT to OLE with Subquadratic Communication",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jack Doerner",
+      "position": 1,
+      "orcid": "0009-0007-0409-2132",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Virginia, Charlottesville, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8ffe9f955c2e05fc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Iftach Haitner",
+      "position": 2,
+      "orcid": "0000-0003-3167-3294",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stellar Development Foundation, San Francisco, USA and Tel Aviv University, Tel Aviv, Israel",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8ffe9f955c2e05fc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuval Ishai",
+      "position": 3,
+      "orcid": "0009-0009-4096-6305",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Technion - Israel Institute of Technology, Haifa, Israel and Amazon Web Services, Inc., Seattle, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8ffe9f955c2e05fc-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nikolaos Makriyannis",
+      "position": 4,
+      "orcid": "0000-0002-9818-456X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Fireblocks, New York, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-8ffe9f955c2e05fc-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765225",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765225",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765225",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-f7ca30dff1cf9723-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-a5e03039566f744c-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765225",
+      "kind": "publisher-page",
+      "title": "From OT to OLE with Subquadratic Communication",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-8ffe9f955c2e05fc-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765225",
+      "kind": "crossref",
+      "title": "From OT to OLE with Subquadratic Communication",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-composing-distributed-computations-through-task-and-kern-3dd2ec56",
+  "title": "Composing Distributed Computations Through Task and Kernel Fusion",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 2B: Distributed Computing",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Rohan Yadav",
+      "position": 1,
+      "orcid": "0000-0003-0746-066X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shiv Sundram",
+      "position": 2,
+      "orcid": "0000-0001-5228-1295",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wonchan Lee",
+      "position": 3,
+      "orcid": "0000-0001-8364-5784",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Garland",
+      "position": 4,
+      "orcid": "0000-0001-6093-7602",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Bauer",
+      "position": 5,
+      "orcid": "0000-0001-8928-3032",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NVIDIA, Santa Clara, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alex Aiken",
+      "position": 6,
+      "orcid": "0000-0002-3723-9555",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fredrik Kjolstad",
+      "position": 7,
+      "orcid": "0000-0002-2267-903X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stanford University, Stanford, CA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707216"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707216",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707216",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707216",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707216",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707216",
+      "kind": "crossref",
+      "title": "Composing Distributed Computations Through Task and Kernel Fusion",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:bf911a9f3693c64b9ef6a22731dafd6446915c8bc8d14ce3e4d651218305cc1d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707216",
+      "url": "https://www.semanticscholar.org/paper/59e03f09ee7213209e11e566b09dbb981d4dd620",
+      "kind": "semantic-scholar",
+      "title": "Composing Distributed Computations Through Task and Kernel Fusion",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:dcddd3e3b30e1c9859f0d4427d820112b90fdeaddfb80cb546de05c2f1610cf9",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

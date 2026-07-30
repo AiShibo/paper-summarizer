@@ -1,0 +1,54 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2024-orca-fss-based-secure-training-and-inference-with-gpus-9793cdb2",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper builds an end-to-end GPU system for privacy-preserving training and inference and evaluates major latency, storage, and communication improvements.",
+  "topics": [
+    "ml-systems",
+    "privacy-systems",
+    "computer-architecture"
+  ],
+  "system_layers": [
+    "hardware",
+    "runtime",
+    "distributed-service"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "optimization"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-b01ad1ae8f58624a-abstract",
+      "url": "https://openalex.org/W4402264258",
+      "kind": "openalex",
+      "title": "Orca: FSS-based Secure Training and Inference with GPUs",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T00:17:50Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T00:17:50Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T00:17:50Z",
+    "last_verified_at": "2026-07-30T00:17:50Z",
+    "collector_version": "agent-d-strict-systems-screen/1.1-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

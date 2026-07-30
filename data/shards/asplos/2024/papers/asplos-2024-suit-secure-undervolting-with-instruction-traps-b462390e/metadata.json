@@ -1,0 +1,207 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-suit-secure-undervolting-with-instruction-traps-b462390e",
+  "title": "SUIT: Secure Undervolting with Instruction Traps",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 4C: Power and Energy",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Jonas Juffinger",
+      "position": 1,
+      "orcid": "0009-0002-0569-1704",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Applied Information Processing and Communications, Graz University of Technology, Graz, Austria",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640373"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Stepan Kalinin",
+      "position": 2,
+      "orcid": "0009-0004-3040-8143",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, North Carolina State University, Raleigh, North Carolina, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640373"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Gruss",
+      "position": 3,
+      "orcid": "0000-0002-7977-3246",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute of Applied Information Processing and Communications, Graz University of Technology, Graz, Austria",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640373"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Frank Mueller",
+      "position": 4,
+      "orcid": "0000-0002-0258-0294",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Computer Science, North Carolina State University, Raleigh, North Carolina, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620665-3640373"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620665.3640373",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620665.3640373",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640373",
+    "artifact": "https://doi.org/10.5281/zenodo.10704359",
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/rk9pDM1Y3So",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620665-3640373",
+      "url": "https://api.crossref.org/works/10.1145/3620665.3640373",
+      "kind": "crossref",
+      "title": "SUIT: Secure Undervolting with Instruction Traps",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:89f130a3ed1fab7835f68baf5bc98ba43991b0982c9a3f328857c4b6ebc7a802",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620665-3640373",
+      "url": "https://www.semanticscholar.org/paper/5231d0b0efcf277e31c637f1370f62db9c311a53",
+      "kind": "semantic-scholar",
+      "title": "SUIT: Secure Undervolting with Instruction Traps",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:d29dcfd149c578d42dfba735d228dff80f016ca332e7f3ad23abfab387432cc0",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10704359",
+      "url": "https://zenodo.org/records/10704359",
+      "kind": "artifact-page",
+      "title": "SUIT: Secure Undervolting with Instruction Traps",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:49a740a7a50ce42d5dfa94c42e3ad31dba844808f19ed4272f8ac527936ba518",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-ehdl-turning-ebpf-xdp-programs-into-hardware-designs-for-1e601f0e",
+  "title": "eHDL: Turning eBPF/XDP Programs into Hardware Designs for the NIC",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 4A: Design Tools",
+  "paper_type": "main-track",
+  "publication_date": "2023-03-25",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Alessandro Rivitti",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Axbryd, Italy / University of Rome Tor Vergata, Italy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582035"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Roberto Bifulco",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NEC Laboratories Europe, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582035"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Angelo Tulumello",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Axbryd, Italy / University of Rome Tor Vergata, Italy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582035"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marco Bonola",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CNIT, Italy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582035"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Salvatore Pontarelli",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sapienza University of Rome, Italy",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582035"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3582016.3582035",
+    "official_page": "https://dl.acm.org/doi/10.1145/3582016.3582035",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/7kkaQe8RX48",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "project-copy",
+      "url": "https://zenodo.org/records/7767318/files/ASPLOS23.pdf",
+      "relationship": "Open-access repository copy indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3582016-3582035",
+      "url": "https://api.crossref.org/works/10.1145/3582016.3582035",
+      "kind": "crossref",
+      "title": "eHDL: Turning eBPF/XDP Programs into Hardware Designs for the NIC",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:59bf268104ac086f98c3edd7c6e83d5e9513dae9f6e8dd4d943b131617477a5f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582035",
+      "url": "https://www.semanticscholar.org/paper/da073dc74d29a10c5323f2131da4547b84e082a2",
+      "kind": "semantic-scholar",
+      "title": "eHDL: Turning eBPF/XDP Programs into Hardware Designs for the NIC",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:887287a6a8cfc12456da4ac0f9b6b5d1516de1c3712e70e8b8398166518f3d52",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

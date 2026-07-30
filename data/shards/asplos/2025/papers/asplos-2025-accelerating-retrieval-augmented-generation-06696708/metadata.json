@@ -1,0 +1,266 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-accelerating-retrieval-augmented-generation-06696708",
+  "title": "Accelerating Retrieval-Augmented Generation",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 1A: ML Acceleration",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Derrick Quinn",
+      "position": 1,
+      "orcid": "0009-0000-5862-6565",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Nouri",
+      "position": 2,
+      "orcid": "0009-0003-9172-1363",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Neel Patel",
+      "position": 3,
+      "orcid": "0000-0002-8055-4243",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John Salihu",
+      "position": 4,
+      "orcid": "0009-0000-0942-1432",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Kansas, Lawrence, KS, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alireza Salemi",
+      "position": 5,
+      "orcid": "0009-0006-1937-2615",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UMass Amherst, Amherst, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sukhan Lee",
+      "position": 6,
+      "orcid": "0000-0003-4811-4843",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Samsung Electronics, Hwasung, Gyeonggi-do, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hamed Zamani",
+      "position": 7,
+      "orcid": "0000-0002-0800-3340",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UMass Amherst, Amherst, MA, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mohammad Alian",
+      "position": 8,
+      "orcid": "0000-0002-4622-2181",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Cornell University, Ithaca, NY, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3669940-3707264"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3669940.3707264",
+    "official_page": "https://dl.acm.org/doi/10.1145/3669940.3707264",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707264",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3669940-3707264",
+      "url": "https://api.crossref.org/works/10.1145/3669940.3707264",
+      "kind": "crossref",
+      "title": "Accelerating Retrieval-Augmented Generation",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:fda61c3b4013114e9dfc80377033731a1842ce21010e8071f9e2580a754b1e17",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3669940-3707264",
+      "url": "https://www.semanticscholar.org/paper/1dbc0e65604e34d87e6ffda47f35b6fc792af10b",
+      "kind": "semantic-scholar",
+      "title": "Accelerating Retrieval-Augmented Generation",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:d703add25d796a58fefc26e399f13518a254e8198da26b77b86d0a38607c3700",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

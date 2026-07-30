@@ -1,0 +1,122 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-revisiting-network-coding-for-warm-blob-storage-56534126",
+  "takeaway": "NCBlob applies low-subpacketization non-systematic MSR coding to locality-grouped small blobs and systematic Clay coding to large blobs, improving repairs with modest warm-read cost.",
+  "background": "Warm blob stores keep immutable, occasionally read objects economically with erasure coding. Minimum-storage regenerating codes retain minimum redundancy while reducing the network traffic needed to rebuild a lost block.",
+  "villain": "Systematic Clay codes divide blocks into exponentially many sub-blocks, producing scattered I/O and poor repair/degraded-read performance for small blobs. Non-systematic MSR codes use few sub-blocks but ordinarily decode multiple coded blocks for every normal read, amplifying I/O and computation.",
+  "approach": "NCBlob co-encodes whole-blob or co-accessed-blob groups so one non-systematic decode serves data likely to be read together, and switches to Clay codes above a repair-cost threshold. Rotation-based helper selection and two-phase MDS checks sustain functional repair; sliced reads and grouped repair parallelize work.",
+  "impact": "The hybrid architecture makes network-coding-style MSR practical for small warm objects while retaining direct systematic reads for large ones. It targets the dominant small-blob population without surrendering minimum storage or repair bandwidth.",
+  "evaluation": {
+    "overview": "Trace-derived cloud experiments measure sequential read throughput, merge-size sensitivity, single-block and full-node repair, degraded reads, encoding, network sensitivity, CPU use, and memory overhead across four coding parameters.",
+    "implemented": "An open-source 18.6-KSLoC C++ distributed prototype with client locality grouping, metadata/coordinator services, data agents, Redis control communication, Ceph/Jerasure coding, placement groups, slice-parallel reads, and group-parallel functional repair.",
+    "setting": "Twenty-two Alibaba Cloud nodes—one coordinator, 20 HDD agents, and one client—connected at 15 Gbps. A 60-GB sample of the 20.3-million-object Azure Blob Access Trace uses 95% small blobs by count and evaluates (6,4), (9,6), (12,8), and (14,10) codes over ten runs.",
+    "baselines": [
+      "Reed-Solomon coding with ECPipe",
+      "Clay coding with ParaRC",
+      "hybrid Reed-Solomon plus Clay coding",
+      "NCBlob without locality"
+    ],
+    "results": [
+      {
+        "id": "claim-ncblob-read",
+        "text": "With locality grouping, NCBlob's reported read throughput is 2.1%–10.5% below Clay across examined cases; for (12,8) at 256-MB blocks it is 4.9× NCBlob without locality.",
+        "source_ids": [
+          "src-fast25-pdf-56534126"
+        ],
+        "locator": "PDF pp. 11–12; §5.2, Experiments 1–2, Figures 8–9"
+      },
+      {
+        "id": "claim-ncblob-repair",
+        "text": "For 64-MB blocks, NCBlob cuts single-block repair time by up to 45.0% versus Clay; for (14,10) with 256-MB blocks it cuts full-node repair by 38.4% versus Clay and 76.4% versus Reed-Solomon.",
+        "source_ids": [
+          "src-fast25-pdf-56534126"
+        ],
+        "locator": "PDF pp. 12–13; §5.2, Experiments 3–4, Figures 10–11"
+      },
+      {
+        "id": "claim-ncblob-degraded",
+        "text": "For (14,10) and 256-MB blocks, the measured Clay degraded-read latency is 9.1× NCBlob's; NCBlob remains close to the Reed-Solomon/Clay hybrid across the tested degraded reads.",
+        "source_ids": [
+          "src-fast25-pdf-56534126"
+        ],
+        "locator": "PDF p. 13; §5.2, Experiment 5, Figure 12"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "trace-replay",
+      "other"
+    ]
+  },
+  "limitations": "NCBlob depends on intra- or inter-blob access locality; without it the paper recommends systematic coding. Reads add decode work and lose 2.1%–10.5% throughput in tested cases, with higher CPU use. The design focuses on single failures and n−k≤4; perpetual existence is proved only for n−k=3, while n−k=4 relies on simulations. Evaluation uses a 60-GB trace sample, HDD cloud instances, and no production deployment.",
+  "phd_group_signal": "This paper revisits a theoretically optimal but dismissed code by matching its drawbacks to workload locality and object-size distributions. It combines coding theory, I/O layout, distributed repair, trace analysis, and systems implementation.",
+  "beginner_concepts": [
+    "blob storage",
+    "erasure coding",
+    "minimum-storage regenerating code",
+    "systematic code",
+    "subpacketization",
+    "repair bandwidth",
+    "data locality",
+    "degraded read"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-ncblob-locality",
+      "text": "NCBlob either splits each independently read blob before cross-blob merging or first merges co-accessed blobs, ensuring that the extra objects reconstructed by a non-systematic read are useful or cacheable.",
+      "source_ids": [
+        "src-fast25-pdf-56534126"
+      ],
+      "locator": "PDF pp. 6–7; §3.1, Figures 5–6"
+    },
+    {
+      "id": "claim-ncblob-generalized",
+      "text": "Each repair rotates the selected sub-block per helper, functionally generates a replacement, and accepts coefficients only after current and next-repair MDS checks; the paper proves existence for (k+3,k).",
+      "source_ids": [
+        "src-fast25-pdf-56534126"
+      ],
+      "locator": "PDF pp. 8–9; §3.3, Theorem 1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-56534126",
+      "url": "https://www.usenix.org/system/files/fast25-gan.pdf",
+      "kind": "paper-pdf",
+      "title": "Revisiting Network Coding for Warm Blob Storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:6dcddf463824984c6520783590c53eb3093186ef6f7b1dbfea4327c6761b1f57",
+      "official": true,
+      "supports": [
+        "abstract, introduction, coding background, motivation, design, proof overview, implementation, evaluation, related work, and conclusion",
+        "reported read, repair, degraded-read, encoding, network, CPU, and memory results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T02:03:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context/motivation, §§3.1–3.4 design and proof overview, §4 implementation, §§5.1–5.2 evaluation, §6 related work, §7 conclusion, and the included proof supplement.",
+      "All measurements and durability simulations are author-reported; the proof/simulation boundary is recorded as a limitation."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T02:03:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

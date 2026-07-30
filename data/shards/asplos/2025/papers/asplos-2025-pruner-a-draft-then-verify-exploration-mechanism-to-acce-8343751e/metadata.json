@@ -1,0 +1,371 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-pruner-a-draft-then-verify-exploration-mechanism-to-acce-8343751e",
+  "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 9A: ML Compilers",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Liang Qiao",
+      "position": 1,
+      "orcid": "0000-0002-3366-9881",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jun Shi",
+      "position": 2,
+      "orcid": "0000-0002-9888-6238",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaoyu Hao",
+      "position": 3,
+      "orcid": "0000-0003-4115-9475",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xi Fang",
+      "position": 4,
+      "orcid": "0000-0002-4786-2551",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sen Zhang",
+      "position": 5,
+      "orcid": "0009-0007-6494-8502",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minfan Zhao",
+      "position": 6,
+      "orcid": "0009-0008-4524-4830",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ziqi Zhu",
+      "position": 7,
+      "orcid": "0009-0000-3236-283X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junshi Chen",
+      "position": 8,
+      "orcid": "0000-0002-6487-3658",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hong An",
+      "position": 9,
+      "orcid": "0000-0002-3900-3722",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Science and Technology of China, Hefei, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xulong Tang",
+      "position": 10,
+      "orcid": "0000-0002-3385-2053",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Pittsburgh, Pittsburgh, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bing Li",
+      "position": 11,
+      "orcid": "0009-0007-1304-7181",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NIO, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Honghui Yuan",
+      "position": 12,
+      "orcid": "0009-0007-8429-2758",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NIO, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xinyang Wang",
+      "position": 13,
+      "orcid": "0009-0006-1678-9028",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "NIO, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716269"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716269",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716269",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716269",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716269",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716269",
+      "kind": "crossref",
+      "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:d8ff4535e03e55a91f834f247289bb5fbe0ff51a7aea64803c73cb9df4a66510",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716269",
+      "url": "https://www.semanticscholar.org/paper/23be5f6da58a143c6d4632166ac1fe188f3f3561",
+      "kind": "semantic-scholar",
+      "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:c875e28f700bf5d1214ad10509d55dbd24d546fc75f4c0ae0d630c7906736356",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

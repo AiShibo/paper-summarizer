@@ -1,0 +1,117 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-awupf-rediscovered-atomic-writes-to-unleash-pivotal-faul-72e04053",
+  "takeaway": "Small Log-RAID metadata transactions can bypass journaling by fitting within an SSD's standard power-fail atomic-write unit, while a versioned fallback preserves ordering with larger journaled updates.",
+  "background": "Journaling and write-ahead logging protect storage metadata by writing changes once to a log and again to their home location. NVMe SSDs already guarantee that a write no larger than their Atomic Write Unit Power Fail value is entirely old or entirely new after power loss, commonly at 4 KB.",
+  "villain": "Host software rarely uses this built-in guarantee, so even small mapping changes pay double-write and checkpoint costs. Simply mixing direct atomic updates with journaled multi-page updates is unsafe because device completion order can differ from issue order and recovery may replay stale metadata.",
+  "approach": "The modified Poseidon OS directly writes a Log-RAID mapping page when all changed entries fit within AWUPF and falls back to its normal journal otherwise. It delays in-memory journal changes until commit and adds per-page versions plus an in-use bit, allowing recovery to merge direct and logged updates in true completion order.",
+  "impact": "The result demonstrates that a mandatory, already-deployed SSD primitive can offload part of crash consistency without changing the NVMe interface or flash translation layer, provided host metadata is structured into appropriately sized atomic units.",
+  "evaluation": {
+    "overview": "The authors compare microbenchmarks across write sizes and metadata-thread counts, then run four Filebench workloads with increasing concurrency.",
+    "implemented": "A dual-path metadata update and recovery mechanism in the open-source Poseidon OS Log-RAID storage stack.",
+    "setting": "A target with two 24-core Xeon Gold 6336Y CPUs, ten 3.84 TB Samsung PM9A3 SSDs with 4 KB AWUPF, and 100 GbE is driven by a separate dual-Xeon initiator. Reported values average five runs.",
+    "baselines": [
+      "unmodified journaled Poseidon OS",
+      "inconsistent direct-update Poseidon OS"
+    ],
+    "results": [
+      {
+        "id": "claim-awupf-random-write",
+        "text": "For 4 KB random writes, where every mapping update fits the 4 KB AWUPF, the authors report 3.6× the throughput of the journaled baseline.",
+        "source_ids": [
+          "src-fast25-pdf-72e04053"
+        ],
+        "locator": "PDF pp. 6–7; §4.2, Figure 6(b)"
+      },
+      {
+        "id": "claim-awupf-one-megabyte",
+        "text": "At a 1 MB request size, the proposed path still improves random-write throughput by 20% on average over journaling, while sequential-write performance is similar across configurations.",
+        "source_ids": [
+          "src-fast25-pdf-72e04053"
+        ],
+        "locator": "PDF p. 6; §4.2, Figure 5"
+      },
+      {
+        "id": "claim-awupf-filebench",
+        "text": "At the reported high-concurrency points, the system improves varmail by 14% and OLTP by 73% over journaling; OLTP gains range from 21% at 16 threads to 73% at 32 threads.",
+        "source_ids": [
+          "src-fast25-pdf-72e04053"
+        ],
+        "locator": "PDF p. 7; §4.3, Figure 7"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The prototype focuses on Log-RAID mapping metadata, whose small contiguous updates naturally fit AWUPF. Misaligned or multi-page updates still use the journal, so gains shrink as requests grow or become sequential. Applying the idea to conventional file systems would require redesigning metadata placement, and the available atomic unit is device-dependent—most tested SSDs exposed 4 KB, one 512 B, and one exceptional device 256 KB.",
+  "phd_group_signal": "The paper reflects a pragmatic storage style: rediscover an overlooked standards guarantee, identify a metadata layout that can exploit it, work through subtle crash-ordering cases, and validate the change in a production-oriented open-source stack. This describes methodology, not advisor quality.",
+  "beginner_concepts": [
+    "atomic write",
+    "power-fail consistency",
+    "write-ahead logging",
+    "journaling",
+    "NVMe AWUPF",
+    "log-structured RAID",
+    "checkpoint recovery"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-awupf-dual-path",
+      "text": "The design sends a mapping update directly to its home page only when the modified metadata fits one AWUPF unit, otherwise retaining Poseidon OS's journal path.",
+      "source_ids": [
+        "src-fast25-pdf-72e04053"
+      ],
+      "locator": "PDF pp. 4–5; §3.1, Figure 3"
+    },
+    {
+      "id": "claim-awupf-ordering",
+      "text": "Per-mapping-page versions, an in-use flag, and delayed in-memory modification let crash recovery reconcile direct and journaled writes according to completion rather than submission order.",
+      "source_ids": [
+        "src-fast25-pdf-72e04053"
+      ],
+      "locator": "PDF pp. 5–6; §3.2, Figure 4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-72e04053",
+      "url": "https://www.usenix.org/system/files/fast25-jeon.pdf",
+      "kind": "paper-pdf",
+      "title": "AWUPF Rediscovered: Atomic Writes to Unleash Pivotal Fault-Tolerance in SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:96b210b28e47c40c85129baa9b8a2e542be93fc5deb2190a5059e9e96e96ca23",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, design, evaluation, and conclusion",
+        "reported implementation, hardware setting, performance results, and applicability limits"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:25:03Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §2 background, §§3.1–3.2 design, §§4.1–4.3 evaluation, and §5 Conclusion.",
+      "Performance results are phrased as claims reported by the authors and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:25:03Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

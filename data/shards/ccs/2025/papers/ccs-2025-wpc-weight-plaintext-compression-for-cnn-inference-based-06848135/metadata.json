@@ -1,0 +1,296 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-wpc-weight-plaintext-compression-for-cnn-inference-based-06848135",
+  "title": "WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 2",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Guiming Shi",
+      "position": 1,
+      "orcid": "0009-0003-0663-0863",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuchen Wei",
+      "position": 2,
+      "orcid": "0009-0003-5752-5422",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shengyu Fan",
+      "position": 3,
+      "orcid": "0009-0009-9160-8540",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianglong Deng",
+      "position": 4,
+      "orcid": "0009-0002-2058-5109",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Chinese Academy of Sciences, Beijing, China and University of Chinese Academy of Sciences, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liang Kong",
+      "position": 5,
+      "orcid": "0009-0009-6031-4312",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xianbin Li",
+      "position": 6,
+      "orcid": "0000-0003-4097-9367",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Hong Kong University of Science and Technology, Hong Kong, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingwei Cai",
+      "position": 7,
+      "orcid": "0009-0003-7560-8141",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuwen Deng",
+      "position": 8,
+      "orcid": "0000-0002-9782-5038",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of Electronic Engineering, Tsinghua University, Beijing, China and Zhongguancun Laboratory, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Mingzhe Zhang",
+      "position": 9,
+      "orcid": "0000-0002-6440-7550",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Ant Group, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaisheng Ma",
+      "position": 10,
+      "orcid": "0000-0001-9226-3366",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-7962b6a0523c7486-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3765022",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3765022",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765022",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-c289550745586454-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-51211ccfc5efc1e7-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765022",
+      "kind": "publisher-page",
+      "title": "WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-7962b6a0523c7486-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765022",
+      "kind": "crossref",
+      "title": "WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

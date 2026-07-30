@@ -1,0 +1,53 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2023-martfl-enabling-utility-driven-data-marketplace-with-a-r-94344274",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The paper implements and evaluates a robust, verifiable federated-learning marketplace architecture.",
+  "topics": [
+    "ml-systems",
+    "distributed-systems",
+    "privacy-systems"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "middleware"
+  ],
+  "contribution_types": [
+    "new-mechanism",
+    "dataset"
+  ],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-a141181449ee298a-toc",
+      "url": "https://sigsac.hosting.acm.org/ccs/CCS2023/tocs/tocs-ccs23.html",
+      "kind": "conference-proceedings",
+      "title": "martFL: Enabling Utility-Driven Data Marketplace with a Robust and Verifiable Federated Learning Architecture",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official abstract and paper identity used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

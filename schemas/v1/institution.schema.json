@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/institution.schema.json",
+  "title": "Normalized institution entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "institution_id",
+    "normalized_name",
+    "aliases",
+    "institution_type",
+    "official_url",
+    "location",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "institution_id": {
+      "type": "string",
+      "pattern": "^institution-[a-z0-9][a-z0-9-]*$"
+    },
+    "normalized_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "institution_type": {
+      "enum": [
+        "university",
+        "industrial-research-lab",
+        "government-lab",
+        "nonprofit",
+        "independent"
+      ]
+    },
+    "official_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "city",
+        "state_or_province",
+        "country",
+        "continent",
+        "region"
+      ],
+      "properties": {
+        "city": {
+          "type": ["string", "null"]
+        },
+        "state_or_province": {
+          "type": ["string", "null"]
+        },
+        "country": {
+          "type": ["string", "null"]
+        },
+        "continent": {
+          "type": ["string", "null"]
+        },
+        "region": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

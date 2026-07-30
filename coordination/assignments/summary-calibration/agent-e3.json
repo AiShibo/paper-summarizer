@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "assignment_id": "summary-calibration-agent-e3-001",
+  "created_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e3",
+  "paper_count": 5,
+  "paper_ids_sha256": {
+    "canonicalization": "UTF-8 paper IDs sorted bytewise, one ID per line, including a final newline",
+    "value": "b0585a7e6f7e612215d83f2b01e856135f34f04dbd8824e45f0e4156f5722b00"
+  },
+  "selection_requirements": {
+    "metadata_workflow": "READY_FOR_REVIEW",
+    "relevance_workflow": "READY_FOR_REVIEW",
+    "summary_workflow": "NOT_STARTED",
+    "allowed_relevance_classes": [
+      "CORE_SYSTEMS",
+      "SYSTEMS_ADJACENT"
+    ],
+    "relevance_confidence": "HIGH",
+    "official_pdf_required": true
+  },
+  "papers": [
+    {
+      "paper_id": "asplos-2025-cinm-cinnamon-a-compilation-infrastructure-for-heterogen-1f111f3f",
+      "title": "CINM (Cinnamon): A Compilation Infrastructure for Heterogeneous Compute In-Memory and Compute Near-Memory Paradigms",
+      "venue": "asplos",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674189"
+    },
+    {
+      "paper_id": "asplos-2025-hierarchical-prefetching-a-software-hardware-instruction-2ac734cd",
+      "title": "Hierarchical Prefetching: A Software-Hardware Instruction Prefetcher for Server Applications",
+      "venue": "asplos",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716260"
+    },
+    {
+      "paper_id": "asplos-2025-micro-blossom-accelerated-minimum-weight-perfect-matchin-d8b6548d",
+      "title": "Micro Blossom: Accelerated Minimum-Weight Perfect Matching Decoding for Quantum Error Correction",
+      "venue": "asplos",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716005"
+    },
+    {
+      "paper_id": "asplos-2025-bounding-speculative-execution-of-atomic-regions-to-a-si-5a3c75e5",
+      "title": "Bounding Speculative Execution of Atomic Regions to a Single Retry",
+      "venue": "asplos",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3622781.3674176"
+    },
+    {
+      "paper_id": "asplos-2025-bqsim-gpu-accelerated-batch-quantum-circuit-simulation-u-485ead3b",
+      "title": "BQSim: GPU-accelerated Batch Quantum Circuit Simulation using Decision Diagram",
+      "venue": "asplos",
+      "year": 2025,
+      "relevance_class": "CORE_SYSTEMS",
+      "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3715984"
+    }
+  ]
+}

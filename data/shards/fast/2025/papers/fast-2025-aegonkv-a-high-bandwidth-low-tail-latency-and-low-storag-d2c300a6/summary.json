@@ -1,0 +1,113 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-aegonkv-a-high-bandwidth-low-tail-latency-and-low-storag-d2c300a6",
+  "takeaway": "AegonKV moves value-log garbage collection into a SmartSSD FPGA so a KV-separated LSM store can reclaim space without stealing host CPU and I/O bandwidth.",
+  "background": "LSM-tree key-value stores batch writes and later compact sorted files, which can amplify I/O when values are large. KV separation keeps keys and value pointers in the LSM tree while appending values to a separate log, reducing compaction work. Old value versions then require garbage collection to recover space.",
+  "villain": "Direct value-log garbage collection competes with foreground operations for host CPU and storage bandwidth, hurting throughput and tail latency. Folding collection into compaction reduces that contention but delays reclamation, increases redundant space and compaction traffic, and can reintroduce write stalls.",
+  "approach": "AegonKV extends Titan with per-file ValidMaps derived from compaction, a host scheduler that allocates SmartSSD memory and compute units, and pipelined FPGA units that decode, filter, and rewrite live values over the device's internal path. It batches returned metadata and defers version validation to reads and compaction so GC write-back does not block on host lookups.",
+  "impact": "The design shows how near-data hardware can remove a maintenance task from the foreground resource path instead of merely trading CPU cost for I/O or space, potentially making KV separation more predictable under write-heavy service workloads.",
+  "evaluation": {
+    "overview": "The authors run YCSB, a Social Graph workload, and three Twitter cache traces, measuring throughput, 99th-percentile latency, space, compaction I/O, stalls, resource use, power, and parameter sensitivity.",
+    "implemented": "A Titan-based KV store with a host GC manager/scheduler and eight pipelined GC compute units synthesized on a Samsung SmartSSD FPGA.",
+    "setting": "Experiments use a dual 18-core Xeon Gold 5220 server, 64 GB RAM, Ubuntu 20.04, and a 3.84 TB Samsung SmartSSD with a Xilinx UltraScale+ FPGA. Default tests use 16 clients and 200 million operations; compression and WAL are disabled.",
+    "baselines": [
+      "RocksDB",
+      "Titan",
+      "Titan without garbage collection",
+      "DiffKV",
+      "BlobDB"
+    ],
+    "results": [
+      {
+        "id": "claim-aegonkv-ycsb-performance",
+        "text": "For write-intensive YCSB A and F, the authors report 1.11×–4.66× higher throughput than the compared stores; 99th-percentile latency is 14.7%–85.9% lower than the four non-ideal baselines.",
+        "source_ids": [
+          "src-fast25-pdf-d2c300a6"
+        ],
+        "locator": "PDF pp. 10–11; §5.2, Figure 10"
+      },
+      {
+        "id": "claim-aegonkv-production-workload",
+        "text": "On the Social Graph workload, AegonKV is reported to improve throughput by 1.07×–2.16×, lower tail latency by 10%–52%, reduce redundant space by 31%–55%, cut compaction I/O by 40%–78%, and incur no write stalls versus other KV-separated stores.",
+        "source_ids": [
+          "src-fast25-pdf-d2c300a6"
+        ],
+        "locator": "PDF p. 11; §5.3, Figures 11–12"
+      },
+      {
+        "id": "claim-aegonkv-resource-efficiency",
+        "text": "The measured normalized CPU utilization is 77.17% for AegonKV versus 90.4%–97.18% for the comparison systems, and the paper reports 15.9%–69.8% better operations-per-joule.",
+        "source_ids": [
+          "src-fast25-pdf-d2c300a6"
+        ],
+        "locator": "PDF p. 12; §5.4, CPU Usage and Power Usage"
+      }
+    ],
+    "study_types": [
+      "hardware-prototype",
+      "trace-replay"
+    ]
+  },
+  "limitations": "The prototype targets one Samsung SmartSSD/FPGA design and consumes 97.6% of its configurable-logic blocks with eight compute units. Compression and write-ahead logging are disabled in the main experiments. Benefits are largest when writes trigger GC; on read-intensive YCSB workloads AegonKV is close to the other systems and loses about 1% throughput to Titan because maintaining ValidMaps adds work.",
+  "phd_group_signal": "The paper reflects hardware/software co-design: it first quantifies a maintenance bottleneck across several stores, then repartitions control and streaming work between host software and an FPGA, and evaluates both service-level and device-resource consequences. That methodology is informative without implying advisor quality.",
+  "beginner_concepts": [
+    "log-structured merge tree",
+    "key-value separation",
+    "garbage collection",
+    "write amplification",
+    "computational storage",
+    "FPGA pipeline",
+    "tail latency"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-aegonkv-mechanism",
+      "text": "AegonKV combines compaction-derived validity bitmaps, host-side resource scheduling, FPGA value filtering, and deferred metadata validation to run direct garbage collection mostly inside the SmartSSD.",
+      "source_ids": [
+        "src-fast25-pdf-d2c300a6"
+      ],
+      "locator": "PDF pp. 6–9; §§4.1–4.4, Figures 4–9"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-d2c300a6",
+      "url": "https://www.usenix.org/system/files/fast25-duan.pdf",
+      "kind": "paper-pdf",
+      "title": "AegonKV: A High Bandwidth, Low Tail Latency, and Low Storage Cost KV-Separated LSM Store with SmartSSD-based GC Offloading",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:5ff74af43f43487647c77710d2400d12cbafc59f3f225a05a49550d778a0dd94",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, evaluation, and conclusion",
+        "reported implementation, testbed, numerical results, and evaluated assumptions"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:22:06Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §3 motivation, §§4.1–4.4 design and implementation, §§5.1–5.5 evaluation, and §7 Conclusion.",
+      "Numerical results are presented as claims reported by the authors and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:22:06Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

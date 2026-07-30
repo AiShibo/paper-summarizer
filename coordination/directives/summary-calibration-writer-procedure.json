@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "procedure_id": "coordinator-summary-calibration-writer-procedure-2026-07-30",
+  "issued_at": "2026-07-30T03:09:51Z",
+  "issued_by": "coordinator",
+  "purpose": "Operational procedure for five-paper summary-writer calibration batches.",
+  "preflight": [
+    "Read AGENTS.md, coordination/tasks/agent-e-paper-summaries.md, coordination/directives/summary-accuracy-first-policy.json, this procedure, and the agent-specific assignment and directive completely.",
+    "Verify the assignment target_agent, paper_count, and canonical paper-ID SHA-256 before editing.",
+    "For each assigned paper, confirm that local metadata title and official PDF URL exactly match the assignment, metadata and relevance workflows are READY_FOR_REVIEW, relevance class is CORE_SYSTEMS or SYSTEMS_ADJACENT, and summary workflow is NOT_STARTED.",
+    "If any preflight fact differs, do not edit that paper and report the mismatch to the coordinator."
+  ],
+  "claim_rules": [
+    "Create only the agent-specific claim file named in the directive by copying the claim template.",
+    "Use the exact agent ID, role paper-summary-calibration, status IN_PROGRESS, summary.json as the sole stage file, and exactly the five assigned paper IDs.",
+    "Do not edit coordination/claims/agent-e.json or another writer's claim."
+  ],
+  "exclusive_write_scope": [
+    "The five assigned summary.json files.",
+    "The agent-specific claim file.",
+    "Temporary ignored files under data/tmp/<agent-id>/, removed after extraction."
+  ],
+  "source_and_reading_rules": [
+    "Use the staged official PDF as the primary source. Do not substitute metadata prose, an abstract page, search snippets, another summary, or an AI-generated explanation.",
+    "Record the PDF SHA-256 and an official paper-pdf source entry.",
+    "Read the abstract, introduction, conclusion, central system/design section, and evaluation overview.",
+    "Read any additional section, figure, or table necessary to verify a mechanism, assumption, baseline, limitation, or result included in the summary.",
+    "Record exact sections read in workflow notes and mark reading coverage truthfully.",
+    "If the official full paper cannot be obtained, set the summary workflow to BLOCKED and report it; do not write from partial evidence."
+  ],
+  "technical_claim_ledger": [
+    "Add a source-linked claim entry for the central mechanism.",
+    "Add a source-linked claim entry for each material assumption or trust boundary stated in the summary.",
+    "Every quantitative evaluation result must appear in evaluation.results and have an exact page, section, figure, or table locator.",
+    "Use at most two quantitative results unless a third is essential to prevent a misleading impression.",
+    "Do not use a vague locator such as paper, PDF, evaluation, or abstract."
+  ],
+  "self_audit_before_handoff": [
+    "Reopen the official PDF and compare every sentence in takeaway, villain, approach, impact, evaluation, and limitations against the cited sections.",
+    "Check that names of mechanisms, components, baselines, hardware, datasets, workloads, threat models, and study types exactly match the paper.",
+    "Recalculate no metrics and combine no numbers unless the paper explicitly reports the same calculation.",
+    "Check every number, unit, comparison direction, quantifier, and experimental condition.",
+    "Remove any claim that is broader or more certain than the paper.",
+    "Prefer null or an explicit unresolved note over a plausible guess."
+  ],
+  "handoff": [
+    "Set completed summary workflows to READY_FOR_REVIEW with the writer as owner and verification.verified_by null.",
+    "Run draft validation for each affected venue-year and for data/shards.",
+    "After all five summaries are ready or explicitly blocked, update the agent-specific claim with the exact outcome and no additional IDs.",
+    "Report sections read, PDF hashes, blocked or uncertain fields, exact changed paths, validator output, and confirmation that temporary PDFs and extracted text were removed.",
+    "Stop after the five-paper calibration batch. Do not select or request another paper automatically."
+  ]
+}

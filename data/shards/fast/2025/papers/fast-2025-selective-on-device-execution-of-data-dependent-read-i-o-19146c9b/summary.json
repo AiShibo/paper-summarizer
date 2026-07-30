@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-selective-on-device-execution-of-data-dependent-read-i-o-19146c9b",
+  "takeaway": "SODE accelerates pointer-chasing storage reads by executing short eBPF resubmission tasks inside an emulated SSD when cores are free, otherwise returning work to the host kernel.",
+  "background": "Traversing an on-disk tree requires a read, computation of the next address, and another read. Kernel-level express resubmission avoids userspace round trips, while an SSD controller is even closer to media and may eliminate PCIe and driver latency.",
+  "villain": "Device processors are slow and scarce, so queuing or executing a long resubmission task there can erase proximity gains and inflate tails. The device also lacks authoritative file-offset mappings, and untrusted application code must not issue arbitrary reads or corrupt firmware.",
+  "approach": "SODE sends an eBPF task and an ext4 extent-tree snapshot with a special NVMe command. It executes immediately on free device cores or reverse-offloads to XRP's in-kernel path, validates the metadata version only after the chain, parallelizes searches across filters, and enforces address ranges plus an MPK sandbox.",
+  "impact": "The hybrid design shows that near-data execution is a conditional scheduling resource, not an always-faster destination. It expands computational storage from bandwidth-reduction kernels to latency-sensitive dependent I/O, under strict task-duration and locality assumptions.",
+  "evaluation": {
+    "overview": "BPF-KV experiments vary B+-tree depth, threads, ranges, and open-loop load; WiredTiger/YCSB A–F tests throughput, tails, cache size, skew, resubmission time, and task parallelism.",
+    "implemented": "A Linux 5.12 prototype extends NVMeVirt, XRP, ext4 metadata versioning, NVMe commands, and eBPF with four device-resubmission threads, reverse offload, optimistic extent caching, parallel filter jobs, logical-range checks, and MPK entry/exit.",
+    "setting": "A dual-NUMA Xeon Gold 6136 server dedicates one 12-core socket and 192 GB to an emulated Optane-class device. Four resubmission cores run at 1.2 GHz to approximate Cortex-A53 performance; host applications use the other socket and O_DIRECT.",
+    "baselines": [
+      "ordinary read system call",
+      "XRP in-kernel resubmission",
+      "on-device-only SODE variant"
+    ],
+    "results": [
+      {
+        "id": "claim-sode-bpfkv",
+        "text": "For BPF-KV random lookups, SODE delivers 16.4%–38.5% more throughput than XRP across the reported multi-thread depth-3/6 cases and up to 41% across tested tree depths.",
+        "source_ids": [
+          "src-fast25-pdf-19146c9b"
+        ],
+        "locator": "PDF pp. 9–10; §5.1, Figures 3–4"
+      },
+      {
+        "id": "claim-sode-hybrid",
+        "text": "Under open-loop BPF-KV load, hybrid SODE reaches about 10.5% higher peak throughput than XRP, whereas the on-device-only variant has lower peak throughput and worse tail latency.",
+        "source_ids": [
+          "src-fast25-pdf-19146c9b"
+        ],
+        "locator": "PDF p. 10; §5.2, Figure 6"
+      },
+      {
+        "id": "claim-sode-wt",
+        "text": "Across WiredTiger YCSB workloads and one to three threads, SODE improves throughput over XRP by a 5.46% geometric mean while keeping comparable 99th-percentile latency; parallel filters cut device task time from 4,403 ns to 993 ns.",
+        "source_ids": [
+          "src-fast25-pdf-19146c9b"
+        ],
+        "locator": "PDF pp. 11–12; §5.3, Figures 7–11"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "simulation",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The device is NVMeVirt on server CPUs, not physical computational storage, and emulates a low-latency Optane-class device rather than mainstream NAND. Tests observe no metadata mismatch, so abort/retry cost is unknown. SODE assumes read-mostly single-device files, cannot traverse RAID-spanning data, reserves four cores, sends metadata/programs per command, and relies on stronger eBPF isolation techniques not fully implemented.",
+  "phd_group_signal": "The work identifies the crossover among interconnect latency, computation time, and queueing, then designs an adaptive placement policy around it. It combines storage-stack bypass, device scheduling, safe programmability, metadata consistency, and application adaptation.",
+  "beginner_concepts": [
+    "computational storage",
+    "data-dependent I/O",
+    "pointer chasing",
+    "I/O resubmission",
+    "eBPF",
+    "NVMe",
+    "extent tree",
+    "reverse offload"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-sode-selective",
+      "text": "SODE executes a resubmission filter on-device only when a device core is immediately available; otherwise it completes the read to the host with a flag that invokes the in-kernel XRP path.",
+      "source_ids": [
+        "src-fast25-pdf-19146c9b"
+      ],
+      "locator": "PDF pp. 5–6; §§3.1–3.2, Figures 1–2"
+    },
+    {
+      "id": "claim-sode-optimistic",
+      "text": "A resubmission chain translates offsets with a copied extent tree and releases results only if its version still matches at completion; otherwise the request aborts.",
+      "source_ids": [
+        "src-fast25-pdf-19146c9b"
+      ],
+      "locator": "PDF pp. 6, 8; §§3.3 and 4.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-19146c9b",
+      "url": "https://www.usenix.org/system/files/fast25-park.pdf",
+      "kind": "paper-pdf",
+      "title": "Selective On-Device Execution of Data-Dependent Read I/Os",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:1b414607fd12604cd2a658e013aba2ad12762a2c27b8e31e6fa4d2db34360be7",
+      "official": true,
+      "supports": [
+        "abstract, introduction, background, design, implementation, evaluation, discussion, related work, and conclusion",
+        "reported latency, throughput, path-use, cache/skew, and parallelism results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T02:13:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–2 context/motivation, §§3.1–3.5 design/sandboxing, §§4.1–4.5 implementation, §§5.1–5.3 evaluation, §6 discussion, §7 related work, and §8 conclusion.",
+      "All results are author-reported from an emulated device; the paper's untested metadata-conflict and physical-device cases remain limitations."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T02:13:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

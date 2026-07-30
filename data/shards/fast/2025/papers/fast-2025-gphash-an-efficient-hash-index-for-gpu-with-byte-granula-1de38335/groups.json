@@ -1,0 +1,103 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-gphash-an-efficient-hash-index-for-gpu-with-byte-granula-1de38335",
+  "associations": [
+    {
+      "group_id": null,
+      "faculty_id": "faculty-yu-hua",
+      "publication_institution_id": "institution-huazhong-university-science-technology",
+      "current_institution_id": "institution-huazhong-university-science-technology",
+      "association_type": "official-student-advisor",
+      "evidence_source_ids": [
+        "src-agent-f-1de38335-paper-page",
+        "src-agent-f-1de38335-institution-news",
+        "src-agent-f-1de38335-faculty-profile"
+      ],
+      "rationale": "Official HUST news names GPHash and explicitly describes the work as completed under Yu Hua's guidance; his official homepage confirms his current HUST faculty appointment.",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Menglei Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Zhangyu Chen",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Ming Zhang",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Gen Dong",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-1de38335-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/chen-menglei",
+      "kind": "paper-page",
+      "title": "GPHash: An Efficient Hash Index for GPU with Byte-Granularity Persistent Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-1de38335-institution-news",
+      "url": "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=1955&wbtreeid=1046",
+      "kind": "institution-page",
+      "title": "HUST storage-lab FAST 2025 news",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact GPHash paper",
+        "Yu Hua explicitly identified as the student's advisor"
+      ]
+    },
+    {
+      "id": "src-agent-f-1de38335-faculty-profile",
+      "url": "https://csyhua.github.io/",
+      "kind": "faculty-page",
+      "title": "Yu Hua",
+      "publisher": "Huazhong University of Science and Technology",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current HUST chair-professor appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

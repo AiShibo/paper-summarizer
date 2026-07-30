@@ -1,0 +1,355 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-tarot-a-cxl-smartnic-based-defense-against-multi-bit-err-fbd2f594",
+  "title": "TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 1D: Attacks and Mitigations",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chihun Song",
+      "position": 1,
+      "orcid": "0000-0001-9586-153X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Jaemin Kim",
+      "position": 2,
+      "orcid": "0000-0001-9987-9809",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tianchen Wang",
+      "position": 3,
+      "orcid": "0009-0009-4276-7529",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Houxiang Ji",
+      "position": 4,
+      "orcid": "0009-0008-8402-0127",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jinghan Huang",
+      "position": 5,
+      "orcid": "0009-0009-2314-2734",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ipoom Jeong",
+      "position": 6,
+      "orcid": "0000-0001-7513-2858",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaehyun Park",
+      "position": 7,
+      "orcid": "0000-0001-5623-6985",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hwayong Nam",
+      "position": 8,
+      "orcid": "0000-0002-2466-9273",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minbok Wi",
+      "position": 9,
+      "orcid": "0000-0003-4202-6201",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jung Ho Ahn",
+      "position": 10,
+      "orcid": "0000-0003-1733-1394",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Seoul National University, Seoul, Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nam Sung Kim",
+      "position": 11,
+      "orcid": "0000-0002-0442-5634",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Illinois Urbana-Champaign, Urbana, United States",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651325"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651325",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651325",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.10884325",
+    "code": "https://github.com/chihuns2/ae-asplos2024-TAROT/tree/1.0.1",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/sgpIfZLJXek",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651325",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651325",
+      "kind": "crossref",
+      "title": "TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:db11826e101d1d53c11edec7b76ca2c2acb5f5b0f8e31a47e33f4ccb32015221",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651325",
+      "url": "https://www.semanticscholar.org/paper/467b3a0c456398a8bcb7224a51d55c23ec12c55f",
+      "kind": "semantic-scholar",
+      "title": "TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:d68d5d542544b8d903af8db2b4d0f19ea5f8bf0bb030c26c5a11ef288f6dee49",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10884325",
+      "url": "https://zenodo.org/records/10884325",
+      "kind": "artifact-page",
+      "title": "chihuns2/ae-asplos2024-TAROT: Release (ASPLOS-24-TAROT)",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:f517ef3833237db0e2fddd50105187bcd690a11a389e26f9e2675b34fae45fff",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

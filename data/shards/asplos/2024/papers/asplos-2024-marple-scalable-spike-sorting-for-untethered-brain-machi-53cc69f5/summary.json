@@ -1,0 +1,127 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-marple-scalable-spike-sorting-for-untethered-brain-machi-53cc69f5",
+  "takeaway": "Marple combines compressed spike templates with a streaming accelerator, projecting real-time sorting of 10,000 neural channels at 78.94 mW in a scaled 7 nm design.",
+  "background": "Spike sorting maps recorded electrical spikes to individual neurons. High-density probes now stream thousands of channels, but wearable brain-machine interfaces face tight power, area, and thermal budgets.",
+  "villain": "Software sorters need desktop-class compute and offline processing, while prior hardware handles far fewer channels; template storage becomes the dominant memory cost at scale.",
+  "approach": "Marple's fixed-function front end filters and whitens serialized samples, detects neighborhood peaks, and emits 60-sample windows from nine nearby channels. Its vector back end compares those windows with offline-generated templates compressed by centroid differences, quantization, segmented delta encoding, duplicate removal, and trimmed numeric fields. Decompression occurs on demand, so the design assumes prerecorded templates and the paper's channel-neighborhood, sampling-rate, and peak-rate model.",
+  "impact": "The authors argue that this co-design makes contemporary template matching plausible for much larger untethered neural interfaces than prior hardware sorters.",
+  "evaluation": {
+    "overview": "The paper combines analytical scaling, compression experiments on SpikeForest and synthetic MEArec Neuropixels recordings, and RTL synthesis and place-and-route estimates; it does not report fabricated silicon or an in-vivo deployment.",
+    "implemented": "A Verilog pipeline covering filtering, whitening, peak detection, buffering, template decompression, and vector template matching, synthesized and laid out in a commercial 65 nm flow with SRAM modeled by CACTI.",
+    "setting": "The target configuration has 10,000 channels, 30,000 neurons, 30 kHz sampling, 300 MHz operation, up to 20 spikes/s/neuron, and 13 templates/channel; compression used 87 SpikeForest recordings plus twenty 384-channel, 1,500-neuron MEArec recordings combined into larger synthetic sets.",
+    "baselines": [
+      "Uncompressed FP32 template representation and matching",
+      "Commodity CPU and GPU estimates for the modeled pipeline"
+    ],
+    "results": [
+      {
+        "id": "claim-marple-compression-result",
+        "text": "The authors report 8–11× template-storage reduction while retaining more than 99% relative matching accuracy.",
+        "source_ids": [
+          "src-marple-full-paper"
+        ],
+        "locator": "Section 1 findings; Section 4, Table 4"
+      },
+      {
+        "id": "claim-marple-projection-result",
+        "text": "For the modeled 10,000-channel, 30,000-neuron configuration, scaling the 65 nm post-layout design to 7 nm yielded projected totals of 78.94 mW and 4.25 mm².",
+        "source_ids": [
+          "src-marple-full-paper"
+        ],
+        "locator": "Section 5.2, Tables 5-7"
+      }
+    ],
+    "study_types": [
+      "hardware-prototype",
+      "simulation",
+      "measurement-study"
+    ]
+  },
+  "limitations": "Power and area are projections from a 65 nm post-layout model scaled to 7 nm, not measurements from fabricated silicon or an untethered implant. The real-time path assumes offline-generated templates, high-scale accuracy is evaluated on synthetic MEArec recordings, and the explored CNN replacement does not meet the large-scale real-time budget.",
+  "phd_group_signal": "The work links an application-level scaling model to compression design, streaming microarchitecture, RTL implementation, physical-design estimates, and a clearly separated exploratory CNN alternative.",
+  "beginner_concepts": [
+    "neural spike sorting",
+    "template matching",
+    "neural-probe channel",
+    "quantization and delta encoding",
+    "ASIC power and area projection"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-marple-mechanism",
+      "text": "Marple uses a fixed streaming front end to produce 60-sample windows over nine-channel neighborhoods, then decompresses offline-generated templates on demand for vector template matching.",
+      "source_ids": [
+        "src-marple-full-paper"
+      ],
+      "locator": "Sections 3.1, 4, and 5.1; Figure 8"
+    },
+    {
+      "id": "claim-marple-input-assumptions",
+      "text": "The target model assumes 10,000 channels sampled at 30 kHz, 30,000 neurons, a peak firing rate of 20 spikes/s/neuron, and at most 13 templates per channel.",
+      "source_ids": [
+        "src-marple-full-paper"
+      ],
+      "locator": "Sections 3.2 and 5.1-5.2; Tables 3 and 5"
+    },
+    {
+      "id": "claim-marple-evidence-boundary",
+      "text": "Large-scale recordings are synthesized with MEArec, and the reported 7 nm power and area are projections obtained by scaling a commercial 65 nm post-layout design rather than measurements from fabricated silicon.",
+      "source_ids": [
+        "src-marple-full-paper"
+      ],
+      "locator": "Section 4, Datasets; Section 5.2, Tables 6-7"
+    },
+    {
+      "id": "claim-marple-data-setting",
+      "text": "Compression experiments used 87 SpikeForest recordings and twenty 384-channel, 1,500-neuron MEArec recordings, with the synthetic recordings combined to model up to 30,000 neurons.",
+      "source_ids": [
+        "src-marple-full-paper"
+      ],
+      "locator": "Section 4, Datasets; Tables 3-4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-marple-full-paper",
+      "url": "https://www.ece.mcmaster.ca/faculty/ameer/publications/ASPLOS24-Marple.pdf",
+      "kind": "paper-pdf",
+      "title": "Marple: Scalable Spike Sorting for Untethered Brain-Machine Interfacing",
+      "publisher": "Ameer Abdelhadi, McMaster University (author-hosted copy)",
+      "retrieved_at": "2026-07-30T03:34:28Z",
+      "content_hash": "sha256:92262655932068c5c39043892c8da3b86cb85849fa07d4781674c94bbfbc86ef",
+      "official": true,
+      "supports": [
+        "Full paper abstract, introduction, background, compression method, accelerator design, evaluation, assumptions, limitations, and conclusion."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e7",
+    "updated_at": "2026-07-30T03:51:17Z",
+    "notes": [
+      "Read the abstract; Sections 1, 2, 3.1-3.2, 4, 5, and 7; and Figures 4-12 and Tables 3-8 needed for the workload model, mechanism, evidence boundary, and results.",
+      "The ACM endpoint returned HTTP 403, so the DOI-matching full paper hosted on an author's McMaster University page was used and hashed.",
+      "The abstract reports 78.08 mW, while the detailed Section 5.2 text and Table 7 report 78.94 mW; the summary uses the detailed result and preserves this source inconsistency as unresolved."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:34:28Z",
+    "last_verified_at": "2026-07-30T03:51:17Z",
+    "collector_version": "agent-e7-summary-calibration-v1",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "evaluation.results.claim-marple-projection-result: the abstract says 78.08 mW, but Section 5.2 and Table 7 say 78.94 mW; the summary follows the detailed result."
+    ]
+  }
+}

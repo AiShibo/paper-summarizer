@@ -1,0 +1,121 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "nsdi-2025-eden-developer-friendly-application-integrated-far-memor-35551bca",
+  "takeaway": "Eden adds hints only where most page faults originate, combining user-space far-memory policies with hardware fallback faults to reduce porting effort and paging overhead.",
+  "background": "Far memory lets a server borrow remote DRAM, but accessing a nonresident page is much slower than local memory. Page-based systems are transparent yet fault-heavy; object-integrated systems expose better policies but require pervasive software guards.",
+  "villain": "Existing designs force applications to choose between expensive kernel-mediated page faults and invasive object-level ports whose guards also tax local accesses.",
+  "approach": "A profiling tool finds the small set of source locations that cause most faults, where developers add hint_fault annotations carrying an address and optional read-ahead or eviction guidance. On a hint, Eden's Shenango-based runtime checks page metadata, fetches missing pages over RDMA, and runs another user-level thread during the fetch; unhinted hardware faults fall back to a control core through userfaultfd. Because Linux retains page-table control, Eden batches noncontiguous write-protect and unmap operations through new vectorized syscalls.",
+  "impact": "The authors argue that sparse hints provide much of an object-integrated far-memory system's policy flexibility while retaining page-based compatibility and requiring substantially fewer application changes.",
+  "evaluation": {
+    "overview": "The authors measure developer effort, application performance across local-memory fractions, and component microbenchmarks on four C/C++ workloads.",
+    "implemented": "A Shenango-based C/C++ runtime, RDMA client and memory server, fault-location profiler, LD_PRELOAD allocator interposition, and Linux kernel patch for vectorized syscalls.",
+    "setting": "Eden and Fastswap run on three Linux servers with 100-Gbps ConnectX-5 NICs; AIFM and TrackFM use their CloudLab artifact setups, so cross-system results are normalized to each system's fully local native baseline.",
+    "baselines": [
+      "Fastswap",
+      "AIFM",
+      "TrackFM",
+      "Each system's fully local native application configuration"
+    ],
+    "results": [
+      {
+        "id": "claim-eden-fastswap-gains",
+        "text": "The authors report that, across DataFrame, the synthetic Web service, Memcached, and parallel sort, each application's maximum gain over Fastswap was between 19.4% and 178%, depending on workload and local-memory setting.",
+        "source_ids": [
+          "src-nsdi25-pdf-35551bca"
+        ],
+        "locator": "PDF p. 9 (paper p. 1074); §5.2, Table 1"
+      },
+      {
+        "id": "claim-eden-dataframe-effort",
+        "text": "The authors report that, for DataFrame, 11 single-line hints covered 97.3% of page faults; the AIFM port changed 1,192 lines, or 108× more changes.",
+        "source_ids": [
+          "src-nsdi25-pdf-35551bca"
+        ],
+        "locator": "PDF pp. 3 and 9–10 (paper pp. 1068 and 1074–1075); §1, §5.2, Table 1, and Listing 1"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "The prototype assumes RDMA far memory, profiled source annotations, a Shenango-style user-level scheduler, and a patched Linux kernel for vectorized calls. Page granularity amplifies cache and network I/O for small objects with poor locality, while unhinted misses take an especially costly userfaultfd path.",
+  "phd_group_signal": "This work reflects an operating-systems style that starts from workload profiling, chooses a hybrid abstraction, modifies the runtime and kernel boundary, and evaluates both programmer effort and end-to-end performance.",
+  "beginner_concepts": [
+    "far memory",
+    "page faults and userfaultfd",
+    "RDMA",
+    "read-ahead and eviction",
+    "user-level threads"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-eden-central-mechanism",
+      "text": "Eden places software guards at profiled high-fault code locations and uses hardware page faults elsewhere; hints trigger user-space RDMA fetches, scheduling during misses, and application-guided read-ahead or reclamation.",
+      "source_ids": [
+        "src-nsdi25-pdf-35551bca"
+      ],
+      "locator": "PDF pp. 5–8 (paper pp. 1070–1073); §§2.3–3.4, Figures 2–4"
+    },
+    {
+      "id": "claim-eden-prototype-dependencies",
+      "text": "The evaluated prototype builds on Shenango, uses RDMA for far-memory transfers, relies on Linux userfaultfd for page-table operations and fallback faults, and adds vectorized kernel interfaces for write protection and unmapping.",
+      "source_ids": [
+        "src-nsdi25-pdf-35551bca"
+      ],
+      "locator": "PDF pp. 6–9 (paper pp. 1071–1074); §§3.2–4 and §5.1"
+    },
+    {
+      "id": "claim-eden-page-boundary",
+      "text": "The paper reports that page-sized management loses efficiency on small objects with poor spatial locality and that Eden's miss path, especially an unhinted kernel trap, is slower than pure application-integrated handling.",
+      "source_ids": [
+        "src-nsdi25-pdf-35551bca"
+      ],
+      "locator": "PDF pp. 11 and 13 (paper pp. 1076 and 1078); §5.3.2 and §7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-nsdi25-pdf-35551bca",
+      "url": "https://www.usenix.org/system/files/nsdi25-yelam.pdf",
+      "kind": "paper-pdf",
+      "title": "Eden: Developer-Friendly Application-Integrated Far Memory",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:27:14Z",
+      "content_hash": "sha256:6027a917cf3a88cb3a8c93a06dbdd4df80037ef2ecbffbf42b205de33fd3c91d",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, design, implementation, evaluation, limitations, and conclusion",
+        "central mechanism, runtime and kernel assumptions, baselines, developer effort, and author-reported quantitative results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e4",
+    "updated_at": "2026-07-30T03:44:52Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1, §§2.1–2.3, §§3.1–3.4, §4, §§5.1–5.4, §7, and Appendix §A.2; inspected Figures 2, 6–8, Table 1, and Listing 1 where needed.",
+      "Checked hint semantics, fallback-fault path, scheduler and kernel dependencies, RDMA and testbed settings, cross-testbed normalization, baseline configurations, developer-effort counts, and all performance ranges directly against the PDF.",
+      "The paper is internally inconsistent about Memcached's hint count: Table 1 reports 2, while §5.3.3 reports 4; that count is omitted from this summary.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:33:42Z",
+    "last_verified_at": "2026-07-30T03:44:52Z",
+    "collector_version": "agent-e4-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "Memcached hint count is internally inconsistent: Table 1 reports 2, while §5.3.3 reports 4; the summary omits that count."
+    ]
+  }
+}

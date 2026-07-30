@@ -1,0 +1,115 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "atc-2025-fast-acs-low-latency-file-based-ordered-message-delivery-eabba56e",
+  "takeaway": "Fast ACS combines durable message files, replicated in-memory caches, and cross-cluster copy trees so pull-based consumers can receive ordered, at-least-once updates at large fan-out.",
+  "background": "Real-time services often copy state updates from producers to many geographically distributed consumers. Pull-based delivery lets each consumer advance at its own pace, but repeated tail reads can overload storage and create network hot spots.",
+  "villain": "File-backed brokers and distributed file systems cannot efficiently serve the same growing file tail to thousands of consumers while preserving order and low delivery delay.",
+  "approach": "Producers append ordered streams to chronological Colossus files, which remain the source of truth, and asynchronously shadow hot chunks plus file lengths into replicated CliqueMap caches. Readers use RMA for cache reads within a cluster, fall back to Colossus on misses, and relay bytes by RPC along optimized inter-cluster copy trees; consumers reassemble and deserialize bytes sequentially. The design provides in-order, at-least-once delivery, so consumers must tolerate duplicates; exactly-once delivery is outside scope.",
+  "impact": "The authors argue that this split persistent/cache path makes file-based delivery practical for high-throughput, geographically distributed services with very large consumer fan-out.",
+  "evaluation": {
+    "overview": "The authors evaluate steady load, abrupt fan-out, failures, cache scale-out, and backlog recovery, then report production experience from Google Ads.",
+    "implemented": "A production Fast ACS implementation using Colossus, replicated CliqueMap data and metadata caches, schedulers, copy workers, and consumer file interfaces.",
+    "setting": "Controlled experiments ran in shared Borg clusters using Pony Express software RMA and Google's wide-area network; separate evidence came from production Google Ads deployments across dozens of clusters.",
+    "baselines": [
+      "Previous Ads Copy Service implementation (qualitative production comparison)"
+    ],
+    "results": [
+      {
+        "id": "claim-fast-acs-smooth-scale",
+        "text": "For the paper's heavier two-stream workload, smoothly scaling one leaf cluster from 1,000 to 20,000 consumers produced up to 1.8 Tbps of data-cache read bandwidth while monitor-reported p99 delivery delay stayed below 2.5 seconds.",
+        "source_ids": [
+          "src-atc25-fast-acs-pdf"
+        ],
+        "locator": "§4.2, Experiment 2(a), Figure 12"
+      },
+      {
+        "id": "claim-fast-acs-production-latency",
+        "text": "Across migrated Google Ads streams measured over a day, the authors report p99 delivery latency of 630 ms and p9999 latency of 5.71 s; the largest stream's p9999 latency was 8.59 s.",
+        "source_ids": [
+          "src-atc25-fast-acs-pdf"
+        ],
+        "locator": "§5, Integration with Google Ads"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "production-deployment"
+    ]
+  },
+  "limitations": "Fast ACS targets high fan-out and throughput rather than extremely low latency, and exactly-once semantics are out of scope; stateful consumers must handle duplicates. Its low-latency path depends on Google's Colossus and CliqueMap infrastructure, shared caches can suffer cross-stream contention, and cross-cluster transfers still use RPC because cross-cluster RMA is not generally available.",
+  "phd_group_signal": "The work exemplifies production-systems research: isolate a scaling bottleneck, compose existing storage and networking primitives, then stress failures and operational transients alongside steady-state performance.",
+  "beginner_concepts": [
+    "publish-subscribe messaging",
+    "message ordering and delivery semantics",
+    "tail reading",
+    "remote memory access",
+    "distributed in-memory cache"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-fast-acs-mechanism",
+      "text": "Fast ACS persists append-only message files in Colossus, shadows recent chunks and lengths into replicated caches, serves intra-cluster cache reads with RMA, and relays bytes between clusters by RPC over optimized copy trees.",
+      "source_ids": [
+        "src-atc25-fast-acs-pdf"
+      ],
+      "locator": "§§2.1–2.4, Figures 2–7"
+    },
+    {
+      "id": "claim-fast-acs-delivery-assumption",
+      "text": "Fast ACS provides in-order sequencing and at-least-once delivery; exactly-once delivery is outside the paper's scope, so the targeted stateful consumers must tolerate duplicate messages.",
+      "source_ids": [
+        "src-atc25-fast-acs-pdf"
+      ],
+      "locator": "§1, Introduction and Our Contributions"
+    },
+    {
+      "id": "claim-fast-acs-cache-fallback",
+      "text": "The caches are volatile and optimized for non-lagging consumers; persistent Colossus files remain the source of truth and serve cache misses or consumers whose needed chunks have expired.",
+      "source_ids": [
+        "src-atc25-fast-acs-pdf"
+      ],
+      "locator": "§2.4, Readers and Consumers; §3, Start Position for Cache Copies"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-atc25-fast-acs-pdf",
+      "url": "https://www.usenix.org/system/files/atc25-gupta.pdf",
+      "kind": "paper-pdf",
+      "title": "Fast ACS: Low-Latency File-Based Ordered Message Delivery at Scale",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:32:16Z",
+      "content_hash": "sha256:9d4f367eae034898523f977aa8908fa285584e15c6fa41fd49ccb38c4dfa3898",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, implementation, evaluation, production experience, future work, and conclusion",
+        "reported mechanism, delivery assumptions, deployment setting, numerical results, and limitations"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e2",
+    "updated_at": "2026-07-30T03:32:16Z",
+    "notes": [
+      "Read the official paper PDF: abstract; §1; §§2.1–2.4; §3; §§4.1–4.2; §§5–6; §8; and §9.",
+      "Retained two representative quantitative results; scientific claims remain attributed to the authors and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:32:16Z",
+    "last_verified_at": "2026-07-30T03:32:16Z",
+    "collector_version": "agent-e2-summary-calibration/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

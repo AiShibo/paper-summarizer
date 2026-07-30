@@ -1,0 +1,50 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sp-2023-blue-is-the-new-black-market-privacy-leaks-and-re-victim-58bc9f12",
+  "class": "SYSTEMS_ADJACENT",
+  "score": 3,
+  "rationale": "The paper performs an empirical security and privacy analysis of physical mobile devices sold through police auctions.",
+  "topics": [
+    "mobile-edge-embedded-and-iot",
+    "privacy-systems",
+    "measurement-and-empirical-systems-studies"
+  ],
+  "system_layers": [
+    "application-infrastructure",
+    "storage"
+  ],
+  "contribution_types": [],
+  "methods": [],
+  "sources": [
+    {
+      "id": "src-9bc1b45755656c92-abstract",
+      "url": "https://openalex.org/W4384948708",
+      "kind": "openalex",
+      "title": "Blue Is the New Black (Market): Privacy Leaks and Re-Victimization from Police-Auctioned Cellphones",
+      "publisher": "OpenAlex",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "abstract used for strict systems-relevance screening"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "Strict systems-relevance screening uses the paper's available abstract and contribution, not venue membership."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-strict-systems-screen/1.2-paper-review",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

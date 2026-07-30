@@ -1,0 +1,391 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-infinitehbd-building-datacenter-scale-high-bandwidth-dom-10bae127",
+  "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "NetAI",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 23,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Chenchen Shou",
+      "position": 1,
+      "orcid": "0009-0006-7113-0357",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University & StepFun & Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guyue Liu",
+      "position": 2,
+      "orcid": "0009-0001-4933-0276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hao Nie",
+      "position": 3,
+      "orcid": "0000-0002-3031-5930",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Huaiyu Meng",
+      "position": 4,
+      "orcid": "0000-0001-5326-3056",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Zhou",
+      "position": 5,
+      "orcid": "0000-0002-3469-0906",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yimin Jiang",
+      "position": 6,
+      "orcid": "0009-0001-0049-873X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Unaffiliated",
+          "normalized_name": null,
+          "institution_type": "independent",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenqing Lv",
+      "position": 7,
+      "orcid": "0009-0009-1395-8940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yelong Xu",
+      "position": 8,
+      "orcid": "0009-0004-7443-9988",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuanwei Lu",
+      "position": 9,
+      "orcid": "0009-0006-2554-6490",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhang Chen",
+      "position": 10,
+      "orcid": "0009-0006-8725-9315",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanbo Yu",
+      "position": 11,
+      "orcid": "0009-0007-4231-4859",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yichen Shen",
+      "position": 12,
+      "orcid": "0000-0003-3800-2143",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Lightelligence Pte. Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yibo Zhu",
+      "position": 13,
+      "orcid": "0000-0002-9113-2660",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daxin Jiang",
+      "position": 14,
+      "orcid": "0000-0002-6657-5806",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "StepFun",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750468",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750468",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750468",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/d4PX36vVDX0",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-infinitehbd-building-datacenter-scale-high-bandwidth-dom-10bae127-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750468",
+      "kind": "publisher-page",
+      "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-infinitehbd-building-datacenter-scale-high-bandwidth-dom-10bae127-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750468",
+      "kind": "crossref",
+      "title": "Crossref metadata for InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:1f941d1b6837d8e6db5b2c1b85ee5c0ddff58a6c905c0ed0752331762617eb06",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

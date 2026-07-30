@@ -1,0 +1,245 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-shadowload-injecting-state-into-hardware-prefetchers-80d90085",
+  "title": "ShadowLoad: Injecting State into Hardware Prefetchers",
+  "venue": "asplos",
+  "year": 2025,
+  "track_or_session": "Session 5B: Microarchitecture",
+  "paper_type": "main-track",
+  "publication_date": "2025-03-30",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lorenz Hetterich",
+      "position": 1,
+      "orcid": "0009-0007-1201-0299",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fabian Thomas",
+      "position": 2,
+      "orcid": "0009-0008-8029-0621",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lukas Gerlach",
+      "position": 3,
+      "orcid": "0009-0002-6684-2035",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ruiyi Zhang",
+      "position": 4,
+      "orcid": "0009-0007-9094-6412",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nils Bernsdorf",
+      "position": 5,
+      "orcid": "0009-0003-4550-1810",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Eduard Ebert",
+      "position": 6,
+      "orcid": "0009-0006-1938-2709",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Schwarz",
+      "position": 7,
+      "orcid": "0000-0001-6744-3410",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3676641-3716020"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3676641.3716020",
+    "official_page": "https://dl.acm.org/doi/10.1145/3676641.3716020",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716020",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2025-program",
+      "url": "https://www.asplos-conference.org/asplos2025/program.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2025",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:3e75b3f4843c2de86e1da2f4872d2aa4d16e08296ab26f9f24a3f10227597dd2",
+      "official": true,
+      "supports": [
+        "ASPLOS 2025 dates, numbered technical sessions, program titles, ordered authors, affiliations, and DOI links."
+      ]
+    },
+    {
+      "id": "src-crossref-3676641-3716020",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3716020",
+      "kind": "crossref",
+      "title": "ShadowLoad: Injecting State into Hardware Prefetchers",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:56685e8878f256076af26fec5ce49c2fbc86bc73b85914d7b1a9e3c5788e7ec1",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3676641-3716020",
+      "url": "https://www.semanticscholar.org/paper/0ff9844b5fa98a5ac121204a8317d36f6d7e78b7",
+      "kind": "semantic-scholar",
+      "title": "ShadowLoad: Injecting State into Hardware Prefetchers",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-29T23:57:17Z",
+      "content_hash": "sha256:70bb7b530c8ba6a6c98a520062ea6ccd8f56abca594bbe5be6dcf93f1245aae8",
+      "official": false,
+      "supports": [
+        "Indexed abstract and open-access links used for relevance classification and ancillary-link discovery."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-29T23:57:17Z",
+    "notes": [
+      "The official program and publisher-deposited metadata were reconciled by DOI.",
+      "Author display names and order follow the official program; ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "Artifact and ancillary links remain unresolved unless the indexed abstract explicitly supplied a URL."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:57:17Z",
+    "last_verified_at": "2026-07-29T23:57:17Z",
+    "collector_version": "agent-c-asplos-2025/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.video",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

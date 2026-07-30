@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "osdi-2024-chameleonapi-automatic-and-efficient-customization-of-ne-a42df30c",
+  "takeaway": "ChameleonAPI parses how an application turns ML API outputs into control-flow decisions, then retrains an application-specific model to penalize only errors that change those decisions.",
+  "background": "Generic ML APIs optimize label-level prediction for many uses, but applications often collapse outputs into a few branch outcomes. A wrong label can therefore be harmless or critical depending on the application's decision logic.",
+  "villain": "Serving every application with the same model wastes capacity on irrelevant distinctions and ignores target-class equivalence, decision type, and matching order.",
+  "approach": "The Python parser combines symbolic execution, constraint solving, static analysis, and traced executions to extract target classes, decision type, and matching order from source code. ChameleonAPI converts that summary into a differentiable loss whose terms penalize only output errors that alter the application decision, then fine-tunes an unchanged pretrained architecture. At serving time, the application ID selects its customized model without changing the API or application code.",
+  "impact": "The authors claim decision-aware customization preserves ML API accessibility while reducing application-level failures, even if some non-critical label errors remain.",
+  "evaluation": {
+    "overview": "The study analyzed open-source ML applications and evaluated customized vision and language models by incorrect-decision rate, retraining cost, and sensitivity to input distributions.",
+    "implemented": "A Python analysis pipeline using NICE, CVC5, Pyan, and Jedi plus a PyTorch/CUDA fine-tuning and application-ID model-selection backend.",
+    "setting": "Held-out, class-balanced inputs from OpenImages, COCO, and Yahoo Question evaluated TResNet-L, Faster R-CNN, and BERT customizations on an RTX GPU; commercial services supplied comparison outputs.",
+    "baselines": [
+      "Google, Amazon, and Microsoft commercial ML APIs",
+      "Best-of-all API* idealized selector",
+      "generic open-source models",
+      "categorized models",
+      "ChameleonAPIbasic"
+    ],
+    "results": [
+      {
+        "id": "claim-chameleonapi-decision-rate",
+        "text": "Across the 57 main-evaluation applications, ChameleonAPI averaged a 0.16 incorrect-decision rate versus 0.31 for generic models and 0.28 for Best-of-all API*, corresponding to 48% and 43% fewer incorrect decisions.",
+        "source_ids": [
+          "src-osdi24-pdf-a42df30c"
+        ],
+        "locator": "PDF pp. 11–12 (paper pp. 374–375); §§5.1–5.2, Figure 6, Table 3"
+      },
+      {
+        "id": "claim-chameleonapi-customization-time",
+        "text": "The parser processed every benchmark application within 10 seconds, and fine-tuning the selected image-classification models on a GeForce RTX 3080 took 8–24 minutes.",
+        "source_ids": [
+          "src-osdi24-pdf-a42df30c"
+        ],
+        "locator": "PDF p. 13 (paper p. 376); §5.2, Figure 7"
+      }
+    ],
+    "study_types": [
+      "prototype",
+      "measurement-study"
+    ]
+  },
+  "limitations": "The parser prototype supports Python decision logic over categorical labels or floating-point outputs and cannot handle some while-loop, unfolded-loop, recursive, deep-call-graph, or solver-hostile patterns. Customization assumes a training-input distribution, uses open models as proxies for inaccessible commercial backends, and requires storing and routing to one model per application.",
+  "phd_group_signal": "This work signals an ML-systems style combining empirical software study, program analysis, loss-function design, model fine-tuning, and application-level evaluation.",
+  "beginner_concepts": [
+    "machine-learning APIs",
+    "critical versus non-critical inference errors",
+    "symbolic execution",
+    "application-specific loss functions",
+    "model fine-tuning"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-chameleonapi-failure-definition",
+      "text": "The paper defines an application failure as a control-flow decision that differs from the decision obtained when the ML API returns the input's human-labeled ground truth; it does not claim arbitrary end-to-end application correctness.",
+      "source_ids": [
+        "src-osdi24-pdf-a42df30c"
+      ],
+      "locator": "PDF p. 4 (paper p. 367); §2.1"
+    },
+    {
+      "id": "claim-chameleonapi-central-mechanism",
+      "text": "ChameleonAPI extracts target-class composition, decision type, and matching order from Python source, derives a differentiable loss for critical decision-changing errors, fine-tunes an unchanged pretrained model, and selects that model by application ID.",
+      "source_ids": [
+        "src-osdi24-pdf-a42df30c"
+      ],
+      "locator": "PDF pp. 7–10 (paper pp. 370–373); §§3.1–3.4, Figures 3–5"
+    },
+    {
+      "id": "claim-chameleonapi-scope-assumptions",
+      "text": "The prototype covers a bounded family of Python decision processes, assumes a training-input distribution, and evaluates open pretrained models and datasets as proxies because commercial model internals and training data are unavailable.",
+      "source_ids": [
+        "src-osdi24-pdf-a42df30c"
+      ],
+      "locator": "PDF pp. 6, 9–11 (paper pp. 369, 372–374); §3.1 footnote, §3.3, and §4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-osdi24-pdf-a42df30c",
+      "url": "https://www.usenix.org/system/files/osdi24-liu.pdf",
+      "kind": "paper-pdf",
+      "title": "ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T03:28:12Z",
+      "content_hash": "sha256:53a706ab2cc70660d2d9c0c45c62d1309ab99a6ed23ea3ad58ad7bbc1c23c0c4",
+      "official": true,
+      "supports": [
+        "abstract, introduction, empirical study, design, implementation, evaluation, and conclusion",
+        "failure definition, central mechanism, scope assumptions, workloads, baselines, and author-reported decision accuracy"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e6",
+    "updated_at": "2026-07-30T03:35:17Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §§1–5, and §7; inspected Tables 1–4 and Figures 3–9 where needed.",
+      "All scientific and performance statements are attributed to the authors and await independent source-based review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:35:17Z",
+    "last_verified_at": "2026-07-30T03:35:17Z",
+    "collector_version": "agent-e6-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

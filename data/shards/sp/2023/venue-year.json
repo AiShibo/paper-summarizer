@@ -1,0 +1,93 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/venue-year.schema.json",
+  "schema_version": "1.0.0",
+  "venue": "sp",
+  "year": 2023,
+  "official_conference_url": "https://www.ieee-security.org/TC/SP2023/",
+  "official_program_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+  "conference_dates": {
+    "start": "2023-05-22",
+    "end": "2023-05-25"
+  },
+  "collection_status": "COMPLETE_PROCEEDINGS",
+  "counts": {
+    "main_track": 196,
+    "core_systems": 21,
+    "systems_adjacent": 92,
+    "excluded": 83,
+    "needs_review": 0
+  },
+  "sources": [
+    {
+      "id": "src-sp-2023-venue-1",
+      "url": "https://www.ieee-security.org/TC/SP2023/",
+      "kind": "conference-program",
+      "title": "44th IEEE Symposium on Security and Privacy",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "conference identity and dates"
+      ]
+    },
+    {
+      "id": "src-sp-2023-venue-2",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Accepted Papers",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "196 unique accepted main-track papers"
+      ]
+    },
+    {
+      "id": "src-sp-2023-venue-3",
+      "url": "https://www.ieee-security.org/TC/SP2023/program.html",
+      "kind": "conference-program",
+      "title": "IEEE Symposium on Security and Privacy 2023 Program",
+      "publisher": "IEEE",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "sessions, authors, and affiliations"
+      ]
+    },
+    {
+      "id": "src-sp-2023-venue-4",
+      "url": "https://doi.org/10.1109/SP46215.2023",
+      "kind": "conference-proceedings",
+      "title": "2023 IEEE Symposium on Security and Privacy Proceedings",
+      "publisher": "IEEE Computer Society",
+      "retrieved_at": "2026-07-30T01:39:19Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "publisher proceedings metadata and page spans"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-30T01:39:19Z",
+    "notes": [
+      "The official accepted-paper list and schedule contain 196 unique main-track papers.",
+      "DBLP exposes 200 records because four accepted papers each have two conflicting IEEE DOI records for the same title and page span; the conflicting DOI values are preserved as alternate versions rather than selecting one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:39:19Z",
+    "last_verified_at": "2026-07-30T01:39:19Z",
+    "collector_version": "agent-d-security-collector/1.2",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-d",
+    "unresolved_fields": [
+      "four papers have conflicting duplicate publisher DOI records"
+    ]
+  }
+}

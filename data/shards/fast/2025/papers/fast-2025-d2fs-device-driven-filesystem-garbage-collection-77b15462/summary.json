@@ -1,0 +1,118 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-d2fs-device-driven-filesystem-garbage-collection-77b15462",
+  "takeaway": "D2FS lets an SSD's garbage collector reclaim both physical flash blocks and logical file-system sections, avoiding expensive host-side collection while asynchronously keeping file mappings consistent.",
+  "background": "Log-structured file systems turn random writes into sequential placement, but must later relocate live blocks to reclaim invalid sections. Flash devices independently perform similar garbage collection beneath the file system, creating redundant work, write amplification, stalls, and long tail latency.",
+  "villain": "Prior approaches retain costly file-system garbage collection, require the host to manage flash placement, or expose an enormous logical address space whose mapping consumes substantial device memory. A device-driven alternative must safely change file-system addresses, notify the host cheaply, and reclaim space before allocation stalls.",
+  "approach": "D2FS modifies F2FS and the flash translation layer. Coupled Garbage Collection migrates valid flash pages while remapping them into contiguous logical file-system sections; Migration Upcall piggybacks batches of old-to-new LBA records on ordinary I/O completions; and Virtual Overprovisioning gives the device a reserved logical region so collection begins before the host exhausts free sections.",
+  "impact": "The design shows that coordinated device-side collection can remove a major log-structured-file-system bottleneck without handing the whole FTL to the host. It also exposes a practical device-to-host notification pattern for storage-initiated metadata changes.",
+  "evaluation": {
+    "overview": "Experiments vary virtual overprovisioning, measure sustained throughput and average/tail latency, compare device- and file-system-level collection costs, and quantify FTL memory across microbenchmarks and database/file-server workloads.",
+    "implemented": "About 5,400 lines of Linux 5.11, F2FS, block-layer, and storage-firmware changes, evaluated with an NVMeVirt model of a Samsung 970 Pro SSD.",
+    "setting": "A 40-core 2.10 GHz Xeon server with 512 GB DRAM, capped to 64 GB host memory, and a 256 GB emulated eight-channel SSD. Workloads include FIO, MySQL TPC-C and YCSB A/F, and Filebench Fileserver.",
+    "baselines": [
+      "F2FS",
+      "zoned F2FS on a ZNS SSD",
+      "IPLFS with Interval Mapping FTL"
+    ],
+    "results": [
+      {
+        "id": "claim-d2fs-throughput",
+        "text": "For sustained 4 KB random writes, D2FS is reported to outperform zoned F2FS by about 1.7×, IPLFS by about 15%, and ordinary F2FS by roughly 3×.",
+        "source_ids": [
+          "src-fast25-pdf-77b15462"
+        ],
+        "locator": "PDF pp. 11–12; §8.3, Figure 12"
+      },
+      {
+        "id": "claim-d2fs-tail-latency",
+        "text": "D2FS reduces FIO 99.99th-percentile write latency to about one third of F2FS and zoned F2FS; in YCSB-F it reports up to 11× lower 99.95th-percentile latency than F2FS.",
+        "source_ids": [
+          "src-fast25-pdf-77b15462"
+        ],
+        "locator": "PDF p. 12; §8.4, Figures 14–15"
+      },
+      {
+        "id": "claim-d2fs-gc-memory",
+        "text": "Reclaiming one section device-side takes 3–10× less time than file-system collection in the tested workloads, while D2FS uses 27.2 MB of FTL memory versus IPLFS's 392 MB on the 256 GB device.",
+        "source_ids": [
+          "src-fast25-pdf-77b15462"
+        ],
+        "locator": "PDF pp. 12–13; §§8.5–8.6, Figure 16 and Table 1"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Evaluation uses NVMeVirt rather than modified physical firmware, although the authors compare its zoned-F2FS behavior with a Samsung 970 Pro. D2FS assumes power-loss protection for outstanding migration records, reserves a logical garbage-collection region as large as device capacity, and is implemented only on F2FS. Immediate discard and the chosen 2.4× virtual address-space ratio may behave differently on other devices or workloads.",
+  "phd_group_signal": "The work combines file-system invariants, FTL mapping, crash recovery, and NVMe communication in one cross-layer prototype. Its evaluation separates throughput, tail latency, garbage-collection components, and device-memory cost, illustrating storage research that follows consequences across the entire I/O stack.",
+  "beginner_concepts": [
+    "log-structured file system",
+    "flash translation layer",
+    "garbage collection",
+    "logical block address",
+    "overprovisioning",
+    "write amplification",
+    "crash recovery"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-d2fs-coupled-gc",
+      "text": "Coupled Garbage Collection changes both logical-to-physical and file-to-logical mappings, clustering live pages physically and logically without sending their contents through the host.",
+      "source_ids": [
+        "src-fast25-pdf-77b15462"
+      ],
+      "locator": "PDF pp. 5–7; §§3–4.4, Figures 2–3"
+    },
+    {
+      "id": "claim-d2fs-upcall-recovery",
+      "text": "Migration records are piggybacked on I/O completions and replayed after a crash using checkpointed progress, providing failure-atomic host mapping updates.",
+      "source_ids": [
+        "src-fast25-pdf-77b15462"
+      ],
+      "locator": "PDF pp. 7–10; §§5–7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-77b15462",
+      "url": "https://www.usenix.org/system/files/fast25-kim-juwon.pdf",
+      "kind": "paper-pdf",
+      "title": "D2FS: Device-Driven Filesystem Garbage Collection",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:5afe51e5e7643166d2824ea9daa1ddf8d0a2b50967826ae90a35ce8bbe8ab738",
+      "official": true,
+      "supports": [
+        "abstract, introduction, design, crash recovery, evaluation, and conclusion",
+        "reported prototype setting, performance, tail latency, and memory costs"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:30:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §3 design principles, §§4–7 design and crash recovery, §§8.1–8.6 evaluation, and the concluding discussion/artifact summary.",
+      "Performance values are author-reported measurements on an emulated SSD and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:30:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

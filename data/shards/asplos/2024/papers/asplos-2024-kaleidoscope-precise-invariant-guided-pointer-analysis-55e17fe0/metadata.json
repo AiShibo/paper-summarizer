@@ -1,0 +1,166 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-kaleidoscope-precise-invariant-guided-pointer-analysis-55e17fe0",
+  "title": "Kaleidoscope: Precise Invariant-Guided Pointer Analysis",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 4D: Static Analysis and Verification",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Tapti Palit",
+      "position": 1,
+      "orcid": "0009-0006-4602-7171",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayatte, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651340"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pedro Fonseca",
+      "position": 2,
+      "orcid": "0000-0003-2480-4487",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Purdue University, West Lafayatte, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651340"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651340",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651340",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.10841643",
+    "code": "https://github.com/rssys/kaleidoscope-artifacts",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/I0-mytT-gkA",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651340",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651340",
+      "kind": "crossref",
+      "title": "Kaleidoscope: Precise Invariant-Guided Pointer Analysis",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:d2f9111d5682f3b5804f8e913e6efe03f16041ead5ef26ad4cdcc539626b76f0",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651340",
+      "url": "https://www.semanticscholar.org/paper/77696da11875714c7b069fa559a765d47c906f6e",
+      "kind": "semantic-scholar",
+      "title": "Kaleidoscope: Precise Invariant-Guided Pointer Analysis",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:5d76fd044b8a2a9b792c8602c6cf7918b9dbcf2ea35cd46dbc3e34936c9bf79e",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-10841643",
+      "url": "https://zenodo.org/records/10841643",
+      "kind": "artifact-page",
+      "title": "Kaleidoscope: Precise Invariant-Guided Pointer Analysis",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:305e1c50405b9cd5865c68835bf1878c135ecd2991eaf56bb0d248b17efb2a9f",
+      "official": true,
+      "supports": [
+        "Author-deposited archival artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact title, DOI evidence, or title-and-author evidence.",
+      "Code or project links use URLs printed in the official abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

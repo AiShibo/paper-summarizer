@@ -1,0 +1,237 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-audible-a-convolution-based-resource-allocator-for-overs-3257e62a",
+  "title": "AUDIBLE: A Convolution-Based Resource Allocator for Oversubscribing Burstable Virtual Machines",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 11B: Scheduling",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Seyedali Jokar Jandaghi",
+      "position": 1,
+      "orcid": "0009-0008-4125-1646",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kaveh Mahdaviani",
+      "position": 2,
+      "orcid": "0000-0001-5119-0586",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Amirhossein Mirhosseini",
+      "position": 3,
+      "orcid": "0000-0001-6501-6087",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Michigan, Ann Arbor, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sameh Elnikety",
+      "position": 4,
+      "orcid": "0000-0003-3478-2824",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Redmond, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cristiana Amza",
+      "position": 5,
+      "orcid": "0000-0003-1703-7822",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bianca Schroeder",
+      "position": 6,
+      "orcid": "0000-0003-3289-1824",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Toronto, Toronto, Canada",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651376"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651376",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651376",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/0e3Up6nkNPo",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651376",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651376",
+      "kind": "crossref",
+      "title": "AUDIBLE: A Convolution-Based Resource Allocator for Oversubscribing Burstable Virtual Machines",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:9f30261627e99cf2b3ef5361caf57f7638dd123b0211fee84b9e87d6d9520448",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651376",
+      "url": "https://www.semanticscholar.org/paper/fd1f362e6d53b7dcc4126bf31d470a3513e898a1",
+      "kind": "semantic-scholar",
+      "title": "AUDIBLE: A Convolution-Based Resource Allocator for Oversubscribing Burstable Virtual Machines",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:9d7721f9ca35f7f460776171ef35e1c5daca6c12b9a9858c8acb1d2b5c02a971",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "ccs-2025-jazzline-composable-cryptoline-functional-correctness-pr-ebcdea47",
+  "title": "Jazzline: Composable CryptoLine Functional Correctness Proofs for Jasmin Programs",
+  "venue": "ccs",
+  "year": 2025,
+  "track_or_session": "Cycle 1",
+  "paper_type": "main-track",
+  "publication_date": "2025-11-22",
+  "page_count": 15,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "José Bacelar Almeida",
+      "position": 1,
+      "orcid": "0000-0003-0011-7455",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Minho and INESC TEC, Braga, Portugal",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Manuel Barbosa",
+      "position": 2,
+      "orcid": "0000-0002-6848-5564",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) and INESC TEC, Porto, Portugal and Max Planck Institute for Security and Privacy, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gilles Barthe",
+      "position": 3,
+      "orcid": "0000-0002-3853-1777",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Bochum, Germany and IMDEA Software Institute, Madrid, Spain",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lionel Blatter",
+      "position": 4,
+      "orcid": "0000-0001-9058-2005",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Max Planck Institute for Security and Privacy, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gustavo Delerue",
+      "position": 5,
+      "orcid": "0009-0005-6458-1419",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP), Porto, Portugal",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "João Diogo Duarte",
+      "position": 6,
+      "orcid": "0000-0001-5236-260X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Universidade do Porto (FCUP) &amp; INESC TEC, Porto, Portugal",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Benjamin Gregoire",
+      "position": 7,
+      "orcid": "0000-0001-6650-9924",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Inria Sophia-Antipolis, Sophia Antipolis, France",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tiago Oliveira",
+      "position": 8,
+      "orcid": "0000-0001-7395-3070",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Sandbox AQ, Palo Alto, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Miguel Quaresma",
+      "position": 9,
+      "orcid": "0009-0008-8350-6870",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "MPI for Security and Privacy, Bochum, Germany",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Pierre-Yves Strub",
+      "position": 10,
+      "orcid": "0000-0002-8196-7875",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "PQShield, Paris, France",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming-Hsien Tsai",
+      "position": 11,
+      "orcid": "0009-0001-7621-7981",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "National Taiwan University of Science and Technology, Taipei, Taiwan",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bow-Yaw Wang",
+      "position": 12,
+      "orcid": "0000-0002-5757-545X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Academia Sinica, Taipei, Taiwan",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Bo-Yin Yang",
+      "position": 13,
+      "orcid": "0000-0002-9362-5282",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Academia Sinica, Taipei, Taiwan",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-fe942eb0e1396ceb-crossref"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3719027.3744814",
+    "official_page": "https://dl.acm.org/doi/10.1145/3719027.3744814",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3744814",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-b9445a66c70f79bf-program",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "kind": "conference-program",
+      "title": "ACM CCS 2025 accepted papers",
+      "publisher": "ACM SIGSAC",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "main-track acceptance and submission cycle"
+      ]
+    },
+    {
+      "id": "src-8f9c492c50eae8ce-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744814",
+      "kind": "publisher-page",
+      "title": "Jazzline: Composable CryptoLine Functional Correctness Proofs for Jasmin Programs",
+      "publisher": "Association for Computing Machinery",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "canonical paper page, DOI, and PDF link"
+      ]
+    },
+    {
+      "id": "src-fe942eb0e1396ceb-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744814",
+      "kind": "crossref",
+      "title": "Jazzline: Composable CryptoLine Functional Correctness Proofs for Jasmin Programs",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:46:51Z",
+      "content_hash": null,
+      "official": false,
+      "supports": [
+        "published-order authors",
+        "publication-time affiliations",
+        "publication date and page span"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-d",
+    "updated_at": "2026-07-29T23:46:51Z",
+    "notes": [
+      "Canonical conference metadata collected from the official program and publisher or paper page."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:46:51Z",
+    "last_verified_at": "2026-07-29T23:46:51Z",
+    "collector_version": "agent-d-security-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-d",
+    "unresolved_fields": []
+  }
+}

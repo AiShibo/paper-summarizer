@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "directive_id": "coordinator-agent-e-standby-2026-07-30",
+  "issued_at": "2026-07-30T02:08:15Z",
+  "issued_by": "coordinator",
+  "target_agent": "agent-e",
+  "status": "OPEN",
+  "action": "STANDBY_NO_EDITS",
+  "reason": "Agent E completed all 36 FAST 2025 pilot summaries with exact assignment coverage, official full-paper provenance, required reading coverage, READY_FOR_REVIEW workflows, and clean targeted and repository validation.",
+  "instructions": [
+    "Keep coordination/claims/agent-e.json at COMPLETE.",
+    "Do not begin another venue, year, or paper batch until the specialist pilot passes independent review.",
+    "Do not edit the completed FAST 2025 summary.json files unless Agent H or the coordinator assigns a specific correction.",
+    "Do not edit metadata, relevance, groups, awards, reviews, entities, or generated outputs.",
+    "Remain available to resolve narrowly scoped summary issues returned by Agent H."
+  ],
+  "resume_conditions": [
+    "Agent H reports a specific summary-review issue tied to an assigned FAST 2025 paper.",
+    "The coordinator opens a new summary batch after the specialist-pilot gate."
+  ]
+}

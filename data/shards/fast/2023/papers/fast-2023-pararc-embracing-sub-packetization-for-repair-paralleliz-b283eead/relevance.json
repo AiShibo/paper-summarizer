@@ -1,0 +1,81 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/relevance.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2023-pararc-embracing-sub-packetization-for-repair-paralleliz-b283eead",
+  "class": "CORE_SYSTEMS",
+  "score": 5,
+  "rationale": "The official abstract applies formal reasoning, verification, or synthesis to a concrete storage or networked-system mechanism, placing it in core systems work.",
+  "topics": [
+    "storage-and-file-systems",
+    "cloud-and-datacenter-systems",
+    "datacenter-systems",
+    "formal-methods-and-systems-verification",
+    "high-performance-computing",
+    "parallel-computing"
+  ],
+  "system_layers": [
+    "distributed-service",
+    "storage"
+  ],
+  "contribution_types": [
+    "new-system",
+    "optimization",
+    "formal-model-or-proof"
+  ],
+  "methods": [
+    "implementation",
+    "formal-verification"
+  ],
+  "sources": [
+    {
+      "id": "src-fast23-program",
+      "url": "https://www.usenix.org/conference/fast23/technical-sessions",
+      "kind": "conference-program",
+      "title": "FAST '23 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:76e7618a49d49865f53fc1600f8f46b5e849ba922ef0494b69cc0c301d8094ec",
+      "official": true,
+      "supports": [
+        "complete archival main-track enumeration and non-paper boundaries",
+        "paper titles, sessions or tracks, abstracts, and displayed author affiliations",
+        "official artifact badges where displayed"
+      ]
+    },
+    {
+      "id": "src-fast-2023-pararc-embracing-sub-packetization-for-repair-paralleliz-b283eead-paper-page",
+      "url": "https://www.usenix.org/conference/fast23/presentation/li-xiaolu",
+      "kind": "paper-page",
+      "title": "ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T00:08:09Z",
+      "content_hash": "sha256:4c02f6ee75c60f1c01390904efbabb606cba062076ba7bd919cc4e41c8dff142",
+      "official": true,
+      "supports": [
+        "canonical title and abstract",
+        "ordered authors and publication-time affiliations except where an explicitly cited paper PDF resolves a metadata conflict",
+        "official paper page and PDF",
+        "proceedings page range",
+        "official BibTeX",
+        "presentation media links"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-30T00:08:09Z",
+    "notes": [
+      "Classification is corpus fit, not a quality, impact, advisor, or prestige judgment.",
+      "Classification uses the official title, session or track, and abstract under inclusion-policy v1."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:36:36Z",
+    "last_verified_at": "2026-07-30T00:08:09Z",
+    "collector_version": "agent-b-official-program-collector/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": []
+  }
+}

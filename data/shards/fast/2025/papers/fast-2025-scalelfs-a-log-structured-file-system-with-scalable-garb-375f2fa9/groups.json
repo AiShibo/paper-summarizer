@@ -1,0 +1,112 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/groups.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-scalelfs-a-log-structured-file-system-with-scalable-garb-375f2fa9",
+  "associations": [
+    {
+      "group_id": "group-cau-systems-storage-lab",
+      "faculty_id": "faculty-yongseok-son",
+      "publication_institution_id": "institution-chung-ang-university",
+      "current_institution_id": "institution-chung-ang-university",
+      "association_type": "paper-or-project-evidence",
+      "evidence_source_ids": [
+        "src-agent-f-375f2fa9-paper-page",
+        "src-agent-f-375f2fa9-presentation",
+        "src-agent-f-375f2fa9-lab-page",
+        "src-agent-f-375f2fa9-faculty-directory"
+      ],
+      "rationale": "The official conference record and presentation identify ScaleLFS and the Systems and Storage Lab; Chung-Ang University's official lab and faculty pages confirm the group and Yongseok Son's current appointment.",
+      "confidence": "HIGH"
+    }
+  ],
+  "unresolved_authors": [
+    {
+      "name": "Jin Yong Ha",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Sangjin Lee",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    },
+    {
+      "name": "Hyeonsang Eom",
+      "reason": "No collected official source established this author's faculty or research-group association; publication affiliation and author order were not treated as proof."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-agent-f-375f2fa9-paper-page",
+      "url": "https://www.usenix.org/conference/fast25/presentation/ha",
+      "kind": "paper-page",
+      "title": "ScaleLFS: A Log-Structured File System with Scalable Garbage Collection for Commodity SSDs",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact paper identity",
+        "published author list",
+        "publication-time affiliations"
+      ]
+    },
+    {
+      "id": "src-agent-f-375f2fa9-presentation",
+      "url": "https://www.sigfast.or.kr/nvramos/nvramos25/presentation/S2_ScaleLFS_A_Log-Structured_File_System_with_Scalable_Garbage_Collection_for_Commodity_SSDs_YongseokSon.pdf",
+      "kind": "other",
+      "title": "ScaleLFS presentation",
+      "publisher": "SIGFAST Korea",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "exact ScaleLFS paper and Systems and Storage Lab affiliation"
+      ]
+    },
+    {
+      "id": "src-agent-f-375f2fa9-lab-page",
+      "url": "https://cse.cau.ac.kr/eng/sub04/sub0402.php",
+      "kind": "lab-page",
+      "title": "Systems and Storage Lab",
+      "publisher": "Chung-Ang University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official lab identity"
+      ]
+    },
+    {
+      "id": "src-agent-f-375f2fa9-faculty-directory",
+      "url": "https://cse.cau.ac.kr/eng/sub02/sub0201.php",
+      "kind": "institution-page",
+      "title": "Chung-Ang University CSE faculty",
+      "publisher": "Chung-Ang University",
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "current Yongseok Son faculty appointment"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Associations are paper-level and do not imply that every coauthor belongs to the cited group or is advised by the cited faculty member.",
+      "Publication-time and current institutions are recorded separately; metadata.json was not modified.",
+      "Unresolved authors are retained instead of assigning a group from author order or affiliation alone."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "unresolved_authors"
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sosp-2024-biza-design-of-self-governing-block-interface-zns-afa-fo-cb989596",
+  "title": "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance",
+  "venue": "sosp",
+  "year": 2024,
+  "track_or_session": "Session 5: File and Storage Systems 11:00 - 12:30 Session Chair: Gala Yadgar",
+  "paper_type": "main-track",
+  "publication_date": "2024-11-04",
+  "page_count": 17,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Shushu Yi",
+      "position": 1,
+      "orcid": "0000-0002-9061-924X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shaocong Sun",
+      "position": 2,
+      "orcid": "0009-0007-5006-4351",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Li Peng",
+      "position": 3,
+      "orcid": "0009-0004-1391-2612",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yingbo Sun",
+      "position": 4,
+      "orcid": "0009-0006-2137-7095",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ming-Chang Yang",
+      "position": 5,
+      "orcid": "0000-0002-4029-757X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "The Chinese University of Hong Kong",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Zhichao Cao",
+      "position": 6,
+      "orcid": "0000-0001-6950-1776",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Arizona State University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Qiao Li",
+      "position": 7,
+      "orcid": "0000-0002-4579-4268",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Xiamen University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Myoungsoo Jung",
+      "position": 8,
+      "orcid": "0000-0002-9832-5801",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAIST and Panmnesia",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ke Zhou",
+      "position": 9,
+      "orcid": "0000-0002-2161-8796",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Huazhong University of Science and Technology",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jie Zhang",
+      "position": 10,
+      "orcid": "0000-0002-6299-4683",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sosp-2024-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3694715.3695953",
+    "official_page": "https://doi.org/10.1145/3694715.3695953",
+    "official_pdf": "https://sigops.org/s/conferences/sosp/2024/assets/papers/sosp24-final137-acmpaginated.pdf",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sosp-2024-program",
+      "url": "https://sigops.org/s/conferences/sosp/2024/schedule.html",
+      "kind": "conference-program",
+      "title": "SOSP 2024 Schedule and Published Papers",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:4dfe0d9294242b288ea2d49116228eb840f22263918493c75f49f8ee99acab97",
+      "official": true,
+      "supports": [
+        "Official 2024 main-track paper coverage, titles, author order, affiliations, sessions, and abstracts where published."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-proceedings",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3694715",
+      "kind": "conference-proceedings",
+      "title": "Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles",
+      "publisher": "ACM SIGOPS",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "Official proceedings availability, publication venue, and publication date."
+      ]
+    },
+    {
+      "id": "src-sosp-2024-dblp",
+      "url": "https://dblp.org/db/conf/sosp/sosp2024.html",
+      "kind": "dblp",
+      "title": "DBLP table of contents for SOSP 2024",
+      "publisher": "DBLP",
+      "retrieved_at": "2026-07-29T23:30:11Z",
+      "content_hash": "sha256:67fd2c1864e3206c47cd4453a05ec4a4787f374aeb886a7146059067d6b0f83c",
+      "official": false,
+      "supports": [
+        "Fallback DOI, ORCID, and page-range metadata reconciled against the official program."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-a",
+    "updated_at": "2026-07-29T23:30:11Z",
+    "notes": [
+      "Official program identity and author order were reconciled one-to-one with the complete DBLP venue table.",
+      "Publication-time affiliation strings preserve the official program wording; normalized institution entities and geography remain for Agent F.",
+      "Artifact, code, and project links were not exhaustively audited during program collection.",
+      "The PDF URL is published directly by the official SOSP program; the endpoint returned an access-control response during automated link auditing."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T23:30:11Z",
+    "last_verified_at": "2026-07-29T23:30:11Z",
+    "collector_version": "agent-a-official-program-parser/1.1",
+    "confidence": "HIGH",
+    "verified_by": "agent-a",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].institution_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].city",
+      "authors[*].affiliations[*].state_or_province",
+      "authors[*].affiliations[*].country",
+      "authors[*].affiliations[*].region",
+      "links.bibtex"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-leapgnn-accelerating-distributed-gnn-training-leveraging-146064db",
+  "takeaway": "LeapGNN moves small GNN models to partition-local features and trains locality-rich micrographs, replacing bulk remote feature fetches with coordinated model migration.",
+  "background": "Distributed graph-neural-network training partitions topology and feature vectors across GPU servers. Conventional frameworks keep a model replica on each worker and fetch remote features for sampled subgraphs; those transfers can dominate training as graphs and feature dimensions grow.",
+  "villain": "Caching and locality-biased sampling are capacity-limited or can reduce accuracy, while prior model/data parallelism transfers hidden activations. Naively migrating a model still carries intermediate aggregation state and can send 2.59× more data because a whole sampled subgraph has weak partition locality.",
+  "approach": "LeapGNN decomposes mini-batches into root-centered micrographs whose neighbors are likely co-located. It migrates a model so each micrograph's forward and backward work stays with its features, pre-gathers shared features across micrographs, and adaptively merges micrographs per worker to reduce time steps, kernel switches, and synchronization.",
+  "impact": "Feature-centric training offers an accuracy-preserving alternative when models are far smaller than distributed feature data. It can complement caches and partitioners, but depends on partitions that preserve neighborhood locality.",
+  "evaluation": {
+    "overview": "Five models and five graphs assess end-to-end time, individual mechanisms, a large graph, GPU utilization, full-batch comparison, scaling across batch/feature/fanout/machines, accuracy, and partition overhead.",
+    "implemented": "An open-source LeapGNN implementation on DGL with micrograph scheduling, model migration, feature pre-gathering, and adaptive merging.",
+    "setting": "Four servers, each with 48-core Xeon CPUs, 128 GB DRAM, one 40 GB A100, and 10 Gb/s Ethernet; three shallow and two 7–10-layer models run on Arxiv, Products, IN, UK, and IT graphs.",
+    "baselines": [
+      "DGL",
+      "P3",
+      "naive feature-centric migration",
+      "NeutronStar"
+    ],
+    "results": [
+      {
+        "id": "claim-leapgnn-overall",
+        "text": "Across shallow and deep models, LeapGNN reports 1.3–3.1× speedup over DGL, 1.2–4.2× over P3, and up to 4.8× over naive model migration.",
+        "source_ids": [
+          "src-fast25-pdf-146064db"
+        ],
+        "locator": "PDF pp. 10–11; §7.2, Figures 11–12"
+      },
+      {
+        "id": "claim-leapgnn-locality",
+        "text": "Micrograph training lowers local-feature miss rate by 53% on average; pre-gathering then reduces remote requests by 1.9× and local misses among them by 1.4×.",
+        "source_ids": [
+          "src-fast25-pdf-146064db"
+        ],
+        "locator": "PDF p. 11; §7.3, Figures 14–16"
+      },
+      {
+        "id": "claim-leapgnn-large",
+        "text": "On the large IT graph, LeapGNN improves epoch time by 1.91× over DGL and 1.48× over P3 while raising the local feature hit rate from 24.4% to 92.3%.",
+        "source_ids": [
+          "src-fast25-pdf-146064db"
+        ],
+        "locator": "PDF p. 11; §7.5, Figure 19"
+      }
+    ],
+    "study_types": [
+      "prototype"
+    ]
+  },
+  "limitations": "Experiments use four A100 servers on 10 Gb/s Ethernet, and three web graphs receive synthetic random features, so only Arxiv and Products support meaningful accuracy checks. P3 and NeutronStar are reimplemented. LeapGNN is unsuitable for random partitioning, requires offline locality-preserving partitioning, and adds model/gradient migration averaging 4.6% of training time.",
+  "phd_group_signal": "The paper challenges the dominant data-movement direction using a measured size asymmetry, discovers why the obvious reversal fails, and designs a new scheduling unit around graph locality. Its evaluation combines communication mechanisms, training accuracy, and large-graph behavior.",
+  "beginner_concepts": [
+    "graph neural network",
+    "distributed training",
+    "vertex feature",
+    "graph partitioning",
+    "mini-batch",
+    "model migration",
+    "data locality"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-leapgnn-motivation",
+      "text": "In the paper's DGL profiles, remote feature gathering consumes 44–83% of training time, while fetched feature data can exceed model parameters by factors from 13.4 to 2,368.1.",
+      "source_ids": [
+        "src-fast25-pdf-146064db"
+      ],
+      "locator": "PDF pp. 4–5; §§3.1–3.2, Figures 4–7"
+    },
+    {
+      "id": "claim-leapgnn-micrograph",
+      "text": "A micrograph is a sampled computation graph rooted at one mini-batch vertex; grouping work at this granularity lets model execution follow the partition holding that root and most neighbors.",
+      "source_ids": [
+        "src-fast25-pdf-146064db"
+      ],
+      "locator": "PDF pp. 5–8; §4 and §§5.1–5.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-pdf-146064db",
+      "url": "https://www.usenix.org/system/files/fast25-chen-weijian-leap.pdf",
+      "kind": "paper-pdf",
+      "title": "LeapGNN: Accelerating Distributed GNN Training Leveraging Feature-Centric Model Migration",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:17:33Z",
+      "content_hash": "sha256:578a8cad18f17383e1d25e6f0070ad39da0c28072001603ef34e064602ea76cb",
+      "official": true,
+      "supports": [
+        "abstract, introduction, motivation, locality study, design, evaluation, discussion, and conclusion",
+        "reported training, communication, locality, utilization, and accuracy results"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e",
+    "updated_at": "2026-07-30T01:51:00Z",
+    "notes": [
+      "Read the official paper PDF: abstract, §1 Introduction, §§3.1–3.2 motivation, §4 locality study, §§5.1–5.3 design, §§7.1–7.9 evaluation, §8 Discussion, and §10 Conclusion.",
+      "Performance results are author-reported on a four-server cluster and await independent review."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:17:33Z",
+    "last_verified_at": "2026-07-30T01:51:00Z",
+    "collector_version": "agent-e-summary-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

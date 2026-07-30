@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/systems-phd-explorer/schemas/v1/author.schema.json",
+  "schema_version": "1.0.0",
+  "author_id": "author-andrea-c-arpaci-dusseau",
+  "display_name": "Andrea C. Arpaci-Dusseau",
+  "name_variants": [
+    "Andrea Arpaci-Dusseau"
+  ],
+  "orcid": null,
+  "dblp_url": null,
+  "sources": [
+    {
+      "id": "src-author-andrea-c-arpaci-dusseau-profile",
+      "url": "https://pages.cs.wisc.edu/~dusseau/",
+      "kind": "faculty-page",
+      "title": "Official profile for Andrea C. Arpaci-Dusseau",
+      "publisher": null,
+      "retrieved_at": "2026-07-30T02:52:23Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "author identity",
+        "display name"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-f",
+    "updated_at": "2026-07-30T02:52:23Z",
+    "notes": [
+      "Created for an evidence-backed faculty association; no metadata.json author reference was rewritten."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:52:23Z",
+    "last_verified_at": "2026-07-30T02:52:23Z",
+    "collector_version": "agent-f-group-resolver/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": [
+      "orcid",
+      "dblp_url"
+    ]
+  }
+}

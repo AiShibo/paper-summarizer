@@ -1,0 +1,216 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-pathfinder-practical-real-time-learning-for-data-prefetc-46ceaf89",
+  "title": "PATHFINDER: Practical Real-Time Learning for Data Prefetching",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 8A: Caching and Prefetching",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Lin Jia",
+      "position": 1,
+      "orcid": "0009-0007-8496-0058",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Utah, Salt Lake city, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651332"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "James Patrick Mcmahon",
+      "position": 2,
+      "orcid": "0009-0006-3718-794X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Utah, Salt Lake city, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651332"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sumanth Gudaparthi",
+      "position": 3,
+      "orcid": "0000-0002-5008-9870",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Utah, Salt Lake City, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651332"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shreyas Singh",
+      "position": 4,
+      "orcid": "0009-0004-7338-0267",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Utah, Salt Lake City, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651332"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rajeev Balasubramonian",
+      "position": 5,
+      "orcid": "0009-0009-4093-5904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Utah, Salt Lake City, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3620666-3651332"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3620666.3651332",
+    "official_page": "https://dl.acm.org/doi/10.1145/3620666.3651332",
+    "official_pdf": null,
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/WlqLeIElUlg",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3620666-3651332",
+      "url": "https://api.crossref.org/works/10.1145/3620666.3651332",
+      "kind": "crossref",
+      "title": "PATHFINDER: Practical Real-Time Learning for Data Prefetching",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:4c1c96a836f094d295e96088642e89ad19b9d09894ec0079e8c8df901707a1e3",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3620666-3651332",
+      "url": "https://www.semanticscholar.org/paper/e046ac7c74332fcd89051be3ddb8517e056582eb",
+      "kind": "semantic-scholar",
+      "title": "PATHFINDER: Practical Real-Time Learning for Data Prefetching",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:8481dcda3d01806554e2fc64db9637ff4a072aabfcaa1adece94a38eb1cb30c9",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

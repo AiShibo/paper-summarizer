@@ -1,0 +1,409 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-gpu-based-private-information-retrieval-for-on-device-ma-69e398b3",
+  "title": "GPU-based Private Information Retrieval for On-Device Machine Learning Inference",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 9C: ML Systems and Optimizations",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Maximilian Lam",
+      "position": 1,
+      "orcid": "0000-0003-4798-3940",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University, Boston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jeff Johnson",
+      "position": 2,
+      "orcid": "0000-0003-2743-0521",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Wenjie Xiong",
+      "position": 3,
+      "orcid": "0000-0002-7626-2651",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Virginia Tech, Blacksburg, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kiwan Maeng",
+      "position": 4,
+      "orcid": "0000-0002-0321-8406",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Pennsylvania State University, State College, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Udit Gupta",
+      "position": 5,
+      "orcid": "0000-0002-9118-0961",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University, Ithaca, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yang Li",
+      "position": 6,
+      "orcid": "0000-0002-9052-9308",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liangzhen Lai",
+      "position": 7,
+      "orcid": "0000-0001-6421-5164",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, Menlo Park, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ilias Leontiadis",
+      "position": 8,
+      "orcid": "0000-0001-5581-5803",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, United Kingdom, United Kingdom",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minsoo Rhu",
+      "position": 9,
+      "orcid": "0000-0003-3303-8681",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAIST / Meta, Seoul, Korea, South ? Republic of Korea",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hsien-Hsin S. Lee",
+      "position": 10,
+      "orcid": "0000-0002-8926-8243",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Intel, San Jose, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Vijay Janapa Reddi",
+      "position": 11,
+      "orcid": "0000-0002-5259-7721",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University, Boston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Gu-Yeon Wei",
+      "position": 12,
+      "orcid": "0000-0001-5730-9904",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University, Boston, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Brooks",
+      "position": 13,
+      "orcid": "0000-0002-0662-7889",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Harvard University, boston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Edward Suh",
+      "position": 14,
+      "orcid": "0000-0001-6409-9888",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta AI / Cornell University, Boston, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624855"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624855",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624855",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624855",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/pJOjzt2IyiE",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2301.10904",
+      "relationship": "Open-access preprint indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624855",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624855",
+      "kind": "crossref",
+      "title": "GPU-based Private Information Retrieval for On-Device Machine Learning Inference",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:285208ac2571a212d720d4e3c4405bbfde51c4b9cb72c52234834678b8bae56f",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624855",
+      "url": "https://www.semanticscholar.org/paper/140d1b27effabea80d59d96776c309e16a2c65e6",
+      "kind": "semantic-scholar",
+      "title": "GPU-based Private Information Retrieval for On-Device Machine Learning Inference",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:08a8a71ec8dfe6f1f3306bfb735f95172cc5a878711b2acfa69e2f1067b81f18",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project"
+    ]
+  }
+}

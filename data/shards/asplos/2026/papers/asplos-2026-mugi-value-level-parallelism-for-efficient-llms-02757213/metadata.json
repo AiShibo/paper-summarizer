@@ -1,0 +1,201 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2026-mugi-value-level-parallelism-for-efficient-llms-02757213",
+  "title": "Mugi: Value Level Parallelism For Efficient LLMs",
+  "venue": "asplos",
+  "year": 2026,
+  "track_or_session": "Session 3A: LLM Attention & KV Cache",
+  "paper_type": "main-track",
+  "publication_date": "2026-03-22",
+  "page_count": 19,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Daniel Price",
+      "position": 1,
+      "orcid": "0009-0007-0571-7413",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of ECE, University of Central Florida, Orlando, Florida, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790189"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prabhu Vellaisamy",
+      "position": 2,
+      "orcid": "0009-0007-7750-8725",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of ECE, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790189"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "John Paul Shen",
+      "position": 3,
+      "orcid": "0000-0002-7225-0629",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of ECE, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790189"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Di Wu",
+      "position": 4,
+      "orcid": "0000-0001-9775-8026",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Department of ECE, University of Central Florida, Orlando, Florida, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3779212-3790189"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3779212.3790189",
+    "official_page": "https://dl.acm.org/doi/10.1145/3779212.3790189",
+    "official_pdf": null,
+    "artifact": "https://zenodo.org/records/18063514",
+    "code": "https://github.com/UnaryLab/archx/tree/asplos_2026_ae",
+    "project": null,
+    "slides": null,
+    "video": null,
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "arxiv",
+      "url": "https://arxiv.org/abs/2601.10823",
+      "relationship": "Author-posted preprint or extended version indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2026-program",
+      "url": "https://www.asplos-conference.org/asplos2026/program/index.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2026",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:58470e84dffaaad19c0c93f7b7270735f720815f4da0d047d74609031a96b037",
+      "official": true,
+      "supports": [
+        "Detailed ASPLOS 2026 boundary, 36 numbered technical sessions, 168 unique paper titles, and displayed author lists."
+      ]
+    },
+    {
+      "id": "src-crossref-3779212-3790189",
+      "url": "https://api.crossref.org/works/10.1145/3779212.3790189",
+      "kind": "crossref",
+      "title": "Mugi: Value Level Parallelism For Efficient LLMs",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:cb922d7893fc21625c7344468e886f6057eb7175720a355c6aab2f0a1852afed",
+      "official": false,
+      "supports": [
+        "Publisher-deposited title, author order, affiliations, ORCIDs, pages, publication date, proceedings container, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3779212-3790189",
+      "url": "https://www.semanticscholar.org/paper/54bd18d1f83543282dec05294fed3c32e6736c9a",
+      "kind": "semantic-scholar",
+      "title": "Mugi: Value Level Parallelism For Efficient LLMs",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:4d22b912f433b53343b742b04cf045878e59ebe74880325f52af57856fbae965",
+      "official": false,
+      "supports": [
+        "Indexed abstract used for strict relevance classification and indexed arXiv identifier where available."
+      ]
+    },
+    {
+      "id": "src-zenodo-18063514",
+      "url": "https://zenodo.org/records/18063514",
+      "kind": "artifact-page",
+      "title": "ASPLOS 2026 AE",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T03:22:35Z",
+      "content_hash": "sha256:54e8119fbdcebf19daa91d4957474da8ba625625a143cb058ad8669829104674",
+      "official": false,
+      "supports": [
+        "Author-deposited archival artifact matched by title, authors, linked DOI, or accompanying paper description."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T03:22:35Z",
+    "notes": [
+      "The detailed official program and publisher-deposited DOI metadata were reconciled one-to-one.",
+      "Canonical title, author order, ORCIDs, affiliations, pages, and publication date follow the clean publisher-deposited conference record.",
+      "A confident author-deposited Zenodo artifact match is recorded.",
+      "The matched artifact has a generic ASPLOS 2026 AE title; its archived archx/Mugi materials establish the paper match."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:22:35Z",
+    "last_verified_at": "2026-07-30T03:22:35Z",
+    "collector_version": "agent-c-asplos-2026/1.0",
+    "confidence": "MEDIUM",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "Independent review of matched artifact naming/year-label discrepancy",
+      "links.official_pdf",
+      "links.project",
+      "links.slides",
+      "links.video",
+      "links.bibtex"
+    ]
+  }
+}

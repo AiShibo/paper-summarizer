@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systems-phd-explorer.local/schemas/v1/research-group.schema.json",
+  "title": "Research group or industrial group entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "group_id",
+    "name",
+    "official_url",
+    "group_kind",
+    "institution_id",
+    "department_or_division",
+    "faculty_ids",
+    "research_topics",
+    "sources",
+    "workflow",
+    "verification"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "group_id": {
+      "type": "string",
+      "pattern": "^group-[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "official_url": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "group_kind": {
+      "enum": ["academic", "industrial", "other"]
+    },
+    "institution_id": {
+      "type": ["string", "null"],
+      "pattern": "^institution-[a-z0-9][a-z0-9-]*$"
+    },
+    "department_or_division": {
+      "type": ["string", "null"]
+    },
+    "faculty_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^faculty-[a-z0-9][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "research_topics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      }
+    },
+    "workflow": {
+      "$ref": "common.schema.json#/$defs/workflow"
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    }
+  }
+}

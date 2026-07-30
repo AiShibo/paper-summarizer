@@ -1,0 +1,435 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2024-amanda-unified-instrumentation-framework-for-deep-neural-db19a20f",
+  "title": "Amanda: Unified Instrumentation Framework for Deep Neural Networks",
+  "venue": "asplos",
+  "year": 2024,
+  "track_or_session": "Session 3A: Dynamic Analysis and Instrumentation",
+  "paper_type": "main-track",
+  "publication_date": "2024-04-27",
+  "page_count": 18,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yue Guan",
+      "position": 1,
+      "orcid": "0009-0005-7433-2627",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Qi Zhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuxian Qiu",
+      "position": 2,
+      "orcid": "0000-0003-4040-0159",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Qi Zhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jingwen Leng",
+      "position": 3,
+      "orcid": "0000-0002-5660-5493",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Qizhi Institute, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fan Yang",
+      "position": 4,
+      "orcid": "0000-0002-0378-060X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuo Yu",
+      "position": 5,
+      "orcid": "0009-0001-5474-6954",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yunxin Liu",
+      "position": 6,
+      "orcid": "0000-0001-7352-8955",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Artificial Intelligence Laboratory, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yu Feng",
+      "position": 7,
+      "orcid": "0000-0002-2192-5737",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Rochester, New York, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yuhao Zhu",
+      "position": 8,
+      "orcid": "0000-0002-2802-0578",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of Rochester, New York, United States of America",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lidong Zhou",
+      "position": 9,
+      "orcid": "0000-0002-7258-3116",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Microsoft Research, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yun Liang",
+      "position": 10,
+      "orcid": "0000-0002-9076-7998",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University, Beijing, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chen Zhang",
+      "position": 11,
+      "orcid": "0000-0003-2762-2726",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chao Li",
+      "position": 12,
+      "orcid": "0000-0001-6218-4659",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Minyi Guo",
+      "position": 13,
+      "orcid": "0000-0003-0034-2302",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Shanghai Jiao Tong University, Shanghai, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3617232-3624864"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3617232.3624864",
+    "official_page": "https://dl.acm.org/doi/10.1145/3617232.3624864",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3617232.3624864",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/qTR8JV55ZtA",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-asplos-2024-program",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/index.html",
+      "kind": "conference-program",
+      "title": "Main Program – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:334dc53de887a38eee13a2233e1205effbd373f903a1bfef8d1a191f80de2b33",
+      "official": true,
+      "supports": [
+        "ASPLOS 2024 technical-session boundaries, canonical displayed titles, ordered displayed authors, DOI links, award labels, and lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-asplos-2024-abstracts",
+      "url": "https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html",
+      "kind": "conference-program",
+      "title": "Paper Abstracts – ASPLOS 2024",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:efbeff4ba534349925c858f34b895fed7269f857c85df9e81b64aefdc9d9c722",
+      "official": true,
+      "supports": [
+        "Official abstracts for all 193 main-program papers and ancillary URLs explicitly printed in those abstracts."
+      ]
+    },
+    {
+      "id": "src-crossref-3617232-3624864",
+      "url": "https://api.crossref.org/works/10.1145/3617232.3624864",
+      "kind": "crossref",
+      "title": "Amanda: Unified Instrumentation Framework for Deep Neural Networks",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:536e233eb5349e6dd0866c30022facc446608c8a30e54009ac9de1463fdd949d",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, affiliations, ORCIDs, page range, publication metadata, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3617232-3624864",
+      "url": "https://www.semanticscholar.org/paper/4b3c481a303bf8e0bd5a41200260b48ddaa02b18",
+      "kind": "semantic-scholar",
+      "title": "Amanda: Unified Instrumentation Framework for Deep Neural Networks",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T01:41:45Z",
+      "content_hash": "sha256:4c4da0476700ed1b3e80ec1f2625fc7a72ba991a91f4887d56b5d3bb12245e46",
+      "official": false,
+      "supports": [
+        "Indexed alternate-version and institutional-copy links; not used as the authoritative relevance source."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T01:41:45Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2024 program.",
+      "ORCIDs and full affiliation strings use name-matched publisher-deposited Crossref records.",
+      "No PDF, artifact, code, project, slide, video, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:41:45Z",
+    "last_verified_at": "2026-07-30T01:41:45Z",
+    "collector_version": "agent-c-asplos-2024/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.artifact",
+      "links.code",
+      "links.project",
+      "alternate_versions"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/summary.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2025-micro-blossom-accelerated-minimum-weight-perfect-matchin-d8b6548d",
+  "takeaway": "Micro Blossom keeps complex MWPM bookkeeping in software while an FPGA parallelizes decoding-graph work; the authors report exact decoding with sub-microsecond latency under one modeled noise setting.",
+  "background": "Surface-code quantum error correction repeatedly converts measured syndromes into likely physical errors. Minimum-weight perfect matching is accurate but its blossom algorithm has complex, latency-sensitive bookkeeping.",
+  "villain": "Software exact-MWPM decoders can miss the microsecond-scale feedforward target, while simpler fully hardware decoders gain speed by approximating the matching problem and can increase logical errors.",
+  "approach": "Micro Blossom leaves dynamic primal-phase data structures and uncommon conflicts on an embedded CPU, while graph-specific vertex and edge processing units accelerate the dual phase in programmable logic. The accelerator also resolves common isolated conflicts locally and fuses arriving measurement rounds so decoding overlaps the syndrome stream. A SpinalHDL generator turns a supplied decoding graph into synthesizable Verilog, with software controlling the accelerator through memory-mapped registers.",
+  "impact": "The authors argue that this split makes exact MWPM decoding fast enough for low-latency logical feedforward at the demonstrated surface-code scale without replacing it with an approximate decoder.",
+  "evaluation": {
+    "overview": "The authors compare prototype outputs with an exact software decoder, measure end-to-end CPU–accelerator latency, model latency-induced logical errors, and report FPGA resource and clock scaling.",
+    "implemented": "Embedded Rust software on the VMK180’s ARM Cortex-A72 processing subsystem and a parameterized SpinalHDL accelerator in the FPGA programmable logic, connected by an internal 64-bit AXI4 bus.",
+    "setting": "Latency tests use generated surface-code syndromes under a circuit-level noise model with a 1 μs measurement cycle. The main configuration maps a distance-13 decoding graph to a Xilinx Versal VMK180 FPGA clocked at 62 MHz; Micro Blossom timing runs from syndrome readiness to correction availability and includes CPU–accelerator I/O.",
+    "baselines": [
+      "Parity Blossom on Apple M1 Max",
+      "reported Sparse Blossom latency on Apple M1 Max",
+      "Helios FPGA Union-Find decoder"
+    ],
+    "results": [
+      {
+        "id": "claim-micro-blossom-latency",
+        "text": "At code distance 13 and physical error rate 0.1%, the VMK180 prototype achieved 0.8 μs average end-to-end decoding latency at 62 MHz under the circuit-level noise model.",
+        "source_ids": [
+          "src-asplos25-pdf-d8b6548d"
+        ],
+        "locator": "§§8.1–8.2, Figure 9; §8.4, Table 4"
+      },
+      {
+        "id": "claim-micro-blossom-sparse-comparison",
+        "text": "For the same code distance and modeled physical error rate, the authors report 8× lower average latency than Sparse Blossom’s reported Apple M1 Max CPU time; Micro Blossom includes CPU–accelerator I/O, while the CPU baseline excludes quantum-controller I/O.",
+        "source_ids": [
+          "src-asplos25-pdf-d8b6548d"
+        ],
+        "locator": "§8.1 immediately before §8.2"
+      }
+    ],
+    "study_types": [
+      "hardware-prototype"
+    ]
+  },
+  "limitations": "The FPGA is tested with sampled circuit-level-noise syndromes rather than a live quantum processor, and graph-specific logic grows with decoding-graph size; larger codes may require more FPGA resources, time multiplexing, or an ASIC. The 8× comparison is cross-platform and excludes controller I/O from the CPU baseline, so it is not a same-machine comparison.",
+  "phd_group_signal": "The work reflects hardware-software co-design: reshape an exact algorithm around common and rare cases, generate RTL from graph structure, build an FPGA prototype, and audit both latency distributions and resource scaling.",
+  "beginner_concepts": [
+    "surface-code quantum error correction",
+    "minimum-weight perfect matching",
+    "primal and dual phases",
+    "FPGA processing units",
+    "stream decoding and round-wise fusion"
+  ],
+  "reading_coverage": {
+    "abstract": "READ",
+    "introduction": "READ",
+    "conclusion": "READ",
+    "system_overview_or_design": "READ",
+    "evaluation_overview": "READ"
+  },
+  "claims": [
+    {
+      "id": "claim-micro-blossom-mechanism",
+      "text": "Micro Blossom assigns processing units to decoding-graph vertices and edges for parallel dual-phase work, keeps dynamically sized primal structures in CPU software, handles locally detectable isolated conflicts in hardware, and uses round-wise fusion for streamed syndrome measurements.",
+      "source_ids": [
+        "src-asplos25-pdf-d8b6548d"
+      ],
+      "locator": "§§3.1–3.2 and 4–6, Figure 5"
+    },
+    {
+      "id": "claim-micro-blossom-operating-assumptions",
+      "text": "Its average-case acceleration relies on low-rate, largely independent errors so many conflicts are isolated, while the generated accelerator dedicates state and logic to a supplied decoding graph and sends remaining complex primal work to the CPU.",
+      "source_ids": [
+        "src-asplos25-pdf-d8b6548d"
+      ],
+      "locator": "§§3.2, 5.1–5.2, and 8.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos25-pdf-d8b6548d",
+      "url": "https://arxiv.org/pdf/2502.14787",
+      "kind": "paper-pdf",
+      "title": "Micro Blossom: Accelerated Minimum-Weight Perfect Matching Decoding for Quantum Error Correction",
+      "publisher": "arXiv (author-submitted ASPLOS 2025 full paper)",
+      "retrieved_at": "2026-07-30T03:36:28Z",
+      "content_hash": "sha256:8f9bed29805d0993db46e3d04a1d41dbd838c8264624e7979a2685809b16f377",
+      "official": true,
+      "supports": [
+        "abstract, introduction, decoder background, architecture, algorithms, system implementation, evaluation, conclusion, and artifact appendix",
+        "CPU-FPGA boundary, noise and graph assumptions, exactness checks, latency conditions, baseline timing caveat, and scaling limits"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-e3",
+    "updated_at": "2026-07-30T03:36:28Z",
+    "notes": [
+      "Read the full paper: abstract; §§1–3; §§4–6; §7; §§8.1–8.4 including Figures 9–11 and Table 4; §10; and the artifact overview and evaluation instructions in Appendix A.",
+      "The summary distinguishes the FPGA prototype from the modeled syndrome source and preserves the graph-resource, low-error, CPU-I/O, and cross-platform baseline conditions."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T03:36:28Z",
+    "last_verified_at": "2026-07-30T03:36:28Z",
+    "collector_version": "agent-e3-summary-calibration-writer/1.0",
+    "confidence": "HIGH",
+    "verified_by": null,
+    "unresolved_fields": []
+  }
+}

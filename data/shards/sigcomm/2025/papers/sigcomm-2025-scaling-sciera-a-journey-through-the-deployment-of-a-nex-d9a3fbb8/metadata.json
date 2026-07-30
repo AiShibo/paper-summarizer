@@ -1,0 +1,727 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-scaling-sciera-a-journey-through-the-deployment-of-a-nex-d9a3fbb8",
+  "title": "Scaling SCIERA: A Journey Through the Deployment of a Next-Generation Network",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "Network Architecture",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 22,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "François Wirz",
+      "position": 1,
+      "orcid": "0000-0003-3697-5355",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marten Gartner",
+      "position": 2,
+      "orcid": "0000-0002-8263-0297",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OVGU Magdeburg",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jelte van Bommel",
+      "position": 3,
+      "orcid": "0009-0002-7292-8521",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Elham Ehsani Moghadam",
+      "position": 4,
+      "orcid": "0000-0001-7447-5736",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Grace H. Cimaszewski",
+      "position": 5,
+      "orcid": "0009-0003-6657-7793",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Princeton",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Anxiao He",
+      "position": 6,
+      "orcid": "0009-0009-2259-5926",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UVA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yizhe Zhang",
+      "position": 7,
+      "orcid": "0009-0008-3938-8838",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UVA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Henry Birge-Lee",
+      "position": 8,
+      "orcid": "0000-0001-7141-345X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Princeton",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Felix Kottmann",
+      "position": 9,
+      "orcid": "0000-0002-7336-2200",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cyrill Krähenbühl",
+      "position": 10,
+      "orcid": "0000-0001-9988-1271",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Princeton",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jonghoon Kwon",
+      "position": 11,
+      "orcid": "0000-0002-3853-242X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Kyveli Mavromati",
+      "position": 12,
+      "orcid": "0009-0007-4704-9716",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Anapaya Systems",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Liang Wang",
+      "position": 13,
+      "orcid": "0000-0002-3713-6089",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Princeton",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Daniel Bertolo",
+      "position": 14,
+      "orcid": "0009-0005-3851-5119",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SWITCH",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Marco Canini",
+      "position": 15,
+      "orcid": "0000-0002-5051-4283",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KAUST",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Buseung Cho",
+      "position": 16,
+      "orcid": "0000-0002-4661-5700",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KISTI",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ronaldo A. Ferreira",
+      "position": 17,
+      "orcid": "0000-0002-9144-7187",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UFMS",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Simon Peter Green",
+      "position": 18,
+      "orcid": "0009-0000-1740-857X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "SingAREN",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "David Hausheer",
+      "position": 19,
+      "orcid": "0000-0002-3385-303X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "OVGU Magdeburg",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Junbeom Hur",
+      "position": 20,
+      "orcid": "0000-0002-4823-4194",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Korea University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xiaohua Jia",
+      "position": 21,
+      "orcid": "0000-0001-8702-8302",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CityUHK",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heejo Lee",
+      "position": 22,
+      "orcid": "0000-0002-5831-0787",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Korea University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Prateek Mittal",
+      "position": 23,
+      "orcid": "0000-0002-4057-0118",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Princeton",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Omo Oaiya",
+      "position": 24,
+      "orcid": "0000-0002-7046-8894",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "WACREN",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chanjin Park",
+      "position": 25,
+      "orcid": "0009-0002-7557-9881",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "KISTI",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Adrian Perrig",
+      "position": 26,
+      "orcid": "0000-0002-5280-5412",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "ETH Zurich",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jerry Sobieski",
+      "position": 27,
+      "orcid": "0009-0005-9043-085X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "GMU / Sobieski Systems & Services",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yixin Sun",
+      "position": 28,
+      "orcid": "0000-0001-6650-4373",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "UVA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Cong Wang",
+      "position": 29,
+      "orcid": "0000-0003-0547-315X",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "CityUHK",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Klaas Wierenga",
+      "position": 30,
+      "orcid": "0000-0003-2297-0457",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "GÉANT",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750532",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750532",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750532",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/QFnf-40yvmQ",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-scaling-sciera-a-journey-through-the-deployment-of-a-nex-d9a3fbb8-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750532",
+      "kind": "publisher-page",
+      "title": "Scaling SCIERA: A Journey Through the Deployment of a Next-Generation Network",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-scaling-sciera-a-journey-through-the-deployment-of-a-nex-d9a3fbb8-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750532",
+      "kind": "crossref",
+      "title": "Crossref metadata for Scaling SCIERA: A Journey Through the Deployment of a Next-Generation Network",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:3e3f4fd322105b217d482326167a004b59bdf70dc848807353d21f3f9883868b",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "asplos-2023-mosaic-pages-big-tlb-reach-with-small-pages-fbd27825",
+  "title": "Mosaic Pages: Big TLB Reach with Small Pages",
+  "venue": "asplos",
+  "year": 2023,
+  "track_or_session": "Session 4B: Memory Mgmt. / Near Data Processing",
+  "paper_type": "main-track",
+  "publication_date": "2023-03-25",
+  "page_count": 16,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Krishnan Gosakan",
+      "position": 1,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rutgers University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jaehyun Han",
+      "position": 2,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of North Carolina at Chapel Hill, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "William Kuszmaul",
+      "position": 3,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Massachusetts Institute of Technology, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Ibrahim Nael Mubarek",
+      "position": 4,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Nirjhar Mukherjee",
+      "position": 5,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Carnegie Mellon University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Karthik Sriram",
+      "position": 6,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yale University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guido Tagliavini",
+      "position": 7,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rutgers University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Evan West",
+      "position": 8,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stony Brook University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Michael Bender",
+      "position": 9,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Stony Brook University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Abhishek Bhattacharjee",
+      "position": 10,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Yale University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Alex Conway",
+      "position": 11,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "VMware Research, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Martin Farach-Colton",
+      "position": 12,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rutgers University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Jayneel Gandhi",
+      "position": 13,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Meta, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Rob Johnson",
+      "position": 14,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "VMware Research, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Sudarsun Kannan",
+      "position": 15,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Rutgers University, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Donald Porter",
+      "position": 16,
+      "orcid": null,
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "University of North Carolina at Chapel Hill, USA",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-crossref-3582016-3582021"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3582016.3582021",
+    "official_page": "https://dl.acm.org/doi/10.1145/3582016.3582021",
+    "official_pdf": null,
+    "artifact": "https://doi.org/10.5281/zenodo.7709303",
+    "code": "https://github.com/oscarlab/mosaic-asplos23-artifacts/tree/v1.0.2",
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/2KLKDyE44dU",
+    "bibtex": null
+  },
+  "alternate_versions": [
+    {
+      "kind": "project-copy",
+      "url": "https://dspace.mit.edu/bitstream/1721.1/150362/1/3582016.3582021.pdf",
+      "relationship": "Open-access repository copy indexed for the conference paper."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-asplos-2023-program",
+      "url": "https://asplos-conference.org/asplos2023/index.html%3Fp%3D3602.html",
+      "kind": "conference-program",
+      "title": "Program – ASPLOS 2023",
+      "publisher": "ASPLOS",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:b1f7ebd4f5650ff7bf1046a1bb8140dba70b237cd7059fe48a600e85d9e05435",
+      "official": true,
+      "supports": [
+        "Conference dates, 27 numbered technical sessions, canonical displayed titles, ordered displayed authors, DOI links, and paper-level lightning-talk links."
+      ]
+    },
+    {
+      "id": "src-crossref-3582016-3582021",
+      "url": "https://api.crossref.org/works/10.1145/3582016.3582021",
+      "kind": "crossref",
+      "title": "Mosaic Pages: Big TLB Reach with Small Pages",
+      "publisher": "Crossref (metadata deposited by ACM)",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:c0102b9c77a038cb1f3da653656cb1d2baa40af4e84f68903c8b1aac4fbeda20",
+      "official": false,
+      "supports": [
+        "Publisher-deposited ordered authors, publication-time affiliations, page range, publication date, and ACM links."
+      ]
+    },
+    {
+      "id": "src-semantic-scholar-3582016-3582021",
+      "url": "https://www.semanticscholar.org/paper/fbb4110c5c1940dbaebb60234a633448684f1b5b",
+      "kind": "semantic-scholar",
+      "title": "Mosaic Pages: Big TLB Reach With Small Pages",
+      "publisher": "Semantic Scholar",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:11854ed469299022a6b5982b1ceb779a73b16afc6b5cedf6dd3def2237c365cc",
+      "official": false,
+      "supports": [
+        "Indexed abstract used with the official technical-session context for relevance classification, plus alternate-copy and explicitly printed ancillary links."
+      ]
+    },
+    {
+      "id": "src-zenodo-artifact-7709303",
+      "url": "https://zenodo.org/records/7709303",
+      "kind": "artifact-page",
+      "title": "oscarlab/mosaic-asplos23-artifacts: Mosaic ASPLOS'23 Artifacts",
+      "publisher": "Zenodo",
+      "retrieved_at": "2026-07-30T02:00:48Z",
+      "content_hash": "sha256:6fbb465a6c266de45209a4bb5e6ed5cf1c3dbb2f38a51b0274c3f079cd7a4b6f",
+      "official": true,
+      "supports": [
+        "Author-deposited archival software or evaluation artifact associated with the conference paper."
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-c",
+    "updated_at": "2026-07-30T02:00:48Z",
+    "notes": [
+      "The canonical title, technical session, DOI, displayed author order, and lightning-talk link follow the official ASPLOS 2023 program.",
+      "Publication dates, page ranges, and full affiliation strings use name-matched publisher-deposited Crossref records; those records expose no author ORCIDs.",
+      "No PDF, artifact, code, project, slide, BibTeX, or alternate-version URL was inferred when the audited sources did not expose one.",
+      "The artifact link is an author-deposited archival Zenodo record matched by exact paper title, named authors, DOI evidence, or an explicit ASPLOS 2023 artifact statement.",
+      "Code or project links use URLs printed in the indexed abstract, with an author-deposited artifact record used only as fallback for code."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T02:00:48Z",
+    "last_verified_at": "2026-07-30T02:00:48Z",
+    "collector_version": "agent-c-asplos-2023/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-c",
+    "unresolved_fields": [
+      "authors[*].author_id",
+      "authors[*].orcid",
+      "authors[*].affiliations[*].normalized_name",
+      "authors[*].affiliations[*].institution_type",
+      "authors[*].affiliations[*].structured_geography",
+      "links.slides",
+      "links.bibtex",
+      "links.official_pdf",
+      "links.project"
+    ]
+  }
+}

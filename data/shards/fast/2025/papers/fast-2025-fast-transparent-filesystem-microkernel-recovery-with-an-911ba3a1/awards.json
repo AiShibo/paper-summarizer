@@ -1,0 +1,49 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/awards.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "fast-2025-fast-transparent-filesystem-microkernel-recovery-with-an-911ba3a1",
+  "awards": [
+    {
+      "award_id": "award-fast-2025-erik-riedel-best-paper-ananke",
+      "official_name": "Erik Riedel Best Paper Award",
+      "category": "best-paper",
+      "venue": "fast",
+      "year": 2025,
+      "official_source_id": "src-fast25-official-awards-program-winner",
+      "last_verified_at": "2026-07-30T01:19:31Z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-fast25-official-awards-program-winner",
+      "url": "https://www.usenix.org/conference/fast25/technical-sessions",
+      "kind": "award-page",
+      "title": "FAST '25 Technical Sessions",
+      "publisher": "USENIX Association",
+      "retrieved_at": "2026-07-30T01:19:31Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official FAST '25 award category and designation",
+        "exact title match for this staged paper"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-g",
+    "updated_at": "2026-07-30T01:19:31Z",
+    "notes": [
+      "Matched the staged title exactly on the official FAST '25 Technical Sessions page.",
+      "The official program designates this paper as an Erik Riedel Best Paper Award winner."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-30T01:19:31Z",
+    "last_verified_at": "2026-07-30T01:19:31Z",
+    "collector_version": "agent-g-official-award-verifier/1.0",
+    "confidence": "VERIFIED",
+    "verified_by": "agent-g",
+    "unresolved_fields": []
+  }
+}

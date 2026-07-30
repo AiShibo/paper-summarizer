@@ -1,0 +1,401 @@
+{
+  "$schema": "https://systems-phd-explorer.local/schemas/v1/paper-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "paper_id": "sigcomm-2025-dnslogzip-a-novel-approach-to-fast-and-high-ratio-compre-b561f301",
+  "title": "DNSLogzip: A Novel Approach to Fast and High-Ratio Compression for DNS Logs",
+  "venue": "sigcomm",
+  "year": 2025,
+  "track_or_session": "NetMon",
+  "paper_type": "main-track",
+  "publication_date": "2025-08-27",
+  "page_count": 14,
+  "venue_year_completion_status": "COMPLETE_PROCEEDINGS",
+  "authors": [
+    {
+      "author_id": null,
+      "name": "Yunwei Dai",
+      "position": 1,
+      "orcid": "0009-0008-2726-2218",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Southeast University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Jiangsu Future Networks Innovation Institute",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Guyue Liu",
+      "position": 2,
+      "orcid": "0009-0001-4933-0276",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Peking University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Tao Huang",
+      "position": 3,
+      "orcid": "0000-0002-3545-1122",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Southeast University",
+          "normalized_name": null,
+          "institution_type": "university",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of Networking and Switching Technology, BUPT, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Purple Mountain Laboratories",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Shuo Wang",
+      "position": 4,
+      "orcid": "0000-0002-6350-6362",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "State Key Laboratory of Networking and Switching Technology, BUPT, China",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        },
+        {
+          "institution_id": null,
+          "name_as_published": "Purple Mountain Laboratories",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yong Wang",
+      "position": 5,
+      "orcid": "0009-0001-6147-6956",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Jiangsu Zhiwang Technology Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Xingli Wu",
+      "position": 6,
+      "orcid": "0009-0005-1455-9061",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "Jiangsu Zhiwang Technology Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Lei Song",
+      "position": 7,
+      "orcid": "0009-0002-0814-4722",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China Mobile Communications Group Shandong Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Heshun Li",
+      "position": 8,
+      "orcid": "0009-0000-8480-2569",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China Mobile Communications Group Shandong Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Chuang Wang",
+      "position": 9,
+      "orcid": "0009-0007-4434-0073",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China Mobile Communications Group Shandong Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Fanglong Hu",
+      "position": 10,
+      "orcid": "0009-0004-8877-1631",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China Telecom Co., Ltd.",
+          "normalized_name": null,
+          "institution_type": "industrial-research-lab",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Hong Sun",
+      "position": 11,
+      "orcid": "0009-0002-7055-1425",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China United Network Communications Corporation Jiangsu Branch",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    },
+    {
+      "author_id": null,
+      "name": "Yanan Li",
+      "position": 12,
+      "orcid": "0009-0002-2149-1809",
+      "affiliations": [
+        {
+          "institution_id": null,
+          "name_as_published": "China United Network Communications Corporation Jiangsu Branch",
+          "normalized_name": null,
+          "institution_type": "unknown",
+          "city": null,
+          "state_or_province": null,
+          "country": null,
+          "region": null,
+          "source_ids": [
+            "src-sigcomm25-program"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "doi": "10.1145/3718958.3750476",
+    "official_page": "https://dl.acm.org/doi/10.1145/3718958.3750476",
+    "official_pdf": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750476",
+    "artifact": null,
+    "code": null,
+    "project": null,
+    "slides": null,
+    "video": "https://youtu.be/mUwnhigCG5c",
+    "bibtex": null
+  },
+  "alternate_versions": [],
+  "sources": [
+    {
+      "id": "src-sigcomm25-program",
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "kind": "conference-program",
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference — Papers Info",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:4cedbb18b120d2a56eda9386479a0ed9a8b62bd0ec164b1a64450d6203384076",
+      "official": true,
+      "supports": [
+        "conference dates and technical-session structure",
+        "complete accepted-paper enumeration and non-paper boundaries",
+        "paper titles, sessions, abstracts, and displayed author affiliations"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-dnslogzip-a-novel-approach-to-fast-and-high-ratio-compre-b561f301-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3718958.3750476",
+      "kind": "publisher-page",
+      "title": "DNSLogzip: A Novel Approach to Fast and High-Ratio Compression for DNS Logs",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": null,
+      "official": true,
+      "supports": [
+        "official DOI landing page linked from the SIGCOMM program"
+      ]
+    },
+    {
+      "id": "src-sigcomm-2025-dnslogzip-a-novel-approach-to-fast-and-high-ratio-compre-b561f301-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750476",
+      "kind": "crossref",
+      "title": "Crossref metadata for DNSLogzip: A Novel Approach to Fast and High-Ratio Compression for DNS Logs",
+      "publisher": "Crossref",
+      "retrieved_at": "2026-07-29T23:13:34Z",
+      "content_hash": "sha256:82fd1e4732c1e6d9821a2c1d4cd5cd72a68ad04d7ca3919e349193f4fff31e43",
+      "official": false,
+      "supports": [
+        "DOI and ACM publisher landing/PDF links",
+        "publisher-deposited ORCIDs when available",
+        "proceedings page range and online publication date"
+      ]
+    }
+  ],
+  "workflow": {
+    "status": "READY_FOR_REVIEW",
+    "owner": "agent-b",
+    "updated_at": "2026-07-29T23:13:34Z",
+    "notes": [
+      "Canonical identity and author order follow official venue sources; lower-priority metadata never overrides them.",
+      "Official program titles were reconciled against the paper-page or Crossref title; no unresolved title variant remains.",
+      "No alternate version was exposed by the official page links or Crossref relation metadata checked for this record.",
+      "Artifact, code, and project URLs are populated only when explicitly linked by the checked official pages; null does not assert that no external repository exists.",
+      "The online publication date follows the publisher-deposited Crossref date, consistent with the SIGCOMM CFP's earlier-of-online-or-conference publication policy."
+    ]
+  },
+  "verification": {
+    "collected_at": "2026-07-29T22:42:31Z",
+    "last_verified_at": "2026-07-29T23:13:34Z",
+    "collector_version": "agent-b-official-program-collector/1.0",
+    "confidence": "HIGH",
+    "verified_by": "agent-b",
+    "unresolved_fields": [
+      "authors[].author_id",
+      "authors[].affiliations[].institution_id",
+      "authors[].affiliations[].normalized_name",
+      "authors[].affiliations[].geography"
+    ]
+  }
+}
