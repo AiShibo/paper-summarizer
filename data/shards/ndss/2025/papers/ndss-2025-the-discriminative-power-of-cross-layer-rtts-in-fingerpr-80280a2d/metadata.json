@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-the-discriminative-power-of-cross-layer-rtts-in-fingerpr-80280a2d",
   "title": "The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic",
-  "abstract": "In this paper, we bring out the presence of an inherent fingerprint for detecting obfuscated proxy traffic. The fingerprint is created by the misalignment of transport- and application-layer sessions in proxy routing, which is reflected in the discrepancy in Round Trip Times (RTTs) across network layers. Importantly, being protocol-agnostic, the fingerprint enables an adversary to effectively target multiple proxy protocols simultaneously. We conduct an extensive evaluation using both controlled testbeds and real-world traffic, collected from a partner ISP, to assess the fingerprint's potential for exploitation by censors. In addition to being of interest on its own, our timing-based fingerprinting vulnerability highlights the deficiencies in existing obfuscation approaches. We hope our study brings the attention of the circumvention community to packet timing as an area of concern and leads to the development of more sustainable countermeasures.",
+  "abstract": "The escalating global trend of Internet censorship has necessitated an increased adoption of proxy tools, especially obfuscated circumvention proxies. These proxies serve a fundamental need for access and connectivity among millions in heavily censored regions. However, as the use of proxies expands, so do censors' dedicated efforts to detect and disrupt such circumvention traffic to enforce their information control policies.\n\nIn this paper, we bring out the presence of an inherent fingerprint for detecting obfuscated proxy traffic. The fingerprint is created by the misalignment of transport- and application-layer sessions in proxy routing, which is reflected in the discrepancy in Round Trip Times (RTTs) across network layers. Importantly, being protocol-agnostic, the fingerprint enables an adversary to effectively target multiple proxy protocols simultaneously. We conduct an extensive evaluation using both controlled testbeds and real-world traffic, collected from a partner ISP, to assess the fingerprint's potential for exploitation by censors. In addition to being of interest on its own, our timing-based fingerprinting vulnerability highlights the deficiencies in existing obfuscation approaches. We hope our study brings the attention of the circumvention community to packet timing as an area of concern and leads to the development of more sustainable countermeasures.",
   "abstract_source_id": "src-abstract-ndss-2025-80280a2d",
   "venue": "ndss",
   "year": 2025,
@@ -157,8 +157,8 @@
       "kind": "paper-page",
       "title": "The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic",
       "publisher": "NDSS",
-      "retrieved_at": "2026-09-15T22:01:53Z",
-      "content_hash": "sha256:8340f2a265293941a5834fa1536da48e41365b82848b30bf3d6c3e13188dcf73",
+      "retrieved_at": "2026-09-15T23:20:38Z",
+      "content_hash": "sha256:59dc6bc735b16c00530cad99ec2adae31ee47bed3123e470d5e7976a6c81aa76",
       "official": true,
       "supports": [
         "Published abstract text."

@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-cascading-and-proxy-membership-inference-attacks-0650efdd",
   "title": "Cascading and Proxy Membership Inference Attacks",
-  "abstract": "A Membership Inference Attack (MIA) assesses how much a trained machine learning model reveals about its training data by determining whether specific query instances were included in the dataset. We classify existing MIAs into adaptive or non-adaptive, depending on whether the adversary is allowed to train shadow models on membership queries. In the adaptive setting, where the adversary can train shadow models after accessing query instances, we highlight the importance of exploiting membership dependencies between instances and propose an attack-agnostic framework called Cascading Membership Inference Attack (CMIA), which incorporates membership dependencies via conditional shadow training to boost membership inference performance.",
+  "abstract": "A Membership Inference Attack (MIA) assesses how much a trained machine learning model reveals about its training data by determining whether specific query instances were included in the dataset. We classify existing MIAs into adaptive or non-adaptive, depending on whether the adversary is allowed to train shadow models on membership queries. In the adaptive setting, where the adversary can train shadow models after accessing query instances, we highlight the importance of exploiting membership dependencies between instances and propose an attack-agnostic framework called Cascading Membership Inference Attack (CMIA), which incorporates membership dependencies via conditional shadow training to boost membership inference performance.\n\nIn the non-adaptive setting, where the adversary is restricted to training shadow models before obtaining membership queries, we introduce Proxy Membership Inference Attack (PMIA). PMIA employs a proxy selection strategy that identifies samples with similar behaviors to the query instance and uses their behaviors in shadow models to perform a membership posterior odds test for membership inference. We provide theoretical analyses for both attacks, and extensive experimental results demonstrate that CMIA and PMIA substantially outperform existing MIAs in both settings, particularly in the low false-positive regime, which is crucial for evaluating privacy risks.",
   "abstract_source_id": "src-abstract-ndss-2026-0650efdd",
   "venue": "ndss",
   "year": 2026,
@@ -254,8 +254,8 @@
       "kind": "paper-page",
       "title": "Cascading and Proxy Membership Inference Attacks",
       "publisher": "NDSS",
-      "retrieved_at": "2026-09-15T22:02:46Z",
-      "content_hash": "sha256:1659513cc0413a062157296b9f4aedad02eba218cdc49ff8acb703e09edcdce5",
+      "retrieved_at": "2026-09-15T23:21:30Z",
+      "content_hash": "sha256:76070cf16f1f3cf12d3ca4c5863a85c5b3ef49cdff7cb1a55d9c2ba954897606",
       "official": true,
       "supports": [
         "Published abstract text."

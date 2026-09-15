@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-a-method-to-facilitate-membership-inference-attacks-in-d-23b37017",
   "title": "A Method to Facilitate Membership Inference Attacks in Deep Learning Models",
-  "abstract": "In this work, we consider a malicious ML provider who supplies model-training code to the data holders, does not have access to the training process, and has only black-box query access to the resulting model. In this setting, we demonstrate a new form of membership inference attack that is strictly more powerful than prior art. Our attack empowers the adversary to reliably de-identify all the training samples (average >99% attack [email protected] % FPR), and the compromised models still maintain competitive performance as their uncorrupted counterparts (average <1% accuracy drop). Moreover, we show that the poisoned models can effectively disguise the amplified membership leakage under common membership privacy auditing, which can only be revealed by a set of secret samples known by the adversary.\n\nOverall, our study not only points to the worst-case membership privacy leakage, but also unveils a common pitfall underlying existing privacy auditing methods, which calls for future efforts to rethink the current practice of auditing membership privacy in machine learning models.",
+  "abstract": "Modern machine learning (ML) ecosystems offer a surging number of ML frameworks and code repositories that can greatly facilitate the development of ML models. Today, even ordinary data holders who are not ML experts can apply off-the-shelf codebase to build high-performance ML models on their data, many of which are sensitive in nature (e.g., clinical records).\n\nIn this work, we consider a malicious ML provider who supplies model-training code to the data holders, does not have access to the training process, and has only black-box query access to the resulting model. In this setting, we demonstrate a new form of membership inference attack that is strictly more powerful than prior art. Our attack empowers the adversary to reliably de-identify all the training samples (average >99% attack [email protected] % FPR), and the compromised models still maintain competitive performance as their uncorrupted counterparts (average",
   "abstract_source_id": "src-abstract-ndss-2025-23b37017",
   "venue": "ndss",
   "year": 2025,
@@ -115,8 +115,8 @@
       "kind": "paper-page",
       "title": "A Method to Facilitate Membership Inference Attacks in Deep Learning Models",
       "publisher": "NDSS",
-      "retrieved_at": "2026-09-15T22:00:15Z",
-      "content_hash": "sha256:fa75199c76fdc73c1ddfe8e2b01f81a918fa34a52b4825fb5914445de3d37e9e",
+      "retrieved_at": "2026-09-15T23:18:59Z",
+      "content_hash": "sha256:d81ca3ec8ae9fe5fc6c6a2249807b0aeaf6042d302933e1e3b0bb38855fb5319",
       "official": true,
       "supports": [
         "Published abstract text."

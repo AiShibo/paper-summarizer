@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-decentralized-information-flow-control-for-ros2-d51bad21",
   "title": "Decentralized Information-Flow Control for ROS2",
-  "abstract": "We present Picaros, a decentralized information-flow control (DIFC) system tailored for ROS2. The decentralized and distributed architecture of ROS2 poses new challenges to building a DIFC system that prior work has not addressed. Picaros adopts a novel approach to address these challenges by casting and solving the problem of DIFC within the framework of attribute-based encryption (ABE). Picaros's design embraces the unique nature of the ROS2 platform and carefully avoids any centralized elements. This paper presents the design and implementation of Picaros and reports on our experiments that use Picaros's ABE-based approach for DIFC with ROS2 applications.",
+  "abstract": "ROS2 is a popular publish/subscribe based middleware that allows developers to build and deploy a wide-variety of distributed robotics applications. Unfortunately, ROS2 offers applications poor control over how their data is consumed by downstream applications.\n\nWe present Picaros, a decentralized information-flow control (DIFC) system tailored for ROS2. The decentralized and distributed architecture of ROS2 poses new challenges to building a DIFC system that prior work has not addressed. Picaros adopts a novel approach to address these challenges by casting and solving the problem of DIFC within the framework of attribute-based encryption (ABE). Picaros's design embraces the unique nature of the ROS2 platform and carefully avoids any centralized elements. This paper presents the design and implementation of Picaros and reports on our experiments that use Picaros's ABE-based approach for DIFC with ROS2 applications.",
   "abstract_source_id": "src-abstract-ndss-2024-d51bad21",
   "venue": "ndss",
   "year": 2024,
@@ -157,8 +157,8 @@
       "kind": "paper-page",
       "title": "Decentralized Information-Flow Control for ROS2",
       "publisher": "NDSS",
-      "retrieved_at": "2026-09-15T21:58:56Z",
-      "content_hash": "sha256:714fa3abcd885ec1ce1deb44c88297f1ec4a92b3ed8dedab0549839375125ff1",
+      "retrieved_at": "2026-09-15T23:17:50Z",
+      "content_hash": "sha256:446c8e3f8b0c2a79b5cbad70989b82b764c07bdf025848f38dda1dad6988ba2a",
       "official": true,
       "supports": [
         "Published abstract text."

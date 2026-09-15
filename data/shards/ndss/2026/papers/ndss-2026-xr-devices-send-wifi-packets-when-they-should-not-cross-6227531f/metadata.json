@@ -3,7 +3,7 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-xr-devices-send-wifi-packets-when-they-should-not-cross-6227531f",
   "title": "XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing",
-  "abstract": "As Extended Reality (XR) technology continues to integrate into diverse fields, various security vulnerabilities—such as keystroke inference (keylogging)—have become a growing concern. Several keylogging attacks demonstrate the feasibility of exploiting this vulnerability using different modalities, including voice and vision. However, these attacks are often constrained by the need for line of sight (LoS) and/or close proximity (<10 meters). We propose a novel keylogging attack on XR devices leveraging WiFi wireless sensing. Unlike prior methods, our attack does not require LoS and is effective across various scenarios, including long-distance, cross-building settings (up to 30 meters). Our attack requires only a single, cheap, pocket-sized receiving setup to collect the victim’s WiFi packets. Compared to previous keylogging attacks leveraging WiFi, our approach is the first to eliminate the need for a separate transmitter and receiver or a fake hotspot. As a result, unlike prior methods, our attack is effective even at large distances. The core idea hinges on exploiting a security vulnerability in WiFi chipsets. This vulnerability allows an attacker to send a fake, unencrypted packet to the victim’s device, where, in response, the victim’s device involuntarily and automatically transmits an acknowledgment (“ACK”) packet. By leveraging this mechanism, we can continuously force the headset’s WiFi chipset to transmit packets and therefore harvest large volumes of Channel State Information (CSI) data from the victim’s headset. We then develop a novel unsupervised signal processing algorithm to exploit CSI data to perform pose estimation and locate the victim’s hands and fingers, ultimately enabling keystroke inference. We evaluate our attack on Meta Quest 2 and Meta Quest 3 [1], [2] headsets under diverse conditions, including distances ranging from 1 meter to 30 meters, angles spanning from -90° to +90°, multiple users, and through-wall scenarios, demonstrating its robustness and effectiveness across a wide range of environments. Our attack achieves 78.6% top-25 accuracy across a building on passwords up to 15 characters long.",
+  "abstract": "As Extended Reality (XR) technology continues to integrate into diverse fields, various security vulnerabilities—such as keystroke inference (keylogging)—have become a growing concern. Several keylogging attacks demonstrate the feasibility of exploiting this vulnerability using different modalities, including voice and vision. However, these attacks are often constrained by the need for line of sight (LoS) and/or close proximity (",
   "abstract_source_id": "src-abstract-ndss-2026-6227531f",
   "venue": "ndss",
   "year": 2026,
@@ -191,8 +191,8 @@
       "kind": "paper-page",
       "title": "XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing",
       "publisher": "NDSS",
-      "retrieved_at": "2026-09-15T22:04:57Z",
-      "content_hash": "sha256:ea2592e1875a856914bcd7d7aa4c4f96a18bf1131a27d573b78c3be19c728163",
+      "retrieved_at": "2026-09-15T23:23:42Z",
+      "content_hash": "sha256:622f5469fd16a41dbf2864551e8adb3aff3b03d8da2d0a5fbc80607f849633ed",
       "official": true,
       "supports": [
         "Published abstract text."
