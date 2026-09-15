@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-saga-a-security-architecture-for-governing-ai-agentic-sy-b1ea973a",
   "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+  "abstract": "To address this gap, we propose SAGA, a scalable Security Architecture for Governing Agentic systems, that offers user oversight over their agents’ lifecycle. In our design, users register their agents with a central entity, the Provider, that maintains agents contact information, user-defined access control policies, and helps agents enforce these policies on inter-agent communication. We introduce a cryptographic mechanism for deriving access control tokens, that offers fine-grained control over an agent’s interaction with other agents, providing formal security guarantees. We evaluate SAGA on several agentic tasks, using agents in different geolocations, and multiple on-device and cloud LLMs, demonstrating minimal performance overhead with no impact on underlying task utility in a wide range of conditions. Our architecture enables secure and trustworthy deployment of autonomous agents, accelerating the responsible adoption of this technology in sensitive environments.",
+  "abstract_source_id": "src-abstract-ndss-2026-b1ea973a",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-b1ea973a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/",
+      "kind": "paper-page",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:20Z",
+      "content_hash": "sha256:e6c3975812a1a328f7270b6dd8fb9c900982a652c91f0df20d6367d8d0d3877b",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

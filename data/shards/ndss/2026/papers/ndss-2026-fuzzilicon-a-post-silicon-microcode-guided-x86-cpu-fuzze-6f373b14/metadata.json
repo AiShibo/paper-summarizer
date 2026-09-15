@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzze-6f373b14",
   "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+  "abstract": "In this paper, we present Fuzzilicon, the first post-silicon fuzzing framework for real-world x86 CPUs that brings deep introspection into the microcode and microarchitectural layers. Fuzzilicon automates the discovery of vulnerabilities that were previously only detectable through extensive manual reverse engineering, and bridges the visibility gap by introducing microcode-level instrumentation. At the core of Fuzzilicon is a novel technique for extracting feedback directly from the processor’s microarchitecture, enabled by reverse-engineering Intel ’s proprietary microcode update interface. We develop a minimally intrusive instrumentation method and integrate it with a hypervisor-based fuzzing harness to enable precise, feedback-guided input generation, without access to Register Transfer Level (RTL) or vendor support.",
+  "abstract_source_id": "src-abstract-ndss-2026-6f373b14",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-6f373b14",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/",
+      "kind": "paper-page",
+      "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:22Z",
+      "content_hash": "sha256:012895a9876dcdc9eca643a3c2d3a77f49cbca05d0f31ad428cdf8ca9f581849",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

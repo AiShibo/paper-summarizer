@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-chimera-harnessing-multi-agent-llms-for-automatic-inside-512a3fb5",
   "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+  "abstract": "Insider threats represent a significant and persistent security risk, yet remain difficult to detect in complex enterprise environments, where malicious activities are often concealed within subtle user behaviors. While machine-learning–based insider threat detection (ITD) techniques have shown promising results, their effectiveness is fundamentally constrained by the lack of high-quality and realistic training data. This challenge stems from the highly sensitive nature of enterprise internal data that is rarely accessible and from the limitations of existing datasets, where public datasets are typically small in scale, and synthetic datasets often lack sufficient generalization, rich semantic context, and realistic behavioral patterns.",
+  "abstract_source_id": "src-abstract-ndss-2026-512a3fb5",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-512a3fb5",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "kind": "paper-page",
+      "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:51Z",
+      "content_hash": "sha256:e88aa3e26d2b6ced0999aff33c54b7523779e347b4d1de8aa8b2892426f77551",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

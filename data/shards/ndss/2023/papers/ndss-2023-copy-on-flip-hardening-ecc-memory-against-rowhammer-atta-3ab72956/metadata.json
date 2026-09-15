@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-copy-on-flip-hardening-ecc-memory-against-rowhammer-atta-3ab72956",
   "title": "Copy-on-Flip: Hardening ECC Memory Against Rowhammer Attacks",
+  "abstract": "In this paper, we reconsider ECC memory as an avenue for Rowhammer mitigations and show that not all hope is lost. In particular, we show that it is feasible to devise a software-based design to both efficiently and effectively harden commodity ECC memory against ECC-aware Rowhammer attacks. To support this claim, we present Copy-on-Flip (CoF), an ECC-based software mitigation which uses a combination of memory _migration_ and _offlining_ to stop Rowhammer attacks on commodity server systems in a practical way. The key idea is to let the operating system interpose on all the error correction events and offline the vulnerable victim page as soon as the attacker has successfully templated a sufficient number of bit flips---while transparently migrating the victim data to a new page. We present a CoF prototype on Linux, where we also show it is feasible to operate simple memory management changes to support migration for the relevant user and kernel memory pages. Our evaluation shows CoF incurs low performance and memory overhead, while significantly reducing the Rowhammer attack surface. On typical benchmarks such as SPEC CPU2017 and Google Chrome, CoF reports a $<1.5%$ overhead, and, on extreme I/O-intensive scenarios (saturated nginx), up to $sim11%$.",
+  "abstract_source_id": "src-abstract-ndss-2023-3ab72956",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Trustworthy Computing",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-3ab72956",
+      "url": "https://www.ndss-symposium.org/ndss-paper/copy-on-flip-hardening-ecc-memory-against-rowhammer-attacks/",
+      "kind": "paper-page",
+      "title": "Copy-on-Flip: Hardening ECC Memory Against Rowhammer Attacks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:57:55Z",
+      "content_hash": "sha256:c9673c24ac078ff375729a0111fdf94a6ec2888acca70fc4b62b4b0a3e68154c",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

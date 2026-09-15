@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-towards-automatic-and-precise-heap-layout-manipulation-f-10125fa7",
   "title": "Towards Automatic and Precise Heap Layout Manipulation for General-Purpose Programs",
+  "abstract": "In this paper, we present BAGUA, an innovative solution towards automatically and precisely manipulating heap layouts for general-purpose programs. Specifically, BAGUA first precisely identifies the primitives of heap layout manipulation using the heap operation dependence graph and thoroughly analyzes their dependencies and capabilities. On this basis, it models the heap layout manipulation as an integer linear programming problem and solves the constraints, in order to identify the sequence of primitives that achieves a desired heap layout. By triggering the primitives in such an order, we are able to construct new proof-of-concept inputs of target programs to achieve an exploitable heap layout. Highlights of our research include a set of new techniques that address the specific challenges of analyzing general-purpose programs, such as eliminating the side effect of heap allocators and extending the capability in manipulating heap layouts. We implemented a prototype of BAGUA and evaluated it on 27 publicly-known bugs in real-world programs. With BAGUA's strength in pinpointing primitives and handling the side effect of heap allocators, it successfully generates desired heap layouts for 23 of the bugs, which is way beyond what prior research can achieve.",
+  "abstract_source_id": "src-abstract-ndss-2023-10125fa7",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Software Security I",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-10125fa7",
+      "url": "https://www.ndss-symposium.org/ndss-paper/towards-automatic-and-precise-heap-layout-manipulation-for-general-purpose-programs/",
+      "kind": "paper-page",
+      "title": "Towards Automatic and Precise Heap Layout Manipulation for General-Purpose Programs",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:35Z",
+      "content_hash": "sha256:186d2e26c98c3095d94063fec5ff18fdc2966bda76a86e39c8c1e41eab88b345",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

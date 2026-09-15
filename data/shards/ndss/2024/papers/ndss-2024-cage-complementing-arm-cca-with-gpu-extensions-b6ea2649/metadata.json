@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-cage-complementing-arm-cca-with-gpu-extensions-b6ea2649",
   "title": "CAGE: Complementing Arm CCA with GPU Extensions",
+  "abstract": "To address this challenge, we present CAGE to support confidential GPU computing for Arm CCA. By leveraging the existing security features in Arm CCA, CAGE ensures data security during confidential computing on unified-memory GPUs, the mainstream accelerators in Arm devices. To adapt the GPU workflow to CCA's realm-style architecture, CAGE proposes a novel shadow task mechanism to manage confidential GPU applications flexibly. Additionally, CAGE leverages the memory isolation mechanism in Arm CCA to protect data confidentiality and integrity from the strong adversary. Based on this, CAGE also optimizes security operations in memory isolation to mitigate performance overhead. Without hardware changes, our approach uses the generic hardware security primitives in Arm CCA to defend against a privileged adversary. We present two prototypes to verify CAGE's functionality and evaluate performance, respectively. Results show that CAGE effectively provides GPU support for Arm CCA with an average of 2.45% performance overhead.",
+  "abstract_source_id": "src-abstract-ndss-2024-b6ea2649",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -231,6 +233,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-b6ea2649",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cage-complementing-arm-cca-with-gpu-extensions/",
+      "kind": "paper-page",
+      "title": "CAGE: Complementing Arm CCA with GPU Extensions",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:50Z",
+      "content_hash": "sha256:38bdc8dd91c865395138c59ab0f4f1e8bc25e67f5a7d21921219779c6fe5a092",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

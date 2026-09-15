@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-demystifying-the-access-control-mechanism-of-esxi-vmkern-cb031a5e",
   "title": "Demystifying the Access Control Mechanism of ESXi VMKernel",
+  "abstract": "To address this gap, we conduct the first comprehensive security analysis of VMKernel’s access control mechanism. We develop a domain-control structure oriented analysis method to reconstruct key internal permission logic, and design a structure-aware debugging framework to support fine-grained runtime validation. Using this framework, we uncover several critical design flaws, including writable and unprotected in-memory control structures and exploitable developer-reserved syscall interfaces. We demonstrate three practical attack scenarios that abuse these flaws to bypass sandbox restrictions, escalate privileges, and gain persistent access. In total, we discovered and reported 14 vulnerabilities to VMware, all of which have been confirmed and fixed, with a total of $42,000 in bug bounties awarded.",
+  "abstract_source_id": "src-abstract-ndss-2026-cb031a5e",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -307,6 +309,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-cb031a5e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-the-access-control-mechanism-of-esxi-vmkernel/",
+      "kind": "paper-page",
+      "title": "Demystifying the Access Control Mechanism of ESXi VMKernel",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:05Z",
+      "content_hash": "sha256:7c67def059f8589361e5d7b95012771a22a4dfce2640b0c79ca6b995ecf09385",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

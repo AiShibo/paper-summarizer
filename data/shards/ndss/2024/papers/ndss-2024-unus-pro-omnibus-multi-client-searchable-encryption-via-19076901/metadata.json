@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-unus-pro-omnibus-multi-client-searchable-encryption-via-19076901",
   "title": "Unus pro omnibus: Multi-Client Searchable Encryption via Access Control",
+  "abstract": "We propose delegatable searchable encryption (DSE) with optimal search time for the multi-writer multi-reader setting. Beyond forward privacy, DSE supports security measures countering new integrity threats by malicious clients and keyword-guessing attacks inherent to public-key schemes. These are simultaneously made conceivable via one-time delegations of updating and/or searching power from the data owner and our tailored notion of shiftable multi-recipient counter encryption. DSE also benefits from the hybrid searchable encryption idea of Wang and Chow but at a microscopic level. Our evaluation confirms the order-of-magnitude improvement in search time over real-world datasets.",
+  "abstract_source_id": "src-abstract-ndss-2024-19076901",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -105,6 +107,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-19076901",
+      "url": "https://www.ndss-symposium.org/ndss-paper/unus-pro-omnibus-multi-client-searchable-encryption-via-access-control/",
+      "kind": "paper-page",
+      "title": "Unus pro omnibus: Multi-Client Searchable Encryption via Access Control",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:10Z",
+      "content_hash": "sha256:aedbafe13ff41ad05e34a75f61e418af08ffd400e2410e1b8f2ed33f2ec3a606",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-memory-backdoor-attacks-on-neural-networks-79768ca3",
   "title": "Memory Backdoor Attacks on Neural Networks",
+  "abstract": "Neural networks are often trained on proprietary datasets, making them attractive attack targets. We present a novel dataset extraction method leveraging an innovative training-time backdoor attack, allowing a malicious federated learning (FL) server to systematically and deterministically extract complete client training samples through a simple indexing process. Unlike prior techniques, our approach guarantees exact data recovery rather than probabilistic reconstructions or hallucinations, provides precise control over which samples are memorized and how many, and shows high capacity and robustness. Infected models output data samples when they receive a pattern-based index trigger, enabling systematic extraction of meaningful patches from each client’s local data without disrupting global model utility. To address small model output sizes, we extract patches and then recombined them.",
+  "abstract_source_id": "src-abstract-ndss-2026-79768ca3",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-79768ca3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/memory-backdoor-attacks-on-neural-networks/",
+      "kind": "paper-page",
+      "title": "Memory Backdoor Attacks on Neural Networks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:44Z",
+      "content_hash": "sha256:ff1a042081f0d3fa1f79e5dff4846873ce76e14d1cbf9603afbdd746938daf64",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-from-noise-to-signal-precisely-identify-affected-package-26d2b606",
   "title": "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem",
+  "abstract": "In this paper, we propose a novel framework VulTracer, which can precisely and efficiently perform vulnerability propagation analysis at function level. By constructing a rich semantic graph for each package independently and then stitching them together, VulTracer can locate vulnerability propagation paths and identify truly affected packages precisely. Through comparative evaluations, our framework achieves an F1 score of 0.905 in call graph construction and reduces false positives from npm audit by 94%. We conducted the largest-to-date function-level vulnerability impact measurement on the entire npm ecosystem, covering 34 million package versions. The results demonstrate that 68.28% of potential impacts identified by package-level analysis are merely noise, as the vulnerable code is unreachable. Furthermore, our findings also uncover that true vulnerability propagation (the signal) is shallow, with impact attenuating significantly within just a few dependency hops. VulTracer provides a practical path to mitigate alert fatigue and enables security efforts to focus on genuine, reachable threats.",
+  "abstract_source_id": "src-abstract-ndss-2026-26d2b606",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-26d2b606",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/",
+      "kind": "paper-page",
+      "title": "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:20Z",
+      "content_hash": "sha256:3de344a66e842cdbf92e1e444289fae849bf5af64df62c83a2144d1e2344f9d7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

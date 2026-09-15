@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-securing-bgp-asap-aspa-and-other-post-rov-defenses-8b0cbc0b",
   "title": "Securing BGP ASAP: ASPA and other Post-ROV Defenses",
+  "abstract": "We present extensive evaluations of different post-ROV defenses and attacks. Our results show that ASPA significantly protects against post-ROV attacks, even in partial adoption. It dramatically improves upon the use of only ROV or of BGPsec, Path-End, OTC, and EdgeFilter. BGP-iSec has even better protection but requires public-key operations to export/import announcements. We also present ASPAwN, an extension that further improves ASPA's performance. Our results show that contrary to prior works [74], [95], ASPA is effective even when tier-1 ASes are not adopting, hence motivating ASPA adoption at edge and intermediate ASes.\n\nOn the other hand, we find that against\n\nemph{accidental} route leaks, the simpler, standardized OTC mechanism is as effective as ASPA.",
+  "abstract_source_id": "src-abstract-ndss-2025-8b0cbc0b",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-8b0cbc0b",
+      "url": "https://www.ndss-symposium.org/ndss-paper/securing-bgp-asap-aspa-and-other-post-rov-defenses/",
+      "kind": "paper-page",
+      "title": "Securing BGP ASAP: ASPA and other Post-ROV Defenses",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:46Z",
+      "content_hash": "sha256:1cd14a6cd0cd7d9d74a5e85120a1593b295ecd56de0b8976d66e488158a3812e",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

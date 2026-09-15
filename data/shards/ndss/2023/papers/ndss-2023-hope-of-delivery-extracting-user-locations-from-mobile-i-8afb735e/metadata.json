@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-hope-of-delivery-extracting-user-locations-from-mobile-i-8afb735e",
   "title": "Hope of Delivery: Extracting User Locations From Mobile Instant Messengers",
+  "abstract": "Our results show that, after a training phase, a messenger user can distinguish different locations of the message receiver. Our analyses involving multiple rounds of measurements and evaluations show that the timing side channel persists independent of distances between receiver locations -- the attack works both for receivers in different countries as well as at small scale in one city. For instance, out of three locations within the same city, the sender can determine the correct one with more than 80% accuracy. Thus, messenger users can secretly spy on each others' whereabouts when sending instant messages. As our countermeasure evaluation shows, messenger providers could effectively disable the timing side channel by randomly delaying delivery confirmations within the range of a few seconds. For users themselves, the threat is harder to prevent since there is no option to turn off delivery confirmations.",
+  "abstract_source_id": "src-abstract-ndss-2023-8afb735e",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Web Security II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-8afb735e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hope-of-delivery-extracting-user-locations-from-mobile-instant-messengers/",
+      "kind": "paper-page",
+      "title": "Hope of Delivery: Extracting User Locations From Mobile Instant Messengers",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:09Z",
+      "content_hash": "sha256:4167fa5c4c658f8d196729dfffd06e803b872b666ad2b5955bed50e30c2fc8c2",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-roundrole-unlocking-the-efficiency-of-multi-party-comput-eeaa9402",
   "title": "RoundRole: Unlocking the Efficiency of Multi-party Computation with Bandwidth-aware Execution",
+  "abstract": "In this paper, we propose RoundRole, a bandwidth-aware execution optimization for secret-sharing MPC. The key idea is to decouple the logical roles, which determine the communication patterns, from the physical nodes, which determine the bandwidth. By partitioning the overall protocol into parallel tasks and strategically mapping each logical role to a physical node for each task, RoundRole effectively allocates the communication workload in accordance with the inherent protocol communication volume and the physical bandwidth. This execution-level optimization fully leverages network resources and \"unlocks\" the efficiency. We integrate RoundRole on top of ABY3, one of the widely used open-source MPC frameworks. Extensive evaluations across nine protocols under six diverse network settings (with homogeneous and heterogeneous bandwidths) demonstrate significant performance improvements, achieving up to 7.1x speedups.",
+  "abstract_source_id": "src-abstract-ndss-2026-eeaa9402",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-eeaa9402",
+      "url": "https://www.ndss-symposium.org/ndss-paper/roundrole-unlocking-the-efficiency-of-multi-party-computation-with-bandwidth-aware-execution/",
+      "kind": "paper-page",
+      "title": "RoundRole: Unlocking the Efficiency of Multi-party Computation with Bandwidth-aware Execution",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:18Z",
+      "content_hash": "sha256:effef990d0294c348bd14b512adde37869b02824027032779805c1497469ad61",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

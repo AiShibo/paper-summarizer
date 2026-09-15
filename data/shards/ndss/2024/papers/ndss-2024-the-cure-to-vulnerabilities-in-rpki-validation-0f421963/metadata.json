@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-the-cure-to-vulnerabilities-in-rpki-validation-0f421963",
   "title": "The CURE to Vulnerabilities in RPKI Validation",
+  "abstract": "While these findings are significant in their own right, our principal contribution lies in developing CURE, the first-of-its-kind system to systematically detect bugs, vulnerabilities, and RFC compliance issues in RP implementations via automated test generation. The statefulness of RPKI, the lack of rigorous RPKI specifications for recognizing bugs in the object suite, the complexity and diversity of RP implementations, and the inaccessibility of their critical functionalities render this a highly challenging research task. CURE is a powerful RPKI publication point emulator that enables easy and efficient fuzzing of complex RP validation pipelines. It is designed with a set of novel tech-\n\nniques, utilizing differential and stateful fuzzing. We generated over 600 million test cases and tested all popular RPs on them.",
+  "abstract_source_id": "src-abstract-ndss-2024-0f421963",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-0f421963",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-cure-to-vulnerabilities-in-rpki-validation/",
+      "kind": "paper-page",
+      "title": "The CURE to Vulnerabilities in RPKI Validation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:02Z",
+      "content_hash": "sha256:25d2ce249c533aae28b1c48438a0cfa431a3519acc2c310ddf9ef32599e461ca",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

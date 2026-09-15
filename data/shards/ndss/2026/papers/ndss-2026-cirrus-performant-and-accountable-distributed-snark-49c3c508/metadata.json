@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-cirrus-performant-and-accountable-distributed-snark-49c3c508",
   "title": "Cirrus: Performant and Accountable Distributed SNARK",
+  "abstract": "Succinct Non-interactive Arguments of Knowledge (SNARKs) can enable efficient verification of computation in many applications. However, generating SNARK proofs for large-scale tasks, such as verifiable machine learning or virtual machines, remains computationally expensive. A promising approach is to distribute the proof generation workload across multiple workers. A practical distributed SNARK protocol should have three properties: horizontal scalability with low overhead (linear computation and logarithmic communication per worker), accountability (efficient detection of malicious workers), and a universal trusted setup independent of circuits and the number of workers. Existing protocols fail to achieve all these properties.",
+  "abstract_source_id": "src-abstract-ndss-2026-49c3c508",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-49c3c508",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cirrus-performant-and-accountable-distributed-snark/",
+      "kind": "paper-page",
+      "title": "Cirrus: Performant and Accountable Distributed SNARK",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:52Z",
+      "content_hash": "sha256:bea87c7ba91dfee3267057be51ae75714e39b024f4acd72f9d136ae50cbf6a39",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

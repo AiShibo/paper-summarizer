@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-caspr-context-aware-security-policy-recommendation-9f2e8c0a",
   "title": "CASPR: Context-Aware Security Policy Recommendation",
+  "abstract": "Nowadays, SELinux has been widely used to provide flexible mandatory access control and security policies are critical to maintain the security of operating systems. Strictly speaking, all access requests must be restricted by appropriate policy rules to satisfy the functional requirements of the software or application. However, manually configuring security policy rules is an error-prone and time-consuming task that often requires expert knowledge. Therefore, it is a challenging task to recommend policy rules without anomalies effectively due to the numerous policy rules and the complexity of semantics. The majority of previous research mined information from policies to recommend rules but did not apply to the newly defined types without any rules. In this paper, we propose a context-aware security policy recommendation (CASPR) method that can automatically analyze and refine security policy rules. Context-aware information in CASPR includes policy rules, file locations, audit logs, and attribute information. According to these context-aware information, multiple features are extracted to calculate the similarity of privilege sets. Based on the calculation results, CASPR clusters types by the K-means model and then recommends rules automatically. The method automatically detects anomalies in security policy, namely, constraint conflicts, policy inconsistencies, and permission incompleteness. Further, the detected anomalous policies are refined so that the authorization rules can be effectively enforced.",
+  "abstract_source_id": "src-abstract-ndss-2025-9f2e8c0a",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-9f2e8c0a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/caspr-context-aware-security-policy-recommendation/",
+      "kind": "paper-page",
+      "title": "CASPR: Context-Aware Security Policy Recommendation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:31Z",
+      "content_hash": "sha256:cb0636ca1ec13cadd842119699ed2c2beba65d7b2c50326a8b37dfa331aa6248",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

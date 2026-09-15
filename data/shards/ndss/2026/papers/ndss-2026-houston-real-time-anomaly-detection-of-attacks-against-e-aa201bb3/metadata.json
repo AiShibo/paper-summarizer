@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-houston-real-time-anomaly-detection-of-attacks-against-e-aa201bb3",
   "title": "HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols",
+  "abstract": "In this paper, we propose a novel approach for real-time, generic, explainable identification of attacks against DeFi protocols. Specifically, we identify potentially risky transactions without relying on any known vulnerability patterns. Our approach, implemented in HOUSTON, first automatically identifies the set of smart contracts that together implement a DeFi application and then, while monitoring new relevant transactions, builds and updates custom anomaly-detection models. Our models include information about typical execution paths (control flows) as well as information about how the protocol processes data, captured as likely invariants between the contract functions’ arguments and storage variables. HOUSTON offers explainable warnings that can be used for attack triaging.",
+  "abstract_source_id": "src-abstract-ndss-2026-aa201bb3",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -223,6 +225,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-aa201bb3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/houston-real-time-anomaly-detection-of-attacks-against-ethereum-defi-protocols/",
+      "kind": "paper-page",
+      "title": "HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:25Z",
+      "content_hash": "sha256:8f098a4cf110f66282595318e5aacc6013f729b6dbf4007a8e80ccc96f903fc1",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

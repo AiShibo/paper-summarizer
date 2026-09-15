@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-kronos-a-secure-and-generic-sharding-blockchain-consensu-8764a3d6",
   "title": "Kronos: A Secure and Generic Sharding Blockchain Consensus with Optimized Overhead",
+  "abstract": "In this paper, we present Kronos, a secure sharding blockchain consensus achieving optimized overhead.\n\nIn particular, we propose a new textit{secure sharding blockchain consensus pattern}, based on a textit{buffer} managed jointly by shard members. Valid transactions are transferred to the payee via the buffer, while invalid ones are rejected through happy or unhappy paths.\n\nKronos is proved to achieve textit{security} textit{with atomicity} under malicious clients while maintaining textit{optimal intra-shard overhead}. Efficient rejection even requires no Byzantine fault tolerance (BFT) protocol execution in happy paths, and the cost in unhappy paths is still not higher than a two-phase commit.\n\nBesides, we propose secure cross-shard certification methods. Handling $b$ transactions, Kronos is proved to achieve cross-shard communication with low textit{cross-shard overhead} $mathcal{O}(n b lambda)$ ($n$ for the shard size and $lambda$ for the security parameter).\n\nNotably, Kronos imposes no restrictions on BFT and does not rely on timing assumptions, offering optional constructions in various modules. Kronos could serve as a universal framework for enhancing the performance and scalability of existing BFT protocols. Kronos supports generic models, including asynchronous networks, and can increase the throughput by several orders of magnitude.",
+  "abstract_source_id": "src-abstract-ndss-2025-8764a3d6",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -231,6 +233,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-8764a3d6",
+      "url": "https://www.ndss-symposium.org/ndss-paper/kronos-a-secure-and-generic-sharding-blockchain-consensus-with-optimized-overhead/",
+      "kind": "paper-page",
+      "title": "Kronos: A Secure and Generic Sharding Blockchain Consensus with Optimized Overhead",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:05Z",
+      "content_hash": "sha256:9ac770fb3ac1a6e031a66fb2a98016494fd51c8142ff430367056a86a7c311ab",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

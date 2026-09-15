@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-prisrv-privacy-and-usability-enhanced-wireless-service-d-ea07824a",
   "title": "PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption",
+  "abstract": "A key innovation in PriSrv+ is the development of Fast and Expressive Matchmaking Encryption (FEME), the first matchmaking encryption scheme capable of supporting expressive access control policies with an unbounded attribute universe, allowing any arbitrary string to be used as an attribute. FEME significantly enhances the flexibility of service discovery while ensuring robust message and attribute privacy. Compared to PriSrv, PriSrv+ optimizes cryptographic operations, achieving 7.62x faster for encryption and 6.23x faster for decryption, and dramatically reduces ciphertext sizes by 87.33%. In addition, PriSrv+ reduces communication costs by 87.33% for service broadcast and 86.64% for anonymous mutual authentication compared with PriSrv. Formal security proofs confirm the security of FEME and PriSrv+. Extensive evaluations on multiple platforms demonstrate that PriSrv+ achieves superior performance, scalability, and efficiency compared to existing state-ofthe-art protocols.",
+  "abstract_source_id": "src-abstract-ndss-2026-ea07824a",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -265,6 +267,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-ea07824a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/prisrv-privacy-and-usability-enhanced-wireless-service-discovery-with-fast-and-expressive-matchmaking-encryption/",
+      "kind": "paper-page",
+      "title": "PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:07Z",
+      "content_hash": "sha256:e27bcc8d427a4a591122ae79f1a5c173421d82210dbadb768a10bf2e0f7bc57a",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

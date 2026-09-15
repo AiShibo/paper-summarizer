@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-dirtyfree-simplified-data-oriented-programming-in-the-li-f6c533c9",
   "title": "DirtyFree: Simplified Data-Oriented Programming in the Linux Kernel",
+  "abstract": "To address these limitations, we introduce DIRTYFREE, a systematic exploitation method that leverages the arbitrary free primitive. This primitive enables the forced deallocation of attacker-controlled kernel objects, significantly reducing exploitability requirements and simplifying the overall exploitation process. DIRTYFREE provides a systematic method for identifying suitable arbitrary free objects across diverse kernel caches and presents a structured exploitation strategy targeting security-critical objects such as cred. Through extensive evaluation, we successfully identified 14 arbitrary free objects covering most kernel caches, demonstrating DIRTYFREE’s practical effectiveness by successfully exploiting 24 real-world kernel vulnerabilities. Additionally, we propose and implement two mitigation techniques designed to mitigate DIRTYFREE, effectively preventing exploitation while incurring negligible performance overhead (i.e., 0.28% and-0.55%, respectively).",
+  "abstract_source_id": "src-abstract-ndss-2026-f6c533c9",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-f6c533c9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dirtyfree-simplified-data-oriented-programming-in-the-linux-kernel/",
+      "kind": "paper-page",
+      "title": "DirtyFree: Simplified Data-Oriented Programming in the Linux Kernel",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:06Z",
+      "content_hash": "sha256:bf28ba0c5f618957fba79e5dd1544bb86e3f9ab6b68d9236b5fd3a15bf2956dc",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

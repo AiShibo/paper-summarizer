@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-trellis-robust-and-scalable-metadata-private-anonymous-b-5d61cdbe",
   "title": "Trellis: Robust and Scalable Metadata-private Anonymous Broadcast",
+  "abstract": "Trellis hides all network-level metadata, remains robust to changing network conditions, guarantees availability to honest users, and scales with the number of mix servers. Trellis provides three to five orders of magnitude faster performance and better network robustness compared to Atom, the state-of-the-art anonymous broadcast system with a similar threat model. In achieving these guarantees, Trellis contributes: (1) a simpler theoretical mixing analysis for a routing mix network constructed with a fraction of malicious servers, (2) anonymous routing tokens for verifiable random paths, and (3) lightweight blame protocols built on top of onion routing to identify and eliminate malicious parties.",
+  "abstract_source_id": "src-abstract-ndss-2023-5d61cdbe",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Privacy and Anonymity II",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-5d61cdbe",
+      "url": "https://www.ndss-symposium.org/ndss-paper/trellis-robust-and-scalable-metadata-private-anonymous-broadcast/",
+      "kind": "paper-page",
+      "title": "Trellis: Robust and Scalable Metadata-private Anonymous Broadcast",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:35Z",
+      "content_hash": "sha256:166d75d612f1c5687f1e9a1a90ac55914bb3d37f649a3d6f8d64fbb3d2369790",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

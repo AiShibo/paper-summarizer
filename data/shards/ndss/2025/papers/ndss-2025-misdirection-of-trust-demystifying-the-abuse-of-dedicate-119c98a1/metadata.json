@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-misdirection-of-trust-demystifying-the-abuse-of-dedicate-119c98a1",
   "title": "Misdirection of Trust: Demystifying the Abuse of Dedicated URL Shortening Service",
+  "abstract": "underline{D}edicated underline{U}RL underline{s}hortening underline{s}ervices (DUSSs) are designed to transform textit{trusted} long URLs into the shortened links.\n\nSince DUSSs are widely used in famous corporations to better serve their large number of users (especially mobile users), cyber criminals attempt to exploit DUSS to transform their malicious links and abuse the inherited implicit trust, which is defined as textit{Misdirection Attack} in this paper.\n\nHowever, little effort has been made to systematically understand such attacks. To fulfill the research gap, we present the first systematic study of the textit{Misdirection Attack} in abusing DUSS to demystify its attack surface, exploitable scope, and security impacts in the real world.",
+  "abstract_source_id": "src-abstract-ndss-2025-119c98a1",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-119c98a1",
+      "url": "https://www.ndss-symposium.org/ndss-paper/misdirection-of-trust-demystifying-the-abuse-of-dedicated-url-shortening-service/",
+      "kind": "paper-page",
+      "title": "Misdirection of Trust: Demystifying the Abuse of Dedicated URL Shortening Service",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:13Z",
+      "content_hash": "sha256:5edb701a2d30067a7eb1d417bb1fb2b59a10bec9e38888e11e5488c416bb4689",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-fp-fed-privacy-preserving-federated-detection-of-browser-458928e7",
   "title": "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+  "abstract": "To address these limitations, we present FP-Fed, the first distributed system for browser fingerprinting detection. Using FP-Fed, users collaboratively train on-device models based on their real browsing patterns, without sharing their training data with a central entity, by relying on Differentially Private Federated Learning (DP-FL). To demonstrate its feasibility and effectiveness, we evaluate FP-Fed’s performance on a set of 20k popular websites with different privacy levels, numbers of participants, and features extracted from the scripts. Our experiments show that FP-Fed achieves reasonably high detection performance and can perform both training and inference efficiently, on-device, by only relying on runtime signals extracted from the execution trace, without requiring any resource-intensive operation.",
+  "abstract_source_id": "src-abstract-ndss-2024-458928e7",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-458928e7",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/",
+      "kind": "paper-page",
+      "title": "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:20Z",
+      "content_hash": "sha256:4b6480c3c46290e099c5f2988dfdf3740f5b7ecffb119dc016cd5f87cb7adfdb",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

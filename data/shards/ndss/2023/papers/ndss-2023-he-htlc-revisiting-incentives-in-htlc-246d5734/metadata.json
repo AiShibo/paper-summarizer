@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-he-htlc-revisiting-incentives-in-htlc-246d5734",
   "title": "He-HTLC: Revisiting Incentives in HTLC",
+  "abstract": "Based on the learnings from our attacks, we propose a new HTLC realization, He-HTLC (Our specification is lightweight and inert to incentive manipulation attacks. Hence, we call it He-HTLC where He stands for Helium.) that is provably secure against all possible strategic manipulation (passive and active). In addition to being secure in a stronger adversary model, He-HTLC achieves other desirable features such as low and user-adjustable collateral, making it more practical to implement and use the proposed schemes. We implemented He-HTLC on Bitcoin and the transaction cost of He-HTLC is comparative to average Bitcoin transaction fees.",
+  "abstract_source_id": "src-abstract-ndss-2023-246d5734",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Blockchains II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-246d5734",
+      "url": "https://www.ndss-symposium.org/ndss-paper/he-htlc-revisiting-incentives-in-htlc/",
+      "kind": "paper-page",
+      "title": "He-HTLC: Revisiting Incentives in HTLC",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:07Z",
+      "content_hash": "sha256:5ee9e0560c1ed762d0076e0df70c80ac28ea167f8fb2329abed96c439b431c81",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

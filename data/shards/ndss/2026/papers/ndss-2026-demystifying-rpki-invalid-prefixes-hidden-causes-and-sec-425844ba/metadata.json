@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-demystifying-rpki-invalid-prefixes-hidden-causes-and-sec-425844ba",
   "title": "Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks",
+  "abstract": "We further show their cascading impacts on the data-plane, noting that while most prefixes exhibit negligible effects, 3.1% result in full connectivity loss and 7.1% degrade routing by adding latency and extra hop counts—and, in some cases, also bypassing intended security mechanisms; additionally, we find that such misconfigurations have been triggering false alarms in hijack detection systems. To validate our findings, we build a ground-truth dataset of 294 misconfigured prefixes through direct engagement with 174 network operators. We also interviewed 16 large ISPs and major leasing brokers about their ROA management practices, and we propose suggestions to avert ROA misconfigurations.",
+  "abstract_source_id": "src-abstract-ndss-2026-425844ba",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-425844ba",
+      "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+      "kind": "paper-page",
+      "title": "Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:05Z",
+      "content_hash": "sha256:ef76abe5a78c5be7b8f4edbc18f3ebbcc6ccd502cd5e0ec203f2813f91122ce5",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

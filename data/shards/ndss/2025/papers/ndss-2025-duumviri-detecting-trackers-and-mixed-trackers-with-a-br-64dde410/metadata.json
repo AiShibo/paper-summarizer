@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-duumviri-detecting-trackers-and-mixed-trackers-with-a-br-64dde410",
   "title": "Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
+  "abstract": "In the case of non-mixed trackers, evaluating Duumviri on 15K pages shows its ability to replicate the labels of human-generated filter lists, EasyPrivacy, with an accuracy of 97.44%. Through a manual analysis, we find that Duumviri can identify previously unreported trackers and its breakage detector can identify overly strict EasyPrivacy rules that cause breakage. In the case of mixed trackers, Duumviri is the first automated mixed tracker detector, and achieves a lower bound accuracy of 74.19%. Duumviri has enabled us to detect and confirm 22 previously unreported unique trackers and 26 unique mixed trackers.",
+  "abstract_source_id": "src-abstract-ndss-2025-64dde410",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-64dde410",
+      "url": "https://www.ndss-symposium.org/ndss-paper/duumviri-detecting-trackers-and-mixed-trackers-with-a-breakage-detector/",
+      "kind": "paper-page",
+      "title": "Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:46Z",
+      "content_hash": "sha256:374f1d23cb5e7c75ff4548b69cc1d5340964fc6c8c33866a7eac5d2cde398173",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-mtzk-testing-and-exploring-bugs-in-zero-knowledge-zk-com-468bae6e",
   "title": "MTZK: Testing and Exploring Bugs in Zero-Knowledge (ZK) Compilers",
+  "abstract": "In this paper, we propose MTZK, a metamorphic testing framework to test ZK compilers and uncover incorrect compilations. Our approach leverages deliberately designed metamorphic relations (MRs) to mutate ZK compiler inputs. This way, ZK compilers can be automatically tested for compilation correctness using inputs and mutated variants. We propose a set of design considerations and optimizations to deliver an efficient and effective testing framework. In the evaluation of four industrial ZK compilers, we successfully uncovered 21 bugs, out of which the developers have promptly patched 15. We also show possible exploitations of the uncovered bugs to demonstrate their severe security implications.",
+  "abstract_source_id": "src-abstract-ndss-2025-468bae6e",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-468bae6e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mtzk-testing-and-exploring-bugs-in-zero-knowledge-zk-compilers/",
+      "kind": "paper-page",
+      "title": "MTZK: Testing and Exploring Bugs in Zero-Knowledge (ZK) Compilers",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:15Z",
+      "content_hash": "sha256:475aeda3d9012eb28496ed3bfb16ec65acae45ddafefa8d29bf582c820e8523e",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

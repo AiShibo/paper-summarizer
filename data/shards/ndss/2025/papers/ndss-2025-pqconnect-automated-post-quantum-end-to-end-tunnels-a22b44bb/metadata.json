@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-pqconnect-automated-post-quantum-end-to-end-tunnels-a22b44bb",
   "title": "PQConnect: Automated Post-Quantum End-to-End Tunnels",
+  "abstract": "Unlike VPNs, PQConnect automatically creates end-to-end tunnels to any number of servers using automatic peer discovery, with no need for the client administrator to configure per-server information. Each server carries out a client-independent configuration step to publish an announcement that the server's name accepts PQConnect connections. Any PQConnect client connecting to that name efficiently finds this announcement, automatically establishes a post-quantum point-to-point IP tunnel to the server, and routes traffic for that name through that tunnel.",
+  "abstract_source_id": "src-abstract-ndss-2025-a22b44bb",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-a22b44bb",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/",
+      "kind": "paper-page",
+      "title": "PQConnect: Automated Post-Quantum End-to-End Tunnels",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:24Z",
+      "content_hash": "sha256:8506135a931eef89309e39d4e6f769eb9ababab71af51b75eb3471444f7e82b8",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

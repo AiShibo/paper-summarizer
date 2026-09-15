@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-convergent-privacy-framework-for-multi-layer-gnns-throug-b4eac162",
   "title": "Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing",
+  "abstract": "In this paper, we theoretically establish that the privacy budget converges with respect to the number of layers by applying privacy amplification techniques to the message-passing process, exploiting the contractive properties inherent to standard GNN operations. Motivated by this analysis, we propose a simple yet effective Contractive Graph Layer (CGL) that ensures the contractiveness required for theoretical guarantees while preserving model utility. Our framework, CARIBOU, supports both training and inference, equipped with a contractive aggregation module, a privacy allocation module, and a privacy auditing module. Experimental evaluations demonstrate that CARIBOU significantly improves the privacy-utility trade-off and achieves superior performance in privacy auditing tasks.",
+  "abstract_source_id": "src-abstract-ndss-2026-b4eac162",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-b4eac162",
+      "url": "https://www.ndss-symposium.org/ndss-paper/convergent-privacy-framework-for-multi-layer-gnns-through-contractive-message-passing/",
+      "kind": "paper-page",
+      "title": "Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:56Z",
+      "content_hash": "sha256:252379558756e17348158167b5f695635655fdd3e0a3e5ad55366cb2494a0c29",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

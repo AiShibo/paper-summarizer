@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-characterizing-the-implementation-of-censorship-policies-4b4bd365",
   "title": "Characterizing the Implementation of Censorship Policies in Chinese LLM Services",
+  "abstract": "In this work, we present the first study of overt blocking embedded in Chinese LLM services. We leverage information leaks in the communication between the server and client during active chat sessions and aim to extract where blocking decisions are embedded within the LLM services' workflow. We observe a persistent reliance on traditional, dated blocking strategies in prominent services: Baidu-Chat, DeepSeek, Doubao, Kimi, and Qwen. We find blocking placements during the input, output, and search phases, with the latter two leaking varying amounts of censored information to client machines, including near-complete responses and search references not rendered in the browser.",
+  "abstract_source_id": "src-abstract-ndss-2026-4b4bd365",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-4b4bd365",
+      "url": "https://www.ndss-symposium.org/ndss-paper/characterizing-the-implementation-of-censorship-policies-in-chinese-llm-services/",
+      "kind": "paper-page",
+      "title": "Characterizing the Implementation of Censorship Policies in Chinese LLM Services",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:50Z",
+      "content_hash": "sha256:806627a12a5e0fec11154bf01777b0acbf036d7d544c0ad2443ec8054bcea491",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

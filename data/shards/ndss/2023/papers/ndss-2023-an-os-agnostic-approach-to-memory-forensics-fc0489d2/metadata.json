@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-an-os-agnostic-approach-to-memory-forensics-fc0489d2",
   "title": "An OS-agnostic Approach to Memory Forensics",
+  "abstract": "To overcome this problem, in this paper we introduce the new concept of emph{OS-agnostic memory forensics}, which is based on techniques that can recover certain forensics information without emph{any} knowledge of the internals of the underlying OS. Our approach allows to automatically identify different types of data structures by using only their topological constraints and then supports two modes of investigation. In the first, it allows to traverse the recovered structures by starting from predetermined textit{seeds}, i.e., pieces of forensics-relevant information (such as a process name or an IP address) that an analyst knows emph{a priori} or that can be easily identified in the dump. Our experiments show that even a single seed can be sufficient to recover the entire list of processes and other important forensics data structures in dumps obtained from 14 different OSs, without any knowledge of the underlying kernels. In the second mode of operation, our system requires no seed but instead uses a set of heuristics to rank all memory data structures and present to the analysts only the most `promising' ones. Even in this case, our experiments show that an analyst can use our approach to easily identify forensics-relevant structured information in a truly OS-agnostic scenario.",
+  "abstract_source_id": "src-abstract-ndss-2023-fc0489d2",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Cyber-Crime and Forensics",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-fc0489d2",
+      "url": "https://www.ndss-symposium.org/ndss-paper/an-os-agnostic-approach-to-memory-forensics/",
+      "kind": "paper-page",
+      "title": "An OS-agnostic Approach to Memory Forensics",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:57:45Z",
+      "content_hash": "sha256:05c4bc689c08c1e00bf2d30ea255d136b711c77b1295cd73d22966791e760c5c",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

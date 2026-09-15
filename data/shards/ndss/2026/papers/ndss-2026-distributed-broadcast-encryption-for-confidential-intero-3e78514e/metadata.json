@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-distributed-broadcast-encryption-for-confidential-intero-3e78514e",
   "title": "Distributed Broadcast Encryption for Confidential Interoperability across Private Blockchains",
+  "abstract": "In this paper, we leverage fully-distributed broadcast encryption (FDBE in short) to build a fully decentralized protocol for confidential information-sharing across private networks. Compared to\n\ntraditional broadcast encryption (BE), FDBE is characterized by distributed setup and key generation, where mutually distrusting parties agree on a BE’s public key without a trusted setup, and securely derive their decryption keys. Given any FDBE, two private networks can securely share information as follows: a sender in one network uses the other network’s FDBE public key to encrypt a message for its members. The resulting construction is secure in the simplified universal composability (UC) framework.",
+  "abstract_source_id": "src-abstract-ndss-2026-3e78514e",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-3e78514e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/distributed-broadcast-encryption-for-confidential-interoperability-across-private-blockchains/",
+      "kind": "paper-page",
+      "title": "Distributed Broadcast Encryption for Confidential Interoperability across Private Blockchains",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:07Z",
+      "content_hash": "sha256:a28e40f79ae544bfb0b6e17fb92ae00e584b75ff11549d7ed678ef4527bbad77",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

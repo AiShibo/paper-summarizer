@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-ropbot-reimaging-code-reuse-attack-synthesis-106d7492",
   "title": "ropbot: Reimaging Code Reuse Attack Synthesis",
+  "abstract": "In this work, we revisit this fundamental strategy and propose a new grouping of gadgets, which we call ROPBlock, that exhibit one crucial difference to gadgets: ROPBlocks are guaranteed to be chainable. We combine this notion of ROPBlock with a graph search algorithm and propose a gadget chaining approach that significantly improves performance compared to prior work. We successfully reduce the time complexity of setting registers to attacker-specified values from O(2n) to O(n). This yields a 2–3 orders of magnitude speed-up in practice during chain generation. At the same time, ROPBlocks allow us to model complex gadgets—such as those involving ret2csu or with conditional branches—that most other approaches fail to consider by design. And as ROPBlocks are architecture-agnostic, our approach can be applied to diverse architectures.",
+  "abstract_source_id": "src-abstract-ndss-2026-106d7492",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -223,6 +225,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-106d7492",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ropbot-reimaging-code-reuse-attack-synthesis/",
+      "kind": "paper-page",
+      "title": "ropbot: Reimaging Code Reuse Attack Synthesis",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:17Z",
+      "content_hash": "sha256:c3d676f6cbee495216bb1f5cd6e1e8ef1dd9855e77e4e0511a263188fc8165f3",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-scale-mia-a-scalable-model-inversion-attack-against-secu-455b9774",
   "title": "Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning via Latent Space Reconstruction",
+  "abstract": "To overcome these limitations, we propose Scale-MIA, a novel MIA capable of efficiently and accurately reconstructing local training samples from the aggregated model updates, even when the system is protected by a robust secure aggregation (SA) protocol. Scale-MIA utilizes the inner architecture of models and identifies the latent space as the critical layer for breaching privacy. Scale-MIA decomposes the complex reconstruction task into an innovative two-step process. The first step is to reconstruct the latent space representations (LSRs) from the aggregated model updates using a closed-form inversion mechanism, leveraging specially crafted linear layers. Then in the second step, the LSRs are fed into a fine-tuned generative decoder to reconstruct the whole input batch.",
+  "abstract_source_id": "src-abstract-ndss-2025-455b9774",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-455b9774",
+      "url": "https://www.ndss-symposium.org/ndss-paper/scale-mia-a-scalable-model-inversion-attack-against-secure-federated-learning-via-latent-space-reconstruction/",
+      "kind": "paper-page",
+      "title": "Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning via Latent Space Reconstruction",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:40Z",
+      "content_hash": "sha256:24f5810975be1a4ca4e9b6ddcb91da96318357395e966f51128bc5c41f9da89a",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

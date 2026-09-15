@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-practical-traceable-over-threshold-multi-party-private-s-2dbb7b05",
   "title": "Practical Traceable Over-Threshold Multi-Party Private Set Intersection",
+  "abstract": "Multi-Party Private Set Intersection (MP-PSI) with threshold enhances the flexibility of MP-PSI by disclosing elements present in at least $t$ participants' sets, rather than requiring elements to appear in all $n$ sets.\n\nIn scenarios where each participant is responsible for its dataset, e.g., digital forensics, MP-PSI with threshold is expected to disclose both intersection elements and corresponding holders such that elements are traceable and hence the reliability of intersection is guaranteed. We refer to MP-PSI with threshold supporting traceability as Traceable Over-Threshold Multi-Party Private Set Intersection (T-OT-MP-PSI). However, research on such protocols remains limited, and the current solution is resistant to $t-2$ semi-honest participants at the cost of considerable computational overhead.",
+  "abstract_source_id": "src-abstract-ndss-2026-2dbb7b05",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-2dbb7b05",
+      "url": "https://www.ndss-symposium.org/ndss-paper/practical-traceable-over-threshold-multi-party-private-set-intersection/",
+      "kind": "paper-page",
+      "title": "Practical Traceable Over-Threshold Multi-Party Private Set Intersection",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:07Z",
+      "content_hash": "sha256:b53b9c6cc7d659abc5722e6c174128b848badea8cc620dff3ffa17b0ef90aff4",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

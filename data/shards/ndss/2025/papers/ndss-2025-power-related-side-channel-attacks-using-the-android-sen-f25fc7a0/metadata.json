@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-power-related-side-channel-attacks-using-the-android-sen-f25fc7a0",
   "title": "Power-Related Side-Channel Attacks using the Android Sensor Framework",
+  "abstract": "In this paper, we show that Android mobile devices expose numerous power-related signals that allow power side-channel attacks. We systematically analyze unprivileged sensors provided by the Android sensor framework on multiple devices and show that these sensors expose parasitic influences of the power consumption. Our results include new insights into Android sensor leakage, particularly a novel leakage primitive: the rotation dependent power leakage of the geomagnetic rotation vector sensor. We extensively evaluate the exposed sensors for different information leakage types. We compare them with the corresponding ground truth, achieving correlations greater than 0.9 for some of our tested sensors. In extreme cases, we observe not only statistical results but also, e.g., changes in a compass app’s needle by approximately 30° due to CPU stress. Additionally, we evaluate the capabilities of our identified leakage primitives in two case studies: As a remote attacker via the Google Chrome web browser and as a local attacker running inside an installed app. In particular, we present an end-to-end pixel-stealing attack on different Android devices that effectively circumvents the browser’s cross-origin isolation with a leakage rate of 5 - 10 s per pixel. Lastly, we demonstrate a proof-of-concept AES attack, leaking individual key bytes using our newly discovered leakage primitive.",
+  "abstract_source_id": "src-abstract-ndss-2025-f25fc7a0",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-f25fc7a0",
+      "url": "https://www.ndss-symposium.org/ndss-paper/power-related-side-channel-attacks-using-the-android-sensor-framework/",
+      "kind": "paper-page",
+      "title": "Power-Related Side-Channel Attacks using the Android Sensor Framework",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:23Z",
+      "content_hash": "sha256:adc7431b041962bf2cbacfcc0494da678608f2abe7c9c9b200b52dd324c87a76",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

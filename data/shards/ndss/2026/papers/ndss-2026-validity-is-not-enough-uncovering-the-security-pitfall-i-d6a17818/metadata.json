@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-validity-is-not-enough-uncovering-the-security-pitfall-i-d6a17818",
   "title": "Validity Is Not Enough: Uncovering the Security Pitfall in Chainlink’s Off-Chain Reporting Protocol",
+  "abstract": "In this paper, we conduct an in-depth study of the potential impacts of Byzantine behaviors on the determined price in the OCR protocol, through both empirical and theoretical analyses. First, our empirical analysis reveals that, in real-world settings, Byzantine behaviors still have ample space to sway the determined price in the OCR protocol. We then detail Byzantine behaviors that strategically sway the determined price and formally model their impacts. Furthermore, we evaluate the impacts of these Byzantine behaviors using Chainlink’s real-world price data. Our experimental results show that the price deviation induced by Byzantine behaviors can reach up to 8.47% of the ETH price. Our case studies further indicate that the downstream financial impacts of a price value swayed by Byzantine behaviors can be on the order of $10^5$ USD, and the cumulative impacts of such price values may reach millions of USD. In summary, this work uncovers that Byzantine behaviors can still cause non-negligible impacts on the determined price in the OCR protocol, even under the validity guarantee. We have ethically reported our findings to Chainlink, aiming to support the security of the OCR protocol.",
+  "abstract_source_id": "src-abstract-ndss-2026-d6a17818",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -223,6 +225,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-d6a17818",
+      "url": "https://www.ndss-symposium.org/ndss-paper/validity-is-not-enough-uncovering-the-security-pitfall-in-chainlinks-off-chain-reporting-protocol/",
+      "kind": "paper-page",
+      "title": "Validity Is Not Enough: Uncovering the Security Pitfall in Chainlink’s Off-Chain Reporting Protocol",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:47Z",
+      "content_hash": "sha256:081596a9dbd933208bc1c7189be4b543932ffcbef6f786fc15ea94caafc0e914",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

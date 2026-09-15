@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-piranhas-privacy-preserving-remote-attestation-in-non-hi-04cd2f69",
   "title": "PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms",
+  "abstract": "Remote attestation is a fundamental security mechanism for assessing the integrity of remote devices. In practice, widespread adoption of attestation schemes is hindered by a lack of public verifiability and the requirement for interaction in existing protocols. A recent work by Ebrahimi et al. (NDSS'24) constructs publicly verifiable, non-interactive remote attestation, disregarding another important requirement for attesting sensitive systems: privacy protection. Similar needs arise in IoT swarms, where many devices, potentially processing sensitive data, should produce a single attestation.",
+  "abstract_source_id": "src-abstract-ndss-2026-04cd2f69",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-04cd2f69",
+      "url": "https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/",
+      "kind": "paper-page",
+      "title": "PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:05Z",
+      "content_hash": "sha256:d1c7f09ce54cbc0a30c1bf38d1a2ebd720d5515578bec2bdaa4e38de819ac67f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

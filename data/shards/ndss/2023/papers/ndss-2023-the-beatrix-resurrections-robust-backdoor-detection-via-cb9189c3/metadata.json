@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-the-beatrix-resurrections-robust-backdoor-detection-via-cb9189c3",
   "title": "The “Beatrix” Resurrections: Robust Backdoor Detection via Gram Matrices",
+  "abstract": "In this work, we propose a novel technique, Beatrix (backdoor detection via Gram matrix). Beatrix utilizes Gram matrix to capture not only the feature correlations but also the appropriately high-order information of the representations. By learning class-conditional statistics from activation patterns of normal samples, Beatrix can identify poisoned samples by capturing the anomalies in activation patterns. To further improve the performance in identifying target labels, Beatrix leverages kernel-based testing without making any prior assumptions on representation distribution. We demonstrate the effectiveness of our method through extensive evaluation and comparison with state-of-the-art defensive techniques. The experimental results show that our approach achieves an F1 score of 91.1% in detecting dynamic backdoors, while the state of the art can only reach 36.9%.",
+  "abstract_source_id": "src-abstract-ndss-2023-cb9189c3",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "ML and AI II",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-cb9189c3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-beatrix-resurrections-robust-backdoor-detection-via-gram-matrices/",
+      "kind": "paper-page",
+      "title": "The “Beatrix” Resurrections: Robust Backdoor Detection via Gram Matrices",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:33Z",
+      "content_hash": "sha256:74520be7a33dabf38fdb987b663465422ef5d918288fbfafc160e38a9c3b1819",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

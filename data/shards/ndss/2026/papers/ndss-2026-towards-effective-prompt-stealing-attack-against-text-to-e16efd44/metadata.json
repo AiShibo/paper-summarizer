@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-towards-effective-prompt-stealing-attack-against-text-to-e16efd44",
   "title": "Towards Effective Prompt Stealing Attack against Text-to-Image Diffusion Models",
+  "abstract": "To alleviate these limitations, we propose textbf{Prometheus}, a training-free, proxy-in-the-loop, search-based prompt-stealing attack, which reverse-engineers the valuable prompts of the showcases by interacting with a local proxy model. It consists of three innovative designs.\n\nFirst, we introduce textit{dynamic modifiers}, as a supplement to static modifiers used in prior works. These dynamic modifiers provide more details specific to the showcases, and we exploit NLP analysis to generate them on the fly.\n\nSecond, we design a textit{contextual matching} algorithm to sort both dynamic and static modifiers. This offline process helps reduce the search space of the subsequent step.\n\nThird, we interact with a local proxy model to invert the prompts with a greedy search algorithm. Based on the feedback guidance, we refine the prompt to achieve higher fidelity.\n\nThe evaluation results show that textbf{Prometheus} successfully extracts prompts from popular platforms like PromptBase and AIFrog against diverse victim models, including Midjourney, Leonardo.ai, and DALL$cdot$E, with an ASR improvement of 25.0%.\n\nWe also validate that textbf{Prometheus} is resistant to extensive potential defenses, further highlighting its severity in practice.",
+  "abstract_source_id": "src-abstract-ndss-2026-e16efd44",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -286,6 +288,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-e16efd44",
+      "url": "https://www.ndss-symposium.org/ndss-paper/towards-effective-prompt-stealing-attack-against-text-to-image-diffusion-models/",
+      "kind": "paper-page",
+      "title": "Towards Effective Prompt Stealing Attack against Text-to-Image Diffusion Models",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:41Z",
+      "content_hash": "sha256:85f1800cd598ecd75de857672814d221754a5ef0d293a99e225321cc4f93e3df",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

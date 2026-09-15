@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-iris-dynamic-privacy-preserving-search-in-authenticated-5ee2e26a",
   "title": "Iris: Dynamic Privacy Preserving Search in Authenticated Chord Peer-to-Peer Networks",
+  "abstract": "In structured peer-to-peer networks, like Chord, users find data by\n\nasking a number of intermediate nodes in the network. Each node\n\nprovides the identity of the closet known node to the address of the\n\ndata, until eventually the node responsible for the data is reached.\n\nThis structure means that the intermediate nodes learn the address of\n\nthe sought after data. Revealing this information to other nodes makes\n\nChord unsuitable for applications that require query privacy so in\n\nthis paper we present a scheme Iris to provide query privacy while\n\nmaintaining compatibility with the existing Chord protocol. This means\n\nthat anyone using it will be able to execute a privacy preserving\n\nquery but it does not require other nodes in the network to use it (or\n\neven know about it).",
+  "abstract_source_id": "src-abstract-ndss-2025-5ee2e26a",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -105,6 +107,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-5ee2e26a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/iris-dynamic-privacy-preserving-search-in-authenticated-chord-peer-to-peer-networks/",
+      "kind": "paper-page",
+      "title": "Iris: Dynamic Privacy Preserving Search in Authenticated Chord Peer-to-Peer Networks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:03Z",
+      "content_hash": "sha256:3c3896431e1491e80e5568e369c9af05c20ec4c8e0f12d931c08d53766f90a52",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

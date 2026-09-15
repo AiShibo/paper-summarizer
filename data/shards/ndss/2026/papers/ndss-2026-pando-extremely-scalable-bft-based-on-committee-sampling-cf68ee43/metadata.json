@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-pando-extremely-scalable-bft-based-on-committee-sampling-cf68ee43",
   "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+  "abstract": "In this paper, we develop BFT protocols from the so-called committee sampling approach that selects a small committee for consensus and conveys the results to all replicas. Such an approach, however, has been focused on the Byzantine agreement (BA) problem (considering replicas only) instead of the BFT problem (in the client-replica model); also, the approach is mainly of theoretical interest only, as concretely, it works for impractically large n.",
+  "abstract_source_id": "src-abstract-ndss-2026-cf68ee43",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-cf68ee43",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pando-extremely-scalable-bft-based-on-committee-sampling/",
+      "kind": "paper-page",
+      "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:59Z",
+      "content_hash": "sha256:1ec89d64507b16394186f5a58f147d0d38ab201b6e0404acb38ea0ea4f335159",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-blerp-ble-re-pairing-attacks-and-defenses-2c5794b3",
   "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
+  "abstract": "We analyze BLE re-pairing as defined in the standard v6.1 and identify six design vulnerabilities, including four novel ones, such as unauthenticated re-pairing and security level downgrade. These vulnerabilities are design flaws and affect any standard-compliant BLE device that uses pairing, regardless of its Bluetooth version or security level. We also present four new re-pairing attacks exploiting these vulnerabilities, which we call BLERP. The attacks enable impersonation and MitM of paired devices with minimal or no user interaction (1-click or 0-click). Our attacks are the first to target BLE re-pairing, exploit the interplay between BLE pairing and session establishment, and abuse the SMP security request message.",
+  "abstract_source_id": "src-abstract-ndss-2026-2c5794b3",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -118,6 +120,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-2c5794b3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+      "kind": "paper-page",
+      "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:41Z",
+      "content_hash": "sha256:5dcf17803617a3f33ec3ddd11dad04f40f8de44359c3dddd56a9443ba541b229",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

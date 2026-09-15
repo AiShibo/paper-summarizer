@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-catback-universal-backdoor-attacks-on-tabular-data-via-c-6fe33634",
   "title": "CatBack: Universal Backdoor Attacks on Tabular Data via Categorical Encoding",
+  "abstract": "Backdoor attacks in machine learning have drawn significant attention for their potential to compromise models stealthily, yet most research has focused on homogeneous data such as images. In this work, we propose a novel backdoor attack on tabular data, which is particularly challenging due to the presence of both numerical and categorical features.\n\nOur key idea is a novel technique to convert categorical values into floating-point representations. This approach preserves enough information to maintain clean-model accuracy compared to traditional methods like one-hot or ordinal encoding. By doing this, we create a gradient-based universal perturbation that applies to all features, including categorical ones.",
+  "abstract_source_id": "src-abstract-ndss-2026-6fe33634",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-6fe33634",
+      "url": "https://www.ndss-symposium.org/ndss-paper/catback-universal-backdoor-attacks-on-tabular-data-via-categorical-encoding/",
+      "kind": "paper-page",
+      "title": "CatBack: Universal Backdoor Attacks on Tabular Data via Categorical Encoding",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:47Z",
+      "content_hash": "sha256:aca4a3885950dd44455fc769159ec3ad695f65c6abcf9f3334b320b1c1d07565",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

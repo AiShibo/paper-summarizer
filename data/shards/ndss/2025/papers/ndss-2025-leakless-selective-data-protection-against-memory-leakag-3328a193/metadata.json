@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-leakless-selective-data-protection-against-memory-leakag-3328a193",
   "title": "LeakLess: Selective Data Protection against Memory Leakage Attacks for Serverless Platforms",
+  "abstract": "In this paper we present LeakLess, a selective data protection approach for serverless computing platforms. LeakLess alleviates the limitations of previous selective data protection techniques by combining in-memory encryption with a separate I/O module to enable the safe transmission of the protected data between serverless functions and external hosts. We implemented LeakLess on top of the Spin serverless platform, and evaluated it with real-world serverless applications. Our results demonstrate that LeakLess offers robust protection while incurring a minor throughput decrease under stress-testing conditions of up to 2.8% when the I/O module runs on a different host than the Spin runtime, and up to 8.5% when it runs on the same host.",
+  "abstract_source_id": "src-abstract-ndss-2025-3328a193",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-3328a193",
+      "url": "https://www.ndss-symposium.org/ndss-paper/leakless-selective-data-protection-against-memory-leakage-attacks-for-serverless-platforms/",
+      "kind": "paper-page",
+      "title": "LeakLess: Selective Data Protection against Memory Leakage Attacks for Serverless Platforms",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:07Z",
+      "content_hash": "sha256:bdf2cc295bd89442d47ef1bf40d67d1916e40de0d1132ca4ec5d4072a8479f63",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-private-differentially-private-average-treatment-effect-ca46365b",
   "title": "PrivATE: Differentially Private Average Treatment Effect Estimation for Observational Data",
+  "abstract": "To this end, we introduce PrivATE, a practical ATE estimation framework that ensures differential privacy. In fact, various scenarios require varying levels of privacy protection. For example, only test scores are generally sensitive information in education evaluation, while all types of medical record data are usually private. To accommodate different privacy requirements, we design two levels (i.e., label-level and sample-level) of privacy protection in PrivATE. By deriving an adaptive matching limit, PrivATE effectively balances noise-induced error and matching error, leading to a more accurate estimate of ATE. Our evaluation validates the effectiveness of PrivATE. PrivATE outperforms the baselines on all datasets and privacy budgets.",
+  "abstract_source_id": "src-abstract-ndss-2026-ca46365b",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -265,6 +267,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-ca46365b",
+      "url": "https://www.ndss-symposium.org/ndss-paper/private-differentially-private-average-treatment-effect-estimation-for-observational-data/",
+      "kind": "paper-page",
+      "title": "PrivATE: Differentially Private Average Treatment Effect Estimation for Observational Data",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:08Z",
+      "content_hash": "sha256:3593a42ff51dd53e51868e1c2ef129fd147e53958d945bb62d833ce103b4243f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

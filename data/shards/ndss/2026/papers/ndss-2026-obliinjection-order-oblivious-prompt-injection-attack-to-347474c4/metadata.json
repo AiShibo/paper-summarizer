@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-obliinjection-order-oblivious-prompt-injection-attack-to-347474c4",
   "title": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+  "abstract": "In this work, we propose ObliInjection , the first prompt injection attack targeting LLM applications and agents with multisource input data. ObliInjection introduces two key technical innovations: the order-oblivious loss , which quantifies the likelihood that the LLM will complete the attacker-chosen task regardless of how the clean and contaminated segments are ordered; and the orderGCG algorithm , which is tailored to minimize the order-oblivious loss and optimize the contaminated segments. Comprehensive experiments across three datasets spanning diverse application domains and twelve LLMs demonstrate that ObliInjection is highly effective, even when only one out of 6–100 segments in the input data is contaminated. Our code and data are available at: https://github.com/ReachalWang/ObliInjection.",
+  "abstract_source_id": "src-abstract-ndss-2026-347474c4",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-347474c4",
+      "url": "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/",
+      "kind": "paper-page",
+      "title": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:52Z",
+      "content_hash": "sha256:8ea36d91d492a18e8cf38fd2d049680b28cf0ad03a377e56daa57b68fdeaec91",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

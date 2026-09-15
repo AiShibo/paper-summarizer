@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-connecting-the-dots-an-investigative-study-on-linking-pr-6c9795a5",
   "title": "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps",
+  "abstract": "This paper presents an in-depth analysis of privacy threats in widely used messaging apps in South Korea, including KakaoTalk, Telegram, WhatsApp, Signal and Tinder, demonstrating concrete attacks exploiting their contact discovery, SSO-based account linking, and nearby user search features to compromise user privacy. More importantly, we chain the attacks to conduct the first cross-platform linking attack, which enables adversaries to deanonymize user names and infer users’ physical locations with an average error margin of 324 meters for a large number of untargeted and targeted users. Our findings highlight that securing contact discovery is crucial as permissive contact discovery policies allow adversaries to exploit phone numbers and profile images as linking keys to connect private user information across multiple messaging apps. We discuss and propose mitigation strategies to alleviate the presented threats.",
+  "abstract_source_id": "src-abstract-ndss-2026-6c9795a5",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-6c9795a5",
+      "url": "https://www.ndss-symposium.org/ndss-paper/connecting-the-dots-an-investigative-study-on-linking-private-user-data-across-messaging-apps/",
+      "kind": "paper-page",
+      "title": "Connecting the Dots: An Investigative Study on Linking Private User Data Across Messaging Apps",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:53Z",
+      "content_hash": "sha256:13de3e389fe92471192c1aec517fd8477337c884e51351fde2b33e7e957a2611",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

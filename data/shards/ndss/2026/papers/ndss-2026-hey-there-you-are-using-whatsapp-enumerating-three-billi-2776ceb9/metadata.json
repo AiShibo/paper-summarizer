@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-hey-there-you-are-using-whatsapp-enumerating-three-billi-2776ceb9",
   "title": "Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy",
+  "abstract": "Our findings demonstrate not only the persistence but the severity of this vulnerability. We further show that nearly half of the phone numbers disclosed in the 2021 Facebook data leak are still active on WhatsApp, underlining the enduring risks associated with such exposures. Moreover, we were able to perform a census of WhatsApp users, providing a glimpse on the macroscopic insights a large messaging service is able to generate even though the messages themselves are end-to-end encrypted. Using the gathered data, we also discovered the re-use of certain X25519 keys across different devices and phone numbers, indicating either insecure (custom) implementations, or fraudulent activity.",
+  "abstract_source_id": "src-abstract-ndss-2026-2776ceb9",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-2776ceb9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hey-there-you-are-using-whatsapp-enumerating-three-billion-accounts-for-security-and-privacy/",
+      "kind": "paper-page",
+      "title": "Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:23Z",
+      "content_hash": "sha256:48630376e4a21dcbf371f73d7ff88fcb9dbef53bd73404c7565a6158956d69fd",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

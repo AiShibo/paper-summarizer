@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-enhancing-semantic-aware-binary-diffing-with-high-confid-5940ff2c",
   "title": "Enhancing Semantic-Aware Binary Diffing with High-Confidence Dynamic Instruction Alignment",
+  "abstract": "In this paper, we revisit dynamic analysis to seek new insights to address the limitations of existing approaches. Our main insight is that not all dynamic semantics are necessary or equally effective for identifying valid instruction alignment. Therefore, we can prioritize dynamic execution resources to partially reveal the runtime values that can effectively derive instruction alignment. Based on the above insight, we propose Barracuda, a high-confidence instruction alignment technique based on partial instruction semantics extracted from forced execution. We have implemented Barracuda and conducted extensive experiments to evaluate its effectiveness. Extensive experimental results demonstrate that Barracuda can detect 24.0% more instruction alignment as anchor points with a high precision of 92.1%. The anchor points detected by Barracuda can enhance state-of-the-art binary diffing tools, DeepBinDiff and SigmaDiff, with percentage point increases in F1 scores ranging from 12.3% to 42.7% and 2.2% to 4.1%, respectively, across various binary diffing scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2026-5940ff2c",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-5940ff2c",
+      "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-semantic-aware-binary-diffing-with-high-confidence-dynamic-instruction-alignment/",
+      "kind": "paper-page",
+      "title": "Enhancing Semantic-Aware Binary Diffing with High-Confidence Dynamic Instruction Alignment",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:11Z",
+      "content_hash": "sha256:85c8048e53974ee8b0c5972297ae787a7d260707b359563163f6bad173e0c5bc",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

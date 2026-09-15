@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-no-grammar-no-problem-towards-fuzzing-the-linux-kernel-w-8f28b2c0",
   "title": "No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions",
+  "abstract": "The integrity of the entire computing ecosystem depends on the security of our operating systems (OSes). Unfortunately, due to the scale and complexity of OS code, hundreds of security issues are found in OSes, every year. As such, operating systems have constantly been prime use-cases for applying security-analysis tools. In recent years, fuzz-testing has appeared as the dominant technique for automatically finding security issues in software. As such, fuzzing has been adapted to find thousands of bugs in kernels. However, modern OS fuzzers, such as Syzkaller, rely on precise, extensive, manually created harnesses and grammars for each interface fuzzed within the kernel. Due to this reliance on grammars, current OS fuzzers are faced with scaling-issues.",
+  "abstract_source_id": "src-abstract-ndss-2023-8f28b2c0",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Fuzzing",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-8f28b2c0",
+      "url": "https://www.ndss-symposium.org/ndss-paper/no-grammar-no-problem-towards-fuzzing-the-linux-kernel-without-system-call-descriptions/",
+      "kind": "paper-page",
+      "title": "No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:15Z",
+      "content_hash": "sha256:9ee39a251155de06141a3777e042aa09e10122fdef7a890469db00f7d041310d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

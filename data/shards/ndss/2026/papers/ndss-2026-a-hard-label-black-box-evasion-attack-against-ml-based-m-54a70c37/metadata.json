@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-a-hard-label-black-box-evasion-attack-against-ml-based-m-54a70c37",
   "title": "A Hard-Label Black-Box Evasion Attack against ML-based Malicious Traffic Detection Systems",
+  "abstract": "To this end, we develop NetMasquerade, which leverages reinforcement learning (RL) to manipulate attack flows to mimic benign traffic and evade detection. Specifically, we establish a tailored pre-trained model called Traffic-BERT, utilizing a network-specialized tokenizer and an attention mechanism to extract diverse benign traffic patterns. Subsequently, we integrate Traffic-BERT into the RL framework, allowing NetMasquerade to effectively manipulate malicious packet sequences based on benign traffic patterns with minimal modifications. Experimental results demonstrate that NetMasquerade enables both brute-force an stealthy attacks to evade 6 existing detection methods under 80 attack scenarios, achieving over 96.65% attack success rate. Notably, it can evade the methods that are either empirically or certifiably robust against existing evasion attacks. Finally, NetMasquerade achieves low-latency adversarial traffic generation, demonstrating its practicality in real-world scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2026-54a70c37",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -223,6 +225,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-54a70c37",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-hard-label-black-box-evasion-attack-against-ml-based-malicious-traffic-detection-systems/",
+      "kind": "paper-page",
+      "title": "A Hard-Label Black-Box Evasion Attack against ML-based Malicious Traffic Detection Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:20Z",
+      "content_hash": "sha256:69f9ec27bd17103159a066cdaea4f105f7c122bd03fd0aad291944780350b4ba",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

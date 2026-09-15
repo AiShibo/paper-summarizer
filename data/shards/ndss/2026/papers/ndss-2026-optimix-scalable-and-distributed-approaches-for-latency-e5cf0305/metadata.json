@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-optimix-scalable-and-distributed-approaches-for-latency-e5cf0305",
   "title": "OptiMix: Scalable and Distributed Approaches for Latency Optimization in Modern Mixnets",
+  "abstract": "Mixnets provide network-level anonymity, traded off with increased communication latency, which consequently limits their applicability to only latency-tolerant applications, shrinking the anonymity set to clients engaged in such use cases. Addressing this issue requires optimizing latency, as recently explored in LARMix (NDSS’24) and LAMP (NDSS’25) through node arrangement and strategic routing. However, these approaches are tailored to specific mixnet designs, rely on simplified models and trust assumptions, or suffer from limited practical efficiency.",
+  "abstract_source_id": "src-abstract-ndss-2026-e5cf0305",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -97,6 +99,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-e5cf0305",
+      "url": "https://www.ndss-symposium.org/ndss-paper/optimix-scalable-and-distributed-approaches-for-latency-optimization-in-modern-mixnets/",
+      "kind": "paper-page",
+      "title": "OptiMix: Scalable and Distributed Approaches for Latency Optimization in Modern Mixnets",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:56Z",
+      "content_hash": "sha256:85b1dc0fd3f67ce42cb35baade992d2ad047faa2a56e1da82a498077f94675ec",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

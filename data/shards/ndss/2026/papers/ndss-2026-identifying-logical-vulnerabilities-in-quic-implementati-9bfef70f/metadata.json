@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-identifying-logical-vulnerabilities-in-quic-implementati-9bfef70f",
   "title": "Identifying Logical Vulnerabilities in QUIC Implementations",
+  "abstract": "In this paper, we introduce MerCuriuzz, a novel black-box fuzzing framework designed to automatically uncover logical vulnerabilities in QUIC implementations. We evaluated MerCuriuzz against 16 widely used QUIC implementations and discovered 14 previously unknown logical vulnerabilities affecting popular implementations such as quiche, xquic, and aioquic. Those vulnerabilities can pose severe security risks, enabling attackers to exhaust server resources, crash services, or deny legitimate users access to the server. We categorize those vulnerabilities into six categories and propose mitigation strategies. We also responsibly disclosed our findings to the affected vendors, and 11 of them were confirmed and rewarded by the vendors, such as Cloudflare and Alibaba Cloud.",
+  "abstract_source_id": "src-abstract-ndss-2026-9bfef70f",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-9bfef70f",
+      "url": "https://www.ndss-symposium.org/ndss-paper/identifying-logical-vulnerabilities-in-quic-implementations/",
+      "kind": "paper-page",
+      "title": "Identifying Logical Vulnerabilities in QUIC Implementations",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:27Z",
+      "content_hash": "sha256:cc230d0e0eb93dfdb1ed1c3a4434b531185f3009502255482707ea96ef5d9e10",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

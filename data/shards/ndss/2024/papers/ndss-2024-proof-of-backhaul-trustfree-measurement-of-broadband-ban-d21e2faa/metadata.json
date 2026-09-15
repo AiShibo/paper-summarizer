@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-proof-of-backhaul-trustfree-measurement-of-broadband-ban-d21e2faa",
   "title": "Proof of Backhaul: Trustfree Measurement of Broadband Bandwidth",
+  "abstract": "In this paper, we present a Proof of Backhaul (PoB) protocol which measures the bandwidth of the (broadband) backhaul link of a wireless access point, termed prover, in a decentralized and trustfree manner. In particular, our proposed protocol is the first to satisfy the following two properties:\n\n(1) Trustfree. Bandwidth measurement is secure against Byzantine attacks by collusion of challenge servers and the prover.\n\n(2) Open. The barrier-to-entry for being a challenge server is low; there is no requirement of having a low latency and high throughput path to the measured link.\n\nAt a high-level, our protocol aggregates the challenge traffic from multiple challenge servers and uses cryptographic primitives to ensure that a subset of challengers or, even challengers and provers, cannot maliciously modify results in their favor. A formal security model allows us to establish guarantees of accurate bandwidth measurement as a function of the maximum fraction of malicious actors.",
+  "abstract_source_id": "src-abstract-ndss-2024-d21e2faa",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-d21e2faa",
+      "url": "https://www.ndss-symposium.org/ndss-paper/proof-of-backhaul-trustfree-measurement-of-broadband-bandwidth/",
+      "kind": "paper-page",
+      "title": "Proof of Backhaul: Trustfree Measurement of Broadband Bandwidth",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:49Z",
+      "content_hash": "sha256:9087d6fe8fbe2bd72fea0ae0f1418a09cb88c25479b67f8745c67a34bb198b84",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

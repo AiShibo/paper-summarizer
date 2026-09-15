@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-light2lie-detecting-deepfake-images-using-physical-refle-5a096da8",
   "title": "Light2Lie: Detecting Deepfake Images Using Physical Reflectance Laws",
+  "abstract": "We propose Light2Lie, a physics-augmented deepfake detection framework that leverages principles of specular reflection, specifically the Fresnel reflectance model, to reveal inconsistencies in light–surface interactions that generative models struggle to reproduce effectively. Our method first employs a neural network to estimate the surface base reflectance and then derives a microfacet-inspired specular response map that encodes subtle geometric and optical discrepancies between real and synthetic images. This signal is integrated into a secondary classifier, as feature maps, that learns to distinguish the two classes based on reflectance-driven patterns. To further enhance robustness, we introduce a feedback refinement mechanism that updates the base reflectance model output using classification errors, tightly coupling physical modeling with the learning objective. Extensive experiments on multiple deepfake datasets demonstrate that our approach obtains better generalization performance to unseen generative model samples by getting up to 74% precision on diverse deepfake domains, outperforming state-of-the-art baselines while providing robust, physics-grounded decisions.",
+  "abstract_source_id": "src-abstract-ndss-2026-5a096da8",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-5a096da8",
+      "url": "https://www.ndss-symposium.org/ndss-paper/light2lie-detecting-deepfake-images-using-physical-reflectance-laws/",
+      "kind": "paper-page",
+      "title": "Light2Lie: Detecting Deepfake Images Using Physical Reflectance Laws",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:38Z",
+      "content_hash": "sha256:8bace78683d7380efe84505c16ca243e1441aa118399f1c17707ee4e4de18e85",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

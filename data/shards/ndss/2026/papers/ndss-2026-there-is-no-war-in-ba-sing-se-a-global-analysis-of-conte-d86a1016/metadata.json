@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-there-is-no-war-in-ba-sing-se-a-global-analysis-of-conte-d86a1016",
   "title": "There is No War in Ba Sing Se: A Global Analysis of Content Moderation in Large Language Models",
+  "abstract": "We find substantial geographic variation, with moderation rates showing relative differences up to 60% across locations—for instance, soft moderation (e.g., evasive replies) appears in 14.3% of German contexts versus 24.9% in Zulu contexts. Category-wise, misc. (generally unsafe), hate speech, and sexual content are more heavily moderated than political or religious content, with political content showing the most geographic variability. We also observe discrepancies between online and offline model versions, such as DeepSeek exhibiting 15.2% higher relative soft moderation rates when deployed locally than via API. The response length (and time) analysis reveals that moderated responses are, on average, about 50% shorter than the unmoderated ones.",
+  "abstract_source_id": "src-abstract-ndss-2026-d86a1016",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-d86a1016",
+      "url": "https://www.ndss-symposium.org/ndss-paper/there-is-no-war-in-ba-sing-se-a-global-analysis-of-content-moderation-in-large-language-models/",
+      "kind": "paper-page",
+      "title": "There is No War in Ba Sing Se: A Global Analysis of Content Moderation in Large Language Models",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:35Z",
+      "content_hash": "sha256:5e7f0355713cb9cd659074b792ab944ad05c1ab5ed4827765daf6941cca4eb09",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

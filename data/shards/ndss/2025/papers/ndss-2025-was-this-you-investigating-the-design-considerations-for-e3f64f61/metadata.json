@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-was-this-you-investigating-the-design-considerations-for-e3f64f61",
   "title": "Was This You? Investigating the Design Considerations for Suspicious Login Notifications",
+  "abstract": "In this paper, we examine user engagement with email-based suspicious login notifications, focusing on real-world practices. We collect and analyze notifications currently in use to establish\n\nan empirical foundation for common design elements. We focus our study on designs used by online platforms rather than exploring all possible design options. Thus, these design options\n\nare likely supported by real-world online platforms based on the login data they can realistically provide. Then, we investigate how these design elements influence users to read the notification, validate its authenticity, diagnose the login attempt, and determine appropriate remedial steps. By conducting online semi-structured interviews with 20 US-based participants, we investigate their\n\npast experiences and present them with design elements employed by top online platforms to identify what design elements work best. Our findings highlight the practical design options that\n\nenhance users’ understanding and engagement, providing recommendations for deploying effective notifications and identifying future directions for the security community.",
+  "abstract_source_id": "src-abstract-ndss-2025-e3f64f61",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-e3f64f61",
+      "url": "https://www.ndss-symposium.org/ndss-paper/was-this-you-investigating-the-design-considerations-for-suspicious-login-notifications/",
+      "kind": "paper-page",
+      "title": "Was This You? Investigating the Design Considerations for Suspicious Login Notifications",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:14Z",
+      "content_hash": "sha256:a3caf07df58b2177a25109b92653fd27a4c4ef97272e139bfaee2d4a93999cbf",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

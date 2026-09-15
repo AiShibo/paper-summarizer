@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-focusing-on-pinocchios-nose-a-gradients-scrutinizer-to-t-521de558",
   "title": "Focusing on Pinocchio’s Nose: A Gradients Scrutinizer to Thwart Split-Learning Hijacking Attacks Using Intrinsic Attributes",
+  "abstract": "In this paper, we first show that SplitGuard is vulnerable to an adaptive hijacking attack named SplitSpy. SplitSpy exploits the same property that SplitGuard exploits to detect hijacking attacks. In SplitSpy, a malicious server maintains a shadow model that performs the intended task to detect falsely labeled data and evade SplitGuard. Our experimental evaluation indicates that SplitSpy can effectively evade SplitGuard. Then we propose a novel passive detection method, named Gradients Scrutinizer, which relies on intrinsic differences between gradients from an intended model and those from a malicious model: the expected similarity among gradients of same-label samples differs from the expected similarity among gradients of different-label samples for an intended model, while they are the same for a malicious model. This intrinsic distinguishability enables Gradients Scrutinizer to effectively detect split-learning hijacking attacks without tampering with honest training of intended models. Our extensive evaluation indicates that Gradients Scrutinizer can effectively thwart both known split-learning hijacking attacks and adaptive counterattacks against it.",
+  "abstract_source_id": "src-abstract-ndss-2023-521de558",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "ML and AI I",
@@ -252,6 +254,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-521de558",
+      "url": "https://www.ndss-symposium.org/ndss-paper/focusing-on-pinocchios-nose-a-gradients-scrutinizer-to-thwart-split-learning-hijacking-attacks-using-intrinsic-attributes/",
+      "kind": "paper-page",
+      "title": "Focusing on Pinocchio’s Nose: A Gradients Scrutinizer to Thwart Split-Learning Hijacking Attacks Using Intrinsic Attributes",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:04Z",
+      "content_hash": "sha256:77b20d4cd7edf88e7a5e1322e8298629cb4dfd1ca82c68007fc007aa2105ad75",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

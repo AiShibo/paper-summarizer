@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-goldenfuzz-generative-golden-reference-hardware-fuzzing-2b2ce7ad",
   "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+  "abstract": "In this paper, we present GoldenFuzz, a novel two-stage hardware fuzzing framework that partially decouples test case refinement from coverage and vulnerability exploration. GoldenFuzz leverages a fast, ISA-compliant Golden Reference Model (GRM) as a “digital twin” of the Device Under Test (DUT). It fuzzes the GRM first, enabling rapid, low-cost test case refinement, accelerating deep architectural exploration and vulnerability discovery on DUT. During the fuzzing pipeline, GoldenFuzz iteratively constructs test cases by concatenating carefully chosen instruction blocks that balance the subtle inter- and intra-instructions quality. A feedback-driven mechanism leveraging insights from both high- and low-coverage samples further enhances GoldenFuzz’s capability in hardware state exploration. Our evaluation of three RISC-V processors, RocketChip, BOOM, and CVA6, demonstrates that GoldenFuzz significantly outperforms existing fuzzers in achieving the highest coverage with minimal test case length and computational overhead. GoldenFuzz uncovers all known vulnerabilities and discovers five new ones, four of which are classified as highly severe with CVSS v3 severity scores exceeding seven out of ten. It also identifies two previously unknown vulnerabilities in the commercial BA51-H core extension.",
+  "abstract_source_id": "src-abstract-ndss-2026-2b2ce7ad",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-2b2ce7ad",
+      "url": "https://www.ndss-symposium.org/ndss-paper/goldenfuzz-generative-golden-reference-hardware-fuzzing/",
+      "kind": "paper-page",
+      "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:23Z",
+      "content_hash": "sha256:d403181b4271ea5982cf87b524e0802b267c5488c0f664be5493a38b0c282bac",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

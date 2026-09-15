@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-odysseus-jailbreaking-commercial-multimodal-llm-integrat-f8bce191",
   "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+  "abstract": "In this paper, we reveal that the success of these safety filters heavily relies on a critical assumption that malicious content must be explicitly visible in either the input or the output. This assumption, while often valid for traditional LLM-integrated systems, breaks down in MLLM-integrated systems, where attackers can leverage multiple modalities to conceal adversarial intent, leading to a false sense of security in existing MLLM-integrated systems. To challenge this assumption, we propose texttt{Odysseus}, a novel jailbreak paradigm that introduces dual steganography to covertly embed malicious queries and responses into benign-looking images. Our method proceeds through four stages: textbf{(1)} malicious query encoding, textbf{(2)} steganography embedding, textbf{(3)} model interaction, and textbf{(4)} response extraction. We first encode the adversary-specified malicious prompt into binary matrices and embed them into images using a steganography model. The modified image will be fed into the victim MLLM-integrated system. We encourage the victim MLLM-integrated system to implant the generated illegitimate content into a carrier image (via steganography), which will be used for attackers to decode the hidden response locally. Extensive experiments on benchmark datasets demonstrate that our texttt{Odysseus} successfully jailbreaks several pioneering and realistic MLLM-integrated systems, including GPT-4o, Gemini-2.0-pro, Gemini-2.0-flash, and Grok-3, achieving up to 99% attack success rate. It exposes a fundamental blind spot in existing defenses, and calls for rethinking cross-modal security in MLLM-integrated systems.",
+  "abstract_source_id": "src-abstract-ndss-2026-f8bce191",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-f8bce191",
+      "url": "https://www.ndss-symposium.org/ndss-paper/odysseus-jailbreaking-commercial-multimodal-llm-integrated-systems-via-dual-steganography/",
+      "kind": "paper-page",
+      "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:53Z",
+      "content_hash": "sha256:50eb6d5bc05bdf280a84299042cfd8a12f6b1935f23822fd001e1f68eed3b214",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

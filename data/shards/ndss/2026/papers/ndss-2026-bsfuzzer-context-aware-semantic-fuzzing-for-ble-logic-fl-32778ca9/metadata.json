@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-fl-32778ca9",
   "title": "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection",
+  "abstract": "Bluetooth Low Energy (BLE) has become a foundational communication standard for modern connected devices. However, its complex design introduces subtle logic flaws, such as misinterpreted fields or invalid state transitions, that can enable authentication bypass, unauthorized control, or Denial-of-Service (DoS) attacks. These issues often evade conventional fuzzing and formal analysis.\n\nTo address this gap, we propose BSFuzzer, a black-box, context-aware semantic fuzzing framework guided by the Bluetooth Core Specification. BSFuzzer uses a Large Language Model (LLM) agent to semantically parse the Bluetooth specification, extracting state machines and packet semantics from text, diagrams, and context. It then generates two types of mutations: field-level violations of protocol rules and state-level disruptions of key transitions. These are composed into structured test sequences and executed on target devices. The LLM agent is further used to verify responses against expected behaviors, enabling detection of subtle logic flaws beyond the reach of traditional fuzzers.",
+  "abstract_source_id": "src-abstract-ndss-2026-32778ca9",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -307,6 +309,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-32778ca9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-flaw-detection/",
+      "kind": "paper-page",
+      "title": "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:43Z",
+      "content_hash": "sha256:38627f13a8d49aa716ae3c550ff51b27b4aab0e6d8a598c2e53a5c674eccfdc9",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

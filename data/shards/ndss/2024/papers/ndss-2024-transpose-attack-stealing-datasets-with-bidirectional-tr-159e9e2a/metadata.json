@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-transpose-attack-stealing-datasets-with-bidirectional-tr-159e9e2a",
   "title": "Transpose Attack: Stealing Datasets with Bidirectional Training",
+  "abstract": "Deep neural networks are normally executed in the forward direction. However, in this work, we identify a vulnerability that enables models to be trained in both directions and on different tasks. Adversaries can exploit this capability to hide rogue models within seemingly legitimate models. In addition, in this work we show that neural networks can be taught to systematically memorize and retrieve specific samples from datasets. Together, these findings expose a novel method in which adversaries can exfiltrate datasets from protected learning environments under the guise of legitimate models.",
+  "abstract_source_id": "src-abstract-ndss-2024-159e9e2a",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-159e9e2a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/transpose-attack-stealing-datasets-with-bidirectional-training/",
+      "kind": "paper-page",
+      "title": "Transpose Attack: Stealing Datasets with Bidirectional Training",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:05Z",
+      "content_hash": "sha256:8d164dce831df57ebd75493e9bee29477879d2057268e4e91051b5faf11c68df",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

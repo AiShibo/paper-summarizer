@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-probflow-using-probabilistic-programming-in-anonymous-co-9d9e65ea",
   "title": "ProbFlow : Using Probabilistic Programming in Anonymous Communication Networks",
+  "abstract": "We present ProbFlow, a probabilistic programming approach for estimating relay capacities in the Tor network. We refine previously derived probabilistic model of the network to take into account more of the complexity of the real-world Tor network. We use this model to perform inference in a probabilistic programming language called NumPyro which allows us to overcome the analytical barrier present in purely analytical approach. We integrate the implementation of ProbFlow to the current implementation of capacity estimation algorithms in the Tor network. We demonstrate the practical benefits of ProbFlow by simulating it in flow-based Python simulator and packet-based Shadow simulations, the highest fidelity simulator available for the Tor network. In both simulators, ProbFlow provides significantly more accurate estimates that results in improved user performance, with average download speeds increasing by 25% in the Shadow simulations.",
+  "abstract_source_id": "src-abstract-ndss-2023-9d9e65ea",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Privacy and Anonymity I",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-9d9e65ea",
+      "url": "https://www.ndss-symposium.org/ndss-paper/probflow-using-probabilistic-programming-in-anonymous-communication-networks/",
+      "kind": "paper-page",
+      "title": "ProbFlow : Using Probabilistic Programming in Anonymous Communication Networks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:23Z",
+      "content_hash": "sha256:83c5678a85415475c66c7b60d4e8a115200aabeff22e27882f81a8f573244fb2",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

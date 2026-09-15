@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-losing-the-beat-understanding-and-mitigating-desynchroni-97be345b",
   "title": "Losing the Beat: Understanding and Mitigating Desynchronization Risks in Container Isolation",
+  "abstract": "The isolation offered by containers today is achieved through leveraging Linux namespaces and cgroups in a highly coordinated way. This foundation for container protection, however, has been shaken by the evolution of computing paradigms, particularly the emergence of serverless computing with strong demands for resource sharing across namespaces. Such sharing weakens the container’s isolation model, inducing namespace-cgroup desynchronization (NCD) vulnerabilities, as discovered in our research. In this paper, we present a study on such risks, aiming at identifying their root causes and understanding their implications. Our research reveals that popular container tools all suffer from NCD risks, as evidenced by our discovery of four new vulnerabilities and one bug. Fundamentally, namespace sharing expands a container’s isolation boundary, which may contravene the restrictions set by the cgroups, thereby undermining the combined protection provided by both mechanisms. This contention often cannot be reconciled by existing container tools.",
+  "abstract_source_id": "src-abstract-ndss-2026-97be345b",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-97be345b",
+      "url": "https://www.ndss-symposium.org/ndss-paper/losing-the-beat-understanding-and-mitigating-desynchronization-risks-in-container-isolation/",
+      "kind": "paper-page",
+      "title": "Losing the Beat: Understanding and Mitigating Desynchronization Risks in Container Isolation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:42Z",
+      "content_hash": "sha256:b2d3d8de24bd6f4aed911d69d9f20597fb46164cbf2f11fc67d23769f20b839f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

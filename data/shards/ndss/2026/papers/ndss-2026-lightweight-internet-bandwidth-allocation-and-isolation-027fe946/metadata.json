@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-lightweight-internet-bandwidth-allocation-and-isolation-027fe946",
   "title": "Lightweight Internet Bandwidth Allocation and Isolation with Fractional Fair Shares",
+  "abstract": "We show that FFS effectively isolates bandwidth across 15 different CCAs while keeping latency and jitter minimal. Our high-speed implementation sustains a 160 Gbps line rate on commodity hardware. Evaluated on realistic Internet topologies, FFS outperforms several of the most recent and secure bandwidth isolation systems in both median and total bandwidth allocation. In our security analysis, we prove that FFS guarantees a non-zero lower bound on bandwidth allocation for every traffic stream, ensuring that volumetric DDoS attacks, even when combined with source address spoofing, cannot prevent legitimate communication. Finally, we present an extension of FFS that provides accurate and secure rate feedback to the sender, allowing rapid rate adaptation with minimal packet loss.",
+  "abstract_source_id": "src-abstract-ndss-2026-027fe946",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-027fe946",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lightweight-internet-bandwidth-allocation-and-isolation-with-fractional-fair-shares/",
+      "kind": "paper-page",
+      "title": "Lightweight Internet Bandwidth Allocation and Isolation with Fractional Fair Shares",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:39Z",
+      "content_hash": "sha256:7179bcab84884fa42f918fadef754b4d0809765fd7f3ebb9256346b3e60b11b1",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-the-heat-is-on-understanding-and-mitigating-vulnerabilit-cdccca66",
   "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+  "abstract": "Thermal cameras are increasingly considered a viable solution in autonomous systems to ensure perception in low-visibility conditions. Specialized optics and advanced signal processing are integrated into thermal-based perception pipelines of self-driving cars, robots, and drones to capture relative temperature changes and allow the detection of living beings and objects where conventional visible-light cameras struggle, such as during nighttime, fog, or heavy rain. However, it remains unclear whether the security and trustworthiness of thermal-based perception systems are comparable to those of conventional cameras. Our research exposes and mitigates three novel vulnerabilities in thermal image processing, specifically within equalization, calibration, and lensing mechanisms, that are inherent to thermal cameras. These vulnerabilities can be triggered by heat sources naturally present or maliciously placed in the environment, altering the perceived relative temperature, or generating time-controlled artifacts that can undermine the correct functioning of obstacle avoidance.",
+  "abstract_source_id": "src-abstract-ndss-2026-cdccca66",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-cdccca66",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "kind": "paper-page",
+      "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:34Z",
+      "content_hash": "sha256:454ace2a072465b8809d5f7abcfe017ea52659d30e8c81491c116de230932c93",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

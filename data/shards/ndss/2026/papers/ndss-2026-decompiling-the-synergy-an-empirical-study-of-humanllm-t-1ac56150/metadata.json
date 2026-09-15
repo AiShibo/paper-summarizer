@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-decompiling-the-synergy-an-empirical-study-of-humanllm-t-1ac56150",
   "title": "Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering",
+  "abstract": "In our human study, we instrumented the SRE workflow of 48 participants (split between 24 novices and 24 experts), observing over 109 hours of SRE. Through 18 findings, we found various benefits and harms of LLMs in SRE. Remarkably, we found that LLM assistance narrows the expertise gap: novices' comprehension rate rises by approximately 98%, matching that of experts, whereas experts gain little; however, they also had harmful hallucinations, unhelpful suggestions, and ineffective results. Known-algorithm functions are triaged up to 2.4x faster, and artifact recovery (symbols, comments, types) increases by at least 66%. Overall, our findings identify powerful synergies of humans and LLMs in SRE, but also emphasize the significant shortcomings of LLMs in their current integration.",
+  "abstract_source_id": "src-abstract-ndss-2026-1ac56150",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -265,6 +267,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-1ac56150",
+      "url": "https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/",
+      "kind": "paper-page",
+      "title": "Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:04Z",
+      "content_hash": "sha256:f3e507e09ae28ace420d23382c0596308f18809c355cab2fd3f0b9b5ca2299c7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

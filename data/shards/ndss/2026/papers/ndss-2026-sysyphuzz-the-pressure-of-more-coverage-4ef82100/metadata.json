@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-sysyphuzz-the-pressure-of-more-coverage-4ef82100",
   "title": "SYSYPHUZZ: the Pressure of More Coverage",
+  "abstract": "In our paper, we first perform a fine-grained study of imbalanced code coverage by evaluating Syzkaller in the Linux kernel and, as a response, propose SYSYPHUZZ, a kernel fuzzer designed to boost exploration of under-tested code regions. SYSYPHUZZ introduces Selective Task Scheduling to dynamically prioritize and manage exploration tasks, avoiding task explosion. It also employs Context-Preserving Mutation strategy to reduce the risk of disrupting important execution contexts. We evaluate SYSYPHUZZ against the state-of-the-art (SOTA) kernel fuzzers, Syzkaller and SyzGPT. Our results show that SYSYPHUZZ significantly reduces the number of under-explored code regions and discovers 31 unique bugs missed by Syzkaller and 27 bugs missed by SyzGPT. Moreover, SYSYPHUZZ finds five bugs missed by Syzbot, which continuously runs on hundreds of virtual machines, demonstrating SYSYPHUZZ’s effectiveness. To evaluate SYSYPHUZZ’s enhancement to SOTA fuzzers, we integrate it with SyzGPT, yielding SyzGPTsysy, which finds 33% more exclusive bugs, highlighting SYSYPHUZZ’ potential. All discovered vulnerabilities have been responsibly disclosed to the Linux maintainers. We release the source code of SYSYPHUZZ at https://github.com/HexHive/Sysyphuzz and are trying to upstream it to Syzkaller.",
+  "abstract_source_id": "src-abstract-ndss-2026-4ef82100",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -257,6 +259,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-4ef82100",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/",
+      "kind": "paper-page",
+      "title": "SYSYPHUZZ: the Pressure of More Coverage",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:31Z",
+      "content_hash": "sha256:fbf6368c00d4e648705ee789e1ffa6d0d5b9c28e93279a012ee6d579a3813e7f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

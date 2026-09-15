@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-evasion-attacks-and-defenses-on-smart-home-physical-even-49ab4fbf",
   "title": "Evasion Attacks and Defenses on Smart Home Physical Event Verification",
+  "abstract": "In smart homes, when an actuator's state changes, it sends an event notification to the IoT hub to report this change (e.g., the door is unlocked). Prior works have shown that event notifications are vulnerable to spoofing and masking attacks. In event spoofing, an adversary reports to the IoT hub a fake event notification that did not physically occur. In event masking, an adversary suppresses the notification of an event that physically occurred. These attacks create inconsistencies between physical and cyber states of actuators, enabling an adversary to indirectly gain control over safety-critical devices by triggering IoT apps. To mitigate these attacks, event verification systems (EVS), or broadly IoT anomaly detection systems, leverage physical event fingerprints that describe the relations between events and their influence on sensor readings. However, smart homes have complex physical interactions between events and sensors that characterize the event fingerprints. Our study of the recent EVS, unfortunately, has revealed that they widely ignore such interactions, which enables an adversary to evade these systems and launch successful event spoofing and masking attacks without getting detected.",
+  "abstract_source_id": "src-abstract-ndss-2023-49ab4fbf",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Cyber-Physical Systems Security I",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-49ab4fbf",
+      "url": "https://www.ndss-symposium.org/ndss-paper/evasion-attacks-and-defenses-on-smart-home-physical-event-verification/",
+      "kind": "paper-page",
+      "title": "Evasion Attacks and Defenses on Smart Home Physical Event Verification",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:01Z",
+      "content_hash": "sha256:a10ed273e3710031ebff1e92ace9f4dc4b4f15f0f0aa14c6213a90ff533baa96",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-themis-regulating-textual-inversion-for-personalized-con-ff074eae",
   "title": "THEMIS: Regulating Textual Inversion for Personalized Concept Censorship",
+  "abstract": "We propose *THEMIS* to achieve the ***personalized concept censorship***. Its key idea is to leverage the backdoor technique for good by injecting positive backdoors into the TI embeddings. Briefly, the concept owner selects some sensitive words as triggers during the training of TI, which will be censored for normal use. In the subsequent generation stage, if a malicious user combines the sensitive words with the personalized embeddings as final prompts, the T2I model will output a pre-defined target image rather than images including the desired malicious content. To demonstrate the effectiveness of *THEMIS*, we conduct extensive experiments on the TI embeddings with Latent Diffusion and Stable Diffusion, two prevailing open-sourced T2I models.\n\nThe results demonstrate that *THEMIS* is capable of preventing Textual Inversion from cooperating with sensitive words meanwhile guaranteeing its pristine utility. Furthermore, *THEMIS* is general to different uses of sensitive words, including different locations, synonyms, and combinations of sensitive words. It can also resist different types of potential and adaptive attacks. Ablation studies are also conducted to verify our design.",
+  "abstract_source_id": "src-abstract-ndss-2025-ff074eae",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-ff074eae",
+      "url": "https://www.ndss-symposium.org/ndss-paper/themis-regulating-textual-inversion-for-personalized-concept-censorship/",
+      "kind": "paper-page",
+      "title": "THEMIS: Regulating Textual Inversion for Personalized Concept Censorship",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:59Z",
+      "content_hash": "sha256:8c610ca6e78318c5373c02518534ce28a53941b86301ee9abe2d7d801d405c8e",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

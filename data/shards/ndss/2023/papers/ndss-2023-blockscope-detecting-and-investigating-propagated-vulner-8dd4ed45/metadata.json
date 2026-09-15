@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-blockscope-detecting-and-investigating-propagated-vulner-8dd4ed45",
   "title": "BlockScope: Detecting and Investigating Propagated Vulnerabilities in Forked Blockchain Projects",
+  "abstract": "Due to the open-source nature of the blockchain ecosystem, it is common for new blockchains to fork or partially reuse the code of classic blockchains. For example, the popular Dogecoin, Litecoin, Binance BSC, and Polygon are all variants of Bitcoin/Ethereum. These “forked” blockchains thus could encounter similar vulnerabilities that are propagated from Bitcoin/Ethereum during forking or subsequently commit fetching. In this paper, we conduct a systematic study of detecting and investigating the propagated vulnerabilities in forked blockchain projects. To facilitate this study, we propose BlockScope, a novel tool that can effectively and efficiently detect multiple types of cloned vulnerabilities given an input of existing Bitcoin/Ethereum security patches. Specifically, BlockScope adopts similarity-based code match and designs a new way of calculating code similarity to cover all the syntax-wide variant (i.e., Type-1, Type-2, and Type-3) clones. Moreover, BlockScope automatically extracts and leverages the contexts of patch code to narrow down the search scope and locate only potentially relevant code for comparison.",
+  "abstract_source_id": "src-abstract-ndss-2023-8dd4ed45",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Blockchains II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-8dd4ed45",
+      "url": "https://www.ndss-symposium.org/ndss-paper/blockscope-detecting-and-investigating-propagated-vulnerabilities-in-forked-blockchain-projects/",
+      "kind": "paper-page",
+      "title": "BlockScope: Detecting and Investigating Propagated Vulnerabilities in Forked Blockchain Projects",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:57:51Z",
+      "content_hash": "sha256:40c78ef34c22b800d9fa77f76f7e2e62f6020a217fadcca629c10dfc6d10aa6d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

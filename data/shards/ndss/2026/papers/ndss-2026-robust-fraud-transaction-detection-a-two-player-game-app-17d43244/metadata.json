@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-robust-fraud-transaction-detection-a-two-player-game-app-17d43244",
   "title": "Robust Fraud Transaction Detection: A Two-Player Game Approach",
+  "abstract": "To resolve this issue, we propose GAMER , a robust fraud detection system based on two-player game, achieving both high accuracy and strong robustness in detecting fraudulent activities. Specifically, GAMER leverages feature selection to proactively combat intelligent fraudsters in fraud detection (i.e., selecting fewer features to reduce the combinations of feature falsification), and innovatively formulates the detecting process as a two-player game. By solving the equilibrium of the two-player game, GAMER calculates the optimal probability for feature selection, which takes into account all possible falsification strategies of the fraudsters. The equilibrium-based selection probability not only minimizes the profits obtained by fraudsters, demotivating them to launch falsification; but also enables the system to select robust features (i.e., the features that are less likely to be falsified) in detecting fraudulent activities, enhancing the robustness of the system in fraud detection. Our theoretical and experimental results validate the properties of deterrence and robustness enhancement. Moreover, experiments on real-world attacks suffered by the world’s leading online payment enterprise demonstrate that GAMER outperforms traditional techniques of robustness enhancement, which increases the F1 score by 67.5% on average for two-month fraud detection.",
+  "abstract_source_id": "src-abstract-ndss-2026-17d43244",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -265,6 +267,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-17d43244",
+      "url": "https://www.ndss-symposium.org/ndss-paper/robust-fraud-transaction-detection-a-two-player-game-approach/",
+      "kind": "paper-page",
+      "title": "Robust Fraud Transaction Detection: A Two-Player Game Approach",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:16Z",
+      "content_hash": "sha256:7e74d16b4324b8fa50bb4a89a7635ba1a38e7e5941f7e839bfa29a32f4837c23",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-icsquartz-scan-cycle-aware-and-vendor-agnostic-fuzzing-f-b00e88d1",
   "title": "ICSQuartz: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems",
+  "abstract": "Industrial Control Systems (ICS) ensure the automation and safe operation of critical industry, energy, and commerce processes. Despite its importance, ICS code often cannot be evaluated as rigorously as software on traditional computing platforms, as existing code evaluation tools cannot readily interface with the closed ICS ecosystem. Moreover, the use of domain-specific languages, the lack of open and extensible compilers, and the deficiency of techniques developed for ICS-specific nuances, among other challenges, hinder the creation of specialized tools. This paper addresses these challenges by introducing ICSQuartz, the first native fuzzer for IEC 61131-3 Structured Text (ST), a standardized Programmable Logic Controller (PLC) programming language. Native support eliminates the necessity of any vendor or architecture-specific requirements.",
+  "abstract_source_id": "src-abstract-ndss-2025-b00e88d1",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-b00e88d1",
+      "url": "https://www.ndss-symposium.org/ndss-paper/icsquartz-scan-cycle-aware-and-vendor-agnostic-fuzzing-for-industrial-control-systems/",
+      "kind": "paper-page",
+      "title": "ICSQuartz: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:00Z",
+      "content_hash": "sha256:ce367fa9f3d5ee2de987d6e0f8c99238adbf9cdb019a4288bf360eb6a9d2f0e8",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

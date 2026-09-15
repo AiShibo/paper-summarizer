@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-llmpirate-llms-for-black-box-hardware-ip-piracy-32454064",
   "title": "LLMPirate: LLMs for Black-box Hardware IP Piracy",
+  "abstract": "Therefore, in this work, we propose *LLMPirate*, the first LLM-based technique able to generate pirated variations of circuit designs that successfully evade detection across multiple state-of-the-art piracy detection tools. We devise three solutions to overcome challenges related to integration of LLMs for hardware circuit designs, scalability to large circuits, and effectiveness, resulting in an end-to-end automated, efficient, and practical formulation. We perform an extensive experimental evaluation of *LLMPirate* using eight LLMs of varying sizes and capabilities and assess their performance in pirating various circuit designs against four state-of-the-art, widely-used piracy detection tools. Our experiments demonstrate that *LLMPirate* is able to consistently evade detection on 100% of tested circuits across every detection tool. Additionally, we showcase the ramifications of *LLMPirate* using case studies on IBEX and MOR1KX processors and a GPS module, that we successfully pirate. We envision that our work motivates and fosters the development of better IP piracy detection tools.",
+  "abstract_source_id": "src-abstract-ndss-2025-32454064",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-32454064",
+      "url": "https://www.ndss-symposium.org/ndss-paper/llmpirate-llms-for-black-box-hardware-ip-piracy/",
+      "kind": "paper-page",
+      "title": "LLMPirate: LLMs for Black-box Hardware IP Piracy",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:09Z",
+      "content_hash": "sha256:43e63cd1f47824319f90a920ceef5576315f0556e8d100a6daac3e1e4b4fd30c",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

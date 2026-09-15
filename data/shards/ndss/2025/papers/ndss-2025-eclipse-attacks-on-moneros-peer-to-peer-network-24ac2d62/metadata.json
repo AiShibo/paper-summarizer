@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-eclipse-attacks-on-moneros-peer-to-peer-network-24ac2d62",
   "title": "Eclipse Attacks on Monero’s Peer-to-Peer Network",
+  "abstract": "In this paper, we investigate eclipse attacks against Monero, a blockchain system known for its strong anonymity and pioneering the use of Dandelion++ (the state-of-the-art blockchain network layer protocol for transaction privacy protection). Our analysis of Monero's connection management mechanism reveals that existing eclipse attacks are surprisingly ineffective against Monero. We accordingly introduce the first practical eclipse attack against Monero by proposing a connection reset approach, which forces the target node to drop all benign connections and reconnect with malicious nodes. Specifically, we outline two methods for executing such an attack. The first one exploits the private transaction mechanisms, while the second method leverages the differences in propagation between stem transactions and fluff transactions under Dandelion++. Our attack is not only applicable to Monero but to all blockchain systems utilizing Dandelion++ and similar connection management strategies.",
+  "abstract_source_id": "src-abstract-ndss-2025-24ac2d62",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-24ac2d62",
+      "url": "https://www.ndss-symposium.org/ndss-paper/eclipse-attacks-on-moneros-peer-to-peer-network/",
+      "kind": "paper-page",
+      "title": "Eclipse Attacks on Monero’s Peer-to-Peer Network",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:48Z",
+      "content_hash": "sha256:5f61999dd2c49e9873f3755c49361d76d208193cbe04260a23e1cce65bf0516f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-alba-the-dawn-of-scalable-bridges-for-blockchains-70317ceb",
   "title": "Alba: The Dawn of Scalable Bridges for Blockchains",
+  "abstract": "Over the past decade, cryptocurrencies have garnered attention from academia and industry alike, fostering a diverse blockchain ecosystem and novel applications. The inception of bridges improved interoperability, enabling asset transfers across different blockchains to capitalize on their unique features. Despite their surge in popularity and the emergence of Decentralized Finance (DeFi), trustless bridge protocols remain inefficient, either relaying too much information (e.g., light-client-based bridges) or demanding expensive computation (e.g., zk-based bridges). These inefficiencies arise because existing bridges securely prove a transaction's on-chain inclusion on another blockchain. Yet this is unnecessary as off-chain solutions, like payment and state channels, permit safe transactions without on-chain publication. However, existing bridges do not support the verification of off-chain payments.",
+  "abstract_source_id": "src-abstract-ndss-2025-70317ceb",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-70317ceb",
+      "url": "https://www.ndss-symposium.org/ndss-paper/alba-the-dawn-of-scalable-bridges-for-blockchains/",
+      "kind": "paper-page",
+      "title": "Alba: The Dawn of Scalable Bridges for Blockchains",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:17Z",
+      "content_hash": "sha256:300f10eaff8be5bd04c4475a77418c252bac9dab9d9137a8451f7c103e2bf9b7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

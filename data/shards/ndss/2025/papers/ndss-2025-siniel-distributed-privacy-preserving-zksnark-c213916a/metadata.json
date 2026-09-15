@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-siniel-distributed-privacy-preserving-zksnark-c213916a",
   "title": "Siniel: Distributed Privacy-Preserving zkSNARK",
+  "abstract": "In this work, we propose Siniel, an efficient private delegation framework for zkSNARKs constructed from polynomial interactive oracle proof (PIOP) and polynomial commitment scheme (PCS). Our protocol allows a computationally limited prover (a.k.a. delegator) to delegate its expensive prover computation to several workers without leaking any information about the private witness. Most importantly, compared with the recent work EOS (USENIX'23), the state-of-the-art zkSNARK prover delegation framework, a prover in Siniel needs not to engage in the MPC protocol after sending its shares of private witness. This means that a Siniel prover can outsource the entire computation to the workers.",
+  "abstract_source_id": "src-abstract-ndss-2025-c213916a",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -273,6 +275,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-c213916a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/siniel-distributed-privacy-preserving-zksnark/",
+      "kind": "paper-page",
+      "title": "Siniel: Distributed Privacy-Preserving zkSNARK",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:48Z",
+      "content_hash": "sha256:3145b7e2237f407abf3ec706e1a7e1c79b68b037f0bf195698a305b0b89b58c2",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-silence-false-alarms-identifying-anti-reentrancy-pattern-6abf6df3",
   "title": "Silence False Alarms: Identifying Anti-Reentrancy Patterns on Ethereum to Refine Smart Contract Reentrancy Detection",
+  "abstract": "Reentrancy vulnerabilities in Ethereum smart contracts have caused significant financial losses, prompting the creation of several automated reentrancy detectors. However, these detectors frequently yield a high rate of false positives due to coarse detection rules, often misclassifying contracts protected by anti-reentrancy patterns as vulnerable. Thus, there is a critical need for the development of specialized automated tools to assist these detectors in accurately identifying anti-reentrancy patterns. While existing code analysis techniques show promise for this specific task, they still face significant challenges in recognizing anti-reentrancy patterns. These challenges are primarily due to the complex and varied features of anti-reentrancy patterns, compounded by insufficient prior knowledge about these features.",
+  "abstract_source_id": "src-abstract-ndss-2025-6abf6df3",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -207,6 +209,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-6abf6df3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/silence-false-alarms-identifying-anti-reentrancy-patterns-on-ethereum-to-refine-smart-contract-reentrancy-detection/",
+      "kind": "paper-page",
+      "title": "Silence False Alarms: Identifying Anti-Reentrancy Patterns on Ethereum to Refine Smart Contract Reentrancy Detection",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:48Z",
+      "content_hash": "sha256:4cccee1f7c6aaaf342ff70f42a8e1d6d0b14432e52187708d9f7d76fa696c56e",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

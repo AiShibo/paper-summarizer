@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-smarter-contracts-detecting-vulnerabilities-in-smart-con-c268fb7d",
   "title": "Smarter Contracts: Detecting Vulnerabilities in Smart Contracts with Deep Transfer Learning",
+  "abstract": "In this work, we develop ESCORT, a deep learning-based vulnerability detection method that uses a common feature extractor to learn generic bytecode semantics of smart contracts and separate branches to learn the features of each vulnerability type. As a multi-label classifier, ESCORT can detect multiple vulnerabilities of the contract at once. Compared to prior detection methods, ESCORT can be easily extended to new vulnerability types with limited data via transfer learning. When a new vulnerability type emerges, ESCORT adds a new branch to the trained feature extractor and trains it with limited data. We evaluated ESCORT on a dataset of 3.61 million smart contracts and demonstrate that it achieves an average F1 score of 98% on six vulnerability types in initial training and yields an average F1 score of 96% in transfer learning phase on five additional vulnerability types. To the best of our knowledge, ESCORT is the first deep learning-based framework that utilizes transfer learning on new vulnerability types with minimal model modification and re-training overhead. Compared with existing non-ML tools, ESCORT can be applied to contracts of arbitrary complexity and ensures 100% contract coverage. In addition, we enable concurrent detection of multiple vulnerability types using a single unified framework, thus avoiding the efforts of setting up multiple tools and greatly reducing the detection time. We will open source our dataset and the data labeling toolchain to facilitate future research.",
+  "abstract_source_id": "src-abstract-ndss-2023-c268fb7d",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Blockchains I",
@@ -252,6 +254,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-c268fb7d",
+      "url": "https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/",
+      "kind": "paper-page",
+      "title": "Smarter Contracts: Detecting Vulnerabilities in Smart Contracts with Deep Transfer Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:29Z",
+      "content_hash": "sha256:58a2ed7313d7a77a84ccea9be493b1166154deac04ea76cdc8f07a6448b97195",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

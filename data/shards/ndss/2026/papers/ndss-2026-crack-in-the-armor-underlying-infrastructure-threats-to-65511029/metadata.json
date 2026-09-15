@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-crack-in-the-armor-underlying-infrastructure-threats-to-65511029",
   "title": "Crack in the Armor: Underlying Infrastructure Threats to RPKI Publication Point Reachability",
+  "abstract": "In this paper, we collect information on the specific DNS and routing infrastructures used during the information retrieval process and analyze the infrastructure threats to the reachability of RPKI PPs. Regarding the DNS infrastructure, we report that 31 PPs (48.4%) are susceptible to DNS spoofing attacks and pinpoint the reasons for the appearance of DNSSEC-unprotected zones, such as CNAME redirections to unprotected zones and NS delegations to third-party insecure DNS servers. Regarding the routing infrastructure for communicating with nameservers, our analysis shows that a significant 55 PPs (85.9%) have at least one ROA-unprotected nameserver on their resolution paths, and highlights that the absence of ROA registration for gTLD nameservers accounts for vulnerabilities in 44 of these 55 PPs. Regarding the routing infrastructure for RP-PP communications, we report that 5 PPs fail to register ROAs for the IP addresses of their PP servers. Simulations of routing hijack attacks show that, in the case of the most vulnerable PP, up to 65% to 83% of ASes may experience a loss of connectivity to the PP.",
+  "abstract_source_id": "src-abstract-ndss-2026-65511029",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-65511029",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crack-in-the-armor-underlying-infrastructure-threats-to-rpki-publication-point-reachability/",
+      "kind": "paper-page",
+      "title": "Crack in the Armor: Underlying Infrastructure Threats to RPKI Publication Point Reachability",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:57Z",
+      "content_hash": "sha256:424a76e4f9b4eef9873ecd8684add7c5e6c958ac3c3bab582786e021b8ad0ad7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

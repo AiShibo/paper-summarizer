@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-orl-auditor-dataset-auditing-in-offline-deep-reinforceme-47bfed75",
   "title": "ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning",
+  "abstract": "Data is a critical asset in AI, as high-quality datasets can significantly improve the performance of machine learning models. In safety-critical domains such as autonomous vehicles, offline deep reinforcement learning (offline DRL) is frequently used to train models on pre-collected datasets, as opposed to training these models by interacting with the real-world environment as the online DRL. To support the development of these models, many institutions make datasets publicly available with open-source licenses, but these datasets are at risk of potential misuse or infringement. Injecting watermarks to the dataset may protect the intellectual property of the data, but it cannot handle datasets that have already been published and is infeasible to be altered afterward. Other existing solutions, such as dataset inference and membership inference, do not work well in the offline DRL scenario due to the diverse model behavior characteristics and offline setting constraints.",
+  "abstract_source_id": "src-abstract-ndss-2024-47bfed75",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-47bfed75",
+      "url": "https://www.ndss-symposium.org/ndss-paper/orl-auditor-dataset-auditing-in-offline-deep-reinforcement-learning/",
+      "kind": "paper-page",
+      "title": "ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:43Z",
+      "content_hash": "sha256:3342b18d463b73d6fb03ed4e20e39a8ec289fb735c6069e2b9002a335c72cfc7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-predictive-context-sensitive-fuzzing-8139966d",
   "title": "Predictive Context-sensitive Fuzzing",
+  "abstract": "Coverage-guided fuzzers expose bugs by progressively mutating testcases to drive execution to new program locations. Code coverage is currently the most effective and popular exploration feedback. For several bugs, though, also how execution reaches a buggy program location may matter: for those, only tracking what code a testcase exercises may lead fuzzers to overlook interesting program states. Unfortunately, context-sensitive coverage tracking comes with an inherent state explosion problem. Existing attempts to implement context-sensitive coverage-guided fuzzers struggle with it, experiencing non-trivial issues for precision (due to coverage collisions) and performance (due to context tracking and queue/map explosion).",
+  "abstract_source_id": "src-abstract-ndss-2024-8139966d",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-8139966d",
+      "url": "https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-fuzzing/",
+      "kind": "paper-page",
+      "title": "Predictive Context-sensitive Fuzzing",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:47Z",
+      "content_hash": "sha256:743f40e6bd4260f3fd3d8ab2f92e1003fd605bfff4a23068d129fbc0248d439d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

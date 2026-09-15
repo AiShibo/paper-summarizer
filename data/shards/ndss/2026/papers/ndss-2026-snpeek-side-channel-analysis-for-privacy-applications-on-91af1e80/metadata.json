@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-snpeek-side-channel-analysis-for-privacy-applications-on-91af1e80",
   "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
+  "abstract": "In this paper, we present SNPeek, an open-source toolkit that offers configurable side-channel tracing primitives on production AMD SEV-SNP hardware and couples them with statistical and machine-learning-based analysis pipelines for automated leakage estimation. We apply SNPeek to three representative workloads that are deployed on CVMs to enhance user privacy—private information retrieval, private heavy hitters, and Wasm user-defined functions—and uncover previously unnoticed leaks, including a covert channel that exfiltrated data at 497 kbit/s. The results show that SNPeek pinpoints vulnerabilities and guides low-overhead mitigations based on oblivious memory and differential privacy, giving practitioners a practical path to deploy CVMs with meaningful confidentiality guarantees.",
+  "abstract_source_id": "src-abstract-ndss-2026-91af1e80",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -223,6 +225,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-91af1e80",
+      "url": "https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+      "kind": "paper-page",
+      "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:26Z",
+      "content_hash": "sha256:bd8e14426dc307d4017051c027861333dfc73e368947ade94daffb5d292526c7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

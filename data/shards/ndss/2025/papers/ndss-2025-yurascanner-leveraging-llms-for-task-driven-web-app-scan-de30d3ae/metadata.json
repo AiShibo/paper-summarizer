@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-yurascanner-leveraging-llms-for-task-driven-web-app-scan-de30d3ae",
   "title": "YuraScanner: Leveraging LLMs for Task-driven Web App Scanning",
+  "abstract": "We evaluated YuraScanner on 20 diverse web applications, focusing on task extraction, execution accuracy, and vulnerability detection. The results demonstrate YuraScanner's superiority in discovering new attack surfaces and deeper states, significantly improving vulnerability detection. Notably, YuraScanner identified 12 unique zero-day XSS vulnerabilities, compared to three by Black Widow. This study highlights YuraScanner's potential to revolutionize web application scanning with its automated, task-driven approach.",
+  "abstract_source_id": "src-abstract-ndss-2025-de30d3ae",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-de30d3ae",
+      "url": "https://www.ndss-symposium.org/ndss-paper/yurascanner-leveraging-llms-for-task-driven-web-app-scanning/",
+      "kind": "paper-page",
+      "title": "YuraScanner: Leveraging LLMs for Task-driven Web App Scanning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:18Z",
+      "content_hash": "sha256:fd8924826f3164a63c262ebb483a84ad815fee03735a87d18cc6705ccaa72ba2",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

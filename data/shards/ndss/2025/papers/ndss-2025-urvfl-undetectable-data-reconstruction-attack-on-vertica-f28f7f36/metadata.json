@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-urvfl-undetectable-data-reconstruction-attack-on-vertica-f28f7f36",
   "title": "URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning",
+  "abstract": "Launching effective malicious attacks in VFL presents unique challenges: 1) Firstly, given the distributed nature of clients’ data features and models, each client rigorously guards its privacy and prohibits direct querying, complicating any attempts to steal data; 2) Existing malicious attacks alter the underlying VFL training task, and are hence easily detected by comparing the received gradients with the ones received in honest training. To overcome these challenges, we develop URVFL, a novel attack strategy that evades current detection mechanisms. The key idea is to integrate a discriminator with auxiliary classifier that takes a full advantage of the label information and generates malicious gradients to the victim clients: on one hand, label information helps to better characterize embeddings of samples from distinct classes, yielding an improved reconstruction performance; on the other hand, computing malicious gradients with label information better mimics the honest training, making the malicious gradients indistinguishable from the honest ones, and the attack much more stealthy. Our comprehensive experiments demonstrate that URVFL significantly outperforms existing attacks, and successfully circumvents SOTA detection methods for malicious attacks. Additional ablation studies and evaluations on defenses further underscore the robustness and effectiveness of URVFL.",
+  "abstract_source_id": "src-abstract-ndss-2025-f28f7f36",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-f28f7f36",
+      "url": "https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/",
+      "kind": "paper-page",
+      "title": "URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:11Z",
+      "content_hash": "sha256:fda00ca21db60c4086041d456a59131b844fbb2c4677bdba857174b05c6a60fa",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

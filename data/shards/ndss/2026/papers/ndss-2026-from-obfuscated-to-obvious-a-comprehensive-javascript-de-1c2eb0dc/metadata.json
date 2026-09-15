@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-from-obfuscated-to-obvious-a-comprehensive-javascript-de-1c2eb0dc",
   "title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
+  "abstract": "We construct and release the largest real-world obfuscated JavaScript dataset with 44,421 samples (23,212 wild malicious + 21,209 benign samples). Evaluation shows JSIMPLIFIER outperforms existing tools with 100% processing capability across 20 obfuscation techniques, 100% correctness on evaluation subsets, 88.2% code complexity reduction, and over 4-fold readability improvement validated by multiple LLMs. Our results advance benchmarks for JavaScript deobfuscation research and practical security applications.",
+  "abstract_source_id": "src-abstract-ndss-2026-1c2eb0dc",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-1c2eb0dc",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+      "kind": "paper-page",
+      "title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:21Z",
+      "content_hash": "sha256:d8dd03e9884e9138b822f70c0d4bd1a050fc3e0cd097a0ea6c045c58f0e90ec5",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

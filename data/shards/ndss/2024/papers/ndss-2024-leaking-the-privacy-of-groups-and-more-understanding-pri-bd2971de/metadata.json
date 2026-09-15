@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-leaking-the-privacy-of-groups-and-more-understanding-pri-bd2971de",
   "title": "Leaking the Privacy of Groups and More: Understanding Privacy Risks of Cross-App Content Sharing in Mobile Ecosystem",
+  "abstract": "In this paper, we provide the first in-depth study on the privacy implications of Cross-app content sharing (as we call Cracs) activities in the mobile ecosystem. Our research showed that during the sharing process, the adversary can not only track and infer user interests as traditional web trackers but also cause other severe privacy implications to app users. More specifically, due to multiple privacy-intrusive designs and implementations of Cracs, an adversary can easily reveal a user's social relations to an outside party, or unnecessarily expose user identities and her associated personal data (e.g., user accounts in another app). Such privacy implications are indeed a concern for app users, as confirmed by a user study we have performed with 300 participants.",
+  "abstract_source_id": "src-abstract-ndss-2024-bd2971de",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-bd2971de",
+      "url": "https://www.ndss-symposium.org/ndss-paper/leaking-the-privacy-of-groups-and-more-understanding-privacy-risks-of-cross-app-content-sharing-in-mobile-ecosystem/",
+      "kind": "paper-page",
+      "title": "Leaking the Privacy of Groups and More: Understanding Privacy Risks of Cross-App Content Sharing in Mobile Ecosystem",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:33Z",
+      "content_hash": "sha256:e8342d4d5b44dcc77a40395f3a9d921ff7bc965394b62264d1d25973fe509480",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

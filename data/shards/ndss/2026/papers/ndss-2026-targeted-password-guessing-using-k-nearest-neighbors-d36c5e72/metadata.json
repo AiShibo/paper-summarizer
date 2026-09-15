@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-targeted-password-guessing-using-k-nearest-neighbors-d36c5e72",
   "title": "Targeted Password Guessing Using k-Nearest Neighbors",
+  "abstract": "As the number of users’ password accounts are constantly increasing, users are more and more inclined to reuse passwords. Recently, considerable efforts have been made to construct targeted password guessing models to characterize users’ password reuse behaviors. However, existing studies mainly focus on characterizing slight modifications by training only on similar password pairs (e.g., Shark0301 → shark03). This leads to overfitting and causes existing models to overlook users’ large modification behaviors (e.g., Shark0301 → Bear03). To fill this gap, this paper introduces a new non-parametric method named k-nearest-neighbors targeted password guessing (KNNTPG). KNN-TPG builds a datastore that retains the context vector of all source passwords along with prefixes of the targeted passwords. During the generation of a new password, KNNTPG retrieves k nearest neighbor vectors from the datastore to ensure that the generated passwords align better with realistic password distributions. By creatively combining KNN-TPG with our proposed Transformer-based password model, we propose a new targeted password guessing model, namely KNNGuess. At each step of generating a new password, KNNGuess predicts and utilizes three distinct distributions, aiming to comprehensively model users’ password reuse behaviors.",
+  "abstract_source_id": "src-abstract-ndss-2026-d36c5e72",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -118,6 +120,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-d36c5e72",
+      "url": "https://www.ndss-symposium.org/ndss-paper/targeted-password-guessing-using-k-nearest-neighbors/",
+      "kind": "paper-page",
+      "title": "Targeted Password Guessing Using k-Nearest Neighbors",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:32Z",
+      "content_hash": "sha256:6e76302a482ec404effc94b2c7d399ad1b3ab3b29b6e51ac6db444b849f4990c",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-huma-censorship-circumvention-via-web-protocol-tunneling-e498b807",
   "title": "Huma: Censorship Circumvention via Web Protocol Tunneling with Deferred Traffic Replacement",
+  "abstract": "We present Huma, a new web protocol tunneling tool that addresses existing detection concerns. By deferring covert data transmissions, Huma allows a website participating in circumvention to first respond with unmodified content, while responses embedding covert data are prepared in the background and delivered during the client's next request, thus avoiding timing anomalies that facilitate fingerprinting. By relying on an overt user simulator modeled after realistic browsing activity, Huma also follows users' expected browsing behaviors. Lastly, Huma prevents adversary-controlled websites from tying communication endpoints together, enabling straightforward extensions to enable covert communications in Intranet censorship scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2026-e498b807",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -118,6 +120,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-e498b807",
+      "url": "https://www.ndss-symposium.org/ndss-paper/huma-censorship-circumvention-via-web-protocol-tunneling-with-deferred-traffic-replacement/",
+      "kind": "paper-page",
+      "title": "Huma: Censorship Circumvention via Web Protocol Tunneling with Deferred Traffic Replacement",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:26Z",
+      "content_hash": "sha256:d519a046ea73fb61655d84cd337bb2241f574f19114847b04d8d860ac16f8519",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-overconfidence-is-a-dangerous-thing-mitigating-membershi-9ca41c40",
   "title": "Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction",
+  "abstract": "This work proposes a defense technique, HAMP that can achieve both strong membership privacy and high accuracy, without requiring extra data. To mitigate MIAs in different forms, we observe that they can be unified as they all exploit the ML model’s overconfidence in predicting training samples through different proxies. This motivates our design to enforce less confident prediction by the model, hence forcing the model to behave similarly on the training and testing samples. HAMP consists of a novel training framework with high-entropy soft labels and an entropy-based regularizer to constrain the model’s prediction while still achieving high accuracy. To further reduce privacy risk, HAMP uniformly modifies all the prediction outputs to become low-confidence outputs while preserving the accuracy, which effectively obscures the differences between the prediction on members and non-members.",
+  "abstract_source_id": "src-abstract-ndss-2024-9ca41c40",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -105,6 +107,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-9ca41c40",
+      "url": "https://www.ndss-symposium.org/ndss-paper/overconfidence-is-a-dangerous-thing-mitigating-membership-inference-attacks-by-enforcing-less-confident-prediction/",
+      "kind": "paper-page",
+      "title": "Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:43Z",
+      "content_hash": "sha256:1b7a06588737fb3d944375d8894a2b9f037f7d090d4d07df136744bb7b9a941a",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

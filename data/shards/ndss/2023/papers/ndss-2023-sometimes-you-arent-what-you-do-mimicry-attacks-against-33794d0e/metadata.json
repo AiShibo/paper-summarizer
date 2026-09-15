@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-sometimes-you-arent-what-you-do-mimicry-attacks-against-33794d0e",
   "title": "Sometimes, You Aren’t What You Do: Mimicry Attacks against Provenance Graph Host Intrusion Detection Systems",
+  "abstract": "In this work, we reveal that systematic design choices have allowed mimicry attacks to continue to abound in provenance graph host intrusion detection systems (Prov-HIDS). Against a corpus of exemplar Prov-HIDS, we develop evasion tactics that allow attackers to hide within benign process behaviors. Evaluating against public datasets, we demonstrate that an attacker can consistently evade detection (100% success rate) without modifying the underlying attack behaviors. We go on to show that our approach is feasible in live attack scenarios and outperforms domain-general adversarial sample techniques. Through open sourcing our code and datasets, this work will serve as a benchmark for the evaluation of future Prov-HIDS.",
+  "abstract_source_id": "src-abstract-ndss-2023-33794d0e",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Cyber Attacks",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-33794d0e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sometimes-you-arent-what-you-do-mimicry-attacks-against-provenance-graph-host-intrusion-detection-systems/",
+      "kind": "paper-page",
+      "title": "Sometimes, You Aren’t What You Do: Mimicry Attacks against Provenance Graph Host Intrusion Detection Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:30Z",
+      "content_hash": "sha256:8632518b9b9949489f2b21b324968f6398d38887a25fc190d23ee1ed98a0f2c8",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

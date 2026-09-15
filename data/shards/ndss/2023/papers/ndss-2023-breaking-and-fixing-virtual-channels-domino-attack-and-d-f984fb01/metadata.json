@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-breaking-and-fixing-virtual-channels-domino-attack-and-d-f984fb01",
   "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+  "abstract": "Payment channel networks (PCNs) mitigate the scalability issues of current decentralized cryptocurrencies. They allow for arbitrarily many payments between users connected through a path of intermediate payment channels, while requiring interacting with the blockchain only to open and close the channels. Unfortunately, PCNs are (i) tailored to payments, excluding more complex smart contract functionalities, such as the oracle-enabling Discreet Log Contracts and (ii) their need for active participation from intermediaries may make payments unreliable, slower, expensive, and privacy-invasive. Virtual channels are among the most promising techniques to mitigate these issues, allowing two endpoints of a path to create a direct channel over the intermediaries without any interaction with the blockchain. After such a virtual channel is constructed, (i) the endpoints can use this direct channel for applications other than payments and (ii) the intermediaries are no longer involved in updates.",
+  "abstract_source_id": "src-abstract-ndss-2023-f984fb01",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Blockchains II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-f984fb01",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-and-fixing-virtual-channels-domino-attack-and-donner/",
+      "kind": "paper-page",
+      "title": "Breaking and Fixing Virtual Channels: Domino Attack and Donner",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:57:52Z",
+      "content_hash": "sha256:e5387e1289e528dd44720aca2e51d789458b867abf1ba58c3d8d7d7b0430ae29",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

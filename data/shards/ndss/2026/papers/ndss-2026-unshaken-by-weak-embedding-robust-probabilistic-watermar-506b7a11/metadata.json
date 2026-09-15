@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-unshaken-by-weak-embedding-robust-probabilistic-watermar-506b7a11",
   "title": "Unshaken by Weak Embedding: Robust Probabilistic Watermarking for Dataset Copyright Protection",
+  "abstract": "This work proposes an innovative intrusive watermarking approach, dubbed DIP (Data Intelligence Probabilistic Watermarking), to support dataset ownership verification while addressing the limitations above. It applies a distribution-aware sample selection algorithm, embeds probabilistic associations between watermarked samples and multiple outputs, and adopts a two-fold verification framework that leverages both inference results and their distribution as watermark signals. Extensive experiments on 4 image and 5 text datasets demonstrate that DIP maintains the model’s performance, and achieves an average watermark success rate of 89.4% at a 1% injection budget. We further validate that DIP is orthogonal to various watermarked data designs and can seamlessly integrate their strengths. Moreover, DIP proves effective across diverse modalities (image and text) and tasks (regression), with strong performance on generation tasks in large language models. DIP exhibits robustness against various adversarial environments, including 3 based on data augmentation, 3 on data cleansing, 4 on robust training and 3 on collusion-based watermark removal, while existing SOTAs fail. The source code is released at https://github.com/SixLab6/DIP.",
+  "abstract_source_id": "src-abstract-ndss-2026-506b7a11",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -244,6 +246,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-506b7a11",
+      "url": "https://www.ndss-symposium.org/ndss-paper/unshaken-by-weak-embedding-robust-probabilistic-watermarking-for-dataset-copyright-protection/",
+      "kind": "paper-page",
+      "title": "Unshaken by Weak Embedding: Robust Probabilistic Watermarking for Dataset Copyright Protection",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:45Z",
+      "content_hash": "sha256:fc6b1d8cee468c65c7f206e3397c96681ddbaa406460f57b0a719da31499a277",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

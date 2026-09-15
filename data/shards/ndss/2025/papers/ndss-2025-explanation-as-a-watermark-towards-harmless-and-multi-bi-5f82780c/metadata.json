@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-explanation-as-a-watermark-towards-harmless-and-multi-bi-5f82780c",
   "title": "Explanation as a Watermark: Towards Harmless and Multi-bit Model Ownership Verification via Watermarking Feature Attribution",
+  "abstract": "In this paper, we argue that both limitations stem from the 'zero-bit' nature of existing watermarking schemes, where they exploit the status ($i.e.$, misclassified) of predictions for verification. Motivated by this understanding, we design a new watermarking paradigm, $i.e.$, Explanation as a Watermark (EaaW), that implants verification behaviors into the explanation of feature attribution instead of model predictions. Specifically, EaaW embeds a `multi-bit' watermark into the feature attribution explanation of specific trigger samples without changing the original prediction. We correspondingly design the watermark embedding and extraction algorithms inspired by explainable artificial intelligence. In particular, our approach can be used for different tasks ($e.g.$, image classification and text generation). Extensive experiments verify the effectiveness and harmlessness of our EaaW and its resistance to potential attacks.",
+  "abstract_source_id": "src-abstract-ndss-2025-5f82780c",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-5f82780c",
+      "url": "https://www.ndss-symposium.org/ndss-paper/explanation-as-a-watermark-towards-harmless-and-multi-bit-model-ownership-verification-via-watermarking-feature-attribution/",
+      "kind": "paper-page",
+      "title": "Explanation as a Watermark: Towards Harmless and Multi-bit Model Ownership Verification via Watermarking Feature Attribution",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:51Z",
+      "content_hash": "sha256:673706fb2eda7f113e8c8c56d31bcb24e54065ec6a9172822b95eb9a9bd14658",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-siguard-guarding-secure-inference-with-post-data-privacy-edd60449",
   "title": "SIGuard: Guarding Secure Inference with Post Data Privacy",
+  "abstract": "To tackle this open challenge, we propose textbf{SIGuard}, a framework to guard the output privacy of secure inference from being exploited by MIAs. textbf{SIGuard}'s protocol can seamlessly be integrated into existing MPC-based secure inference protocols without intruding on their computation. It proceeds with encrypted predictions outputted from secure inference, and then crafts noise for perturbing encrypted predictions without compromising inference accuracy; only the perturbed predictions are revealed to users at the end of protocol execution. textbf{SIGuard} achieves stringent privacy guarantees via a co-design of MPC techniques and machine learning. We further conduct comprehensive evaluations to find the optimal hyper-parameters for balanced efficiency and defense effectiveness against MIAs. Together, our evaluation shows textbf{SIGuard} effectively defends against MIAs by reducing the attack accuracy to be around the random guess with overhead (1.1s), occupying ~24.8% of secure inference (3.29s) on widely used ResNet34 over CIFAR-10.",
+  "abstract_source_id": "src-abstract-ndss-2025-edd60449",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-edd60449",
+      "url": "https://www.ndss-symposium.org/ndss-paper/siguard-guarding-secure-inference-with-post-data-privacy/",
+      "kind": "paper-page",
+      "title": "SIGuard: Guarding Secure Inference with Post Data Privacy",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:47Z",
+      "content_hash": "sha256:f83b4fb13437ee42ff025af8aec2d8d88010f5474390a351f96f80bac85a7605",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

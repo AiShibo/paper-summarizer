@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-pisces-private-and-compliable-cryptocurrency-exchange-0eccc736",
   "title": "Pisces: Private and Compliable Cryptocurrency Exchange",
+  "abstract": "In this paper, we propose a cryptocurrency exchange that restores user anonymity for the first time. To our surprise, the seemingly well-studied privacy/anonymity problem has several new challenges in this setting. Since the public blockchain and internal transaction activities naturally provide many non-trivial leakages to the platform, internal privacy is not only useful in the usual sense but also becomes necessary for regaining the basic anonymity of user transactions. We also ensure that the user cannot double spend, and the user has to properly report accumulated profit for tax purposes, even in the private setting. We give a careful modeling and efficient construction of the system that achieves constant computation and communication overhead (with only simple cryptographic tools and rigorous security analysis); we also implement our system and evaluate its practical performance.",
+  "abstract_source_id": "src-abstract-ndss-2024-0eccc736",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-0eccc736",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pisces-private-and-compliable-cryptocurrency-exchange/",
+      "kind": "paper-page",
+      "title": "Pisces: Private and Compliable Cryptocurrency Exchange",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:46Z",
+      "content_hash": "sha256:5edece1a4115619d915db736a27689779920572621435c1c1bf40d1995cf96e7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

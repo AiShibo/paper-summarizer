@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-paralyzing-drones-via-emi-signal-injection-on-sensory-co-37ce77c7",
   "title": "Paralyzing Drones via EMI Signal Injection on Sensory Communication Channels",
+  "abstract": "In this paper, we propose a novel anti-drone technique that effectively corrupts ANY IMU sensor data regardless of the sensor’s type, model, and manufacturer. Our key idea is to distort the communication channel between the IMU and control unit of a drone by using an electromagnetic interference (EMI) signal injection. Experimentally, for a given control unit board, regardless\n\nof the sensor used, we discovered a distinct susceptible frequency at which an EMI signal can greatly distort the sensor data. Compared to a general EM pulse (EMP) attack, it requires much less power as it targets the specific susceptible frequency. It can also avoid collateral damage from the EMP attack. For practical evaluation, we demonstrate the feasibility of the attack using real drones; the attack instantly paralyzed the drones. Lastly, we conclude by presenting practical challenges for its mitigation.",
+  "abstract_source_id": "src-abstract-ndss-2023-37ce77c7",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Cyber-Physical Systems Security II",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-37ce77c7",
+      "url": "https://www.ndss-symposium.org/ndss-paper/paralyzing-drones-via-emi-signal-injection-on-sensory-communication-channels/",
+      "kind": "paper-page",
+      "title": "Paralyzing Drones via EMI Signal Injection on Sensory Communication Channels",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:18Z",
+      "content_hash": "sha256:b2a50c3a59d2a96b0cc76889eb95cc247e2138f5282b235e9c3bc2ac107abac7",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

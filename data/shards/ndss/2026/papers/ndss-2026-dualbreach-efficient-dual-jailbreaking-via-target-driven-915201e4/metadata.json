@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-dualbreach-efficient-dual-jailbreaking-via-target-driven-915201e4",
   "title": "DUALBREACH: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization",
+  "abstract": "Recent research has focused on exploring the vulnerabilities of Large Language Models (LLMs), aiming to elicit harmful and/or sensitive content from LLMs. However, due to the insufficient research on dual-jailbreaking—attacks targeting both LLMs and Guardrails, the effectiveness of existing attacks is limited when attempting to bypass safety-aligned LLMs shielded by guardrails. Therefore, in this paper, we propose DUALBREACH, a target-driven framework for dual-jailbreaking. DUALBREACH employs a Target-driven Initialization (TDI) strategy to dynamically construct initial prompts, combined with a Multi-Target Optimization (MTO) method that utilizes approximate gradients to jointly adapt the prompts across guardrails and LLMs, which can simultaneously save the number of queries and achieve a high dual-jailbreaking success rate. For black-box guardrails, DUALBREACH either employs a powerful open-sourced guardrail or imitates the target black-box guardrail by training a proxy model, to incorporate guardrails into the MTO process.",
+  "abstract_source_id": "src-abstract-ndss-2026-915201e4",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -244,6 +246,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-915201e4",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dualbreach-efficient-dual-jailbreaking-via-target-driven-initialization-and-multi-target-optimization/",
+      "kind": "paper-page",
+      "title": "DUALBREACH: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:09Z",
+      "content_hash": "sha256:b38dd9a646c3e8ed3dc295229165fbed0531ac65b656c9864fd86aae037e8867",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-indicator-of-benignity-an-industry-view-of-false-positiv-8da174af",
   "title": "Indicator of Benignity: An Industry View of False Positive in Malicious Domain Detection and its Mitigation",
+  "abstract": "In this paper, we make the first effort focusing on IOB detection. Our work is built upon our key finding that for many FPs in production, their IOBs can be found on the Internet. However, due to the openness of the Internet and unstructured Web content, we face two main challenges to identify these IOBs: understanding what an IOB is and assessing the trustworthiness of an IOB. To address these challenges, we propose a transitive trust model for IOB and implement it in a system called IOBHunter. IOBHunter leverages LLM and chain-of-thought (CoT) which have demonstrated promising capabilities to address several other security threats. Our evaluation using a dataset that contains verified FPs shows that IOBHunter can achieve 99.22% precision and 68.6% recall. IOBHunter is further evaluated in a two-months real-world deployment, in which IOBHunter has identified 4,338 confirmed FPs and 2,051 compromised domains.",
+  "abstract_source_id": "src-abstract-ndss-2026-8da174af",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-8da174af",
+      "url": "https://www.ndss-symposium.org/ndss-paper/indicator-of-benignity-an-industry-view-of-false-positive-in-malicious-domain-detection-and-its-mitigation/",
+      "kind": "paper-page",
+      "title": "Indicator of Benignity: An Industry View of False Positive in Malicious Domain Detection and its Mitigation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:30Z",
+      "content_hash": "sha256:a239bfd38e228518cd3e2fb2642f944308d10ce8fe74f1124de1fbaf324f6b06",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

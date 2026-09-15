@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-the-skeleton-keys-a-large-scale-analysis-of-credential-l-52dae424",
   "title": "The Skeleton Keys: A Large Scale Analysis of Credential Leakage in Mini-apps",
+  "abstract": "In this paper, we conduct the first systematic study of the credential system in the app-in-app paradigm and draw the security landscape of credential leakage risks. Consequently, our study shows that 21 popular super-app platforms delegate sensitive services to mini-app servers with seven types of credentials. Unfortunately, these credentials may suffer from leakage threats caused by malicious mini-app users, posing serious security threats to both super-app platforms and mini-app servers. Then, we design and implement a novel credential security verification tool, called KeyMagnet, that can effectively assess the security implications of credential leakage. To tackle unstructured and dynamically retrieved credentials in the app-in-app paradigm, KeyMagnet extracts and understands the semantics of credential-use in mini-apps and verifies their security. Last, by applying KeyMagnet on 413,775 real-world mini-apps of 6 super-app platforms, 84,491 credential leaks are detected, spanning over 54,728 mini-apps. We confirm credential leakage can cause serious security hazards, such as hijacking the accounts of all mini-app users and stealing users' sensitive data. In response, we have engaged in responsible vulnerability disclosure with the corresponding developers and are actively helping them resolve these issues. At the time of writing, 89 reported issues have been assigned with CVE IDs.",
+  "abstract_source_id": "src-abstract-ndss-2025-52dae424",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-52dae424",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-skeleton-keys-a-large-scale-analysis-of-credential-leakage-in-mini-apps/",
+      "kind": "paper-page",
+      "title": "The Skeleton Keys: A Large Scale Analysis of Credential Leakage in Mini-apps",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:58Z",
+      "content_hash": "sha256:291b8140f591f327caeae2e9c54037adab3d48824bfc9e2975292f234424c0f3",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

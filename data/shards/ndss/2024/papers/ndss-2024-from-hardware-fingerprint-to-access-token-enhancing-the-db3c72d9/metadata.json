@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-from-hardware-fingerprint-to-access-token-enhancing-the-db3c72d9",
   "title": "From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices",
+  "abstract": "In this paper, we present MCU-Token, a secure hardware fingerprinting framework for MCU-based IoT devices even if the cryptographic mechanisms (e.g., private keys) are compromised. MCU-Token can be easily integrated with various IoT devices by simply adding a short hardware fingerprint-based token to the existing payload. To prevent the reuse of this token, we propose a message mapping approach that binds the token to a specific request via generating the hardware fingerprints based on the request payload. To defeat the machine learning attacks, we mix the valid fingerprints with poisoning data so that attackers cannot train a usable model with the leaked tokens. MCU-Token can defend against armored adversary who may replay, craft, and offload the requests via MitM or use both hardware (e.g., use identical devices) and software (e.g., machine learning attacks) strategies to mimic the fingerprints. The system evaluation shows that MCU-Token can achieve high accuracy (over 97%) with a low overhead across various IoT devices and application scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2024-db3c72d9",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -231,6 +233,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-db3c72d9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-hardware-fingerprint-to-access-token-enhancing-the-authentication-on-iot-devices/",
+      "kind": "paper-page",
+      "title": "From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:21Z",
+      "content_hash": "sha256:ac69027d279dd9559039e83509c2113e0ddb4e31d382479e68e244924590d71b",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

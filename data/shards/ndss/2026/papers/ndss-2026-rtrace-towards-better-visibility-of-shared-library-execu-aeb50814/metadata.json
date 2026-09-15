@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-rtrace-towards-better-visibility-of-shared-library-execu-aeb50814",
   "title": "RTrace: Towards Better Visibility of Shared Library Execution",
+  "abstract": "In this paper, we present RTrace, a tracing tool designed to address the limitations of existing solutions.\n\nWe analyze the root causes of why widely used tracers miss function calls and identify common pitfalls such as relying on incorrect symbol information and inability to monitor early or indirect function invocations.\n\nRTrace overcomes these challenges by incorporating comprehensive runtime monitoring, function boundary detection, and support for implicit and unconventional function calls.\n\nWe compare RTrace to four state-of-the-art tracers, namely, emph{ltrace}, emph{drltrace}, emph{ldaudit}, and emph{IntelPT}.\n\nOur evaluation across 21 applications and 92 shared libraries shows that RTrace significantly outperforms existing tools in detecting function call.\n\nRTrace achieves an F1-score of at least 0.92 on all benchmarks, whereas the best existing tracer reaches only 0.74, providing more accurate visibility into shared library runtime behavior.\n\nFinally, we show how RTrace can be used to assist in detecting malicious package and in vulnerability analysis by providing a more complete view of shared library function usage.",
+  "abstract_source_id": "src-abstract-ndss-2026-aeb50814",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -118,6 +120,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-aeb50814",
+      "url": "https://www.ndss-symposium.org/ndss-paper/rtrace-towards-better-visibility-of-shared-library-execution/",
+      "kind": "paper-page",
+      "title": "RTrace: Towards Better Visibility of Shared Library Execution",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:19Z",
+      "content_hash": "sha256:e16bf065e6bfde8c840c41676b8227a7f43405b54deb73d2aa9d7b3c520bd8c3",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

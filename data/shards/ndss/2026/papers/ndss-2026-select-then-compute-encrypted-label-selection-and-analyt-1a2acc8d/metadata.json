@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-select-then-compute-encrypted-label-selection-and-analyt-1a2acc8d",
   "title": "Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE",
+  "abstract": "Private Set Intersection (PSI) protocols allow a querier to determine whether an item exists in a dataset without revealing the query or exposing non-matching records. It has many applications in fraud detection, compliance monitoring, healthcare analytics, and secure collaboration across distributed data sources. In these cases, the results obtained through PSI can be sensitive and even require some kind of downstream computation on the associated data before the outcome is revealed to the querier, computation that may involve floating-point arithmetic, such as the inference of a machine learning model. Although many such protocols have been proposed, and some of them even enable secure queries over distributed encrypted sets, they fail to address the aforementioned real-world complexities.",
+  "abstract_source_id": "src-abstract-ndss-2026-1a2acc8d",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -244,6 +246,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-1a2acc8d",
+      "url": "https://www.ndss-symposium.org/ndss-paper/select-then-compute-encrypted-label-selection-and-analytics-over-distributed-datasets-using-fhe/",
+      "kind": "paper-page",
+      "title": "Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:22Z",
+      "content_hash": "sha256:a4843ead1c50eec33dbeea3a89010b7c2fcf21b64e9203b8480db43fb86202dd",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

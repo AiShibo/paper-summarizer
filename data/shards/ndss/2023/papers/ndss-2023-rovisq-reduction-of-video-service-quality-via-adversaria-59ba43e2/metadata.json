@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-rovisq-reduction-of-video-service-quality-via-adversaria-59ba43e2",
   "title": "RoVISQ: Reduction of Video Service Quality via Adversarial Attacks on Deep Learning-based Video Compression",
+  "abstract": "In this paper, we conduct the first systematic study for adversarial attacks on deep learning-based video compression and downstream classification systems. Our attack framework, dubbed RoVISQ, manipulates the Rate-Distortion (R-D) relationship of a video compression model to achieve one or both of the following goals: (1) increasing the network bandwidth, (2) degrading the video quality for end-users. We further devise new objectives for targeted and untargeted attacks to a downstream video classification service. Finally, we design an input-invariant perturbation that universally disrupts video compression and classification systems in real time. Unlike previously proposed attacks on video classification, our adversarial perturbations are the first to withstand compression.",
+  "abstract_source_id": "src-abstract-ndss-2023-59ba43e2",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "ML and AI II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-59ba43e2",
+      "url": "https://www.ndss-symposium.org/ndss-paper/rovisq-reduction-of-video-service-quality-via-adversarial-attacks-on-deep-learning-based-video-compression/",
+      "kind": "paper-page",
+      "title": "RoVISQ: Reduction of Video Service Quality via Adversarial Attacks on Deep Learning-based Video Compression",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:27Z",
+      "content_hash": "sha256:b20a90c7ba33b80dcd4e8af0dca284a3143c19baccd4ae7e233a8cc1bbfc9e14",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

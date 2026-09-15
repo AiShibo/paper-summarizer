@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-cross-consensus-reliable-broadcast-and-its-applications-94c97561",
   "title": "Cross-Consensus Reliable Broadcast and its Applications",
+  "abstract": "In this work, we propose a new primitive called cross-consensus reliable broadcast (XRBC). The XRBC primitive models the security properties of communication between two groups, where at least one group executes a consensus protocol. We provide three constructions of XRBC under varying assumptions and present three applications for our XRBC protocols: a cross-shard coordination protocol via a case study of Reticulum (NDSS 2024), a protocol for cross-shard transactions via a case study of Chainspace (NDSS 2018), and a solution for cross-chain bridge. Our evaluation results show that our protocols are highly efficient and benefit different applications. For example, in our case study on Reticulum, our approach achieves 61.16% lower latency than the vanilla approach.",
+  "abstract_source_id": "src-abstract-ndss-2026-94c97561",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-94c97561",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-consensus-reliable-broadcast-and-its-applications/",
+      "kind": "paper-page",
+      "title": "Cross-Consensus Reliable Broadcast and its Applications",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:00Z",
+      "content_hash": "sha256:733a3ee477961bcd2ed936931ba1ddea79636a6a191f726972815de93610191b",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

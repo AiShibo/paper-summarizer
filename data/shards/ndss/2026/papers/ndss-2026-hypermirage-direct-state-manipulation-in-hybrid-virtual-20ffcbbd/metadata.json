@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-hypermirage-direct-state-manipulation-in-hybrid-virtual-20ffcbbd",
   "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing",
+  "abstract": "We address these shortcomings via HyperMirage, a novel hypervisor fuzzer that automatically and efficiently explores the large space of architectural states emulated by virtual CPU implementations. HyperMirage spares security analysts from manually crafting fuzzing seeds in the form of architecturally valid VM states by employing a novel Direct State Manipulation approach, which directly and automatically mutates the HV's view of a VM's state that is consumed during fuzzing. Additionally, we extend a state-of-the-art compiler-based symbolic execution engine, making it the first one available for bare-metal targets, and integrate it into an efficient coverage-guided HV fuzzer, enabling HyperMirage to drastically improve fuzzing throughput when compared to existing techniques.",
+  "abstract_source_id": "src-abstract-ndss-2026-20ffcbbd",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -139,6 +141,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-20ffcbbd",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/",
+      "kind": "paper-page",
+      "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:26Z",
+      "content_hash": "sha256:220fdb2669fab79763981f48d702a0e91971e83a734f49a4f7b09ca8024b5050",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

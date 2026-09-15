@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2023-brokenwire-wireless-disruption-of-ccs-electric-vehicle-c-ff7a87f0",
   "title": "Brokenwire: Wireless Disruption of CCS Electric Vehicle Charging",
+  "abstract": "We present a novel attack against the Combined Charging System, one of the most widely used DC rapid charging technologies for electric vehicles (EVs). Our attack, Brokenwire, interrupts necessary control communication between the vehicle and charger, causing charging sessions to abort. The attack requires only temporary physical proximity and can be conducted wirelessly from a distance, allowing individual vehicles or entire fleets to be disrupted stealthily and simultaneously. In addition, it can be mounted with off-the-shelf radio hardware and minimal technical knowledge. By exploiting CSMA/CA behavior, only a very weak signal needs to be induced into the victim to disrupt communication — exceeding the effectiveness of broadband noise jamming by three orders of magnitude. The exploited behavior is a required part of the HomePlug Green PHY, DIN 70121 & ISO 15118 standards and all known implementations exhibit it.",
+  "abstract_source_id": "src-abstract-ndss-2023-ff7a87f0",
   "venue": "ndss",
   "year": 2023,
   "track_or_session": "Cyber-Physical Systems Security II",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2023-ff7a87f0",
+      "url": "https://www.ndss-symposium.org/ndss-paper/brokenwire-wireless-disruption-of-ccs-electric-vehicle-charging/",
+      "kind": "paper-page",
+      "title": "Brokenwire: Wireless Disruption of CCS Electric Vehicle Charging",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:57:53Z",
+      "content_hash": "sha256:b0f9877ef194c6c9734a98906b2c5d99d626938926ace3768de7cc9dcc05f6dd",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

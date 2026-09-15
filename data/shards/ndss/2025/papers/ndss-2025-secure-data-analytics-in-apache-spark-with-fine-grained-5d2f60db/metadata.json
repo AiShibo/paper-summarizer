@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-secure-data-analytics-in-apache-spark-with-fine-grained-5d2f60db",
   "title": "Secure Data Analytics in Apache Spark with Fine-grained Policy Enforcement and Isolated Execution",
+  "abstract": "This paper presents Laputa, a secure policy enforcement framework on Spark. Specifically, Laputa designs a pattern matching based policy checking on the physical plans, which is generally applicable to Spark applications with more fine-grained policies. Then, Laputa compartmentalizes Spark applications based on confidential computing, by which the entire data analysis pipeline is protected from the malicious data users and cloud managers. Meanwhile, Laputa preserves the usability as the data users can run their Spark applications on Laputa with minimal modification. We implemented Laputa, and evaluated its security and performance aspects on TPC-H, Big Data benchmarks, and real world applications using ML models. The evaluation results demonstrated that Laputa correctly blocks malicious Spark applications while imposing moderate performance overheads.",
+  "abstract_source_id": "src-abstract-ndss-2025-5d2f60db",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-5d2f60db",
+      "url": "https://www.ndss-symposium.org/ndss-paper/secure-data-analytics-in-apache-spark-with-fine-grained-policy-enforcement-and-isolated-execution/",
+      "kind": "paper-page",
+      "title": "Secure Data Analytics in Apache Spark with Fine-grained Policy Enforcement and Isolated Execution",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:44Z",
+      "content_hash": "sha256:fa02bd43649da07f140a50bb48c65629a375e876fb5bd80f3526fedfd8bac7dd",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

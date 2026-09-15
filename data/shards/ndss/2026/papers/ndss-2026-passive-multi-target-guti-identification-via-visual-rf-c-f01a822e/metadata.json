@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-passive-multi-target-guti-identification-via-visual-rf-c-f01a822e",
   "title": "Passive Multi-Target GUTI Identification via Visual-RF Correlation in LTE Networks",
+  "abstract": "LTE networks employ Globally Unique Temporary Identifiers (GUTIs) to shield subscribers from permanent International Mobile Subscriber Identity (IMSI) exposure, yet we show that these identifiers can be resolved and linked to specific devices through passive observation without prior knowledge of targets. We correlate time-stamped visual observations of device use with over-the-air control-plane messages captured using commodity Software-Defined Radios (SDRs). A Finite-State-Machine (FSM) algorithm processes the synchronized streams to resolve each device's GUTI within the camera's Field of View (FoV), requiring as few as three observed user interactions when the corresponding control-plane messages are captured.",
+  "abstract_source_id": "src-abstract-ndss-2026-f01a822e",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -118,6 +120,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-f01a822e",
+      "url": "https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/",
+      "kind": "paper-page",
+      "title": "Passive Multi-Target GUTI Identification via Visual-RF Correlation in LTE Networks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:00Z",
+      "content_hash": "sha256:66dc378e9283f777c6ba57e2bd44ea18477ae6bf27937829d5d1a91550aa0843",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-crowdguard-federated-backdoor-detection-in-federated-lea-2744c109",
   "title": "CrowdGuard: Federated Backdoor Detection in Federated Learning",
+  "abstract": "This paper presents a novel defense mechanism, CrowdGuard, that effectively mitigates backdoor attacks in FL and overcomes the deficiencies of existing techniques. It leverages clients' feedback on individual models, analyzes the behavior of neurons in hidden layers, and eliminates poisoned models through an iterative pruning scheme. CrowdGuard employs a server-located stacked clustering scheme to enhance its resilience to rogue client feedback. The evaluation results demonstrate that CrowdGuard achieves a 100% True-Positive-Rate and True-Negative-Rate across various scenarios, including IID and non-IID data distributions. Additionally, CrowdGuard withstands adaptive adversaries while preserving the original performance of protected models. To ensure confidentiality, CrowdGuard uses a secure and privacy-preserving architecture leveraging Trusted Execution Environments (TEEs) on both client and server sides.",
+  "abstract_source_id": "src-abstract-ndss-2024-2744c109",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -168,6 +170,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-2744c109",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crowdguard-federated-backdoor-detection-in-federated-learning/",
+      "kind": "paper-page",
+      "title": "CrowdGuard: Federated Backdoor Detection in Federated Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:55Z",
+      "content_hash": "sha256:848c719cc9f5aa142e896ae6c290d5c1786b8aa5800019661efa81057f19207d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-vdoram-towards-a-random-access-machine-with-both-public-5d277a02",
   "title": "VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distributed Obliviousness",
+  "abstract": "Verifiable random access machines (vRAMs) serve as a foundational model for expressing complex computations with provable security guarantees, serving applications in areas such as secure electronic voting, financial auditing, and privacy-preserving smart contracts. However, no existing vRAM provides distributed obliviousness, a critical need in scenarios where multiple provers seek to prevent disclosure against both other provers and the verifiers, because existing solutions struggle with a paradigm mismatch between MPC and ZKP that limits the development of practical multi-prover ZKP front-ends. This gap arises because MPC protocols are optimized for minimal computation, whereas ZKPs require a complete trace for proving. Furthermore, adapting RAM designs is also challenging, as vRAMs are not built for the high costs of oblivious execution and existing DORAMs lack public verifiability.",
+  "abstract_source_id": "src-abstract-ndss-2026-5d277a02",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-5d277a02",
+      "url": "https://www.ndss-symposium.org/ndss-paper/vdoram-towards-a-random-access-machine-with-both-public-verifiability-and-distributed-obliviousness/",
+      "kind": "paper-page",
+      "title": "VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distributed Obliviousness",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:48Z",
+      "content_hash": "sha256:88170ffb577c0f3a2c00a1573c0367aa434a82bf7baa1b2c3824b572038daf86",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

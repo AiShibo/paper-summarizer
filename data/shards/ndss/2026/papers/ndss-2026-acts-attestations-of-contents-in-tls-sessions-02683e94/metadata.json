@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-acts-attestations-of-contents-in-tls-sessions-02683e94",
   "title": "ACTS: Attestations of Contents in TLS Sessions",
+  "abstract": "Our contributions include a round-optimal predicate blind signature protocol that produces standard RSA-PSS signatures. We show how this primitive can be integrated into the DECO architecture (and its successors) to certify data retrieved from TLS servers. Furthermore, we have optimized our construction to make it practical on commodity hardware for a large and significant class of policies implemented by the notary (i.e., the actor that is in charge of obliviously certifying TLS data, therefore preserving data confidentiality). We provide an experimental evaluation on the simple but powerful enough use case of a PDF document downloaded from a TLS server and encoded into an AES-GCM ciphertext. The user will then get a certified PDF through a standard PADES signature added obliviously to the PDF along with some metadata by a notary service. The resulting standard signed PDF document can be transparently verified using off-the-shelf PDF readers. Our experimental validation demonstrates that our architecture is suitable for real-world deployment in concrete scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2026-02683e94",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-02683e94",
+      "url": "https://www.ndss-symposium.org/ndss-paper/acts-attestations-of-contents-in-tls-sessions/",
+      "kind": "paper-page",
+      "title": "ACTS: Attestations of Contents in TLS Sessions",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:26Z",
+      "content_hash": "sha256:3ad6ae4aeb9d401ed8c3c6e655cbccb95581fe2511991cd31a742bcdafb85360",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

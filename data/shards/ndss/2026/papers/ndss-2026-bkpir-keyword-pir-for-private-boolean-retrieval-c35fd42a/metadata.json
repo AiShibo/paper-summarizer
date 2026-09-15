@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-bkpir-keyword-pir-for-private-boolean-retrieval-c35fd42a",
   "title": "BKPIR: Keyword PIR for Private Boolean Retrieval",
+  "abstract": "Keyword Private Information Retrieval (Keyword PIR) enables users to retrieve data associated with specific keywords from a database while keeping their queries private. However, existing Keyword PIR schemes struggle to support the boolean retrieval model, which is essential for practical applications that require logical combinations of terms.\n\nThis paper proposes a novel keyword PIR scheme leveraging advancements in homomorphic equality operations. It enables privacy-preserving retrieval over databases with many-to-many keyword-value mappings while supporting boolean operators for expressive search logic. Importantly, this extension preserves the core security guarantees of classical PIR. To the best of our knowledge, this is the first work to integrate keyword PIR with the boolean retrieval model.",
+  "abstract_source_id": "src-abstract-ndss-2026-c35fd42a",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -275,6 +277,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-c35fd42a",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bkpir-keyword-pir-for-private-boolean-retrieval/",
+      "kind": "paper-page",
+      "title": "BKPIR: Keyword PIR for Private Boolean Retrieval",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:39Z",
+      "content_hash": "sha256:d0c683f62932527d37802db523b3157673d09b785f81447b76a12596ce5fea32",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

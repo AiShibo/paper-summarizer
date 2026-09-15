@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-privorl-differentially-private-synthetic-dataset-for-off-bf6c8b45",
   "title": "PrivORL: Differentially Private Synthetic Dataset for Offline Reinforcement Learning",
+  "abstract": "To safeguard private information in offline RL datasets, we propose the first differential privacy (DP) offline dataset synthesis method, PrivORL, which leverages a diffusion model and diffusion transformer to synthesize transitions and trajectories , respectively, under DP. The synthetic dataset can then be securely released for downstream analysis and research. PrivORL adopts the popular approach of pre-training a synthesizer on public datasets, and then fine-tuning on sensitive datasets using DP Stochastic Gradient Descent (DP-SGD). Additionally, PrivORL introduces curiosity-driven pre-training, which uses feedback from the curiosity module to diversify the synthetic dataset and thus can generate diverse synthetic transitions and trajectories that closely resemble the sensitive dataset. Extensive experiments on five sensitive offline RL datasets show that our method achieves better utility and fidelity in both DP transition and trajectory synthesis compared to baselines. The replication package is available at the GitHub repository.",
+  "abstract_source_id": "src-abstract-ndss-2026-bf6c8b45",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-bf6c8b45",
+      "url": "https://www.ndss-symposium.org/ndss-paper/privorl-differentially-private-synthetic-dataset-for-offline-reinforcement-learning/",
+      "kind": "paper-page",
+      "title": "PrivORL: Differentially Private Synthetic Dataset for Offline Reinforcement Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:09Z",
+      "content_hash": "sha256:ef82023b04f251b27041b55932b035f7f65b933900ce4c18695e14e2e9e15f18",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

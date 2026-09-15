@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-targeted-physical-evasion-attacks-in-the-near-infrared-d-fb69acbf",
   "title": "Targeted Physical Evasion Attacks in the Near-Infrared Domain",
+  "abstract": "In this paper, we propose a novel, stealthy, and cost-effective attack to generate both targeted and untargeted adversarial infrared perturbations. By projecting perturbations from a transparent film onto the target object with an off-the-shelf infrared flashlight, our approach is the first to reliably mount laser-free targeted attacks in the infrared domain. Extensive experiments on traffic signs in the digital and physical domains show that our approach is robust and yields higher attack success rates in various attack scenarios across bright lighting conditions, distances, and angles compared to prior work. Equally important, our attack is highly cost-effective, requiring less than $50 and a few tens of seconds for deployment. Finally, we propose a novel segmentation-based detection that thwarts our attack with an F1-score of up to 99%",
+  "abstract_source_id": "src-abstract-ndss-2026-fb69acbf",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-fb69acbf",
+      "url": "https://www.ndss-symposium.org/ndss-paper/targeted-physical-evasion-attacks-in-the-near-infrared-domain/",
+      "kind": "paper-page",
+      "title": "Targeted Physical Evasion Attacks in the Near-Infrared Domain",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:32Z",
+      "content_hash": "sha256:41273c10ed552751ce463ffff6f351ae601b1fe6392f05a4ead2f809e164720d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

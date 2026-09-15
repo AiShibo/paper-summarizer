@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-user-space-dependency-aware-rehosting-for-linux-based-fi-ee4e3fe7",
   "title": "User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries",
+  "abstract": "To fill this gap, we developed FIRMWELL, a framework which first models firmware rehosting as the coordinated emulation of both the target binary and its user-space dependencies.\n\nIt first rehosts the init routine for environment construction and then launches the target, which is a procedure that typically involves more than one hundred processes.\n\nWhen emulation failures occur, FIRMWELL identifies the blocking process, analyzes incorrectly emulated resources, and applies targeted fixes.\n\nThe key strategy is to address user-space dependency failures by correcting the underlying system-level emulation errors, while employing program analysis for precise resource value inference.\n\nIn evaluation of 14,049 firmware images, FIRMWELL successfully rehosted 6,490 services, outperforming state-of-the-art by 1.6 - 8x (3,581 for FirmAE, 3,962 for Greenhouse, and 810 for Pandawan), while reducing average rehosting time by 1.8 - 8.4x (12 vs. 22, 74, and 101 minutes).\n\nFIRMWELL was applied to fuzz 1,043 firmware images, uncovering 67 zero-day vulnerabilities with ten assigned CVE identifiers.",
+  "abstract_source_id": "src-abstract-ndss-2026-ee4e3fe7",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -330,6 +332,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-ee4e3fe7",
+      "url": "https://www.ndss-symposium.org/ndss-paper/user-space-dependency-aware-rehosting-for-linux-based-firmware-binaries/",
+      "kind": "paper-page",
+      "title": "User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:46Z",
+      "content_hash": "sha256:5921c38742f7c973ade48a13d3cb6ea029abcdd21c0ee52dadbe845581c4b026",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

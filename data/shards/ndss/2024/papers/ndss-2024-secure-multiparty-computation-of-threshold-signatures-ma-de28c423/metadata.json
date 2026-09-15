@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-secure-multiparty-computation-of-threshold-signatures-ma-de28c423",
   "title": "Secure Multiparty Computation of Threshold Signatures Made More Efficient",
+  "abstract": "Threshold signatures, notably ECDSA, are fundamental for securing decentralized applications. Their non-linear structure poses challenges in distributed signing, often tackled by pairwise multiplicative-to-additive share conversion, leading to O(n) communication and O(n 2 ) verification costs for each of n signers. Moreover, most schemes lack robustness, necessitating a complete restart upon fault. A pioneering work by Wong et al. (NDSS '23) still requires rolling back to the preceding round to resume signing after another round to convince all other signers.",
+  "abstract_source_id": "src-abstract-ndss-2024-de28c423",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-de28c423",
+      "url": "https://www.ndss-symposium.org/ndss-paper/secure-multiparty-computation-of-threshold-signatures-made-more-efficient/",
+      "kind": "paper-page",
+      "title": "Secure Multiparty Computation of Threshold Signatures Made More Efficient",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:53Z",
+      "content_hash": "sha256:4ac4c2a986184a06cb9a9cc6fe2dbac7db5ade03125ad47dc73f4b359d070f9a",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

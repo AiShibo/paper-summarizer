@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-oreo-protecting-aslr-against-microarchitectural-attacks-6e053187",
   "title": "Oreo: Protecting ASLR Against Microarchitectural Attacks",
+  "abstract": "Address Space Layout Randomization (ASLR) is one of the most prominently deployed mitigations against memory corruption attacks. ASLR randomly shuffles program virtual addresses to prevent attackers from knowing the location of program contents in memory. Microarchitectural side channels have been shown to defeat ASLR through various hardware mechanisms. We systematically analyze existing microarchitectural attacks and identify multiple leakage paths. Given the vast attack surface exposed by ASLR, it is challenging to effectively prevent leaking the ASLR secret against microarchitectural attacks.",
+  "abstract_source_id": "src-abstract-ndss-2025-6e053187",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -126,6 +128,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-6e053187",
+      "url": "https://www.ndss-symposium.org/ndss-paper/oreo-protecting-aslr-against-microarchitectural-attacks/",
+      "kind": "paper-page",
+      "title": "Oreo: Protecting ASLR Against Microarchitectural Attacks",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:20Z",
+      "content_hash": "sha256:9dfdd85e386a208dcae08f766de4b399377340f71afe211e0019bff908125865",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

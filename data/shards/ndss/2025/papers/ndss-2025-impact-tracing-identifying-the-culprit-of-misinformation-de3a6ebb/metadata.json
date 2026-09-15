@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-impact-tracing-identifying-the-culprit-of-misinformation-de3a6ebb",
   "title": "Impact Tracing: Identifying the Culprit of Misinformation in Encrypted Messaging Systems",
+  "abstract": "In this paper, we initiate the study of textit{impact tracing}. Intuitively, impact tracing traces influential spreaders central to disseminating misinformation while providing privacy protection for non-influential users. We introduce noises to hide non-influential users and demonstrate that these noises do not hinder the identification of influential spreaders. Then, we formally prove our scheme's security and show it achieves differential privacy protection for non-influential users.\n\nAdditionally, we define three metrics to evaluate its traceability, correctness, and privacy using real-world datasets. The experimental results show that our scheme identifies the most influential spreaders with accuracy from 82% to 99% as the amount of noise varies. Meanwhile, our scheme requires only a 6-byte platform storage overhead for each message while maintaining a low messaging latency ($<$ 0.25ms).",
+  "abstract_source_id": "src-abstract-ndss-2025-de3a6ebb",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-de3a6ebb",
+      "url": "https://www.ndss-symposium.org/ndss-paper/impact-tracing-identifying-the-culprit-of-misinformation-in-encrypted-messaging-systems/",
+      "kind": "paper-page",
+      "title": "Impact Tracing: Identifying the Culprit of Misinformation in Encrypted Messaging Systems",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:01Z",
+      "content_hash": "sha256:17a70322036c695287fddb0173bfb35082efb729e9cf3aed032cceeb900fd0da",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

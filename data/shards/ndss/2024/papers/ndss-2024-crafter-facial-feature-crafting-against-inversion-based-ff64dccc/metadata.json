@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-crafter-facial-feature-crafting-against-inversion-based-ff64dccc",
   "title": "Crafter: Facial Feature Crafting against Inversion-based Identity Theft on Deep Models",
+  "abstract": "With the increased capabilities at the edge (e.g., mobile device) and more stringent privacy requirement, it becomes a recent trend for deep learning-enabled applications to pre-process sensitive raw data at the edge and transmit the features to the backend cloud for further processing. A typical application is to run machine learning (ML) services on facial images collected from different individuals. To prevent identity theft, conventional methods commonly rely on an adversarial game-based approach to shed the identity information from the feature. However, such methods can not defend against adaptive attacks, in which an attacker takes a countermove against a known defence strategy.",
+  "abstract_source_id": "src-abstract-ndss-2024-ff64dccc",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Summer submission cycle",
@@ -210,6 +212,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-ff64dccc",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crafter-facial-feature-crafting-against-inversion-based-identity-theft-on-deep-models/",
+      "kind": "paper-page",
+      "title": "Crafter: Facial Feature Crafting against Inversion-based Identity Theft on Deep Models",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:58:54Z",
+      "content_hash": "sha256:f42d8a81759ffa7606f5dbd628805802dacb5094986f28623f4307cac2b03977",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

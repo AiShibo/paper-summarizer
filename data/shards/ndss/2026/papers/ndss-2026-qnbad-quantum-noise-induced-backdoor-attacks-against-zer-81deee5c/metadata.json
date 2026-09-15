@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-qnbad-quantum-noise-induced-backdoor-attacks-against-zer-81deee5c",
   "title": "QNBAD: Quantum Noise-induced Backdoor Attacks against Zero Noise Extrapolation",
+  "abstract": "Variational quantum algorithms (VQAs) have emerged as one of the most promising paradigms for achieving practical quantum advantage in the noisy intermediate-scale quantum (NISQ) era. To enhance the computational accuracy of VQAs on noisy hardware, zero noise extrapolation (ZNE) has become a widely adopted and effective error mitigation technique. However, the growing reliance on ZNE also increases the importance of identifying potential adversarial exploits. We examine existing backdoor attacks and highlight why they struggle to compromise ZNE. Specifically, quantum backdoor attacks that modify circuit structures merely shift the ideal output without affecting the noise-dependent extrapolation process, leaving ZNE intact. Likewise, parameter-level backdoors that are trained without accounting for device-specific noise exhibit inconsistent behavior across different hardware platforms, resulting in unreliable or ineffective attacks. Building on these observations, we uncover a new class of backdoor vulnerabilities that specifically target the unique properties of ZNE.",
+  "abstract_source_id": "src-abstract-ndss-2026-81deee5c",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-81deee5c",
+      "url": "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
+      "kind": "paper-page",
+      "title": "QNBAD: Quantum Noise-induced Backdoor Attacks against Zero Noise Extrapolation",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:13Z",
+      "content_hash": "sha256:48995dfe0d8079ea11fde216e2a91528c1ac1a7282b846be247cf097f11df1ba",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

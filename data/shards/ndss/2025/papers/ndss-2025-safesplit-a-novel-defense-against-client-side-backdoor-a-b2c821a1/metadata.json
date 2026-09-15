@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-safesplit-a-novel-defense-against-client-side-backdoor-a-b2c821a1",
   "title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning",
+  "abstract": "We present SafeSplit, the first defense against client-side backdoor attacks in Split Learning (SL). SafeSplit enables the server to detect and filter out malicious client behavior by employing circular backward analysis after a client's training is completed, iteratively reverting to a trained checkpoint where the model under examination is found to be benign. It uses a two-fold analysis to identify client-induced changes and detect poisoned models. First, a static analysis in the frequency domain measures the differences in the layer's parameters at the server. Second, a dynamic analysis introduces a novel rotational distance metric that assesses the orientation shifts of the server's layer parameters during training. Our comprehensive evaluation across various data distributions, client counts, and attack scenarios demonstrates the high efficacy of this dual analysis in mitigating backdoor attacks while preserving model utility.",
+  "abstract_source_id": "src-abstract-ndss-2025-b2c821a1",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Fall submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-b2c821a1",
+      "url": "https://www.ndss-symposium.org/ndss-paper/safesplit-a-novel-defense-against-client-side-backdoor-attacks-in-split-learning/",
+      "kind": "paper-page",
+      "title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:01:39Z",
+      "content_hash": "sha256:01b9ac50ebe29acb9b807f73fd01dfbc96135da5e617ace7a74f64a90a0e2ee0",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

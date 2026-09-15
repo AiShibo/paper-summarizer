@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-minbucket-mpsi-breaking-the-max-size-bottleneck-in-multi-12f8171f",
   "title": "MinBucket MPSI: Breaking the Max-Size Bottleneck in Multi-Party Private Set Intersection",
+  "abstract": "In this work, we present a new framework for MPSI based on newly proposed protocols: batched membership conditional randomness generation and joint private equality test. By instantiating this framework, we develop two MPSI protocols with communication complexities that are linear in the size of the small set and logarithmic in the size of the large set. One protocol offers security against an arbitrary number of colluding parties, while the other secures against $(T-2)$ colluding parties. Additionally, we develop a protocol called the joint permuted private equality test and propose the MPSI-Card framework. By instantiating this framework, we derive an MPSI-Card protocol with similar communication efficiency: linear in the small set and logarithmic in the large set, providing security against an arbitrary number of colluding parties.",
+  "abstract_source_id": "src-abstract-ndss-2026-12f8171f",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Fall submission cycle",
@@ -225,6 +227,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-12f8171f",
+      "url": "https://www.ndss-symposium.org/ndss-paper/minbucket-mpsi-breaking-the-max-size-bottleneck-in-multi-party-private-set-intersection/",
+      "kind": "paper-page",
+      "title": "MinBucket MPSI: Breaking the Max-Size Bottleneck in Multi-Party Private Set Intersection",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:46Z",
+      "content_hash": "sha256:0ccd0e335ac1e59851f557bf9963c33e6a97ed6ad5c25360b17b863a9fea8e4d",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

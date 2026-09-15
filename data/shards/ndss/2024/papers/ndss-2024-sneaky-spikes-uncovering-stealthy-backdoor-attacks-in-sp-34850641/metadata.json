@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2024-sneaky-spikes-uncovering-stealthy-backdoor-attacks-in-sp-34850641",
   "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+  "abstract": "Deep neural networks (DNNs) have demonstrated remarkable performance across various tasks, including image and speech recognition. However, maximizing the effectiveness of DNNs requires meticulous optimization of numerous hyperparameters and network parameters through training. Moreover, high-performance DNNs entail many parameters, which consume significant energy during training. To overcome these challenges, researchers have turned to spiking neural networks (SNNs), which offer enhanced energy efficiency and biologically plausible data processing capabilities, rendering them highly suitable for sensory data tasks, particularly in neuromorphic data. Despite their advantages, SNNs, like DNNs, are susceptible to various threats, including adversarial examples and backdoor attacks. Yet, the field of SNNs still needs to be explored in terms of understanding and countering these attacks.",
+  "abstract_source_id": "src-abstract-ndss-2024-34850641",
   "venue": "ndss",
   "year": 2024,
   "track_or_session": "Fall submission cycle",
@@ -147,6 +149,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2024-34850641",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sneaky-spikes-uncovering-stealthy-backdoor-attacks-in-spiking-neural-networks-with-neuromorphic-data/",
+      "kind": "paper-page",
+      "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T21:59:58Z",
+      "content_hash": "sha256:308a44cd5ca39ccff1a6c44dc3d9793047a60b52e198febb651879648f476257",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

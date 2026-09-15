@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-occupy-probe-cross-privilege-branch-target-buffer-side-c-b888694b",
   "title": "OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity",
+  "abstract": "In this paper, we propose Occupy+Probe, a novel eviction-based BTB side-channel attack that bridges these gaps by successfully exposing kernel control-flow behaviors directly from user mode.\n\nOur approach begins with an in-depth reverse engineering of the offset-related BTB update mechanism on Intel processors, and reveals that textit{BTB entries created in user mode can be directly replaced by kernel-mode entries, irrespective of the underlying replacement policy and the hardware isolation}, which forms the foundation of Occupy+Probe.\n\nIn contrast to existing BTB side-channel attacks, Occupy+Probe eliminates the need for entry sharing between the attacker and the victim.\n\nMoreover, it achieves instruction-level granularity in branch monitoring, surpassing the spatial resolution of existing eviction-based BTB side-channels.",
+  "abstract_source_id": "src-abstract-ndss-2026-b888694b",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -181,6 +183,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-b888694b",
+      "url": "https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/",
+      "kind": "paper-page",
+      "title": "OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:03:53Z",
+      "content_hash": "sha256:0723b7b7e4dac5815508a4a5f0a5f59e4877f3a24ff4202da09191eeeb08710e",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

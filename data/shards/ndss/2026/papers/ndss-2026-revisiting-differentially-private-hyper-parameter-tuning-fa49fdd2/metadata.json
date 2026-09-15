@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-revisiting-differentially-private-hyper-parameter-tuning-fa49fdd2",
   "title": "Revisiting Differentially Private Hyper-parameter Tuning",
+  "abstract": "This paper provides both empirical and theoretical examinations of this question. Initially, we provide studies affirming the current privacy analysis for private selection is indeed tight in general. However, when we specifically study the hyper-parameter tuning problem in a white-box setting, such tightness no longer holds. This is first demonstrated by applying privacy audit on the tuning process. Our findings underscore a substantial gap between the current theoretical privacy bound and the empirical privacy leakage derived even under strong audit setups.",
+  "abstract_source_id": "src-abstract-ndss-2026-fa49fdd2",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -160,6 +162,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-fa49fdd2",
+      "url": "https://www.ndss-symposium.org/ndss-paper/revisiting-differentially-private-hyper-parameter-tuning/",
+      "kind": "paper-page",
+      "title": "Revisiting Differentially Private Hyper-parameter Tuning",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:04:16Z",
+      "content_hash": "sha256:bd55768917b2d92298abaee073cbe5a7d35ed929f7fc02aeb57d9f1c0e68f1d3",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

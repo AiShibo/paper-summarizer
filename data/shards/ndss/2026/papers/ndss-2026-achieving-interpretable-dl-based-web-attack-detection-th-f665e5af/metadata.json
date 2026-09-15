@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-achieving-interpretable-dl-based-web-attack-detection-th-f665e5af",
   "title": "Achieving Interpretable DL-based Web Attack Detection through Malicious Payload Localization",
+  "abstract": "In this paper, we propose WebSpotter that achieves interpretable Web attack detection, which enhances existing deep learning-based detection methods by locating malicious payloads of the HTTP requests. It is inspired by the observation that malicious payloads often have a significant impact on the predictions of detection models. WebSpotter identifies the importance of each field of HTTP requests, and then utilizes a machine learning model to learn the correlation between the importance and malicious payloads. In addition, we demonstrate how WebSpotter can assist security operators in mitigating attacks by automatically generating WAF rules. Extensive evaluations on two public datasets and our newly constructed dataset demonstrate that WebSpotter significantly outperforms existing methods, achieving at least a 22% improvement in localization accuracy compared to baselines. We also conduct evaluations on real-world attacks collected from CVEs and real-world Web applications to illustrate the effectiveness of WebSpotter in practical scenarios.",
+  "abstract_source_id": "src-abstract-ndss-2026-f665e5af",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -244,6 +246,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-f665e5af",
+      "url": "https://www.ndss-symposium.org/ndss-paper/achieving-interpretable-dl-based-web-attack-detection-through-malicious-payload-localization/",
+      "kind": "paper-page",
+      "title": "Achieving Interpretable DL-based Web Attack Detection through Malicious Payload Localization",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:23Z",
+      "content_hash": "sha256:57bc55c1fb4599406ac5248e1f92c117a07638f9847207c509a665e465ef541f",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

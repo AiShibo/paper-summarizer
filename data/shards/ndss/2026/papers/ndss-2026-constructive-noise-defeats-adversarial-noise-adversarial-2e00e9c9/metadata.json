@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2026-constructive-noise-defeats-adversarial-noise-adversarial-2e00e9c9",
   "title": "Constructive Noise Defeats Adversarial Noise: Adversarial Example Detection for Commercial DNN Services",
+  "abstract": "In this paper, we propose Falcon, an adversarial example detection method offered by a third party, which achieves accuracy and efficiency simultaneously. Based on the disparity in noise tolerance between clean and adversarial examples, we explore constructive noise that cannot affect the model’s output labels when added to clean examples while causing noticeable changes in model outputs when added to adversarial examples. For each input, Falcon generates constructive noise with a specific distribution and intensity and achieves detection through differences in the output of the target model before and after adding constructive noise. Extensive experiments are conducted on 4 public datasets to evaluate the performance of Falcon in detecting 10 typical attacks. Falcon outperforms SOTA detection methods with the highest True Positive Rate (TPR) of adversarial examples and the lowest False Positive Rate (FPR) of clean examples. Furthermore, Falcon achieves a TPR of about 80% with an FPR of 5% on 6 well-known commercial DNN services, which outperforms the SOTA methods. Falcon can also maintain its accuracy although the adversary has complete knowledge of the detection details.",
+  "abstract_source_id": "src-abstract-ndss-2026-2e00e9c9",
   "venue": "ndss",
   "year": 2026,
   "track_or_session": "Summer submission cycle",
@@ -202,6 +204,19 @@
       "official": false,
       "supports": [
         "independent proceedings identity reconciliation"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2026-2e00e9c9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/constructive-noise-defeats-adversarial-noise-adversarial-example-detection-for-commercial-dnn-services/",
+      "kind": "paper-page",
+      "title": "Constructive Noise Defeats Adversarial Noise: Adversarial Example Detection for Commercial DNN Services",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:02:54Z",
+      "content_hash": "sha256:0d59963abaf57518e65198ca8b0b32a11d0dd2fc445cdcd121a4b8a86aeeb793",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],

@@ -3,6 +3,8 @@
   "schema_version": "1.0.0",
   "paper_id": "ndss-2025-dissecting-payload-based-transaction-phishing-on-ethereu-d7729c3f",
   "title": "Dissecting Payload-based Transaction Phishing on Ethereum",
+  "abstract": "In this paper, we present the first comprehensive study of the PTXPHISH on Ethereum. Firstly, we conduct a long-term data collection and put considerable effort into establishing the first ground-truth PTXPHISH dataset, consisting of 5,000 phishing transactions. Based on the dataset, we dissect PTXPHISH, categorizing phishing tactics into four primary categories and eleven sub-categories. Secondly, we propose a rule-based multi-dimensional detection approach to identify PTXPHISH, achieving an F1-score of over 99% and processing each block in an average of 390 ms. Finally, we conduct a large-scale detection spanning 300 days and discover a total of 130,637 phishing transactions on Ethereum, resulting in losses exceeding $341.9 million. Our in-depth analysis of these phishing transactions yielded valuable and insightful findings. Scammers consume approximately 13.4 ETH daily, which accounts for 12.5% of the total Ethereum gas, to propagate address poisoning scams. Additionally, our analysis reveals patterns in the cash-out process employed by phishing scammers, and we find that the top five phishing organizations\n\nare responsible for 40.7% of all losses.",
+  "abstract_source_id": "src-abstract-ndss-2025-d7729c3f",
   "venue": "ndss",
   "year": 2025,
   "track_or_session": "Summer submission cycle",
@@ -189,6 +191,19 @@
       "official": false,
       "supports": [
         "DOI and main-proceedings membership"
+      ]
+    },
+    {
+      "id": "src-abstract-ndss-2025-d7729c3f",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dissecting-payload-based-transaction-phishing-on-ethereum/",
+      "kind": "paper-page",
+      "title": "Dissecting Payload-based Transaction Phishing on Ethereum",
+      "publisher": "NDSS",
+      "retrieved_at": "2026-09-15T22:00:42Z",
+      "content_hash": "sha256:88f0be3e3c146fb98752ef08e5b747d5c3602ba7eebb119c6d0fd07958f8596b",
+      "official": true,
+      "supports": [
+        "Published abstract text."
       ]
     }
   ],
