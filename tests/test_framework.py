@@ -145,6 +145,20 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(payload["papers"][0]["venue"], "osdi")
             self.assertEqual(payload["papers"][0]["authors"], ["Alice Fixture"])
 
+    def test_static_export_carries_summary_and_review_for_the_interface(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "papers.json"
+            build_site_data(FIXTURES / "shards", output, ROOT)
+            paper = json.loads(output.read_text(encoding="utf-8"))["papers"][0]
+            self.assertIn("abstract", paper)
+            self.assertEqual(paper["summary"]["status"], "APPROVED")
+            self.assertTrue(paper["summary"]["background"])
+            self.assertTrue(paper["summary"]["approach"])
+            self.assertIsInstance(paper["summary"]["evaluation"]["results"], list)
+            self.assertIsInstance(paper["summary"]["beginner_concepts"], list)
+            self.assertEqual(paper["review"]["decision"], "APPROVED")
+            self.assertIsInstance(paper["review"]["issues"], list)
+
 
 class CollectorPilotTests(unittest.TestCase):
     def test_usenix_pilot_extracts_and_deduplicates_presentation_links(self) -> None:

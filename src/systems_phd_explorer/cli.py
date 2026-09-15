@@ -4,6 +4,7 @@ import argparse
 import sys
 from pathlib import Path
 
+from .abstracts import ALL_SOURCES, collect_abstracts
 from .database import build_database
 from .export import build_site_data
 from .manifest import write_manifest
@@ -59,6 +60,23 @@ def build_parser() -> argparse.ArgumentParser:
     )
     site_data.add_argument("--root", required=True, type=_path)
     site_data.add_argument("--output", required=True, type=_path)
+    abstracts = subparsers.add_parser(
+        "collect-abstracts",
+        help="Fetch published abstracts into metadata.json (resumable)",
+    )
+    abstracts.add_argument("--root", required=True, type=_path)
+    abstracts.add_argument("--venue", help="Only this venue slug")
+    abstracts.add_argument("--year", type=int, help="Only this year")
+    abstracts.add_argument("--limit", type=int, help="Stop after this many papers without an abstract")
+    abstracts.add_argument("--dry-run", action="store_true", help="Fetch but do not write")
+    abstracts.add_argument("--force", action="store_true", help="Refetch papers that already have an abstract")
+    abstracts.add_argument("--mailto", help="Contact address sent to the APIs' polite pools")
+    abstracts.add_argument("--s2-api-key", help="Semantic Scholar API key, if you have one")
+    abstracts.add_argument(
+        "--sources",
+        default=",".join(ALL_SOURCES),
+        help="Comma-separated passes to run, in order: " + ",".join(ALL_SOURCES),
+    )
     return parser
 
 
@@ -106,6 +124,21 @@ def main(argv: list[str] | None = None) -> int:
             build_site_data(args.root, args.output)
             print(args.output)
             return 0
+        if args.command == "collect-abstracts":
+            report = collect_abstracts(
+                args.root,
+                venue=args.venue,
+                year=args.year,
+                limit=args.limit,
+                dry_run=args.dry_run,
+                force=args.force,
+                mailto=args.mailto,
+                s2_api_key=args.s2_api_key,
+                sources=tuple(source.strip() for source in args.sources.split(",") if source.strip()),
+                log=lambda message: print(message, flush=True),
+            )
+            print(report.summary())
+            return 0 if report.failed == 0 else 1
     except (FileExistsError, OSError, RuntimeError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

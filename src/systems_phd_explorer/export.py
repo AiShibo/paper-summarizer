@@ -8,6 +8,61 @@ from .constants import STAGE_FILES, project_root
 from .validation import load_json, validate_shards
 
 
+def _summary_card(summary: dict[str, Any]) -> dict[str, Any] | None:
+    """The beginner story for the interface, or None when nothing was written."""
+    status = summary["workflow"]["status"]
+    if status == "NOT_STARTED" and not summary.get("takeaway"):
+        return None
+    evaluation = summary.get("evaluation") or {}
+    return {
+        "status": status,
+        "written_by": summary["workflow"].get("owner"),
+        "updated_at": summary["workflow"].get("updated_at"),
+        "confidence": (summary.get("verification") or {}).get("confidence"),
+        "background": summary.get("background"),
+        "villain": summary.get("villain"),
+        "approach": summary.get("approach"),
+        "impact": summary.get("impact"),
+        "evaluation": {
+            "overview": evaluation.get("overview"),
+            "implemented": evaluation.get("implemented"),
+            "setting": evaluation.get("setting"),
+            "baselines": evaluation.get("baselines") or [],
+            "results": [
+                {"text": result.get("text"), "locator": result.get("locator")}
+                for result in evaluation.get("results") or []
+            ],
+            "study_types": evaluation.get("study_types") or [],
+        },
+        "limitations": summary.get("limitations"),
+        "phd_group_signal": summary.get("phd_group_signal"),
+        "beginner_concepts": summary.get("beginner_concepts") or [],
+        "reading_coverage": summary.get("reading_coverage") or {},
+    }
+
+
+def _review_card(review: dict[str, Any]) -> dict[str, Any] | None:
+    """The independent reviewer's verdict, or None when no review has started."""
+    status = review["workflow"]["status"]
+    if status == "NOT_STARTED" and review.get("decision") == "NOT_REVIEWED":
+        return None
+    return {
+        "status": status,
+        "decision": review.get("decision"),
+        "reviewer": review.get("reviewer"),
+        "updated_at": review["workflow"].get("updated_at"),
+        "issues": [
+            {
+                "severity": issue.get("severity"),
+                "stage": issue.get("stage"),
+                "description": issue.get("description"),
+                "status": issue.get("status"),
+            }
+            for issue in review.get("issues") or []
+        ],
+    }
+
+
 def _paper_card(paper_directory: Path) -> dict[str, Any]:
     bundle = {filename: load_json(paper_directory / filename) for filename in STAGE_FILES}
     metadata = bundle["metadata.json"]
@@ -15,6 +70,7 @@ def _paper_card(paper_directory: Path) -> dict[str, Any]:
     summary = bundle["summary.json"]
     groups = bundle["groups.json"]
     awards = bundle["awards.json"]
+    review = bundle["review.json"]
     institutions = sorted(
         {
             affiliation["normalized_name"] or affiliation["name_as_published"]
@@ -35,8 +91,14 @@ def _paper_card(paper_directory: Path) -> dict[str, Any]:
         "title": metadata["title"],
         "venue": metadata["venue"],
         "year": metadata["year"],
+        "track_or_session": metadata.get("track_or_session"),
         "authors": [author["name"] for author in metadata["authors"]],
+        # Abstracts are not part of the metadata contract yet; the key is
+        # emitted so the interface can show and search them once collected.
+        "abstract": metadata.get("abstract"),
         "takeaway": summary["takeaway"],
+        "summary": _summary_card(summary),
+        "review": _review_card(review),
         "relevance_class": relevance["class"],
         "relevance_score": relevance["score"],
         "topics": relevance["topics"],
