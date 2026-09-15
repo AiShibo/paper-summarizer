@@ -5,59 +5,20 @@ preparing systems PhD applications. It organizes recent papers, beginner
 summaries, research groups, potential supervisors, institutions, and evidence
 provenance without turning paper counts into prestige rankings.
 
-This repository currently contains the Phase 0 framework. Paper data is staged
-as conflict-resistant JSON fragments and merged into a local SQLite database
-only after validation.
+Paper data is staged as conflict-resistant JSON fragments, validated, and
+exported to a compact index that the web application serves.
 
 ## Quick start
 
-Requirements:
+Requirements: Java 17 or newer. `./mvnw` downloads Maven (and a JDK when only
+a JRE is installed) into `.tools/` on first use; `scripts/run-tomcat.sh`
+downloads Tomcat 10.1 the same way. Every download is checksum-verified.
 
-- Python 3.11 or newer
-- `jsonschema` 4.23 or newer
-- Java 17 or newer (JDK) to build and run the web interface; see
-  [Web interface](#web-interface) for the automatic download fallback
-
-Run the checks (Python unit tests, fixture and shard validation, Java tests):
+Run the checks (schema and cross-file validation of every data file, then
+the JUnit tests):
 
 ```sh
 make check
-```
-
-Create a paper bundle in an agent-owned venue/year shard:
-
-```sh
-PYTHONPATH=src python3 -m systems_phd_explorer.cli init-paper \
-  --venue osdi \
-  --year 2025 \
-  --title "Exact published title" \
-  --owner agent-a
-```
-
-Initialize an upcoming or unavailable venue-year even when it has no paper
-records yet:
-
-```sh
-PYTHONPATH=src python3 -m systems_phd_explorer.cli init-venue \
-  --venue sosp \
-  --year 2026 \
-  --owner agent-a
-```
-
-Validate staged data:
-
-```sh
-PYTHONPATH=src python3 -m systems_phd_explorer.cli validate \
-  --root data/shards \
-  --profile draft
-```
-
-Build the canonical local database:
-
-```sh
-PYTHONPATH=src python3 -m systems_phd_explorer.cli build-db \
-  --root data/shards \
-  --output data/database.sqlite
 ```
 
 Generate the paper export, build the web application, and serve it:
@@ -67,6 +28,36 @@ make serve
 ```
 
 Then open `http://localhost:8080`.
+
+### Data tools
+
+Every tool is a subcommand of one Java entry point, run through Maven:
+
+```sh
+make validate                       # validate data/shards and data/entities
+make export                         # write site/data/papers.json and venue-years.json
+make abstracts MAILTO=you@example   # fetch missing abstracts (resumable)
+make tool ARGS="help"               # list every command and option
+```
+
+Create a paper bundle in an agent-owned venue/year shard:
+
+```sh
+./mvnw -q compile exec:java -Dexec.args="init-paper --venue osdi --year 2025 --title \"Exact published title\" --owner agent-a"
+```
+
+Initialize an upcoming or unavailable venue-year even when it has no paper
+records yet:
+
+```sh
+./mvnw -q compile exec:java -Dexec.args="init-venue --venue sosp --year 2026 --owner agent-a"
+```
+
+Validate staged data:
+
+```sh
+./mvnw -q compile exec:java -Dexec.args="validate --root data/shards"
+```
 
 ## Web interface
 
@@ -109,7 +100,7 @@ groups, or conferences.
 `make serve` runs three steps that can also be run separately:
 
 ```sh
-make site-data        # validate shards and write site/data/papers.json
+make export           # validate shards and write site/data/papers.json + venue-years.json
 ./mvnw package        # compile, run JUnit tests, build target/systems-phd-explorer.war
 scripts/run-tomcat.sh # download Tomcat 10.1 on first use and serve the WAR on port 8080
 ```
@@ -117,16 +108,15 @@ scripts/run-tomcat.sh # download Tomcat 10.1 on first use and serve the WAR on p
 `./mvnw` uses an installed `mvn` and JDK when available. Otherwise it downloads
 Apache Maven 3.9 and, if no `javac` is found, Eclipse Temurin JDK 17 into
 `.tools/` (Linux x86_64 only for the JDK; on other platforms install a JDK
-and set `JAVA_HOME`). Every download is checksum-verified. `.tools/` and
-`target/` are ignored by Git.
+and set `JAVA_HOME`). `.tools/` and `target/` are ignored by Git.
 
 `scripts/run-tomcat.sh` binds Tomcat to `127.0.0.1` only. Set
 `TOMCAT_ADDRESS=0.0.0.0` to accept connections from other machines.
 
-Run only the Java tests:
+Run only the JUnit tests:
 
 ```sh
-make java-test
+make test
 ```
 
 ### Data sources
@@ -181,25 +171,24 @@ work.
 ## Repository map
 
 ```text
-collectors/             Venue collector adapters and pilot configuration
 config/                 Stable venue and taxonomy configuration
 coordination/           Per-agent claim files
 data/shards/            Agent-authored paper fragments, by venue and year
 data/entities/          One-file-per-entity resolved people/groups/institutions
 data/review_queue/      Generated human-review items
 docs/                   Scope and policy documents
-migrations/             Versioned SQLite migrations
 schemas/v1/             Versioned JSON Schemas
 scripts/                Tomcat launcher and shared tool-bootstrap helpers
 site/data/              Generated paper export and synthetic fixture (build input)
 src/main/               Java/JSP web interface (Servlet, JSP view, stylesheet)
-src/systems_phd_explorer/  Validation, initialization, and merge tooling
+src/main/java/.../tools/   Data tools: validate, export, init-paper, collect-abstracts
 src/test/java/          JUnit tests for the web interface
-tests/                  Python unit tests and isolated fixtures
+tests/fixtures/         Release-profile fixture shard used by the JUnit tests
 ```
 
-`data/database.sqlite`, exports, logs, caches, and downloaded PDFs are generated
-artifacts and are not edited or committed by collection agents.
+`site/data/papers.json`, `site/data/venue-years.json`, logs, caches, and
+downloaded PDFs are generated artifacts and are not edited or committed by
+collection agents.
 
 ## Delegating work
 

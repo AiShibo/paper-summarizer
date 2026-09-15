@@ -579,6 +579,11 @@ button.button-secondary:hover {
   margin: 0 0 6px;
 }
 
+/* Multi-paragraph abstracts keep their blank lines. */
+.prose {
+  white-space: pre-line;
+}
+
 .summary-status {
   font-size: 13px;
   color: var(--fg-muted);

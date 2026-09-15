@@ -193,6 +193,19 @@ Verification: `make check` passed (13 Python tests; fixtures 0/0; 6,863
 bundles / 41,320 files 0 errors 0 warnings; 73 JUnit tests). All routes
 probed over HTTP; headless Firefox screenshots of the three pages.
 
+## Java-only migration (2026-09-16)
+
+At the owner's request the Python tooling was removed and the project is
+Java-only. `org.systemsphd.explorer.tools.Main` provides `validate`,
+`export`, `init-paper`, `init-venue`, and `collect-abstracts`, run through
+Maven's exec plugin (`make validate`, `make export`, `make abstracts`,
+`make tool ARGS=...`). The stage-file templates live in
+`src/main/resources/templates/`. `make check` = validate + JUnit (90 tests).
+Dropped: the SQLite build and migrations, release-profile gating, the
+monitor, and the pilot HTML collectors. The Java export was verified
+byte-identical to the last Python export, and the JSON writer reproduces
+the repository's formatting so data rewrites do not churn diffs.
+
 ## Important repository rules
 
 Before continuing, read `AGENTS.md`, `docs/data-layout.md`,

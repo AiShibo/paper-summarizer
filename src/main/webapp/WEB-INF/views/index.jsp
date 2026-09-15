@@ -181,7 +181,7 @@
     <c:if test="${view.fixture}">
       <p class="notice" role="status">
         Showing <strong>synthetic fixture data</strong>: every paper, person, and group below is invented
-        for interface testing. Run <code>make site-data</code> and rebuild to package the real export.
+        for interface testing. Run <code>make export</code> and rebuild to package the real export.
       </p>
     </c:if>
 

@@ -1,52 +1,37 @@
-.PHONY: check test validate-fixtures validate-data java-test manifest build-db site-coverage-data site-data abstracts war serve
+.PHONY: check test validate export abstracts war serve tool
 
-PYTHON ?= python3
-PYTHONPATH := src
+MVN ?= ./mvnw
+# Runs one of the data tools (see `make tool ARGS=help`). ./mvnw bootstraps a
+# JDK and Maven into .tools/ when they are not installed.
+TOOL = $(MVN) -q -B compile exec:java -Dexec.args
 
-check: test validate-fixtures validate-data java-test
+check: validate test
 
 test:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m unittest discover -s tests -v
+	$(MVN) -B -q test
 
-validate-fixtures:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli validate \
-		--root tests/fixtures/shards --profile release
+# Validates every shard, venue-year, and entity file against the JSON schemas
+# plus the cross-file rules the merge depends on.
+validate:
+	$(TOOL)="validate --root data/shards"
 
-validate-data:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli validate \
-		--root data/shards --profile draft
-
-# JUnit tests for the Java/JSP explorer. ./mvnw bootstraps a JDK and Maven
-# into .tools/ when they are not installed.
-java-test:
-	./mvnw -B -q test
-
-manifest:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli build-manifest \
-		--root data/shards --output data/venue-year-manifest.generated.json
-
-build-db:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli build-db \
-		--root data/shards --output data/database.sqlite
-
-site-coverage-data:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli build-manifest \
-		--root data/shards --output site/data/venue-years.json
-
-site-data: site-coverage-data
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli build-site-data \
-		--root data/shards --output site/data/papers.json
+# Writes site/data/papers.json and site/data/venue-years.json from the shards.
+export:
+	$(TOOL)="export --root data/shards --output site/data"
 
 # Fetches published abstracts into data/shards/**/metadata.json. Resumable;
 # papers that already have an abstract are skipped. Set MAILTO for the APIs'
-# polite pools.
+# polite pools and ABSTRACT_ARGS for extra options (e.g. "--venue ndss").
 abstracts:
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) -m systems_phd_explorer.cli collect-abstracts \
-		--root data/shards $(if $(MAILTO),--mailto $(MAILTO),)
+	$(TOOL)="collect-abstracts --root data/shards $(if $(MAILTO),--mailto $(MAILTO),) $(ABSTRACT_ARGS)"
 
-# Packages target/systems-phd-explorer.war with the freshly generated export.
-war: site-data
-	./mvnw -B -q package
+# Any tool command, e.g. make tool ARGS='init-paper --venue osdi --year 2025 --title "Exact Title" --owner agent-a'
+tool:
+	$(TOOL)="$(ARGS)"
+
+# Packages target/systems-phd-explorer.war with a freshly generated export.
+war: export
+	$(MVN) -B -q package
 
 # Generates the export, builds the WAR, and serves it at http://localhost:8080.
 serve: war

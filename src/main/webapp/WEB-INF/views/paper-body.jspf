@@ -3,7 +3,7 @@
   <h3>Abstract</h3>
   <c:choose>
     <c:when test="${paper.hasAbstract}">
-      <p><c:out value="${paper.abstractText}" /></p>
+      <p class="prose"><c:out value="${paper.abstractText}" /></p>
     </c:when>
     <c:otherwise>
       <p class="muted">The abstract has not been collected for this paper yet.
