@@ -286,6 +286,7 @@
     </c:choose>
   </main>
 </div>
+<%@ include file="site-footer.jspf" %>
 <script src="<c:out value='${assets}' />/app.js" defer></script>
 </body>
 </html>

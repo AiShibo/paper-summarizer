@@ -36,6 +36,7 @@ public final class ProceedingsServlet extends HttpServlet {
         request.setAttribute("view", view);
         request.setAttribute("basePath", request.getContextPath() + PAGE);
         request.setAttribute("searchPath", request.getContextPath() + ExplorerServlet.PAGE);
+        request.setAttribute("stats", explorerService.getStatistics());
         request.getRequestDispatcher("/WEB-INF/views/proceedings.jsp").forward(request, response);
     }
 }

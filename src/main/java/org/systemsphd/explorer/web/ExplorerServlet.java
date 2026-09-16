@@ -47,6 +47,7 @@ public final class ExplorerServlet extends HttpServlet {
         request.setAttribute("view", view);
         request.setAttribute("facets", explorerService.getFacets());
         request.setAttribute("proceedingsPath", request.getContextPath() + ProceedingsServlet.PAGE);
+        request.setAttribute("stats", explorerService.getStatistics());
         request.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(request, response);
     }
 }

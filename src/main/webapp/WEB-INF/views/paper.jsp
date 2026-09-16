@@ -1,5 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" session="false" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
+<fmt:setLocale value="en-US" scope="request" />
 <c:set var="assets" value="${pageContext.request.contextPath}/assets" />
 <c:set var="paper" value="${view.paper}" />
 <c:set var="paperPath" value="" />
@@ -58,6 +60,7 @@
     </div>
   </article>
 </main>
+<%@ include file="site-footer.jspf" %>
 <script src="<c:out value='${assets}' />/app.js" defer></script>
 </body>
 </html>

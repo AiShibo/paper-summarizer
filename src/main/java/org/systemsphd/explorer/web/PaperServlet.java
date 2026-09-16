@@ -42,6 +42,7 @@ public final class PaperServlet extends HttpServlet {
         ));
         request.setAttribute("searchPath", context + ExplorerServlet.PAGE);
         request.setAttribute("proceedingsPath", context + ProceedingsServlet.PAGE);
+        request.setAttribute("stats", explorerService.getStatistics());
         request.getRequestDispatcher("/WEB-INF/views/paper.jsp").forward(request, response);
     }
 }

@@ -564,4 +564,28 @@ class ExplorerServiceTest {
         assertEquals(List.of("abstracted"), ids(service.page(Filters.of("availability", "abstract"))));
         assertEquals("Has LLM summary", service.page(Filters.of("availability", "summary")).getActiveFilters().get(0).getValue());
     }
+
+    @Test
+    void statisticsCountCorpusWideCoverage() {
+        ExplorerService service = new ExportBuilder()
+                .paper("a", "osdi", 2025).abstractText("An abstract that is long enough to count here.").code("https://x/c").add()
+                .paper("b", "osdi", 2024)
+                        .summary(new com.fasterxml.jackson.databind.ObjectMapper().createObjectNode().put("status", "READY_FOR_REVIEW"))
+                        .review(new com.fasterxml.jackson.databind.ObjectMapper().createObjectNode().put("status", "CHANGES_REQUESTED").put("decision", "CHANGES_REQUESTED"))
+                        .add()
+                .paper("c", "nsdi", 2025).relevance("EXCLUDED").artifact("https://x/a").add()
+                .paper("d", "nsdi", 2025).add()
+                .service();
+        CorpusStatistics stats = service.getStatistics();
+        assertEquals(4, stats.getPapers());
+        assertEquals(1, stats.getExcluded());
+        assertEquals(2, stats.getConferences());
+        assertEquals(3, stats.getVenueYears());
+        assertEquals(1, stats.getWithAbstract());
+        assertEquals(25, stats.getAbstractPercent());
+        assertEquals(1, stats.getWithSummary());
+        assertEquals(1, stats.getWithReview());
+        assertEquals(1, stats.getWithCode());
+        assertEquals(1, stats.getWithArtifact());
+    }
 }

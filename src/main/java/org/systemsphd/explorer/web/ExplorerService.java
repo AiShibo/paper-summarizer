@@ -41,6 +41,7 @@ public final class ExplorerService {
     private final ConferenceCatalog catalog;
     private final VenueCoverage coverage;
     private final FacetIndex facets;
+    private final CorpusStatistics statistics;
     private final Map<String, Paper> papersById;
     private final List<Integer> years;
     /** Default-visible paper counts keyed by venue slug, then year. */
@@ -62,6 +63,7 @@ public final class ExplorerService {
         this.facets = FacetIndex.build(
                 snapshot.getPapers().stream().filter(this::isVisibleByDefault).toList(), taxonomy
         );
+        this.statistics = new CorpusStatistics(snapshot.getPapers());
         Map<String, Paper> byId = new HashMap<>();
         snapshot.getPapers().forEach(paper -> byId.putIfAbsent(paper.getId(), paper));
         this.papersById = Map.copyOf(byId);
@@ -87,6 +89,11 @@ public final class ExplorerService {
 
     public ConferenceCatalog getCatalog() {
         return catalog;
+    }
+
+    /** Corpus-wide counts for the page footer. */
+    public CorpusStatistics getStatistics() {
+        return statistics;
     }
 
     /** The paper with this export ID, or null. */

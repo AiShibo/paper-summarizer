@@ -1071,3 +1071,42 @@ button.button-secondary:hover {
     columns: 2 180px;
   }
 }
+
+/* Corpus statistics footer. */
+.site-footer {
+  margin-top: 24px;
+  padding: 14px 24px 20px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-muted);
+  font-size: 13px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 0;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats dt {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.stats dd {
+  margin: 0;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats dd .muted {
+  font-size: 12px;
+}
